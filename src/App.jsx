@@ -1,0 +1,324 @@
+import { useState, useCallback } from "react";
+import { BookOpen, GraduationCap, Brain, MessageCircle, Settings as SettingsIcon, Layers, ChevronLeft, ChevronRight, X } from "lucide-react";
+import curriculum from "./data/curriculum";
+import useProgress from "./hooks/useProgress";
+import QuickAssessment from "./components/QuickAssessment";
+import LevelResult from "./components/LevelResult";
+import LessonView from "./components/LessonView";
+import LessonNav from "./components/LessonNav";
+import Settings from "./components/Settings";
+import GrammarCard from "./components/GrammarCard";
+import VezinCard from "./components/VezinCard";
+import QuickReview from "./components/QuickReview";
+
+const API_KEY_STORAGE = "ustaz-api-key";
+function loadApiKey() { try { return localStorage.getItem(API_KEY_STORAGE) || ""; } catch { return ""; } }
+function saveApiKey(key) { try { localStorage.setItem(API_KEY_STORAGE, key); } catch {} }
+
+export default function App() {
+  const { progress, update, markLessonComplete, updateVocab, saveQuizResult, reviewWords, exportProgress, importProgress, resetProgress } = useProgress();
+
+  const [view, setView] = useState(() => {
+    if (!progress.assessmentDone) return "assessment";
+    if (reviewWords.length > 0) return "review";
+    return "lesson";
+  });
+  const [assessmentResult, setAssessmentResult] = useState(null);
+  const [currentLessonId, setCurrentLessonId] = useState(progress.currentLessonId || "L01-fatiha");
+  const [showNav, setShowNav] = useState(false);
+  const [apiKey, setApiKey] = useState(loadApiKey);
+  const [activeTab, setActiveTab] = useState(progress.activeTab || "verses");
+
+  // Grammar / Vezin modals
+  const [grammarTerm, setGrammarTerm] = useState(null);
+  const [grammarHistory, setGrammarHistory] = useState([]);
+  const [showVezin, setShowVezin] = useState(false);
+  const [vezinPattern, setVezinPattern] = useState(null);
+
+  // Bottom nav active tab
+  const [bottomTab, setBottomTab] = useState("ders");
+
+  const lessons = curriculum.lessons;
+  const currentLesson = lessons.find((l) => l.id === currentLessonId) || lessons[0];
+  const currentIdx = lessons.findIndex((l) => l.id === currentLessonId);
+
+  function handleApiKeyChange(key) { setApiKey(key); saveApiKey(key); }
+
+  function handleAssessmentComplete(profile, valScore, valTotal) {
+    setAssessmentResult({ profile, valScore, valTotal });
+    update({ profile, assessmentDone: true });
+    setView("result");
+  }
+  function handleSkipAssessment(profile, lessonId) {
+    update({ profile, assessmentDone: true, currentLessonId: lessonId });
+    setCurrentLessonId(lessonId);
+    setView("lesson");
+    setBottomTab("ders");
+  }
+  function handleStartFromResult(lessonId) {
+    setCurrentLessonId(lessonId);
+    update({ currentLessonId: lessonId });
+    setView("lesson");
+    setBottomTab("ders");
+  }
+  function handleSelectLesson(lessonId) {
+    setCurrentLessonId(lessonId);
+    update({ currentLessonId: lessonId });
+    setActiveTab("verses");
+    setShowNav(false);
+    setView("lesson");
+    setBottomTab("ders");
+  }
+  function handleTabChange(tab) {
+    setActiveTab(tab);
+    update({ activeTab: tab });
+  }
+  function handleQuizComplete(lessonId, score, total) {
+    saveQuizResult(lessonId, score, total);
+    if (score / total >= 0.6) markLessonComplete(lessonId);
+  }
+  function handlePrevLesson() { if (currentIdx > 0) handleSelectLesson(lessons[currentIdx - 1].id); }
+  function handleNextLesson() { if (currentIdx < lessons.length - 1) handleSelectLesson(lessons[currentIdx + 1].id); }
+
+  function handleReset() {
+    resetProgress();
+    setView("assessment");
+    setCurrentLessonId("L01-fatiha");
+    setAssessmentResult(null);
+    setGrammarTerm(null);
+    setGrammarHistory([]);
+  }
+
+  // Grammar navigation
+  function openGrammar(termKey) {
+    if (termKey === "vezin") { setShowVezin(true); setVezinPattern(null); return; }
+    setGrammarHistory((prev) => grammarTerm ? [...prev, grammarTerm] : prev);
+    setGrammarTerm(termKey);
+  }
+  function openVezinFromGrammar(pattern) { setShowVezin(true); setVezinPattern(pattern || null); }
+  function closeGrammar() {
+    if (grammarHistory.length > 0) {
+      setGrammarTerm(grammarHistory[grammarHistory.length - 1]);
+      setGrammarHistory((h) => h.slice(0, -1));
+    } else { setGrammarTerm(null); setGrammarHistory([]); }
+  }
+
+  // Bottom nav handler
+  function handleBottomNav(tab) {
+    setBottomTab(tab);
+    if (tab === "ders") { setView("lesson"); setShowNav(false); }
+    else if (tab === "dersler") { setShowNav(true); }
+    else if (tab === "tekrar") { setView("review"); setShowNav(false); }
+    else if (tab === "ayarlar") { setView("settings"); setShowNav(false); }
+  }
+
+  const isAppReady = progress.assessmentDone;
+  const completedCount = progress.completedLessons.length;
+  const totalLessons = lessons.length;
+
+  return (
+    <div className="min-h-screen min-h-[100dvh] bg-ustaz-bg pattern-overlay">
+      {/* ── Header ── */}
+      <header className="sticky top-0 z-40 border-b border-white/[0.04] bg-ustaz-bg/85 backdrop-blur-xl pt-safe">
+        <div className="mx-auto flex h-12 max-w-2xl items-center justify-between px-4">
+          <button onClick={() => { if (isAppReady) { setView("lesson"); setBottomTab("ders"); } }} className="flex items-center gap-2">
+            <span className="text-base">📖</span>
+            <span className="text-sm font-bold text-ustaz-gold tracking-wider">Ustaz</span>
+          </button>
+
+          {view === "lesson" && (
+            <div className="flex items-center gap-2">
+              <div className="flex items-center gap-1.5">
+                <span className="text-[10px] text-ustaz-turkish/30 tabular-nums">{progress.totalRootsLearned}</span>
+                <div className="h-1 w-16 overflow-hidden rounded-full bg-white/[0.06]">
+                  <div className="h-full rounded-full bg-gradient-to-r from-ustaz-gold/70 to-ustaz-gold transition-all duration-500"
+                    style={{ width: `${Math.min((progress.totalRootsLearned / 300) * 100, 100)}%` }} />
+                </div>
+                <span className="text-[10px] text-ustaz-turkish/15">300</span>
+              </div>
+            </div>
+          )}
+
+          {/* Desktop only: lesson nav toggle */}
+          {view === "lesson" && (
+            <button onClick={() => setShowNav(!showNav)}
+              className="hidden rounded-lg p-2 text-ustaz-turkish/30 transition hover:bg-white/5 hover:text-ustaz-turkish/60 sm:block" title="Dersler">
+              <Layers size={16} />
+            </button>
+          )}
+        </div>
+      </header>
+
+      {/* ── Mobile Nav Drawer ── */}
+      {showNav && (
+        <div className="fixed inset-0 z-50 flex sm:block">
+          {/* Mobile: full-screen overlay */}
+          <div className="fixed inset-0 bg-black/60 backdrop-blur-sm sm:hidden" onClick={() => setShowNav(false)} />
+          <div className="fixed inset-y-0 left-0 z-50 w-[85vw] max-w-xs border-r border-white/[0.06] bg-ustaz-bg shadow-2xl sm:absolute sm:w-72"
+            style={{ paddingTop: 'env(safe-area-inset-top, 0px)', paddingBottom: 'calc(64px + env(safe-area-inset-bottom, 0px))' }}>
+            <LessonNav
+              lessons={lessons}
+              currentLessonId={currentLessonId}
+              completedLessons={progress.completedLessons}
+              onSelect={handleSelectLesson}
+              onClose={() => setShowNav(false)}
+              completedCount={completedCount}
+              totalLessons={totalLessons}
+            />
+          </div>
+          {/* Desktop: click-away */}
+          <div className="hidden flex-1 sm:block" onClick={() => setShowNav(false)} />
+        </div>
+      )}
+
+      {/* ── Main Content ── */}
+      <main className="mx-auto max-w-2xl px-4 pb-4 mb-nav">
+        {view === "assessment" && (
+          <div className="view-enter pt-8">
+            <div className="mb-8 text-center">
+              <div className="mb-3 text-4xl">📖</div>
+              <h1 className="mb-2 text-2xl font-bold text-ustaz-arabic">Hoş geldin!</h1>
+              <p className="text-sm text-ustaz-turkish/50">Sana en uygun başlangıç noktasını belirleyelim.</p>
+            </div>
+            <QuickAssessment onComplete={handleAssessmentComplete} onSkip={handleSkipAssessment} />
+          </div>
+        )}
+
+        {view === "result" && assessmentResult && (
+          <div className="view-enter pt-8">
+            <div className="mb-8 text-center">
+              <h1 className="mb-2 text-2xl font-bold text-ustaz-arabic">Değerlendirme Tamamlandı</h1>
+            </div>
+            <LevelResult profile={assessmentResult.profile} valScore={assessmentResult.valScore} valTotal={assessmentResult.valTotal} onStart={handleStartFromResult} />
+          </div>
+        )}
+
+        {view === "review" && (
+          <div className="view-enter pt-6">
+            <div className="mb-6 text-center">
+              <div className="mb-2 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-pos-harf/10">
+                <Brain size={22} className="text-pos-harf" />
+              </div>
+              <h1 className="mb-1 text-xl font-bold text-ustaz-arabic">Bugünün Tekrarı</h1>
+              <p className="text-sm text-ustaz-turkish/40">{reviewWords.length} kök tekrar bekliyor</p>
+            </div>
+            <QuickReview vocabulary={progress.vocabulary} onUpdateVocab={updateVocab} onFinish={() => { setView("lesson"); setBottomTab("ders"); }} />
+          </div>
+        )}
+
+        {view === "lesson" && (
+          <div className="view-enter pt-4">
+            {/* Lesson Header Card */}
+            <div className="mb-5 rounded-2xl border border-white/[0.06] bg-gradient-to-br from-ustaz-card to-ustaz-card/80 p-4">
+              <div className="mb-2 flex items-center gap-2">
+                <span className="rounded-lg bg-ustaz-gold/10 px-2 py-0.5 text-[10px] font-semibold text-ustaz-gold tracking-wide">
+                  {currentLesson.level ? `SEVİYE ${currentLesson.level}` : `AŞAMA ${currentLesson.stage}`}
+                </span>
+                {progress.completedLessons.includes(currentLessonId) && (
+                  <span className="flex items-center gap-1 rounded-lg bg-pos-fil/10 px-2 py-0.5 text-[10px] font-semibold text-pos-fil">✓ Tamamlandı</span>
+                )}
+              </div>
+              <div className="flex items-baseline gap-2">
+                <h1 className="text-lg font-bold text-ustaz-arabic">{currentLesson.title}</h1>
+                <span className="arabic-text text-base text-ustaz-gold/50">{currentLesson.titleAr}</span>
+              </div>
+              <p className="mt-1 text-xs leading-relaxed text-ustaz-turkish/40">{currentLesson.description}</p>
+
+              {/* Quick stats */}
+              <div className="mt-3 flex gap-3 text-[10px] text-ustaz-turkish/30">
+                <span>{currentLesson.verses.length} ayet</span>
+                <span>·</span>
+                <span>{currentLesson.verses.reduce((a, v) => a + v.words.length, 0)} kelime</span>
+                <span>·</span>
+                <span>{currentLesson.exercises.length} quiz</span>
+              </div>
+            </div>
+
+            <LessonView
+              lesson={currentLesson}
+              apiKey={apiKey}
+              onQuizComplete={handleQuizComplete}
+              onRootResult={updateVocab}
+              isCompleted={progress.completedLessons.includes(currentLessonId)}
+              activeTab={activeTab}
+              onTabChange={handleTabChange}
+              onGrammarClick={openGrammar}
+            />
+
+            {/* Lesson Navigation */}
+            <div className="mt-6 flex items-center justify-between">
+              <button onClick={handlePrevLesson} disabled={currentIdx <= 0}
+                className="flex items-center gap-1.5 rounded-xl border border-white/[0.06] bg-white/[0.02] px-4 py-2.5 text-xs font-medium text-ustaz-turkish/40 transition active:scale-95 disabled:opacity-20">
+                <ChevronLeft size={14} /> Önceki
+              </button>
+              <div className="flex items-center gap-1.5">
+                {lessons.map((_, i) => (
+                  <div key={i} className={`h-1.5 rounded-full transition-all ${
+                    i === currentIdx ? "w-4 bg-ustaz-gold" : "w-1.5 bg-white/10"
+                  }`} />
+                ))}
+              </div>
+              <button onClick={handleNextLesson} disabled={currentIdx >= lessons.length - 1}
+                className="flex items-center gap-1.5 rounded-xl border border-white/[0.06] bg-white/[0.02] px-4 py-2.5 text-xs font-medium text-ustaz-turkish/40 transition active:scale-95 disabled:opacity-20">
+                Sonraki <ChevronRight size={14} />
+              </button>
+            </div>
+          </div>
+        )}
+
+        {view === "settings" && (
+          <div className="view-enter pt-6">
+            <Settings apiKey={apiKey} onApiKeyChange={handleApiKeyChange} onExport={exportProgress} onImport={importProgress}
+              onReset={handleReset} onClose={() => { setView("lesson"); setBottomTab("ders"); }} />
+          </div>
+        )}
+      </main>
+
+      {/* ── Bottom Navigation (mobile) ── */}
+      {isAppReady && (
+        <nav className="bottom-nav sm:hidden">
+          <div className="flex">
+            <button onClick={() => handleBottomNav("ders")}
+              className={`bottom-nav-item ${bottomTab === "ders" ? "active" : ""}`}>
+              <BookOpen size={20} strokeWidth={bottomTab === "ders" ? 2.5 : 1.5} />
+              <span>Ders</span>
+            </button>
+            <button onClick={() => handleBottomNav("dersler")}
+              className={`bottom-nav-item ${bottomTab === "dersler" ? "active" : ""}`}>
+              <Layers size={20} strokeWidth={bottomTab === "dersler" ? 2.5 : 1.5} />
+              <span>Dersler</span>
+            </button>
+            <button onClick={() => handleBottomNav("tekrar")}
+              className={`bottom-nav-item ${bottomTab === "tekrar" ? "active" : ""}`}>
+              <div className="relative">
+                <Brain size={20} strokeWidth={bottomTab === "tekrar" ? 2.5 : 1.5} />
+                {reviewWords.length > 0 && (
+                  <span className="absolute -right-1.5 -top-1 flex h-3.5 w-3.5 items-center justify-center rounded-full bg-pos-harf text-[8px] font-bold text-ustaz-bg">
+                    {reviewWords.length}
+                  </span>
+                )}
+              </div>
+              <span>Tekrar</span>
+            </button>
+            <button onClick={() => handleBottomNav("ayarlar")}
+              className={`bottom-nav-item ${bottomTab === "ayarlar" ? "active" : ""}`}>
+              <SettingsIcon size={20} strokeWidth={bottomTab === "ayarlar" ? 2.5 : 1.5} />
+              <span>Ayarlar</span>
+            </button>
+          </div>
+        </nav>
+      )}
+
+      {/* ── Grammar Card Modal ── */}
+      {grammarTerm && <GrammarCard termKey={grammarTerm} onClose={closeGrammar} onTermClick={openGrammar} onVezinClick={openVezinFromGrammar} />}
+
+      {/* ── Vezin Card Modal ── */}
+      {showVezin && <VezinCard onClose={() => setShowVezin(false)} initialPattern={vezinPattern} />}
+
+      {/* ── Footer (desktop only) ── */}
+      <footer className="hidden border-t border-white/[0.04] py-6 text-center text-[10px] text-ustaz-turkish/15 sm:block">
+        Ustaz v0.6 — Kur'an Arapçası Öğrenme Uygulaması
+      </footer>
+    </div>
+  );
+}

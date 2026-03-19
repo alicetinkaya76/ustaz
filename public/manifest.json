@@ -1,0 +1,18 @@
+{
+  "name": "Ustaz — Kur'an Arapçası Öğrenme",
+  "short_name": "Ustaz",
+  "description": "Meaning First yaklaşımıyla Kur'an Arapçası öğren",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0f1a",
+  "theme_color": "#d4a64a",
+  "orientation": "portrait-primary",
+  "lang": "tr",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

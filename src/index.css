@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    overscroll-behavior-y: none;
+  }
+
+  body {
+    min-height: 100vh;
+    min-height: 100dvh;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Arabic text defaults */
+  .arabic-text {
+    font-family: 'Amiri', 'Scheherazade New', serif;
+    direction: rtl;
+    line-height: 2.2;
+    letter-spacing: 0;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #2a2a4e; border-radius: 2px; }
+  ::-webkit-scrollbar-thumb:hover { background: #3a3a5e; }
+
+  /* Hide scrollbar on mobile for horizontal scroll areas */
+  .hide-scrollbar::-webkit-scrollbar { display: none; }
+  .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+}
+
+@layer components {
+  /* ── Word Cards ── */
+  .word-card {
+    @apply relative cursor-pointer rounded-xl px-3 py-3.5 transition-all duration-200;
+    @apply hover:bg-white/5 active:scale-[0.97];
+    min-height: 44px;
+  }
+  .word-card.active {
+    @apply bg-white/10 ring-1 ring-ustaz-gold/30;
+  }
+
+  /* ── POS Colors ── */
+  .pos-ism { @apply text-pos-ism; }
+  .pos-fil { @apply text-pos-fil; }
+  .pos-harf { @apply text-pos-harf; }
+  .pos-zamir { @apply text-pos-zamir; }
+  .pos-dot-ism { @apply bg-pos-ism; }
+  .pos-dot-fil { @apply bg-pos-fil; }
+  .pos-dot-harf { @apply bg-pos-harf; }
+  .pos-dot-zamir { @apply bg-pos-zamir; }
+
+  /* ── Buttons ── */
+  .btn-primary {
+    @apply rounded-xl bg-ustaz-gold px-5 py-3 font-semibold text-ustaz-bg transition-all;
+    @apply hover:bg-ustaz-gold/90 hover:shadow-lg hover:shadow-ustaz-gold/20;
+    @apply active:scale-[0.97];
+    min-height: 48px;
+  }
+  .btn-secondary {
+    @apply rounded-xl border border-white/10 bg-white/5 px-5 py-3 font-medium transition-all;
+    @apply hover:bg-white/10 hover:border-white/20;
+    @apply active:scale-[0.97];
+    min-height: 48px;
+  }
+
+  /* ── Card ── */
+  .card {
+    @apply rounded-2xl border border-white/[0.06] bg-ustaz-card p-5;
+  }
+  .glass {
+    @apply rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md;
+  }
+
+  /* ── Bottom Navigation ── */
+  .bottom-nav {
+    @apply fixed bottom-0 left-0 right-0 z-50;
+    @apply border-t border-white/[0.06] bg-ustaz-bg/90 backdrop-blur-xl;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  .bottom-nav-item {
+    @apply flex flex-1 flex-col items-center justify-center gap-0.5 py-2 text-[10px] font-medium transition-all;
+    @apply text-ustaz-turkish/30;
+    min-height: 52px;
+  }
+  .bottom-nav-item.active {
+    @apply text-ustaz-gold;
+  }
+  .bottom-nav-item svg {
+    @apply transition-transform duration-200;
+  }
+  .bottom-nav-item.active svg {
+    @apply scale-110;
+  }
+
+  /* ── Bottom Sheet ── */
+  .bottom-sheet-overlay {
+    @apply fixed inset-0 z-[60] bg-black/60 backdrop-blur-sm;
+    animation: fadeIn 200ms ease-out;
+  }
+  .bottom-sheet {
+    @apply fixed bottom-0 left-0 right-0 z-[61] rounded-t-3xl;
+    @apply border-t border-white/10 bg-ustaz-card;
+    max-height: 85vh;
+    max-height: 85dvh;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    animation: slideUp 300ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .bottom-sheet-handle {
+    @apply mx-auto mt-3 mb-2 h-1 w-10 rounded-full bg-white/20;
+  }
+
+  /* ── Full-screen Modal (mobile) ── */
+  .mobile-modal {
+    @apply fixed inset-0 z-[70] overflow-y-auto bg-ustaz-bg;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    animation: fadeSlideUp 250ms ease-out;
+  }
+
+  /* ── Tab Bar (mobile-optimized) ── */
+  .tab-bar {
+    @apply flex gap-0.5 rounded-2xl bg-white/[0.03] p-1;
+  }
+  .tab-item {
+    @apply flex flex-1 items-center justify-center gap-1.5 rounded-xl py-3 text-xs font-medium transition-all;
+    @apply text-ustaz-turkish/30;
+    min-height: 44px;
+  }
+  .tab-item.active {
+    @apply bg-ustaz-gold/10 text-ustaz-gold shadow-sm;
+  }
+
+  /* ── Floating Audio Button ── */
+  .fab-audio {
+    @apply fixed z-40 flex h-12 w-12 items-center justify-center rounded-full shadow-xl;
+    @apply bg-ustaz-gold text-ustaz-bg transition-all;
+    @apply active:scale-90;
+    right: 16px;
+    bottom: calc(72px + env(safe-area-inset-bottom, 0px));
+  }
+  .fab-audio.playing {
+    @apply bg-ustaz-gold shadow-ustaz-gold/30;
+    animation: audioPulse 1.5s infinite;
+  }
+
+  /* ── Lesson Progress Ring ── */
+  .progress-ring {
+    transform: rotate(-90deg);
+  }
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+
+  /* Safe area utilities */
+  .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); }
+  .pt-safe { padding-top: env(safe-area-inset-top, 0px); }
+  .mb-nav { margin-bottom: calc(64px + env(safe-area-inset-bottom, 0px)); }
+}
+
+/* ── Animations ── */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+@keyframes fadeSlideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes audioPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(212, 166, 74, 0.4); }
+  50% { box-shadow: 0 0 0 12px rgba(212, 166, 74, 0); }
+}
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* ── Pattern Overlay ── */
+.pattern-overlay {
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(212, 166, 74, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(96, 165, 250, 0.02) 0%, transparent 50%);
+}
+
+/* ── View Transitions ── */
+.view-enter {
+  animation: fadeSlideUp 300ms ease-out;
+}
