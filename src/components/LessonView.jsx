@@ -1,8 +1,10 @@
 import { useState } from "react";
-import { BookOpen, GraduationCap, PenTool, MessageCircle, ChevronDown, ChevronUp } from "lucide-react";
+import { BookOpen, GraduationCap, PenTool, MessageCircle, ChevronDown, ChevronUp, GitBranch, Sparkles } from "lucide-react";
 import InterlinearVerse from "./InterlinearVerse";
 import ExerciseCard from "./ExerciseCard";
 import ChatInline from "./ChatInline";
+import RootExplorer from "./RootExplorer";
+import BalaghaTab from "./BalaghaTab";
 
 export default function LessonView({ lesson, apiKey, onQuizComplete, onRootResult, isCompleted, activeTab, onTabChange, onGrammarClick }) {
   const [expandedGrammar, setExpandedGrammar] = useState(null);
@@ -13,7 +15,9 @@ export default function LessonView({ lesson, apiKey, onQuizComplete, onRootResul
 
   const sections = [
     { id: "verses", icon: BookOpen, label: "Ayetler" },
+    { id: "roots", icon: GitBranch, label: "Kökler" },
     { id: "grammar", icon: GraduationCap, label: "Gramer" },
+    { id: "balagha", icon: Sparkles, label: "بلاغة" },
     { id: "quiz", icon: PenTool, label: "Quiz" },
     { id: "chat", icon: MessageCircle, label: "Sor" },
   ];
@@ -27,15 +31,17 @@ export default function LessonView({ lesson, apiKey, onQuizComplete, onRootResul
 
   return (
     <div>
-      {/* Tab Bar */}
-      <div className="tab-bar mb-5">
-        {sections.map(({ id, icon: Icon, label }) => (
-          <button key={id} onClick={() => setTab(id)}
-            className={`tab-item ${tab === id ? "active" : ""}`}>
-            <Icon size={15} />
-            <span>{label}</span>
-          </button>
-        ))}
+      {/* Tab Bar — scrollable on mobile */}
+      <div className="tab-bar mb-5 overflow-x-auto scrollbar-hide">
+        <div className="flex min-w-max">
+          {sections.map(({ id, icon: Icon, label }) => (
+            <button key={id} onClick={() => setTab(id)}
+              className={`tab-item ${tab === id ? "active" : ""}`}>
+              <Icon size={15} />
+              <span>{label}</span>
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* Tab Content */}
@@ -59,6 +65,10 @@ export default function LessonView({ lesson, apiKey, onQuizComplete, onRootResul
               </div>
             ))}
           </div>
+        )}
+
+        {tab === "roots" && (
+          <RootExplorer lessonId={lesson.id} />
         )}
 
         {tab === "grammar" && (
@@ -94,6 +104,10 @@ export default function LessonView({ lesson, apiKey, onQuizComplete, onRootResul
               );
             })}
           </div>
+        )}
+
+        {tab === "balagha" && (
+          <BalaghaTab lessonId={lesson.id} />
         )}
 
         {tab === "quiz" && (

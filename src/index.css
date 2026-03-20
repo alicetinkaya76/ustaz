@@ -60,8 +60,8 @@
   ::-webkit-scrollbar-thumb:hover { background: rgb(var(--ustaz-card)); }
 
   /* Hide scrollbar on mobile for horizontal scroll areas */
-  .hide-scrollbar::-webkit-scrollbar { display: none; }
-  .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+  .hide-scrollbar::-webkit-scrollbar, .scrollbar-hide::-webkit-scrollbar { display: none; }
+  .hide-scrollbar, .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
 }
 
 @layer components {
