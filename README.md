@@ -4,15 +4,15 @@
 
 Zaten ezberde bildiğin namaz surelerini kelime kelime çözerek başlar, gramer kurallarını canlı metin üzerinden keşfettirir, Claude API ile interaktif soru-cevap sunar.
 
-> **Seviye 1 TAMAMLANDI** — 10 ders · 221 kelime · 95 quiz · 41 gramer terimi · 12 vezin kalıbı
+> **Seviye 2 DEVAM EDİYOR** — 17 ders · 574 kelime · 165 quiz · 53 gramer terimi · 15 vezin kalıbı
 
 ## ✨ Özellikler
 
 - **Interlinear Gösterim:** Ayet metni kelime kelime — Arapça, transliterasyon, kök, anlam, i'rab
 - **Renk Kodlaması:** İsim (mavi), Fiil (yeşil), Harf (turuncu), Zamîr (mor)
 - **Kelime Popup:** Her kelimeye tıkla → tam morfolojik analiz, Türkçe köprü, belâgat notu
-- **Gramer Ansiklopedisi:** 41 terimlik interaktif gramer rehberi, terimler arası bağlantılar
-- **Vezin Rehberi:** 12 Arapça kalıp — aranabilir, örnekli
+- **Gramer Ansiklopedisi:** 53 terimlik interaktif gramer rehberi, terimler arası bağlantılar
+- **Vezin Rehberi:** 15 Arapça kalıp — aranabilir, örnekli
 - **Hızlı Seviye Belirleme:** 10 soruluk değerlendirme → uygun başlangıç noktası
 - **Quiz:** Her ders için 10 soruluk çoktan seçmeli sınav, açıklamalı geri bildirim
 - **Hızlı Tekrar (QuickReview):** Spaced repetition mantığıyla kök bazlı flashcard tekrar
@@ -65,10 +65,22 @@ npm run build   # dist/ klasörü oluşur
 | 09 | Mâûn | 107:1-7 | 25 | 10 | İstifham (أَرَأَيْتَ), ism-i mevsûl genişletme, III. bâb |
 | 10 | Kureyş | 106:1-4 | 17 | 10 | IV. bâb (if'âl), lâm-ı emir, ism-i işâret |
 
+### Seviye 2 — Gelişen (Cüz 30 Orta Sureler) 🔄
+
+| # | Ders | Sure | Kelime | Quiz | Öğretilen Yapılar |
+|---|------|------|--------|------|-------------------|
+| 11 | Fîl | 105:1-5 | 24 | 10 | أَلَمْ inkârî, cem-i teksîr, VII. bâb tanıtım |
+| 12 | Hümeze | 104:1-9 | 30 | 10 | فُعَلَة mübalağa, VIII. bâb ifti'âl, meçhul, كَلَّا |
+| 13 | Tekâsür | 102:1-8 | 30 | 10 | Mef'ûl mutlak, tikrâr, لَوْ imtinâ', zarf-ı zaman |
+| 14 | Kâri'a | 101:1-11 | 28 | 10 | وَمَا أَدْرَاكَ ta'zîm, أَمَّا…فَ tafṣîl, فَاعِلَة kalıbı |
+| 15 | Zilzâl | 99:1-8 | 26 | 10 | إِذَا şart, مَنْ şart+cezâ, meçhul, temyîz, II. bâb aktif |
+| 16 | Beyyine | 98:1-8 | 48 | 10 | كَانَ nâkıs, V. bâb (تَفَرَّقَ), hasr (إِلَّا), hâl, ism-i tafdîl |
+| 17 | Kadr | 97:1-5 | 24 | 10 | مِنْ tafdîliye, خَيْر ism-i tafdîl, V. bâb (تَنَزَّلَ), ism-i zaman |
+
 ### Yol Haritası
 
-- **Seviye 2 (L11–L20):** Gelişen — Cüz 30 orta sureler, 10 bâb tamamlanır
-- **Seviye 3 (L21–L30):** Orta — Cüz 30 uzun + Cüz 29, meçhul/kâne/bedel
+- **Seviye 2 (L11–L20):** Gelişen — Cüz 30 orta sureler (L11-L17 tamamlandı, L18-L20 kaldı)
+- **Seviye 3 (L21–L30):** Orta — Cüz 30 uzun + Cüz 29
 - **Seviye 4 (L31–L40):** İleri — Pasaj bazlı, belâgat sistematik
 - **Seviye 5 (L41–L50):** Maharet — Uzun sureler, kıssa yapıları
 - **Seviye 6 (L51–L60):** Ustalaşma — Bakara, Âl-i İmrân, Nisâ, ahkâm

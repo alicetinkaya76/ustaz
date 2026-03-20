@@ -132,6 +132,39 @@ const vezinDB = {
       { arabic: "اِسْتَقَامَ", root: "ق-و-م", meaning: "doğruluk istedi, dosdoğru oldu" },
     ],
   },
+  "تَفَعَّلَ": {
+    title: "تَفَعَّلَ (V. Bâb)",
+    type: "fiil",
+    meaning: "V. bâb (tefe''ul): II. bâbın mutâva'atı. Kendiliğinden olma, peyderpey/tedrîcî yapma, tekellüf. Masdarı: تَفَعُّل.",
+    examples: [
+      { arabic: "تَنَزَّلَ", root: "ن-ز-ل", meaning: "peyderpey indi" },
+      { arabic: "تَفَرَّقَ", root: "ف-ر-ق", meaning: "kendi aralarında dağıldı" },
+      { arabic: "تَعَلَّمَ", root: "ع-ل-م", meaning: "öğrendi (çabalayarak)" },
+      { arabic: "تَكَبَّرَ", root: "ك-ب-ر", meaning: "büyüklendi" },
+    ],
+  },
+  "مَفْعَل": {
+    title: "مَفْعَل / مَفْعِل",
+    type: "ism-i zaman/mekân",
+    meaning: "Fiilin gerçekleştiği zamanı veya yeri bildirir. مَ ön ekli kalıp.",
+    examples: [
+      { arabic: "مَطْلَع", root: "ط-ل-ع", meaning: "doğuş zamanı/yeri" },
+      { arabic: "مَسْجِد", root: "س-ج-د", meaning: "secde yeri → cami" },
+      { arabic: "مَكْتَب", root: "ك-ت-ب", meaning: "yazma yeri → ofis/masa" },
+      { arabic: "مَغْرِب", root: "غ-ر-ب", meaning: "batış yeri/zamanı → batı" },
+    ],
+  },
+  "أَفْعَل": {
+    title: "أَفْعَل",
+    type: "ism-i tafdîl",
+    meaning: "Karşılaştırma/üstünlük kalıbı. 'Daha...' veya 'en...' anlamı. Müennes: فُعْلَى.",
+    examples: [
+      { arabic: "أَكْبَر", root: "ك-ب-ر", meaning: "daha büyük / en büyük" },
+      { arabic: "خَيْر", root: "خ-ي-ر", meaning: "daha hayırlı (أَخْيَر → خَيْر)" },
+      { arabic: "شَرّ", root: "ش-ر-ر", meaning: "daha kötü (أَشَرّ → شَرّ)" },
+      { arabic: "أَعْلَى", root: "ع-ل-و", meaning: "daha yüksek / en yüksek" },
+    ],
+  },
 };
 
 export default vezinDB;
