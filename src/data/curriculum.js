@@ -1,5 +1,6 @@
 // Ustaz Curriculum Data — Ders İçerikleri
 // Her ders: ayetler (kelime bazlı morfoloji) + gramer notları + alıştırmalar
+import level2bLessons from "./levels/level2b";
 
 const curriculum = {
   lessons: [
@@ -6943,6 +6944,8 @@ const curriculum = {
         { id: "L17-Q10", type: "single_choice", question: "Surenin yapısı nasıldır?", options: ["Tanıtım (1: inzâl) → Ta'zîm sorusu (2: وَمَا أَدْرَاكَ) → Değer (3: bin aydan hayırlı) → Tasvir (4: melek inişi) → Kapanış (5: selâmet)", "Kasem (1) → Cevap (2-5)", "Soru (1) → Hikâye (2-5)", "İki ayrı konu"], correct: 0, explanation: "Beş ayetlik mükemmel yapı: 1 (olay: indirme), 2 (soru: ne kadar büyük?), 3 (cevap: bin aydan hayırlı), 4 (tasvir: melekler iner), 5 (sonuç: fecre kadar selâmet). Gece → fecir: karanlık → aydınlık.", relatedRoots: ["ق-د-ر", "ن-ز-ل", "س-ل-م"] },
       ],
     },
+    // L18–L20 loaded from level2b module
+    ...level2bLessons,
   ],
 };
 

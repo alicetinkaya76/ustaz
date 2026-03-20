@@ -2,6 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ── Theme Variables (RGB for Tailwind alpha support) ── */
+:root,
+[data-theme="dark"] {
+  --ustaz-bg: 15 15 26;
+  --ustaz-card: 26 26 46;
+  --ustaz-surface: 22 33 62;
+  --ustaz-gold: 212 166 74;
+  --ustaz-arabic: 245 240 225;
+  --ustaz-turkish: 203 213 225;
+  --overlay-bg: rgba(0,0,0,0.6);
+}
+
+[data-theme="light"] {
+  --ustaz-bg: 245 242 235;
+  --ustaz-card: 255 255 255;
+  --ustaz-surface: 238 233 223;
+  --ustaz-gold: 184 137 46;
+  --ustaz-arabic: 26 26 46;
+  --ustaz-turkish: 51 65 81;
+  --overlay-bg: rgba(0,0,0,0.3);
+}
+
 @layer base {
   * {
     box-sizing: border-box;
@@ -18,6 +40,9 @@
     min-height: 100dvh;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
+    background-color: rgb(var(--ustaz-bg));
+    color: rgb(var(--ustaz-turkish));
+    transition: background-color 0.3s, color 0.3s;
   }
 
   /* Arabic text defaults */
@@ -31,8 +56,8 @@
   /* Scrollbar */
   ::-webkit-scrollbar { width: 4px; }
   ::-webkit-scrollbar-track { background: transparent; }
-  ::-webkit-scrollbar-thumb { background: #2a2a4e; border-radius: 2px; }
-  ::-webkit-scrollbar-thumb:hover { background: #3a3a5e; }
+  ::-webkit-scrollbar-thumb { background: rgb(var(--ustaz-surface)); border-radius: 2px; }
+  ::-webkit-scrollbar-thumb:hover { background: rgb(var(--ustaz-card)); }
 
   /* Hide scrollbar on mobile for horizontal scroll areas */
   .hide-scrollbar::-webkit-scrollbar { display: none; }
@@ -194,7 +219,7 @@
 /* ── Pattern Overlay ── */
 .pattern-overlay {
   background-image:
-    radial-gradient(circle at 20% 20%, rgba(212, 166, 74, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 20% 20%, rgb(var(--ustaz-gold) / 0.03) 0%, transparent 50%),
     radial-gradient(circle at 80% 80%, rgba(96, 165, 250, 0.02) 0%, transparent 50%);
 }
 

@@ -8,12 +8,12 @@ export default {
     extend: {
       colors: {
         ustaz: {
-          bg: '#0f0f1a',
-          card: '#1a1a2e',
-          surface: '#16213e',
-          gold: '#d4a64a',
-          arabic: '#f5f0e1',
-          turkish: '#cbd5e1',
+          bg: 'rgb(var(--ustaz-bg) / <alpha-value>)',
+          card: 'rgb(var(--ustaz-card) / <alpha-value>)',
+          surface: 'rgb(var(--ustaz-surface) / <alpha-value>)',
+          gold: 'rgb(var(--ustaz-gold) / <alpha-value>)',
+          arabic: 'rgb(var(--ustaz-arabic) / <alpha-value>)',
+          turkish: 'rgb(var(--ustaz-turkish) / <alpha-value>)',
         },
         pos: {
           ism: '#60a5fa',

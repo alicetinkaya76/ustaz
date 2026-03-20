@@ -1,5 +1,5 @@
-import { useState, useCallback } from "react";
-import { BookOpen, GraduationCap, Brain, MessageCircle, Settings as SettingsIcon, Layers, ChevronLeft, ChevronRight, X } from "lucide-react";
+import { useState, useCallback, useRef, useEffect } from "react";
+import { BookOpen, GraduationCap, Brain, MessageCircle, Settings as SettingsIcon, Layers, ChevronLeft, ChevronRight, X, Search } from "lucide-react";
 import curriculum from "./data/curriculum";
 import useProgress from "./hooks/useProgress";
 import QuickAssessment from "./components/QuickAssessment";
@@ -12,8 +12,11 @@ import VezinCard from "./components/VezinCard";
 import QuickReview from "./components/QuickReview";
 
 const API_KEY_STORAGE = "ustaz-api-key";
+const THEME_STORAGE = "ustaz-theme";
 function loadApiKey() { try { return localStorage.getItem(API_KEY_STORAGE) || ""; } catch { return ""; } }
 function saveApiKey(key) { try { localStorage.setItem(API_KEY_STORAGE, key); } catch {} }
+function loadTheme() { try { return localStorage.getItem(THEME_STORAGE) || "dark"; } catch { return "dark"; } }
+function saveTheme(t) { try { localStorage.setItem(THEME_STORAGE, t); } catch {} }
 
 export default function App() {
   const { progress, update, markLessonComplete, updateVocab, saveQuizResult, reviewWords, exportProgress, importProgress, resetProgress } = useProgress();
@@ -28,6 +31,7 @@ export default function App() {
   const [showNav, setShowNav] = useState(false);
   const [apiKey, setApiKey] = useState(loadApiKey);
   const [activeTab, setActiveTab] = useState(progress.activeTab || "verses");
+  const [theme, setTheme] = useState(loadTheme);
 
   // Grammar / Vezin modals
   const [grammarTerm, setGrammarTerm] = useState(null);
@@ -38,10 +42,20 @@ export default function App() {
   // Bottom nav active tab
   const [bottomTab, setBottomTab] = useState("ders");
 
+  // Swipe gesture
+  const touchRef = useRef({ startX: 0, startY: 0, startTime: 0 });
+
   const lessons = curriculum.lessons;
   const currentLesson = lessons.find((l) => l.id === currentLessonId) || lessons[0];
   const currentIdx = lessons.findIndex((l) => l.id === currentLessonId);
 
+  // Theme effect
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", theme);
+    saveTheme(theme);
+  }, [theme]);
+
+  function toggleTheme() { setTheme((t) => t === "dark" ? "light" : "dark"); }
   function handleApiKeyChange(key) { setApiKey(key); saveApiKey(key); }
 
   function handleAssessmentComplete(profile, valScore, valTotal) {
@@ -79,6 +93,19 @@ export default function App() {
   }
   function handlePrevLesson() { if (currentIdx > 0) handleSelectLesson(lessons[currentIdx - 1].id); }
   function handleNextLesson() { if (currentIdx < lessons.length - 1) handleSelectLesson(lessons[currentIdx + 1].id); }
+
+  // Swipe handlers
+  function handleTouchStart(e) {
+    touchRef.current = { startX: e.touches[0].clientX, startY: e.touches[0].clientY, startTime: Date.now() };
+  }
+  function handleTouchEnd(e) {
+    const dx = e.changedTouches[0].clientX - touchRef.current.startX;
+    const dy = e.changedTouches[0].clientY - touchRef.current.startY;
+    const dt = Date.now() - touchRef.current.startTime;
+    if (dt > 500 || Math.abs(dx) < 60 || Math.abs(dy) > Math.abs(dx) * 0.7) return;
+    if (dx > 0 && currentIdx > 0) handlePrevLesson();
+    else if (dx < 0 && currentIdx < lessons.length - 1) handleNextLesson();
+  }
 
   function handleReset() {
     resetProgress();
@@ -207,7 +234,7 @@ export default function App() {
         )}
 
         {view === "lesson" && (
-          <div className="view-enter pt-4">
+          <div className="view-enter pt-4" onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd}>
             {/* Lesson Header Card */}
             <div className="mb-5 rounded-2xl border border-white/[0.06] bg-gradient-to-br from-ustaz-card to-ustaz-card/80 p-4">
               <div className="mb-2 flex items-center gap-2">
@@ -269,7 +296,8 @@ export default function App() {
         {view === "settings" && (
           <div className="view-enter pt-6">
             <Settings apiKey={apiKey} onApiKeyChange={handleApiKeyChange} onExport={exportProgress} onImport={importProgress}
-              onReset={handleReset} onClose={() => { setView("lesson"); setBottomTab("ders"); }} />
+              onReset={handleReset} onClose={() => { setView("lesson"); setBottomTab("ders"); }}
+              theme={theme} onToggleTheme={toggleTheme} />
           </div>
         )}
       </main>
@@ -317,7 +345,7 @@ export default function App() {
 
       {/* ── Footer (desktop only) ── */}
       <footer className="hidden border-t border-white/[0.04] py-6 text-center text-[10px] text-ustaz-turkish/15 sm:block">
-        Ustaz v0.6 — Kur'an Arapçası Öğrenme Uygulaması
+        Ustaz v0.8 — Kur'an Arapçası Öğrenme Uygulaması
       </footer>
     </div>
   );

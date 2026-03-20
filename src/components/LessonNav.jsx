@@ -1,9 +1,23 @@
-import { CheckCircle2, Circle, Lock, X } from "lucide-react";
+import { useState } from "react";
+import { CheckCircle2, Circle, Lock, X, Search } from "lucide-react";
 
 export default function LessonNav({ lessons, currentLessonId, completedLessons, onSelect, onClose, completedCount = 0, totalLessons = 0 }) {
-  // Group lessons by level
+  const [search, setSearch] = useState("");
+
+  // Filter lessons by search
+  const filtered = search.trim()
+    ? lessons.filter((l) => {
+        const q = search.toLowerCase();
+        return l.title.toLowerCase().includes(q)
+          || l.titleAr.includes(search)
+          || l.description.toLowerCase().includes(q)
+          || (l.surah && String(l.surah).includes(q));
+      })
+    : lessons;
+
+  // Group filtered lessons by level
   const levels = {};
-  lessons.forEach((l) => {
+  filtered.forEach((l) => {
     const lv = l.level || 1;
     if (!levels[lv]) levels[lv] = [];
     levels[lv].push(l);
@@ -30,6 +44,25 @@ export default function LessonNav({ lessons, currentLessonId, completedLessons, 
         <div className="h-1.5 w-full overflow-hidden rounded-full bg-white/[0.06]">
           <div className="h-full rounded-full bg-gradient-to-r from-ustaz-gold/60 to-pos-fil/60 transition-all duration-500"
             style={{ width: `${totalLessons > 0 ? (completedCount / totalLessons) * 100 : 0}%` }} />
+        </div>
+      </div>
+
+      {/* Search */}
+      <div className="px-4 pb-2">
+        <div className="relative">
+          <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-ustaz-turkish/20" />
+          <input
+            type="text"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="Sure, konu veya numara ara..."
+            className="w-full rounded-xl border border-white/[0.06] bg-white/[0.03] py-2.5 pl-9 pr-3 text-xs text-ustaz-turkish placeholder:text-ustaz-turkish/20 focus:border-ustaz-gold/30 focus:outline-none"
+          />
+          {search && (
+            <button onClick={() => setSearch("")} className="absolute right-2 top-1/2 -translate-y-1/2 text-ustaz-turkish/30 hover:text-ustaz-turkish/60">
+              <X size={12} />
+            </button>
+          )}
         </div>
       </div>
 

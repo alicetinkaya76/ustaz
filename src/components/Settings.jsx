@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { Key, Download, Upload, Trash2, X, Database } from "lucide-react";
+import { Key, Download, Upload, Trash2, X, Database, Sun, Moon } from "lucide-react";
 import { clearCache } from "../utils/api";
 
-export default function Settings({ apiKey, onApiKeyChange, onExport, onImport, onReset, onClose }) {
+export default function Settings({ apiKey, onApiKeyChange, onExport, onImport, onReset, onClose, theme, onToggleTheme }) {
   const [showKey, setShowKey] = useState(false);
   const [cacheMsg, setCacheMsg] = useState("");
 
@@ -24,6 +24,8 @@ export default function Settings({ apiKey, onApiKeyChange, onExport, onImport, o
     setTimeout(() => setCacheMsg(""), 3000);
   }
 
+  const isDark = theme === "dark";
+
   return (
     <div className="mx-auto max-w-lg">
       <div className="mb-6 flex items-center justify-between">
@@ -31,6 +33,25 @@ export default function Settings({ apiKey, onApiKeyChange, onExport, onImport, o
         <button onClick={onClose} className="rounded-lg p-1.5 text-ustaz-turkish/30 hover:text-ustaz-turkish"><X size={18} /></button>
       </div>
       <div className="space-y-4">
+        {/* Theme Toggle */}
+        <div className="card">
+          <div className="mb-3 flex items-center gap-2">
+            {isDark ? <Moon size={14} className="text-ustaz-gold" /> : <Sun size={14} className="text-ustaz-gold" />}
+            <h3 className="text-sm font-semibold text-ustaz-turkish/80">Tema</h3>
+          </div>
+          <div className="flex items-center justify-between">
+            <p className="text-xs text-ustaz-turkish/40">{isDark ? "Koyu tema aktif" : "Açık tema aktif"}</p>
+            <button onClick={onToggleTheme}
+              className="relative flex h-8 w-14 items-center rounded-full border border-white/10 bg-ustaz-surface p-1 transition-colors"
+              aria-label="Tema değiştir">
+              <span className={`flex h-6 w-6 items-center justify-center rounded-full shadow transition-all duration-300 ${
+                isDark ? "translate-x-0 bg-ustaz-gold" : "translate-x-6 bg-yellow-400"
+              }`}>
+                {isDark ? <Moon size={12} className="text-ustaz-bg" /> : <Sun size={12} className="text-ustaz-bg" />}
+              </span>
+            </button>
+          </div>
+        </div>
         <div className="card">
           <div className="mb-3 flex items-center gap-2"><Key size={14} className="text-ustaz-gold" /><h3 className="text-sm font-semibold text-ustaz-turkish/80">Claude API Anahtarı</h3></div>
           <p className="mb-3 text-xs text-ustaz-turkish/40">Ustaz'a Sor için gerekli. Anahtar yalnızca tarayıcında saklanır.</p>
