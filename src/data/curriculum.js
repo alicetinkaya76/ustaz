@@ -1,6 +1,7 @@
 // Ustaz Curriculum Data — Ders İçerikleri
 // Her ders: ayetler (kelime bazlı morfoloji) + gramer notları + alıştırmalar
 import level2bLessons from "./levels/level2b";
+import level3Lessons from "./levels/level3";
 
 const curriculum = {
   lessons: [
@@ -6946,6 +6947,8 @@ const curriculum = {
     },
     // L18–L20 loaded from level2b module
     ...level2bLessons,
+    // L21–L23 loaded from level3 module
+    ...level3Lessons,
   ],
 };
 
