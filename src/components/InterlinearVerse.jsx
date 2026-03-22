@@ -1,5 +1,19 @@
 import { useState, useRef } from "react";
+import { Volume2 } from "lucide-react";
 import WordPopup from "./WordPopup";
+
+function speakArabic(text) {
+  if (!("speechSynthesis" in window)) return;
+  window.speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = "ar-SA";
+  u.rate = 0.7;
+  u.pitch = 1;
+  const voices = window.speechSynthesis.getVoices();
+  const arVoice = voices.find(v => v.lang.startsWith("ar"));
+  if (arVoice) u.voice = arVoice;
+  window.speechSynthesis.speak(u);
+}
 
 const posColorMap = {
   ism: { text: "text-pos-ism", dot: "bg-pos-ism", label: "İsim" },

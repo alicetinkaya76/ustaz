@@ -197,14 +197,13 @@ export function RootDetail({ rootKey, onClose }) {
 }
 
 // Mini quiz for a single root — inline in RootExplorer
-function RootMiniQuiz({ rootKey, rootData }) {
+function RootMiniQuiz({ rootKey, rootData, onRootResult }) {
   const [quizState, setQuizState] = useState("idle"); // idle | active | answered
   const [answer, setAnswer] = useState(null);
   const [options, setOptions] = useState([]);
   const correctMeaning = rootData.core;
 
   function startQuiz() {
-    // Generate 3 distractor meanings from other roots
     const allMeanings = [
       "bağışlamak, örtmek", "bilmek, öğrenmek", "yazmak, kalemle çizmek",
       "açmak, fethetmek", "yardım etmek", "duymak, işitmek",
@@ -217,6 +216,13 @@ function RootMiniQuiz({ rootKey, rootData }) {
     setOptions(shuffled);
     setQuizState("active");
     setAnswer(null);
+  }
+
+  function handleAnswer(i) {
+    setAnswer(i);
+    setQuizState("answered");
+    const isCorrect = options[i] === correctMeaning;
+    onRootResult?.(rootKey, isCorrect);
   }
 
   if (quizState === "idle") {
@@ -245,7 +251,7 @@ function RootMiniQuiz({ rootKey, rootData }) {
           }
           return (
             <button key={i} disabled={quizState === "answered"}
-              onClick={() => { setAnswer(i); setQuizState("answered"); }}
+              onClick={() => handleAnswer(i)}
               className={`rounded-lg border px-2 py-2 text-[11px] text-ustaz-turkish/60 text-left transition ${style}`}>
               {quizState === "answered" && isCorrect && <Check size={10} className="inline mr-1 text-pos-fil" />}
               {opt}
@@ -264,7 +270,7 @@ function RootMiniQuiz({ rootKey, rootData }) {
 }
 
 // Lesson Roots Tab — shows roots relevant to current lesson
-export default function RootExplorer({ lessonId }) {
+export default function RootExplorer({ lessonId, onRootResult }) {
   const [expandedRoot, setExpandedRoot] = useState(null);
   const roots = getRootsForLesson(lessonId);
 
@@ -336,7 +342,7 @@ export default function RootExplorer({ lessonId }) {
                 <TurkishTraces root={rootData} />
 
                 {/* Mini Quiz */}
-                <RootMiniQuiz rootKey={key} rootData={rootData} />
+                <RootMiniQuiz rootKey={key} rootData={rootData} onRootResult={onRootResult} />
               </div>
             )}
           </div>

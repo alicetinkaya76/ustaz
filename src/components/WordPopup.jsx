@@ -1,7 +1,20 @@
 import { useState } from "react";
-import { X, Sparkles, Link, MessageCircle, Table2, Scale } from "lucide-react";
+import { X, Sparkles, Link, MessageCircle, Table2, Scale, Volume2 } from "lucide-react";
 import { parseGrammarLinks } from "./GrammarCard";
 import { analyzeWord } from "../data/wazn";
+
+function speakArabic(text) {
+  if (!("speechSynthesis" in window)) return;
+  window.speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = "ar-SA";
+  u.rate = 0.7;
+  u.pitch = 1;
+  const voices = window.speechSynthesis.getVoices();
+  const arVoice = voices.find(v => v.lang.startsWith("ar"));
+  if (arVoice) u.voice = arVoice;
+  window.speechSynthesis.speak(u);
+}
 
 const posLabels = {
   ism: "İsim (اسم)", fil: "Fiil (فعل)", harf: "Harf (حرف)", zamir: "Zamîr (ضمير)",
@@ -34,6 +47,10 @@ export default function WordPopup({ word, onClose, onGrammarClick, onAskUstaz, o
             <p className="text-xs text-ustaz-turkish/40">{word.transliteration}</p>
             <p className="text-base font-semibold text-ustaz-turkish">{word.meaning_tr}</p>
           </div>
+          <button onClick={() => speakArabic(word.arabic)}
+            className="rounded-lg p-1.5 text-ustaz-turkish/20 transition hover:text-ustaz-gold active:scale-90" title="Sesli oku">
+            <Volume2 size={14} />
+          </button>
         </div>
         {!isMobile && (
           <button onClick={onClose} className="rounded-xl p-2 text-ustaz-turkish/40 transition hover:bg-ov/10 hover:text-ustaz-turkish">

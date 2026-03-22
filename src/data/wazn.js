@@ -132,6 +132,19 @@ const KNOWN_WORDS = {
   "ضَالّ": { root: "ض-ل-ل", pattern: "فَاعِل", bab: "I", type: "ism-i fâil", meaning: "şaşırmış, yolunu kaybetmiş" },
   "عَائِل": { root: "ع-ي-ل", pattern: "فَاعِل", bab: "I", type: "ism-i fâil", meaning: "yoksul" },
   "سَائِل": { root: "س-أ-ل", pattern: "فَاعِل", bab: "I", type: "ism-i fâil", meaning: "isteyen, soran" },
+  // ── L35-L38 ek kelimeler ──
+  "تَقْوِيم": { root: "ق-و-م", pattern: "تَفْعِيل", bab: "II", type: "masdar", meaning: "biçim, düzenleme" },
+  "أَحْسَن": { root: "ح-س-ن", pattern: "أَفْعَل", bab: "I", type: "ism-i tafdîl", meaning: "en güzel" },
+  "أَسْفَل": { root: "س-ف-ل", pattern: "أَفْعَل", bab: "I", type: "ism-i tafdîl", meaning: "en aşağı" },
+  "مَمْنُون": { root: "م-ن-ن", pattern: "مَفْعُول", bab: "I", type: "ism-i mef'ûl", meaning: "kesilmiş" },
+  "أَكْرَم": { root: "ك-ر-م", pattern: "أَفْعَل", bab: "I", type: "ism-i tafdîl", meaning: "en cömert" },
+  "بَيِّنَة": { root: "ب-ي-ن", pattern: "فَيْعِلَة", bab: "I", type: "isim", meaning: "apaçık delil" },
+  "مُخْلِص": { root: "خ-ل-ص", pattern: "مُفْعِل", bab: "IV", type: "ism-i fâil", meaning: "samimiyetle has kılan" },
+  "إِخْلَاص": { root: "خ-ل-ص", pattern: "إِفْعَال", bab: "IV", type: "masdar", meaning: "ihlas, samimiyet" },
+  "مُنْفَكّ": { root: "ف-ك-ك", pattern: "مُنْفَعِل", bab: "VII", type: "ism-i fâil", meaning: "ayrılan, kopan" },
+  "بَرِيَّة": { root: "ب-ر-أ", pattern: "فَعِيلَة", bab: "I", type: "isim", meaning: "yaratılmışlar" },
+  "مَطْلَع": { root: "ط-ل-ع", pattern: "مَفْعَل", bab: "I", type: "ism-i zaman", meaning: "doğuş vakti/yeri" },
+  "قَلَم": { root: "ق-ل-م", pattern: "فَعَل", bab: "I", type: "isim", meaning: "kalem" },
 };
 
 /**

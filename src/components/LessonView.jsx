@@ -2,6 +2,7 @@ import { useState } from "react";
 import { BookOpen, GraduationCap, PenTool, MessageCircle, ChevronDown, ChevronUp, GitBranch, Sparkles, TreePine } from "lucide-react";
 import InterlinearVerse from "./InterlinearVerse";
 import ExerciseCard from "./ExerciseCard";
+import VezinDragQuiz from "./VezinDragQuiz";
 import ChatInline from "./ChatInline";
 import RootExplorer from "./RootExplorer";
 import BalaghaTab from "./BalaghaTab";
@@ -81,7 +82,7 @@ export default function LessonView({ lesson, apiKey, onQuizComplete, onRootResul
         )}
 
         {tab === "roots" && (
-          <RootExplorer lessonId={lesson.id} />
+          <RootExplorer lessonId={lesson.id} onRootResult={onRootResult} />
         )}
 
         {tab === "grammar" && (
@@ -124,9 +125,12 @@ export default function LessonView({ lesson, apiKey, onQuizComplete, onRootResul
         )}
 
         {tab === "quiz" && (
-          <ExerciseCard exercises={lesson.exercises} lessonId={lesson.id}
-            onComplete={(score, total) => onQuizComplete?.(lesson.id, score, total)}
-            onRootResult={onRootResult} />
+          <div className="space-y-6">
+            <ExerciseCard exercises={lesson.exercises} lessonId={lesson.id}
+              onComplete={(score, total) => onQuizComplete?.(lesson.id, score, total)}
+              onRootResult={onRootResult} />
+            <VezinDragQuiz />
+          </div>
         )}
 
         {tab === "chat" && (

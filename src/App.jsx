@@ -11,6 +11,7 @@ import GrammarCard from "./components/GrammarCard";
 import VezinCard from "./components/VezinCard";
 import QuickReview from "./components/QuickReview";
 import ConjugationPopup from "./components/ConjugationPopup";
+import DailyRoot from "./components/DailyRoot";
 
 const API_KEY_STORAGE = "ustaz-api-key";
 const THEME_STORAGE = "ustaz-theme";
@@ -20,7 +21,7 @@ function loadTheme() { try { return localStorage.getItem(THEME_STORAGE) || "dark
 function saveTheme(t) { try { localStorage.setItem(THEME_STORAGE, t); } catch {} }
 
 export default function App() {
-  const { progress, update, markLessonComplete, updateVocab, saveQuizResult, reviewWords, exportProgress, importProgress, resetProgress } = useProgress();
+  const { progress, update, markLessonComplete, updateVocab, updateRootSR, saveQuizResult, reviewWords, exportProgress, importProgress, resetProgress } = useProgress();
 
   const [view, setView] = useState(() => {
     if (!progress.assessmentDone) return "assessment";
@@ -253,6 +254,9 @@ export default function App() {
 
         {view === "lesson" && (
           <div className="view-enter pt-4" onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd}>
+            {/* Daily Root Widget */}
+            <DailyRoot onRootResult={updateVocab} />
+
             {/* Lesson Header Card */}
             <div className="mb-5 rounded-2xl border border-ov/[0.06] bg-gradient-to-br from-ustaz-card to-ustaz-card/80 p-4">
               <div className="mb-2 flex items-center gap-2">
@@ -367,7 +371,7 @@ export default function App() {
 
       {/* ── Footer (desktop only) ── */}
       <footer className="hidden border-t border-ov/[0.04] py-6 text-center text-[10px] text-ustaz-turkish/15 sm:block">
-        Ustaz v0.12 — Kur'an Arapçası Öğrenme Uygulaması
+        Ustaz v0.13 — Kur'an Arapçası Öğrenme Uygulaması
       </footer>
     </div>
   );

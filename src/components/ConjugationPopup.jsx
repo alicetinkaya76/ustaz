@@ -1,7 +1,20 @@
 import { useState } from "react";
-import { X, ChevronDown, ChevronUp, Table2, BookOpen } from "lucide-react";
+import { X, ChevronDown, ChevronUp, Table2, BookOpen, Volume2 } from "lucide-react";
 import { getConjugation, getConjugationsForRoot, PRONOUNS, PRONOUNS_SIMPLE, BAB_INFO } from "../data/conjugation";
 import { getRoot } from "../data/rootDB";
+
+function speakArabic(text) {
+  if (!("speechSynthesis" in window)) return;
+  window.speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = "ar-SA";
+  u.rate = 0.7;
+  u.pitch = 1;
+  const voices = window.speechSynthesis.getVoices();
+  const arVoice = voices.find(v => v.lang.startsWith("ar"));
+  if (arVoice) u.voice = arVoice;
+  window.speechSynthesis.speak(u);
+}
 
 const babColorMap = {
   I: "bg-blue-500/15 text-blue-400 border-blue-500/20",
@@ -164,9 +177,17 @@ export default function ConjugationPopup({ root, bab, highlightForm, onClose }) 
                     <span className="arabic-text text-sm text-ustaz-turkish/50 w-12 text-right shrink-0">{pronoun.ar}</span>
                     <span className="text-[10px] text-ustaz-turkish/25 w-16 shrink-0">{pronoun.tr}</span>
                   </div>
-                  <span className={`arabic-text text-base ${highlighted ? "text-ustaz-gold font-semibold" : tenseLabels[activeTense].color}`}>
-                    {form}
-                  </span>
+                  <div className="flex items-center gap-1.5">
+                    <span className={`arabic-text text-base ${highlighted ? "text-ustaz-gold font-semibold" : tenseLabels[activeTense].color}`}>
+                      {form}
+                    </span>
+                    {form !== "—" && (
+                      <button onClick={() => speakArabic(form)}
+                        className="rounded p-1 text-ustaz-turkish/15 transition hover:text-ustaz-gold active:scale-90">
+                        <Volume2 size={11} />
+                      </button>
+                    )}
+                  </div>
                 </div>
               );
             })}

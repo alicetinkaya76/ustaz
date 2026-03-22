@@ -1372,6 +1372,109 @@ const rootDB = {
     ],
     turkish_traces: ["hadis", "hadise", "muhaddis"],
   },
+  // ── L35-L38 Yeni Kökler ──
+  "ح-س-ن": {
+    core: "güzel olmak, iyilik etmek",
+    quran_count: 194,
+    derivatives: [
+      { form: "حَسَن", pattern: "فَعَل", type: "sıfat", meaning: "güzel" },
+      { form: "أَحْسَن", pattern: "أَفْعَل", type: "ism-i tafdîl", meaning: "en güzel" },
+      { form: "إِحْسَان", pattern: "إِفْعَال", type: "masdar (IV)", meaning: "iyilik, ihsan" },
+      { form: "مُحْسِن", pattern: "مُفْعِل", type: "ism-i fâil (IV)", meaning: "iyilik eden" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "حَسُنَ/يَحْسُنُ", meaning: "güzel oldu", semantic: "temel eylem", lessons: ["L35"] },
+      { bab: "IV", form: "أَحْسَنَ/يُحْسِنُ", meaning: "iyilik etti, güzelleştirdi", semantic: "ta'diye", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L35", verse: "95:4", form: "أَحْسَنِ", note: "en güzel biçim (ism-i tafdîl muzâf)" },
+    ],
+    turkish_traces: ["hüsün", "ihsan", "muhsin", "Hasan"],
+  },
+  "ق-ر-أ": {
+    core: "okumak, toplamak",
+    quran_count: 88,
+    derivatives: [
+      { form: "قُرْآن", pattern: "فُعْلَان", type: "masdar/isim", meaning: "Kur'an (okunan)" },
+      { form: "قِرَاءَة", pattern: "فِعَالَة", type: "masdar", meaning: "okuma" },
+      { form: "قَارِئ", pattern: "فَاعِل", type: "ism-i fâil", meaning: "okuyan" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "قَرَأَ/يَقْرَأُ", meaning: "okudu", semantic: "temel eylem", lessons: ["L36"] },
+    ],
+    cross_refs: [
+      { lesson: "L36", verse: "96:1", form: "اقْرَأْ", note: "Oku! — ilk inen emir" },
+      { lesson: "L36", verse: "96:3", form: "اقْرَأْ", note: "Oku! — ikinci tekrar" },
+    ],
+    turkish_traces: ["Kur'an", "kıraat", "okumak (anlam ödünç)"],
+  },
+  "ع-ل-ق": {
+    core: "asılmak, yapışmak",
+    quran_count: 6,
+    derivatives: [
+      { form: "عَلَق", pattern: "فَعَل", type: "isim", meaning: "asılıp tutunan (embriyo)" },
+      { form: "عَلَقَة", pattern: "فَعَلَة", type: "isim", meaning: "kan pıhtısı, yapışan" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "عَلِقَ/يَعْلَقُ", meaning: "asıldı, yapıştı", semantic: "temel eylem", lessons: ["L36"] },
+    ],
+    cross_refs: [
+      { lesson: "L36", verse: "96:2", form: "عَلَقٍ", note: "insanı alaktan (asılıp tutunan) yarattı" },
+    ],
+    turkish_traces: ["alâka (bağlantı)", "talâk"],
+  },
+  "ك-ر-م": {
+    core: "cömert olmak, ikram etmek",
+    quran_count: 47,
+    derivatives: [
+      { form: "كَرِيم", pattern: "فَعِيل", type: "sıfat-ı müşebbehe", meaning: "cömert, değerli" },
+      { form: "أَكْرَم", pattern: "أَفْعَل", type: "ism-i tafdîl", meaning: "en cömert" },
+      { form: "إِكْرَام", pattern: "إِفْعَال", type: "masdar (IV)", meaning: "ikram, ağırlama" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "كَرُمَ/يَكْرُمُ", meaning: "cömert/değerli oldu", semantic: "temel eylem", lessons: ["L36"] },
+      { bab: "IV", form: "أَكْرَمَ/يُكْرِمُ", meaning: "ikram etti", semantic: "ta'diye", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L36", verse: "96:3", form: "الأَكْرَمُ", note: "en cömert olan (ism-i tafdîl mutlak)" },
+    ],
+    turkish_traces: ["kerem", "ikram", "Kerîm"],
+  },
+  "ب-ي-ن": {
+    core: "açık olmak, ayırmak",
+    quran_count: 523,
+    derivatives: [
+      { form: "بَيِّن", pattern: "فَيْعِل", type: "sıfat", meaning: "apaçık" },
+      { form: "بَيِّنَة", pattern: "فَيْعِلَة", type: "isim", meaning: "apaçık delil" },
+      { form: "بَيَان", pattern: "فَعَال", type: "masdar", meaning: "açıklama" },
+      { form: "تِبْيَان", pattern: "تِفْعَال", type: "masdar", meaning: "açıklama, beyan" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "بَانَ/يَبِينُ", meaning: "açık oldu, belirdi", semantic: "temel eylem", lessons: ["L38"] },
+      { bab: "II", form: "بَيَّنَ/يُبَيِّنُ", meaning: "açıkladı", semantic: "ta'diye", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L38", verse: "98:1", form: "البَيِّنَةُ", note: "apaçık delil — surenin adı" },
+    ],
+    turkish_traces: ["beyan", "beyân etmek", "beyyine"],
+  },
+  "خ-ل-ص": {
+    core: "arınmak, saf olmak",
+    quran_count: 32,
+    derivatives: [
+      { form: "خَالِص", pattern: "فَاعِل", type: "ism-i fâil", meaning: "arınmış, saf" },
+      { form: "مُخْلِص", pattern: "مُفْعِل", type: "ism-i fâil (IV)", meaning: "samimiyetle has kılan" },
+      { form: "إِخْلَاص", pattern: "إِفْعَال", type: "masdar (IV)", meaning: "ihlas, samimiyet" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "خَلَصَ/يَخْلُصُ", meaning: "arındı, saf oldu", semantic: "temel eylem", lessons: [] },
+      { bab: "IV", form: "أَخْلَصَ/يُخْلِصُ", meaning: "samimiyetle has kıldı", semantic: "ta'diye", lessons: ["L38"] },
+    ],
+    cross_refs: [
+      { lesson: "L38", verse: "98:5", form: "مُخْلِصِينَ", note: "dini O'na has kılarak (IV. bâb ism-i fâil, hâl)" },
+    ],
+    turkish_traces: ["ihlas", "muhlis", "halis"],
+  },
 };
 
 // Helper: kök anahtarlarını array olarak döndür

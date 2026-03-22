@@ -1,20 +1,15 @@
-// Ustaz Service Worker — Offline Cache
-const CACHE_NAME = 'ustaz-v0.8.0';
-const PRECACHE_URLS = [
-  '/ustaz/',
-  '/ustaz/index.html',
-];
+// Ustaz Service Worker v0.13.0
+const CACHE_NAME = "ustaz-v013";
+const PRECACHE_URLS = ["/ustaz/", "/ustaz/index.html"];
 
-// Install: cache shell
-self.addEventListener('install', (event) => {
+self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => cache.addAll(PRECACHE_URLS))
   );
   self.skipWaiting();
 });
 
-// Activate: clean old caches
-self.addEventListener('activate', (event) => {
+self.addEventListener("activate", (event) => {
   event.waitUntil(
     caches.keys().then((keys) =>
       Promise.all(keys.filter((k) => k !== CACHE_NAME).map((k) => caches.delete(k)))
@@ -23,25 +18,44 @@ self.addEventListener('activate', (event) => {
   self.clients.claim();
 });
 
-// Fetch: stale-while-revalidate for assets, network-first for API
-self.addEventListener('fetch', (event) => {
+self.addEventListener("fetch", (event) => {
   const { request } = event;
   const url = new URL(request.url);
 
-  // Skip non-GET
-  if (request.method !== 'GET') return;
+  // Network-only for external APIs
+  if (url.origin !== self.location.origin && url.hostname !== "everyayah.com") {
+    return;
+  }
 
-  // API calls: network only
-  if (url.hostname === 'api.anthropic.com' || url.hostname === 'everyayah.com') return;
+  // Audio: cache-first
+  if (url.hostname === "everyayah.com") {
+    event.respondWith(
+      caches.match(request).then((cached) => {
+        if (cached) return cached;
+        return fetch(request).then((response) => {
+          if (response.ok) {
+            const clone = response.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(request, clone));
+          }
+          return response;
+        }).catch(() => new Response("", { status: 503 }));
+      })
+    );
+    return;
+  }
 
-  // App assets: stale-while-revalidate
+  // App shell: stale-while-revalidate
   event.respondWith(
-    caches.open(CACHE_NAME).then(async (cache) => {
-      const cached = await cache.match(request);
-      const fetchPromise = fetch(request).then((response) => {
-        if (response.ok) cache.put(request, response.clone());
-        return response;
-      }).catch(() => cached);
+    caches.match(request).then((cached) => {
+      const fetchPromise = fetch(request)
+        .then((response) => {
+          if (response.ok) {
+            const clone = response.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(request, clone));
+          }
+          return response;
+        })
+        .catch(() => cached);
       return cached || fetchPromise;
     })
   );
