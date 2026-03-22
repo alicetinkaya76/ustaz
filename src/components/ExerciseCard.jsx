@@ -1,5 +1,5 @@
 import { useState, useMemo, useRef } from "react";
-import { Check, X, ChevronRight, RotateCcw } from "lucide-react";
+import { Check, X, ChevronRight, RotateCcw, GitBranch, Layers, Scale, BookOpen } from "lucide-react";
 
 function shuffle(arr) {
   const a = [...arr];
@@ -9,6 +9,15 @@ function shuffle(arr) {
   }
   return a;
 }
+
+// Quiz tipi ikonları ve badge renkleri
+const typeConfig = {
+  single_choice: { icon: null, label: null, badge: null },
+  root_extract: { icon: GitBranch, label: "Kök Çıkarma", badge: "bg-blue-500/15 text-blue-400 border-blue-500/20" },
+  bab_identify: { icon: Layers, label: "Bâb Belirleme", badge: "bg-green-500/15 text-green-400 border-green-500/20" },
+  wazn_match: { icon: Scale, label: "Vezin Eşleştirme", badge: "bg-purple-500/15 text-purple-400 border-purple-500/20" },
+  irab_identify: { icon: BookOpen, label: "İ'rab Rolü", badge: "bg-orange-500/15 text-orange-400 border-orange-500/20" },
+};
 
 export default function ExerciseCard({ exercises, lessonId, onComplete, onRootResult }) {
   const [currentIdx, setCurrentIdx] = useState(0);
@@ -88,6 +97,19 @@ export default function ExerciseCard({ exercises, lessonId, onComplete, onRootRe
       </div>
 
       {/* Question */}
+      {current.type && current.type !== "single_choice" && typeConfig[current.type] && (
+        <div className="mb-2">
+          <span className={`inline-flex items-center gap-1.5 rounded-lg border px-2 py-0.5 text-[10px] font-semibold ${typeConfig[current.type].badge}`}>
+            {typeConfig[current.type].icon && <span>{(() => { const Icon = typeConfig[current.type].icon; return <Icon size={11} />; })()}</span>}
+            {typeConfig[current.type].label}
+          </span>
+        </div>
+      )}
+      {current.targetWord && (
+        <div className="mb-3 flex justify-center">
+          <span className="arabic-text text-2xl text-ustaz-gold px-4 py-2 rounded-xl bg-ustaz-gold/[0.06] border border-ustaz-gold/15">{current.targetWord}</span>
+        </div>
+      )}
       <p className="mb-5 text-[15px] leading-relaxed text-ustaz-turkish">{current.question}</p>
 
       {/* Options */}

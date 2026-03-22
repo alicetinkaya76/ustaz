@@ -2,6 +2,7 @@
 // Her ders: ayetler (kelime bazlı morfoloji) + gramer notları + alıştırmalar
 import level2bLessons from "./levels/level2b";
 import level3Lessons from "./levels/level3";
+import level3bLessons from "./levels/level3b";
 
 const curriculum = {
   lessons: [
@@ -6949,6 +6950,8 @@ const curriculum = {
     ...level2bLessons,
     // L21–L23 loaded from level3 module
     ...level3Lessons,
+    // L24–L26 loaded from level3b module
+    ...level3bLessons,
   ],
 };
 
