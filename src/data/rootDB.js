@@ -1475,6 +1475,185 @@ const rootDB = {
     ],
     turkish_traces: ["ihlas", "muhlis", "halis"],
   },
+  // ── L39-L42 (Seviye 5) ──
+  "ز-ل-ز-ل": {
+    core: "şiddetle sarsmak (rubâî tekrar kalıbı)",
+    quran_count: 3,
+    derivatives: [
+      { form: "زِلْزَال", pattern: "فِعْلَال", type: "masdar", meaning: "sarsıntı, deprem" },
+      { form: "زُلْزِلَ", pattern: "فُعْلِلَ", type: "fiil meçhul", meaning: "sarsıldı" },
+    ],
+    bab_chain: [
+      { bab: "rubâî", form: "زَلْزَلَ/يُزَلْزِلُ", meaning: "şiddetle sarstı", semantic: "tekrar (تضعيف)", lessons: ["L39"] },
+    ],
+    cross_refs: [
+      { lesson: "L39", verse: "99:1", form: "زُلْزِلَتِ", note: "yer sarsıldı — meçhul rubâî" },
+      { lesson: "L39", verse: "99:1", form: "زِلْزَالَهَا", note: "sarsıntısıyla — mef'ûl-i mutlak" },
+    ],
+    turkish_traces: ["zelzele"],
+  },
+  "ث-ق-ل": {
+    core: "ağır olmak, ağırlık",
+    quran_count: 23,
+    derivatives: [
+      { form: "ثَقُلَ", pattern: "فَعُلَ", type: "fiil", meaning: "ağır oldu" },
+      { form: "أَثْقَال", pattern: "أَفْعَال", type: "cem", meaning: "ağırlıklar" },
+      { form: "مِثْقَال", pattern: "مِفْعَال", type: "ism-i âlet", meaning: "tartı, miktar" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "ثَقُلَ/يَثْقُلُ", meaning: "ağır oldu", semantic: "temel eylem", lessons: ["L39", "L41"] },
+    ],
+    cross_refs: [
+      { lesson: "L39", verse: "99:7", form: "مِثْقَالَ", note: "zerre ağırlığınca — ism-i âlet/ölçü" },
+      { lesson: "L39", verse: "99:2", form: "أَثْقَالَهَا", note: "ağırlıklarını (çoğul)" },
+      { lesson: "L41", verse: "101:6", form: "ثَقُلَتْ", note: "tartıları ağır geldi" },
+    ],
+    turkish_traces: ["sakîl (ağır)", "miskal"],
+  },
+  "ح-د-ث": {
+    core: "meydana gelmek, haber vermek, anlatmak",
+    quran_count: 37,
+    derivatives: [
+      { form: "حَدِيث", pattern: "فَعِيل", type: "isim", meaning: "hadis, söz, haber" },
+      { form: "حَدَّثَ", pattern: "فَعَّلَ", type: "fiil II. bâb", meaning: "anlattı, haber verdi" },
+      { form: "مُحَدِّث", pattern: "مُفَعِّل", type: "ism-i fâil", meaning: "anlatan" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "حَدَثَ/يَحْدُثُ", meaning: "meydana geldi", semantic: "temel eylem", lessons: [] },
+      { bab: "II", form: "حَدَّثَ/يُحَدِّثُ", meaning: "anlattı, haber verdi", semantic: "ta'diye", lessons: ["L39"] },
+    ],
+    cross_refs: [
+      { lesson: "L39", verse: "99:4", form: "تُحَدِّثُ", note: "yer haberlerini anlatır — II. bâb muzâri" },
+    ],
+    turkish_traces: ["hadis", "hadise"],
+  },
+  "ع-د-و": {
+    core: "koşmak, düşman olmak, saldırmak",
+    quran_count: 106,
+    derivatives: [
+      { form: "عَادِيَات", pattern: "فَاعِلَات", type: "ism-i fâil cem", meaning: "koşanlar" },
+      { form: "عَدُوّ", pattern: "فَعُول", type: "isim", meaning: "düşman" },
+      { form: "عُدْوَان", pattern: "فُعْلَان", type: "masdar", meaning: "saldırganlık" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "عَدَا/يَعْدُو", meaning: "koştu, saldırdı", semantic: "temel eylem", lessons: ["L40"] },
+    ],
+    cross_refs: [
+      { lesson: "L40", verse: "100:1", form: "ٱلْعَادِيَاتِ", note: "koşanlar (atlar) — ism-i fâil çoğul müennes" },
+    ],
+    turkish_traces: ["adavet (düşmanlık)", "adüvv"],
+  },
+  "ك-ن-د": {
+    core: "nankörlük etmek",
+    quran_count: 1,
+    derivatives: [
+      { form: "كَنُود", pattern: "فَعُول", type: "mübalağa", meaning: "çok nankör" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "كَنَدَ/يَكْنُدُ", meaning: "nankör davrandı", semantic: "temel eylem", lessons: ["L40"] },
+    ],
+    cross_refs: [
+      { lesson: "L40", verse: "100:6", form: "لَكَنُودٌ", note: "insan Rabbine çok nankördür — mübalağa" },
+    ],
+    turkish_traces: [],
+  },
+  "ق-ر-ع": {
+    core: "vurmak, kapı çalmak",
+    quran_count: 5,
+    derivatives: [
+      { form: "قَارِعَة", pattern: "فَاعِلَة", type: "ism-i fâil", meaning: "kapı çalan (kıyamet)" },
+      { form: "قَرَعَ", pattern: "فَعَلَ", type: "fiil", meaning: "vurdu, çaldı" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "قَرَعَ/يَقْرَعُ", meaning: "vurdu, çaldı", semantic: "temel eylem", lessons: ["L41"] },
+    ],
+    cross_refs: [
+      { lesson: "L41", verse: "101:1", form: "ٱلْقَارِعَةُ", note: "kapıyı çalan — kıyamet adlarından" },
+    ],
+    turkish_traces: ["kur'a (kura)"],
+  },
+  "و-ز-ن": {
+    core: "tartmak, ölçmek",
+    quran_count: 23,
+    derivatives: [
+      { form: "مَوَازِين", pattern: "مَفَاعِيل", type: "cem", meaning: "tartılar, teraziler" },
+      { form: "مِيزَان", pattern: "مِفْعَال", type: "ism-i âlet", meaning: "terazi" },
+      { form: "وَزْن", pattern: "فَعْل", type: "masdar", meaning: "tartma, ölçü" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "وَزَنَ/يَزِنُ", meaning: "tarttı", semantic: "temel eylem", lessons: ["L41"] },
+    ],
+    cross_refs: [
+      { lesson: "L41", verse: "101:6", form: "مَوَازِينُهُ", note: "tartıları — مِيزَان'ın çoğulu" },
+    ],
+    turkish_traces: ["vezin", "mizan"],
+  },
+  "ه-و-ي": {
+    core: "düşmek, boşluğa yuvarlanmak",
+    quran_count: 6,
+    derivatives: [
+      { form: "هَاوِيَة", pattern: "فَاعِلَة", type: "ism-i fâil", meaning: "uçurum, düşülen yer (cehennem)" },
+      { form: "هَوَى", pattern: "فَعَلَ", type: "fiil", meaning: "düştü" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "هَوَى/يَهْوِي", meaning: "düştü", semantic: "temel eylem", lessons: ["L41"] },
+    ],
+    cross_refs: [
+      { lesson: "L41", verse: "101:9", form: "هَاوِيَة", note: "cehennem — düşülecek yer, ism-i fâil müennes" },
+    ],
+    turkish_traces: ["hâviye", "hevâ (arzu)"],
+  },
+  "ك-ث-ر": {
+    core: "çok olmak, çoğalmak",
+    quran_count: 152,
+    derivatives: [
+      { form: "كَثِير", pattern: "فَعِيل", type: "sıfat", meaning: "çok" },
+      { form: "تَكَاثُر", pattern: "تَفَاعُل", type: "VI. bâb masdar", meaning: "çoklukla yarışma" },
+      { form: "أَكْثَر", pattern: "أَفْعَل", type: "ism-i tafdîl", meaning: "daha çok" },
+      { form: "كَوْثَر", pattern: "فَوْعَل", type: "isim", meaning: "pek çok hayır" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "كَثُرَ/يَكْثُرُ", meaning: "çok oldu", semantic: "temel eylem", lessons: ["L08"] },
+      { bab: "VI", form: "تَكَاثَرَ/يَتَكَاثَرُ", meaning: "çoklukla yarıştı", semantic: "müşâreket", lessons: ["L42"] },
+    ],
+    cross_refs: [
+      { lesson: "L08", verse: "108:1", form: "ٱلْكَوْثَرَ", note: "pek çok hayır/kevser havuzu" },
+      { lesson: "L42", verse: "102:1", form: "ٱلتَّكَاثُرُ", note: "çoklukla övünme — VI. bâb masdar" },
+    ],
+    turkish_traces: ["kesret", "çokluk", "kevser"],
+  },
+  "ل-ه-و": {
+    core: "oyalanmak, eğlenmek, gaflet",
+    quran_count: 16,
+    derivatives: [
+      { form: "لَهْو", pattern: "فَعْل", type: "masdar", meaning: "oyun, eğlence" },
+      { form: "أَلْهَى", pattern: "أَفْعَلَ", type: "IV. bâb fiil", meaning: "oyaladı" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "لَهَا/يَلْهُو", meaning: "oyalandı", semantic: "temel eylem", lessons: [] },
+      { bab: "IV", form: "أَلْهَى/يُلْهِي", meaning: "oyalattı", semantic: "ta'diye", lessons: ["L42"] },
+    ],
+    cross_refs: [
+      { lesson: "L42", verse: "102:1", form: "أَلْهَاكُمُ", note: "sizi oyaladı — IV. bâb mâzî" },
+    ],
+    turkish_traces: ["lehv (eğlence)"],
+  },
+  "ي-ق-ن": {
+    core: "kesin bilmek, yakîn sahibi olmak",
+    quran_count: 28,
+    derivatives: [
+      { form: "يَقِين", pattern: "فَعِيل", type: "masdar/isim", meaning: "kesinlik" },
+      { form: "مُوقِن", pattern: "مُفْعِل", type: "IV. bâb ism-i fâil", meaning: "kesin bilen" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "يَقِنَ/يَيْقَنُ", meaning: "kesin bildi", semantic: "temel eylem", lessons: ["L42"] },
+    ],
+    cross_refs: [
+      { lesson: "L42", verse: "102:5", form: "ٱلْيَقِينِ", note: "kesinlik — عِلْمَ اليَقِين (bilgisel)" },
+      { lesson: "L42", verse: "102:7", form: "ٱلْيَقِينِ", note: "kesinlik — عَيْنَ اليَقِين (görsel)" },
+    ],
+    turkish_traces: ["yakin", "yakîn"],
+  },
 };
 
 // Helper: kök anahtarlarını array olarak döndür

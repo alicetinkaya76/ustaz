@@ -1,5 +1,5 @@
 import { useState, useMemo, useRef } from "react";
-import { Check, X, ChevronRight, RotateCcw, GitBranch, Layers, Scale, BookOpen } from "lucide-react";
+import { Check, X, ChevronRight, RotateCcw, GitBranch, Layers, Scale, BookOpen, Sparkles } from "lucide-react";
 
 function shuffle(arr) {
   const a = [...arr];
@@ -17,6 +17,7 @@ const typeConfig = {
   bab_identify: { icon: Layers, label: "Bâb Belirleme", badge: "bg-green-500/15 text-green-400 border-green-500/20" },
   wazn_match: { icon: Scale, label: "Vezin Eşleştirme", badge: "bg-purple-500/15 text-purple-400 border-purple-500/20" },
   irab_identify: { icon: BookOpen, label: "İ'rab Rolü", badge: "bg-orange-500/15 text-orange-400 border-orange-500/20" },
+  balagha_identify: { icon: Sparkles, label: "Belâgat", badge: "bg-amber-500/15 text-amber-400 border-amber-500/20" },
 };
 
 export default function ExerciseCard({ exercises, lessonId, onComplete, onRootResult }) {

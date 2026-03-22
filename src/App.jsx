@@ -1,5 +1,5 @@
 import { useState, useCallback, useRef, useEffect } from "react";
-import { BookOpen, GraduationCap, Brain, MessageCircle, Settings as SettingsIcon, Layers, ChevronLeft, ChevronRight, X, Search, Sun, Moon } from "lucide-react";
+import { BookOpen, GraduationCap, Brain, MessageCircle, Settings as SettingsIcon, Layers, ChevronLeft, ChevronRight, X, Search, Sun, Moon, BarChart3 } from "lucide-react";
 import curriculum from "./data/curriculum";
 import useProgress from "./hooks/useProgress";
 import QuickAssessment from "./components/QuickAssessment";
@@ -12,6 +12,8 @@ import VezinCard from "./components/VezinCard";
 import QuickReview from "./components/QuickReview";
 import ConjugationPopup from "./components/ConjugationPopup";
 import DailyRoot from "./components/DailyRoot";
+import StatsPage from "./components/StatsPage";
+import OfflineBanner from "./components/OfflineBanner";
 
 const API_KEY_STORAGE = "ustaz-api-key";
 const THEME_STORAGE = "ustaz-theme";
@@ -149,6 +151,7 @@ export default function App() {
     if (tab === "ders") { setView("lesson"); setShowNav(false); }
     else if (tab === "dersler") { setShowNav(true); }
     else if (tab === "tekrar") { setView("review"); setShowNav(false); }
+    else if (tab === "istatistik") { setView("stats"); setShowNav(false); }
     else if (tab === "ayarlar") { setView("settings"); setShowNav(false); }
   }
 
@@ -158,6 +161,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen min-h-[100dvh] bg-ustaz-bg pattern-overlay">
+      <OfflineBanner />
       {/* ── Header ── */}
       <header className="sticky top-0 z-40 border-b border-ov/[0.04] bg-ustaz-bg/85 backdrop-blur-xl pt-safe">
         <div className="mx-auto flex h-12 max-w-2xl items-center justify-between px-4">
@@ -323,6 +327,12 @@ export default function App() {
               theme={theme} onToggleTheme={toggleTheme} />
           </div>
         )}
+
+        {view === "stats" && (
+          <div className="view-enter pt-6">
+            <StatsPage progress={progress} lessons={lessons} onClose={() => { setView("lesson"); setBottomTab("ders"); }} />
+          </div>
+        )}
       </main>
 
       {/* ── Bottom Navigation (mobile) ── */}
@@ -351,6 +361,11 @@ export default function App() {
               </div>
               <span>Tekrar</span>
             </button>
+            <button onClick={() => handleBottomNav("istatistik")}
+              className={`bottom-nav-item ${bottomTab === "istatistik" ? "active" : ""}`}>
+              <BarChart3 size={20} strokeWidth={bottomTab === "istatistik" ? 2.5 : 1.5} />
+              <span>İstatistik</span>
+            </button>
             <button onClick={() => handleBottomNav("ayarlar")}
               className={`bottom-nav-item ${bottomTab === "ayarlar" ? "active" : ""}`}>
               <SettingsIcon size={20} strokeWidth={bottomTab === "ayarlar" ? 2.5 : 1.5} />
@@ -371,7 +386,7 @@ export default function App() {
 
       {/* ── Footer (desktop only) ── */}
       <footer className="hidden border-t border-ov/[0.04] py-6 text-center text-[10px] text-ustaz-turkish/15 sm:block">
-        Ustaz v0.13 — Kur'an Arapçası Öğrenme Uygulaması
+        Ustaz v0.14 — Kur'an Arapçası Öğrenme Uygulaması
       </footer>
     </div>
   );
