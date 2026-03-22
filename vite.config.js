@@ -8,7 +8,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          curriculum: ['./src/data/curriculum.js', './src/data/levels/level2b.js', './src/data/levels/level3.js', './src/data/levels/level3b.js', './src/data/levels/level4.js', './src/data/levels/level4b.js', './src/data/levels/level4c.js'],
+          curriculum: ['./src/data/curriculum.js', './src/data/levels/level2b.js', './src/data/levels/level3.js', './src/data/levels/level3b.js', './src/data/levels/level4.js', './src/data/levels/level4b.js', './src/data/levels/level4c.js', './src/data/levels/level5.js'],
           grammar: ['./src/data/grammar.js', './src/data/vezin.js', './src/data/wazn.js'],
         }
       }

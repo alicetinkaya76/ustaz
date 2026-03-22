@@ -145,6 +145,21 @@ const KNOWN_WORDS = {
   "بَرِيَّة": { root: "ب-ر-أ", pattern: "فَعِيلَة", bab: "I", type: "isim", meaning: "yaratılmışlar" },
   "مَطْلَع": { root: "ط-ل-ع", pattern: "مَفْعَل", bab: "I", type: "ism-i zaman", meaning: "doğuş vakti/yeri" },
   "قَلَم": { root: "ق-ل-م", pattern: "فَعَل", bab: "I", type: "isim", meaning: "kalem" },
+  // ── L39-L42 ek kelimeler ──
+  "زِلْزَال": { root: "ز-ل-ز-ل", pattern: "فِعْلَال", bab: "rubâî", type: "masdar", meaning: "sarsıntı, deprem" },
+  "مِثْقَال": { root: "ث-ق-ل", pattern: "مِفْعَال", bab: "I", type: "ism-i âlet", meaning: "tartı, miktar" },
+  "أَثْقَال": { root: "ث-ق-ل", pattern: "أَفْعَال", bab: "I", type: "cem", meaning: "ağırlıklar" },
+  "كَنُود": { root: "ك-ن-د", pattern: "فَعُول", bab: "I", type: "mübalağa", meaning: "çok nankör" },
+  "خَبِير": { root: "خ-ب-ر", pattern: "فَعِيل", bab: "I", type: "sıfat-ı müşebbehe", meaning: "haberdar" },
+  "قَارِعَة": { root: "ق-ر-ع", pattern: "فَاعِلَة", bab: "I", type: "ism-i fâil", meaning: "kapı çalan (kıyamet)" },
+  "مَبْثُوث": { root: "ب-ث-ث", pattern: "مَفْعُول", bab: "I", type: "ism-i mef'ûl", meaning: "saçılmış, yayılmış" },
+  "مَنفُوش": { root: "ن-ف-ش", pattern: "مَفْعُول", bab: "I", type: "ism-i mef'ûl", meaning: "atılmış, didilmiş" },
+  "هَاوِيَة": { root: "ه-و-ي", pattern: "فَاعِلَة", bab: "I", type: "ism-i fâil", meaning: "uçurum, cehennem" },
+  "تَكَاثُر": { root: "ك-ث-ر", pattern: "تَفَاعُل", bab: "VI", type: "masdar", meaning: "çoklukla yarışma" },
+  "مَقَابِر": { root: "ق-ب-ر", pattern: "مَفَاعِل", bab: "I", type: "cem", meaning: "kabirler" },
+  "جَحِيم": { root: "ج-ح-م", pattern: "فَعِيل", bab: "I", type: "isim", meaning: "cehennem" },
+  "نَعِيم": { root: "ن-ع-م", pattern: "فَعِيل", bab: "I", type: "isim", meaning: "nimet, bolluk" },
+  "يَقِين": { root: "ي-ق-ن", pattern: "فَعِيل", bab: "I", type: "masdar", meaning: "kesinlik" },
 };
 
 /**

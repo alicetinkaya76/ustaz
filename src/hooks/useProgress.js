@@ -1,6 +1,8 @@
-import { useState, useCallback, useMemo } from "react";
+import { useState, useCallback, useMemo, useEffect } from "react";
+import { idbSave, idbLoad } from "../utils/idb";
 
 const STORAGE_KEY = "ustaz-progress";
+const IDB_KEY = "progress-main";
 
 const defaultProgress = {
   profile: null,
@@ -56,10 +58,30 @@ function loadProgress() {
 
 function saveProgress(data) {
   try { localStorage.setItem(STORAGE_KEY, JSON.stringify(data)); } catch (e) { console.warn("localStorage save failed:", e); }
+  // Async IndexedDB backup
+  idbSave(IDB_KEY, data).catch(() => {});
 }
 
 export default function useProgress() {
   const [progress, setProgress] = useState(loadProgress);
+  const [idbChecked, setIdbChecked] = useState(false);
+
+  // On mount: try IndexedDB recovery if localStorage was empty
+  useEffect(() => {
+    if (idbChecked) return;
+    const lsRaw = localStorage.getItem(STORAGE_KEY);
+    if (!lsRaw) {
+      idbLoad(IDB_KEY).then(data => {
+        if (data && data.assessmentDone) {
+          const merged = { ...defaultProgress, ...data };
+          setProgress(merged);
+          saveProgress(merged);
+        }
+      }).catch(() => {}).finally(() => setIdbChecked(true));
+    } else {
+      setIdbChecked(true);
+    }
+  }, [idbChecked]);
 
   const update = useCallback((patch) => {
     setProgress((prev) => {

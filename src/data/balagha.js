@@ -139,6 +139,61 @@ const balaghaDB = {
       { verse: "95:1-3", text: "وَالتِّينِ وَالزَّيْتُونِ وَطُورِ سِينِينَ وَهَٰذَا البَلَدِ الأَمِينِ", analysis: "4 kasem: incir (şam), zeytin (filistin), Sînâ, Mekke → 4 kutsal mekân = son derece kesin", lesson: "L18" },
       { verse: "93:1-2", text: "وَالضُّحَى وَاللَّيْلِ إِذَا سَجَى", analysis: "2 kasem: ışık ↔ gece = teselli bağlamına uygun", lesson: "L19" },
       { verse: "103:1", text: "وَالعَصْرِ", analysis: "1 kasem: zaman yeterli, mesaj net", lesson: "L03" },
+      { verse: "100:1-5", text: "وَالعَادِيَاتِ...فَالمُورِيَاتِ...فَالمُغِيرَاتِ...فَأَثَرْنَ...فَوَسَطْنَ", analysis: "5 kasem: kronolojik savaş sahnesi (koşma→kıvılcım→baskın→toz→dalma). فَ ile sıralı = en uzun kasem zincirlerinden", lesson: "L40" },
+    ],
+  },
+  // ── v0.14 yeni sanatlar ──
+  hasr: {
+    title: "الحصر",
+    titleTr: "Hasr (Sınırlandırma)",
+    branch: "meani",
+    branchLabel: "المعاني",
+    definition: "Bir hükmü belirli bir şeyle sınırlandırma. 'Sadece … / yalnızca …' anlamı.",
+    subtypes: [
+      {
+        name: "إِنَّمَا ile hasr",
+        examples: [],
+      },
+      {
+        name: "Takdîm ile hasr (mef'ûl öne alma)",
+        examples: [
+          { verse: "1:5", text: "إِيَّاكَ نَعْبُدُ", analysis: "Mef'ûl öne → YALNIZ sana kulluk ederiz (başkasına değil)", lesson: "L01" },
+        ],
+      },
+      {
+        name: "إِلَّا ile hasr (nefiy + istisnâ)",
+        examples: [
+          { verse: "95:6", text: "إِلَّا الَّذِينَ آمَنُوا", analysis: "Nefiy (aşağı indirildi) + إِلَّا (ancak iman edenler hariç) → hasr", lesson: "L35" },
+        ],
+      },
+    ],
+  },
+  itnab: {
+    title: "الإطناب",
+    titleTr: "Itnâb (Genişletme)",
+    branch: "meani",
+    branchLabel: "المعاني",
+    definition: "Vurgu, açıklama veya pekiştirme amacıyla anlamı gereğinden fazla kelimeyle ifade etme. Gereksiz değil, maksat taşıyan genişletme.",
+    subtypes: [
+      {
+        name: "وَمَا أَدْرَاكَ ile ıtnâb (ta'zîm sorusu)",
+        examples: [
+          { verse: "101:3", text: "وَمَا أَدْرَاكَ مَا القَارِعَةُ", analysis: "Konuyu tanıtıp 'ne bilirsin ki?' diye idrakin ötesinde olduğunu vurgulama", lesson: "L41" },
+          { verse: "97:2", text: "وَمَا أَدْرَاكَ مَا لَيْلَةُ القَدْرِ", analysis: "Kadir gecesini tanıtıp ta'zîm sorusuyla yüceltme", lesson: "L37" },
+        ],
+      },
+      {
+        name: "Tıbâk/mukâbele ile ıtnâb",
+        examples: [
+          { verse: "99:7-8", text: "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا... وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا", analysis: "Aynı yapıyı hayır/şer için tam tekrarlama: hiçbir amel kaçmaz vurgusu", lesson: "L39" },
+        ],
+      },
+      {
+        name: "كَلَّا tekrarı ile ıtnâb",
+        examples: [
+          { verse: "102:3-5", text: "كَلَّا سَوْفَ تَعْلَمُونَ ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ كَلَّا", analysis: "Üç كَلَّا: zecr (uyarı) gittikçe şiddetleniyor", lesson: "L42" },
+        ],
+      },
     ],
   },
 };
