@@ -15,6 +15,7 @@ export default {
           arabic: 'rgb(var(--ustaz-arabic) / <alpha-value>)',
           turkish: 'rgb(var(--ustaz-turkish) / <alpha-value>)',
         },
+        ov: 'rgb(var(--ustaz-overlay) / <alpha-value>)',
         pos: {
           ism: '#60a5fa',
           fil: '#34d399',

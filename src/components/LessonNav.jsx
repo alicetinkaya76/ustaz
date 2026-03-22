@@ -27,13 +27,13 @@ export default function LessonNav({ lessons, currentLessonId, completedLessons, 
   return (
     <div className="flex h-full flex-col">
       {/* Header */}
-      <div className="flex items-center justify-between border-b border-white/[0.06] px-4 py-3">
+      <div className="flex items-center justify-between border-b border-ov/[0.06] px-4 py-3">
         <div>
           <h2 className="text-sm font-bold text-ustaz-arabic">Dersler</h2>
           <p className="text-[10px] text-ustaz-turkish/30">{completedCount}/{totalLessons} tamamlandı</p>
         </div>
         {onClose && (
-          <button onClick={onClose} className="flex h-8 w-8 items-center justify-center rounded-xl text-ustaz-turkish/30 transition hover:bg-white/5 active:scale-90">
+          <button onClick={onClose} className="flex h-8 w-8 items-center justify-center rounded-xl text-ustaz-turkish/30 transition hover:bg-ov/5 active:scale-90">
             <X size={18} />
           </button>
         )}
@@ -41,7 +41,7 @@ export default function LessonNav({ lessons, currentLessonId, completedLessons, 
 
       {/* Progress bar */}
       <div className="px-4 py-2">
-        <div className="h-1.5 w-full overflow-hidden rounded-full bg-white/[0.06]">
+        <div className="h-1.5 w-full overflow-hidden rounded-full bg-ov/[0.06]">
           <div className="h-full rounded-full bg-gradient-to-r from-ustaz-gold/60 to-pos-fil/60 transition-all duration-500"
             style={{ width: `${totalLessons > 0 ? (completedCount / totalLessons) * 100 : 0}%` }} />
         </div>
@@ -56,7 +56,7 @@ export default function LessonNav({ lessons, currentLessonId, completedLessons, 
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             placeholder="Sure, konu veya numara ara..."
-            className="w-full rounded-xl border border-white/[0.06] bg-white/[0.03] py-2.5 pl-9 pr-3 text-xs text-ustaz-turkish placeholder:text-ustaz-turkish/20 focus:border-ustaz-gold/30 focus:outline-none"
+            className="w-full rounded-xl border border-ov/[0.06] bg-ov/[0.03] py-2.5 pl-9 pr-3 text-xs text-ustaz-turkish placeholder:text-ustaz-turkish/20 focus:border-ustaz-gold/30 focus:outline-none"
           />
           {search && (
             <button onClick={() => setSearch("")} className="absolute right-2 top-1/2 -translate-y-1/2 text-ustaz-turkish/30 hover:text-ustaz-turkish/60">
@@ -80,8 +80,8 @@ export default function LessonNav({ lessons, currentLessonId, completedLessons, 
               const isCompleted = completedLessons?.includes(lesson.id);
               return (
                 <button key={lesson.id} onClick={() => onSelect(lesson.id)}
-                  className={`flex w-full items-center gap-3 px-4 py-3 text-left transition-all active:bg-white/[0.04] ${
-                    isActive ? "bg-ustaz-gold/[0.06]" : "hover:bg-white/[0.02]"
+                  className={`flex w-full items-center gap-3 px-4 py-3 text-left transition-all active:bg-ov/[0.04] ${
+                    isActive ? "bg-ustaz-gold/[0.06]" : "hover:bg-ov/[0.02]"
                   }`}>
                   <div className="shrink-0">
                     {isCompleted ? (
@@ -89,7 +89,7 @@ export default function LessonNav({ lessons, currentLessonId, completedLessons, 
                         <CheckCircle2 size={15} className="text-pos-fil" />
                       </div>
                     ) : (
-                      <div className={`flex h-7 w-7 items-center justify-center rounded-xl ${isActive ? "bg-ustaz-gold/10" : "bg-white/[0.03]"}`}>
+                      <div className={`flex h-7 w-7 items-center justify-center rounded-xl ${isActive ? "bg-ustaz-gold/10" : "bg-ov/[0.03]"}`}>
                         <Circle size={15} className={isActive ? "text-ustaz-gold" : "text-ustaz-turkish/15"} />
                       </div>
                     )}

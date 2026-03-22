@@ -56,7 +56,7 @@ export default function QuickAssessment({ onComplete, onSkip }) {
           <span>{phase === "self" ? "Ön Değerlendirme" : `Doğrulama (${profile} profili)`}</span>
           <span>{currentStep} / {totalSteps}</span>
         </div>
-        <div className="h-1.5 w-full overflow-hidden rounded-full bg-white/5">
+        <div className="h-1.5 w-full overflow-hidden rounded-full bg-ov/5">
           <div className="h-full rounded-full bg-ustaz-gold transition-all duration-500" style={{ width: `${(currentStep / totalSteps) * 100}%` }} />
         </div>
       </div>
@@ -75,8 +75,8 @@ export default function QuickAssessment({ onComplete, onSkip }) {
           const label = typeof opt === "string" ? opt : opt.text;
           return (
             <button key={i} onClick={() => handleAnswer(i)}
-              className="group flex items-center gap-3 rounded-xl border border-white/5 bg-ustaz-card px-4 py-3.5 text-left transition-all hover:border-ustaz-gold/20 hover:bg-white/5 active:scale-[0.99]">
-              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-white/10 text-xs text-ustaz-turkish/40 transition group-hover:border-ustaz-gold/30 group-hover:text-ustaz-gold">
+              className="group flex items-center gap-3 rounded-xl border border-ov/5 bg-ustaz-card px-4 py-3.5 text-left transition-all hover:border-ustaz-gold/20 hover:bg-ov/5 active:scale-[0.99]">
+              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-ov/10 text-xs text-ustaz-turkish/40 transition group-hover:border-ustaz-gold/30 group-hover:text-ustaz-gold">
                 {String.fromCharCode(65 + i)}
               </span>
               <span className="text-sm text-ustaz-turkish/80 group-hover:text-ustaz-turkish">{label}</span>

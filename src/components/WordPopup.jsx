@@ -1,5 +1,7 @@
-import { X, Sparkles, Link, MessageCircle, Table2 } from "lucide-react";
+import { useState } from "react";
+import { X, Sparkles, Link, MessageCircle, Table2, Scale } from "lucide-react";
 import { parseGrammarLinks } from "./GrammarCard";
+import { analyzeWord } from "../data/wazn";
 
 const posLabels = {
   ism: "İsim (اسم)", fil: "Fiil (فعل)", harf: "Harf (حرف)", zamir: "Zamîr (ضمير)",
@@ -7,12 +9,18 @@ const posLabels = {
 };
 
 export default function WordPopup({ word, onClose, onGrammarClick, onAskUstaz, onConjugation, isMobile = false }) {
+  const [waznResult, setWaznResult] = useState(null);
   if (!word) return null;
+
+  const handleWaznAnalyze = () => {
+    const result = analyzeWord(word.arabic);
+    setWaznResult(result);
+  };
 
   const Wrapper = isMobile ? "div" : "div";
   const wrapperClass = isMobile
     ? ""
-    : "mt-4 rounded-2xl border border-white/10 bg-ustaz-card/95 p-5 backdrop-blur-md shadow-2xl shadow-black/40";
+    : "mt-4 rounded-2xl border border-ov/10 bg-ustaz-card/95 p-5 backdrop-blur-md shadow-2xl shadow-black/40";
 
   return (
     <div className={wrapperClass}>
@@ -28,7 +36,7 @@ export default function WordPopup({ word, onClose, onGrammarClick, onAskUstaz, o
           </div>
         </div>
         {!isMobile && (
-          <button onClick={onClose} className="rounded-xl p-2 text-ustaz-turkish/40 transition hover:bg-white/10 hover:text-ustaz-turkish">
+          <button onClick={onClose} className="rounded-xl p-2 text-ustaz-turkish/40 transition hover:bg-ov/10 hover:text-ustaz-turkish">
             <X size={16} />
           </button>
         )}
@@ -37,13 +45,13 @@ export default function WordPopup({ word, onClose, onGrammarClick, onAskUstaz, o
       {/* Info Grid */}
       <div className="grid gap-2 grid-cols-2">
         {word.root && (
-          <div className="rounded-xl bg-white/[0.04] px-3 py-2.5">
+          <div className="rounded-xl bg-ov/[0.04] px-3 py-2.5">
             <p className="mb-0.5 text-[9px] font-semibold uppercase tracking-wider text-ustaz-gold/50">Kök</p>
             <p className="arabic-text text-lg text-ustaz-gold">{word.root}</p>
           </div>
         )}
         {word.pattern && (
-          <div className="rounded-xl bg-white/[0.04] px-3 py-2.5">
+          <div className="rounded-xl bg-ov/[0.04] px-3 py-2.5">
             <p className="mb-0.5 text-[9px] font-semibold uppercase tracking-wider text-ustaz-turkish/35">
               {onGrammarClick ? (
                 <button onClick={() => onGrammarClick("vezin")} className="underline decoration-dotted underline-offset-2 text-ustaz-gold/50 hover:text-ustaz-gold/80">
@@ -55,14 +63,14 @@ export default function WordPopup({ word, onClose, onGrammarClick, onAskUstaz, o
           </div>
         )}
         {!word.pattern && (
-          <div className="rounded-xl bg-white/[0.04] px-3 py-2.5">
+          <div className="rounded-xl bg-ov/[0.04] px-3 py-2.5">
             <p className="mb-0.5 text-[9px] font-semibold uppercase tracking-wider text-ustaz-turkish/35">Tür</p>
             <p className="text-sm text-ustaz-turkish/70">{posLabels[word.pos] || word.pos}</p>
           </div>
         )}
 
         {/* I'rab — full width */}
-        <div className="col-span-2 rounded-xl bg-white/[0.04] px-3 py-2.5">
+        <div className="col-span-2 rounded-xl bg-ov/[0.04] px-3 py-2.5">
           <p className="mb-0.5 text-[9px] font-semibold uppercase tracking-wider text-ustaz-turkish/35">İ'rab</p>
           <p className="text-sm leading-relaxed text-ustaz-turkish/70">
             {onGrammarClick ? parseGrammarLinks(word.irab, onGrammarClick) : word.irab}
@@ -102,10 +110,46 @@ export default function WordPopup({ word, onClose, onGrammarClick, onAskUstaz, o
           </button>
         )}
 
+        {/* Wazn Analyze button — for words with root */}
+        {word.root && word.pos !== "harf" && (
+          <button onClick={handleWaznAnalyze}
+            className="flex w-full items-center justify-center gap-2 rounded-xl border border-cyan-500/15 bg-cyan-500/[0.04] py-3 text-xs font-medium text-cyan-400/70 transition active:scale-[0.97] hover:border-cyan-500/30 hover:text-cyan-400">
+            <Scale size={13} /> Vezin Analizi
+          </button>
+        )}
+
+        {/* Wazn result display */}
+        {waznResult && (
+          <div className="rounded-xl border border-cyan-500/15 bg-cyan-500/[0.04] px-3 py-2.5">
+            <div className="flex items-center gap-2 mb-1.5">
+              <Scale size={11} className="text-cyan-400/50" />
+              <span className="text-[9px] font-semibold uppercase tracking-wider text-cyan-400/50">Vezin Analizi</span>
+              <span className="text-[9px] px-1.5 py-0.5 rounded bg-cyan-500/10 text-cyan-400/60">{waznResult.source === "known" ? "Sözlük" : "Regex"}</span>
+            </div>
+            <div className="grid grid-cols-2 gap-1.5 text-xs">
+              {waznResult.pattern && (
+                <div><span className="text-ustaz-turkish/35">Kalıp: </span><span className="arabic-text text-cyan-300/80">{waznResult.pattern}</span></div>
+              )}
+              {waznResult.bab && (
+                <div><span className="text-ustaz-turkish/35">Bâb: </span><span className="text-cyan-300/80">{waznResult.bab}</span></div>
+              )}
+              {waznResult.type && (
+                <div><span className="text-ustaz-turkish/35">Tür: </span><span className="text-cyan-300/80">{waznResult.type}</span></div>
+              )}
+              {waznResult.root && (
+                <div><span className="text-ustaz-turkish/35">Kök: </span><span className="arabic-text text-cyan-300/80">{waznResult.root}</span></div>
+              )}
+              {waznResult.meaning && (
+                <div className="col-span-2"><span className="text-ustaz-turkish/35">Anlam: </span><span className="text-cyan-300/80">{waznResult.meaning}</span></div>
+              )}
+            </div>
+          </div>
+        )}
+
         {/* Ask Ustaz */}
         {onAskUstaz && (
           <button onClick={() => onAskUstaz(`${word.arabic} (${word.root || ""}) kelimesi hakkında detaylı bilgi ver.`)}
-            className="flex w-full items-center justify-center gap-2 rounded-xl border border-white/[0.06] bg-white/[0.02] py-3 text-xs font-medium text-ustaz-turkish/40 transition active:scale-[0.97] hover:border-ustaz-gold/20 hover:text-ustaz-gold">
+            className="flex w-full items-center justify-center gap-2 rounded-xl border border-ov/[0.06] bg-ov/[0.02] py-3 text-xs font-medium text-ustaz-turkish/40 transition active:scale-[0.97] hover:border-ustaz-gold/20 hover:text-ustaz-gold">
             <MessageCircle size={13} /> Bu kelimeyi Ustaz'a sor
           </button>
         )}

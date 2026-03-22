@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { X, ChevronDown, ChevronUp, Table2 } from "lucide-react";
+import { X, ChevronDown, ChevronUp, Table2, BookOpen } from "lucide-react";
 import { getConjugation, getConjugationsForRoot, PRONOUNS, PRONOUNS_SIMPLE, BAB_INFO } from "../data/conjugation";
+import { getRoot } from "../data/rootDB";
 
 const babColorMap = {
   I: "bg-blue-500/15 text-blue-400 border-blue-500/20",
@@ -36,10 +37,10 @@ export default function ConjugationPopup({ root, bab, highlightForm, onClose }) 
     return (
       <div className="fixed inset-0 z-[60] flex items-end sm:items-center justify-center">
         <div className="fixed inset-0 bg-black/60 backdrop-blur-sm" onClick={onClose} />
-        <div className="relative z-10 w-full max-w-md rounded-t-3xl sm:rounded-2xl border border-white/10 bg-ustaz-card p-6 shadow-2xl">
+        <div className="relative z-10 w-full max-w-md rounded-t-3xl sm:rounded-2xl border border-ov/10 bg-ustaz-card p-6 shadow-2xl">
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-base font-bold text-ustaz-arabic">Çekim Tablosu</h2>
-            <button onClick={onClose} className="rounded-xl p-2 text-ustaz-turkish/40 hover:bg-white/10"><X size={16} /></button>
+            <button onClick={onClose} className="rounded-xl p-2 text-ustaz-turkish/40 hover:bg-ov/10"><X size={16} /></button>
           </div>
           <p className="text-sm text-ustaz-turkish/50 text-center py-8">
             <span className="arabic-text text-lg text-ustaz-gold">{root}</span> kökü için henüz çekim tablosu eklenmedi.
@@ -73,9 +74,9 @@ export default function ConjugationPopup({ root, bab, highlightForm, onClose }) 
   return (
     <div className="fixed inset-0 z-[60] flex items-end sm:items-center justify-center">
       <div className="fixed inset-0 bg-black/60 backdrop-blur-sm" onClick={onClose} />
-      <div className="relative z-10 w-full max-w-lg max-h-[85vh] max-h-[85dvh] overflow-hidden rounded-t-3xl sm:rounded-2xl border border-white/10 bg-ustaz-card shadow-2xl flex flex-col">
+      <div className="relative z-10 w-full max-w-lg max-h-[85vh] max-h-[85dvh] overflow-hidden rounded-t-3xl sm:rounded-2xl border border-ov/10 bg-ustaz-card shadow-2xl flex flex-col">
         {/* Header */}
-        <div className="shrink-0 border-b border-white/[0.06] px-5 pt-5 pb-4">
+        <div className="shrink-0 border-b border-ov/[0.06] px-5 pt-5 pb-4">
           <div className="flex items-start justify-between mb-3">
             <div className="flex items-center gap-3">
               <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-ustaz-gold/10">
@@ -86,7 +87,7 @@ export default function ConjugationPopup({ root, bab, highlightForm, onClose }) 
                 <p className="text-xs text-ustaz-turkish/40">{current.meaning}</p>
               </div>
             </div>
-            <button onClick={onClose} className="rounded-xl p-2 text-ustaz-turkish/40 transition hover:bg-white/10 hover:text-ustaz-turkish">
+            <button onClick={onClose} className="rounded-xl p-2 text-ustaz-turkish/40 transition hover:bg-ov/10 hover:text-ustaz-turkish">
               <X size={16} />
             </button>
           </div>
@@ -97,7 +98,7 @@ export default function ConjugationPopup({ root, bab, highlightForm, onClose }) 
               {available.map(c => (
                 <button key={c.bab} onClick={() => { setActiveBab(c.bab); setActiveTense("madi"); }}
                   className={`rounded-lg border px-2.5 py-1 text-[11px] font-semibold transition ${
-                    c.bab === activeBab ? babColorMap[c.bab] : "border-white/[0.06] text-ustaz-turkish/30 hover:border-white/10"
+                    c.bab === activeBab ? babColorMap[c.bab] : "border-ov/[0.06] text-ustaz-turkish/30 hover:border-ov/10"
                   }`}>
                   {c.bab}. bâb
                 </button>
@@ -120,7 +121,7 @@ export default function ConjugationPopup({ root, bab, highlightForm, onClose }) 
               <button key={key} onClick={() => setActiveTense(key)}
                 className={`flex-1 rounded-xl px-2 py-2 text-center transition ${
                   activeTense === key
-                    ? `bg-white/[0.06] ${color}`
+                    ? `bg-ov/[0.06] ${color}`
                     : "text-ustaz-turkish/30 hover:text-ustaz-turkish/50"
                 }`}>
                 <span className="arabic-text block text-sm">{ar}</span>
@@ -133,12 +134,12 @@ export default function ConjugationPopup({ root, bab, highlightForm, onClose }) 
         {/* Table */}
         <div className="flex-1 overflow-y-auto px-5 py-4">
           {/* Base forms */}
-          <div className="mb-4 flex items-center gap-3 rounded-xl bg-white/[0.03] px-4 py-3">
+          <div className="mb-4 flex items-center gap-3 rounded-xl bg-ov/[0.03] px-4 py-3">
             <div className="text-center">
               <p className="text-[9px] uppercase tracking-wider text-ustaz-turkish/30">Mâzî</p>
               <p className="arabic-text text-base text-blue-400">{current.base_madi}</p>
             </div>
-            <div className="h-6 w-px bg-white/[0.08]" />
+            <div className="h-6 w-px bg-ov/[0.08]" />
             <div className="text-center">
               <p className="text-[9px] uppercase tracking-wider text-ustaz-turkish/30">Muzâri</p>
               <p className="arabic-text text-base text-green-400">{current.base_mudari}</p>
@@ -157,7 +158,7 @@ export default function ConjugationPopup({ root, bab, highlightForm, onClose }) 
                   className={`flex items-center justify-between rounded-xl px-4 py-2.5 transition ${
                     highlighted
                       ? "bg-ustaz-gold/10 border border-ustaz-gold/20"
-                      : "bg-white/[0.02] hover:bg-white/[0.04]"
+                      : "bg-ov/[0.02] hover:bg-ov/[0.04]"
                   }`}>
                   <div className="flex items-center gap-2.5 min-w-0">
                     <span className="arabic-text text-sm text-ustaz-turkish/50 w-12 text-right shrink-0">{pronoun.ar}</span>
@@ -174,11 +175,36 @@ export default function ConjugationPopup({ root, bab, highlightForm, onClose }) 
           {/* Toggle all/simple */}
           {activeTense !== "amr" && (
             <button onClick={() => setShowAll(!showAll)}
-              className="mt-3 flex w-full items-center justify-center gap-1.5 rounded-xl border border-white/[0.06] py-2 text-[11px] text-ustaz-turkish/30 transition hover:text-ustaz-turkish/50">
+              className="mt-3 flex w-full items-center justify-center gap-1.5 rounded-xl border border-ov/[0.06] py-2 text-[11px] text-ustaz-turkish/30 transition hover:text-ustaz-turkish/50">
               {showAll ? <ChevronUp size={13} /> : <ChevronDown size={13} />}
               {showAll ? "Basit göster (7 form)" : "Tümünü göster (13 form)"}
             </button>
           )}
+
+          {/* Kur'an cross-references */}
+          {(() => {
+            const rootData = getRoot(root);
+            if (!rootData?.cross_refs?.length) return null;
+            return (
+              <div className="mt-5 border-t border-ov/[0.06] pt-4">
+                <div className="flex items-center gap-2 mb-2">
+                  <BookOpen size={13} className="text-ustaz-gold/50" />
+                  <p className="text-[10px] font-semibold uppercase tracking-wider text-ustaz-turkish/30">
+                    Kur'an'da {root} ({rootData.cross_refs.length})
+                  </p>
+                </div>
+                <div className="space-y-1">
+                  {rootData.cross_refs.slice(0, 6).map((ref, i) => (
+                    <div key={i} className="flex items-start gap-2 rounded-lg bg-ov/[0.02] px-3 py-2">
+                      <span className="text-[10px] text-ustaz-gold/50 mt-0.5 whitespace-nowrap">{ref.verse}</span>
+                      <span className="arabic-text text-sm text-ustaz-arabic">{ref.form}</span>
+                      <span className="text-[11px] text-ustaz-turkish/50 flex-1">{ref.note}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            );
+          })()}
         </div>
       </div>
     </div>

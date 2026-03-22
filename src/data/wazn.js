@@ -33,6 +33,8 @@ const NOUN_PATTERNS = {
   "مُسْتَفْعِل": { bab: "X", type: "ism-i fâil", desc: "X. bâb ism-i fâil" },
   "مُسْتَفْعَل": { bab: "X", type: "ism-i mef'ûl", desc: "X. bâb ism-i mef'ûl" },
   "اِسْتِفْعَال": { bab: "X", type: "masdar", desc: "X. bâb masdarı" },
+  "مُفَاعِل": { bab: "III", type: "ism-i fâil", desc: "III. bâb ism-i fâil" },
+  "مُفَاعَلَة": { bab: "III", type: "masdar", desc: "III. bâb masdarı" },
   "مُنْفَعِل": { bab: "VII", type: "ism-i fâil", desc: "VII. bâb ism-i fâil" },
   "مُفْتَعِل": { bab: "VIII", type: "ism-i fâil", desc: "VIII. bâb ism-i fâil" },
   "مُتَفَعِّل": { bab: "V", type: "ism-i fâil", desc: "V. bâb ism-i fâil" },
@@ -101,6 +103,35 @@ const KNOWN_WORDS = {
   "غَفَّار": { root: "غ-ف-ر", pattern: "فَعَّال", bab: "I", type: "mübalağa", meaning: "çok bağışlayan" },
   "غَفُور": { root: "غ-ف-ر", pattern: "فَعُول", bab: "I", type: "mübalağa", meaning: "çok bağışlayan" },
   "أَكْبَر": { root: "ك-ب-ر", pattern: "أَفْعَل", bab: "I", type: "ism-i tafdîl", meaning: "en büyük" },
+  // ── L27-L30 ek kelimeler ──
+  "مُطَفِّف": { root: "ط-ف-ف", pattern: "مُفَعِّل", bab: "II", type: "ism-i fâil", meaning: "eksik tartan" },
+  "كِتَابٌ مَرْقُوم": { root: "ر-ق-م", pattern: "مَفْعُول", bab: "I", type: "ism-i mef'ûl", meaning: "rakamlanmış/yazılmış kitap" },
+  "سِجِّين": { root: "س-ج-ن", pattern: "فِعِّيل", bab: "I", type: "isim", meaning: "dar hapishane / amel defteri" },
+  "عِلِّيِّين": { root: "ع-ل-و", pattern: "فِعِّيل", bab: "I", type: "isim", meaning: "yüce makam / amel defteri" },
+  "شَهِيد": { root: "ش-ه-د", pattern: "فَعِيل", bab: "I", type: "sıfat-ı müşebbehe", meaning: "şahit" },
+  "مَجِيد": { root: "م-ج-د", pattern: "فَعِيل", bab: "I", type: "sıfat-ı müşebbehe", meaning: "şanlı, yüce" },
+  "حَفِيظ": { root: "ح-ف-ظ", pattern: "فَعِيل", bab: "I", type: "mübalağa", meaning: "çok koruyan" },
+  "وَدُود": { root: "و-د-د", pattern: "فَعُول", bab: "I", type: "mübalağa", meaning: "çok seven" },
+  "بَطْش": { root: "ب-ط-ش", pattern: "فَعْل", bab: "I", type: "masdar", meaning: "yakalama, şiddetle tutma" },
+  "نَقَب": { root: "ن-ق-ب", pattern: "فَعَل", bab: "I", type: "masdar", meaning: "delik açma, kaçma" },
+  "بَلَد": { root: "ب-ل-د", pattern: "فَعَل", bab: "I", type: "isim", meaning: "belde, şehir" },
+  "عَقَبَة": { root: "ع-ق-ب", pattern: "فَعَلَة", bab: "I", type: "isim", meaning: "sarp yokuş" },
+  "رَقَبَة": { root: "ر-ق-ب", pattern: "فَعَلَة", bab: "I", type: "isim", meaning: "boyun; köle" },
+  "مَسْغَبَة": { root: "س-غ-ب", pattern: "مَفْعَلَة", bab: "I", type: "ism-i mekân/masdar", meaning: "açlık, kıtlık" },
+  "مَتْرَبَة": { root: "ت-ر-ب", pattern: "مَفْعَلَة", bab: "I", type: "ism-i mekân/masdar", meaning: "yoksulluk (toprağa düşme)" },
+  // ── L31-L34 ek kelimeler ──
+  "تَزْكِيَة": { root: "ز-ك-و", pattern: "تَفْعِلَة", bab: "II", type: "masdar", meaning: "arınma, temizlenme" },
+  "فَلَاح": { root: "ف-ل-ح", pattern: "فَعَال", bab: "I", type: "masdar", meaning: "kurtuluş, başarı" },
+  "دَسَّى": { root: "د-س-و", pattern: "فَعَّلَ", bab: "II", type: "fiil", meaning: "karanlığa gömdü, bozdu" },
+  "تُقَاة": { root: "و-ق-ي", pattern: "—", bab: "I", type: "masdar", meaning: "korunma, takva" },
+  "يُسْر": { root: "ي-س-ر", pattern: "فُعْل", bab: "I", type: "masdar", meaning: "kolaylık" },
+  "عُسْر": { root: "ع-س-ر", pattern: "فُعْل", bab: "I", type: "masdar", meaning: "zorluk" },
+  "ضُحَى": { root: "ض-ح-و", pattern: "فُعَل", bab: "I", type: "isim", meaning: "kuşluk vakti" },
+  "قَالِي": { root: "ق-ل-ي", pattern: "فَاعِل", bab: "I", type: "ism-i fâil", meaning: "terk eden, kızan" },
+  "يَتِيم": { root: "ي-ت-م", pattern: "فَعِيل", bab: "I", type: "sıfat-ı müşebbehe", meaning: "yetim" },
+  "ضَالّ": { root: "ض-ل-ل", pattern: "فَاعِل", bab: "I", type: "ism-i fâil", meaning: "şaşırmış, yolunu kaybetmiş" },
+  "عَائِل": { root: "ع-ي-ل", pattern: "فَاعِل", bab: "I", type: "ism-i fâil", meaning: "yoksul" },
+  "سَائِل": { root: "س-أ-ل", pattern: "فَاعِل", bab: "I", type: "ism-i fâil", meaning: "isteyen, soran" },
 };
 
 /**
@@ -115,7 +146,91 @@ export function analyzeWord(word) {
     const cleanKey = key.replace(/[\u0670\u0671]/g, "ا").replace(/ـ/g, "");
     if (clean === cleanKey) return { ...val, source: "known" };
   }
-  return null; // Bilinmeyen kelimeler için null — ileride regex tabanlı analiz eklenecek
+  // 2. Regex tabanlı otomatik analiz (KNOWN_WORDS'te yoksa)
+  const stripped = clean.replace(/[\u064B-\u0652\u0670]/g, ""); // harekesiz
+  const withHareke = clean;
+
+  // X. bâb: اِسْتَفْعَلَ / يَسْتَفْعِلُ / مُسْتَفْعِل
+  if (/^[اٱ]سْتَ/.test(withHareke) || /^يَسْتَ/.test(withHareke) || /^تَسْتَ/.test(withHareke)) {
+    return { pattern: "اِسْتَفْعَلَ", bab: "X", type: "fiil/türev", desc: "X. bâb (istif'âl)", source: "regex" };
+  }
+  if (/^مُسْتَ/.test(withHareke)) {
+    return { pattern: "مُسْتَفْعِل", bab: "X", type: "ism-i fâil/mef'ûl", desc: "X. bâb türevi", source: "regex" };
+  }
+
+  // VII. bâb: اِنْفَعَلَ / يَنْفَعِلُ / مُنْفَعِل
+  if (/^[اٱ]نْ[فقكعغحخجدذرزسشصضطظ]/.test(withHareke)) {
+    return { pattern: "اِنْفَعَلَ", bab: "VII", type: "fiil", desc: "VII. bâb (infi'âl)", source: "regex" };
+  }
+  if (/^يَنْ[فقكعغحخجدذرزسشصضطظ]/.test(withHareke) && !/^يَنْز/.test(withHareke)) {
+    return { pattern: "يَنْفَعِلُ", bab: "VII", type: "fiil muzâri", desc: "VII. bâb muzâri", source: "regex" };
+  }
+  if (/^مُنْ[فقكعغحخجدذرزسشصضطظ]/.test(withHareke)) {
+    return { pattern: "مُنْفَعِل", bab: "VII", type: "ism-i fâil", desc: "VII. bâb ism-i fâil", source: "regex" };
+  }
+
+  // VIII. bâb: اِفْتَعَلَ / يَفْتَعِلُ / مُفْتَعِل
+  if (/^[اٱ].ْتَ/.test(withHareke) && !/^[اٱ]سْتَ/.test(withHareke) && !/^[اٱ]نْ/.test(withHareke)) {
+    return { pattern: "اِفْتَعَلَ", bab: "VIII", type: "fiil", desc: "VIII. bâb (ifti'âl)", source: "regex" };
+  }
+  if (/^مُ.ْتَ/.test(withHareke) && !/^مُسْتَ/.test(withHareke) && !/^مُنْ/.test(withHareke)) {
+    return { pattern: "مُفْتَعِل", bab: "VIII", type: "ism-i fâil", desc: "VIII. bâb ism-i fâil", source: "regex" };
+  }
+
+  // V. bâb: تَفَعَّلَ / يَتَفَعَّلُ / مُتَفَعِّل
+  if (/^تَ.َ.َّ/.test(withHareke) || /^يَتَ.َ.َّ/.test(withHareke)) {
+    return { pattern: "تَفَعَّلَ", bab: "V", type: "fiil", desc: "V. bâb (tefaʿʿul)", source: "regex" };
+  }
+  if (/^مُتَ.َ.ِّ/.test(withHareke)) {
+    return { pattern: "مُتَفَعِّل", bab: "V", type: "ism-i fâil", desc: "V. bâb ism-i fâil", source: "regex" };
+  }
+
+  // VI. bâb: تَفَاعَلَ / يَتَفَاعَلُ
+  if (/^تَ.َا.َ/.test(withHareke) || /^يَتَ.َا.َ/.test(withHareke)) {
+    return { pattern: "تَفَاعَلَ", bab: "VI", type: "fiil", desc: "VI. bâb (tefâ'ul)", source: "regex" };
+  }
+
+  // IV. bâb: أَفْعَلَ / يُفْعِلُ / مُفْعِل
+  if (/^أَ.ْ.َ/.test(withHareke) && stripped.length <= 5) {
+    return { pattern: "أَفْعَلَ", bab: "IV", type: "fiil", desc: "IV. bâb (if'âl)", source: "regex" };
+  }
+
+  // II. bâb: فَعَّلَ / يُفَعِّلُ / مُفَعِّل / تَفْعِيل
+  if (/^تَ.ْ.ِي/.test(withHareke)) {
+    return { pattern: "تَفْعِيل", bab: "II", type: "masdar", desc: "II. bâb masdarı", source: "regex" };
+  }
+
+  // III. bâb: فَاعَلَ / يُفَاعِلُ / مُفَاعِل / مُفَاعَلَة
+  if (/^.َا.َ.َ$/.test(withHareke) && stripped.length <= 4) {
+    return { pattern: "فَاعَلَ", bab: "III", type: "fiil", desc: "III. bâb (müfâ'ale)", source: "regex" };
+  }
+  if (/^يُ.َا.ِ/.test(withHareke)) {
+    return { pattern: "يُفَاعِلُ", bab: "III", type: "fiil muzâri", desc: "III. bâb muzâri", source: "regex" };
+  }
+  if (/^مُ.َا.ِ/.test(withHareke)) {
+    return { pattern: "مُفَاعِل", bab: "III", type: "ism-i fâil", desc: "III. bâb ism-i fâil", source: "regex" };
+  }
+  if (/^مُ.َا.َلَة/.test(withHareke)) {
+    return { pattern: "مُفَاعَلَة", bab: "III", type: "masdar", desc: "III. bâb masdarı", source: "regex" };
+  }
+
+  // IX. bâb: اِفْعَلَّ / يَفْعَلُّ — renk/kusur
+  if (/^[اٱ].ْ.َ..َّ/.test(withHareke) && !/^[اٱ]سْتَ/.test(withHareke) && !/^[اٱ]نْ/.test(withHareke) && !/^[اٱ].ْتَ/.test(withHareke)) {
+    return { pattern: "اِفْعَلَّ", bab: "IX", type: "fiil", desc: "IX. bâb (if'ilâl — renk/kusur)", source: "regex" };
+  }
+  if (/^يَ.ْ.َ..ُّ/.test(withHareke)) {
+    return { pattern: "يَفْعَلُّ", bab: "IX", type: "fiil muzâri", desc: "IX. bâb muzâri", source: "regex" };
+  }
+
+  // I. bâb ism-i fâil/mef'ûl patterns
+  if (/^.َا.ِ/.test(withHareke) && stripped.length <= 4) {
+    return { pattern: "فَاعِل", bab: "I", type: "ism-i fâil", desc: "I. bâb ism-i fâil", source: "regex" };
+  }
+  if (/^مَ.ْ.ُو/.test(withHareke)) {
+    return { pattern: "مَفْعُول", bab: "I", type: "ism-i mef'ûl", desc: "I. bâb ism-i mef'ûl", source: "regex" };
+  }
+
+  return null; // Analiz yapılamadı
 }
 
 /**

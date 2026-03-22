@@ -1,5 +1,5 @@
 import { useState, useCallback, useRef, useEffect } from "react";
-import { BookOpen, GraduationCap, Brain, MessageCircle, Settings as SettingsIcon, Layers, ChevronLeft, ChevronRight, X, Search } from "lucide-react";
+import { BookOpen, GraduationCap, Brain, MessageCircle, Settings as SettingsIcon, Layers, ChevronLeft, ChevronRight, X, Search, Sun, Moon } from "lucide-react";
 import curriculum from "./data/curriculum";
 import useProgress from "./hooks/useProgress";
 import QuickAssessment from "./components/QuickAssessment";
@@ -158,7 +158,7 @@ export default function App() {
   return (
     <div className="min-h-screen min-h-[100dvh] bg-ustaz-bg pattern-overlay">
       {/* ── Header ── */}
-      <header className="sticky top-0 z-40 border-b border-white/[0.04] bg-ustaz-bg/85 backdrop-blur-xl pt-safe">
+      <header className="sticky top-0 z-40 border-b border-ov/[0.04] bg-ustaz-bg/85 backdrop-blur-xl pt-safe">
         <div className="mx-auto flex h-12 max-w-2xl items-center justify-between px-4">
           <button onClick={() => { if (isAppReady) { setView("lesson"); setBottomTab("ders"); } }} className="flex items-center gap-2">
             <span className="text-base">📖</span>
@@ -169,7 +169,7 @@ export default function App() {
             <div className="flex items-center gap-2">
               <div className="flex items-center gap-1.5">
                 <span className="text-[10px] text-ustaz-turkish/30 tabular-nums">{progress.totalRootsLearned}</span>
-                <div className="h-1 w-16 overflow-hidden rounded-full bg-white/[0.06]">
+                <div className="h-1 w-16 overflow-hidden rounded-full bg-ov/[0.06]">
                   <div className="h-full rounded-full bg-gradient-to-r from-ustaz-gold/70 to-ustaz-gold transition-all duration-500"
                     style={{ width: `${Math.min((progress.totalRootsLearned / 300) * 100, 100)}%` }} />
                 </div>
@@ -178,13 +178,19 @@ export default function App() {
             </div>
           )}
 
-          {/* Desktop only: lesson nav toggle */}
-          {view === "lesson" && (
-            <button onClick={() => setShowNav(!showNav)}
-              className="hidden rounded-lg p-2 text-ustaz-turkish/30 transition hover:bg-white/5 hover:text-ustaz-turkish/60 sm:block" title="Dersler">
-              <Layers size={16} />
+          {/* Desktop only: lesson nav toggle + theme toggle */}
+          <div className="flex items-center gap-1">
+            <button onClick={toggleTheme}
+              className="rounded-lg p-2 text-ustaz-turkish/30 transition hover:bg-ov/5 hover:text-ustaz-gold" title="Tema değiştir">
+              {theme === "dark" ? <Sun size={15} /> : <Moon size={15} />}
             </button>
-          )}
+            {view === "lesson" && (
+              <button onClick={() => setShowNav(!showNav)}
+                className="hidden rounded-lg p-2 text-ustaz-turkish/30 transition hover:bg-ov/5 hover:text-ustaz-turkish/60 sm:block" title="Dersler">
+                <Layers size={16} />
+              </button>
+            )}
+          </div>
         </div>
       </header>
 
@@ -193,7 +199,7 @@ export default function App() {
         <div className="fixed inset-0 z-50 flex sm:block">
           {/* Mobile: full-screen overlay */}
           <div className="fixed inset-0 bg-black/60 backdrop-blur-sm sm:hidden" onClick={() => setShowNav(false)} />
-          <div className="fixed inset-y-0 left-0 z-50 w-[85vw] max-w-xs border-r border-white/[0.06] bg-ustaz-bg shadow-2xl sm:absolute sm:w-72"
+          <div className="fixed inset-y-0 left-0 z-50 w-[85vw] max-w-xs border-r border-ov/[0.06] bg-ustaz-bg shadow-2xl sm:absolute sm:w-72"
             style={{ paddingTop: 'env(safe-area-inset-top, 0px)', paddingBottom: 'calc(64px + env(safe-area-inset-bottom, 0px))' }}>
             <LessonNav
               lessons={lessons}
@@ -248,7 +254,7 @@ export default function App() {
         {view === "lesson" && (
           <div className="view-enter pt-4" onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd}>
             {/* Lesson Header Card */}
-            <div className="mb-5 rounded-2xl border border-white/[0.06] bg-gradient-to-br from-ustaz-card to-ustaz-card/80 p-4">
+            <div className="mb-5 rounded-2xl border border-ov/[0.06] bg-gradient-to-br from-ustaz-card to-ustaz-card/80 p-4">
               <div className="mb-2 flex items-center gap-2">
                 <span className="rounded-lg bg-ustaz-gold/10 px-2 py-0.5 text-[10px] font-semibold text-ustaz-gold tracking-wide">
                   {currentLesson.level ? `SEVİYE ${currentLesson.level}` : `AŞAMA ${currentLesson.stage}`}
@@ -288,18 +294,18 @@ export default function App() {
             {/* Lesson Navigation */}
             <div className="mt-6 flex items-center justify-between">
               <button onClick={handlePrevLesson} disabled={currentIdx <= 0}
-                className="flex items-center gap-1.5 rounded-xl border border-white/[0.06] bg-white/[0.02] px-4 py-2.5 text-xs font-medium text-ustaz-turkish/40 transition active:scale-95 disabled:opacity-20">
+                className="flex items-center gap-1.5 rounded-xl border border-ov/[0.06] bg-ov/[0.02] px-4 py-2.5 text-xs font-medium text-ustaz-turkish/40 transition active:scale-95 disabled:opacity-20">
                 <ChevronLeft size={14} /> Önceki
               </button>
               <div className="flex items-center gap-1.5">
                 {lessons.map((_, i) => (
                   <div key={i} className={`h-1.5 rounded-full transition-all ${
-                    i === currentIdx ? "w-4 bg-ustaz-gold" : "w-1.5 bg-white/10"
+                    i === currentIdx ? "w-4 bg-ustaz-gold" : "w-1.5 bg-ov/10"
                   }`} />
                 ))}
               </div>
               <button onClick={handleNextLesson} disabled={currentIdx >= lessons.length - 1}
-                className="flex items-center gap-1.5 rounded-xl border border-white/[0.06] bg-white/[0.02] px-4 py-2.5 text-xs font-medium text-ustaz-turkish/40 transition active:scale-95 disabled:opacity-20">
+                className="flex items-center gap-1.5 rounded-xl border border-ov/[0.06] bg-ov/[0.02] px-4 py-2.5 text-xs font-medium text-ustaz-turkish/40 transition active:scale-95 disabled:opacity-20">
                 Sonraki <ChevronRight size={14} />
               </button>
             </div>
@@ -360,8 +366,8 @@ export default function App() {
       {conjRoot && <ConjugationPopup root={conjRoot} highlightForm={conjHighlight} onClose={() => { setConjRoot(null); setConjHighlight(null); }} />}
 
       {/* ── Footer (desktop only) ── */}
-      <footer className="hidden border-t border-white/[0.04] py-6 text-center text-[10px] text-ustaz-turkish/15 sm:block">
-        Ustaz v0.10 — Kur'an Arapçası Öğrenme Uygulaması
+      <footer className="hidden border-t border-ov/[0.04] py-6 text-center text-[10px] text-ustaz-turkish/15 sm:block">
+        Ustaz v0.12 — Kur'an Arapçası Öğrenme Uygulaması
       </footer>
     </div>
   );

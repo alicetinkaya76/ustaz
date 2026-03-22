@@ -1054,6 +1054,324 @@ const rootDB = {
     ],
     turkish_traces: ["kerem", "kerîm", "ikrâm", "mükerrem"],
   },
+  // ══════════════════════════════════════════════════════════
+  // L27-L30 KÖKLERİ
+  // ══════════════════════════════════════════════════════════
+  "ط-ف-ف": {
+    core: "az olmak, eksik tartmak",
+    quran_count: 1,
+    derivatives: [
+      { form: "مُطَفِّف", pattern: "مُفَعِّل", type: "ism-i fâil (II)", meaning: "eksik tartan" },
+      { form: "تَطْفِيف", pattern: "تَفْعِيل", type: "masdar (II)", meaning: "eksik tartma" },
+    ],
+    bab_chain: [
+      { bab: "II", form: "طَفَّفَ/يُطَفِّفُ", meaning: "eksik tarttı", semantic: "teksîr", lessons: ["L27"] },
+    ],
+    cross_refs: [
+      { lesson: "L27", verse: "83:1", form: "الْمُطَفِّفِينَ", note: "eksik tartanlar — II. bâb ism-i fâil cem" },
+    ],
+    turkish_traces: ["tatfîf"],
+  },
+  "ك-ي-ل": {
+    core: "ölçmek",
+    quran_count: 18,
+    derivatives: [
+      { form: "كَيْل", pattern: "فَعْل", type: "masdar", meaning: "ölçme" },
+      { form: "مِكْيَال", pattern: "مِفْعَال", type: "ism-i âlet", meaning: "ölçek" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "كَالَ/يَكِيلُ", meaning: "ölçtü", semantic: "temel eylem", lessons: ["L27"] },
+      { bab: "VIII", form: "اِكْتَالَ/يَكْتَالُ", meaning: "kendi için ölçtü", semantic: "kendine dönüş", lessons: ["L27"] },
+    ],
+    cross_refs: [
+      { lesson: "L27", verse: "83:2", form: "اكْتَالُوا", note: "kendi lehlerine ölçtüler — VIII. bâb" },
+      { lesson: "L27", verse: "83:3", form: "كَالُوهُمْ", note: "onlara ölçtüler — I. bâb" },
+    ],
+    turkish_traces: ["kile (ölçü birimi)"],
+  },
+  "و-ف-ي": {
+    core: "tam/eksiksiz olmak, vefâ",
+    quran_count: 54,
+    derivatives: [
+      { form: "وَفَاء", pattern: "فَعَال", type: "masdar", meaning: "vefa, sadakat" },
+      { form: "اِسْتِيفَاء", pattern: "اِسْتِفْعَال", type: "masdar (X)", meaning: "tam alma" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "وَفَى/يَفِي", meaning: "vefâ etti, yerine getirdi", semantic: "temel eylem", lessons: [] },
+      { bab: "X", form: "اِسْتَوْفَى/يَسْتَوْفِي", meaning: "tam almayı istedi", semantic: "talep", lessons: ["L27"] },
+    ],
+    cross_refs: [
+      { lesson: "L27", verse: "83:2", form: "يَسْتَوْفُونَ", note: "tam alıyorlar — X. bâb" },
+    ],
+    turkish_traces: ["vefa", "vefat", "istîfa"],
+  },
+  "خ-س-ر": {
+    core: "zarara uğramak, kaybetmek",
+    quran_count: 65,
+    derivatives: [
+      { form: "خُسْر", pattern: "فُعْل", type: "masdar", meaning: "ziyan, kayıp" },
+      { form: "خَاسِر", pattern: "فَاعِل", type: "ism-i fâil", meaning: "zarara uğrayan" },
+      { form: "خُسْرَان", pattern: "فُعْلَان", type: "masdar", meaning: "büyük kayıp" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "خَسِرَ/يَخْسَرُ", meaning: "zarara uğradı", semantic: "temel eylem", lessons: ["L06"] },
+      { bab: "IV", form: "أَخْسَرَ/يُخْسِرُ", meaning: "zarara uğrattı, eksik verdi", semantic: "ta'diye", lessons: ["L27"] },
+    ],
+    cross_refs: [
+      { lesson: "L06", verse: "103:2", form: "خُسْرٍ", note: "insanlar hüsrandadır — masdar" },
+      { lesson: "L27", verse: "83:3", form: "يُخْسِرُونَ", note: "eksiltirler — IV. bâb" },
+    ],
+    turkish_traces: ["husrân", "hâsir", "hasâret"],
+  },
+  "ر-ي-ن": {
+    core: "kaplamak, pas basmak",
+    quran_count: 1,
+    derivatives: [
+      { form: "رَيْن", pattern: "فَعْل", type: "masdar", meaning: "pas, kaplama, perde" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "رَانَ/يَرِينُ", meaning: "kapladı, paslandırdı", semantic: "temel eylem", lessons: ["L27"] },
+    ],
+    cross_refs: [
+      { lesson: "L27", verse: "83:14", form: "رَانَ", note: "günahlar kalpleri kapladı — I. bâb" },
+    ],
+    turkish_traces: [],
+  },
+  "ب-ر-ج": {
+    core: "açığa çıkmak, yüksek bina",
+    quran_count: 7,
+    derivatives: [
+      { form: "بُرُوج", pattern: "فُعُول", type: "cem", meaning: "burçlar, kuleler" },
+      { form: "بَارِج", pattern: "فَاعِل", type: "ism-i fâil", meaning: "açığa çıkan" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "بَرَجَ/يَبْرُجُ", meaning: "açığa çıktı, yüceldi", semantic: "temel eylem", lessons: ["L28"] },
+    ],
+    cross_refs: [
+      { lesson: "L28", verse: "85:1", form: "البُرُوجِ", note: "burçlar sahibi gök — فُعُول cem" },
+    ],
+    turkish_traces: ["burç (kule, yıldız menzili)", "teberrüc"],
+  },
+  "و-ع-د": {
+    core: "söz vermek, vaad etmek",
+    quran_count: 153,
+    derivatives: [
+      { form: "وَعْد", pattern: "فَعْل", type: "masdar", meaning: "vaad, söz" },
+      { form: "مَوْعُود", pattern: "مَفْعُول", type: "ism-i mef'ûl", meaning: "vaad edilen" },
+      { form: "مِيعَاد", pattern: "مِفْعَال", type: "isim", meaning: "buluşma yeri/zamanı" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "وَعَدَ/يَعِدُ", meaning: "vaad etti", semantic: "temel eylem", lessons: ["L28"] },
+    ],
+    cross_refs: [
+      { lesson: "L28", verse: "85:2", form: "المَوْعُودِ", note: "vaad edilen gün — مَفْعُول" },
+    ],
+    turkish_traces: ["vaad", "mev'ûd", "mîâd"],
+  },
+  "ف-ت-ن": {
+    core: "sınamak, ateşle eritme",
+    quran_count: 30,
+    derivatives: [
+      { form: "فِتْنَة", pattern: "فِعْلَة", type: "masdar/isim", meaning: "fitne, sınama" },
+      { form: "مَفْتُون", pattern: "مَفْعُول", type: "ism-i mef'ûl", meaning: "sınanan, tutkun" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "فَتَنَ/يَفْتِنُ", meaning: "sınadı, ateşle yaktı", semantic: "temel eylem", lessons: ["L28"] },
+    ],
+    cross_refs: [
+      { lesson: "L28", verse: "85:10", form: "فَتَنُوا", note: "müminleri sınadılar/yaktılar — I. bâb" },
+    ],
+    turkish_traces: ["fitne", "meftûn (tutkun)"],
+  },
+  "ت-و-ب": {
+    core: "dönmek, tövbe etmek",
+    quran_count: 87,
+    derivatives: [
+      { form: "تَوْبَة", pattern: "فَعْلَة", type: "masdar", meaning: "tövbe, dönüş" },
+      { form: "تَوَّاب", pattern: "فَعَّال", type: "mübalağa", meaning: "çok tövbe kabul eden" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "تَابَ/يَتُوبُ", meaning: "tövbe etti, döndü", semantic: "temel eylem", lessons: ["L28"] },
+    ],
+    cross_refs: [
+      { lesson: "L28", verse: "85:10", form: "يَتُوبُوا", note: "tövbe etmediler — muzâri meczûm" },
+    ],
+    turkish_traces: ["tövbe", "tevbe"],
+  },
+  "ع-م-د": {
+    core: "desteklemek, direk",
+    quran_count: 7,
+    derivatives: [
+      { form: "عِمَاد", pattern: "فِعَال", type: "isim", meaning: "sütun, direk" },
+      { form: "عَمُود", pattern: "فَعُول", type: "isim", meaning: "direk" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "عَمَدَ/يَعْمِدُ", meaning: "destek oldu, kasıtla yaptı", semantic: "temel eylem", lessons: ["L29"] },
+    ],
+    cross_refs: [
+      { lesson: "L29", verse: "89:7", form: "العِمَادِ", note: "sütunlar — İrem'in devasa yapıları" },
+    ],
+    turkish_traces: ["amûd (direk)", "i'timâd (güvenme)"],
+  },
+  "ق-س-م": {
+    core: "bölmek, paylaştırmak, yemin etmek",
+    quran_count: 33,
+    derivatives: [
+      { form: "قَسَم", pattern: "فَعَل", type: "masdar", meaning: "yemin, kasem" },
+      { form: "قِسْمَة", pattern: "فِعْلَة", type: "isim", meaning: "kısmet, pay" },
+      { form: "تَقْسِيم", pattern: "تَفْعِيل", type: "masdar (II)", meaning: "bölüştürme" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "قَسَمَ/يَقْسِمُ", meaning: "böldü", semantic: "temel eylem", lessons: [] },
+      { bab: "IV", form: "أَقْسَمَ/يُقْسِمُ", meaning: "yemin etti", semantic: "ta'diye", lessons: ["L30"] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "90:1", form: "أُقْسِمُ", note: "yemin ederim — IV. bâb muzâri" },
+    ],
+    turkish_traces: ["kasem (yemin)", "kısmet", "taksîm"],
+  },
+  "ك-ب-د": {
+    core: "karaciğer, zorluk",
+    quran_count: 1,
+    derivatives: [
+      { form: "كَبَد", pattern: "فَعَل", type: "isim", meaning: "zorluk, meşakkat; karaciğer" },
+      { form: "مُكَابَدَة", pattern: "مُفَاعَلَة", type: "masdar (III)", meaning: "zorluğa katlanma" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "كَبِدَ/يَكْبَدُ", meaning: "zorlandı", semantic: "temel eylem", lessons: ["L30"] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "90:4", form: "كَبَدٍ", note: "zorluk içinde yaratıldı" },
+    ],
+    turkish_traces: ["kebed (karaciğer)"],
+  },
+  "ن-ج-د": {
+    core: "yüksek yer, belirgin yol",
+    quran_count: 1,
+    derivatives: [
+      { form: "نَجْد", pattern: "فَعْل", type: "isim", meaning: "yüksek yer, sarp yol" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "نَجَدَ/يَنْجُدُ", meaning: "yüceldi, belirgin oldu", semantic: "temel eylem", lessons: ["L30"] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "90:10", form: "النَّجْدَيْنِ", note: "iki yol (hayır ve şer) — tesniye" },
+    ],
+    turkish_traces: ["Necid (bölge adı)", "istincâd"],
+  },
+  // ── L31–L34 Kökleri ──
+  "ز-ك-و": {
+    core: "temiz olmak, arınmak, büyümek",
+    quran_count: 59,
+    derivatives: [
+      { form: "زَكَاة", pattern: "فَعَالَة", type: "masdar", meaning: "zekât, arınma vergisi" },
+      { form: "تَزْكِيَة", pattern: "تَفْعِلَة", type: "masdar (II)", meaning: "arındırma" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "زَكَا/يَزْكُو", meaning: "temiz oldu, büyüdü", semantic: "temel eylem", lessons: [] },
+      { bab: "II", form: "زَكَّى/يُزَكِّي", meaning: "arındırdı, temizledi", semantic: "ta'diye", lessons: ["L31"] },
+      { bab: "V", form: "تَزَكَّى/يَتَزَكَّى", meaning: "arındı (kendini)", semantic: "mutâva'at", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L31", verse: "91:9", form: "زَكَّاهَا", note: "nefsini arındıran → felâh" },
+    ],
+    turkish_traces: ["zekât", "tezkiye", "tezekki"],
+  },
+  "ف-ل-ح": {
+    core: "yarmak, başarmak, kurtulmak",
+    quran_count: 40,
+    derivatives: [
+      { form: "فَلَاح", pattern: "فَعَال", type: "masdar", meaning: "kurtuluş, başarı" },
+      { form: "مُفْلِح", pattern: "مُفْعِل", type: "ism-i fâil (IV)", meaning: "kurtuluşa eren" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "فَلَحَ/يَفْلَحُ", meaning: "toprağı yardı; başardı", semantic: "temel eylem", lessons: [] },
+      { bab: "IV", form: "أَفْلَحَ/يُفْلِحُ", meaning: "kurtuluşa erdi", semantic: "ta'diye", lessons: ["L31"] },
+    ],
+    cross_refs: [
+      { lesson: "L31", verse: "91:9", form: "أَفْلَحَ", note: "nefsini arındıran kurtuluşa erdi" },
+    ],
+    turkish_traces: ["felâh", "müflih"],
+  },
+  "ش-ر-ح": {
+    core: "açmak, genişletmek, açıklamak",
+    quran_count: 4,
+    derivatives: [
+      { form: "شَرْح", pattern: "فَعْل", type: "masdar", meaning: "açma, açıklama" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "شَرَحَ/يَشْرَحُ", meaning: "açtı, genişletti", semantic: "temel eylem", lessons: ["L34"] },
+      { bab: "VII", form: "اِنْشَرَحَ/يَنْشَرِحُ", meaning: "açıldı, genişledi", semantic: "mutâva'at", lessons: ["L34"] },
+    ],
+    cross_refs: [
+      { lesson: "L34", verse: "94:1", form: "نَشْرَحْ", note: "senin göğsünü açmadık mı?" },
+    ],
+    turkish_traces: ["şerh", "teşrih"],
+  },
+  "ي-س-ر": {
+    core: "kolay olmak, kolaylaştırmak",
+    quran_count: 70,
+    derivatives: [
+      { form: "يُسْر", pattern: "فُعْل", type: "masdar", meaning: "kolaylık" },
+      { form: "يَسِير", pattern: "فَعِيل", type: "sıfat-ı müşebbehe", meaning: "kolay" },
+      { form: "مُيَسَّر", pattern: "مُفَعَّل", type: "ism-i mef'ûl (II)", meaning: "kolaylaştırılmış" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "يَسُرَ/يَيْسُرُ", meaning: "kolay oldu", semantic: "temel eylem", lessons: [] },
+      { bab: "II", form: "يَسَّرَ/يُيَسِّرُ", meaning: "kolaylaştırdı", semantic: "ta'diye", lessons: ["L32", "L34"] },
+    ],
+    cross_refs: [
+      { lesson: "L32", verse: "92:7", form: "فَسَنُيَسِّرُهُ", note: "onu kolaylaştıracağız (II. bâb)" },
+      { lesson: "L34", verse: "94:5", form: "يُسْرًا", note: "zorluğun yanında kolaylık" },
+    ],
+    turkish_traces: ["yüsr", "tesyîr", "meyser"],
+  },
+  "ض-ح-و": {
+    core: "aydınlanmak, kuşluk vakti",
+    quran_count: 5,
+    derivatives: [
+      { form: "ضُحَى", pattern: "فُعَل", type: "isim", meaning: "kuşluk vakti" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "ضَحَا/يَضْحُو", meaning: "güneşe çıktı, aydınlandı", semantic: "temel eylem", lessons: ["L31", "L33"] },
+    ],
+    cross_refs: [
+      { lesson: "L31", verse: "91:1", form: "ضُحَاهَا", note: "güneşin kuşluk aydınlığı" },
+      { lesson: "L33", verse: "93:1", form: "وَالضُّحَى", note: "kuşluk vaktine andolsun" },
+    ],
+    turkish_traces: ["duhâ (kuşluk)"],
+  },
+  "ق-ه-ر": {
+    core: "ezmek, üstün gelmek, kahretmek",
+    quran_count: 10,
+    derivatives: [
+      { form: "قَاهِر", pattern: "فَاعِل", type: "ism-i fâil", meaning: "üstün gelen, kahreden" },
+      { form: "قَهَّار", pattern: "فَعَّال", type: "mübalağa", meaning: "çok kahreden (el-Kahhâr)" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "قَهَرَ/يَقْهَرُ", meaning: "ezdi, kahrettti", semantic: "temel eylem", lessons: ["L33"] },
+    ],
+    cross_refs: [
+      { lesson: "L33", verse: "93:9", form: "تَقْهَرْ", note: "yetime hor davranma" },
+    ],
+    turkish_traces: ["kahır", "kahhâr", "kahretmek"],
+  },
+  "ح-د-ث": {
+    core: "olmak, konuşmak, anlatmak",
+    quran_count: 35,
+    derivatives: [
+      { form: "حَدِيث", pattern: "فَعِيل", type: "isim/sıfat", meaning: "söz, hadis, yeni" },
+      { form: "تَحْدِيث", pattern: "تَفْعِيل", type: "masdar (II)", meaning: "anlatma, rivayet" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "حَدَثَ/يَحْدُثُ", meaning: "meydana geldi", semantic: "temel eylem", lessons: [] },
+      { bab: "II", form: "حَدَّثَ/يُحَدِّثُ", meaning: "anlattı, haber verdi", semantic: "ta'diye", lessons: ["L33"] },
+    ],
+    cross_refs: [
+      { lesson: "L33", verse: "93:11", form: "فَحَدِّثْ", note: "Rabbinin nimetini anlat!" },
+    ],
+    turkish_traces: ["hadis", "hadise", "muhaddis"],
+  },
 };
 
 // Helper: kök anahtarlarını array olarak döndür

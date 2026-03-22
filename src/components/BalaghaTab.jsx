@@ -31,7 +31,7 @@ const branchStyles = {
 
 function ExampleCard({ example }) {
   return (
-    <div className="rounded-xl bg-white/[0.03] border border-white/[0.05] px-3 py-2.5">
+    <div className="rounded-xl bg-ov/[0.03] border border-ov/[0.05] px-3 py-2.5">
       <div className="flex items-baseline gap-2 mb-1.5">
         <span className="text-[10px] text-ustaz-gold/50 whitespace-nowrap">{example.verse}</span>
         <span className="arabic-text text-base text-ustaz-arabic leading-relaxed">{example.text}</span>
@@ -84,7 +84,7 @@ function BalaghaCard({ art }) {
       </button>
 
       {isExpanded && (
-        <div className="mt-4 space-y-3 border-t border-white/[0.06] pt-4">
+        <div className="mt-4 space-y-3 border-t border-ov/[0.06] pt-4">
           {/* Definition */}
           <p className="text-sm leading-relaxed text-ustaz-turkish/60">{art.definition}</p>
 
@@ -132,13 +132,13 @@ function BalaghaCard({ art }) {
             if (allOtherExamples.length === 0) return null;
 
             return (
-              <div className="mt-2 pt-2 border-t border-white/[0.04]">
+              <div className="mt-2 pt-2 border-t border-ov/[0.04]">
                 <p className="text-[9px] font-semibold uppercase tracking-wider text-ustaz-turkish/20 mb-1.5">
                   Başka Derslerde Bu Sanat
                 </p>
                 <div className="flex flex-wrap gap-1">
                   {allOtherExamples.slice(0, 4).map((ex, i) => (
-                    <span key={i} className="text-[9px] px-2 py-1 rounded-lg bg-white/[0.03] text-ustaz-turkish/30">
+                    <span key={i} className="text-[9px] px-2 py-1 rounded-lg bg-ov/[0.03] text-ustaz-turkish/30">
                       {ex.verse} ({ex.lesson})
                     </span>
                   ))}

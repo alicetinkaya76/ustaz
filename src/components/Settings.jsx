@@ -42,7 +42,7 @@ export default function Settings({ apiKey, onApiKeyChange, onExport, onImport, o
           <div className="flex items-center justify-between">
             <p className="text-xs text-ustaz-turkish/40">{isDark ? "Koyu tema aktif" : "Açık tema aktif"}</p>
             <button onClick={onToggleTheme}
-              className="relative flex h-8 w-14 items-center rounded-full border border-white/10 bg-ustaz-surface p-1 transition-colors"
+              className="relative flex h-8 w-14 items-center rounded-full border border-ov/10 bg-ustaz-surface p-1 transition-colors"
               aria-label="Tema değiştir">
               <span className={`flex h-6 w-6 items-center justify-center rounded-full shadow transition-all duration-300 ${
                 isDark ? "translate-x-0 bg-ustaz-gold" : "translate-x-6 bg-yellow-400"
@@ -57,7 +57,7 @@ export default function Settings({ apiKey, onApiKeyChange, onExport, onImport, o
           <p className="mb-3 text-xs text-ustaz-turkish/40">Ustaz'a Sor için gerekli. Anahtar yalnızca tarayıcında saklanır.</p>
           <div className="flex gap-2">
             <input type={showKey ? "text" : "password"} value={apiKey} onChange={(e) => onApiKeyChange(e.target.value)} placeholder="sk-ant-..."
-              className="flex-1 rounded-lg border border-white/5 bg-ustaz-bg/50 px-3 py-2 text-sm text-ustaz-turkish placeholder:text-ustaz-turkish/20 focus:border-ustaz-gold/30 focus:outline-none" />
+              className="flex-1 rounded-lg border border-ov/5 bg-ustaz-bg/50 px-3 py-2 text-sm text-ustaz-turkish placeholder:text-ustaz-turkish/20 focus:border-ustaz-gold/30 focus:outline-none" />
             <button onClick={() => setShowKey(!showKey)} className="btn-secondary text-xs">{showKey ? "Gizle" : "Göster"}</button>
           </div>
         </div>
@@ -70,7 +70,7 @@ export default function Settings({ apiKey, onApiKeyChange, onExport, onImport, o
           <div className="mb-3 flex items-center gap-2"><Upload size={14} className="text-pos-fil" /><h3 className="text-sm font-semibold text-ustaz-turkish/80">İlerlemeyi Yükle</h3></div>
           <p className="mb-3 text-xs text-ustaz-turkish/40">Daha önce indirilen JSON dosyasından ilerlemeyi geri yükle.</p>
           <input type="file" accept=".json" onChange={handleImportFile}
-            className="text-xs text-ustaz-turkish/40 file:mr-3 file:rounded-lg file:border-0 file:bg-white/5 file:px-3 file:py-1.5 file:text-xs file:text-ustaz-turkish/60" />
+            className="text-xs text-ustaz-turkish/40 file:mr-3 file:rounded-lg file:border-0 file:bg-ov/5 file:px-3 file:py-1.5 file:text-xs file:text-ustaz-turkish/60" />
         </div>
         <div className="card">
           <div className="mb-3 flex items-center gap-2"><Database size={14} className="text-pos-harf" /><h3 className="text-sm font-semibold text-ustaz-turkish/80">LLM Cache</h3></div>
