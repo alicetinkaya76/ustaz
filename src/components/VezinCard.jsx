@@ -19,8 +19,8 @@ function PatternRow({ patternKey, entry, isSelected, onSelect }) {
       onClick={() => onSelect(patternKey)}
       className={`w-full text-left rounded-xl px-3 py-2.5 transition-all ${
         isSelected
-          ? "ring-1 bg-white/[0.06]"
-          : "hover:bg-white/[0.03]"
+          ? "ring-1 bg-ov/[0.06]"
+          : "hover:bg-ov/[0.03]"
       }`}
       style={isSelected ? { ringColor: `${color}50`, borderColor: `${color}30` } : {}}
     >
@@ -48,7 +48,7 @@ function PatternDetail({ entry }) {
       {entry.examples.map((ex, i) => (
         <div
           key={i}
-          className="flex items-center gap-3 rounded-lg bg-white/[0.03] px-3 py-2"
+          className="flex items-center gap-3 rounded-lg bg-ov/[0.03] px-3 py-2"
           style={{ borderLeft: `3px solid ${color}40` }}
         >
           <span className="arabic-text text-lg font-semibold text-ustaz-arabic shrink-0" dir="rtl">{ex.arabic}</span>
@@ -90,22 +90,22 @@ export default function VezinCard({ onClose, initialPattern }) {
       <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={onClose} />
       <div className="relative w-full sm:max-w-lg max-h-[90vh] max-h-[90dvh] flex flex-col overflow-hidden rounded-t-3xl sm:rounded-2xl border border-[#d4a64a30] bg-ustaz-card shadow-2xl">
         {/* Mobile handle */}
-        <div className="mx-auto mt-3 mb-1 h-1 w-10 rounded-full bg-white/20 sm:hidden" />
+        <div className="mx-auto mt-3 mb-1 h-1 w-10 rounded-full bg-ov/20 sm:hidden" />
         {/* Header */}
-        <div className="flex items-center justify-between border-b border-white/5 px-5 py-4">
+        <div className="flex items-center justify-between border-b border-ov/5 px-5 py-4">
           <div>
             <span className="mb-1 inline-flex items-center gap-1.5 rounded-full px-2.5 py-0.5 text-[10px] font-semibold" style={{ color: "#d4a64acc", background: "#d4a64a15" }}>
               ⚙️ Sarf — Kalıp Sistemi
             </span>
             <h2 className="mt-1 text-lg font-bold text-ustaz-arabic">Vezin Rehberi — الأوزان</h2>
           </div>
-          <button onClick={onClose} className="rounded-lg p-1.5 text-ustaz-turkish/30 hover:bg-white/10 hover:text-ustaz-turkish">
+          <button onClick={onClose} className="rounded-lg p-1.5 text-ustaz-turkish/30 hover:bg-ov/10 hover:text-ustaz-turkish">
             <X size={16} />
           </button>
         </div>
 
         {/* Intro */}
-        <div className="border-b border-white/5 px-5 py-3">
+        <div className="border-b border-ov/5 px-5 py-3">
           <p className="text-xs leading-relaxed text-ustaz-turkish/60">
             Arapça'da üçlü kök (ف-ع-ل) kalıplara girer ve farklı anlamlar üretir.
             Aşağıda Kur'an'da sık karşılaşılan kalıplar var. Bir kalıba tıklayın.
@@ -113,8 +113,8 @@ export default function VezinCard({ onClose, initialPattern }) {
         </div>
 
         {/* Search */}
-        <div className="border-b border-white/5 px-5 py-2">
-          <div className="flex items-center gap-2 rounded-lg bg-white/[0.04] px-3 py-1.5">
+        <div className="border-b border-ov/5 px-5 py-2">
+          <div className="flex items-center gap-2 rounded-lg bg-ov/[0.04] px-3 py-1.5">
             <Search size={14} className="shrink-0 text-ustaz-turkish/30" />
             <input
               type="text"
@@ -145,7 +145,7 @@ export default function VezinCard({ onClose, initialPattern }) {
         </div>
 
         {/* Footer tip */}
-        <div className="border-t border-white/5 px-5 py-3">
+        <div className="border-t border-ov/5 px-5 py-3">
           <div className="flex gap-2 text-xs text-ustaz-gold/60">
             <span className="shrink-0">💡</span>
             <span>Aynı kök farklı kalıplara girince anlam değişir: ك-ت-ب → كِتَاب (kitap), كَاتِب (yazan), مَكْتُوب (yazılmış), مَكْتَبَة (kütüphane)</span>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { X, GitBranch, BookOpen, Languages, ChevronDown, ChevronUp } from "lucide-react";
+import { X, GitBranch, BookOpen, Languages, ChevronDown, ChevronUp, PenTool, Check } from "lucide-react";
 import { getRoot, getRootsForLesson } from "../data/rootDB";
 
 const branchColors = {
@@ -71,10 +71,10 @@ function DerivativeTree({ root }) {
       </p>
       <div className="grid gap-1.5">
         {root.derivatives.map((d, i) => (
-          <div key={i} className="flex items-center gap-3 rounded-xl bg-white/[0.03] px-3 py-2 border border-white/[0.04]">
+          <div key={i} className="flex items-center gap-3 rounded-xl bg-ov/[0.03] px-3 py-2 border border-ov/[0.04]">
             <span className="arabic-text text-base text-ustaz-arabic min-w-[60px] text-right">{d.form}</span>
             <span className="arabic-text text-xs text-ustaz-gold/40">{d.pattern}</span>
-            <span className={`text-[10px] px-1.5 py-0.5 rounded-md bg-white/[0.04] ${getTypeColor(d.type)}`}>
+            <span className={`text-[10px] px-1.5 py-0.5 rounded-md bg-ov/[0.04] ${getTypeColor(d.type)}`}>
               {d.type}
             </span>
             <span className="text-xs text-ustaz-turkish/60 flex-1">{d.meaning}</span>
@@ -98,9 +98,9 @@ function BabChain({ root }) {
           <div key={i} className="relative">
             {/* Connector line */}
             {i > 0 && (
-              <div className="absolute -top-2 left-5 h-2 w-px bg-white/10" />
+              <div className="absolute -top-2 left-5 h-2 w-px bg-ov/10" />
             )}
-            <div className={`rounded-xl border px-3 py-2.5 ${babColors[b.bab] || "bg-white/[0.04] text-ustaz-turkish/60 border-white/[0.06]"}`}>
+            <div className={`rounded-xl border px-3 py-2.5 ${babColors[b.bab] || "bg-ov/[0.04] text-ustaz-turkish/60 border-ov/[0.06]"}`}>
               <div className="flex items-center gap-2 mb-1">
                 <span className="text-xs font-bold">{b.bab}. bâb</span>
                 {babSemanticLabels[b.semantic] && (
@@ -117,7 +117,7 @@ function BabChain({ root }) {
               {b.lessons.length > 0 && (
                 <div className="mt-1.5 flex gap-1">
                   {b.lessons.map(l => (
-                    <span key={l} className="text-[9px] px-1.5 py-0.5 rounded bg-white/[0.08]">{l}</span>
+                    <span key={l} className="text-[9px] px-1.5 py-0.5 rounded bg-ov/[0.08]">{l}</span>
                   ))}
                 </div>
               )}
@@ -139,7 +139,7 @@ function CrossRefs({ root }) {
       </p>
       <div className="space-y-1">
         {root.cross_refs.map((ref, i) => (
-          <div key={i} className="flex items-start gap-2 rounded-lg bg-white/[0.02] px-3 py-2">
+          <div key={i} className="flex items-start gap-2 rounded-lg bg-ov/[0.02] px-3 py-2">
             <span className="text-[10px] text-ustaz-gold/50 mt-0.5 whitespace-nowrap">{ref.verse}</span>
             <span className="arabic-text text-sm text-ustaz-arabic">{ref.form}</span>
             <span className="text-[11px] text-ustaz-turkish/50 flex-1">{ref.note}</span>
@@ -182,7 +182,7 @@ export function RootDetail({ rootKey, onClose }) {
           </p>
         </div>
         {onClose && (
-          <button onClick={onClose} className="rounded-xl p-2 text-ustaz-turkish/40 transition hover:bg-white/10">
+          <button onClick={onClose} className="rounded-xl p-2 text-ustaz-turkish/40 transition hover:bg-ov/10">
             <X size={16} />
           </button>
         )}
@@ -192,6 +192,73 @@ export function RootDetail({ rootKey, onClose }) {
       <BabChain root={root} />
       <CrossRefs root={root} />
       <TurkishTraces root={root} />
+    </div>
+  );
+}
+
+// Mini quiz for a single root — inline in RootExplorer
+function RootMiniQuiz({ rootKey, rootData }) {
+  const [quizState, setQuizState] = useState("idle"); // idle | active | answered
+  const [answer, setAnswer] = useState(null);
+  const [options, setOptions] = useState([]);
+  const correctMeaning = rootData.core;
+
+  function startQuiz() {
+    // Generate 3 distractor meanings from other roots
+    const allMeanings = [
+      "bağışlamak, örtmek", "bilmek, öğrenmek", "yazmak, kalemle çizmek",
+      "açmak, fethetmek", "yardım etmek", "duymak, işitmek",
+      "yaratmak, var etmek", "yolculuk etmek", "korumak, saklamak",
+      "düzeltmek, ıslah etmek", "girmek, dâhil olmak", "çıkmak, hurûc",
+    ].filter(m => m !== correctMeaning);
+    const shuffled = allMeanings.sort(() => Math.random() - 0.5).slice(0, 3);
+    shuffled.push(correctMeaning);
+    shuffled.sort(() => Math.random() - 0.5);
+    setOptions(shuffled);
+    setQuizState("active");
+    setAnswer(null);
+  }
+
+  if (quizState === "idle") {
+    return (
+      <button onClick={startQuiz}
+        className="flex w-full items-center justify-center gap-2 rounded-xl border border-ov/[0.06] bg-ov/[0.02] py-2.5 text-[11px] text-ustaz-turkish/30 transition hover:border-ustaz-gold/20 hover:text-ustaz-gold active:scale-[0.98]">
+        <PenTool size={12} /> Bu kökü test et
+      </button>
+    );
+  }
+
+  return (
+    <div className="rounded-xl border border-ustaz-gold/10 bg-ustaz-gold/[0.02] p-3 space-y-2">
+      <p className="text-xs text-ustaz-turkish/60">
+        <span className="arabic-text text-sm text-ustaz-gold">{rootKey}</span> kökünün temel anlamı nedir?
+      </p>
+      <div className="grid grid-cols-2 gap-1.5">
+        {options.map((opt, i) => {
+          const isCorrect = opt === correctMeaning;
+          const isSelected = answer === i;
+          let style = "border-ov/[0.06] bg-ov/[0.02] hover:border-ov/10";
+          if (quizState === "answered") {
+            if (isCorrect) style = "border-pos-fil/30 bg-pos-fil/[0.06]";
+            else if (isSelected && !isCorrect) style = "border-red-400/30 bg-red-400/[0.06]";
+            else style = "border-ov/[0.04] opacity-40";
+          }
+          return (
+            <button key={i} disabled={quizState === "answered"}
+              onClick={() => { setAnswer(i); setQuizState("answered"); }}
+              className={`rounded-lg border px-2 py-2 text-[11px] text-ustaz-turkish/60 text-left transition ${style}`}>
+              {quizState === "answered" && isCorrect && <Check size={10} className="inline mr-1 text-pos-fil" />}
+              {opt}
+            </button>
+          );
+        })}
+      </div>
+      {quizState === "answered" && (
+        <button onClick={() => setQuizState("idle")}
+          className="text-[10px] text-ustaz-gold/50 hover:text-ustaz-gold transition">
+          Tekrar dene →
+        </button>
+      )}
     </div>
   );
 }
@@ -246,7 +313,7 @@ export default function RootExplorer({ lessonId }) {
             </button>
 
             {isExpanded && (
-              <div className="mt-4 space-y-4 border-t border-white/[0.06] pt-4">
+              <div className="mt-4 space-y-4 border-t border-ov/[0.06] pt-4">
                 <DerivativeTree root={rootData} />
                 <BabChain root={rootData} />
 
@@ -267,6 +334,9 @@ export default function RootExplorer({ lessonId }) {
                 )}
 
                 <TurkishTraces root={rootData} />
+
+                {/* Mini Quiz */}
+                <RootMiniQuiz rootKey={key} rootData={rootData} />
               </div>
             )}
           </div>

@@ -21,7 +21,7 @@ export default function LevelResult({ profile, valScore, valTotal, onStart }) {
         </p>
 
         {/* Validation score */}
-        <div className="mb-6 rounded-lg bg-white/5 px-4 py-3">
+        <div className="mb-6 rounded-lg bg-ov/5 px-4 py-3">
           <p className="text-xs text-ustaz-turkish/40">Doğrulama Skoru</p>
           <p className="text-2xl font-semibold text-ustaz-gold">
             {valScore} / {valTotal}

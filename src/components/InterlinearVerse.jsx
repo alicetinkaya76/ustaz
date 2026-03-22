@@ -77,7 +77,7 @@ export default function InterlinearVerse({ verse, showIrab = true, showRoot = tr
           className={`mt-1 flex h-8 w-8 shrink-0 items-center justify-center rounded-xl border transition-all active:scale-90 ${
             isPlaying
               ? "border-ustaz-gold/40 bg-ustaz-gold/15 text-ustaz-gold"
-              : "border-white/10 text-ustaz-turkish/30 hover:border-ustaz-gold/30 hover:text-ustaz-gold"
+              : "border-ov/10 text-ustaz-turkish/30 hover:border-ustaz-gold/30 hover:text-ustaz-gold"
           }`} title={isPlaying ? "Durdur" : "Dinle"}>
           <span className="text-sm">{isPlaying ? "◼" : "▶"}</span>
         </button>
@@ -103,7 +103,7 @@ export default function InterlinearVerse({ verse, showIrab = true, showRoot = tr
               {showRoot && word.root && <span className="arabic-text text-[11px] text-ustaz-gold/50">{word.root}</span>}
               <span className="text-[11px] font-medium text-ustaz-turkish/70 leading-tight">{word.meaning_tr}</span>
               {showIrab && (
-                <span className={`mt-0.5 rounded-lg px-1.5 py-0.5 text-[9px] font-medium ${pos.text} bg-white/[0.04]`}>
+                <span className={`mt-0.5 rounded-lg px-1.5 py-0.5 text-[9px] font-medium ${pos.text} bg-ov/[0.04]`}>
                   {word.irab_short}
                 </span>
               )}

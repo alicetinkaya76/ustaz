@@ -62,13 +62,13 @@ export default function GrammarCard({ termKey, onClose, onTermClick, onVezinClic
             </span>
             <h2 className="mt-1 text-lg font-bold text-ustaz-arabic">{entry.title}</h2>
           </div>
-          <button onClick={onClose} className="rounded-lg p-1.5 text-ustaz-turkish/30 hover:bg-white/10 hover:text-ustaz-turkish">
+          <button onClick={onClose} className="rounded-lg p-1.5 text-ustaz-turkish/30 hover:bg-ov/10 hover:text-ustaz-turkish">
             <X size={16} />
           </button>
         </div>
 
         {/* Definition */}
-        <div className="mb-3 rounded-xl bg-white/[0.03] p-3">
+        <div className="mb-3 rounded-xl bg-ov/[0.03] p-3">
           <p className="text-[10px] font-semibold uppercase tracking-wider text-ustaz-turkish/30">Tanım</p>
           <p className="mt-1 text-sm leading-relaxed text-ustaz-turkish/80">{entry.definition}</p>
         </div>
@@ -81,7 +81,7 @@ export default function GrammarCard({ termKey, onClose, onTermClick, onVezinClic
 
         {/* Signs */}
         {entry.signs && (
-          <div className="mb-3 rounded-xl bg-white/[0.02] p-3" style={{ borderLeft: `3px solid ${entry.color}40` }}>
+          <div className="mb-3 rounded-xl bg-ov/[0.02] p-3" style={{ borderLeft: `3px solid ${entry.color}40` }}>
             <p className="text-[10px] font-semibold uppercase tracking-wider text-ustaz-turkish/30">Alametler</p>
             <p className="mt-1 text-sm text-ustaz-turkish/70">{entry.signs}</p>
           </div>
@@ -92,7 +92,7 @@ export default function GrammarCard({ termKey, onClose, onTermClick, onVezinClic
           <p className="mb-2 text-[10px] font-semibold uppercase tracking-wider text-ustaz-turkish/30">Örnekler</p>
           <div className="space-y-1.5">
             {entry.examples.map((ex, i) => (
-              <div key={i} className="rounded-lg bg-white/[0.02] px-3 py-2">
+              <div key={i} className="rounded-lg bg-ov/[0.02] px-3 py-2">
                 <p className="arabic-text text-lg text-ustaz-arabic" dir="rtl">{ex.arabic}</p>
                 <p className="mt-0.5 text-xs text-ustaz-turkish/50">{ex.explanation}</p>
               </div>

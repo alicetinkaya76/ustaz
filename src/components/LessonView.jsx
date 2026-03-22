@@ -60,9 +60,9 @@ export default function LessonView({ lesson, apiKey, onQuizComplete, onRootResul
                 />
                 {i < lesson.verses.length - 1 && (
                   <div className="my-5 flex items-center gap-3">
-                    <div className="h-px flex-1 bg-gradient-to-r from-transparent via-white/[0.06] to-transparent" />
+                    <div className="h-px flex-1 bg-gradient-to-r from-transparent via-ov/[0.06] to-transparent" />
                     <span className="text-ustaz-gold/15 text-xs">✦</span>
-                    <div className="h-px flex-1 bg-gradient-to-r from-transparent via-white/[0.06] to-transparent" />
+                    <div className="h-px flex-1 bg-gradient-to-r from-transparent via-ov/[0.06] to-transparent" />
                   </div>
                 )}
               </div>
@@ -106,7 +106,7 @@ export default function LessonView({ lesson, apiKey, onQuizComplete, onRootResul
                           <p className="text-[10px] font-semibold uppercase tracking-wider text-ustaz-turkish/30 mb-1.5">Örnekler</p>
                           <div className="space-y-1.5">
                             {note.examples.map((ex, j) => (
-                              <div key={j} className="rounded-xl bg-white/[0.02] px-3 py-2.5 text-sm text-ustaz-turkish/60">{ex}</div>
+                              <div key={j} className="rounded-xl bg-ov/[0.02] px-3 py-2.5 text-sm text-ustaz-turkish/60">{ex}</div>
                             ))}
                           </div>
                         </div>

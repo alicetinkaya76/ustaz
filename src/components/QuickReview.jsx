@@ -67,18 +67,18 @@ export default function QuickReview({ vocabulary, onUpdateVocab, onFinish }) {
         <div className="flex gap-1">
           {words.map((_, i) => (
             <div key={i} className={`h-1.5 w-3 rounded-full transition-all ${
-              i < idx ? (results[i]?.correct ? "bg-pos-fil" : "bg-red-400/60") : i === idx ? "bg-ustaz-gold/50" : "bg-white/[0.06]"
+              i < idx ? (results[i]?.correct ? "bg-pos-fil" : "bg-red-400/60") : i === idx ? "bg-ustaz-gold/50" : "bg-ov/[0.06]"
             }`} />
           ))}
         </div>
       </div>
 
       {/* Flashcard */}
-      <div className="mb-6 rounded-2xl border border-white/[0.06] bg-gradient-to-br from-ustaz-surface to-ustaz-card py-10 text-center">
+      <div className="mb-6 rounded-2xl border border-ov/[0.06] bg-gradient-to-br from-ustaz-surface to-ustaz-card py-10 text-center">
         <p className="arabic-text text-4xl text-ustaz-gold mb-3" dir="rtl">{current.root}</p>
         <p className="text-xs text-ustaz-turkish/25">Bu kökü hatırlıyor musun?</p>
         {showAnswer && (
-          <div className="mt-4 mx-6 rounded-xl bg-white/[0.04] p-3">
+          <div className="mt-4 mx-6 rounded-xl bg-ov/[0.04] p-3">
             <p className="text-xs text-ustaz-turkish/50">
               Doğru: <strong className="text-pos-fil">{current.correct}</strong> · Yanlış: <strong className="text-red-400">{current.wrong}</strong>
             </p>
