@@ -10,6 +10,7 @@ import Settings from "./components/Settings";
 import GrammarCard from "./components/GrammarCard";
 import VezinCard from "./components/VezinCard";
 import QuickReview from "./components/QuickReview";
+import ConjugationPopup from "./components/ConjugationPopup";
 
 const API_KEY_STORAGE = "ustaz-api-key";
 const THEME_STORAGE = "ustaz-theme";
@@ -38,6 +39,10 @@ export default function App() {
   const [grammarHistory, setGrammarHistory] = useState([]);
   const [showVezin, setShowVezin] = useState(false);
   const [vezinPattern, setVezinPattern] = useState(null);
+
+  // Conjugation modal
+  const [conjRoot, setConjRoot] = useState(null);
+  const [conjHighlight, setConjHighlight] = useState(null);
 
   // Bottom nav active tab
   const [bottomTab, setBottomTab] = useState("ders");
@@ -123,6 +128,13 @@ export default function App() {
     setGrammarTerm(termKey);
   }
   function openVezinFromGrammar(pattern) { setShowVezin(true); setVezinPattern(pattern || null); }
+
+  // Conjugation navigation
+  function openConjugation(root, highlightForm) {
+    setConjRoot(root);
+    setConjHighlight(highlightForm || null);
+  }
+
   function closeGrammar() {
     if (grammarHistory.length > 0) {
       setGrammarTerm(grammarHistory[grammarHistory.length - 1]);
@@ -270,6 +282,7 @@ export default function App() {
               activeTab={activeTab}
               onTabChange={handleTabChange}
               onGrammarClick={openGrammar}
+              onConjugation={openConjugation}
             />
 
             {/* Lesson Navigation */}
@@ -343,9 +356,12 @@ export default function App() {
       {/* ── Vezin Card Modal ── */}
       {showVezin && <VezinCard onClose={() => setShowVezin(false)} initialPattern={vezinPattern} />}
 
+      {/* ── Conjugation Popup Modal ── */}
+      {conjRoot && <ConjugationPopup root={conjRoot} highlightForm={conjHighlight} onClose={() => { setConjRoot(null); setConjHighlight(null); }} />}
+
       {/* ── Footer (desktop only) ── */}
       <footer className="hidden border-t border-white/[0.04] py-6 text-center text-[10px] text-ustaz-turkish/15 sm:block">
-        Ustaz v0.9 — Kur'an Arapçası Öğrenme Uygulaması
+        Ustaz v0.10 — Kur'an Arapçası Öğrenme Uygulaması
       </footer>
     </div>
   );

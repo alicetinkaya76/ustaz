@@ -23,7 +23,7 @@ function getAudioUrl(surah, ayah) {
   return `https://everyayah.com/data/Alafasy_128kbps/${s}${a}.mp3`;
 }
 
-export default function InterlinearVerse({ verse, showIrab = true, showRoot = true, onGrammarClick, onAskUstaz }) {
+export default function InterlinearVerse({ verse, showIrab = true, showRoot = true, onGrammarClick, onAskUstaz, onConjugation }) {
   const [selectedWordId, setSelectedWordId] = useState(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef(null);
@@ -130,14 +130,14 @@ export default function InterlinearVerse({ verse, showIrab = true, showRoot = tr
               <div className="bottom-sheet-handle" />
               <div className="max-h-[75vh] max-h-[75dvh] overflow-y-auto px-5 pb-5">
                 <WordPopup word={selectedWord} onClose={() => setSelectedWordId(null)}
-                  onGrammarClick={onGrammarClick} onAskUstaz={onAskUstaz} isMobile={true} />
+                  onGrammarClick={onGrammarClick} onAskUstaz={onAskUstaz} onConjugation={onConjugation} isMobile={true} />
               </div>
             </div>
           </div>
           {/* Desktop: inline */}
           <div className="hidden sm:block">
             <WordPopup word={selectedWord} onClose={() => setSelectedWordId(null)}
-              onGrammarClick={onGrammarClick} onAskUstaz={onAskUstaz} />
+              onGrammarClick={onGrammarClick} onAskUstaz={onAskUstaz} onConjugation={onConjugation} />
           </div>
         </>
       )}

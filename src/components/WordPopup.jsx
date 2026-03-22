@@ -1,4 +1,4 @@
-import { X, Sparkles, Link, MessageCircle } from "lucide-react";
+import { X, Sparkles, Link, MessageCircle, Table2 } from "lucide-react";
 import { parseGrammarLinks } from "./GrammarCard";
 
 const posLabels = {
@@ -6,7 +6,7 @@ const posLabels = {
   "harf+ism": "Harf + İsim", "harf+fil": "Harf + Fiil", "harf+zamir": "Harf + Zamîr",
 };
 
-export default function WordPopup({ word, onClose, onGrammarClick, onAskUstaz, isMobile = false }) {
+export default function WordPopup({ word, onClose, onGrammarClick, onAskUstaz, onConjugation, isMobile = false }) {
   if (!word) return null;
 
   const Wrapper = isMobile ? "div" : "div";
@@ -92,13 +92,24 @@ export default function WordPopup({ word, onClose, onGrammarClick, onAskUstaz, i
         )}
       </div>
 
-      {/* Ask Ustaz */}
-      {onAskUstaz && (
-        <button onClick={() => onAskUstaz(`${word.arabic} (${word.root || ""}) kelimesi hakkında detaylı bilgi ver.`)}
-          className="mt-3 flex w-full items-center justify-center gap-2 rounded-xl border border-white/[0.06] bg-white/[0.02] py-3 text-xs font-medium text-ustaz-turkish/40 transition active:scale-[0.97] hover:border-ustaz-gold/20 hover:text-ustaz-gold">
-          <MessageCircle size={13} /> Bu kelimeyi Ustaz'a sor
-        </button>
-      )}
+      {/* Action buttons */}
+      <div className="mt-3 flex flex-col gap-2">
+        {/* Conjugation button — only for verbs */}
+        {onConjugation && word.root && (word.pos === "fil" || (word.pos && word.pos.includes("fil"))) && (
+          <button onClick={() => onConjugation(word.root, word.arabic)}
+            className="flex w-full items-center justify-center gap-2 rounded-xl border border-purple-500/15 bg-purple-500/[0.04] py-3 text-xs font-medium text-purple-400/70 transition active:scale-[0.97] hover:border-purple-500/30 hover:text-purple-400">
+            <Table2 size={13} /> Çekim Tablosu
+          </button>
+        )}
+
+        {/* Ask Ustaz */}
+        {onAskUstaz && (
+          <button onClick={() => onAskUstaz(`${word.arabic} (${word.root || ""}) kelimesi hakkında detaylı bilgi ver.`)}
+            className="flex w-full items-center justify-center gap-2 rounded-xl border border-white/[0.06] bg-white/[0.02] py-3 text-xs font-medium text-ustaz-turkish/40 transition active:scale-[0.97] hover:border-ustaz-gold/20 hover:text-ustaz-gold">
+            <MessageCircle size={13} /> Bu kelimeyi Ustaz'a sor
+          </button>
+        )}
+      </div>
     </div>
   );
 }

@@ -1,12 +1,13 @@
 import { useState } from "react";
-import { BookOpen, GraduationCap, PenTool, MessageCircle, ChevronDown, ChevronUp, GitBranch, Sparkles } from "lucide-react";
+import { BookOpen, GraduationCap, PenTool, MessageCircle, ChevronDown, ChevronUp, GitBranch, Sparkles, TreePine } from "lucide-react";
 import InterlinearVerse from "./InterlinearVerse";
 import ExerciseCard from "./ExerciseCard";
 import ChatInline from "./ChatInline";
 import RootExplorer from "./RootExplorer";
 import BalaghaTab from "./BalaghaTab";
+import IrabTree from "./IrabTree";
 
-export default function LessonView({ lesson, apiKey, onQuizComplete, onRootResult, isCompleted, activeTab, onTabChange, onGrammarClick }) {
+export default function LessonView({ lesson, apiKey, onQuizComplete, onRootResult, isCompleted, activeTab, onTabChange, onGrammarClick, onConjugation }) {
   const [expandedGrammar, setExpandedGrammar] = useState(null);
   const [chatInitialMessage, setChatInitialMessage] = useState(null);
 
@@ -15,6 +16,7 @@ export default function LessonView({ lesson, apiKey, onQuizComplete, onRootResul
 
   const sections = [
     { id: "verses", icon: BookOpen, label: "Ayetler" },
+    { id: "irab", icon: TreePine, label: "İ'rab" },
     { id: "roots", icon: GitBranch, label: "Kökler" },
     { id: "grammar", icon: GraduationCap, label: "Gramer" },
     { id: "balagha", icon: Sparkles, label: "بلاغة" },
@@ -54,6 +56,7 @@ export default function LessonView({ lesson, apiKey, onQuizComplete, onRootResul
                   verse={verse}
                   onGrammarClick={onGrammarClick}
                   onAskUstaz={handleAskUstaz}
+                  onConjugation={onConjugation}
                 />
                 {i < lesson.verses.length - 1 && (
                   <div className="my-5 flex items-center gap-3">
@@ -62,6 +65,16 @@ export default function LessonView({ lesson, apiKey, onQuizComplete, onRootResul
                     <div className="h-px flex-1 bg-gradient-to-r from-transparent via-white/[0.06] to-transparent" />
                   </div>
                 )}
+              </div>
+            ))}
+          </div>
+        )}
+
+        {tab === "irab" && (
+          <div className="space-y-6">
+            {lesson.verses.map((verse, i) => (
+              <div key={`irab-${verse.surah}-${verse.ayah}`} className="card">
+                <IrabTree verse={verse} />
               </div>
             ))}
           </div>

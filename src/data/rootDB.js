@@ -940,6 +940,120 @@ const rootDB = {
     ],
     turkish_traces: ["Kur'ân", "kıraat", "kâri'"],
   },
+  // ─── L24-L26 Kökleri ───
+  "س-أ-ل": {
+    core: "sormak, istemek",
+    quran_count: 129,
+    derivatives: [
+      { form: "سُؤَال", pattern: "فُعَال", type: "masdar", meaning: "soru" },
+      { form: "سَائِل", pattern: "فَاعِل", type: "ism-i fâil", meaning: "soran, isteyen" },
+      { form: "مَسْأَلَة", pattern: "مَفْعَلَة", type: "ism-i mekân/masdar", meaning: "mesele, sorun" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "سَأَلَ/يَسْأَلُ", meaning: "sordu", semantic: "temel eylem", lessons: [] },
+      { bab: "VI", form: "تَسَاءَلَ/يَتَسَاءَلُ", meaning: "birbirine sordu", semantic: "karşılıklılık", lessons: ["L24"] },
+    ],
+    cross_refs: [
+      { lesson: "L24", verse: "78:1", form: "يَتَسَاءَلُونَ", note: "VI. bâb — birbirlerine soruyorlar" },
+    ],
+    turkish_traces: ["sual", "mesele"],
+  },
+  "خ-ل-ف": {
+    core: "arkada kalmak, yerine geçmek, farklı olmak",
+    quran_count: 127,
+    derivatives: [
+      { form: "خَلِيفَة", pattern: "فَعِيلَة", type: "isim", meaning: "halife, halef" },
+      { form: "اِخْتِلَاف", pattern: "اِفْتِعَال", type: "masdar (VIII)", meaning: "ihtilâf, ayrılık" },
+      { form: "مُخْتَلِف", pattern: "مُفْتَعِل", type: "ism-i fâil (VIII)", meaning: "farklı düşünen" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "خَلَفَ/يَخْلُفُ", meaning: "yerine geçti", semantic: "temel eylem", lessons: [] },
+      { bab: "VIII", form: "اِخْتَلَفَ/يَخْتَلِفُ", meaning: "ihtilâf etti", semantic: "dönüşlü/karşılıklı", lessons: ["L24"] },
+    ],
+    cross_refs: [
+      { lesson: "L24", verse: "78:3", form: "مُخْتَلِفُونَ", note: "ihtilâf edenler — VIII. bâb ism-i fâil" },
+    ],
+    turkish_traces: ["halife", "halef", "muhâlefet", "ihtilâf"],
+  },
+  "ن-ز-ع": {
+    core: "çekip çıkarmak, koparmak",
+    quran_count: 11,
+    derivatives: [
+      { form: "نَازِع", pattern: "فَاعِل", type: "ism-i fâil", meaning: "çekip çıkaran" },
+      { form: "نَزْع", pattern: "فَعْل", type: "masdar", meaning: "çekip çıkarma" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "نَزَعَ/يَنْزِعُ", meaning: "çekip çıkardı", semantic: "temel eylem", lessons: ["L25"] },
+    ],
+    cross_refs: [
+      { lesson: "L25", verse: "79:1", form: "النَّازِعَات", note: "çekip çıkaranlar — ism-i fâil cem-i müennes" },
+    ],
+    turkish_traces: ["nez' (çıkarma)"],
+  },
+  "ف-ط-ر": {
+    core: "yarmak, ilk açmak, yaratmak",
+    quran_count: 20,
+    derivatives: [
+      { form: "فِطْرَة", pattern: "فِعْلَة", type: "masdar/isim", meaning: "yaratılış, fıtrat" },
+      { form: "فَاطِر", pattern: "فَاعِل", type: "ism-i fâil", meaning: "yaratan (gökleri ve yeri)" },
+      { form: "اِنْفِطَار", pattern: "اِنْفِعَال", type: "masdar (VII)", meaning: "yarılma" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "فَطَرَ/يَفْطُرُ", meaning: "yarattı, yardı", semantic: "temel eylem", lessons: [] },
+      { bab: "VII", form: "اِنْفَطَرَ/يَنْفَطِرُ", meaning: "yarıldı", semantic: "edilgen/kendiliğinden", lessons: ["L26"] },
+    ],
+    cross_refs: [
+      { lesson: "L26", verse: "82:1", form: "اِنْفَطَرَتْ", note: "gök yarıldı — VII. bâb" },
+    ],
+    turkish_traces: ["fıtrat", "fıtrî", "iftar"],
+  },
+  "ف-ج-ر": {
+    core: "yarmak, fışkırtmak, patlatmak",
+    quran_count: 13,
+    derivatives: [
+      { form: "فَجْر", pattern: "فَعْل", type: "masdar/isim", meaning: "tan, fecir" },
+      { form: "اِنْفِجَار", pattern: "اِنْفِعَال", type: "masdar (VII)", meaning: "patlama, fışkırma" },
+    ],
+    bab_chain: [
+      { bab: "II", form: "فَجَّرَ/يُفَجِّرُ", meaning: "patlattı, akıttı", semantic: "çoğaltma/yoğunluk", lessons: ["L26"] },
+    ],
+    cross_refs: [
+      { lesson: "L26", verse: "82:3", form: "فُجِّرَتْ", note: "denizler patlatıldı — II. bâb meçhul" },
+    ],
+    turkish_traces: ["fecir", "fücûr"],
+  },
+  "غ-ر-ر": {
+    core: "aldatmak, kandırmak",
+    quran_count: 27,
+    derivatives: [
+      { form: "غُرُور", pattern: "فُعُول", type: "masdar", meaning: "aldanma, gurur" },
+      { form: "غَرُور", pattern: "فَعُول", type: "mübalağa", meaning: "çok aldatan (şeytan)" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "غَرَّ/يَغُرُّ", meaning: "aldattı", semantic: "temel eylem", lessons: ["L26"] },
+    ],
+    cross_refs: [
+      { lesson: "L26", verse: "82:6", form: "غَرَّكَ", note: "seni aldatan ne? — I. bâb" },
+    ],
+    turkish_traces: ["gurur", "mağrur", "garip"],
+  },
+  "ك-ر-م": {
+    core: "cömert olmak, şerefli olmak",
+    quran_count: 47,
+    derivatives: [
+      { form: "كَرِيم", pattern: "فَعِيل", type: "sıfat", meaning: "cömert, kerem sahibi" },
+      { form: "إِكْرَام", pattern: "إِفْعَال", type: "masdar (IV)", meaning: "ikram, ağırlama" },
+      { form: "أَكْرَم", pattern: "أَفْعَل", type: "ism-i tafdîl / IV. bâb", meaning: "en cömert / ikram etti" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "كَرُمَ/يَكْرُمُ", meaning: "kerem sahibi oldu", semantic: "temel eylem", lessons: [] },
+      { bab: "IV", form: "أَكْرَمَ/يُكْرِمُ", meaning: "ikram etti", semantic: "geçişli yapma", lessons: ["L26"] },
+    ],
+    cross_refs: [
+      { lesson: "L26", verse: "82:6", form: "الكَرِيمِ", note: "cömert Rabbin — فَعِيل sıfat" },
+    ],
+    turkish_traces: ["kerem", "kerîm", "ikrâm", "mükerrem"],
+  },
 };
 
 // Helper: kök anahtarlarını array olarak döndür
