@@ -18,7 +18,92 @@ const typeConfig = {
   wazn_match: { icon: Scale, label: "Vezin Eşleştirme", badge: "bg-purple-500/15 text-purple-400 border-purple-500/20" },
   irab_identify: { icon: BookOpen, label: "İ'rab Rolü", badge: "bg-orange-500/15 text-orange-400 border-orange-500/20" },
   balagha_identify: { icon: Sparkles, label: "Belâgat", badge: "bg-amber-500/15 text-amber-400 border-amber-500/20" },
+  matching: { icon: Layers, label: "Eşleştirme", badge: "bg-teal-500/15 text-teal-400 border-teal-500/20" },
 };
+
+function MatchingQuiz({ pairs, onDone }) {
+  const [shuffledRight] = useState(() => shuffle(pairs.map((p, i) => ({ text: p.right, idx: i }))));
+  const [selectedLeft, setSelectedLeft] = useState(null);
+  const [matched, setMatched] = useState({}); // { leftIdx: rightIdx }
+  const [wrong, setWrong] = useState(null);
+
+  const allMatched = Object.keys(matched).length === pairs.length;
+
+  function handleLeftTap(i) {
+    if (matched[i] !== undefined) return;
+    setSelectedLeft(i === selectedLeft ? null : i);
+    setWrong(null);
+  }
+
+  function handleRightTap(ri) {
+    if (selectedLeft === null) return;
+    const rightItem = shuffledRight[ri];
+    if (Object.values(matched).includes(ri)) return;
+
+    if (rightItem.idx === selectedLeft) {
+      const next = { ...matched, [selectedLeft]: ri };
+      setMatched(next);
+      setSelectedLeft(null);
+      setWrong(null);
+      if (Object.keys(next).length === pairs.length) {
+        setTimeout(() => onDone(true), 400);
+      }
+    } else {
+      setWrong(ri);
+      setTimeout(() => { setWrong(null); setSelectedLeft(null); }, 600);
+    }
+  }
+
+  return (
+    <div className="grid grid-cols-2 gap-2" role="group" aria-label="Eşleştirme quizi">
+      <div className="space-y-1.5">
+        {pairs.map((p, i) => (
+          <button
+            key={`l${i}`}
+            onClick={() => handleLeftTap(i)}
+            disabled={matched[i] !== undefined}
+            className={`w-full rounded-lg border px-2.5 py-2 text-left text-xs transition-all ${
+              matched[i] !== undefined
+                ? "border-pos-fil/30 bg-pos-fil/[0.06] opacity-60"
+                : i === selectedLeft
+                  ? "border-ustaz-gold/40 bg-ustaz-gold/[0.06] ring-1 ring-ustaz-gold/20"
+                  : "border-ov/[0.08] hover:border-ov/[0.15]"
+            }`}
+            aria-label={`Sol: ${p.left}`}
+            aria-pressed={i === selectedLeft}
+          >
+            <span className="arabic-text text-sm text-ustaz-arabic">{p.left}</span>
+          </button>
+        ))}
+      </div>
+      <div className="space-y-1.5">
+        {shuffledRight.map((r, ri) => {
+          const isMatched = Object.values(matched).includes(ri);
+          const isWrong = wrong === ri;
+          return (
+            <button
+              key={`r${ri}`}
+              onClick={() => handleRightTap(ri)}
+              disabled={isMatched}
+              className={`w-full rounded-lg border px-2.5 py-2 text-left text-xs transition-all ${
+                isMatched
+                  ? "border-pos-fil/30 bg-pos-fil/[0.06] opacity-60"
+                  : isWrong
+                    ? "border-red-400/40 bg-red-400/[0.06]"
+                    : selectedLeft !== null
+                      ? "border-ov/[0.12] hover:border-ustaz-gold/30 cursor-pointer"
+                      : "border-ov/[0.06]"
+              }`}
+              aria-label={`Sağ: ${r.text}`}
+            >
+              <span className="text-ustaz-turkish/70">{r.text}</span>
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
 
 export default function ExerciseCard({ exercises, lessonId, onComplete, onRootResult }) {
   const [currentIdx, setCurrentIdx] = useState(0);
@@ -149,7 +234,29 @@ export default function ExerciseCard({ exercises, lessonId, onComplete, onRootRe
       )}
       <p className="mb-5 text-[15px] leading-relaxed text-ustaz-turkish">{current.question}</p>
 
-      {/* Options */}
+      {/* Matching type */}
+      {current.type === "matching" ? (
+        <div>
+          {!showResult ? (
+            <MatchingQuiz
+              pairs={current.pairs}
+              onDone={(success) => {
+                if (success) scoreRef.current += 1;
+                if (current.relatedRoots && onRootResult) {
+                  current.relatedRoots.forEach((root) => onRootResult(root, success));
+                }
+                setShowResult(true);
+                setSelected(success ? current.correct : -1);
+              }}
+            />
+          ) : (
+            <div className="rounded-xl border border-pos-fil/20 bg-pos-fil/[0.04] px-3 py-2 text-xs text-pos-fil/70">
+              ✓ Tüm eşleştirmeler doğru!
+            </div>
+          )}
+        </div>
+      ) : (
+      /* Options (single choice types) */
       <div className="flex flex-col gap-2">
         {current.options.map((opt, i) => {
           let optStyle = "border-ov/[0.06] bg-ustaz-surface hover:border-ov/10";
@@ -171,14 +278,15 @@ export default function ExerciseCard({ exercises, lessonId, onComplete, onRootRe
           );
         })}
       </div>
+      )}
 
       {/* Explanation + Next */}
       {showResult && (
         <div className="mt-4">
           <div className={`mb-3 rounded-xl px-4 py-3 text-sm leading-relaxed ${
-            isCorrect ? "bg-pos-fil/[0.04] text-pos-fil/80" : "bg-red-400/[0.04] text-red-300/80"
+            (current.type === "matching" || isCorrect) ? "bg-pos-fil/[0.04] text-pos-fil/80" : "bg-red-400/[0.04] text-red-300/80"
           }`}>
-            {isCorrect ? "✓ Doğru! " : "✗ Yanlış. "}{current.explanation}
+            {(current.type === "matching" || isCorrect) ? "✓ Doğru! " : "✗ Yanlış. "}{current.explanation}
           </div>
           <button onClick={handleNext} className="btn-primary flex w-full items-center justify-center gap-2 text-sm">
             {currentIdx < total - 1 ? "Sonraki Soru" : "Sonuçları Gör"} <ChevronRight size={16} />

@@ -14,6 +14,7 @@ import ConjugationPopup from "./components/ConjugationPopup";
 import DailyRoot from "./components/DailyRoot";
 import StatsPage from "./components/StatsPage";
 import OfflineBanner from "./components/OfflineBanner";
+import CrossLessonReview from "./components/CrossLessonReview";
 
 const API_KEY_STORAGE = "ustaz-api-key";
 const THEME_STORAGE = "ustaz-theme";
@@ -36,6 +37,7 @@ export default function App() {
   const [apiKey, setApiKey] = useState(loadApiKey);
   const [activeTab, setActiveTab] = useState(progress.activeTab || "verses");
   const [theme, setTheme] = useState(loadTheme);
+  const [highContrast, setHighContrast] = useState(() => { try { return localStorage.getItem("ustaz-hc") === "1"; } catch { return false; } });
 
   // Grammar / Vezin modals
   const [grammarTerm, setGrammarTerm] = useState(null);
@@ -63,7 +65,14 @@ export default function App() {
     saveTheme(theme);
   }, [theme]);
 
+  // High contrast effect
+  useEffect(() => {
+    document.documentElement.setAttribute("data-hc", highContrast ? "1" : "0");
+    try { localStorage.setItem("ustaz-hc", highContrast ? "1" : "0"); } catch {}
+  }, [highContrast]);
+
   function toggleTheme() { setTheme((t) => t === "dark" ? "light" : "dark"); }
+  function toggleContrast() { setHighContrast((v) => !v); }
   function handleApiKeyChange(key) { setApiKey(key); saveApiKey(key); }
 
   function handleAssessmentComplete(profile, valScore, valTotal) {
@@ -160,7 +169,8 @@ export default function App() {
   const totalLessons = lessons.length;
 
   return (
-    <div className="min-h-screen min-h-[100dvh] bg-ustaz-bg pattern-overlay">
+    <div className="min-h-screen min-h-[100dvh] bg-ustaz-bg pattern-overlay" lang="tr">
+      <a href="#main-content" className="sr-skip">Ana içeriğe atla</a>
       <OfflineBanner />
       {/* ── Header ── */}
       <header className="sticky top-0 z-40 border-b border-ov/[0.04] bg-ustaz-bg/85 backdrop-blur-xl pt-safe">
@@ -222,7 +232,7 @@ export default function App() {
       )}
 
       {/* ── Main Content ── */}
-      <main className="mx-auto max-w-2xl px-4 pb-4 mb-nav">
+      <main id="main-content" className="mx-auto max-w-2xl px-4 pb-4 mb-nav" role="main">
         {view === "assessment" && (
           <div className="view-enter pt-8">
             <div className="mb-8 text-center">
@@ -253,6 +263,26 @@ export default function App() {
               <p className="text-sm text-ustaz-turkish/40">{reviewWords.length} kök tekrar bekliyor</p>
             </div>
             <QuickReview vocabulary={progress.vocabulary} onUpdateVocab={updateVocab} onFinish={() => { setView("lesson"); setBottomTab("ders"); }} />
+            {progress.completedLessons.length >= 3 && (
+              <button
+                onClick={() => setView("cross-review")}
+                className="mt-4 w-full btn-secondary flex items-center justify-center gap-2 text-sm"
+                aria-label="Karma tekrar quiz başlat"
+              >
+                <Brain size={14} /> Karma Quiz ({progress.completedLessons.length} ders)
+              </button>
+            )}
+          </div>
+        )}
+
+        {view === "cross-review" && (
+          <div className="view-enter pt-6">
+            <CrossLessonReview
+              lessons={lessons}
+              completedLessons={progress.completedLessons}
+              onRootResult={updateRootSR}
+              onClose={() => { setView("review"); setBottomTab("tekrar"); }}
+            />
           </div>
         )}
 
@@ -324,7 +354,7 @@ export default function App() {
           <div className="view-enter pt-6">
             <Settings apiKey={apiKey} onApiKeyChange={handleApiKeyChange} onExport={exportProgress} onImport={importProgress}
               onReset={handleReset} onClose={() => { setView("lesson"); setBottomTab("ders"); }}
-              theme={theme} onToggleTheme={toggleTheme} />
+              theme={theme} onToggleTheme={toggleTheme} highContrast={highContrast} onToggleContrast={toggleContrast} />
           </div>
         )}
 
@@ -337,24 +367,27 @@ export default function App() {
 
       {/* ── Bottom Navigation (mobile) ── */}
       {isAppReady && (
-        <nav className="bottom-nav sm:hidden">
-          <div className="flex">
+        <nav className="bottom-nav sm:hidden" aria-label="Ana gezinme">
+          <div className="flex" role="tablist">
             <button onClick={() => handleBottomNav("ders")}
-              className={`bottom-nav-item ${bottomTab === "ders" ? "active" : ""}`}>
+              className={`bottom-nav-item ${bottomTab === "ders" ? "active" : ""}`}
+              role="tab" aria-selected={bottomTab === "ders"} aria-label="Ders görünümü">
               <BookOpen size={20} strokeWidth={bottomTab === "ders" ? 2.5 : 1.5} />
               <span>Ders</span>
             </button>
             <button onClick={() => handleBottomNav("dersler")}
-              className={`bottom-nav-item ${bottomTab === "dersler" ? "active" : ""}`}>
+              className={`bottom-nav-item ${bottomTab === "dersler" ? "active" : ""}`}
+              role="tab" aria-selected={bottomTab === "dersler"} aria-label="Ders listesi">
               <Layers size={20} strokeWidth={bottomTab === "dersler" ? 2.5 : 1.5} />
               <span>Dersler</span>
             </button>
             <button onClick={() => handleBottomNav("tekrar")}
-              className={`bottom-nav-item ${bottomTab === "tekrar" ? "active" : ""}`}>
+              className={`bottom-nav-item ${bottomTab === "tekrar" ? "active" : ""}`}
+              role="tab" aria-selected={bottomTab === "tekrar"} aria-label={`Tekrar${reviewWords.length > 0 ? `, ${reviewWords.length} kök bekliyor` : ""}`}>
               <div className="relative">
                 <Brain size={20} strokeWidth={bottomTab === "tekrar" ? 2.5 : 1.5} />
                 {reviewWords.length > 0 && (
-                  <span className="absolute -right-1.5 -top-1 flex h-3.5 w-3.5 items-center justify-center rounded-full bg-pos-harf text-[8px] font-bold text-ustaz-bg">
+                  <span className="absolute -right-1.5 -top-1 flex h-3.5 w-3.5 items-center justify-center rounded-full bg-pos-harf text-[8px] font-bold text-ustaz-bg" aria-hidden="true">
                     {reviewWords.length}
                   </span>
                 )}
@@ -362,12 +395,14 @@ export default function App() {
               <span>Tekrar</span>
             </button>
             <button onClick={() => handleBottomNav("istatistik")}
-              className={`bottom-nav-item ${bottomTab === "istatistik" ? "active" : ""}`}>
+              className={`bottom-nav-item ${bottomTab === "istatistik" ? "active" : ""}`}
+              role="tab" aria-selected={bottomTab === "istatistik"} aria-label="İstatistikler">
               <BarChart3 size={20} strokeWidth={bottomTab === "istatistik" ? 2.5 : 1.5} />
               <span>İstatistik</span>
             </button>
             <button onClick={() => handleBottomNav("ayarlar")}
-              className={`bottom-nav-item ${bottomTab === "ayarlar" ? "active" : ""}`}>
+              className={`bottom-nav-item ${bottomTab === "ayarlar" ? "active" : ""}`}
+              role="tab" aria-selected={bottomTab === "ayarlar"} aria-label="Ayarlar">
               <SettingsIcon size={20} strokeWidth={bottomTab === "ayarlar" ? 2.5 : 1.5} />
               <span>Ayarlar</span>
             </button>

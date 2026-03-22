@@ -229,3 +229,77 @@
 .view-enter {
   animation: fadeSlideUp 300ms ease-out;
 }
+
+/* ── High Contrast Mode ── */
+[data-hc="1"][data-theme="dark"] {
+  --ustaz-bg: 0 0 0;
+  --ustaz-card: 18 18 30;
+  --ustaz-surface: 12 22 48;
+  --ustaz-gold: 255 210 80;
+  --ustaz-arabic: 255 255 255;
+  --ustaz-turkish: 230 240 255;
+  --ustaz-overlay: 255 255 255;
+}
+[data-hc="1"][data-theme="light"] {
+  --ustaz-bg: 255 255 255;
+  --ustaz-card: 255 255 255;
+  --ustaz-surface: 245 240 230;
+  --ustaz-gold: 140 95 0;
+  --ustaz-arabic: 0 0 0;
+  --ustaz-turkish: 0 0 0;
+  --ustaz-overlay: 0 0 0;
+}
+[data-hc="1"] .card {
+  border-width: 2px;
+}
+[data-hc="1"] .tab-item {
+  border-bottom-width: 3px;
+}
+[data-hc="1"] .bottom-nav-item.active {
+  border-top-width: 3px;
+}
+[data-hc="1"] button:focus-visible {
+  outline: 3px solid rgb(var(--ustaz-gold));
+  outline-offset: 2px;
+}
+
+/* ── Focus visible for keyboard nav ── */
+button:focus-visible,
+[role="tab"]:focus-visible,
+[role="button"]:focus-visible,
+a:focus-visible {
+  outline: 2px solid rgb(var(--ustaz-gold) / 0.6);
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
+/* ── Skip to content link (screen readers) ── */
+.sr-skip {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+.sr-skip:focus {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  width: auto;
+  height: auto;
+  padding: 8px 16px;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+  z-index: 9999;
+  background: rgb(var(--ustaz-gold));
+  color: rgb(var(--ustaz-bg));
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+}

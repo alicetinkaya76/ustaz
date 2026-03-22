@@ -1,5 +1,5 @@
 // Ustaz Service Worker v0.14.0
-const CACHE_NAME = "ustaz-v014";
+const CACHE_NAME = "ustaz-v015";
 const PRECACHE_URLS = ["/ustaz/", "/ustaz/index.html"];
 
 // Vite build produces hashed filenames — they are immutable

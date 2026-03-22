@@ -35,11 +35,12 @@ export default function LessonView({ lesson, apiKey, onQuizComplete, onRootResul
   return (
     <div>
       {/* Tab Bar — scrollable on mobile */}
-      <div className="tab-bar mb-5 overflow-x-auto scrollbar-hide">
+      <div className="tab-bar mb-5 overflow-x-auto scrollbar-hide" role="tablist" aria-label="Ders sekmeleri">
         <div className="flex min-w-max">
           {sections.map(({ id, icon: Icon, label }) => (
             <button key={id} onClick={() => setTab(id)}
-              className={`tab-item ${tab === id ? "active" : ""}`}>
+              className={`tab-item ${tab === id ? "active" : ""}`}
+              role="tab" aria-selected={tab === id} aria-label={label}>
               <Icon size={15} />
               <span>{label}</span>
             </button>
@@ -48,7 +49,7 @@ export default function LessonView({ lesson, apiKey, onQuizComplete, onRootResul
       </div>
 
       {/* Tab Content */}
-      <div className="view-enter">
+      <div className="view-enter" role="tabpanel" aria-label={sections.find(s => s.id === tab)?.label}>
         {tab === "verses" && (
           <div className="space-y-6">
             {lesson.verses.map((verse, i) => (

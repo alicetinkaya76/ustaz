@@ -7,6 +7,7 @@ import level4Lessons from "./levels/level4";
 import level4bLessons from "./levels/level4b";
 import level4cLessons from "./levels/level4c";
 import level5Lessons from "./levels/level5";
+import level5bLessons from "./levels/level5b";
 
 const curriculum = {
   lessons: [
@@ -6964,6 +6965,8 @@ const curriculum = {
     ...level4cLessons,
     // L39–L42 loaded from level5 module
     ...level5Lessons,
+    // L43–L46 loaded from level5b module
+    ...level5bLessons,
   ],
 };
 

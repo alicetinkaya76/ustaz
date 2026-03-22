@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { Key, Download, Upload, Trash2, X, Database, Sun, Moon } from "lucide-react";
+import { Key, Download, Upload, Trash2, X, Database, Sun, Moon, Eye } from "lucide-react";
 import { clearCache } from "../utils/api";
 
-export default function Settings({ apiKey, onApiKeyChange, onExport, onImport, onReset, onClose, theme, onToggleTheme }) {
+export default function Settings({ apiKey, onApiKeyChange, onExport, onImport, onReset, onClose, theme, onToggleTheme, highContrast, onToggleContrast }) {
   const [showKey, setShowKey] = useState(false);
   const [cacheMsg, setCacheMsg] = useState("");
 
@@ -48,6 +48,25 @@ export default function Settings({ apiKey, onApiKeyChange, onExport, onImport, o
                 isDark ? "translate-x-0 bg-ustaz-gold" : "translate-x-6 bg-yellow-400"
               }`}>
                 {isDark ? <Moon size={12} className="text-ustaz-bg" /> : <Sun size={12} className="text-ustaz-bg" />}
+              </span>
+            </button>
+          </div>
+        </div>
+        {/* High Contrast */}
+        <div className="card">
+          <div className="mb-3 flex items-center gap-2">
+            <Eye size={14} className="text-ustaz-gold" />
+            <h3 className="text-sm font-semibold text-ustaz-turkish/80">Yüksek Kontrast</h3>
+          </div>
+          <div className="flex items-center justify-between">
+            <p className="text-xs text-ustaz-turkish/40">{highContrast ? "Yüksek kontrast aktif" : "Normal kontrast"}</p>
+            <button onClick={onToggleContrast}
+              className="relative flex h-8 w-14 items-center rounded-full border border-ov/10 bg-ustaz-surface p-1 transition-colors"
+              role="switch" aria-checked={!!highContrast} aria-label="Yüksek kontrast modu">
+              <span className={`flex h-6 w-6 items-center justify-center rounded-full shadow transition-all duration-300 ${
+                highContrast ? "translate-x-6 bg-ustaz-gold" : "translate-x-0 bg-ustaz-turkish/20"
+              }`}>
+                <Eye size={12} className={highContrast ? "text-ustaz-bg" : "text-ustaz-turkish/50"} />
               </span>
             </button>
           </div>

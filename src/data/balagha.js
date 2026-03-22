@@ -50,6 +50,7 @@ const balaghaDB = {
       { verse: "99:7-8", text: "خَيْرًا ↔ شَرًّا", analysis: "Hayır ↔ şer: amel terazisinin iki kefesi", lesson: "L15" },
       { verse: "93:3", text: "مَا وَدَّعَكَ ... وَمَا قَلَى", analysis: "Terk etmedi ↔ darılmadı: iki olumsuzla çift güvence", lesson: "L19" },
       { verse: "87:7", text: "الجَهْرَ ↔ مَا يَخْفَى", analysis: "Açık olan ↔ gizli kalan: Allah'ın bilgisinin kapsamı", lesson: "L23" },
+      { verse: "106:2", text: "الشِّتَاءِ ↔ الصَّيْفِ", analysis: "Kış ↔ yaz: mevsim karşıtlığıyla yılın tamamını kapsama", lesson: "L45" },
     ],
   },
   tikrar: {
@@ -103,6 +104,7 @@ const balaghaDB = {
       { verse: "93:6-11", text: "أَلَمْ يَجِدْكَ... → فَأَمَّا... فَلَا", analysis: "3 nimet (yetimlik→hidâyet→zenginlik) ↔ 3 sorumluluk (yetimi ezme→isteyeni kovma→nimeti gizleme)", lesson: "L19" },
       { verse: "101:6-9", text: "أَمَّا... فَ × 2", analysis: "Ağır tartı → cennet ↔ Hafif tartı → cehennem", lesson: "L14" },
       { verse: "80:5-10", text: "أَمَّا مَنِ اسْتَغْنَى ↔ أَمَّا مَن جَاءَكَ", analysis: "Müstağnîye yönelme ↔ samimiye sırt çevirme: yanlış öncelik simetrisi", lesson: "L21" },
+      { verse: "106:4", text: "أَطْعَمَهُم مِن جُوعٍ ↔ آمَنَهُم مِن خَوْفٍ", analysis: "Açlık→doyurma ↔ korku→güvence: maddi+manevi paralel nimet çifti", lesson: "L45" },
     ],
   },
   istifham_inkari: {
@@ -115,6 +117,7 @@ const balaghaDB = {
       { verse: "94:1", text: "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ", analysis: "Açmadık mı? → Elbette açtık! Üç soru = üç kesin nimet", lesson: "L20" },
       { verse: "95:8", text: "أَلَيْسَ اللّهُ بِأَحْكَمِ الحَاكِمِينَ", analysis: "Allah en adil hâkim değil mi? → Elbette!", lesson: "L18" },
       { verse: "93:6-8", text: "أَلَمْ يَجِدْكَ يَتِيمًا", analysis: "Bulmadı mı? → Elbette buldu! × 3 soru", lesson: "L19" },
+      { verse: "105:1", text: "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ", analysis: "Görmedin mi? → Elbette gördün! Fil ordusunun helâki", lesson: "L44" },
     ],
   },
   tafṣil: {
@@ -180,6 +183,7 @@ const balaghaDB = {
         examples: [
           { verse: "101:3", text: "وَمَا أَدْرَاكَ مَا القَارِعَةُ", analysis: "Konuyu tanıtıp 'ne bilirsin ki?' diye idrakin ötesinde olduğunu vurgulama", lesson: "L41" },
           { verse: "97:2", text: "وَمَا أَدْرَاكَ مَا لَيْلَةُ القَدْرِ", analysis: "Kadir gecesini tanıtıp ta'zîm sorusuyla yüceltme", lesson: "L37" },
+          { verse: "104:5", text: "وَمَا أَدْرَاكَ مَا الحُطَمَةُ", analysis: "Hutame'nin dehşetini idrakin ötesine taşıma", lesson: "L43" },
         ],
       },
       {

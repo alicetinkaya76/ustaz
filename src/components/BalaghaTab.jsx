@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Sparkles, ChevronDown, ChevronUp } from "lucide-react";
+import { Sparkles, ChevronDown, ChevronUp, TreePine } from "lucide-react";
 import { getBalaghaForLesson } from "../data/balagha";
+import BalaghaTree from "./BalaghaTree";
 
 const branchStyles = {
   meani: {
@@ -158,11 +159,39 @@ function BalaghaCard({ art }) {
 }
 
 export default function BalaghaTab({ lessonId }) {
+  const [showTree, setShowTree] = useState(false);
   const arts = getBalaghaForLesson(lessonId);
+
+  // "Tüm Sanatlar" toggle
+  const treeToggle = (
+    <button
+      onClick={() => setShowTree(!showTree)}
+      className={`inline-flex items-center gap-1.5 text-[10px] px-2.5 py-1.5 rounded-lg border transition-all ${
+        showTree
+          ? "bg-ustaz-gold/10 border-ustaz-gold/20 text-ustaz-gold"
+          : "border-ov/[0.08] text-ustaz-turkish/40 hover:border-ov/[0.15]"
+      }`}
+      aria-pressed={showTree}
+      aria-label={showTree ? "Ders belâgatına dön" : "Tüm sanatlar ağacını göster"}
+    >
+      <TreePine size={12} />
+      {showTree ? "Derse Dön" : "Tüm Sanatlar"}
+    </button>
+  );
+
+  if (showTree) {
+    return (
+      <div className="space-y-3">
+        <div className="flex justify-end">{treeToggle}</div>
+        <BalaghaTree />
+      </div>
+    );
+  }
 
   if (arts.length === 0) {
     return (
       <div className="text-center py-8">
+        <div className="flex justify-end mb-3">{treeToggle}</div>
         <Sparkles size={28} className="mx-auto mb-3 text-ustaz-turkish/15" />
         <p className="text-sm text-ustaz-turkish/30">Bu ders için belâgat analizi henüz eklenmemiş.</p>
       </div>
@@ -179,8 +208,8 @@ export default function BalaghaTab({ lessonId }) {
 
   return (
     <div className="space-y-4">
-      {/* Branch legend */}
-      <div className="flex flex-wrap gap-2 mb-2">
+      {/* Branch legend + tree toggle */}
+      <div className="flex flex-wrap items-center gap-2 mb-2">
         {Object.entries(branchStyles).map(([key, style]) => {
           const count = (grouped[key] || []).length;
           if (count === 0) return null;
@@ -192,9 +221,9 @@ export default function BalaghaTab({ lessonId }) {
             </span>
           );
         })}
+        <span className="flex-1" />
+        {treeToggle}
       </div>
-
-      {/* All arts, sorted by branch */}
       {["meani", "beyan", "bedi"].map(branch => (
         (grouped[branch] || []).map((art, i) => (
           <BalaghaCard key={`${branch}-${i}`} art={art} />

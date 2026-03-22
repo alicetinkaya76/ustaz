@@ -160,6 +160,23 @@ const KNOWN_WORDS = {
   "جَحِيم": { root: "ج-ح-م", pattern: "فَعِيل", bab: "I", type: "isim", meaning: "cehennem" },
   "نَعِيم": { root: "ن-ع-م", pattern: "فَعِيل", bab: "I", type: "isim", meaning: "nimet, bolluk" },
   "يَقِين": { root: "ي-ق-ن", pattern: "فَعِيل", bab: "I", type: "masdar", meaning: "kesinlik" },
+  // ── L43-L46 ──
+  "هُمَزَة": { root: "ه-م-ز", pattern: "فُعَلَة", bab: "I", type: "mübalağa", meaning: "çok çekiştiren" },
+  "لُمَزَة": { root: "ل-م-ز", pattern: "فُعَلَة", bab: "I", type: "mübalağa", meaning: "çok alay eden" },
+  "حُطَمَة": { root: "ح-ط-م", pattern: "فُعَلَة", bab: "I", type: "mübalağa", meaning: "çok kırıp geçiren" },
+  "مُؤْصَدَة": { root: "أ-ص-د", pattern: "مُفْعَلَة", bab: "IV", type: "ism-i mef'ûl", meaning: "kapatılmış" },
+  "مُمَدَّدَة": { root: "م-د-د", pattern: "مُفَعَّلَة", bab: "II", type: "ism-i mef'ûl", meaning: "uzatılmış" },
+  "مُوقَدَة": { root: "و-ق-د", pattern: "مُفْعَلَة", bab: "IV", type: "ism-i mef'ûl", meaning: "tutuşturulmuş" },
+  "أَفْئِدَة": { root: "ف-أ-د", pattern: "أَفْعِلَة", bab: "I", type: "cem kırık", meaning: "kalpler" },
+  "تَضْلِيل": { root: "ض-ل-ل", pattern: "تَفْعِيل", bab: "II", type: "masdar", meaning: "sapıklık, boşa çıkarma" },
+  "أَبَابِيل": { root: null, pattern: "أَفَاعِيل", bab: null, type: "cem kırık", meaning: "sürü sürü" },
+  "مَأْكُول": { root: "أ-ك-ل", pattern: "مَفْعُول", bab: "I", type: "ism-i mef'ûl", meaning: "yenilmiş" },
+  "إِيلَاف": { root: "أ-ل-ف", pattern: "إِفْعَال", bab: "IV", type: "masdar", meaning: "alıştırma, ülfet" },
+  "رِحْلَة": { root: "ر-ح-ل", pattern: "فِعْلَة", bab: "I", type: "masdar/isim", meaning: "yolculuk" },
+  "مِسْكِين": { root: "س-ك-ن", pattern: "مِفْعِيل", bab: "I", type: "isim", meaning: "yoksul, çaresiz" },
+  "مُصَلٍّ": { root: "ص-ل-و", pattern: "مُفَعِّل", bab: "II", type: "ism-i fâil", meaning: "namaz kılan" },
+  "سَاهٍ": { root: "س-ه-و", pattern: "فَاعِل", bab: "I", type: "ism-i fâil", meaning: "gafil, dalgın" },
+  "مَاعُون": { root: "م-ع-ن", pattern: "فَاعُول", bab: "I", type: "isim", meaning: "basit yardım, zekât" },
 };
 
 /**
