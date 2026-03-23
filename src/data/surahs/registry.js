@@ -238,6 +238,15 @@ const surahRegistry = [
     lessonIds: ["L04-nas-felak", "L53-nas"],
   },
 
+  // ── CÜZ 27 (ZÂRIYÂT) ──────────────────────────────────
+  {
+    surah: 55, name: "Rahmân", nameAr: "سُورَةُ الرَّحْمَـٰنِ",
+    ayatCount: 78, cuz: 27, revelation: "mekki", status: "complete",
+    coveredAyahs: Array.from({ length: 78 }, (_, i) => i + 1),
+    lessonIds: ["S55-B01-rahman", "S55-B02-rahman", "S55-B03-rahman", "S55-B04-rahman", "S55-B05-rahman", "S55-B06-rahman"],
+    note: "v0.22: İkinci surah-format ders. B01: 1-13, B02: 14-25, B03: 26-34, B04: 35-45, B05: 46-61, B06: 62-78",
+  },
+
   // ── CÜZ 29 (TABÂREK) ──────────────────────────────────
   {
     surah: 67, name: "Mülk", nameAr: "سُورَةُ المُلْك",

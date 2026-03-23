@@ -40,8 +40,7 @@ export {
 /** Tüm surah-format ders dosyalarının slug haritası */
 const slugMap = {
   67: "mulk",
-  // v0.22+ planı:
-  // 55: "rahman",
+  55: "rahman",
 };
 
 export async function loadSurah(surahNum) {
