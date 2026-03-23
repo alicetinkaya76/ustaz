@@ -2351,6 +2351,186 @@ const rootDB = {
     ],
     turkish_traces: ["veda"],
   },
+  // ═══ v0.18 — Nebe + Nâzi'ât kökleri ═══
+  "ف-ص-ل": {
+    core: "ayırmak, hüküm vermek, bölmek",
+    quran_count: 43,
+    derivatives: [
+      { form: "فَصْل", pattern: "فَعْل", type: "masdar", meaning: "hüküm, ayırma, bölüm" },
+      { form: "مُفَصَّل", pattern: "مُفَعَّل", type: "ism-i mef'ûl II", meaning: "ayrıntılı" },
+      { form: "فَاصِل", pattern: "فَاعِل", type: "ism-i fâil", meaning: "ayıran" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "فَصَلَ/يَفْصِلُ", meaning: "ayırdı", semantic: "temel", lessons: ["L56"] },
+      { bab: "II", form: "فَصَّلَ/يُفَصِّلُ", meaning: "ayrıntıladı", semantic: "teksîr", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L56", verse: "78:17", form: "الفَصْلِ", note: "يَوْمَ الفَصْلِ — hüküm günü" },
+    ],
+    turkish_traces: ["fasıl", "tafsîlât"],
+  },
+  "ف-ت-ح": {
+    core: "açmak, fethetmek",
+    quran_count: 38,
+    derivatives: [
+      { form: "فَتْح", pattern: "فَعْل", type: "masdar", meaning: "açma, fetih" },
+      { form: "مِفْتَاح", pattern: "مِفْعَال", type: "ism-i âlet", meaning: "anahtar" },
+      { form: "فَتَّاح", pattern: "فَعَّال", type: "mübalağa", meaning: "çok açan" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "فَتَحَ/يَفْتَحُ", meaning: "açtı", semantic: "temel", lessons: ["L56"] },
+    ],
+    cross_refs: [
+      { lesson: "L56", verse: "78:19", form: "فُتِحَتِ", note: "gök açıldı — mechûl" },
+    ],
+    turkish_traces: ["fetih", "fâtih", "miftah"],
+  },
+  "ن-ف-خ": {
+    core: "üflemek, şişirmek",
+    quran_count: 12,
+    derivatives: [
+      { form: "نَفْخ", pattern: "فَعْل", type: "masdar", meaning: "üfleme" },
+      { form: "نَفْخَة", pattern: "فَعْلَة", type: "marr (bir kez)", meaning: "tek üfleyiş" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "نَفَخَ/يَنْفُخُ", meaning: "üfledi", semantic: "temel", lessons: ["L56"] },
+    ],
+    cross_refs: [
+      { lesson: "L56", verse: "78:18", form: "يُنفَخُ", note: "Sûr'a üflenir — mechûl" },
+    ],
+    turkish_traces: ["nefha"],
+  },
+  "ف-و-ز": {
+    core: "kurtulmak, kazanmak, başarı",
+    quran_count: 29,
+    derivatives: [
+      { form: "فَوْز", pattern: "فَعْل", type: "masdar", meaning: "kurtuluş" },
+      { form: "مَفَاز", pattern: "مَفْعَل", type: "ism-i mekân", meaning: "kurtuluş yeri" },
+      { form: "فَائِز", pattern: "فَاعِل", type: "ism-i fâil", meaning: "kurtulan" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "فَازَ/يَفُوزُ", meaning: "kurtuldu", semantic: "temel", lessons: ["L58"] },
+    ],
+    cross_refs: [
+      { lesson: "L58", verse: "78:31", form: "مَفَازًا", note: "muttakîler için kurtuluş" },
+    ],
+    turkish_traces: ["fevz", "fâiz"],
+  },
+  "ر-ج-ف": {
+    core: "sarsmak, sallanmak, titremek",
+    quran_count: 5,
+    derivatives: [
+      { form: "رَجْفَة", pattern: "فَعْلَة", type: "masdar", meaning: "sarsıntı" },
+      { form: "رَاجِفَة", pattern: "فَاعِلَة", type: "ism-i fâil", meaning: "sarsan (birinci sûr)" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "رَجَفَ/يَرْجُفُ", meaning: "sarsıldı", semantic: "temel", lessons: ["L59"] },
+    ],
+    cross_refs: [
+      { lesson: "L59", verse: "79:6", form: "الرَّاجِفَة", note: "birinci sûr sarsıntısı" },
+    ],
+    turkish_traces: [],
+  },
+  "ر-د-ف": {
+    core: "arkasından gelmek, takip etmek",
+    quran_count: 4,
+    derivatives: [
+      { form: "رَادِفَة", pattern: "فَاعِلَة", type: "ism-i fâil", meaning: "arkadan gelen" },
+      { form: "رِدْف", pattern: "فِعْل", type: "isim", meaning: "ardıl" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "رَدَفَ/يَرْدُفُ", meaning: "arkasından geldi", semantic: "temel", lessons: ["L59"] },
+    ],
+    cross_refs: [
+      { lesson: "L59", verse: "79:7", form: "الرَّادِفَة", note: "ikinci sûr (dirilten)" },
+    ],
+    turkish_traces: ["redîf"],
+  },
+  "خ-ش-ي": {
+    core: "derin korku, saygılı korku (haşyet)",
+    quran_count: 48,
+    derivatives: [
+      { form: "خَشْيَة", pattern: "فَعْلَة", type: "masdar", meaning: "haşyet, derin korku" },
+      { form: "خَاشِع", pattern: "فَاعِل", type: "ism-i fâil", meaning: "boyun eğen" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "خَشِيَ/يَخْشَى", meaning: "korktu (saygıyla)", semantic: "temel", lessons: ["L59", "L60", "L62"] },
+    ],
+    cross_refs: [
+      { lesson: "L59", verse: "79:9", form: "خَاشِعَة", note: "gözleri boyun eğmiş" },
+      { lesson: "L60", verse: "79:19", form: "فَتَخْشَى", note: "korkasın" },
+      { lesson: "L60", verse: "79:26", form: "يَخْشَى", note: "bunda korkan için ibret" },
+      { lesson: "L62", verse: "79:45", form: "يَخْشَاهَا", note: "kıyametten korkan" },
+    ],
+    turkish_traces: ["haşyet"],
+  },
+  "ط-غ-ي": {
+    core: "haddi aşmak, azgınlık, taşmak",
+    quran_count: 39,
+    derivatives: [
+      { form: "طُغْيَان", pattern: "فُعْلَان", type: "masdar", meaning: "azgınlık" },
+      { form: "طَاغِي", pattern: "فَاعِل", type: "ism-i fâil", meaning: "azgın" },
+      { form: "طَاغُوت", pattern: "—", type: "isim", meaning: "tâğût (azgın güç)" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "طَغَى/يَطْغَى", meaning: "azdı", semantic: "temel", lessons: ["L57", "L60", "L61"] },
+    ],
+    cross_refs: [
+      { lesson: "L57", verse: "78:22", form: "لِلطَّاغِينَ", note: "azgınlar için dönüş yeri" },
+      { lesson: "L60", verse: "79:17", form: "طَغَى", note: "Fir'avn azdı" },
+      { lesson: "L61", verse: "79:37", form: "طَغَى", note: "kim azarsa" },
+    ],
+    turkish_traces: ["tuğyân"],
+  },
+  "ق-د-س": {
+    core: "kutsamak, kutsal kılmak, arındırmak",
+    quran_count: 10,
+    derivatives: [
+      { form: "قُدُس", pattern: "فُعُل", type: "isim", meaning: "kutsallık" },
+      { form: "مُقَدَّس", pattern: "مُفَعَّل", type: "ism-i mef'ûl II", meaning: "kutsanmış" },
+      { form: "تَقْدِيس", pattern: "تَفْعِيل", type: "masdar II", meaning: "takdîs" },
+    ],
+    bab_chain: [
+      { bab: "II", form: "قَدَّسَ/يُقَدِّسُ", meaning: "kutsadı", semantic: "te'kîd", lessons: ["L60"] },
+    ],
+    cross_refs: [
+      { lesson: "L60", verse: "79:16", form: "المُقَدَّسِ", note: "kutsal vadi (Tuvâ)" },
+    ],
+    turkish_traces: ["kuds", "Kudüs", "takdîs", "mukaddes"],
+  },
+  "د-ح-و": {
+    core: "yaymak, yumurta biçiminde sermek",
+    quran_count: 1,
+    derivatives: [
+      { form: "دَحْو", pattern: "فَعْل", type: "masdar", meaning: "yayma" },
+      { form: "أُدْحِيَّة", pattern: "—", type: "isim", meaning: "devekuşu yumurta yatağı" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "دَحَا/يَدْحُو", meaning: "yaydı", semantic: "temel", lessons: ["L61"] },
+    ],
+    cross_refs: [
+      { lesson: "L61", verse: "79:30", form: "دَحَاهَا", note: "yeryüzünü yaydı (yumurta biçimi)" },
+    ],
+    turkish_traces: [],
+  },
+  "ن-ه-ي": {
+    core: "yasaklamak, alıkoymak, sona ermek",
+    quran_count: 56,
+    derivatives: [
+      { form: "نَهْي", pattern: "فَعْل", type: "masdar", meaning: "yasaklama" },
+      { form: "مُنْتَهَى", pattern: "مُفْتَعَل", type: "ism-i mekân/zaman VIII", meaning: "son nokta" },
+      { form: "نِهَايَة", pattern: "فِعَالَة", type: "masdar", meaning: "son" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "نَهَى/يَنْهَى", meaning: "yasakladı", semantic: "temel", lessons: ["L62"] },
+      { bab: "VIII", form: "اِنْتَهَى/يَنْتَهِي", meaning: "sona erdi", semantic: "mutâva'at", lessons: ["L62"] },
+    ],
+    cross_refs: [
+      { lesson: "L62", verse: "79:40", form: "نَهَى", note: "nefsi hevâdan alıkoydu" },
+      { lesson: "L62", verse: "79:44", form: "مُنْتَهَاهَا", note: "son bilgisi Rabbine ait" },
+    ],
+    turkish_traces: ["nehy", "nihâyet", "müntehâ"],
+  },
 };
 
 // Helper: kök anahtarlarını array olarak döndür

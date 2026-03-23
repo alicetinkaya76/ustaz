@@ -10,6 +10,7 @@ import level5Lessons from "./levels/level5";
 import level5bLessons from "./levels/level5b";
 import level5cLessons from "./levels/level5c";
 import level6Lessons from "./levels/level6";
+import level7Lessons from "./levels/level7";
 
 const curriculum = {
   lessons: [
@@ -6973,6 +6974,8 @@ const curriculum = {
     ...level5cLessons,
     // L51–L55 loaded from level6 module
     ...level6Lessons,
+    // L56–L62 loaded from level7 module (v0.18: Nebe 78:9-40, Nâzi'ât 79:6-46)
+    ...level7Lessons,
   ],
 };
 
