@@ -1,6 +1,8 @@
-import { useState, useMemo } from "react";
-import { BarChart3, Calendar, TrendingUp, Target, ChevronLeft, Flame, Clock, Award, Trophy } from "lucide-react";
+import { useState, useMemo, lazy, Suspense } from "react";
+import { BarChart3, Calendar, TrendingUp, Target, ChevronLeft, Flame, Clock, Award, Trophy, BookOpenCheck } from "lucide-react";
 import { ACHIEVEMENT_DEFS } from "../hooks/useProgress";
+
+const SurahTracker = lazy(() => import("./SurahTracker"));
 
 // Simple mini bar chart component
 function MiniBar({ value, max, color = "bg-ustaz-gold" }) {
@@ -97,6 +99,7 @@ export default function StatsPage({ progress, lessons, onClose }) {
 
   const tabs = [
     { id: "overview", icon: BarChart3, label: "Genel" },
+    { id: "sureler", icon: BookOpenCheck, label: "Sureler" },
     { id: "achievements", icon: Trophy, label: "Başarım" },
     { id: "roots", icon: Target, label: "Kökler" },
     { id: "calendar", icon: Calendar, label: "Takvim" },
@@ -185,6 +188,12 @@ export default function StatsPage({ progress, lessons, onClose }) {
               </div>
             </div>
           </>
+        )}
+
+        {tab === "sureler" && (
+          <Suspense fallback={<p className="text-center text-xs text-ustaz-turkish/30 py-8">Yükleniyor...</p>}>
+            <SurahTracker />
+          </Suspense>
         )}
 
         {tab === "achievements" && (
