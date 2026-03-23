@@ -13,6 +13,7 @@ const balaghaDB = {
       { verse: "97:5", text: "سَلَامٌ هِيَ", analysis: "Haber (سَلَامٌ) mübtedâdan önce → vurgu: SELÂMETTİR o gece", lesson: "L17" },
       { verse: "94:8", text: "وَإِلَى رَبِّكَ فَارْغَبْ", analysis: "Câr-mecrûr (إِلَى رَبِّكَ) fiilden önce → hasr: yalnız Rabbine yönel", lesson: "L20" },
       { verse: "1:2", text: "الحَمْدُ لِلَّهِ", analysis: "Mübtedâ (الحَمْدُ) ile başlayan isim cümlesi: hamdin kalıcılığı ve genelliği", lesson: "L01" },
+      { verse: "109:6", text: "لَكُمْ دِينُكُمْ", analysis: "Câr-mecrûr (لَكُمْ) mübtedâdan önce → hasr: sizin dininiz SİZE, benim dinim BANA", lesson: "L48" },
     ],
   },
   hazf: {
@@ -51,6 +52,7 @@ const balaghaDB = {
       { verse: "93:3", text: "مَا وَدَّعَكَ ... وَمَا قَلَى", analysis: "Terk etmedi ↔ darılmadı: iki olumsuzla çift güvence", lesson: "L19" },
       { verse: "87:7", text: "الجَهْرَ ↔ مَا يَخْفَى", analysis: "Açık olan ↔ gizli kalan: Allah'ın bilgisinin kapsamı", lesson: "L23" },
       { verse: "106:2", text: "الشِّتَاءِ ↔ الصَّيْفِ", analysis: "Kış ↔ yaz: mevsim karşıtlığıyla yılın tamamını kapsama", lesson: "L45" },
+      { verse: "111:1,3", text: "أَبِي لَهَبٍ ↔ ذَاتَ لَهَبٍ", analysis: "Lakap (alev=övgü) ↔ ceza (alev=azap): aynı kök zıt bağlamda, isim-kader ironisi", lesson: "L50" },
     ],
   },
   tikrar: {
@@ -68,6 +70,7 @@ const balaghaDB = {
       { verse: "97:1-3", text: "لَيْلَةُ القَدْرِ × 3", analysis: "Tanıtım → soru → cevap: üç tekrar üç katman", lesson: "L17" },
       { verse: "93:6-8", text: "وَجَدَكَ × 3", analysis: "Üç keşif: yetim → yolunu arayan → muhtaç", lesson: "L19" },
       { verse: "101:1-3", text: "القَارِعَة × 3", analysis: "Tanıtım → soru → bırakma: kıyâmet üç kez çınlıyor", lesson: "L14" },
+      { verse: "109:2-5", text: "لَا أَعْبُدُ / عَابِدُونَ × 2", analysis: "Fiil cümlesi çifti (anlık) + isim cümlesi çifti (kalıcı): iki perspektiften kesin red", lesson: "L48" },
     ],
   },
   iltifat: {
@@ -80,6 +83,7 @@ const balaghaDB = {
       { verse: "1:2-5", text: "الحَمْدُ لِلّهِ → إِيَّاكَ", analysis: "Gaib (O'na hamd) → muhatap (SANA kulluk): mesafe kapanıyor", lesson: "L01" },
       { verse: "108:1-2", text: "أَعْطَيْنَاكَ → فَصَلِّ", analysis: "Biz verdik → sen kıl: muhatap odaklı geçiş", lesson: "L08" },
       { verse: "80:1-3", text: "عَبَسَ → يُدْرِيكَ", analysis: "Gaib (o astı) → muhatap (sana ne bildirir): dolaylıdan doğrudan uyarıya", lesson: "L21" },
+      { verse: "108:1-2", text: "إِنَّا أَعْطَيْنَاكَ → فَصَلِّ", analysis: "1. çoğul (biz verdik) → 2. tekil (sen kıl): azametten şahsî hitaba iltifât", lesson: "L47" },
     ],
   },
   istiare: {

@@ -16,6 +16,11 @@ const defaultProgress = {
   activeTab: "verses",
   // SM-2 spaced repetition state per root
   rootSR: {},
+  // XP & Gamification
+  xp: 0,
+  streak: 0,
+  lastStreakDate: null,
+  achievements: [],
 };
 
 // ── SM-2 Algorithm ──
@@ -46,6 +51,49 @@ function sm2(prev, quality) {
     lastReview: new Date().toISOString(),
     quality,
   };
+}
+
+// ── XP Constants ──
+const XP_QUIZ_CORRECT = 10;
+const XP_LESSON_COMPLETE = 50;
+const XP_STREAK_BONUS = 20;
+const XP_ROOT_MASTERY = 15;
+
+// ── Achievement Definitions ──
+const ACHIEVEMENT_DEFS = [
+  { id: "first_lesson", title: "İlk Adım", desc: "İlk dersini tamamla", icon: "🌱", check: (p) => p.completedLessons.length >= 1 },
+  { id: "five_lessons", title: "Beş Ders", desc: "5 ders tamamla", icon: "📚", check: (p) => p.completedLessons.length >= 5 },
+  { id: "ten_lessons", title: "On Ders", desc: "10 ders tamamla", icon: "🎓", check: (p) => p.completedLessons.length >= 10 },
+  { id: "twenty_lessons", title: "Yirmi Ders", desc: "20 ders tamamla", icon: "⭐", check: (p) => p.completedLessons.length >= 20 },
+  { id: "fifty_lessons", title: "Yarım Yüz", desc: "50 ders tamamla", icon: "🏆", check: (p) => p.completedLessons.length >= 50 },
+  { id: "ten_roots", title: "Kök Avcısı", desc: "10 kök öğren", icon: "🌿", check: (p) => p.totalRootsLearned >= 10 },
+  { id: "fifty_roots", title: "Kök Ustası", desc: "50 kök öğren", icon: "🌳", check: (p) => p.totalRootsLearned >= 50 },
+  { id: "hundred_roots", title: "Sarf Âlimi", desc: "100 kök öğren", icon: "🏛️", check: (p) => p.totalRootsLearned >= 100 },
+  { id: "streak_3", title: "Üç Gün", desc: "3 günlük seri", icon: "🔥", check: (p) => p.streak >= 3 },
+  { id: "streak_7", title: "Haftalık", desc: "7 günlük seri", icon: "💎", check: (p) => p.streak >= 7 },
+  { id: "streak_30", title: "Ay Yıldız", desc: "30 günlük seri", icon: "🌙", check: (p) => p.streak >= 30 },
+  { id: "xp_500", title: "500 XP", desc: "500 XP topla", icon: "✨", check: (p) => p.xp >= 500 },
+  { id: "xp_2000", title: "2000 XP", desc: "2000 XP topla", icon: "💫", check: (p) => p.xp >= 2000 },
+];
+
+function checkAchievements(progress) {
+  const current = new Set(progress.achievements || []);
+  const newOnes = [];
+  for (const def of ACHIEVEMENT_DEFS) {
+    if (!current.has(def.id) && def.check(progress)) {
+      newOnes.push(def.id);
+    }
+  }
+  return newOnes;
+}
+
+function updateStreak(progress) {
+  const today = new Date().toISOString().slice(0, 10);
+  const last = progress.lastStreakDate;
+  if (last === today) return { streak: progress.streak, lastStreakDate: today };
+  const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+  if (last === yesterday) return { streak: (progress.streak || 0) + 1, lastStreakDate: today };
+  return { streak: 1, lastStreakDate: today };
 }
 
 function loadProgress() {
@@ -93,8 +141,20 @@ export default function useProgress() {
 
   const markLessonComplete = useCallback((lessonId) => {
     setProgress((prev) => {
-      const completed = prev.completedLessons.includes(lessonId) ? prev.completedLessons : [...prev.completedLessons, lessonId];
-      const next = { ...prev, completedLessons: completed, lastSessionDate: new Date().toISOString() };
+      const alreadyDone = prev.completedLessons.includes(lessonId);
+      const completed = alreadyDone ? prev.completedLessons : [...prev.completedLessons, lessonId];
+      const xpGain = alreadyDone ? 0 : XP_LESSON_COMPLETE;
+      const streakData = updateStreak(prev);
+      const streakXP = streakData.streak > prev.streak ? XP_STREAK_BONUS : 0;
+      const next = {
+        ...prev,
+        completedLessons: completed,
+        xp: (prev.xp || 0) + xpGain + streakXP,
+        ...streakData,
+        lastSessionDate: new Date().toISOString(),
+      };
+      const newAch = checkAchievements(next);
+      if (newAch.length > 0) next.achievements = [...(next.achievements || []), ...newAch];
       saveProgress(next);
       return next;
     });
@@ -113,7 +173,14 @@ export default function useProgress() {
       const newSR = sm2(prevSR, quality);
       const rootSR = { ...prev.rootSR, [root]: newSR };
 
-      const next = { ...prev, vocabulary: vocab, totalRootsLearned, rootSR, lastSessionDate: new Date().toISOString() };
+      // XP: root mastery bonus when reaching exactly 3 correct
+      const masteryXP = (isCorrect && entry.correct === 2) ? XP_ROOT_MASTERY : 0;
+
+      const next = { ...prev, vocabulary: vocab, totalRootsLearned, rootSR, xp: (prev.xp || 0) + masteryXP, lastSessionDate: new Date().toISOString() };
+      if (masteryXP > 0) {
+        const newAch = checkAchievements(next);
+        if (newAch.length > 0) next.achievements = [...(next.achievements || []), ...newAch];
+      }
       saveProgress(next);
       return next;
     });
@@ -132,7 +199,18 @@ export default function useProgress() {
 
   const saveQuizResult = useCallback((lessonId, score, total) => {
     setProgress((prev) => {
-      const next = { ...prev, quizResults: { ...prev.quizResults, [lessonId]: { score, total, date: new Date().toISOString() } }, lastSessionDate: new Date().toISOString() };
+      const xpGain = score * XP_QUIZ_CORRECT;
+      const streakData = updateStreak(prev);
+      const streakXP = streakData.streak > prev.streak ? XP_STREAK_BONUS : 0;
+      const next = {
+        ...prev,
+        quizResults: { ...prev.quizResults, [lessonId]: { score, total, date: new Date().toISOString() } },
+        xp: (prev.xp || 0) + xpGain + streakXP,
+        ...streakData,
+        lastSessionDate: new Date().toISOString(),
+      };
+      const newAch = checkAchievements(next);
+      if (newAch.length > 0) next.achievements = [...(next.achievements || []), ...newAch];
       saveProgress(next);
       return next;
     });
@@ -197,3 +275,5 @@ export default function useProgress() {
 
   return { progress, update, markLessonComplete, updateVocab, updateRootSR, saveQuizResult, reviewWords, exportProgress, importProgress, resetProgress };
 }
+
+export { ACHIEVEMENT_DEFS };

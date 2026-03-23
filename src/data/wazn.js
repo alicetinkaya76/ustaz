@@ -177,6 +177,15 @@ const KNOWN_WORDS = {
   "مُصَلٍّ": { root: "ص-ل-و", pattern: "مُفَعِّل", bab: "II", type: "ism-i fâil", meaning: "namaz kılan" },
   "سَاهٍ": { root: "س-ه-و", pattern: "فَاعِل", bab: "I", type: "ism-i fâil", meaning: "gafil, dalgın" },
   "مَاعُون": { root: "م-ع-ن", pattern: "فَاعُول", bab: "I", type: "isim", meaning: "basit yardım, zekât" },
+  // ── L47-L50 ──
+  "كَوْثَر": { root: "ك-ث-ر", pattern: "فَوْعَل", bab: "I", type: "isim", meaning: "pek çok hayır" },
+  "شَانِئ": { root: "ش-ن-أ", pattern: "فَاعِل", bab: "I", type: "ism-i fâil", meaning: "buğz eden" },
+  "أَبْتَر": { root: "ب-ت-ر", pattern: "أَفْعَل", bab: "I", type: "sıfat", meaning: "soyu kesik, güdük" },
+  "عَابِد": { root: "ع-ب-د", pattern: "فَاعِل", bab: "I", type: "ism-i fâil", meaning: "ibadet eden" },
+  "أَفْوَاج": { root: "ف-و-ج", pattern: "أَفْعَال", bab: "I", type: "cem kırık", meaning: "bölükler, gruplar" },
+  "تَوَّاب": { root: "ت-و-ب", pattern: "فَعَّال", bab: "I", type: "mübalağa", meaning: "çok tövbe kabul eden" },
+  "حَمَّالَة": { root: "ح-م-ل", pattern: "فَعَّالَة", bab: "I", type: "mübalağa müennes", meaning: "çok taşıyan (kadın)" },
+  "مَسَد": { root: "م-س-د", pattern: "فَعَل", bab: "I", type: "isim", meaning: "bükülmüş lif, hurma ipi" },
 };
 
 /**

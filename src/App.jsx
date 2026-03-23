@@ -1,4 +1,4 @@
-import { useState, useCallback, useRef, useEffect } from "react";
+import { useState, useCallback, useRef, useEffect, lazy, Suspense } from "react";
 import { BookOpen, GraduationCap, Brain, MessageCircle, Settings as SettingsIcon, Layers, ChevronLeft, ChevronRight, X, Search, Sun, Moon, BarChart3 } from "lucide-react";
 import curriculum from "./data/curriculum";
 import useProgress from "./hooks/useProgress";
@@ -6,15 +6,24 @@ import QuickAssessment from "./components/QuickAssessment";
 import LevelResult from "./components/LevelResult";
 import LessonView from "./components/LessonView";
 import LessonNav from "./components/LessonNav";
-import Settings from "./components/Settings";
 import GrammarCard from "./components/GrammarCard";
 import VezinCard from "./components/VezinCard";
 import QuickReview from "./components/QuickReview";
 import ConjugationPopup from "./components/ConjugationPopup";
 import DailyRoot from "./components/DailyRoot";
-import StatsPage from "./components/StatsPage";
 import OfflineBanner from "./components/OfflineBanner";
-import CrossLessonReview from "./components/CrossLessonReview";
+
+// Lazy-loaded views (code-split)
+const Settings = lazy(() => import("./components/Settings"));
+const StatsPage = lazy(() => import("./components/StatsPage"));
+const CrossLessonReview = lazy(() => import("./components/CrossLessonReview"));
+
+// Suspense fallback
+const LazyFallback = () => (
+  <div className="flex items-center justify-center py-12">
+    <div className="h-6 w-6 animate-spin rounded-full border-2 border-ustaz-gold/30 border-t-ustaz-gold" />
+  </div>
+);
 
 const API_KEY_STORAGE = "ustaz-api-key";
 const THEME_STORAGE = "ustaz-theme";
@@ -182,6 +191,16 @@ export default function App() {
 
           {view === "lesson" && (
             <div className="flex items-center gap-2">
+              {/* XP Badge */}
+              <span className="flex items-center gap-1 rounded-lg bg-ustaz-gold/10 px-1.5 py-0.5 text-[10px] font-bold text-ustaz-gold tabular-nums">
+                ✦ {progress.xp || 0}
+              </span>
+              {/* Streak */}
+              {(progress.streak || 0) > 0 && (
+                <span className="flex items-center gap-0.5 text-[10px] text-orange-400/70 tabular-nums">
+                  🔥{progress.streak}
+                </span>
+              )}
               <div className="flex items-center gap-1.5">
                 <span className="text-[10px] text-ustaz-turkish/30 tabular-nums">{progress.totalRootsLearned}</span>
                 <div className="h-1 w-16 overflow-hidden rounded-full bg-ov/[0.06]">
@@ -277,12 +296,14 @@ export default function App() {
 
         {view === "cross-review" && (
           <div className="view-enter pt-6">
-            <CrossLessonReview
-              lessons={lessons}
-              completedLessons={progress.completedLessons}
-              onRootResult={updateRootSR}
-              onClose={() => { setView("review"); setBottomTab("tekrar"); }}
-            />
+            <Suspense fallback={<LazyFallback />}>
+              <CrossLessonReview
+                lessons={lessons}
+                completedLessons={progress.completedLessons}
+                onRootResult={updateRootSR}
+                onClose={() => { setView("review"); setBottomTab("tekrar"); }}
+              />
+            </Suspense>
           </div>
         )}
 
@@ -352,15 +373,19 @@ export default function App() {
 
         {view === "settings" && (
           <div className="view-enter pt-6">
-            <Settings apiKey={apiKey} onApiKeyChange={handleApiKeyChange} onExport={exportProgress} onImport={importProgress}
-              onReset={handleReset} onClose={() => { setView("lesson"); setBottomTab("ders"); }}
-              theme={theme} onToggleTheme={toggleTheme} highContrast={highContrast} onToggleContrast={toggleContrast} />
+            <Suspense fallback={<LazyFallback />}>
+              <Settings apiKey={apiKey} onApiKeyChange={handleApiKeyChange} onExport={exportProgress} onImport={importProgress}
+                onReset={handleReset} onClose={() => { setView("lesson"); setBottomTab("ders"); }}
+                theme={theme} onToggleTheme={toggleTheme} highContrast={highContrast} onToggleContrast={toggleContrast} />
+            </Suspense>
           </div>
         )}
 
         {view === "stats" && (
           <div className="view-enter pt-6">
-            <StatsPage progress={progress} lessons={lessons} onClose={() => { setView("lesson"); setBottomTab("ders"); }} />
+            <Suspense fallback={<LazyFallback />}>
+              <StatsPage progress={progress} lessons={lessons} onClose={() => { setView("lesson"); setBottomTab("ders"); }} />
+            </Suspense>
           </div>
         )}
       </main>
@@ -421,7 +446,7 @@ export default function App() {
 
       {/* ── Footer (desktop only) ── */}
       <footer className="hidden border-t border-ov/[0.04] py-6 text-center text-[10px] text-ustaz-turkish/15 sm:block">
-        Ustaz v0.14 — Kur'an Arapçası Öğrenme Uygulaması
+        Ustaz v0.16 — Kur'an Arapçası Öğrenme Uygulaması
       </footer>
     </div>
   );
