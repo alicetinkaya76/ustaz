@@ -768,9 +768,11 @@ const rootDB = {
       { form: "تَوَّاب", pattern: "فَعَّال", type: "mübalağa", meaning: "tövbeleri çok kabul eden" },
     ],
     bab_chain: [
-      { bab: "I", form: "تَابَ/يَتُوبُ", meaning: "döndü (tövbe etti)", semantic: "temel eylem", lessons: [] },
+      { bab: "I", form: "تَابَ/يَتُوبُ", meaning: "döndü (tövbe etti)", semantic: "temel eylem", lessons: ["L49"] },
     ],
-    cross_refs: [],
+    cross_refs: [
+      { lesson: "L49", verse: "110:3", form: "تَوَّابًا", note: "tövbeleri çok kabul eden — فَعَّال mübalağa" },
+    ],
     turkish_traces: ["tövbe", "Tevvâb"],
   },
   "ز-ل-ز-ل": {
@@ -1946,6 +1948,180 @@ const rootDB = {
       { lesson: "L46", verse: "107:7", form: "يَمْنَعُونَ", note: "basit yardımı bile engellerler" },
     ],
     turkish_traces: ["men", "mâni"],
+  },
+  // ── L47-L50 Yeni Kökler ──
+  "ع-ط-ي": {
+    core: "vermek, ihsân etmek",
+    quran_count: 116,
+    derivatives: [
+      { form: "عَطَاء", pattern: "فَعَال", type: "masdar", meaning: "bağış, ihsân" },
+      { form: "مُعْطٍ", pattern: "مُفْعِل", type: "ism-i fâil (IV)", meaning: "veren" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "عَطَا/يَعْطُو", meaning: "yöneldi, uzandı", semantic: "temel eylem", lessons: [] },
+      { bab: "IV", form: "أَعْطَى/يُعْطِي", meaning: "verdi, ihsân etti", semantic: "ta'diye (geçişli)", lessons: ["L47"] },
+    ],
+    cross_refs: [
+      { lesson: "L47", verse: "108:1", form: "أَعْطَيْنَاكَ", note: "sana Kevser'i verdik — IV. bâb iki mef'ûl" },
+    ],
+    turkish_traces: ["atâ", "atıfet"],
+  },
+  "ش-ن-أ": {
+    core: "buğz etmek, kin tutmak",
+    quran_count: 5,
+    derivatives: [
+      { form: "شَانِئ", pattern: "فَاعِل", type: "ism-i fâil", meaning: "buğz eden" },
+      { form: "شَنَآن", pattern: "فَعَلَان", type: "masdar", meaning: "kin, düşmanlık" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "شَنَأَ/يَشْنَأُ", meaning: "buğz etti", semantic: "temel eylem", lessons: ["L47"] },
+    ],
+    cross_refs: [
+      { lesson: "L47", verse: "108:3", form: "شَانِئَكَ", note: "sana buğz eden — ism-i fâil + muzâf zamîr" },
+    ],
+    turkish_traces: [],
+  },
+  "ب-ت-ر": {
+    core: "kesmek, soyu kesmek",
+    quran_count: 1,
+    derivatives: [
+      { form: "أَبْتَر", pattern: "أَفْعَل", type: "sıfat", meaning: "soyu kesik, güdük" },
+      { form: "بَتْر", pattern: "فَعْل", type: "masdar", meaning: "kesme" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "بَتَرَ/يَبْتُرُ", meaning: "kesti", semantic: "temel eylem", lessons: ["L47"] },
+    ],
+    cross_refs: [
+      { lesson: "L47", verse: "108:3", form: "الأَبْتَر", note: "soyu kesik — أَفْعَل sıfat kalıbı" },
+    ],
+    turkish_traces: [],
+  },
+  "ن-ح-ر": {
+    core: "boğazlamak, kurban kesmek",
+    quran_count: 2,
+    derivatives: [
+      { form: "نَحْر", pattern: "فَعْل", type: "masdar", meaning: "boğazlama, kurban" },
+      { form: "مَنْحَر", pattern: "مَفْعَل", type: "ism-i mekân", meaning: "kurban kesim yeri" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "نَحَرَ/يَنْحَرُ", meaning: "kurban kesti", semantic: "temel eylem", lessons: ["L47"] },
+    ],
+    cross_refs: [
+      { lesson: "L47", verse: "108:2", form: "وَانْحَرْ", note: "kurban kes — emir" },
+    ],
+    turkish_traces: ["nahır"],
+  },
+  "ف-و-ج": {
+    core: "grup, bölük",
+    quran_count: 5,
+    derivatives: [
+      { form: "فَوْج", pattern: "فَعْل", type: "isim", meaning: "grup, bölük" },
+      { form: "أَفْوَاج", pattern: "أَفْعَال", type: "cem kırık", meaning: "gruplar, bölükler" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "فَاجَ/يَفُوجُ", meaning: "dağıldı, yayıldı", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L49", verse: "110:2", form: "أَفْوَاجًا", note: "bölük bölük — hâl, cem kırık" },
+    ],
+    turkish_traces: [],
+  },
+  "د-خ-ل": {
+    core: "girmek",
+    quran_count: 127,
+    derivatives: [
+      { form: "دُخُول", pattern: "فُعُول", type: "masdar", meaning: "giriş" },
+      { form: "مُدْخَل", pattern: "مُفْعَل", type: "ism-i mekân (IV)", meaning: "giriş yeri" },
+      { form: "دَاخِل", pattern: "فَاعِل", type: "ism-i fâil", meaning: "giren" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "دَخَلَ/يَدْخُلُ", meaning: "girdi", semantic: "temel eylem", lessons: ["L49"] },
+      { bab: "IV", form: "أَدْخَلَ/يُدْخِلُ", meaning: "soktu, dahil etti", semantic: "ta'diye", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L49", verse: "110:2", form: "يَدْخُلُونَ", note: "Allah'ın dinine giriyorlar — hâl cümlesi" },
+    ],
+    turkish_traces: ["dahil", "müdahale"],
+  },
+  "ت-ب-ب": {
+    core: "helak olmak, kurumak, kaybetmek",
+    quran_count: 4,
+    derivatives: [
+      { form: "تَبَاب", pattern: "فَعَال", type: "masdar", meaning: "helak, ziyan" },
+      { form: "تَتْبِيب", pattern: "تَفْعِيل", type: "masdar (II)", meaning: "helak etme" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "تَبَّ/يَتِبُّ", meaning: "kurudu, helak oldu", semantic: "temel eylem (mudâaf)", lessons: ["L50"] },
+    ],
+    cross_refs: [
+      { lesson: "L50", verse: "111:1", form: "تَبَّتْ", note: "iki eli kurusun — beddua" },
+      { lesson: "L50", verse: "111:1", form: "وَتَبَّ", note: "zaten kurudu — haber" },
+    ],
+    turkish_traces: [],
+  },
+  "ك-س-ب": {
+    core: "kazanmak, elde etmek",
+    quran_count: 67,
+    derivatives: [
+      { form: "كَسْب", pattern: "فَعْل", type: "masdar", meaning: "kazanç" },
+      { form: "مُكْتَسَب", pattern: "مُفْتَعَل", type: "ism-i mef'ûl (VIII)", meaning: "kazanılan" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "كَسَبَ/يَكْسِبُ", meaning: "kazandı", semantic: "temel eylem", lessons: ["L50"] },
+      { bab: "VIII", form: "اِكْتَسَبَ/يَكْتَسِبُ", meaning: "kendi için kazandı", semantic: "dönüşlü", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L50", verse: "111:2", form: "كَسَبَ", note: "kazandığı (şey) — mâzî" },
+    ],
+    turkish_traces: ["kesb", "iktisab"],
+  },
+  "ح-م-ل": {
+    core: "taşımak, yüklenmek",
+    quran_count: 64,
+    derivatives: [
+      { form: "حَمْل", pattern: "فَعْل", type: "masdar", meaning: "taşıma, hamilelik" },
+      { form: "حَمَّال", pattern: "فَعَّال", type: "mübalağa", meaning: "çok taşıyan, hamal" },
+      { form: "حَمَّالَة", pattern: "فَعَّالَة", type: "mübalağa müennes", meaning: "çok taşıyan kadın" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "حَمَلَ/يَحْمِلُ", meaning: "taşıdı", semantic: "temel eylem", lessons: ["L50"] },
+      { bab: "II", form: "حَمَّلَ/يُحَمِّلُ", meaning: "yükledi", semantic: "ta'diye/teksîr", lessons: [] },
+      { bab: "V", form: "تَحَمَّلَ/يَتَحَمَّلُ", meaning: "katlandı", semantic: "dönüşlü (II'nin)", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L50", verse: "111:4", form: "حَمَّالَةَ", note: "odun hamalı — فَعَّالَة mübalağa müennes" },
+    ],
+    turkish_traces: ["hamal", "hamle", "tahammül"],
+  },
+  "ل-ه-ب": {
+    core: "alevlenmek, tutuşmak",
+    quran_count: 4,
+    derivatives: [
+      { form: "لَهَب", pattern: "فَعَل", type: "isim", meaning: "alev" },
+      { form: "لَهِيب", pattern: "فَعِيل", type: "isim", meaning: "alev, hararet" },
+    ],
+    bab_chain: [
+      { bab: "V", form: "تَلَهَّبَ/يَتَلَهَّبُ", meaning: "alevlendi", semantic: "dönüşlü", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L50", verse: "111:1", form: "لَهَبٍ", note: "Ebû Leheb — alev babası lakabı" },
+      { lesson: "L50", verse: "111:3", form: "لَهَبٍ", note: "alevli ateş — isim + ceza ironisi (tıbâk)" },
+    ],
+    turkish_traces: ["lehep", "alevlenmek"],
+  },
+  "م-س-د": {
+    core: "bükmek, eğirmek",
+    quran_count: 1,
+    derivatives: [
+      { form: "مَسَد", pattern: "فَعَل", type: "isim", meaning: "bükülmüş lif, hurma ipi" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "مَسَدَ/يَمْسُدُ", meaning: "büktü, eğirdi", semantic: "temel eylem", lessons: ["L50"] },
+    ],
+    cross_refs: [
+      { lesson: "L50", verse: "111:5", form: "مَسَدٍ", note: "bükülmüş liften ip — sure adı" },
+    ],
+    turkish_traces: [],
   },
 };
 

@@ -1,5 +1,6 @@
 import { useState, useMemo } from "react";
-import { BarChart3, Calendar, TrendingUp, Target, ChevronLeft, Flame, Clock, Award } from "lucide-react";
+import { BarChart3, Calendar, TrendingUp, Target, ChevronLeft, Flame, Clock, Award, Trophy } from "lucide-react";
+import { ACHIEVEMENT_DEFS } from "../hooks/useProgress";
 
 // Simple mini bar chart component
 function MiniBar({ value, max, color = "bg-ustaz-gold" }) {
@@ -96,6 +97,7 @@ export default function StatsPage({ progress, lessons, onClose }) {
 
   const tabs = [
     { id: "overview", icon: BarChart3, label: "Genel" },
+    { id: "achievements", icon: Trophy, label: "Başarım" },
     { id: "roots", icon: Target, label: "Kökler" },
     { id: "calendar", icon: Calendar, label: "Takvim" },
     { id: "quizzes", icon: TrendingUp, label: "Quizler" },
@@ -139,9 +141,14 @@ export default function StatsPage({ progress, lessons, onClose }) {
             {/* Summary cards */}
             <div className="grid grid-cols-2 gap-3">
               <div className="card text-center">
-                <div className="text-2xl font-bold text-ustaz-gold">{stats.completed}</div>
+                <div className="text-2xl font-bold text-ustaz-gold">{progress.xp || 0}</div>
+                <div className="text-[10px] text-ustaz-turkish/40 mt-1">Toplam XP</div>
+                <MiniBar value={progress.xp || 0} max={2000} color="bg-ustaz-gold" />
+              </div>
+              <div className="card text-center">
+                <div className="text-2xl font-bold text-pos-fil">{stats.completed}</div>
                 <div className="text-[10px] text-ustaz-turkish/40 mt-1">Tamamlanan Ders</div>
-                <MiniBar value={stats.completed} max={stats.totalLessons} color="bg-ustaz-gold" />
+                <MiniBar value={stats.completed} max={stats.totalLessons} color="bg-pos-fil" />
                 <div className="text-[9px] text-ustaz-turkish/25 mt-1">{stats.totalLessons} dersten</div>
               </div>
               <div className="card text-center">
@@ -151,12 +158,11 @@ export default function StatsPage({ progress, lessons, onClose }) {
                 <div className="text-[9px] text-ustaz-turkish/25 mt-1">{stats.masteredRoots} ustalaşmış</div>
               </div>
               <div className="card text-center">
-                <div className="text-2xl font-bold text-pos-fil">{stats.streak}</div>
+                <div className="flex items-center justify-center gap-1">
+                  <span className="text-2xl font-bold text-orange-400">{progress.streak || stats.streak}</span>
+                  {(progress.streak || stats.streak) > 0 && <Flame size={16} className="text-orange-400" />}
+                </div>
                 <div className="text-[10px] text-ustaz-turkish/40 mt-1">Gün Serisi</div>
-              </div>
-              <div className="card text-center">
-                <div className="text-2xl font-bold text-pos-harf">{stats.reviewCalendar[0]?.count || 0}</div>
-                <div className="text-[10px] text-ustaz-turkish/40 mt-1">Bugün Due Kök</div>
               </div>
             </div>
 
@@ -176,6 +182,34 @@ export default function StatsPage({ progress, lessons, onClose }) {
                     )}
                   </div>
                 ))}
+              </div>
+            </div>
+          </>
+        )}
+
+        {tab === "achievements" && (
+          <>
+            <div className="card">
+              <h3 className="text-sm font-semibold text-ustaz-arabic mb-3">
+                <Trophy size={14} className="inline mr-1.5 text-ustaz-gold" />
+                Başarımlar ({(progress.achievements || []).length}/{ACHIEVEMENT_DEFS.length})
+              </h3>
+              <div className="space-y-2">
+                {ACHIEVEMENT_DEFS.map((def) => {
+                  const unlocked = (progress.achievements || []).includes(def.id);
+                  return (
+                    <div key={def.id} className={`flex items-center gap-3 rounded-xl px-3 py-2.5 transition ${
+                      unlocked ? "bg-ustaz-gold/10 border border-ustaz-gold/15" : "bg-ov/[0.03] border border-ov/[0.05] opacity-50"
+                    }`}>
+                      <span className="text-xl">{unlocked ? def.icon : "🔒"}</span>
+                      <div className="flex-1 min-w-0">
+                        <div className={`text-xs font-semibold ${unlocked ? "text-ustaz-arabic" : "text-ustaz-turkish/40"}`}>{def.title}</div>
+                        <div className="text-[10px] text-ustaz-turkish/30">{def.desc}</div>
+                      </div>
+                      {unlocked && <span className="text-[10px] text-ustaz-gold font-medium">✓</span>}
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </>
