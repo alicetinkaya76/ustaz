@@ -11,6 +11,7 @@ import level5bLessons from "./levels/level5b";
 import level5cLessons from "./levels/level5c";
 import level6Lessons from "./levels/level6";
 import level7Lessons from "./levels/level7";
+import mulkLessons from "./surahs/067-mulk";
 
 const curriculum = {
   lessons: [
@@ -6976,6 +6977,8 @@ const curriculum = {
     ...level6Lessons,
     // L56–L62 loaded from level7 module (v0.18: Nebe 78:9-40, Nâzi'ât 79:6-46)
     ...level7Lessons,
+    // S67-B01–B05: Mülk suresi (v0.20: ilk surah-format ders, quizGenerator)
+    ...mulkLessons,
   ],
 };
 

@@ -238,6 +238,15 @@ const surahRegistry = [
     lessonIds: ["L04-nas-felak", "L53-nas"],
   },
 
+  // ── CÜZ 29 (TABÂREK) ──────────────────────────────────
+  {
+    surah: 67, name: "Mülk", nameAr: "سُورَةُ المُلْك",
+    ayatCount: 30, cuz: 29, revelation: "mekki", status: "complete",
+    coveredAyahs: Array.from({ length: 30 }, (_, i) => i + 1),
+    lessonIds: ["S67-B01-mulk", "S67-B02-mulk", "S67-B03-mulk", "S67-B04-mulk", "S67-B05-mulk"],
+    note: "v0.20: İlk surah-format ders. B01: 1-5, B02: 6-11, B03: 12-18, B04: 19-24, B05: 25-30",
+  },
+
   // ── CÜZ 1 ──────────────────────────────────────────────
   {
     surah: 1, name: "Fâtiha", nameAr: "سُورَةُ الفَاتِحَة",

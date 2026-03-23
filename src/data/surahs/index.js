@@ -38,8 +38,8 @@ export {
  */
 export async function loadSurah(surahNum) {
   const slugMap = {
-    // v0.20+ planı:
-    // 67: "mulk",
+    67: "mulk",
+    // v0.21+ planı:
     // 55: "rahman",
   };
 
