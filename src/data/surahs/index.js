@@ -41,6 +41,9 @@ export {
 const slugMap = {
   67: "mulk",
   55: "rahman",
+  80: "abese",
+  82: "infitar",
+  96: "alak",
 };
 
 export async function loadSurah(surahNum) {

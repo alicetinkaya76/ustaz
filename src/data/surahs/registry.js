@@ -45,16 +45,15 @@ const surahRegistry = [
   },
   {
     surah: 80, name: "Abese", nameAr: "سُورَةُ عَبَسَ",
-    ayatCount: 42, cuz: 30, revelation: "mekki", status: "partial",
-    coveredAyahs: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-    lessonIds: ["L21-abese"],
+    ayatCount: 42, cuz: 30, revelation: "mekki", status: "complete",
+    coveredAyahs: Array.from({ length: 42 }, (_, i) => i + 1),
+    lessonIds: ["L21-abese", "S80-B01-abese", "S80-B02-abese", "S80-B03-abese", "S80-B04-abese"],
   },
   {
     surah: 82, name: "İnfitâr", nameAr: "سُورَةُ الانْفِطَار",
-    ayatCount: 19, cuz: 30, revelation: "mekki", status: "partial",
-    coveredAyahs: [1, 2, 3, 4, 5, 6],
-    lessonIds: ["L26-infitar"],
-    note: "Kalan 7-19 (13 ayet) v0.20+ planında",
+    ayatCount: 19, cuz: 30, revelation: "mekki", status: "complete",
+    coveredAyahs: Array.from({ length: 19 }, (_, i) => i + 1),
+    lessonIds: ["L26-infitar", "S82-B01-infitar", "S82-B02-infitar", "S82-B03-infitar"],
   },
   {
     surah: 83, name: "Mutaffifîn", nameAr: "سُورَةُ المُطَفِّفِين",
@@ -124,10 +123,9 @@ const surahRegistry = [
   },
   {
     surah: 96, name: "Alak", nameAr: "سُورَةُ العَلَق",
-    ayatCount: 19, cuz: 30, revelation: "mekki", status: "partial",
-    coveredAyahs: [1, 2, 3, 4, 5, 6, 7, 8],
-    lessonIds: ["L36-alak", "L55-alak-full"],
-    note: "İlk 8 ayet kapsanmış, 9-19 eksik",
+    ayatCount: 19, cuz: 30, revelation: "mekki", status: "complete",
+    coveredAyahs: Array.from({ length: 19 }, (_, i) => i + 1),
+    lessonIds: ["L36-alak", "L55-alak-full", "S96-B01-alak", "S96-B02-alak", "S96-B03-alak"],
   },
   {
     surah: 97, name: "Kadr", nameAr: "سُورَةُ القَدْر",
