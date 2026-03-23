@@ -446,7 +446,7 @@ export default function App() {
 
       {/* ── Footer (desktop only) ── */}
       <footer className="hidden border-t border-ov/[0.04] py-6 text-center text-[10px] text-ustaz-turkish/15 sm:block">
-        Ustaz v0.16 — Kur'an Arapçası Öğrenme Uygulaması
+        Ustaz v0.17 — Kur'an Arapçası Öğrenme Uygulaması
       </footer>
     </div>
   );

@@ -186,6 +186,18 @@ const KNOWN_WORDS = {
   "تَوَّاب": { root: "ت-و-ب", pattern: "فَعَّال", bab: "I", type: "mübalağa", meaning: "çok tövbe kabul eden" },
   "حَمَّالَة": { root: "ح-م-ل", pattern: "فَعَّالَة", bab: "I", type: "mübalağa müennes", meaning: "çok taşıyan (kadın)" },
   "مَسَد": { root: "م-س-د", pattern: "فَعَل", bab: "I", type: "isim", meaning: "bükülmüş lif, hurma ipi" },
+  // ── L51-L55 ──
+  "صَمَد": { root: "ص-م-د", pattern: "فَعَل", bab: "I", type: "sıfat", meaning: "kendine yeten, Samed" },
+  "كُفُو": { root: "ك-ف-أ", pattern: "فُعُول", bab: "I", type: "sıfat", meaning: "denk, eş" },
+  "غَاسِق": { root: "غ-س-ق", pattern: "فَاعِل", bab: "I", type: "ism-i fâil", meaning: "karanlık, gece" },
+  "نَفَّاثَات": { root: "ن-ف-ث", pattern: "فَعَّالَات", bab: "I", type: "mübalağa müe. cem", meaning: "üfleyenler" },
+  "حَاسِد": { root: "ح-س-د", pattern: "فَاعِل", bab: "I", type: "ism-i fâil", meaning: "haset eden" },
+  "وَسْوَاس": { root: "و-س-و-س", pattern: "فَعْلَال", bab: null, type: "masdar/sıfat", meaning: "vesveseci" },
+  "خَنَّاس": { root: "خ-ن-س", pattern: "فَعَّال", bab: "I", type: "mübalağa", meaning: "sinsi, geri çekilen" },
+  "طَاغُوت": { root: "ط-غ-ي", pattern: "فَاعُول", bab: "I", type: "isim", meaning: "azgın güç, tağut" },
+  "سَاجِد": { root: "س-ج-د", pattern: "فَاعِل", bab: "I", type: "ism-i fâil", meaning: "secde eden" },
+  "مَسْجِد": { root: "س-ج-د", pattern: "مَفْعِل", bab: "I", type: "ism-i mekân", meaning: "mescid" },
+  "قَرِيب": { root: "ق-ر-ب", pattern: "فَعِيل", bab: "I", type: "sıfat", meaning: "yakın" },
 };
 
 /**
