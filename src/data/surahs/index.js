@@ -36,13 +36,15 @@ export {
  * @param {number} surahNum - Sure numarası (ör: 67)
  * @returns {Promise<Object|null>} Sure modülü veya null
  */
-export async function loadSurah(surahNum) {
-  const slugMap = {
-    67: "mulk",
-    // v0.21+ planı:
-    // 55: "rahman",
-  };
 
+/** Tüm surah-format ders dosyalarının slug haritası */
+const slugMap = {
+  67: "mulk",
+  // v0.22+ planı:
+  // 55: "rahman",
+};
+
+export async function loadSurah(surahNum) {
   const slug = slugMap[surahNum];
   if (!slug) return null;
 
@@ -54,4 +56,17 @@ export async function loadSurah(surahNum) {
     console.warn(`[Ustaz] Sure ${surahNum} dosyası yüklenemedi:`, err);
     return null;
   }
+}
+
+/**
+ * Tüm surah-format dersleri lazy yükle ve birleştir.
+ * App.jsx startup'ında çağrılır.
+ *
+ * @returns {Promise<Array>} Tüm surah lesson'ları (düz dizi)
+ */
+export async function loadAllSurahLessons() {
+  const surahNums = Object.keys(slugMap).map(Number);
+  const results = await Promise.all(surahNums.map(loadSurah));
+  // Her modül bir lesson dizisi döndürür
+  return results.filter(Boolean).flat();
 }

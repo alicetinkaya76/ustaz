@@ -1,6 +1,7 @@
-import { useState, useCallback, useRef, useEffect, lazy, Suspense } from "react";
+import { useState, useCallback, useRef, useEffect, useMemo, lazy, Suspense } from "react";
 import { BookOpen, GraduationCap, Brain, MessageCircle, Settings as SettingsIcon, Layers, ChevronLeft, ChevronRight, X, Search, Sun, Moon, BarChart3 } from "lucide-react";
 import curriculum from "./data/curriculum";
+import { loadAllSurahLessons } from "./data/surahs";
 import useProgress from "./hooks/useProgress";
 import QuickAssessment from "./components/QuickAssessment";
 import LevelResult from "./components/LevelResult";
@@ -54,6 +55,14 @@ export default function App() {
   const [showVezin, setShowVezin] = useState(false);
   const [vezinPattern, setVezinPattern] = useState(null);
 
+  // Surah lessons (lazy-loaded)
+  const [surahLessons, setSurahLessons] = useState([]);
+  useEffect(() => {
+    loadAllSurahLessons().then((loaded) => {
+      if (loaded.length > 0) setSurahLessons(loaded);
+    });
+  }, []);
+
   // Conjugation modal
   const [conjRoot, setConjRoot] = useState(null);
   const [conjHighlight, setConjHighlight] = useState(null);
@@ -64,7 +73,10 @@ export default function App() {
   // Swipe gesture
   const touchRef = useRef({ startX: 0, startY: 0, startTime: 0 });
 
-  const lessons = curriculum.lessons;
+  const lessons = useMemo(
+    () => [...curriculum.lessons, ...surahLessons],
+    [surahLessons],
+  );
   const currentLesson = lessons.find((l) => l.id === currentLessonId) || lessons[0];
   const currentIdx = lessons.findIndex((l) => l.id === currentLessonId);
 
@@ -446,7 +458,7 @@ export default function App() {
 
       {/* ── Footer (desktop only) ── */}
       <footer className="hidden border-t border-ov/[0.04] py-6 text-center text-[10px] text-ustaz-turkish/15 sm:block">
-        Ustaz v0.17 — Kur'an Arapçası Öğrenme Uygulaması
+        Ustaz v0.21 — Kur'an Arapçası Öğrenme Uygulaması
       </footer>
     </div>
   );

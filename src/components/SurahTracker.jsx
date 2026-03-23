@@ -1,6 +1,6 @@
 import { useState, useMemo } from "react";
-import { BookOpenCheck, ChevronDown, ChevronUp } from "lucide-react";
-import surahRegistry, { getStats, getUncoveredAyahs } from "../data/surahs/registry";
+import { BookOpenCheck, ChevronDown, ChevronUp, ExternalLink } from "lucide-react";
+import surahRegistry, { getStats, getUncoveredAyahs, getSurahsByCuz } from "../data/surahs/registry";
 
 // ── Ayet ızgarası: her ayet bir hücre ──
 function AyahGrid({ entry }) {
@@ -23,7 +23,7 @@ function AyahGrid({ entry }) {
 }
 
 // ── Tek sure kartı ──
-function SurahCard({ entry }) {
+function SurahCard({ entry, onSelectLesson }) {
   const [open, setOpen] = useState(false);
   const pct = Math.round((entry.coveredAyahs.length / entry.ayatCount) * 100);
   const isComplete = entry.status === "complete";
@@ -96,12 +96,19 @@ function SurahCard({ entry }) {
           </div>
           <div className="flex flex-wrap gap-1">
             {entry.lessonIds.map((lid) => (
-              <span
+              <button
                 key={lid}
-                className="rounded-md bg-ov/[0.06] px-1.5 py-0.5 text-[9px] text-ustaz-turkish/50"
+                onClick={() => onSelectLesson?.(lid)}
+                className={`rounded-md px-1.5 py-0.5 text-[9px] transition-colors ${
+                  onSelectLesson
+                    ? "bg-ustaz-gold/10 text-ustaz-gold hover:bg-ustaz-gold/20 cursor-pointer"
+                    : "bg-ov/[0.06] text-ustaz-turkish/50"
+                }`}
+                title={onSelectLesson ? `${lid} dersine git` : lid}
               >
                 {lid}
-              </span>
+                {onSelectLesson && <ExternalLink size={7} className="ml-0.5 inline-block opacity-50" />}
+              </button>
             ))}
           </div>
           {uncovered.length > 0 && (
@@ -122,15 +129,25 @@ function SurahCard({ entry }) {
 }
 
 // ── Ana bileşen ──
-export default function SurahTracker({ compact = false }) {
+export default function SurahTracker({ compact = false, onSelectLesson }) {
   const stats = useMemo(() => getStats(), []);
-  const [filter, setFilter] = useState("all"); // all | complete | partial
+  const [filter, setFilter] = useState("all"); // all | complete | partial | cuz-N
+
+  // Cüz numaralarını tespit et
+  const cuzNumbers = useMemo(() => {
+    const set = new Set(surahRegistry.map((s) => s.cuz));
+    return [...set].sort((a, b) => b - a); // büyükten küçüğe
+  }, []);
 
   const filtered = useMemo(() => {
     if (filter === "complete")
       return surahRegistry.filter((s) => s.status === "complete");
     if (filter === "partial")
       return surahRegistry.filter((s) => s.status === "partial");
+    if (filter.startsWith("cuz-")) {
+      const cuzNum = Number(filter.split("-")[1]);
+      return getSurahsByCuz(cuzNum);
+    }
     return surahRegistry;
   }, [filter]);
 
@@ -201,7 +218,7 @@ export default function SurahTracker({ compact = false }) {
       </div>
 
       {/* Filtre */}
-      <div className="flex gap-1.5">
+      <div className="flex flex-wrap gap-1.5">
         {[
           { key: "all", label: `Hepsi (${stats.total})` },
           { key: "complete", label: `Tam (${stats.complete})` },
@@ -219,12 +236,26 @@ export default function SurahTracker({ compact = false }) {
             {label}
           </button>
         ))}
+        {/* Cüz filtreleri */}
+        {cuzNumbers.map((cuz) => (
+          <button
+            key={`cuz-${cuz}`}
+            onClick={() => setFilter(filter === `cuz-${cuz}` ? "all" : `cuz-${cuz}`)}
+            className={`rounded-lg px-2.5 py-1 text-[10px] font-medium transition-colors ${
+              filter === `cuz-${cuz}`
+                ? "bg-ustaz-gold/15 text-ustaz-gold"
+                : "bg-ov/[0.04] text-ustaz-turkish/40 hover:bg-ov/[0.08]"
+            }`}
+          >
+            Cüz {cuz}
+          </button>
+        ))}
       </div>
 
       {/* Kartlar */}
       <div className="flex flex-col gap-2">
         {sorted.map((entry) => (
-          <SurahCard key={entry.surah} entry={entry} />
+          <SurahCard key={entry.surah} entry={entry} onSelectLesson={onSelectLesson} />
         ))}
       </div>
     </div>

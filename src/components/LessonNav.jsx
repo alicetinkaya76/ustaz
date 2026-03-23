@@ -77,7 +77,7 @@ export default function LessonNav({ lessons, currentLessonId, completedLessons, 
         /* ── Sure Haritası görünümü ── */
         <div className="flex-1 overflow-y-auto px-4 py-3">
           <Suspense fallback={<p className="text-center text-xs text-ustaz-turkish/30 py-8">Yükleniyor...</p>}>
-            <SurahTracker />
+            <SurahTracker onSelectLesson={onSelect} />
           </Suspense>
         </div>
       ) : (
