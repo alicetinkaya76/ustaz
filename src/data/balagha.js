@@ -71,6 +71,9 @@ const balaghaDB = {
       { verse: "93:6-8", text: "وَجَدَكَ × 3", analysis: "Üç keşif: yetim → yolunu arayan → muhtaç", lesson: "L19" },
       { verse: "101:1-3", text: "القَارِعَة × 3", analysis: "Tanıtım → soru → bırakma: kıyâmet üç kez çınlıyor", lesson: "L14" },
       { verse: "109:2-5", text: "لَا أَعْبُدُ / عَابِدُونَ × 2", analysis: "Fiil cümlesi çifti (anlık) + isim cümlesi çifti (kalıcı): iki perspektiften kesin red", lesson: "L48" },
+      { verse: "113:2-5", text: "مِنْ شَرِّ × 4", analysis: "Dört farklı şer kaynağı tedricî sırayla: genel → kozmik → sihir → haset", lesson: "L52" },
+      { verse: "114:1-3", text: "النَّاسِ × 3 (رَبّ/مَلِك/إِلَه)", analysis: "Üç ilâhî sıfatla tekrar: terbiye → yönetim → ulûhiyet (ascending tricolon)", lesson: "L53" },
+      { verse: "94:5-6", text: "العُسْرِ (marife) × 2, يُسْرًا (nekira) × 2", analysis: "Marife tekrar=aynı zorluk, nekira tekrar=iki kolaylık — dilbilgisi kuralıyla matematik", lesson: "L54" },
     ],
   },
   iltifat: {
@@ -122,6 +125,7 @@ const balaghaDB = {
       { verse: "95:8", text: "أَلَيْسَ اللّهُ بِأَحْكَمِ الحَاكِمِينَ", analysis: "Allah en adil hâkim değil mi? → Elbette!", lesson: "L18" },
       { verse: "93:6-8", text: "أَلَمْ يَجِدْكَ يَتِيمًا", analysis: "Bulmadı mı? → Elbette buldu! × 3 soru", lesson: "L19" },
       { verse: "105:1", text: "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ", analysis: "Görmedin mi? → Elbette gördün! Fil ordusunun helâki", lesson: "L44" },
+      { verse: "94:1-4", text: "أَلَمْ نَشْرَحْ / أَلَمْ نَضَعْ / أَلَمْ نَرْفَعْ", analysis: "Üç أَلَمْ ile üç nimet: göğüs açma → yük indirme → şan yükseltme. Duhâ-İnşirâh ikiz yapısı", lesson: "L54" },
     ],
   },
   tafṣil: {

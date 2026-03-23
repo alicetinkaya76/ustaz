@@ -19,6 +19,7 @@ const typeConfig = {
   irab_identify: { icon: BookOpen, label: "İ'rab Rolü", badge: "bg-orange-500/15 text-orange-400 border-orange-500/20" },
   balagha_identify: { icon: Sparkles, label: "Belâgat", badge: "bg-amber-500/15 text-amber-400 border-amber-500/20" },
   matching: { icon: Layers, label: "Eşleştirme", badge: "bg-teal-500/15 text-teal-400 border-teal-500/20" },
+  fill_blank: { icon: BookOpen, label: "Boşluk Doldurma", badge: "bg-cyan-500/15 text-cyan-400 border-cyan-500/20" },
 };
 
 function MatchingQuiz({ pairs, onDone }) {
@@ -233,6 +234,13 @@ export default function ExerciseCard({ exercises, lessonId, onComplete, onRootRe
         </div>
       )}
       <p className="mb-5 text-[15px] leading-relaxed text-ustaz-turkish">{current.question}</p>
+
+      {/* Hint for fill_blank */}
+      {current.type === "fill_blank" && current.hint && !showResult && (
+        <div className="mb-4 rounded-lg border border-cyan-500/15 bg-cyan-500/[0.04] px-3 py-2 text-xs text-cyan-400/70">
+          💡 İpucu: {current.hint}
+        </div>
+      )}
 
       {/* Matching type */}
       {current.type === "matching" ? (

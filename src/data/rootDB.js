@@ -2123,6 +2123,234 @@ const rootDB = {
     ],
     turkish_traces: [],
   },
+  // ═══ SEVİYE 6 KÖKLERİ ═══
+  "ص-م-د": {
+    core: "yönelmek, kendine yeten, muhtaç olmayan",
+    quran_count: 1,
+    derivatives: [
+      { form: "صَمَد", pattern: "فَعَل", type: "sıfat", meaning: "Samed, kendine yeten" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "صَمَدَ/يَصْمُدُ", meaning: "yöneldi, dayandı", semantic: "temel eylem", lessons: ["L51"] },
+    ],
+    cross_refs: [
+      { lesson: "L51", verse: "112:2", form: "الصَّمَدُ", note: "Allah Samed'dir" },
+    ],
+    turkish_traces: [],
+  },
+  "ك-ف-أ": {
+    core: "denk olmak, eşit olmak",
+    quran_count: 1,
+    derivatives: [
+      { form: "كُفُو", pattern: "فُعُول", type: "sıfat", meaning: "denk, eş" },
+    ],
+    bab_chain: [
+      { bab: "III", form: "كَافَأَ/يُكَافِئُ", meaning: "karşılık verdi", semantic: "müfâ'ale", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L51", verse: "112:4", form: "كُفُوًا", note: "dengi olan hiç kimse yok" },
+    ],
+    turkish_traces: ["mükâfat"],
+  },
+  "و-ل-د": {
+    core: "doğmak, doğurmak",
+    quran_count: 102,
+    derivatives: [
+      { form: "وَلَد", pattern: "فَعَل", type: "isim", meaning: "çocuk, evlat" },
+      { form: "وَالِد", pattern: "فَاعِل", type: "ism-i fâil", meaning: "baba" },
+      { form: "وَالِدَة", pattern: "فَاعِلَة", type: "ism-i fâil müe.", meaning: "anne" },
+      { form: "مَوْلُود", pattern: "مَفْعُول", type: "ism-i mef'ûl", meaning: "doğurulan" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "وَلَدَ/يَلِدُ", meaning: "doğurdu", semantic: "temel eylem", lessons: ["L51"] },
+    ],
+    cross_refs: [
+      { lesson: "L51", verse: "112:3", form: "يَلِدْ", note: "doğurmadı" },
+      { lesson: "L51", verse: "112:3", form: "يُولَدْ", note: "doğurulmadı — mechûl" },
+    ],
+    turkish_traces: ["veled", "mevlid", "evlat"],
+  },
+  "ع-و-ذ": {
+    core: "sığınmak, koruma aramak",
+    quran_count: 17,
+    derivatives: [
+      { form: "عِيَاذ", pattern: "فِعَال", type: "masdar", meaning: "sığınma" },
+      { form: "مَعَاذ", pattern: "مَفْعَل", type: "masdar", meaning: "sığınak" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "عَاذَ/يَعُوذُ", meaning: "sığındı", semantic: "temel eylem", lessons: ["L52", "L53"] },
+      { bab: "X", form: "اِسْتَعَاذَ/يَسْتَعِيذُ", meaning: "sığınma istedi", semantic: "talep", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L52", verse: "113:1", form: "أَعُوذُ", note: "Felak'ın Rabbine sığınırım" },
+      { lesson: "L53", verse: "114:1", form: "أَعُوذُ", note: "Nâs'ın Rabbine sığınırım" },
+    ],
+    turkish_traces: ["istiâze"],
+  },
+  "غ-س-ق": {
+    core: "karanlık çökmek",
+    quran_count: 2,
+    derivatives: [
+      { form: "غَاسِق", pattern: "فَاعِل", type: "ism-i fâil", meaning: "karanlık, gece" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "غَسَقَ/يَغْسِقُ", meaning: "karanlık çöktü", semantic: "temel eylem", lessons: ["L52"] },
+    ],
+    cross_refs: [
+      { lesson: "L52", verse: "113:3", form: "غَاسِقٍ", note: "karanlık gece" },
+    ],
+    turkish_traces: [],
+  },
+  "ن-ف-ث": {
+    core: "üfürmek, tükürmek",
+    quran_count: 1,
+    derivatives: [
+      { form: "نَفَّاثَات", pattern: "فَعَّالَات", type: "mübalağa müe. cem", meaning: "üfleyenler" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "نَفَثَ/يَنْفُثُ", meaning: "üfürdü", semantic: "temel eylem", lessons: ["L52"] },
+    ],
+    cross_refs: [
+      { lesson: "L52", verse: "113:4", form: "النَّفَّاثَاتِ", note: "düğümlere üfleyenler" },
+    ],
+    turkish_traces: [],
+  },
+  "ع-ق-د": {
+    core: "düğümlemek, bağlamak",
+    quran_count: 7,
+    derivatives: [
+      { form: "عُقْدَة", pattern: "فُعْلَة", type: "isim", meaning: "düğüm" },
+      { form: "عُقَد", pattern: "فُعَل", type: "cem-i teksîr", meaning: "düğümler" },
+      { form: "عَقْد", pattern: "فَعْل", type: "masdar", meaning: "sözleşme" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "عَقَدَ/يَعْقِدُ", meaning: "bağladı", semantic: "temel eylem", lessons: ["L52"] },
+    ],
+    cross_refs: [
+      { lesson: "L52", verse: "113:4", form: "العُقَدِ", note: "düğümler — büyü" },
+    ],
+    turkish_traces: ["akid", "akide"],
+  },
+  "ح-س-د": {
+    core: "haset etmek, kıskanmak",
+    quran_count: 5,
+    derivatives: [
+      { form: "حَاسِد", pattern: "فَاعِل", type: "ism-i fâil", meaning: "haset eden" },
+      { form: "حَسَد", pattern: "فَعَل", type: "masdar", meaning: "haset" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "حَسَدَ/يَحْسُدُ", meaning: "haset etti", semantic: "temel eylem", lessons: ["L52"] },
+    ],
+    cross_refs: [
+      { lesson: "L52", verse: "113:5", form: "حَاسِدٍ", note: "haset edenin şerrinden" },
+    ],
+    turkish_traces: ["haset"],
+  },
+  "و-س-و-س": {
+    core: "fısıldamak, vesvese vermek (tekrar kök)",
+    quran_count: 6,
+    derivatives: [
+      { form: "وَسْوَاس", pattern: "فَعْلَال", type: "masdar/sıfat", meaning: "vesveseci" },
+    ],
+    bab_chain: [
+      { bab: "—", form: "وَسْوَسَ/يُوَسْوِسُ", meaning: "vesvese verdi", semantic: "rubâî tekrar kök", lessons: ["L53"] },
+    ],
+    cross_refs: [
+      { lesson: "L53", verse: "114:4", form: "الوَسْوَاسِ", note: "sinsi vesveseci" },
+      { lesson: "L53", verse: "114:5", form: "يُوَسْوِسُ", note: "göğüslere vesvese verir" },
+    ],
+    turkish_traces: ["vesvese"],
+  },
+  "خ-ن-س": {
+    core: "geri çekilmek, sinmek",
+    quran_count: 2,
+    derivatives: [
+      { form: "خَنَّاس", pattern: "فَعَّال", type: "mübalağa", meaning: "sinsi, geri çekilen" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "خَنَسَ/يَخْنُسُ", meaning: "geri çekildi", semantic: "temel eylem", lessons: ["L53"] },
+    ],
+    cross_refs: [
+      { lesson: "L53", verse: "114:4", form: "الخَنَّاسِ", note: "zikir duyunca sinen" },
+    ],
+    turkish_traces: [],
+  },
+  "ط-غ-ي": {
+    core: "azmak, haddi aşmak",
+    quran_count: 39,
+    derivatives: [
+      { form: "طُغْيَان", pattern: "فُعْلَان", type: "masdar", meaning: "azgınlık" },
+      { form: "طَاغُوت", pattern: "فَاعُول", type: "isim", meaning: "tağut, azgın güç" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "طَغَى/يَطْغَى", meaning: "azdı", semantic: "temel eylem", lessons: ["L55"] },
+    ],
+    cross_refs: [
+      { lesson: "L55", verse: "96:6", form: "لَيَطْغَى", note: "insan mutlaka azar" },
+    ],
+    turkish_traces: ["tağut", "tuğyan"],
+  },
+  "ط-و-ع": {
+    core: "itaat etmek, boyun eğmek",
+    quran_count: 78,
+    derivatives: [
+      { form: "طَاعَة", pattern: "فَعَالَة", type: "masdar", meaning: "itaat" },
+      { form: "مُطِيع", pattern: "مُفْعِل", type: "ism-i fâil IV", meaning: "itaat eden" },
+    ],
+    bab_chain: [
+      { bab: "IV", form: "أَطَاعَ/يُطِيعُ", meaning: "itaat etti", semantic: "ta'diye", lessons: ["L55"] },
+    ],
+    cross_refs: [
+      { lesson: "L55", verse: "96:19", form: "تُطِعْهُ", note: "ona itaat etme" },
+    ],
+    turkish_traces: ["itaat", "mutî"],
+  },
+  "س-ج-د": {
+    core: "secde etmek, boyun eğmek",
+    quran_count: 92,
+    derivatives: [
+      { form: "سَجْدَة", pattern: "فَعْلَة", type: "isim", meaning: "secde" },
+      { form: "مَسْجِد", pattern: "مَفْعِل", type: "ism-i mekân", meaning: "mescid" },
+      { form: "سَاجِد", pattern: "فَاعِل", type: "ism-i fâil", meaning: "secde eden" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "سَجَدَ/يَسْجُدُ", meaning: "secde etti", semantic: "temel eylem", lessons: ["L55"] },
+    ],
+    cross_refs: [
+      { lesson: "L55", verse: "96:19", form: "وَاسْجُدْ", note: "secde et ve yaklaş" },
+    ],
+    turkish_traces: ["secde", "mescid"],
+  },
+  "ق-ر-ب": {
+    core: "yaklaşmak, yakınlık",
+    quran_count: 96,
+    derivatives: [
+      { form: "قَرِيب", pattern: "فَعِيل", type: "sıfat", meaning: "yakın" },
+      { form: "قُرْبَان", pattern: "فُعْلَان", type: "isim", meaning: "kurban" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "قَرُبَ/يَقْرُبُ", meaning: "yaklaştı", semantic: "temel eylem", lessons: [] },
+      { bab: "VIII", form: "اِقْتَرَبَ/يَقْتَرِبُ", meaning: "kendisi yaklaştı", semantic: "mutâva'a", lessons: ["L55"] },
+    ],
+    cross_refs: [
+      { lesson: "L55", verse: "96:19", form: "وَاقْتَرِبْ", note: "yaklaş — VIII. bâb" },
+    ],
+    turkish_traces: ["kurban", "akraba"],
+  },
+  "و-د-ع": {
+    core: "bırakmak, terk etmek",
+    quran_count: 2,
+    derivatives: [
+      { form: "تَوْدِيع", pattern: "تَفْعِيل", type: "masdar II", meaning: "veda" },
+    ],
+    bab_chain: [
+      { bab: "II", form: "وَدَّعَ/يُوَدِّعُ", meaning: "terk etti", semantic: "te'kîd", lessons: ["L54"] },
+    ],
+    cross_refs: [
+      { lesson: "L54", verse: "93:3", form: "وَدَّعَكَ", note: "Rabbin seni terk etmedi" },
+    ],
+    turkish_traces: ["veda"],
+  },
 };
 
 // Helper: kök anahtarlarını array olarak döndür
