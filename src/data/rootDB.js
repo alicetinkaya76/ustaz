@@ -4,6 +4,7 @@
 const rootDB = {
   "ر-ب-ب": {
     core: "terbiye etmek, yetiştirmek, sahiplenmek",
+    mufradat_note: "Asıl anlamı terbiye etmek/yetiştirmek. Bir şeyi olgunluk derecesine ulaşıncaya kadar aşama aşama inşa etmek. Rab: terbiye eden, sahip olan. Yalnız Allah'a izâfetle mutlak kullanılır.",
     quran_count: 980,
     derivatives: [
       { form: "رَبّ", pattern: "فَعْل", type: "masdar/isim", meaning: "Rab, terbiye eden" },
@@ -24,6 +25,7 @@ const rootDB = {
   },
   "ع-ب-د": {
     core: "kulluk etmek, ibadet etmek, boyun eğmek",
+    mufradat_note: "Tezellül göstermek, boyun eğmek. عِبَادَة: kulluğun en yüksek mertebesi. İbadet: Allah'a tam teslimiyet ile yapılan eylem. عَبْد: gerçek kulluk bilincindeki kişi.",
     quran_count: 275,
     derivatives: [
       { form: "عَبْد", pattern: "فَعْل", type: "isim", meaning: "kul" },
@@ -42,6 +44,7 @@ const rootDB = {
   },
   "أ-ل-ه": {
     core: "ilâh olmak, tapılmak, sığınmak",
+    mufradat_note: "Sığınmak, hayret etmek, ibadet etmek. إِلٰه: tapılan, sığınılan varlık. اللّٰه: bütün kemâl sıfatlarını toplayan özel isim — başka hiçbir varlığa verilmez.",
     quran_count: 2700,
     derivatives: [
       { form: "إِلَٰه", pattern: "فِعَال", type: "isim", meaning: "ilâh, tapılan" },
@@ -59,6 +62,7 @@ const rootDB = {
   },
   "ر-ح-م": {
     core: "merhamet etmek, acımak, esirgemek",
+    mufradat_note: "Kadın rahmi (rahim) temel anlamdır → acıma, şefkat, koruma. الرَّحْمٰن: fıtrî/kuşatıcı merhamet (dünyada herkese). الرَّحِيم: sürekli/seçici merhamet (ahirette mü'minlere).",
     quran_count: 339,
     derivatives: [
       { form: "رَحْمَة", pattern: "فَعْلَة", type: "masdar", meaning: "rahmet" },
@@ -79,6 +83,7 @@ const rootDB = {
   },
   "ح-م-د": {
     core: "övmek, hamd etmek, memnun olmak",
+    mufradat_note: "Allah'ı erdemlerinden dolayı övmek. Medihten daha özel (medih: iradî+gayr-i iradî), şükürden daha genel (şükür: yalnız nimete karşılık). Hamd her durumda geçerlidir.",
     quran_count: 63,
     derivatives: [
       { form: "حَمْد", pattern: "فَعْل", type: "masdar", meaning: "hamd, övgü" },
@@ -98,6 +103,7 @@ const rootDB = {
   },
   "ع-ل-م": {
     core: "bilmek, tanımak, farkında olmak",
+    mufradat_note: "Bir şeyi hakikatiyle idrak etmek. İki kısım: 1) Zatını idrak (حي/ميت gibi), 2) Hükmünü idrak (عدل gibi). عَلِيم: Allah'ın her şeyi bilen sıfatı. عَلَامَة: bilgiye ulaştıran işaret.",
     quran_count: 854,
     derivatives: [
       { form: "عِلْم", pattern: "فِعْل", type: "masdar", meaning: "bilgi" },
@@ -120,6 +126,7 @@ const rootDB = {
   },
   "ن-ع-م": {
     core: "nimet vermek, bolluk, yumuşaklık",
+    mufradat_note: "Bolluk, rahatlık içinde olmak. نِعْمَة: nimet (dış); نَعِيم: nimetlenme hali (iç). أَنْعَمَ: nimet verdi. نَعَم: evet (ikrar/kabul). النُّعمان: kanla kızaran çiçek.",
     quran_count: 79,
     derivatives: [
       { form: "نِعْمَة", pattern: "فِعْلَة", type: "masdar", meaning: "nimet" },
@@ -139,6 +146,7 @@ const rootDB = {
   },
   "ه-د-ي": {
     core: "yol göstermek, hidâyet etmek",
+    mufradat_note: "Güzel ve yumuşak bir şekilde yol göstermek. Hidâyet dört mertebede: 1) Genel ilham, 2) Peygamberlerle davet, 3) Tevfîk (kalbe yerleştirme), 4) Ahirette cennete ulaştırma.",
     quran_count: 316,
     derivatives: [
       { form: "هُدًى", pattern: "فُعًل", type: "masdar", meaning: "hidâyet" },
@@ -158,6 +166,7 @@ const rootDB = {
   },
   "ض-ل-ل": {
     core: "sapıtmak, yoldan çıkmak, kaybolmak",
+    mufradat_note: "Doğru yoldan sapmak. ضَلَالَة: hem bilmeden sapmak hem bilerek sapmak. إِضْلَال: başkasını saptırmak. Zıddı: hidâyet. Mutlak kullanımda: haktan uzaklaşmak.",
     quran_count: 191,
     derivatives: [
       { form: "ضَلَال", pattern: "فَعَال", type: "masdar", meaning: "sapkınlık" },
@@ -176,6 +185,7 @@ const rootDB = {
   },
   "ق-و-م": {
     core: "kalkmak, dikilmek, doğrulmak",
+    mufradat_note: "Ayağa kalkmak, dikilmek; bir işi üstlenmek. قِيَام: kalkış; إِقَامَة: ikame etmek (namazı dosdoğru kılmak). قَيُّوم: her şeyi ayakta tutan. İstikâmet: doğru yolda durmak.",
     quran_count: 660,
     derivatives: [
       { form: "قِيَامَة", pattern: "فِعَالَة", type: "masdar", meaning: "kalkış, kıyâmet" },
@@ -197,6 +207,7 @@ const rootDB = {
   },
   "ن-ز-ل": {
     core: "inmek, iniş, nüzûl",
+    mufradat_note: "Yukarıdan aşağıya inmek. تَنْزِيل: Kur'ân'ın peyderpey indirilmesi. إِنْزَال: toptan indirme. نُزُل: misafir ağırlamak (konuk için indirilen nimet).",
     quran_count: 293,
     derivatives: [
       { form: "نُزُول", pattern: "فُعُول", type: "masdar", meaning: "iniş" },
@@ -218,6 +229,7 @@ const rootDB = {
   },
   "ك-ف-ر": {
     core: "örtmek, inkâr etmek, nankörlük",
+    mufradat_note: "Sözlükte örtmek. Gecenin karanlığı örtücüdür → inkâr: hakikati örtmek. Küfrün asıl anlamı nimeti/hakikati örterek gizlemek. Zıddı: şükür (nimeti açığa çıkarmak).",
     quran_count: 525,
     derivatives: [
       { form: "كُفْر", pattern: "فُعْل", type: "masdar", meaning: "küfür, inkâr" },
@@ -235,6 +247,7 @@ const rootDB = {
   },
   "ع-م-ل": {
     core: "çalışmak, iş yapmak, amel",
+    mufradat_note: "Canlının kasıtlı olarak yaptığı her iş. فِعْل'den farklı: amel kasıt gerektirir. عَمَل صَالِح: iyi niyet + doğru eylem. Kur'ân'da iman ile amel hep birlikte gelir.",
     quran_count: 360,
     derivatives: [
       { form: "عَمَل", pattern: "فَعَل", type: "masdar", meaning: "amel, iş" },
@@ -251,6 +264,7 @@ const rootDB = {
   },
   "ش-ر-ر": {
     core: "kötülük, şerr",
+    mufradat_note: "Kötülük, zarar. شَرّ: kötülük. شَرِير: kötü kişi. Zıddı: خَيْر. Mutlak şer Allah'tan değildir; izâfî şer imtihan hikmetiyledir.",
     quran_count: 30,
     derivatives: [
       { form: "شَرّ", pattern: "فَعْل", type: "masdar/isim", meaning: "kötülük, şer" },
@@ -268,6 +282,7 @@ const rootDB = {
   },
   "ق-و-ل": {
     core: "söylemek, demek",
+    mufradat_note: "Manaya delâlet eden söz. قَوْل ve كَلَام ikisi de anlam ifade eder. Allah'ın kavli: hem kelâm-ı nefsî hem kelâm-ı lafzî olarak anlaşılır.",
     quran_count: 1722,
     derivatives: [
       { form: "قَوْل", pattern: "فَعْل", type: "masdar", meaning: "söz" },
@@ -283,6 +298,7 @@ const rootDB = {
   },
   "ك-و-ن": {
     core: "olmak, var olmak, oluş",
+    mufradat_note: "Var olmak, olmak, oluşmak. كُنْ فَيَكُون: ol, olur (ilâhî yaratma emri). كَوْن: oluş. تَكْوِين: oluşturma, yaratma.",
     quran_count: 1390,
     derivatives: [
       { form: "كَوْن", pattern: "فَعْل", type: "masdar", meaning: "oluş" },
@@ -299,6 +315,7 @@ const rootDB = {
   },
   "د-ي-ن": {
     core: "borç, karşılık, yönetim, din",
+    mufradat_note: "Borç alıp vermek → karşılıklı ilişki. دِين: 1) İtaat, 2) Ceza/mükâfat, 3) Şeriat/yol, 4) Hesap günü. يَوْمُ الدِّين: hesap ve karşılık günü.",
     quran_count: 101,
     derivatives: [
       { form: "دِين", pattern: "فِعْل", type: "isim", meaning: "din, hesap günü" },
@@ -316,6 +333,7 @@ const rootDB = {
   },
   "ر-أ-ي": {
     core: "görmek, düşünmek, görüş",
+    mufradat_note: "Görmek — hem gözle hem kalple. رُؤْيَة: gözle görme. رَأْي: fikir, görüş. رُؤْيَا: rüya. تَرَاءَى: karşılıklı görüşme. بَصِيرَة: kalp gözü.",
     quran_count: 328,
     derivatives: [
       { form: "رَأْي", pattern: "فَعْل", type: "masdar", meaning: "görüş, fikir" },
@@ -333,6 +351,7 @@ const rootDB = {
   },
   "أ-م-ن": {
     core: "güvenmek, emin olmak, iman etmek",
+    mufradat_note: "Gönül huzuru ve korkunun bertaraf olması. إِيمَان: kalbin tasdiki + dilin ikrarı + organların ameli. أَمَانَة: güvenilirlik; الأَمْن: emniyet, güvenlik.",
     quran_count: 879,
     derivatives: [
       { form: "إِيمَان", pattern: "إِفْعَال", type: "masdar (IV)", meaning: "iman" },
@@ -351,6 +370,7 @@ const rootDB = {
   },
   "ص-ل-و": {
     core: "namaz, dua, bağlantı",
+    mufradat_note: "Dua ve niyaz anlamındadır. Namaz bu köktendir — Allah'a yönelişin en kapsamlı biçimi. الصَّلاة: rükû ve secde ile yapılan ibadet; Allah'tan: rahmet; meleklerden: istiğfar.",
     quran_count: 99,
     derivatives: [
       { form: "صَلَاة", pattern: "فَعَاة", type: "masdar", meaning: "namaz, dua" },
@@ -367,6 +387,7 @@ const rootDB = {
   },
   "ق-د-ر": {
     core: "takdir etmek, ölçmek, güç yetirmek",
+    mufradat_note: "Bir şeye güç yetirmek + takdir etmek (ölçü belirlemek). قَدَر: ilâhî takdir, ölçü. قُدْرَة: güç. Allah'ın kudreti sınırsızdır; takdiri hikmetle belirlenmiştir.",
     quran_count: 132,
     derivatives: [
       { form: "قَدْر", pattern: "فَعْل", type: "isim", meaning: "kadr, değer, ölçü" },
@@ -386,6 +407,7 @@ const rootDB = {
   },
   "ص-د-ر": {
     core: "göğüs, kalp, önde olan",
+    mufradat_note: "Göğüs, ön kısım. صَدْر: kalbin mekânı olan göğüs. إِصْدَار: çıkarmak, yayımlamak. مَصْدَر: kaynak, çıkış yeri.",
     quran_count: 44,
     derivatives: [
       { form: "صَدْر", pattern: "فَعْل", type: "isim", meaning: "göğüs, kalp" },
@@ -403,6 +425,7 @@ const rootDB = {
   },
   "خ-ل-ق": {
     core: "yaratmak, oluşturmak",
+    mufradat_note: "Üç anlam: 1) Bir şeyi ölçüp biçmek (takdîr), 2) Örneksiz olarak var etmek (yalnız Allah), 3) Yalandan uydurmak (خَلَقَ الإفك). Yaratmanın aslı: ölçü ve takdir iledir.",
     quran_count: 261,
     derivatives: [
       { form: "خَلْق", pattern: "فَعْل", type: "masdar", meaning: "yaratma" },
@@ -420,6 +443,7 @@ const rootDB = {
   },
   "ي-و-م": {
     core: "gün, zaman",
+    mufradat_note: "Gün, zaman dilimi. يَوْم: güneşin doğuşundan batışına; veya mutlak zaman birimi. يَوْمَ القِيَامَة: kıyamet günü. أَيَّام اللّٰه: Allah'ın (azap/nimet) günleri.",
     quran_count: 475,
     derivatives: [
       { form: "يَوْم", pattern: "فَعْل", type: "isim", meaning: "gün" },
@@ -435,6 +459,7 @@ const rootDB = {
   },
   "أ-ن-س": {
     core: "insan, ünsîyet, alışmak",
+    mufradat_note: "Alışmak, ünsiyet kurmak. إِنْسَان: insan (ünsiyetten; veya nisyandan). أُنْس: yakınlık duygusu. İstînas: alışıp ısınma. İnsanın aslı: sosyal varlık.",
     quran_count: 241,
     derivatives: [
       { form: "إِنْسَان", pattern: "إِفْعَال/فِعْلَان", type: "isim", meaning: "insan" },
@@ -453,6 +478,7 @@ const rootDB = {
   },
   "م-ل-ك": {
     core: "sahip olmak, hükmetmek",
+    mufradat_note: "Sahiplik üstlenmek ve tasarrufta bulunmak. مُلْك: dışa dönük hâkimiyet. مِلْك: sahiplik. مَلِك: hükümdar. مَالِك: sahip. مَلَك (melek): Allah'ın elçileri.",
     quran_count: 206,
     derivatives: [
       { form: "مَلِك", pattern: "فَعِل", type: "isim", meaning: "melik, hükümdar" },
@@ -472,6 +498,7 @@ const rootDB = {
   },
   "ص-ب-ر": {
     core: "sabretmek, dayanmak",
+    mufradat_note: "Aklın ve şeriatın gerektirdiği şekilde nefsini tutmak. Üç türü: 1) Musibete sabır, 2) Günahtan sabır, 3) İbadete sabır. صَبُور: çok sabreden (Allah'ın ismi).",
     quran_count: 103,
     derivatives: [
       { form: "صَبْر", pattern: "فَعْل", type: "masdar", meaning: "sabır" },
@@ -488,6 +515,7 @@ const rootDB = {
   },
   "خ-ي-ر": {
     core: "hayır, iyilik, seçim",
+    mufradat_note: "İnsanların herkesin arzu ettiği şey: akıl, adalet, fazilet, faydalı olan. خَيْر: iyilik, hayır. Zıddı: شَرّ. İhtiyâr: en hayırlıyı seçmek. اِسْتِخَارَة: hayır dilemek.",
     quran_count: 176,
     derivatives: [
       { form: "خَيْر", pattern: "فَعْل", type: "ism-i tafdîl", meaning: "daha hayırlı / en hayırlı" },
@@ -502,6 +530,7 @@ const rootDB = {
   },
   "و-ج-د": {
     core: "bulmak, karşılaşmak",
+    mufradat_note: "Bulmak, karşılaşmak. وُجُود: varlık (yokluktan bulunuşa). وِجْدَان: iç sezgi. وَجْد: coşku, vecd. مَوْجُود: var olan.",
     quran_count: 107,
     derivatives: [
       { form: "وَجْد", pattern: "فَعْل", type: "masdar", meaning: "bulma" },
@@ -518,6 +547,7 @@ const rootDB = {
   },
   "ف-ر-ق": {
     core: "ayırmak, bölmek",
+    mufradat_note: "Bir şeyi ayırmak, bölmek. فُرْقَان: hak ile bâtılı ayıran → Kur'ân'ın isimlerinden. فِرْقَة: ayrılmış topluluk. İftirak: dağılma. Tefrîk: ayırt etme.",
     quran_count: 72,
     derivatives: [
       { form: "فُرْقَان", pattern: "فُعْلَان", type: "isim", meaning: "hakkı bâtıldan ayıran" },
@@ -536,6 +566,7 @@ const rootDB = {
   },
   "ك-ت-ب": {
     core: "yazmak, kitap, farz kılmak",
+    mufradat_note: "Yazmak, kaydetmek, farz kılmak. كِتَاب: yazılmış şey; ilâhî kitap. كَتَبَ اللّٰه: Allah yazdı/farz kıldı. Kaderin yazılması ve şeriatın farz kılınması bu köktendir.",
     quran_count: 319,
     derivatives: [
       { form: "كِتَاب", pattern: "فِعَال", type: "isim", meaning: "kitap" },
@@ -553,6 +584,7 @@ const rootDB = {
   },
   "ج-ن-ن": {
     core: "gizlenmek, örtünmek",
+    mufradat_note: "Bir şeyin duyu organlarına saklı/gizli kalması. جَنَّة: bahçe (ağaçları toprağı örter). جِنّ: gizli varlıklar. جَنِين: anne karnındaki gizli çocuk. جُنُون: aklın örtülmesi. مِجَنّ: kalkan.",
     quran_count: 201,
     derivatives: [
       { form: "جَنَّة", pattern: "فَعْلَة", type: "isim", meaning: "cennet, bahçe (gizli)" },
@@ -584,6 +616,7 @@ const rootDB = {
   },
   "ن-ص-ر": {
     core: "yardım etmek, zafer vermek",
+    mufradat_note: "Yardım etmek, zafer vermek. نَصْر: düşmana karşı yardım. أَنْصَار: Hz. Peygamber'e yardım eden Medineliler. İntisâr: başkasının yardımıyla zafer.",
     quran_count: 158,
     derivatives: [
       { form: "نَصْر", pattern: "فَعْل", type: "masdar", meaning: "yardım, zafer" },
@@ -602,6 +635,7 @@ const rootDB = {
   },
   "و-ح-د": {
     core: "bir olmak, birlik",
+    mufradat_note: "Tek olmak, eşi benzeri olmamak. تَوْحِيد: Allah'ı birleme. أَحَد: mutlak teklik (sayısal değil). وَاحِد: sayısal birlik. اِتِّحَاد: birleşme.",
     quran_count: 68,
     derivatives: [
       { form: "أَحَد", pattern: "أَفْعَل", type: "isim", meaning: "bir, tek" },
@@ -619,6 +653,7 @@ const rootDB = {
   },
   "و-ز-ن": {
     core: "tartmak, ölçmek",
+    mufradat_note: "Tartmak, ölçmek. مِيزَان: terazi. وَزْن: ağırlık, değer. Kıyamette amellerin tartılması. مُتَّزِن: dengeli, ölçülü.",
     quran_count: 23,
     derivatives: [
       { form: "وَزْن", pattern: "فَعْل", type: "masdar", meaning: "tartı, ölçü" },
@@ -652,6 +687,7 @@ const rootDB = {
   },
   "ي-س-ر": {
     core: "kolaylık, kolaylaştırmak",
+    mufradat_note: "Kolaylık, kolaylaştırma. يُسْر: kolaylık. مُيَسَّر: kolaylaştırılmış. Zıddı: عُسْر (zorluk). مَيْسِر: kumar (kolay kazanç yanılsaması).",
     quran_count: 43,
     derivatives: [
       { form: "يُسْر", pattern: "فُعْل", type: "isim", meaning: "kolaylık" },
@@ -669,6 +705,7 @@ const rootDB = {
   },
   "ع-س-ر": {
     core: "zorluk, güçlük",
+    mufradat_note: "Zorluk, güçlük. عُسْر: darlık. Zıddı: يُسْر. مُعْسِر: darda olan. عَسِير: zor, güç olan gün. Kur'ân'da zorlukla birlikte kolaylığın geleceği vurgulanır.",
     quran_count: 12,
     derivatives: [
       { form: "عُسْر", pattern: "فُعْل", type: "isim", meaning: "zorluk" },
@@ -684,6 +721,7 @@ const rootDB = {
   },
   "غ-ف-ر": {
     core: "örtmek, bağışlamak",
+    mufradat_note: "Bir şeye onu kirden koruyacak elbise giydirmek. مَغْفِرَة: günahları örtüp korumak. İstisğfar: bu örtüyü talep etmek. Allah'ın mağfireti: günahı hem örtmek hem affetmek.",
     quran_count: 234,
     derivatives: [
       { form: "غُفْرَان", pattern: "فُعْلَان", type: "masdar", meaning: "bağışlama" },
@@ -700,6 +738,7 @@ const rootDB = {
   },
   "ح-ك-م": {
     core: "hükmetmek, yargılamak, hikmet",
+    mufradat_note: "Bir şeyi ıslah etmek için alıkoymak/engellemek. حُكْم: karar, yargı. حِكْمَة: ilim ve akılla en doğru hedefe ulaşmak. حَكِيم: hikmet sahibi (hem bilen hem uygulayan).",
     quran_count: 210,
     derivatives: [
       { form: "حُكْم", pattern: "فُعْل", type: "masdar", meaning: "hüküm" },
@@ -718,6 +757,7 @@ const rootDB = {
   },
   "ح-س-ن": {
     core: "güzel olmak, iyilik",
+    mufradat_note: "Her hoşa giden, arzu edilen şey. Üç çeşit: 1) Akıl tarafından güzel görülen, 2) Hevâ (arzu) tarafından güzel görülen, 3) Duyular tarafından güzel görülen. إِحْسَان: güzelliğin eyleme dönüşmesi.",
     quran_count: 194,
     derivatives: [
       { form: "حُسْن", pattern: "فُعْل", type: "masdar", meaning: "güzellik" },
@@ -747,6 +787,7 @@ const rootDB = {
   },
   "ن-و-ر": {
     core: "aydınlık, ışık",
+    mufradat_note: "Görmeyi sağlayan yaygın ışık. İki çeşit: dünyevî ve uhrevî. Dünyevî: 1) Akıl nuru/Kur'ân nuru (basîretle idrak), 2) Fiziksel ışık (gözle idrak). اللّٰهُ نُورُ السَّمٰوَاتِ: hidâyet nuru.",
     quran_count: 43,
     derivatives: [
       { form: "نُور", pattern: "فُعْل", type: "isim", meaning: "nur, ışık" },
@@ -762,6 +803,7 @@ const rootDB = {
   },
   "ت-و-ب": {
     core: "dönmek, tövbe etmek",
+    mufradat_note: "En güzel şekilde günahı terk etmek. Özür dilemenin en etkili yolu. Üç aşama: 1) Kötülüğü bırakmak, 2) Pişman olmak, 3) Bir daha dönmemek. Allah'ın tevbesi: kuluna rahmetle dönmesi.",
     quran_count: 87,
     derivatives: [
       { form: "تَوْبَة", pattern: "فَعْلَة", type: "masdar", meaning: "tövbe" },
@@ -792,6 +834,7 @@ const rootDB = {
   },
   "س-ل-م": {
     core: "selâmet, barış, teslim",
+    mufradat_note: "Selâmet, barış, teslim olma. سَلَام: barış, esenlik. إِسْلَام: Allah'a teslim olma. مُسْلِم: teslim olan. سَلِيم: sağlam, kusursuz (قَلْبٌ سَلِيم: arınmış kalp).",
     quran_count: 140,
     derivatives: [
       { form: "سَلَام", pattern: "فَعَال", type: "masdar", meaning: "selâm, barış" },
@@ -825,6 +868,7 @@ const rootDB = {
   // ═══ L21-L23 (Seviye 3) Kökleri ═══
   "و-ل-ي": {
     core: "yakın olmak, yönetmek, velâyet",
+    mufradat_note: "İki şey arasında yabancı bir şeyin girmemesi → yakınlık, yardım, yönetim. وَلِيّ: dost, koruyucu. وِلَايَة: dostluk/velayet. مَوْلَى: hem efendi hem köle (yakınlık bağı).",
     quran_count: 233,
     derivatives: [
       { form: "وَلِيّ", pattern: "فَعِيل", type: "isim", meaning: "veli, dost, koruyucu" },
@@ -842,6 +886,7 @@ const rootDB = {
   },
   "ز-ك-و": {
     core: "temizlenmek, arınmak, büyümek",
+    mufradat_note: "Artmak, temizlenmek, bereketlenmek. زَكَاة: malın arınması + artması. تَزْكِيَة: nefsi arındırma. Her ikisi de birlikte gelir: temizlenme büyümeyi getirir.",
     quran_count: 59,
     derivatives: [
       { form: "زَكَاة", pattern: "فَعَالَة", type: "masdar", meaning: "zekât (arındıran)" },
@@ -859,6 +904,7 @@ const rootDB = {
   },
   "ذ-ك-ر": {
     core: "anmak, hatırlamak, zikir",
+    mufradat_note: "İnsanın elde ettiği bilgileri koruyabildiği nefsanî bir durum. Zıddı: nisyan (unutmak). ذِكْر: hem kalple hem dille yapılır. تَذْكِرَة: hatırlatma. Kur'ân'ın isimlerinden biridir.",
     quran_count: 292,
     derivatives: [
       { form: "ذِكْر", pattern: "فِعْل", type: "masdar", meaning: "zikir, anma" },
@@ -876,6 +922,7 @@ const rootDB = {
   },
   "غ-ن-ي": {
     core: "zengin olmak, müstağnî olmak",
+    mufradat_note: "Zenginlik, ihtiyaçsızlık. غَنِيّ: zengin, müstağnî. الغَنِيّ: Allah'ın sıfatı (hiçbir şeye muhtaç olmayan). İstığnâ: kendini müstağni görmek.",
     quran_count: 73,
     derivatives: [
       { form: "غَنِيّ", pattern: "فَعِيل", type: "sıfat", meaning: "zengin" },
@@ -892,6 +939,7 @@ const rootDB = {
   },
   "س-ب-ح": {
     core: "yüzmek, tesbîh etmek, tenzîh",
+    mufradat_note: "Suda veya havada hızla hareket etmek. تَسْبِيح: Allah'ı her türlü noksanlıktan tenzih etmek. سُبْحَان: tenzih ünlemi. Her varlık kendi lisanıyla tesbih eder.",
     quran_count: 92,
     derivatives: [
       { form: "سُبْحَان", pattern: "فُعْلَان", type: "masdar", meaning: "sübhân, tenzîh" },
@@ -909,6 +957,7 @@ const rootDB = {
   },
   "ع-ل-و": {
     core: "yükselmek, yüce olmak",
+    mufradat_note: "Yükselmek. عُلُوّ: yücelik. عَلِيّ: yüce. المُتَعَالِ: en yüce. اِسْتِعْلَاء: üstünlük iddiası. عَالٍ: yüksek olan.",
     quran_count: 70,
     derivatives: [
       { form: "عُلُوّ", pattern: "فُعُول", type: "masdar", meaning: "yücelik" },
@@ -927,6 +976,7 @@ const rootDB = {
   },
   "ق-ر-أ": {
     core: "okumak, toplamak, kıraat",
+    mufradat_note: "Harfleri ve kelimeleri birbirine katmak/toplamak. قُرْآن: okunan/toplanan kitap. قِرَاءَة: okuma eylemi. Kur'ân ismi: bütün ilâhî kitapların özünü toplayan.",
     quran_count: 88,
     derivatives: [
       { form: "قُرْآن", pattern: "فُعْلَان", type: "isim", meaning: "Kur'ân (toplanan/okunan)" },
@@ -962,6 +1012,7 @@ const rootDB = {
   },
   "خ-ل-ف": {
     core: "arkada kalmak, yerine geçmek, farklı olmak",
+    mufradat_note: "Arkadan gelmek, yerine geçmek. خَلِيفَة: halife (yerine geçen). اِخْتِلَاف: farklılaşma. خُلْف: sözünden dönme. خَلَفَ: birisinin arkasından gelmek.",
     quran_count: 127,
     derivatives: [
       { form: "خَلِيفَة", pattern: "فَعِيلَة", type: "isim", meaning: "halife, halef" },
@@ -979,6 +1030,7 @@ const rootDB = {
   },
   "ن-ز-ع": {
     core: "çekip çıkarmak, koparmak",
+    mufradat_note: "Çekip koparmak, sökmek. نَزْع: kuvvetle çekme. نَازِعَات: çekip çıkaranlar (melekler — Nâziât 79:1). اِنْتِزَاع: söküp alma.",
     quran_count: 11,
     derivatives: [
       { form: "نَازِع", pattern: "فَاعِل", type: "ism-i fâil", meaning: "çekip çıkaran" },
@@ -994,6 +1046,7 @@ const rootDB = {
   },
   "ف-ط-ر": {
     core: "yarmak, ilk açmak, yaratmak",
+    mufradat_note: "Bir şeyi yarıp açmak (boylamsal yarık). فِطْرَة: yaratılışın ilk açılışı → saf tabiat. İftar: orucu açmak. فُطُور: çatlak, yarık (Mülk 67:3).",
     quran_count: 20,
     derivatives: [
       { form: "فِطْرَة", pattern: "فِعْلَة", type: "masdar/isim", meaning: "yaratılış, fıtrat" },
@@ -1011,6 +1064,7 @@ const rootDB = {
   },
   "ف-ج-ر": {
     core: "yarmak, fışkırtmak, patlatmak",
+    mufradat_note: "Bir şeyi enine yarıp genişletmek. فَجْر: tan yerinin yarılması → şafak. فُجُور: ahlâkî sınırların yarılması → günah. İnficâr: suyun fışkırması (yarılarak çıkması).",
     quran_count: 13,
     derivatives: [
       { form: "فَجْر", pattern: "فَعْل", type: "masdar/isim", meaning: "tan, fecir" },
@@ -1026,6 +1080,7 @@ const rootDB = {
   },
   "غ-ر-ر": {
     core: "aldatmak, kandırmak",
+    mufradat_note: "Aldatmak, yanıltmak. غُرُور: aldanma. غَرَّ: kandırdı. الغَرُور: çok aldatan (şeytan). Asıl anlam: güzel görüntüyle gerçeği gizlemek.",
     quran_count: 27,
     derivatives: [
       { form: "غُرُور", pattern: "فُعُول", type: "masdar", meaning: "aldanma, gurur" },
@@ -1041,6 +1096,7 @@ const rootDB = {
   },
   "ك-ر-م": {
     core: "cömert olmak, şerefli olmak",
+    mufradat_note: "Şeref, cömertlik, değer. كَرِيم: değerli ve cömert olan. إِكْرَام: ikram etmek, değer vermek. كَرَامَة: şeref. Kur'ân: الكَرِيم sıfatıyla anılır.",
     quran_count: 47,
     derivatives: [
       { form: "كَرِيم", pattern: "فَعِيل", type: "sıfat", meaning: "cömert, kerem sahibi" },
@@ -1093,6 +1149,7 @@ const rootDB = {
   },
   "و-ف-ي": {
     core: "tam/eksiksiz olmak, vefâ",
+    mufradat_note: "Eksiksiz vermek, yerine getirmek. وَفَاء: sözünü tutma. تَوَفَّى: ruhunu tam olarak almak → vefat. إِيفَاء: borcun tam ödenmesi.",
     quran_count: 54,
     derivatives: [
       { form: "وَفَاء", pattern: "فَعَال", type: "masdar", meaning: "vefa, sadakat" },
@@ -1109,6 +1166,7 @@ const rootDB = {
   },
   "خ-س-ر": {
     core: "zarara uğramak, kaybetmek",
+    mufradat_note: "Zarara uğramak, kaybetmek. خُسْرَان: büyük kayıp. خَاسِر: zararda olan. Asr suresi: tüm insanlık hüsrandadır — iman+amel+hak+sabır hariç.",
     quran_count: 65,
     derivatives: [
       { form: "خُسْر", pattern: "فُعْل", type: "masdar", meaning: "ziyan, kayıp" },
@@ -1127,6 +1185,7 @@ const rootDB = {
   },
   "ر-ي-ن": {
     core: "kaplamak, pas basmak",
+    mufradat_note: "Pas, kir örtüsü. رَيْن: kalbi kaplayan manevi pas. كَلَّا بَلْ رَانَ عَلَى قُلُوبِهِمْ: kalpleri paslandı (Mutaffifîn 83:14). Günahların kalbi örtmesi.",
     quran_count: 1,
     derivatives: [
       { form: "رَيْن", pattern: "فَعْل", type: "masdar", meaning: "pas, kaplama, perde" },
@@ -1141,6 +1200,7 @@ const rootDB = {
   },
   "ب-ر-ج": {
     core: "açığa çıkmak, yüksek bina",
+    mufradat_note: "Yüksek, belirgin yapı. بُرُوج: gökteki burçlar; büyük saraylar. تَبَرُّج: kadının süsünü açığa çıkarması. Asıl anlam: görünür ve belirgin olmak.",
     quran_count: 7,
     derivatives: [
       { form: "بُرُوج", pattern: "فُعُول", type: "cem", meaning: "burçlar, kuleler" },
@@ -1156,6 +1216,7 @@ const rootDB = {
   },
   "و-ع-د": {
     core: "söz vermek, vaad etmek",
+    mufradat_note: "Gelecekteki hayır veya şer hakkında haber vermek. وَعْد: hayır vaadi. وَعِيد: şer tehdidi. مَوْعِد: buluşma yeri/zamanı. Allah'ın vaadi mutlaka gerçekleşir.",
     quran_count: 153,
     derivatives: [
       { form: "وَعْد", pattern: "فَعْل", type: "masdar", meaning: "vaad, söz" },
@@ -1202,6 +1263,7 @@ const rootDB = {
   },
   "ع-م-د": {
     core: "desteklemek, direk",
+    mufradat_note: "Kasıt, destek. عَمَد: sütun, direk. عَمْد: kasten yapmak. عِمَاد: temel dayanak. بِغَيْرِ عَمَدٍ: direksiz (gökleri direksiz tutan).",
     quran_count: 7,
     derivatives: [
       { form: "عِمَاد", pattern: "فِعَال", type: "isim", meaning: "sütun, direk" },
@@ -1217,6 +1279,7 @@ const rootDB = {
   },
   "ق-س-م": {
     core: "bölmek, paylaştırmak, yemin etmek",
+    mufradat_note: "Bölmek, paylaştırmak. قَسَم: yemin (sözü sağlamlaştırmak). قِسْمَة: pay, nasip. أَقْسَمَ: yemin etti.",
     quran_count: 33,
     derivatives: [
       { form: "قَسَم", pattern: "فَعَل", type: "masdar", meaning: "yemin, kasem" },
@@ -1234,6 +1297,7 @@ const rootDB = {
   },
   "ك-ب-د": {
     core: "karaciğer, zorluk",
+    mufradat_note: "Karaciğer; zorluk, sıkıntı. كَبَد: karaciğer. فِي كَبَدٍ: sıkıntı içinde (Beled 90:4). تَكَبُّد: zorluğa katlanmak.",
     quran_count: 1,
     derivatives: [
       { form: "كَبَد", pattern: "فَعَل", type: "isim", meaning: "zorluk, meşakkat; karaciğer" },
@@ -1249,6 +1313,7 @@ const rootDB = {
   },
   "ن-ج-د": {
     core: "yüksek yer, belirgin yol",
+    mufradat_note: "Yüksek arazi, cesaret. نَجْد: yayla, yüksek yer. نَجْدَة: cesaret, kahramanlık. نَجْدَيْن: iki yol (hayır ve şer — Beled 90:10).",
     quran_count: 1,
     derivatives: [
       { form: "نَجْد", pattern: "فَعْل", type: "isim", meaning: "yüksek yer, sarp yol" },
@@ -1281,6 +1346,7 @@ const rootDB = {
   },
   "ف-ل-ح": {
     core: "yarmak, başarmak, kurtulmak",
+    mufradat_note: "Toprağı yarıp sürmek → başarıya ulaşmak. فَلَاح: kurtuluş ve başarı. مُفْلِحُون: kurtuluşa erenler. حَيَّ عَلَى الفَلَاح: haydin kurtuluşa.",
     quran_count: 40,
     derivatives: [
       { form: "فَلَاح", pattern: "فَعَال", type: "masdar", meaning: "kurtuluş, başarı" },
@@ -1297,6 +1363,7 @@ const rootDB = {
   },
   "ش-ر-ح": {
     core: "açmak, genişletmek, açıklamak",
+    mufradat_note: "Açmak, genişletmek. شَرْح: göğsü açma → ferahlatma. أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ: Senin göğsünü açmadık mı? (İnşirah 94:1). Manevi genişleme.",
     quran_count: 4,
     derivatives: [
       { form: "شَرْح", pattern: "فَعْل", type: "masdar", meaning: "açma, açıklama" },
@@ -1345,6 +1412,7 @@ const rootDB = {
   },
   "ق-ه-ر": {
     core: "ezmek, üstün gelmek, kahretmek",
+    mufradat_note: "Güç kullanarak boyun eğdirmek. قَاهِر: üstün gelen. القَهَّار: mutlak galip (Allah). قَهْر: zor kullanarak itaat ettirmek.",
     quran_count: 10,
     derivatives: [
       { form: "قَاهِر", pattern: "فَاعِل", type: "ism-i fâil", meaning: "üstün gelen, kahreden" },
@@ -1360,6 +1428,7 @@ const rootDB = {
   },
   "ح-د-ث": {
     core: "olmak, konuşmak, anlatmak",
+    mufradat_note: "Başta yok iken sonradan var olma. حَدِيث: söz, haber, yeni olan şey. إِحْدَاث: bir şeyi icat etmek. مُحْدَث: sonradan ortaya çıkan.",
     quran_count: 35,
     derivatives: [
       { form: "حَدِيث", pattern: "فَعِيل", type: "isim/sıfat", meaning: "söz, hadis, yeni" },
@@ -1412,6 +1481,7 @@ const rootDB = {
   },
   "ع-ل-ق": {
     core: "asılmak, yapışmak",
+    mufradat_note: "Asılmak, yapışmak. عَلَقَة: yapışkan kan pıhtısı (embriyo evresi). عَلَاقَة: bağ, ilişki. تَعَلُّق: bağlanma. خَلَقَ الإِنْسَانَ مِنْ عَلَقٍ: insanı alak'tan yarattı.",
     quran_count: 6,
     derivatives: [
       { form: "عَلَق", pattern: "فَعَل", type: "isim", meaning: "asılıp tutunan (embriyo)" },
@@ -1444,6 +1514,7 @@ const rootDB = {
   },
   "ب-ي-ن": {
     core: "açık olmak, ayırmak",
+    mufradat_note: "İki şey arasındaki boşluk ve ortayı göstermek. بَيَان: açıklama, izah. بَيِّنَة: apaçık delil. تِبْيَان: Kur'ân'ın her şeyi açıklama vasfı.",
     quran_count: 523,
     derivatives: [
       { form: "بَيِّن", pattern: "فَيْعِل", type: "sıfat", meaning: "apaçık" },
@@ -1462,6 +1533,7 @@ const rootDB = {
   },
   "خ-ل-ص": {
     core: "arınmak, saf olmak",
+    mufradat_note: "Arınmak, saf hale gelmek. إِخْلَاص: ibadeti yalnız Allah'a has kılma (İhlâs suresi). خَالِص: katışıksız, saf. مُخْلِص: ihlâslı kul.",
     quran_count: 32,
     derivatives: [
       { form: "خَالِص", pattern: "فَاعِل", type: "ism-i fâil", meaning: "arınmış, saf" },
@@ -1531,6 +1603,7 @@ const rootDB = {
   },
   "ع-د-و": {
     core: "koşmak, düşman olmak, saldırmak",
+    mufradat_note: "Sınırı aşmak, düşmanlık etmek. عَدُوّ: düşman. عُدْوَان: saldırganlık, haddi aşma. اِعْتِدَاء: tecavüz. Asıl anlam: ölçü ve sınırı geçmek.",
     quran_count: 106,
     derivatives: [
       { form: "عَادِيَات", pattern: "فَاعِلَات", type: "ism-i fâil cem", meaning: "koşanlar" },
@@ -1547,6 +1620,7 @@ const rootDB = {
   },
   "ك-ن-د": {
     core: "nankörlük etmek",
+    mufradat_note: "Nankörlük, nimeti inkâr. كَنُود: çok nankör. إِنَّ الإِنْسَانَ لِرَبِّهِ لَكَنُودٌ: İnsan Rabbine karşı çok nankörd ür (Âdiyât 100:6).",
     quran_count: 1,
     derivatives: [
       { form: "كَنُود", pattern: "فَعُول", type: "mübalağa", meaning: "çok nankör" },
@@ -1561,6 +1635,7 @@ const rootDB = {
   },
   "ق-ر-ع": {
     core: "vurmak, kapı çalmak",
+    mufradat_note: "Vurmak, çalmak. قَرْع: kapı çalmak; şiddetli darbe. القَارِعَة: büyük vuruş → kıyamet (Kâria suresi). قُرْعَة: kura (vuruş ile seçim).",
     quran_count: 5,
     derivatives: [
       { form: "قَارِعَة", pattern: "فَاعِلَة", type: "ism-i fâil", meaning: "kapı çalan (kıyamet)" },
@@ -1642,6 +1717,7 @@ const rootDB = {
   },
   "ي-ق-ن": {
     core: "kesin bilmek, yakîn sahibi olmak",
+    mufradat_note: "Bilgide şüphenin tamamen kalkması. يَقِين: kesin bilgi. حَقُّ اليَقِين: en yüksek yakîn mertebesi. Üç mertebe: عِلْمُ اليَقِين → عَيْنُ اليَقِين → حَقُّ اليَقِين.",
     quran_count: 28,
     derivatives: [
       { form: "يَقِين", pattern: "فَعِيل", type: "masdar/isim", meaning: "kesinlik" },
@@ -1659,6 +1735,7 @@ const rootDB = {
   // ── L43-L46 Kökleri ──
   "ه-م-ز": {
     core: "arkadan çekiştirmek, dürtmek",
+    mufradat_note: "Sert sözle/işaretle kırmak. هَمْز: arkadan çekiştirme, alayla kırma. هُمَزَة: çok çekiştiren (Hümeze suresi). هَمَّاز: dedikodcu.",
     quran_count: 3,
     derivatives: [
       { form: "هُمَزَة", pattern: "فُعَلَة", type: "mübalağa", meaning: "çok çekiştiren" },
@@ -1674,6 +1751,7 @@ const rootDB = {
   },
   "ل-م-ز": {
     core: "yüze karşı alay etmek, kaş göz işareti",
+    mufradat_note: "Yüze karşı dil ile/işaretle ayıplamak. لَمْز: yüze karşı kusur bulma. لُمَزَة: çok ayıplayan. Hümeze'den fark: hemz gıyabî, lemz yüze karşı.",
     quran_count: 3,
     derivatives: [
       { form: "لُمَزَة", pattern: "فُعَلَة", type: "mübalağa", meaning: "çok alay eden" },
@@ -1688,6 +1766,7 @@ const rootDB = {
   },
   "ح-ط-م": {
     core: "kırıp geçirmek, parçalamak",
+    mufradat_note: "Kırmak, parçalamak. حُطَامَة: kırıntı. الحُطَمَة: cehennemin isimlerinden biri (her şeyi kırıp parçalayan).",
     quran_count: 3,
     derivatives: [
       { form: "حُطَمَة", pattern: "فُعَلَة", type: "mübalağa", meaning: "çok kırıp geçiren (ateş)" },
@@ -1702,6 +1781,7 @@ const rootDB = {
   },
   "خ-ل-د": {
     core: "kalmak, ebedî olmak",
+    mufradat_note: "Uzun süre kalmak. خُلْد: ebedilik. خَالِدِين فِيهَا: orada ebedî kalacaklar. مُخَلَّد: yaşlanmayan. Cennet ve cehennemde kalış.",
     quran_count: 73,
     derivatives: [
       { form: "خُلْد", pattern: "فُعْل", type: "masdar/isim", meaning: "ebedîlik" },
@@ -1718,6 +1798,7 @@ const rootDB = {
   },
   "ن-ب-ذ": {
     core: "atmak, fırlatmak, terk etmek",
+    mufradat_note: "Fırlatıp atmak, önemsememek. نَبْذ: terk etmek. مَنْبُوذ: atılmış, dışlanmış. Kur'ân'da ahdi bozan kavimlerin kitabı atması.",
     quran_count: 7,
     derivatives: [
       { form: "نَبْذ", pattern: "فَعْل", type: "masdar", meaning: "atma, fırlatma" },
@@ -1733,6 +1814,7 @@ const rootDB = {
   },
   "و-ق-د": {
     core: "tutuşmak, yanmak",
+    mufradat_note: "Ateş yakmak. وَقُود: yakıt. إِيقَاد: tutuşturma. اِتَّقِد: alevlenmek. Kur'ân'da cehennem ateşinin yakıtı olarak geçer.",
     quran_count: 8,
     derivatives: [
       { form: "مُوقَدَة", pattern: "مُفْعَلَة", type: "IV. bâb ism-i mef'ûl", meaning: "tutuşturulmuş" },
@@ -1749,6 +1831,7 @@ const rootDB = {
   },
   "ف-أ-د": {
     core: "yürek, kalp (fiziksel)",
+    mufradat_note: "Yanmak, pişmek. فُؤَاد: kalp (yanıp tutuşan yer). أَفْئِدَة: kalpler. Fuâd: kalbin ateşli/tutkulu yönü. Basar (göz) + sem' (kulak) + fuâd (kalp): üç idrak organı.",
     quran_count: 3,
     derivatives: [
       { form: "فُؤَاد", pattern: "فُعَال", type: "isim", meaning: "kalp, yürek" },
@@ -1774,6 +1857,7 @@ const rootDB = {
   },
   "ك-ي-د": {
     core: "tuzak kurmak, hile yapmak",
+    mufradat_note: "Bir şeyi çare ve tedbir ile elde etmeye çalışmak. كَيْد: hile, tuzak; tedbir. كَادَ: tuzak kurdu. الله'ın keydi: cezalandırma planı (mekr gibi).",
     quran_count: 35,
     derivatives: [
       { form: "كَيْد", pattern: "فَعْل", type: "masdar", meaning: "tuzak, hile" },
@@ -1788,6 +1872,7 @@ const rootDB = {
   },
   "ر-س-ل": {
     core: "göndermek",
+    mufradat_note: "Bir şeyi salıvermek, göndermek. رَسُول: gönderilmiş elçi. رِسَالَة: elçilik mesajı. إِرْسَال: gönderme eylemi. Asıl anlam: yumuşaklıkla (zorlamadan) göndermek.",
     quran_count: 170,
     derivatives: [
       { form: "رَسُول", pattern: "فَعُول", type: "ism-i fâil (benzerî)", meaning: "elçi" },
@@ -1803,6 +1888,7 @@ const rootDB = {
   },
   "ع-ص-ف": {
     core: "ekin yaprağı, rüzgâr",
+    mufradat_note: "Rüzgârın esip savurması. عَصْف: rüzgâr, kasırga. عَصَفَ: sert esti. عَصْفٌ مَأْكُول: samanın yenmiş artığı (Fîl suresi).",
     quran_count: 4,
     derivatives: [
       { form: "عَصْف", pattern: "فَعْل", type: "isim", meaning: "ekin yaprağı/samanı" },
@@ -1815,6 +1901,7 @@ const rootDB = {
   },
   "أ-ك-ل": {
     core: "yemek",
+    mufradat_note: "Yemek yemek, tüketmek. أَكْل: yiyecek, gıda. Mecâzî: malı yemek (haksız kazanç), ateşin yakması. مَأْكُول: yenilmiş.",
     quran_count: 109,
     derivatives: [
       { form: "أَكْل", pattern: "فَعْل", type: "masdar", meaning: "yeme" },
@@ -1830,6 +1917,7 @@ const rootDB = {
   },
   "أ-ل-ف": {
     core: "alışmak, kaynaşmak",
+    mufradat_note: "Ünsiyetle bir araya gelmek. أُلْفَة: ünsiyet, kaynaşma. إِيلَاف: Kureyş'in ticaret anlaşmaları (Kureyş suresi). تَأْلِيف: kalpleri birleştirme.",
     quran_count: 6,
     derivatives: [
       { form: "إِيلَاف", pattern: "إِفْعَال", type: "IV. bâb masdar", meaning: "alıştırma, ülfet" },
@@ -1860,6 +1948,7 @@ const rootDB = {
   },
   "ج-و-ع": {
     core: "acıkmak",
+    mufradat_note: "Açlık, karın boşluğu. جُوع: açlık. مَجَاعَة: kıtlık. Kur'ân'da Allah'ın sınavlarından biri olarak geçer (Bakara 2:155).",
     quran_count: 4,
     derivatives: [
       { form: "جُوع", pattern: "فُعْل", type: "masdar", meaning: "açlık" },
@@ -1875,6 +1964,7 @@ const rootDB = {
   },
   "خ-و-ف": {
     core: "korkmak",
+    mufradat_note: "Zanna veya bilgiye dayanan bir işaretten yola çıkarak istenmeyen bir şeyin meydana geleceğini beklemek. خَوْف: gelecekteki kötülükten korku. Zıddı: أَمْن (emniyet).",
     quran_count: 124,
     derivatives: [
       { form: "خَوْف", pattern: "فَعْل", type: "masdar", meaning: "korku" },
@@ -1890,6 +1980,7 @@ const rootDB = {
   },
   "ك-ذ-ب": {
     core: "yalan söylemek / yalanlamak",
+    mufradat_note: "Sözün gerçeğe uymaması. كَذِب: yalan. تَكْذِيب: yalanlamak. Yalanlama: hem söyle hem eylemle olur.",
     quran_count: 182,
     derivatives: [
       { form: "كَذِب", pattern: "فَعِل", type: "masdar", meaning: "yalan" },
@@ -1921,6 +2012,7 @@ const rootDB = {
   },
   "س-ه-و": {
     core: "gafil olmak, unutmak",
+    mufradat_note: "Gaflet, unutma. سَهْو: dalgınlık, kasıtsız unutma. سَاهُون: gafil olanlar (Mâûn 107:5). Namazdaki sehiv secdesi buradan.",
     quran_count: 2,
     derivatives: [
       { form: "سَاهٍ", pattern: "فَاعِل", type: "ism-i fâil", meaning: "gafil, dalgın" },
@@ -1936,6 +2028,7 @@ const rootDB = {
   },
   "م-ن-ع": {
     core: "engellemek, vermemek",
+    mufradat_note: "Engellemek, vermemek. مَنْع: engel. مَنُوع: çok cimri (Me'âric 70:21). مَانِع: engelleyen. مَنِيع: sağlam, zor alınır.",
     quran_count: 18,
     derivatives: [
       { form: "مَنْع", pattern: "فَعْل", type: "masdar", meaning: "engelleme" },
@@ -1983,6 +2076,7 @@ const rootDB = {
   },
   "ب-ت-ر": {
     core: "kesmek, soyu kesmek",
+    mufradat_note: "Kesmek, koparmak (kuyruk kesmek). أَبْتَر: soyu kesik, hayırsız. Kevser suresi: asıl ebter düşmandır, Peygamber değil.",
     quran_count: 1,
     derivatives: [
       { form: "أَبْتَر", pattern: "أَفْعَل", type: "sıfat", meaning: "soyu kesik, güdük" },
@@ -1998,6 +2092,7 @@ const rootDB = {
   },
   "ن-ح-ر": {
     core: "boğazlamak, kurban kesmek",
+    mufradat_note: "Boğazlamak (göğüsten). نَحْر: göğüsten kesim. اِنْحَر: Rabbine yönel ve kurban kes (Kevser 108:2). مُنْتَحَر: kesiş noktası.",
     quran_count: 2,
     derivatives: [
       { form: "نَحْر", pattern: "فَعْل", type: "masdar", meaning: "boğazlama, kurban" },
@@ -2013,6 +2108,7 @@ const rootDB = {
   },
   "ف-و-ج": {
     core: "grup, bölük",
+    mufradat_note: "Grup halinde gelip gitmek. فَوْج: topluluk, grup. أَفْوَاج: topluluklar. Nasr suresi: insanların bölük bölük İslâm'a girişi.",
     quran_count: 5,
     derivatives: [
       { form: "فَوْج", pattern: "فَعْل", type: "isim", meaning: "grup, bölük" },
@@ -2028,6 +2124,7 @@ const rootDB = {
   },
   "د-خ-ل": {
     core: "girmek",
+    mufradat_note: "İçeri girmek. دُخُول: giriş. أَدْخَلَ: soktu. مُدْخَل: giriş yeri. Kur'ân'da cennete veya cehenneme giriş.",
     quran_count: 127,
     derivatives: [
       { form: "دُخُول", pattern: "فُعُول", type: "masdar", meaning: "giriş" },
@@ -2045,6 +2142,7 @@ const rootDB = {
   },
   "ت-ب-ب": {
     core: "helak olmak, kurumak, kaybetmek",
+    mufradat_note: "Hüsranda süreklilik, helâk. تَبَّتْ يَدَا أَبِي لَهَب: Ebu Leheb'in elleri kurusun. تَبَاب: sürekli kayıp/helâk.",
     quran_count: 4,
     derivatives: [
       { form: "تَبَاب", pattern: "فَعَال", type: "masdar", meaning: "helak, ziyan" },
@@ -2061,6 +2159,7 @@ const rootDB = {
   },
   "ك-س-ب": {
     core: "kazanmak, elde etmek",
+    mufradat_note: "Çalışarak elde etmek. كَسْب: kazanç. اِكْتِسَاب: özellikle günah kazanmak için (daha kasıtlı). Kur'ân'da hayır için كَسَبَ, şer için اكْتَسَبَ tercihi dikkat çeker.",
     quran_count: 67,
     derivatives: [
       { form: "كَسْب", pattern: "فَعْل", type: "masdar", meaning: "kazanç" },
@@ -2077,6 +2176,7 @@ const rootDB = {
   },
   "ح-م-ل": {
     core: "taşımak, yüklenmek",
+    mufradat_note: "Taşımak, yüklenmek. حَمْل: yük; gebelik. حَمَّال: taşıyıcı (حَمَّالَةَ الحَطَب). اِحْتِمَال: tahammül. تَحَمُّل: katlanma.",
     quran_count: 64,
     derivatives: [
       { form: "حَمْل", pattern: "فَعْل", type: "masdar", meaning: "taşıma, hamilelik" },
@@ -2095,6 +2195,7 @@ const rootDB = {
   },
   "ل-ه-ب": {
     core: "alevlenmek, tutuşmak",
+    mufradat_note: "Alev, ateş alevinin parlaması. لَهَب: ateşin yalınları. تَلَهُّب: alevlenme. أَبُو لَهَب: Tebbet suresinde lâkap.",
     quran_count: 4,
     derivatives: [
       { form: "لَهَب", pattern: "فَعَل", type: "isim", meaning: "alev" },
@@ -2111,6 +2212,7 @@ const rootDB = {
   },
   "م-س-د": {
     core: "bükmek, eğirmek",
+    mufradat_note: "Sağlam bükülmüş ip. مَسَد: liften/hurma kabuğundan bükülmüş ip. حَبْلٌ مِنْ مَسَدٍ: Tebbet suresinde Ebu Leheb'in karısının boynundaki ip.",
     quran_count: 1,
     derivatives: [
       { form: "مَسَد", pattern: "فَعَل", type: "isim", meaning: "bükülmüş lif, hurma ipi" },
@@ -2126,6 +2228,7 @@ const rootDB = {
   // ═══ SEVİYE 6 KÖKLERİ ═══
   "ص-م-د": {
     core: "yönelmek, kendine yeten, muhtaç olmayan",
+    mufradat_note: "Yönelmek; dolu ve içi boş olmayan. الصَّمَد: her şeyin kendisine muhtaç olup O'nun hiçbir şeye muhtaç olmadığı (İhlâs suresi). صَمَدَ: kastetmek, yönelmek.",
     quran_count: 1,
     derivatives: [
       { form: "صَمَد", pattern: "فَعَل", type: "sıfat", meaning: "Samed, kendine yeten" },
@@ -2140,6 +2243,7 @@ const rootDB = {
   },
   "ك-ف-أ": {
     core: "denk olmak, eşit olmak",
+    mufradat_note: "Denk olmak, eşit olmak. كُفُؤ: denk, eş. لَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ: O'nun hiçbir dengi yoktur (İhlâs 112:4).",
     quran_count: 1,
     derivatives: [
       { form: "كُفُو", pattern: "فُعُول", type: "sıfat", meaning: "denk, eş" },
@@ -2154,6 +2258,7 @@ const rootDB = {
   },
   "و-ل-د": {
     core: "doğmak, doğurmak",
+    mufradat_note: "Doğurmak, dünyaya getirmek. وَلَد: çocuk (oğlan+kız). وَالِد: baba. وَالِدَة: anne. تَوَلُّد: oluşma, türeme. وِلَادَة: doğum.",
     quran_count: 102,
     derivatives: [
       { form: "وَلَد", pattern: "فَعَل", type: "isim", meaning: "çocuk, evlat" },
@@ -2172,6 +2277,7 @@ const rootDB = {
   },
   "ع-و-ذ": {
     core: "sığınmak, koruma aramak",
+    mufradat_note: "Sığınmak, korunmak. اِسْتِعَاذَة: Allah'a sığınma (أَعُوذُ بِاللّٰه). مَعَاذ: sığınak. مُعَوِّذَتَان: Felak ve Nâs sureleri.",
     quran_count: 17,
     derivatives: [
       { form: "عِيَاذ", pattern: "فِعَال", type: "masdar", meaning: "sığınma" },
@@ -2189,6 +2295,7 @@ const rootDB = {
   },
   "غ-س-ق": {
     core: "karanlık çökmek",
+    mufradat_note: "Karanlık çökmek, sızmak. غَسَق: karanlık (gecenin çökmesi). غَاسِق: karanlık çökünce. Felak suresinde: karanlığın şerrinden sığınma.",
     quran_count: 2,
     derivatives: [
       { form: "غَاسِق", pattern: "فَاعِل", type: "ism-i fâil", meaning: "karanlık, gece" },
@@ -2203,6 +2310,7 @@ const rootDB = {
   },
   "ن-ف-ث": {
     core: "üfürmek, tükürmek",
+    mufradat_note: "Hafifçe üflemek (tükürüksüz). نَفْث: büyücülerin üflemesi. نَفَّاثَات فِي العُقَد: düğümlere üfleyen kadınlar (Felak 113:4).",
     quran_count: 1,
     derivatives: [
       { form: "نَفَّاثَات", pattern: "فَعَّالَات", type: "mübalağa müe. cem", meaning: "üfleyenler" },
@@ -2217,6 +2325,7 @@ const rootDB = {
   },
   "ع-ق-د": {
     core: "düğümlemek, bağlamak",
+    mufradat_note: "Bağlamak, düğümlemek. عَقْد: sözleşme, anlaşma. عُقْدَة: düğüm. İ'tikâd: kalpte bağlanan inanç. عِقْد: kolye (bağlanmış inciler). تَعَاقُد: karşılıklı sözleşme.",
     quran_count: 7,
     derivatives: [
       { form: "عُقْدَة", pattern: "فُعْلَة", type: "isim", meaning: "düğüm" },
@@ -2233,6 +2342,7 @@ const rootDB = {
   },
   "ح-س-د": {
     core: "haset etmek, kıskanmak",
+    mufradat_note: "Hak edenin elindeki nimetin elinden alınmasını arzu etmek. Bazen nimetin gitmesi için çalışmak da dahildir. Gıbta'dan farklı: gıbta aynı nimeti kendine de istemek (kıskançlık değil).",
     quran_count: 5,
     derivatives: [
       { form: "حَاسِد", pattern: "فَاعِل", type: "ism-i fâil", meaning: "haset eden" },
@@ -2292,6 +2402,7 @@ const rootDB = {
   },
   "ط-و-ع": {
     core: "itaat etmek, boyun eğmek",
+    mufradat_note: "İsteyerek boyun eğmek, gönüllü itaat etmek. طَاعَة: itaat. İstita'at: güç yetirmek. تَطَوُّع: gönüllü ibadet (nafile). Zıddı: كُرْه (kerhen/zorla).",
     quran_count: 78,
     derivatives: [
       { form: "طَاعَة", pattern: "فَعَالَة", type: "masdar", meaning: "itaat" },
@@ -2307,6 +2418,7 @@ const rootDB = {
   },
   "س-ج-د": {
     core: "secde etmek, boyun eğmek",
+    mufradat_note: "Eğilmek, boyun eğmek, alın yere koymak. سُجُود: Allah'a en yüksek tevazu ifadesi. مَسْجِد: secde edilen yer. Her varlığın Allah'a boyun eğmesi bir çeşit secdedir.",
     quran_count: 92,
     derivatives: [
       { form: "سَجْدَة", pattern: "فَعْلَة", type: "isim", meaning: "secde" },
@@ -2323,6 +2435,7 @@ const rootDB = {
   },
   "ق-ر-ب": {
     core: "yaklaşmak, yakınlık",
+    mufradat_note: "Yakınlık — mekân, zaman, mertebe bakımından. قُرْبَان: Allah'a yaklaşma vesilesi. تَقَرُّب: Allah'a yaklaşmak. قَرِيب: yakın olan. مُقَرَّبُون: Allah'a en yakın olanlar.",
     quran_count: 96,
     derivatives: [
       { form: "قَرِيب", pattern: "فَعِيل", type: "sıfat", meaning: "yakın" },
@@ -2339,6 +2452,7 @@ const rootDB = {
   },
   "و-د-ع": {
     core: "bırakmak, terk etmek",
+    mufradat_note: "Bırakmak, terk etmek. وَدَاع: veda. وَدِيعَة: emanet bırakılan şey. مَا وَدَّعَكَ رَبُّكَ: Rabbin seni terk etmedi (Duhâ 93:3).",
     quran_count: 2,
     derivatives: [
       { form: "تَوْدِيع", pattern: "تَفْعِيل", type: "masdar II", meaning: "veda" },
@@ -2354,6 +2468,7 @@ const rootDB = {
   // ═══ v0.18 — Nebe + Nâzi'ât kökleri ═══
   "ف-ص-ل": {
     core: "ayırmak, hüküm vermek, bölmek",
+    mufradat_note: "Ayırmak, kesmek. فَصْل: ayırma; mevsim; karar. فَاصِلَة: ayet sonu. تَفْصِيل: ayrıntılı açıklama. فَيْصَل: kesin hüküm.",
     quran_count: 43,
     derivatives: [
       { form: "فَصْل", pattern: "فَعْل", type: "masdar", meaning: "hüküm, ayırma, bölüm" },
@@ -2371,6 +2486,7 @@ const rootDB = {
   },
   "ف-ت-ح": {
     core: "açmak, fethetmek",
+    mufradat_note: "Bir engeli kaldırmak, kapalı olan şeyi açmak. فَتْح: zafer (engellerin kalkması). اِسْتِفْتَاح: açılış talebi. مِفْتَاح: anahtar. فَتَّاح: her kapıyı açan (Allah).",
     quran_count: 38,
     derivatives: [
       { form: "فَتْح", pattern: "فَعْل", type: "masdar", meaning: "açma, fetih" },
@@ -2387,6 +2503,7 @@ const rootDB = {
   },
   "ن-ف-خ": {
     core: "üflemek, şişirmek",
+    mufradat_note: "Üflemek. نَفْخ: üfleme. نَفْخُ الصُّور: Sûr'a üflenmesi (kıyamet). اِنْتِفَاخ: şişme, kibirlenme.",
     quran_count: 12,
     derivatives: [
       { form: "نَفْخ", pattern: "فَعْل", type: "masdar", meaning: "üfleme" },
@@ -2402,6 +2519,7 @@ const rootDB = {
   },
   "ف-و-ز": {
     core: "kurtulmak, kazanmak, başarı",
+    mufradat_note: "Tehlikeden kurtulup hayra ulaşmak. فَوْز: kurtuluş + kazanç birlikte. فَوْزٌ عَظِيم: büyük kurtuluş (Kur'ân'da cennete kavuşmak).",
     quran_count: 29,
     derivatives: [
       { form: "فَوْز", pattern: "فَعْل", type: "masdar", meaning: "kurtuluş" },
@@ -2418,6 +2536,7 @@ const rootDB = {
   },
   "ر-ج-ف": {
     core: "sarsmak, sallanmak, titremek",
+    mufradat_note: "Şiddetli sarsıntı. رَجْفَة: büyük deprem/sarsıntı. اِرْتِجَاف: titreyiş. Kur'ân'da ilâhî azap sarsıntısı olarak gelir.",
     quran_count: 5,
     derivatives: [
       { form: "رَجْفَة", pattern: "فَعْلَة", type: "masdar", meaning: "sarsıntı" },
@@ -2433,6 +2552,7 @@ const rootDB = {
   },
   "ر-د-ف": {
     core: "arkasından gelmek, takip etmek",
+    mufradat_note: "Peş peşe gelmek, birbirini takip etmek. رِدْف: arkadan gelen. مُتَرَادِف: eş anlamlı (birbiri ardınca gelen). إِرْدَاف: arkasına bindirmek.",
     quran_count: 4,
     derivatives: [
       { form: "رَادِفَة", pattern: "فَاعِلَة", type: "ism-i fâil", meaning: "arkadan gelen" },
@@ -2448,6 +2568,7 @@ const rootDB = {
   },
   "خ-ش-ي": {
     core: "derin korku, saygılı korku (haşyet)",
+    mufradat_note: "Bilgiye dayanan korku. خَشْيَة: ilimle birlikte gelen korku (havftan daha özel). إِنَّمَا يَخْشَى اللّٰهَ مِنْ عِبَادِهِ العُلَمَاءُ: ancak âlimler Allah'tan haşyet duyar.",
     quran_count: 48,
     derivatives: [
       { form: "خَشْيَة", pattern: "فَعْلَة", type: "masdar", meaning: "haşyet, derin korku" },
@@ -2484,6 +2605,7 @@ const rootDB = {
   },
   "ق-د-س": {
     core: "kutsamak, kutsal kılmak, arındırmak",
+    mufradat_note: "Kirden, noksandan arınmak. قُدُّوس: her türlü eksiklikten münezzeh (Allah). تَقْدِيس: Allah'ı tenzih etme. أَرْضُ المُقَدَّسَة: kutsal/arınmış toprak.",
     quran_count: 10,
     derivatives: [
       { form: "قُدُس", pattern: "فُعُل", type: "isim", meaning: "kutsallık" },
@@ -2500,6 +2622,7 @@ const rootDB = {
   },
   "د-ح-و": {
     core: "yaymak, yumurta biçiminde sermek",
+    mufradat_note: "Bir şeyi yerinden gidermek, yaymak. دَحَاهَا: yeryüzünü yaydı (Nâziât 79:30). دَحْو: yayma, uzatma.",
     quran_count: 1,
     derivatives: [
       { form: "دَحْو", pattern: "فَعْل", type: "masdar", meaning: "yayma" },
