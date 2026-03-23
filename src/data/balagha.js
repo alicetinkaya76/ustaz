@@ -208,9 +208,184 @@ const balaghaDB = {
       },
     ],
   },
-};
 
-// Helper: ders için belâgat notlarını topla
+  // ── FAZ A-2: EKSIK BELÂGAT SANATLARI (v0.24) ───────────────────────
+
+  // ═══ İLM-İ BEYÂN (البيان) — Tasvir Bilimi ═══
+
+  tesbih: {
+    title: "التشبيه",
+    titleTr: "Teşbîh (Benzetme)",
+    branch: "beyan",
+    branchLabel: "البيان",
+    definition: "İki şey arasındaki ortak niteliği 'كَ' veya 'كَأَنَّ' gibi edatlarla açıkça ifade etme. Dört unsuru var: müşebbeh (benzeyen), müşebbehün bih (kendisine benzetilen), edat (كَ/كَأَنَّ/مِثْل), vech-i şebeh (benzerlik yönü).",
+    subtypes: [
+      {
+        name: "Teşbîh-i mürsel (edatlı)",
+        examples: [
+          { verse: "55:24", text: "كَالأَعْلَامِ", analysis: "Gemiler dağlara benzetilmiş: denizde yükselen yelkenliler = su üzerinde dağlar", lesson: "S-Rahman" },
+          { verse: "101:4", text: "كَالفَرَاشِ المَبْثُوثِ", analysis: "İnsanlar saçılmış kelebeklere benzetilmiş: kıyâmette şaşkın, dağınık", lesson: "L14" },
+          { verse: "74:50", text: "كَأَنَّهُمْ حُمُرٌ مُسْتَنفِرَةٌ", analysis: "Kâfirler ürkmüş yaban eşeklerine benzetilmiş: Kur'an'dan kaçış", lesson: null },
+        ],
+      },
+      {
+        name: "Teşbîh-i belîğ (edatsız, en güçlü)",
+        examples: [
+          { verse: "55:37", text: "فَكَانَتْ وَرْدَةً كَالدِّهَانِ", analysis: "Gökyüzü gül gibi kızarıp yağ gibi erir: çok katmanlı teşbîh (renk + kıvam)", lesson: "S-Rahman" },
+        ],
+      },
+    ],
+  },
+
+  mecaz: {
+    title: "المجاز",
+    titleTr: "Mecâz (Dolaylı Anlam)",
+    branch: "beyan",
+    branchLabel: "البيان",
+    definition: "Bir kelimeyi gerçek anlamı dışında, bir ilgi (alâka) ile kullanma. Mecâz-ı mürsel (benzetme dışı ilgi) ve mecâz-ı aklî (fiilin gerçek fâili dışına isnadı) olmak üzere iki ana türü var.",
+    subtypes: [
+      {
+        name: "Mecâz-ı mürsel (parça-bütün, sebep-sonuç vb.)",
+        examples: [
+          { verse: "67:1", text: "بِيَدِهِ المُلْكُ", analysis: "'Mülk O'nun elindedir' — يَد (el) → kudret ve tasarruf: parça ile bütünü ifade", lesson: "S-Mulk" },
+          { verse: "96:15-16", text: "نَاصِيَةٍ كَاذِبَةٍ خَاطِئَةٍ", analysis: "Alın (nâsiye) yalancı ve günahkâr → mecâz-ı mürsel: parça (alın) ile bütünü (kişi) ifade", lesson: "L29" },
+          { verse: "55:27", text: "وَجْهُ رَبِّكَ", analysis: "'Rabbinin yüzü/zâtı' — وَجْه (yüz) ile zât (öz) kastedilmiş: en şerefli uzuvla bütünü ifade", lesson: "S-Rahman" },
+        ],
+      },
+      {
+        name: "Mecâz-ı aklî (fiilin alışılmadık fâile isnadı)",
+        examples: [
+          { verse: "55:6", text: "وَالنَّجْمُ وَالشَّجَرُ يَسْجُدَانِ", analysis: "Bitki ve ağaç 'secde eder' — bilinçli eylemi cansız varlıklara isnat", lesson: "S-Rahman" },
+        ],
+      },
+    ],
+  },
+
+  kinaye: {
+    title: "الكناية",
+    titleTr: "Kinâye (Dolaylı Anlatım)",
+    branch: "beyan",
+    branchLabel: "البيان",
+    definition: "Bir anlamı, o anlamla ilişkili başka bir ifadeyle dolaylı olarak aktarma. Mecâzdan farkı: lafzın gerçek anlamı da kastedilmiş olabilir (ihtimallilik).",
+    examples: [
+      { verse: "67:13", text: "ذَاتِ الصُّدُورِ", analysis: "'Göğüslerin sahibi/özü' → kinâye: kalplerdeki gizli düşünceler ve niyetler", lesson: "S-Mulk" },
+      { verse: "17:29", text: "وَلَا تَجْعَلْ يَدَكَ مَغْلُولَةً إِلَى عُنُقِكَ وَلَا تَبْسُطْهَا كُلَّ الْبَسْطِ", analysis: "'Elini boynuna bağlama (cimrilik), tamamen de açma (israf)' → kinâye: cimrilik ve israftan kaçınma", lesson: null },
+      { verse: "111:1", text: "تَبَّتْ يَدَا أَبِي لَهَبٍ", analysis: "'Elleri kurusun' → kinâye: bütün çabaları boşa gitsin", lesson: "L50" },
+    ],
+  },
+
+  // ═══ İLM-İ BEDÎ' (البديع) — Güzellik Bilimi ═══
+
+  cinas: {
+    title: "الجناس",
+    titleTr: "Cinas (Söz Oyunu)",
+    branch: "bedi",
+    branchLabel: "البديع",
+    definition: "Lafızları benzer, anlamları farklı kelimelerin bir arada kullanılması. Tam cinas (aynı ses, farklı anlam) ve nâkıs cinas (yakın ses) türleri var.",
+    subtypes: [
+      {
+        name: "Cinas-ı iştikâk (aynı kökten farklı türetmeler)",
+        examples: [
+          { verse: "96:1-5", text: "عَلَّمَ × 2 + يَعْلَمْ", analysis: "ع-ل-م kökü 3 kez: 'öğretti' (×2) + 'bildi' → bilgi kavramı ses tekrarıyla yoğunlaşıyor", lesson: "L29" },
+          { verse: "96:17-18", text: "يَدْعُ / نَدْعُ", analysis: "د-ع-و kökü iki kez: insan kendi topluluğunu çağırır ↔ Biz zebâniyeyi çağırırız → aynı fiil, zıt güç", lesson: "L29" },
+          { verse: "55:60", text: "جَزَاءُ الإِحْسَانِ إِلَّا الإِحْسَانُ", analysis: "الإِحْسَان iki kez: (1) kulun ihsanı (güzel amel) (2) Allah'ın ihsanı (cennet) → aynı kelime, farklı fail", lesson: "S-Rahman" },
+        ],
+      },
+      {
+        name: "Cinas-ı tâm (tam ses benzerliği, farklı anlam)",
+        examples: [
+          { verse: "30:55", text: "وَيَوْمَ تَقُومُ السَّاعَةُ يُقْسِمُ المُجْرِمُونَ مَا لَبِثُوا غَيْرَ سَاعَةٍ", analysis: "السَّاعَة (kıyâmet) ↔ سَاعَة (saat/an): aynı kelime, birincisi kıyâmet, ikincisi zaman birimi", lesson: null },
+        ],
+      },
+    ],
+  },
+
+  seci: {
+    title: "السجع",
+    titleTr: "Seci' (Nesir Kafiyesi)",
+    branch: "bedi",
+    branchLabel: "البديع",
+    definition: "Nesir (düz yazı) cümlelerinin sonlarının aynı harflerle/kalıplarla bitmesi. Kur'an'ın fâsılası (ayet sonu uyumu) seci'in en üstün örneğidir.",
+    rules: [
+      "Fâsıla (فاصلة): Ayet sonlarındaki ses uyumu. Kur'an seci'i şiir kafiyesinden farklı: anlam önce, ses uyumu anlama tâbi.",
+      "Mutarraf seci': Cümle uzunlukları farklı, son sesler aynı → يُسْرًا / يُسْرًا (İnşirâh 5-6).",
+      "Mütevâzî seci': Cümle uzunlukları ve son sesler uyumlu → التِّينِ / الزَّيْتُونِ / سِينِينَ / الأَمِينِ (Tîn 1-3).",
+    ],
+    examples: [
+      { verse: "80:38-42", text: "مُسْفِرَةٌ ← ضَاحِكَةٌ ← مُسْتَبْشِرَةٌ / غَبَرَةٌ ← قَتَرَةٌ ← الكَفَرَةُ ← الفَجَرَةُ", analysis: "İki grup paralel seci': -a kalıbı tekrar. Yüz tasvirleri ses uyumuyla pekişiyor", lesson: "L21" },
+      { verse: "55:1-4", text: "الرَّحْمَنُ / القُرْآنَ / الإِنسَانَ / البَيَانَ", analysis: "-ân fâsılası: Rahmân suresinin temel ses motifi. 78 ayetin çoğu -ân ile biter", lesson: "S-Rahman" },
+      { verse: "91:1-10", text: "ضُحَاهَا / تَلَاهَا / جَلَّاهَا / يَغْشَاهَا / بَنَاهَا / طَحَاهَا / سَوَّاهَا / فُجُورَهَا / تَقْوَاهَا / زَكَّاهَا", analysis: "10 kasem aynı -âhâ fâsılasıyla: ritim kasem zincirinin ağırlığını artırır", lesson: null },
+    ],
+  },
+
+  terakum: {
+    title: "التراكم",
+    titleTr: "Terâkum (Birikme / Yığılma)",
+    branch: "bedi",
+    branchLabel: "البديع",
+    definition: "Birden fazla unsuru peş peşe sıralayarak dramatik birikme etkisi oluşturma. Her yeni unsur bir öncekinin üzerine eklenir, cevap/sonuç en sona bırakılır.",
+    examples: [
+      { verse: "82:1-5", text: "إِذَا السَّمَاءُ انفَطَرَتْ × إِذَا الكَوَاكِبُ انتَثَرَتْ × إِذَا البِحَارُ فُجِّرَتْ × إِذَا القُبُورُ بُعْثِرَتْ → عَلِمَتْ نَفْسٌ", analysis: "Dört إِذَا peş peşe: gök → yıldızlar → denizler → kabirler. Her biri bir katman ekler, cevap ancak 5. ayette", lesson: "L22" },
+      { verse: "81:1-14", text: "إِذَا الشَّمْسُ كُوِّرَتْ ... إِذَا × 12", analysis: "12 إِذَا ile en uzun kozmik yıkılış dizisi: güneş → yıldızlar → dağlar → hayvanlar → denizler... Cevap 14. ayette", lesson: null },
+      { verse: "100:1-5", text: "وَالعَادِيَاتِ × فَالمُورِيَاتِ × فَالمُغِيرَاتِ × فَأَثَرْنَ × فَوَسَطْنَ", analysis: "Beş kasem zinciri فَ ile bağlı: koşma → kıvılcım → baskın → toz → dalma. Kronolojik birikme", lesson: "L40" },
+    ],
+  },
+
+  tedric: {
+    title: "التدريج",
+    titleTr: "Tedrîc (Kademelendirme / Climax)",
+    branch: "bedi",
+    branchLabel: "البديع",
+    definition: "Unsurları artan veya azalan bir sırayla dizme (climax / anti-climax). Her adım bir öncekinden daha güçlü/zayıf olarak duygusal etkiyi artırır.",
+    examples: [
+      { verse: "80:34-36", text: "أَخِيهِ → أُمِّهِ وَأَبِيهِ → صَاحِبَتِهِ وَبَنِيهِ", analysis: "Kaçış sırası: kardeş → anne-baba → eş-çocuklar. Her adımda duygusal bağ artar → en güçlü bağ bile kopar (climax)", lesson: "L21" },
+      { verse: "96:1-5", text: "خَلَقَ (genel) → خَلَقَ الإنسَانَ (özel) → عَلَّمَ بِالقَلَمِ (araçla) → عَلَّمَ مَا لَمْ يَعْلَمْ (sınırsız)", analysis: "Genelden özele, araçlıdan mutlaka tedricî geçiş: yaratma → özel yaratma → araçla öğretme → sınırsız öğretme", lesson: "L29" },
+      { verse: "114:1-3", text: "رَبِّ النَّاسِ → مَلِكِ النَّاسِ → إِلَٰهِ النَّاسِ", analysis: "Üç ilâhî sıfat artan sırayla: terbiye → yönetim → ulûhiyet (ascending tricolon)", lesson: "L53" },
+      { verse: "113:2-5", text: "مِنْ شَرِّ مَا خَلَقَ → غَاسِقٍ → النَّفَّاثَاتِ → حَاسِدٍ", analysis: "Dört şer kaynağı: genel → kozmik → sihir → haset. Dıştan içe, gözle görünenden gizliye", lesson: "L52" },
+    ],
+  },
+
+  teshis: {
+    title: "التشخيص",
+    titleTr: "Teşhîs (Kişileştirme)",
+    branch: "bedi",
+    branchLabel: "البديع",
+    definition: "Cansız varlıklara veya soyut kavramlara insan nitelikleri (secde etme, konuşma, öfkelenme vb.) atfetme. Modern edebiyattaki 'personification'.",
+    examples: [
+      { verse: "55:6", text: "وَالنَّجْمُ وَالشَّجَرُ يَسْجُدَانِ", analysis: "Bitki ve ağaç 'secde eder': cansız varlıklara bilinçli eylem atfetme", lesson: "S-Rahman" },
+      { verse: "67:7", text: "سَمِعُوا لَهَا شَهِيقًا وَهِيَ تَفُورُ", analysis: "Cehennem 'inleme sesi çıkarıyor' ve 'kaynıyor': korkutucu kişileştirme — ateş öfkeli bir canavar gibi", lesson: "S-Mulk" },
+      { verse: "67:8", text: "تَكَادُ تَمَيَّزُ مِنَ الغَيْظِ", analysis: "Cehennem 'öfkeden neredeyse parçalanacak': öfke (insan duygusu) ateşe atfedilmiş → mübalağa + teşhîs", lesson: "S-Mulk" },
+      { verse: "67:4", text: "يَنقَلِبْ إِلَيْكَ البَصَرُ خَاسِئًا", analysis: "Göz 'kovulmuş gibi geri döner': göze insan niteliği verilmiş, arayıp bulamayan bir avcı gibi", lesson: "S-Mulk" },
+      { verse: "99:4", text: "يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا", analysis: "Yeryüzü 'haberlerini anlatır': arz canlı bir tanık gibi konuşuyor", lesson: "L15" },
+    ],
+  },
+
+  // ═══ İLM-İ MEÂNÎ (المعاني) — Ek Sanat ═══
+
+  icaz: {
+    title: "الإيجاز",
+    titleTr: "Îcâz (Kısalık / Özlülük)",
+    branch: "meani",
+    branchLabel: "المعاني",
+    definition: "Az sözle çok anlam ifade etme. Itnâb'ın (genişletme) zıddı. İki türü: hazf ile îcâz (bir unsuru düşürme) ve kasr ile îcâz (az kelimeyle çok anlam yükleme).",
+    subtypes: [
+      {
+        name: "Hazf ile îcâz (düşürme yoluyla kısaltma)",
+        examples: [
+          { verse: "12:82", text: "وَاسْأَلِ القَرْيَةَ", analysis: "'Köye sor' — aslında 'köy halkına sor.' Muzâf (أَهْلَ) hazfedilmiş: bir kelime düşmüş, anlam kaybolmamış", lesson: null },
+          { verse: "80:17", text: "قُتِلَ الإنسانُ", analysis: "Kim tarafından? Fâil gizli → ilahi kudrete işaret + kısalık", lesson: "L21" },
+        ],
+      },
+      {
+        name: "Kasr ile îcâz (az kelimeyle derin anlam)",
+        examples: [
+          { verse: "103:1-3", text: "وَالعَصْرِ إِنَّ الإنسانَ لَفِي خُسرٍ إِلَّا الَّذِينَ آمَنُوا...", analysis: "3 ayet, 14 kelime — İmam Şâfi'î: 'Sadece bu sure inseydi yeterdi.' Zaman, kayıp, kurtuluş yolu: bütün bir hayat felsefesi", lesson: "L03" },
+          { verse: "55:60", text: "هَلْ جَزَاءُ الإِحْسَانِ إِلَّا الإِحْسَانُ", analysis: "5 kelime ile ilahi adalet özetlenmiş: iyiliğin karşılığı iyiliktir", lesson: "S-Rahman" },
+        ],
+      },
+    ],
+  },
+};
 export function getBalaghaForLesson(lessonId) {
   const results = [];
   for (const [key, art] of Object.entries(balaghaDB)) {
