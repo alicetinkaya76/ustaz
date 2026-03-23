@@ -146,7 +146,7 @@ const rahmanLessons = [
         arabic: "أَلَّا تَطْغَوْا فِي الْمِيزَانِ",
         translation: "Mîzânda taşkınlık etmeyesiniz diye.",
         words: [
-          { arabic: "أَلَّا", transliteration: "allā", root: null, pos: "harf", meaning_tr: "...meyesiniz diye", irab: "أَنْ {masdariye} + لَا {nefy}. Ta'lîl (amaç).", irab_short: "masdariye + nefy" },
+          { arabic: "أَلَّا", transliteration: "allā", root: null, pos: "harf", meaning_tr: "...meyesiniz diye", irab: "İki vecih: (1) أَنْ {masdariye} + لَا {nefy}: ta'lîl (amaç — tartıda aşmayın diye). (2) أَنْ {tefsîriye} + لَا {nâhiye}: وَضَعَ'i tefsîr eder (yani: tartıda taşkınlık etmeyin). Yâkût ve Kurtubî her iki vechi de nakleder.", irab_short: "masdariye+nefy / tefsîriye+nehy" },
           { arabic: "تَطْغَوْا", transliteration: "taṭġaw", root: "ط-غ-ي", pos: "fil", meaning_tr: "taşkınlık etmeyesiniz, aşmayasınız", irab: "{Muzâri, mensûb} (أَنْ ile). طَغَى: sınırı aştı, tuğyân etti.", irab_short: "muzâri mensûb", turkish_bridge: "Tuğyân (taşkınlık), tâğût bu kökten" },
           { arabic: "فِي", transliteration: "fī", root: null, pos: "harf", meaning_tr: "...de", irab_short: "harf-i cer" },
           { arabic: "الْمِيزَانِ", transliteration: "al-mīzāni", root: "و-ز-ن", pos: "ism", meaning_tr: "mîzânda, dengede", irab: "{Mecrûr}.", irab_short: "mecrûr" },

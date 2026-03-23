@@ -42,7 +42,7 @@ const infitarLessons = [
         translation: "Gök yarıldığı zaman",
         words: [
           { arabic: "إِذَا", transliteration: "iḏā", root: null, pattern: null, pos: "harf", meaning_tr: "… olduğu zaman", irab: "{Şart zarfı} (zaman zarfı). Gelecekte kesin olacak olay için.", irab_short: "şart zarfı", turkish_bridge: null, balagha_note: "Dört إِذَا tekrarı → kozmik olaylar zinciri. Her biri bir yıkılışı anlatır. Dramatik birikme etkisi (terâkum)." },
-          { arabic: "ٱلسَّمَاءُ", transliteration: "as-samāʾu", root: "س-م-و", pattern: null, pos: "ism", meaning_tr: "gök", irab: "{Fâil} (اِنْفَطَرَتْ fiilinin), {merfû} (damme ile).", irab_short: "fâil, merfû", turkish_bridge: "Semâ (gök) bu kökten", balagha_note: null },
+          { arabic: "ٱلسَّمَاءُ", transliteration: "as-samāʾu", root: "س-م-و", pattern: null, pos: "ism", meaning_tr: "gök", irab: "{Fâil} li-fi'lin mahzûf yufessiruhu mâ ba'dehu (iştigâl üslûbu), {merfû} (damme ile). Takdîr: إذا انفطرتِ السماءُ انفطرتْ. Görünen اِنْفَطَرَتْ cümlesi tefsîriyedir, i'rabdan mahalli yoktur.", irab_short: "fâil (iştigâl), merfû", turkish_bridge: "Semâ (gök) bu kökten", balagha_note: null },
           { arabic: "ٱنفَطَرَتْ", transliteration: "infaṭarat", root: "ف-ط-ر", pattern: "اِنْفَعَلَ", pos: "fil", meaning_tr: "yarıldı", irab: "{Fiil-i mâzî}, VII. bâb (اِنْفِعَال — edilgen/dönüşlü). تْ: te-i te'nîs (السَّمَاء müennestir).", irab_short: "fiil, mâzî, VII. bâb", turkish_bridge: "Fıtrat, fıtrî (yaratılış) bu kökten. Aslı: yarmak, ilk açmak.", balagha_note: "VII. bâb kendi kendine oluş → göğün 'kendi kendine' yarılması, dışarıdan bir güç değil." },
         ],
       },
@@ -52,7 +52,7 @@ const infitarLessons = [
         translation: "Yıldızlar dağılıp döküldüğü zaman",
         words: [
           { arabic: "وَإِذَا", transliteration: "wa iḏā", root: null, pattern: null, pos: "harf", meaning_tr: "ve … olduğu zaman", irab: "وَ {harf-i atıf} + إِذَا şart zarfı (2. şart).", irab_short: "atıf + şart zarfı", turkish_bridge: null, balagha_note: null },
-          { arabic: "ٱلْكَوَاكِبُ", transliteration: "al-kawākibu", root: "ك-و-ك-ب", pattern: null, pos: "ism", meaning_tr: "yıldızlar", irab: "{Fâil}, {merfû}. كَوَاكِب: كَوْكَب'in cem-i teksîri.", irab_short: "fâil, merfû", turkish_bridge: "Kevkeb (yıldız), modern Türkçe'de nadir", balagha_note: null },
+          { arabic: "ٱلْكَوَاكِبُ", transliteration: "al-kawākibu", root: "ك-و-ك-ب", pattern: null, pos: "ism", meaning_tr: "yıldızlar", irab: "{Fâil} li-fi'lin mahzûf (iştigâl), {merfû}. كَوَاكِب: كَوْكَب'in cem-i teksîri. Görünen اِنْتَثَرَتْ tefsîriye.", irab_short: "fâil (iştigâl), merfû", turkish_bridge: "Kevkeb (yıldız), modern Türkçe'de nadir", balagha_note: null },
           { arabic: "ٱنتَثَرَتْ", transliteration: "intaṯarat", root: "ن-ث-ر", pattern: "اِنْفَعَلَ", pos: "fil", meaning_tr: "dağılıp saçıldı", irab: "{Fiil-i mâzî}, VIII. bâb (اِفْتَعَلَ). تْ: te-i te'nîs.", irab_short: "fiil, mâzî, VIII. bâb", turkish_bridge: "Nesir (saçma, dağıtma) bu kökten", balagha_note: "Yıldızların 'saçılması' → düzenin bozulması, kozmik kaosun başlangıcı." },
         ],
       },
@@ -62,7 +62,7 @@ const infitarLessons = [
         translation: "Denizler birbirine akıtıldığı zaman",
         words: [
           { arabic: "وَإِذَا", transliteration: "wa iḏā", root: null, pattern: null, pos: "harf", meaning_tr: "ve … olduğu zaman", irab: "3. şart cümlesi.", irab_short: "atıf + şart zarfı", turkish_bridge: null, balagha_note: null },
-          { arabic: "ٱلْبِحَارُ", transliteration: "al-biḥāru", root: "ب-ح-ر", pattern: "فِعَال", pos: "ism", meaning_tr: "denizler", irab: "{Nâib-i fâil} (meçhul fiilin öznesi), {merfû}. بِحَار: بَحْر'in cem-i teksîri.", irab_short: "nâib-i fâil, merfû", turkish_bridge: "Bahir, bahriye bu kökten", balagha_note: null },
+          { arabic: "ٱلْبِحَارُ", transliteration: "al-biḥāru", root: "ب-ح-ر", pattern: "فِعَال", pos: "ism", meaning_tr: "denizler", irab: "{Nâib-i fâil} li-fi'lin mahzûf (iştigâl), {merfû}. بِحَار: بَحْر'in cem-i teksîri. Görünen فُجِّرَتْ tefsîriye.", irab_short: "nâib-i fâil (iştigâl), merfû", turkish_bridge: "Bahir, bahriye bu kökten", balagha_note: null },
           { arabic: "فُجِّرَتْ", transliteration: "fujjirat", root: "ف-ج-ر", pattern: null, pos: "fil", meaning_tr: "patlatıldı, akıtıldı", irab: "{Fiil-i mâzî meçhul}, II. bâb (فُعِّلَ). Meçhul yapı: kimin yaptığı belirtilmiyor.", irab_short: "fiil, meçhul, II. bâb", turkish_bridge: "Fecr (tan), inficâr (patlama) bu kökten", balagha_note: "Meçhul fiil → eylemin kaynağı gizli (Allah'ın kudreti). Denizlerin patlatılması → tüm sınırlar kalkıyor." },
         ],
       },
@@ -72,7 +72,7 @@ const infitarLessons = [
         translation: "Kabirler deşilip açıldığı zaman",
         words: [
           { arabic: "وَإِذَا", transliteration: "wa iḏā", root: null, pattern: null, pos: "harf", meaning_tr: "ve … olduğu zaman", irab: "4. (son) şart cümlesi.", irab_short: "atıf + şart zarfı", turkish_bridge: null, balagha_note: null },
-          { arabic: "ٱلْقُبُورُ", transliteration: "al-qubūru", root: "ق-ب-ر", pattern: "فُعُول", pos: "ism", meaning_tr: "kabirler", irab: "{Nâib-i fâil}, {merfû}. قُبُور: قَبْر'in cem-i teksîri.", irab_short: "nâib-i fâil, merfû", turkish_bridge: "Kabir, makbere (mezarlık) bu kökten", balagha_note: null },
+          { arabic: "ٱلْقُبُورُ", transliteration: "al-qubūru", root: "ق-ب-ر", pattern: "فُعُول", pos: "ism", meaning_tr: "kabirler", irab: "{Nâib-i fâil} li-fi'lin mahzûf (iştigâl), {merfû}. قُبُور: قَبْر'in cem-i teksîri. Görünen بُعْثِرَتْ tefsîriye.", irab_short: "nâib-i fâil (iştigâl), merfû", turkish_bridge: "Kabir, makbere (mezarlık) bu kökten", balagha_note: null },
           { arabic: "بُعْثِرَتْ", transliteration: "buʿṯirat", root: "ب-ع-ث-ر", pattern: null, pos: "fil", meaning_tr: "deşildi, altüst edildi", irab: "{Fiil-i mâzî meçhul}, rubâî (4 harfli kök). بَعْثَرَ = saçmak, dağıtmak, deşmek.", irab_short: "fiil, meçhul, rubâî", turkish_bridge: "Ba's (diriltme) → بَعْثَرَ bunun yoğunlaştırılmış hali", balagha_note: "Kozmik yıkılış dizisi gökte başlıyor (سَمَاء → كَوَاكِب), yere iniyor (بِحَار → قُبُور). Büyükten küçüğe, genel'den özel'e." },
         ],
       },
@@ -107,6 +107,12 @@ const infitarLessons = [
         explanation: "Fâili (özne) bilinmeyen veya gizlenmek istenen fiildir. Mâzî'de ilk hareke damme, sondan bir önceki kesre olur. 3. ayette فُجِّرَتْ ve 4. ayette بُعْثِرَتْ meçhul fiildir → fâil belirtilmiyor, eylemin kaynağı gizleniyor.",
         rule: "Ma'lum: فَعَّلَ → Meçhul: فُعِّلَ\nMa'lum: بَعْثَرَ → Meçhul: بُعْثِرَ\nFâil yerine nâib-i fâil (merfû) gelir",
         examples: ["فُجِّرَتْ — patlatıldı (II. bâb meçhul)", "بُعْثِرَتْ — deşildi (rubâî meçhul)", "خُلِقَ — yaratıldı (I. bâb meçhul)"],
+      },
+      {
+        title: "İştigâl Üslûbu (الاشتغال)",
+        explanation: "إِذَا'dan sonra isim (السَّمَاءُ, الكَوَاكِبُ vb.) gelip ardından o isme dönen zamîrli bir fiil (اِنفَطَرَتْ) geldiğinde, isim aslında hazf edilmiş bir fiilin fâilidir; görünen fiil+zamîr cümlesi ise tefsîriyedir (i'rabdan mahalli yoktur). Bu yapıya iştigâl denir: fiil, zamirleriyle meşgul olmuş, asıl ismi doğrudan almamıştır.",
+        rule: "إِذَا + İSİM [fâil li-fi'lin mahzûf] + FİİL+zamîr [tefsîriye]\nTakdîr: إِذَا انفطرتِ السماءُ انفطرتْ\nGörünen cümle tefsîriye → i'rabdan mahalli yok",
+        examples: ["إِذَا السَّمَاءُ انْفَطَرَتْ — السماء hazf fiilin fâili (82:1)", "وَالسَّمَاءَ رَفَعَهَا — السماء mef'ûl bih li-fi'lin mahzûf (55:7)", "إِذَا الشَّمْسُ كُوِّرَتْ — الشمس fâil li-fi'lin mahzûf (81:1)"],
       },
     ],
     exercises: [

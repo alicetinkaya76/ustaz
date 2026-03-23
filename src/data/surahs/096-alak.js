@@ -54,7 +54,7 @@ const alakLessons = [
         arabic: "خَلَقَ ٱلْإِنسَـٰنَ مِنْ عَلَقٍ",
         translation: "İnsanı alak'tan (asılı embriyodan) yarattı.",
         words: [
-          { arabic: "خَلَقَ", transliteration: "ḫalaqa", root: "خ-ل-ق", pos: "fil", meaning_tr: "yarattı", irab: "{Fiil-i mâzî}, I. bâb. 2. tekrar — ilkinde genel, burada özel.", irab_short: "mâzî, tekrar", turkish_bridge: null, balagha_note: null },
+          { arabic: "خَلَقَ", transliteration: "ḫalaqa", root: "خ-ل-ق", pos: "fil", meaning_tr: "yarattı", irab: "{Fiil-i mâzî}, I. bâb. Birden fazla vecih: (1) te'kîd li'l-fi'l al-evvel (ilk خَلَقَ'i pekiştirme), (2) bedel (ilk fiilden bedel — genel yaratılıştan insanın yaratılışına özelleştirme), (3) tefsîriye/istinâf (yeni cümle). Yâkût: 'ta'kîd + sıla'yı tercih eder.", irab_short: "mâzî, te'kîd/bedel", turkish_bridge: null, balagha_note: null },
           { arabic: "ٱلْإِنسَـٰنَ", transliteration: "al-insāna", root: "أ-ن-س", pos: "ism", meaning_tr: "insanı", irab: "{Mef'ûl bih}, {mensûb}.", irab_short: "mef'ûl bih, mensûb", turkish_bridge: "İnsan, üns, ünsiyet bu kökten", balagha_note: null },
           { arabic: "مِنْ", transliteration: "min", root: null, pos: "harf", meaning_tr: "-den (ibtidâ)", irab: "{Harf-i cer}: menşe (nereden yaratıldığı).", irab_short: "harf-i cer", turkish_bridge: null, balagha_note: null },
           { arabic: "عَلَقٍ", transliteration: "ʿalaqin", root: "ع-ل-ق", pattern: "فَعَل", pos: "ism", meaning_tr: "asılı kan pıhtısı, embriyo", irab: "{Mecrûr} (مِنْ ile). عَلَق: asılmak, yapışmak kökünden.", irab_short: "mecrûr", turkish_bridge: "Alâka (bağlantı, ilgi) bu kökten", balagha_note: "İnsanın en mütevazı başlangıcı: kan pıhtısı. Sonra 'oku' denilmesi → yaratılışın alçakgönüllülüğünden bilginin yüceliğine." },
@@ -85,7 +85,7 @@ const alakLessons = [
         arabic: "عَلَّمَ ٱلْإِنسَـٰنَ مَا لَمْ يَعْلَمْ",
         translation: "İnsana bilmediğini öğretti.",
         words: [
-          { arabic: "عَلَّمَ", transliteration: "ʿallama", root: "ع-ل-م", pattern: "فَعَّلَ", pos: "fil", meaning_tr: "öğretti", irab: "{Fiil-i mâzî}, II. bâb. 2. tekrar — araçtan bağımsız, mutlak ta'lîm.", irab_short: "mâzî, II. bâb, tekrar", turkish_bridge: null, balagha_note: null },
+          { arabic: "عَلَّمَ", transliteration: "ʿallama", root: "ع-ل-م", pattern: "فَعَّلَ", pos: "fil", meaning_tr: "öğretti", irab: "{Fiil-i mâzî}, II. bâb. Cümle: bedel (4. ayetteki عَلَّمَ بِالقَلَمِ cümlesinden bedel — araçlı öğretimden araçsız/mutlak öğretime geçiş).", irab_short: "mâzî, II. bâb, bedel", turkish_bridge: null, balagha_note: null },
           { arabic: "ٱلْإِنسَـٰنَ", transliteration: "al-insāna", root: "أ-ن-س", pos: "ism", meaning_tr: "insana", irab: "{Mef'ûl bih 1}, {mensûb}.", irab_short: "mef'ûl-1, mensûb", turkish_bridge: null, balagha_note: null },
           { arabic: "مَا", transliteration: "mā", root: null, pos: "ism", meaning_tr: "şeyleri, ne", irab: "{İsm-i mevsûl}, {mef'ûl bih 2}. 'Bilmediği şeyleri.'", irab_short: "ism-i mevsûl, mef'ûl-2", turkish_bridge: null, balagha_note: null },
           { arabic: "لَمْ", transliteration: "lam", root: null, pos: "harf", meaning_tr: "-madı, bilmedi", irab: "{Harf-i cezm}: mâzîyi nefy eder.", irab_short: "harf-i cezm", turkish_bridge: null, balagha_note: null },
@@ -181,8 +181,8 @@ const alakLessons = [
         translation: "Kendini müstağnî gördüğü için.",
         words: [
           { arabic: "أَن", transliteration: "an", root: null, pos: "harf", meaning_tr: "…diye, çünkü", irab: "{Harf-i masdarî}: sebebiye. 'Kendini müstağnî gördüğü için azar.'", irab_short: "harf-i masdarî, sebebiye", turkish_bridge: null, balagha_note: null },
-          { arabic: "رَّءَاهُ", transliteration: "raʾāhu", root: "ر-أ-ي", pos: "fil", meaning_tr: "kendini gördü", irab: "{Fiil-i mâzî}, I. bâb + هُ {mef'ûl bih} (= kendini). رَأَى burada 'zannetmek, görmek' anlamında.", irab_short: "mâzî, I. bâb + zamîr", turkish_bridge: "Re'y (görüş), rü'yet bu kökten", balagha_note: null },
-          { arabic: "ٱسْتَغْنَىٰٓ", transliteration: "istaġnā", root: "غ-ن-ي", pattern: "اِسْتَفْعَلَ", pos: "fil", meaning_tr: "kendini müstağnî gördü", irab: "{Fiil-i mâzî}, X. bâb. غَنِيَ (zengin oldu, I.) → اِسْتَغْنَى (zenginlik tasladı / kendini yeterli gördü, X.).", irab_short: "mâzî, X. bâb", turkish_bridge: "Ganî, istiğnâ, müstağnî bu kökten", balagha_note: "X. bâb burada 'talep' değil 'kendini öyle zannetme': اسْتَغْنَى = kendini Allah'tan müstağnî saydı. Tuğyanın sebebi: istiğnâ." },
+          { arabic: "رَّءَاهُ", transliteration: "raʾāhu", root: "ر-أ-ي", pos: "fil", meaning_tr: "kendini gördü", irab: "{Fiil-i mâzî}, I. bâb. رَأَى burada 'zannetmek' anlamında → iki mef'ûl alır (ظَنَّ grubu). هُ: {mef'ûl bih 1} (= kendini).", irab_short: "mâzî, I. bâb, iki mef'ûllü", turkish_bridge: "Re'y (görüş), rü'yet bu kökten", balagha_note: null },
+          { arabic: "ٱسْتَغْنَىٰٓ", transliteration: "istaġnā", root: "غ-ن-ي", pattern: "اِسْتَفْعَلَ", pos: "fil", meaning_tr: "kendini müstağnî gördü", irab: "{Fiil-i mâzî}, X. bâb. Cümle mahallen mensûb: {mef'ûl bih 2} (رَأَى'nın ikinci mef'ûlü). غَنِيَ (zengin oldu, I.) → اِسْتَغْنَى (zenginlik tasladı / kendini yeterli gördü, X.).", irab_short: "mâzî, X. bâb, mef'ûl bih-2", turkish_bridge: "Ganî, istiğnâ, müstağnî bu kökten", balagha_note: "X. bâb burada 'talep' değil 'kendini öyle zannetme': اسْتَغْنَى = kendini Allah'tan müstağnî saydı. Tuğyanın sebebi: istiğnâ." },
         ],
       },
       {

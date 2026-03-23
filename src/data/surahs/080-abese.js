@@ -95,7 +95,7 @@ const abeseLessons = [
         words: [
           { arabic: "فَأَنتَ", transliteration: "fa-anta", root: null, pos: "harf+zamir", meaning_tr: "sen ise", irab: "فَ: أَمَّا'nın cevabı. أَنْتَ: {mübtedâ}.", irab_short: "cevap + mübtedâ", turkish_bridge: null, balagha_note: null },
           { arabic: "لَهُ", transliteration: "lahu", root: null, pos: "harf+zamir", meaning_tr: "ona", irab: "لِ cer + هُ zamîr.", irab_short: "câr-mecrûr", turkish_bridge: null, balagha_note: null },
-          { arabic: "تَصَدَّىٰ", transliteration: "taṣaddā", root: "ص-د-ي", pattern: "تَفَعَّلَ", pos: "fil", meaning_tr: "yöneliyorsun", irab: "{Muzâri}, V. bâb. {Haber} (أَنتَ'nin).", irab_short: "muzâri, V. bâb, haber", turkish_bridge: null, balagha_note: null },
+          { arabic: "تَصَدَّىٰ", transliteration: "taṣaddā", root: "ص-د-ي", pattern: "تَفَعَّلَ", pos: "fil", meaning_tr: "yöneliyorsun", irab: "{Muzâri}, V. bâb. Aslı: تَتَصَدَّى — iki tâ'dan biri hazf. صَدَا (yöneldi) → تَصَدَّى (özenle yöneldi). {Haber} (أَنتَ'nin).", irab_short: "muzâri, V. bâb, haber", turkish_bridge: null, balagha_note: null },
         ],
       },
       {
@@ -136,7 +136,7 @@ const abeseLessons = [
         words: [
           { arabic: "فَأَنتَ", transliteration: "fa-anta", root: null, pos: "harf+zamir", meaning_tr: "sen ise", irab: "فَ: أَمَّا cevabı + أَنْتَ mübtedâ.", irab_short: "cevap + mübtedâ", turkish_bridge: null, balagha_note: null },
           { arabic: "عَنْهُ", transliteration: "ʿanhu", root: null, pos: "harf+zamir", meaning_tr: "ondan", irab: "عَنْ cer + هُ zamîr.", irab_short: "câr-mecrûr", turkish_bridge: null, balagha_note: null },
-          { arabic: "تَلَهَّىٰ", transliteration: "talahhā", root: "ل-ه-و", pattern: "تَفَعَّلَ", pos: "fil", meaning_tr: "ilgilenmiyorsun, ihmal ediyorsun", irab: "{Muzâri}, V. bâb (تَلَهَّى). لَهَا (eğlendi, oyalandı) → تَلَهَّى (başka şeyle oyalanıp ihmal etti).", irab_short: "muzâri, V. bâb, haber", turkish_bridge: "Lehv (oyalanma), lâhî (gafil) bu kökten", balagha_note: "5-6 ↔ 8-10 mükemmel tıbâk: أَمَّا مَنِ اسْتَغْنَى فَأَنتَ لَهُ تَصَدَّى ↔ وَأَمَّا مَن جَاءَكَ يَسْعَى فَأَنتَ عَنْهُ تَلَهَّى. Aynı yapı, zıt içerik." },
+          { arabic: "تَلَهَّىٰ", transliteration: "talahhā", root: "ل-ه-و", pattern: "تَفَعَّلَ", pos: "fil", meaning_tr: "ilgilenmiyorsun, ihmal ediyorsun", irab: "{Muzâri}, V. bâb (تَلَهَّى). Aslı: تَتَلَهَّى — iki tâ'dan biri hazf edilmiştir. لَهَا (eğlendi, oyalandı) → تَلَهَّى (başka şeyle oyalanıp ihmal etti). {Haber} (أَنتَ'nin).", irab_short: "muzâri, V. bâb, haber", turkish_bridge: "Lehv (oyalanma), lâhî (gafil) bu kökten", balagha_note: "5-6 ↔ 8-10 mükemmel tıbâk: أَمَّا مَنِ اسْتَغْنَى فَأَنتَ لَهُ تَصَدَّى ↔ وَأَمَّا مَن جَاءَكَ يَسْعَى فَأَنتَ عَنْهُ تَلَهَّى. Aynı yapı, zıt içerik." },
         ],
       },
     ],
