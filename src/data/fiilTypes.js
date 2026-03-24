@@ -197,6 +197,8 @@ const fiilDB = {
   "ص-ب-ب": { type: "sahih", subtype: "muzâ'af", weak: "ب", desc: "Muzâ'af: Ayn=Lâm (ب)" },
   "غ-ر-ر": { type: "sahih", subtype: "muzâ'af", weak: "ر", desc: "Muzâ'af: Ayn=Lâm (ر)" },
   "ف-ر-ر": { type: "sahih", subtype: "muzâ'af", weak: "ر", desc: "Muzâ'af: Ayn=Lâm (ر)" },
+  "م-د-د": { type: "sahih", subtype: "muzâ'af", weak: "د", desc: "Muzâ'af: Ayn=Lâm (د)" },
+  "ض-ل-ل": { type: "sahih", subtype: "muzâ'af", weak: "ل", desc: "Muzâ'af: Ayn=Lâm (ل)" },
   "م-س-ك": { type: "sahih", subtype: "sâlim", desc: "Sahîh — Sâlim" }, // not muzaaf
 
   // ── MU'TEL — MİSÂL (Fâ = و/ي) ──
@@ -259,8 +261,10 @@ const fiilDB = {
   // ── MU'TEL — LEFîF ──
   "و-ف-ي": { type: "mutel", subtype: "lefîf-mefrûk", weak: "و+ي", pos: "fâ+lâm", desc: "Lefîf Mefrûk: Fâ=و, Lâm=ي" },
   "و-ل-ي": { type: "mutel", subtype: "lefîf-mefrûk", weak: "و+ي", pos: "fâ+lâm", desc: "Lefîf Mefrûk: Fâ=و, Lâm=ي" },
+  "و-ق-ي": { type: "mutel", subtype: "lefîf-mefrûk", weak: "و+ي", pos: "fâ+lâm", desc: "Lefîf Mefrûk: Fâ=و, Lâm=ي" },
   "س-و-ي": { type: "mutel", subtype: "lefîf-makrûn", weak: "و+ي", pos: "ayn+lâm", desc: "Lefîf Makrûn: Ayn=و, Lâm=ي" },
   "ه-و-ي": { type: "mutel", subtype: "lefîf-makrûn", weak: "و+ي", pos: "ayn+lâm", desc: "Lefîf Makrûn: Ayn=و, Lâm=ي" },
+  "ر-و-ي": { type: "mutel", subtype: "lefîf-makrûn", weak: "و+ي", pos: "ayn+lâm", desc: "Lefîf Makrûn: Ayn=و, Lâm=ي" },
   "س-و-أ": { type: "mutel", subtype: "ecvef", weak: "و", pos: "ayn", desc: "Ecvef: Ayn = و (mehmûz-ı lâm da)" },
 
   // ── MEHMÛZ ──

@@ -1,7 +1,9 @@
-import { useState } from "react";
-import { X, ChevronLeft, BookOpen, Layers } from "lucide-react";
+import { useState, useMemo } from "react";
+import { X, ChevronLeft, BookOpen, Layers, Sparkles, Search, ChevronRight } from "lucide-react";
 import grammarDB from "../data/grammar";
 import vezinDB from "../data/vezin";
+import balaghaDB from "../data/balagha";
+import { findIrabByGrammar, grammarToBalagha } from "../data/crossLinks";
 
 export function parseGrammarLinks(text, onTermClick) {
   if (!text || !onTermClick) return text;
@@ -38,11 +40,57 @@ function findRelatedPatterns(entry) {
   return [...new Set(patterns)];
 }
 
-export default function GrammarCard({ termKey, onClose, onTermClick, onVezinClick }) {
+// Extract all words from lessons that have verse data
+function extractAllWords(lessons) {
+  const words = [];
+  if (!lessons) return words;
+  for (const lesson of lessons) {
+    if (!lesson.verses) continue;
+    for (const verse of lesson.verses) {
+      if (!verse.words) continue;
+      for (const word of verse.words) {
+        words.push({
+          ...word,
+          surah: verse.surah,
+          ayah: verse.ayah,
+          lessonId: lesson.id,
+          lessonTitle: lesson.title,
+        });
+      }
+    }
+  }
+  return words;
+}
+
+export default function GrammarCard({ termKey, onClose, onTermClick, onVezinClick, lessons, onLessonNavigate }) {
   const entry = grammarDB[termKey];
   if (!entry) return null;
   const catIcon = entry.category === "sarf" ? "⚙️" : "📐";
   const relatedPatterns = entry.category === "sarf" ? findRelatedPatterns(entry) : [];
+
+  // ── Surah örnekleri (crossLinks) ──
+  const allWords = useMemo(() => extractAllWords(lessons), [lessons]);
+  const surahExamples = useMemo(() => {
+    if (!allWords.length) return [];
+    const matches = findIrabByGrammar(allWords, termKey);
+    // Deduplicate by surah:ayah and limit
+    const seen = new Set();
+    return matches.filter(w => {
+      const key = `${w.surah}:${w.ayah}:${w.arabic}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    }).slice(0, 6);
+  }, [allWords, termKey]);
+
+  // ── İlgili belâgat sanatları (grammarToBalagha) ──
+  const relatedBalagha = useMemo(() => {
+    const keys = grammarToBalagha(termKey);
+    return keys.map((k, i) => {
+      const b = balaghaDB[k];
+      return b ? { key: k, ...b } : null;
+    }).filter(Boolean);
+  }, [termKey]);
 
   return (
     <div className="fixed inset-0 z-[70] flex items-end sm:items-center justify-center sm:p-4">
@@ -99,6 +147,60 @@ export default function GrammarCard({ termKey, onClose, onTermClick, onVezinClic
             ))}
           </div>
         </div>
+
+        {/* ── Surah Örnekleri (crossLinks — findIrabByGrammar) ── */}
+        {surahExamples.length > 0 && (
+          <div className="mb-3">
+            <p className="mb-2 flex items-center gap-1.5 text-[10px] font-semibold uppercase tracking-wider text-ustaz-turkish/30">
+              <Search size={10} />
+              Surelerdeki Örnekler
+            </p>
+            <div className="space-y-1">
+              {surahExamples.map((w, i) => (
+                <button key={i} className="flex w-full items-start gap-2 rounded-lg px-3 py-2 text-left transition-colors hover:brightness-95 active:scale-[0.99]"
+                  style={{ background: `${entry.color}06`, border: `1px solid ${entry.color}10` }}
+                  onClick={() => { if (onLessonNavigate && w.lessonId) { onClose(); onLessonNavigate(w.lessonId); } }}>
+                  <span className="mt-0.5 shrink-0 rounded-md px-1.5 py-0.5 text-[10px] font-mono font-bold"
+                    style={{ color: `${entry.color}aa`, background: `${entry.color}12` }}>
+                    {w.surah}:{w.ayah}
+                  </span>
+                  <div className="min-w-0 flex-1">
+                    <p className="arabic-text text-base text-ustaz-arabic" dir="rtl">{w.arabic}</p>
+                    <p className="mt-0.5 text-[11px] text-ustaz-turkish/50">{w.meaning_tr}</p>
+                    {w.irab_short && (
+                      <p className="mt-0.5 text-[10px] font-medium" style={{ color: `${entry.color}88` }}>
+                        {w.irab_short}
+                      </p>
+                    )}
+                  </div>
+                  {onLessonNavigate && w.lessonId && (
+                    <ChevronRight size={14} className="mt-1 shrink-0 opacity-30" style={{ color: entry.color }} />
+                  )}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* ── İlgili Belâgat Sanatları (grammarToBalagha) ── */}
+        {relatedBalagha.length > 0 && (
+          <div className="mb-3">
+            <p className="mb-2 flex items-center gap-1.5 text-[10px] font-semibold uppercase tracking-wider text-ustaz-turkish/30">
+              <Sparkles size={10} />
+              İlgili Belâgat Sanatları
+            </p>
+            <div className="flex flex-wrap gap-1.5">
+              {relatedBalagha.map((b) => (
+                <span key={b.key}
+                  className="inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[11px] font-medium"
+                  style={{ color: "#a78bfacc", background: "#a78bfa10", border: "1px solid #a78bfa20" }}>
+                  <Sparkles size={10} />
+                  {b.titleTr || b.title}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Related Patterns (Vezin link for sarf entries) */}
         {relatedPatterns.length > 0 && onVezinClick && (

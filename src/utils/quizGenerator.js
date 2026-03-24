@@ -216,3 +216,46 @@ export function generateVerbTypeQuiz(id, word, root, correctType, distractors, e
     relatedRoots: [root],
   };
 }
+
+/**
+ * Çapraz-sure kök quiz'i (cross_surah_root tipi)
+ * @param {string} id
+ * @param {string} root - Hedef kök
+ * @param {string} exampleWord - Bir örnek kelime (Arapça)
+ * @param {string} correctSurah - Doğru sure adı/numarası
+ * @param {string[]} distractorSurahs - Yanlış sure adları (3 tane)
+ * @param {string} explanation
+ */
+export function generateCrossSurahRootQuiz(id, root, exampleWord, correctSurah, distractorSurahs, explanation) {
+  return {
+    id,
+    type: "cross_surah_root",
+    question: `${root} kökü (ör: ${exampleWord}) aşağıdaki surelerden hangisinde geçer?`,
+    targetWord: exampleWord,
+    options: [correctSurah, ...distractorSurahs],
+    correct: 0,
+    explanation,
+    relatedRoots: [root],
+  };
+}
+
+/**
+ * Kök ailesi quiz'i (root_family tipi)
+ * "Bu kelimelerden hangisi X kökünden türememiştir?"
+ * @param {string} id
+ * @param {string} root - Hedef kök
+ * @param {string} intruder - Doğru cevap (farklı kökten olan kelime)
+ * @param {string[]} sameFamily - Aynı kökten olan 3 kelime (distractors)
+ * @param {string} explanation
+ */
+export function generateRootFamilyQuiz(id, root, intruder, sameFamily, explanation) {
+  return {
+    id,
+    type: "root_family",
+    question: `Aşağıdakilerden hangisi ${root} kökünden türememiştir?`,
+    options: [intruder, ...sameFamily],
+    correct: 0,
+    explanation,
+    relatedRoots: [root],
+  };
+}

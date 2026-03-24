@@ -18,6 +18,8 @@ import {
   generateBalaghaQuiz,
   generateIrabQuiz,
   generateVerbTypeQuiz,
+  generateCrossSurahRootQuiz,
+  generateRootFamilyQuiz,
 } from "../../utils/quizGenerator.js";
 
 const mulkLessons = [
@@ -438,6 +440,18 @@ const mulkLessons = [
         "Mu'tel — Ecvef: Ayn harfi و (illet)",
         ["Sahîh — Sâlim", "Sahîh — Muzâ'af", "Mu'tel — Misâl (fâ illet)"],
         "ك-و-ن: Ayn harfi و → ecvef. كَانَ → كُنَّا (mâzîde و düşer + idğâm). Muzâri: يَكُونُ. Emir: كُنْ فَيَكُونُ (Ol! deyince olur)."
+      ),
+      generateCrossSurahRootQuiz(
+        "S67-B02-Q08", "ك-ذ-ب", "كَذَّبُوا",
+        "Rahmân (55), Mülk (67), İnfitâr (82), Alak (96) — dördünde de geçer",
+        ["Yalnız Mülk (67) ve Alak (96)", "Yalnız Abese (80) ve İnfitâr (82)", "Yalnız Rahmân (55)"],
+        "ك-ذ-ب kökü yalanlamanın temel fiilidir. Kur'an'da 4 surede (Rahmân, Mülk, İnfitâr, Alak) karşımıza çıkıyor: فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ (Rahmân), كَذَّبُوا بِآيَاتِنَا (Mülk), كَذَّبَ بِالدِّينِ (İnfitâr), كَذَّبَ (Alak)."
+      ),
+      generateRootFamilyQuiz(
+        "S67-B02-Q09", "ع-ل-م",
+        "عَمِيل (ajan, görevli)",
+        ["عَلَّمَ (öğretti)", "عَلِيم (bilen)", "مَعْلُوم (bilinen)"],
+        "عَمِيل (ajan/görevli) ع-م-ل kökündendir, ع-ل-م değil! İkisi de yaygın kökler ama harflerin sırası farklı. عَلَّمَ (II. bâb: öğretti), عَلِيم (çok bilen — Allah'ın sıfatı), مَعْلُوم (bilinen) hepsi ع-ل-م kökündendir."
       ),
     ],
   },
@@ -1028,6 +1042,18 @@ const mulkLessons = [
         explanation: "Masdarın sıfat yerine kullanımı Arapça'da mübalağa tekniğidir. مَاؤُكُمْ غَوْرًا = suyunuz artık çekilişin ta kendisidir → asla geri gelmeyecek gibi. Aynı teknik: رَجُلٌ عَدْلٌ (adaletli değil, adaletin kendisi).",
         relatedRoots: ["غ-و-ر"],
       },
+      generateCrossSurahRootQuiz(
+        "S67-B05-Q06", "خ-ل-ق", "خَلَقَ",
+        "5 surenin hepsinde geçer (Rahmân, Mülk, Abese, İnfitâr, Alak)",
+        ["Yalnız Mülk (67) ve Alak (96)", "Yalnız Rahmân (55) ve Abese (80)", "Yalnız İnfitâr (82)"],
+        "خ-ل-ق: yaratmanın temel kökü, müfredâttaki 5 surenin hepsinde geçer. خَلَقَ الإِنسَانَ مِنْ عَلَقٍ (Alak 96:2), خَلَقَ الْمَوْتَ وَالْحَيَاةَ (Mülk 67:2), خَلَقَ الإِنسَانَ مِن صَلْصَالٍ (Rahmân 55:14)."
+      ),
+      generateRootFamilyQuiz(
+        "S67-B05-Q07", "م-ل-ك",
+        "مَلَك (melek)",
+        ["مُلْك (hükümranlık)", "مَلِك (hükümdar)", "مَالِك (sahip)"],
+        "مَلَك (melek) aynı kökten değildir — kökü ل-أ-ك veya أ-ل-ك (elçilik) olarak tartışılır. مُلْك (hükümranlık, surenin adı), مَلِك (hükümdar, Fâtiha), مَالِك (sahip, Fâtiha) hepsi م-ل-ك kökündendir."
+      ),
     ],
   },
 ];

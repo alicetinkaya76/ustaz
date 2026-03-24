@@ -448,7 +448,7 @@ export default function App() {
       )}
 
       {/* ── Grammar Card Modal ── */}
-      {grammarTerm && <GrammarCard termKey={grammarTerm} onClose={closeGrammar} onTermClick={openGrammar} onVezinClick={openVezinFromGrammar} />}
+      {grammarTerm && <GrammarCard termKey={grammarTerm} onClose={closeGrammar} onTermClick={openGrammar} onVezinClick={openVezinFromGrammar} lessons={lessons} onLessonNavigate={handleSelectLesson} />}
 
       {/* ── Vezin Card Modal ── */}
       {showVezin && <VezinCard onClose={() => setShowVezin(false)} initialPattern={vezinPattern} />}

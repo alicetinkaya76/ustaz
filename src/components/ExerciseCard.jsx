@@ -21,6 +21,8 @@ const typeConfig = {
   verb_type: { icon: Tag, label: "Fiil Sınıflandırma", badge: "bg-rose-500/15 text-rose-400 border-rose-500/20" },
   matching: { icon: Layers, label: "Eşleştirme", badge: "bg-teal-500/15 text-teal-400 border-teal-500/20" },
   fill_blank: { icon: BookOpen, label: "Boşluk Doldurma", badge: "bg-cyan-500/15 text-cyan-400 border-cyan-500/20" },
+  cross_surah_root: { icon: GitBranch, label: "Çapraz-Sure Kök", badge: "bg-indigo-500/15 text-indigo-400 border-indigo-500/20" },
+  root_family: { icon: GitBranch, label: "Kök Ailesi", badge: "bg-sky-500/15 text-sky-400 border-sky-500/20" },
 };
 
 function MatchingQuiz({ pairs, onDone }) {

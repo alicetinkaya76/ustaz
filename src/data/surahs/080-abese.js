@@ -21,6 +21,9 @@ import {
   generateFillBlank,
   generateBalaghaQuiz,
   generateIrabQuiz,
+  generateVerbTypeQuiz,
+  generateCrossSurahRootQuiz,
+  generateRootFamilyQuiz,
 } from "../../utils/quizGenerator.js";
 
 const abeseLessons = [
@@ -196,6 +199,18 @@ const abeseLessons = [
         explanation: "الأَعْمَى: Abdullah b. Ümmi Mektûm'un ismi değil, sıfatı kullanılmış. Amaç: engelli birine yüz çevirmenin ağırlığını somutlaştırmak. Sıfatın kullanılması kınamayı güçlendiriyor.",
         relatedRoots: ["ع-م-ي"],
       },
+      generateVerbTypeQuiz(
+        "S80-B01-Q06", "تَوَلَّىٰ", "و-ل-ي",
+        "Mu'tel — Lefîf Mefrûk",
+        ["Mu'tel — Nâkıs (lâm illet)", "Sahîh — Sâlim", "Mu'tel — Ecvef (ayn illet)"],
+        "و-ل-ي: ilk harf و (misâl), son harf ي (nâkıs) → lefîf mefrûk. İllet harfleri ayrık (mefrûk). V. bâb: تَوَلَّى = yüz çevirdi."
+      ),
+      generateVerbTypeQuiz(
+        "S80-B01-Q07", "عَبَسَ", "ع-ب-س",
+        "Sahîh — Sâlim",
+        ["Sahîh — Muzâ'af", "Mu'tel — Misâl (fâ illet)", "Mehmûz — Ayn"],
+        "ع-ب-س: üç harf de sahîh (illetli değil, hemzesiz, tekrarsız) → sahîh sâlim. Sûrenin adı bu fiilden."
+      ),
     ],
   },
 
@@ -387,6 +402,18 @@ const abeseLessons = [
         "أَنْشَرَ: ن-ش-ر kökünden IV. bâb. Neşr (yayma) → nüşûr (diriliş). Ölümden sonra hayata yeniden 'yayılma/dönme'.",
         ["ن-ش-ر"]
       ),
+      generateCrossSurahRootQuiz(
+        "S80-B02-Q05", "ك-ر-م", "أَكْرَمَ",
+        "Rahmân (55), Abese (80), İnfitâr (82), Alak (96) — dördünde geçer",
+        ["Yalnız Abese (80) ve Alak (96)", "Yalnız Rahmân (55)", "5 surenin hepsinde"],
+        "ك-ر-م: Rahmân'da كِرَامًا كَاتِبِينَ yok ama Rahmân 55:27'de ذُو الجَلَالِ وَالإِكْرَامِ var. Abese'de فَأَكْرَمَهُ, İnfitâr'da بِرَبِّكَ الكَرِيمِ, Alak'ta وَرَبُّكَ الأَكْرَمُ. Kerem: cömertlik ve değer."
+      ),
+      generateRootFamilyQuiz(
+        "S80-B02-Q06", "خ-ل-ق",
+        "حَلَقَة (halka, yüzük)",
+        ["خَلْق (yaratma)", "خَالِق (yaratan)", "مَخْلُوق (yaratılmış)"],
+        "حَلَقَة (halka) ح-ل-ق kökündendir (tıraş etmek, halka olmak), خ-ل-ق değil! Harfleri benzer ama farklı kök. خَلْق (yaratma), خَالِق (yaratan, Allah'ın sıfatı), مَخْلُوق (yaratılmış) hepsi خ-ل-ق kökündendir."
+      ),
     ],
   },
 
@@ -510,6 +537,12 @@ const abeseLessons = [
         "Tahıl, üzüm, yonca, ..., hurma — hangi bitki?",
         "Yedi nimet sırası: حَبّ (tahıl) → عِنَب (üzüm) → قَضْب (yonca) → زَيْتُون (zeytin) → نَخْل (hurma) → حَدَائِق (bahçeler) → فَاكِهَة+أَبّ (meyve+otlak).",
         ["ز-ي-ت"]
+      ),
+      generateVerbTypeQuiz(
+        "S80-B03-Q04", "شَقَقْنَا", "ش-ق-ق",
+        "Sahîh — Muzâ'af",
+        ["Sahîh — Sâlim", "Mu'tel — Ecvef (ayn illet)", "Mehmûz — Ayn"],
+        "ش-ق-ق: 2. ve 3. harf aynı (ق-ق) → muzâ'af. Harekeli ek gelince idğâm çözülür: شَقَقْنَا. Harekesiz ekte şedde kalır: شَقَّ."
       ),
     ],
   },

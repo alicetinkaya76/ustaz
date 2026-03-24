@@ -21,6 +21,9 @@ import {
   generateFillBlank,
   generateBalaghaQuiz,
   generateIrabQuiz,
+  generateVerbTypeQuiz,
+  generateCrossSurahRootQuiz,
+  generateRootFamilyQuiz,
 } from "../../utils/quizGenerator.js";
 
 const alakLessons = [
@@ -148,11 +151,17 @@ const alakLessons = [
         explanation: "1. خَلَقَ: mef'ûl hazf edilmiş → genellik (her şeyi yaratan). 2. خَلَقَ الإِنسَانَ مِنْ عَلَقٍ: özel (insanı, belirli malzemeden). Hazf (düşürme) genellik ifade eder, zikr (belirtme) özelleştirme sağlar.",
         relatedRoots: ["خ-ل-ق"],
       },
+      generateVerbTypeQuiz(
+        "S96-B01-Q06", "ٱقْرَأْ", "ق-ر-أ",
+        "Mehmûz — Lâm",
+        ["Sahîh — Sâlim", "Mu'tel — Nâkıs (lâm illet)", "Mehmûz — Fâ"],
+        "ق-ر-أ: son harf hemze (ء) → mehmûzü'l-lâm. Kur'an'ın ilk kelimesi. Qur'ân, qirâ'at bu kökten."
+      ),
     ],
   },
 
   // ═══════════════════════════════════════════════════════════
-  // BÖLÜM 2 — ALAK 96:6-14 — İnsanın Tuğyanı ve Engelcinin Kınanması
+  // BÖLÜM 2 — ALAK 96:6-14
   // ═══════════════════════════════════════════════════════════
   {
     id: "S96-B02-alak",
@@ -318,11 +327,17 @@ const alakLessons = [
         "يَطْغَى: ط-غ-ي kökünden I. bâb nâkıs muzâri. Tuğyân (azgınlık, haddi aşma). لَ te'kîd + إِنَّ te'kîd = çift vurgu. Azmanın sebebi: istiğnâ (kendini yeterli sanma).",
         ["ط-غ-ي"]
       ),
+      generateVerbTypeQuiz(
+        "S96-B02-Q06", "يَطْغَىٰ", "ط-غ-ي",
+        "Mu'tel — Nâkıs (lâm illet)",
+        ["Sahîh — Sâlim", "Mu'tel — Ecvef (ayn illet)", "Mu'tel — Lefîf Mefrûk"],
+        "ط-غ-ي: son harf ي (illetli) → nâkıs. Tuğyân, tâğût bu kökten. Azgınlık ve haddi aşma."
+      ),
     ],
   },
 
   // ═══════════════════════════════════════════════════════════
-  // BÖLÜM 3 — ALAK 96:15-19 — Nâsiye Tehdidi ve Secde Emri
+  // BÖLÜM 3 — ALAK 96:15-19
   // ═══════════════════════════════════════════════════════════
   {
     id: "S96-B03-alak",
@@ -442,6 +457,18 @@ const alakLessons = [
         "Cinas-ı iştikâk + mukâbele: aynı kök (çağırmak), zıt taraflar (insan meclisi ↔ ilahi güç) — orantısız meydan okuma",
         ["Sadece tıbâk (zıtlık)", "İsti'âre (metafor)", "Kinâye (dolaylı anlatım)"],
         "İki ayetteki يَدْعُ / نَدْعُ aynı kökten (د-ع-و): cinas-ı iştikâk. İçerik ise mukâbele: nâdî (insan topluluğu) ↔ zebâniye (cehennem melekleri). Karşı taraf ne kadar güçlü olursa olsun, ilahi güç karşısında hiçtir."
+      ),
+      generateCrossSurahRootQuiz(
+        "S96-B03-Q06", "س-ج-د", "ٱسْجُدْ",
+        "Rahmân (55) ve Alak (96) — ikisinde de geçer",
+        ["Yalnız Alak (96)", "5 surenin hepsinde", "Mülk (67) ve Abese (80)"],
+        "س-ج-د: secde etmek. Alak 96:19 وَاسْجُدْ وَاقْتَرِبْ (secde et ve yaklaş — surenin son emri). Rahmân 55:6 وَالنَّجْمُ وَالشَّجَرُ يَسْجُدَانِ (yıldız ve ağaç secde eder). İki surede farklı boyut: birinde kozmik secde, diğerinde bireysel secde."
+      ),
+      generateRootFamilyQuiz(
+        "S96-B03-Q07", "ع-ل-م",
+        "عَمَل (amel, iş)",
+        ["عَلَّمَ (öğretti)", "عِلْم (ilim)", "مَعْلُوم (bilinen)"],
+        "عَمَل (amel/iş) ع-م-ل kökündendir, ع-ل-م değil! Harfler aynı ama sırası farklı (anagram). عَلَّمَ (II. bâb: öğretti, Alak 96:4-5), عِلْم (bilgi), مَعْلُوم (bilinen) hepsi ع-ل-م kökünden. Kök harflerinin sırası önemlidir!"
       ),
     ],
   },

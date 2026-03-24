@@ -32,6 +32,8 @@ import {
   generateFillBlank,
   generateBalaghaQuiz,
   generateIrabQuiz,
+  generateCrossSurahRootQuiz,
+  generateRootFamilyQuiz,
 } from "../../utils/quizGenerator.js";
 
 // ─── Nakarat yardımcısı ────────────────────────────────────
@@ -293,6 +295,18 @@ const rahmanLessons = [
         explanation: "المِيزَان üç katman: (7) وَوَضَعَ المِيزَانَ = kozmik denge/düzen, (8) أَلَّا تَطْغَوْا = ahlâkî sınırı aşmayın, (9) أَقِيمُوا الوَزْنَ بِالقِسْطِ = ticarette adaletli tartın. Genel → özel → pratik.",
         relatedRoots: ["و-ز-ن"],
       },
+      generateCrossSurahRootQuiz(
+        "S55-B01-Q07", "ر-ب-ب", "رَبِّكُمَا",
+        "Rahmân (55), Mülk (67), İnfitâr (82), Alak (96) — dördünde de geçer",
+        ["Yalnız Rahmân (55)", "Yalnız Rahmân (55) ve Mülk (67)", "Yalnız İnfitâr (82) ve Alak (96)"],
+        "ر-ب-ب: terbiye etmek, Rab. Rahmân'da رَبِّكُمَا (ikinizin Rabbi, 31 kez tekrar), Mülk'te تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ, İnfitâr'da بِرَبِّكَ الكَرِيمِ, Alak'ta رَبِّكَ الَّذِي خَلَقَ."
+      ),
+      generateRootFamilyQuiz(
+        "S55-B01-Q08", "ق-ر-أ",
+        "قَرْيَة (köy/şehir)",
+        ["قُرْآن (okunan)", "قِرَاءَة (okuma)", "اِقْرَأْ (oku!)"],
+        "قَرْيَة (köy/şehir) ق-ر-أ kökünden değil, ق-ر-ي kökündendir (konukseverlik/toplanma yeri). قُرْآن, قِرَاءَة, اِقْرَأْ hepsi ق-ر-أ (okumak) kökünden türemiştir."
+      ),
     ],
   },
 
@@ -632,6 +646,18 @@ const rahmanLessons = [
         explanation: "Ta'cîz emri: yapılamayacak bir şeyi emrederek muhatabın âcizliğini vurgular. فَأْتُوا بِسُورَةٍ (2:23, getirin = getiremezsiniz) ile aynı yapı. Meydan okuma yoluyla kudret ispatı.",
         relatedRoots: ["ن-ف-ذ"],
       },
+      generateCrossSurahRootQuiz(
+        "S55-B03-Q06", "أ-ن-س", "الإِنسَان",
+        "Rahmân (55), Abese (80), İnfitâr (82), Alak (96) — dördünde geçer",
+        ["Yalnız Rahmân (55) ve Mülk (67)", "Yalnız Abese (80)", "5 surenin hepsinde"],
+        "أ-ن-س kökü (insan, üns): 4 surede geçer. Rahmân: خَلَقَ الإِنسَانَ (55:3), Abese: قُتِلَ الإِنسَانُ مَا أَكْفَرَهُ (80:17), İnfitâr: يَا أَيُّهَا الإِنسَانُ (82:6), Alak: إِنَّ الإِنسَانَ لَيَطْغَى (96:6). Mülk'te geçmez!"
+      ),
+      generateRootFamilyQuiz(
+        "S55-B03-Q07", "و-ج-ه",
+        "جَاهَ (makam/itibar)",
+        ["وَجْه (yüz)", "تَوَجُّه (yöneliş)", "وِجْهَة (yön)"],
+        "جَاهَ (makam, itibar) و-ج-ه kökünden değildir — j-w-h veya ayrı bir yapıdır. وَجْه (yüz, zât), تَوَجُّه (V. bâb: yöneliş), وِجْهَة (yön, kıble) hepsi و-ج-ه kökündendir. ذُو الجَلَالِ وَالإِكْرَامِ ayetinde وَجْهُ رَبِّكَ = Rabbinin zâtı."
+      ),
     ],
   },
 

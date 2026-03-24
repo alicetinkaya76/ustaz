@@ -20,6 +20,9 @@ import {
   generateFillBlank,
   generateBalaghaQuiz,
   generateIrabQuiz,
+  generateVerbTypeQuiz,
+  generateCrossSurahRootQuiz,
+  generateRootFamilyQuiz,
 } from "../../utils/quizGenerator.js";
 
 const infitarLessons = [
@@ -156,6 +159,12 @@ const infitarLessons = [
         explanation: "82:1-4'te kozmik yıkılış gökte başlıyor (سَمَاء), yıldızlara iniyor (كَوَاكِب), yere ulaşıyor (بِحَار), en son insanın yattığı yere (قُبُور). Büyükten küçüğe, kozmikten kişisele.",
         relatedRoots: [],
       },
+      generateVerbTypeQuiz(
+        "S82-B01-Q06", "ٱنفَطَرَتْ", "ف-ط-ر",
+        "Sahîh — Sâlim",
+        ["Mu'tel — Nâkıs (lâm illet)", "Sahîh — Muzâ'af", "Mehmûz — Fâ"],
+        "ف-ط-ر: üç harf sahîh → sâlim. VII. bâb (اِنْفِعَال): kendi kendine yarılma. Fıtrat, iftar bu kökten."
+      ),
     ],
   },
 
@@ -312,6 +321,12 @@ const infitarLessons = [
         "Üzerinizde koruyucu melekler var",
         "حَافِظِينَ: ح-ف-ظ kökünden ism-i fâil cem'i. لَ + إِنَّ: çift te'kîd. Melekler hem hâfız (koruyucu) hem kâtib (yazıcı) hem de kerîm (değerli).",
         ["ح-ف-ظ"]
+      ),
+      generateVerbTypeQuiz(
+        "S82-B02-Q07", "غَرَّكَ", "غ-ر-ر",
+        "Sahîh — Muzâ'af",
+        ["Sahîh — Sâlim", "Mehmûz — Fâ", "Mu'tel — Ecvef (ayn illet)"],
+        "غ-ر-ر: 2. ve 3. harf aynı (ر-ر) → muzâ'af. غَرَّ = aldattı. Gurur, mağrur bu kökten. 'Kerim Rabbine karşı seni ne aldattı?'"
       ),
     ],
   },
@@ -473,6 +488,12 @@ const infitarLessons = [
         "Bir can başka bir can 'için' — hangi harf-i cer?",
         "لِنَفْسٍ: لِ (için) + نَفْس. O gün hiçbir can başka bir can için hiçbir şey yapamaz. İki nekre (belirsiz) tekrarı mutlak yalnızlığı vurgular.",
         ["ن-ف-س"]
+      ),
+      generateRootFamilyQuiz(
+        "S82-B03-Q07", "ب-ر-ر",
+        "بَرِّيَّة (çöl, kır)",
+        ["أَبْرَار (iyiler)", "بِرّ (iyilik)", "بَارّ (iyi davranan)"],
+        "بَرِّيَّة (çöl) farklı bir kök olan ب-ر-ي'den gelir (kırlık alan). أَبْرَار (iyiler, Beyyine+İnfitâr), بِرّ (iyilik, takvâ), بَارّ (iyi davranan) hepsi ب-ر-ر kökündendir."
       ),
     ],
   },
