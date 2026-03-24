@@ -17,6 +17,7 @@ import {
   generateFillBlank,
   generateBalaghaQuiz,
   generateIrabQuiz,
+  generateVerbTypeQuiz,
 } from "../../utils/quizGenerator.js";
 
 const mulkLessons = [
@@ -221,6 +222,18 @@ const mulkLessons = [
         explanation: "Cevâb-ı taleb yapısı: emir (ارْجِعِ البَصَرَ) + sonuç (يَنقَلِبْ). 'Gözünü çevirirsen → (sonuç) göz döner.' Muzâri fiil bu yapıda meczûm olur.",
         relatedRoots: ["ق-ل-ب", "ر-ج-ع"],
       },
+      generateVerbTypeQuiz(
+        "S67-B01-Q09", "خَلَقَ", "خ-ل-ق",
+        "Sahîh — Sâlim: kök harflerinde illet veya hemze yok",
+        ["Mu'tel — Ecvef (ayn illet)", "Mehmûz — Fâ", "Sahîh — Muzâ'af"],
+        "خَلَقَ: خ-ل-ق kökü tamamen sağlam harflerden oluşur → Sahîh Sâlim. Düzenli çekim: خَلَقَ → يَخْلُقُ → اُخْلُقْ."
+      ),
+      generateVerbTypeQuiz(
+        "S67-B01-Q10", "الْمَوْتَ", "م-و-ت",
+        "Mu'tel — Ecvef: Ayn harfi و (illet)",
+        ["Sahîh — Sâlim", "Mu'tel — Nâkıs (lâm illet)", "Mehmûz — Ayn"],
+        "م-و-ت: Ayn harfi و → ecvef vâvî. Mâzî: مَاتَ (و→ا), cezm: مُتْ (و düşer), muzâri: يَمُوتُ (و kalır)."
+      ),
     ],
   },
 
@@ -420,6 +433,12 @@ const mulkLessons = [
         explanation: "بَلَى: nefy içeren istifhâma (أَلَمْ يَأْتِكُمْ) 'evet' cevabı verir → 'evet, geldi.' نَعَمْ olsaydı 'hayır gelmedi' anlamına gelirdi. Bu Arapça'nın önemli bir inceliğidir.",
         relatedRoots: [],
       },
+      generateVerbTypeQuiz(
+        "S67-B02-Q07", "كُنَّا", "ك-و-ن",
+        "Mu'tel — Ecvef: Ayn harfi و (illet)",
+        ["Sahîh — Sâlim", "Sahîh — Muzâ'af", "Mu'tel — Misâl (fâ illet)"],
+        "ك-و-ن: Ayn harfi و → ecvef. كَانَ → كُنَّا (mâzîde و düşer + idğâm). Muzâri: يَكُونُ. Emir: كُنْ فَيَكُونُ (Ol! deyince olur)."
+      ),
     ],
   },
 

@@ -165,6 +165,22 @@ function TurkishTraces({ root }) {
   );
 }
 
+function MufradatNote({ root }) {
+  if (!root.mufradat_note) return null;
+
+  return (
+    <div className="rounded-xl bg-emerald-500/[0.04] border border-emerald-500/10 px-3 py-2.5">
+      <div className="flex items-center gap-2 mb-1.5">
+        <span className="text-sm">📖</span>
+        <p className="text-[10px] font-semibold uppercase tracking-wider text-emerald-400/50">
+          Müfredât — Râğıb el-İsfehânî
+        </p>
+      </div>
+      <p className="text-xs leading-relaxed text-emerald-300/70">{root.mufradat_note}</p>
+    </div>
+  );
+}
+
 // Full Root Detail (used in modal or inline)
 export function RootDetail({ rootKey, onClose }) {
   const root = getRoot(rootKey);
@@ -190,6 +206,7 @@ export function RootDetail({ rootKey, onClose }) {
 
       <DerivativeTree root={root} />
       <BabChain root={root} />
+      <MufradatNote root={root} />
       <CrossRefs root={root} />
       <TurkishTraces root={root} />
     </div>
@@ -322,6 +339,7 @@ export default function RootExplorer({ lessonId, onRootResult }) {
               <div className="mt-4 space-y-4 border-t border-ov/[0.06] pt-4">
                 <DerivativeTree root={rootData} />
                 <BabChain root={rootData} />
+                <MufradatNote root={rootData} />
 
                 {/* Lesson-specific refs */}
                 {rootData.lessonRefs && rootData.lessonRefs.length > 0 && (

@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { X, ChevronDown, ChevronUp, Table2, BookOpen, Volume2 } from "lucide-react";
+import { X, ChevronDown, ChevronUp, Table2, BookOpen, Volume2, Tag } from "lucide-react";
 import { getConjugation, getConjugationsForRoot, PRONOUNS, PRONOUNS_SIMPLE, BAB_INFO } from "../data/conjugation";
 import { getRoot } from "../data/rootDB";
+import { getVerbType, classifyRoot } from "../data/fiilTypes";
 
 function speakArabic(text) {
   if (!("speechSynthesis" in window)) return;
@@ -65,6 +66,15 @@ export default function ConjugationPopup({ root, bab, highlightForm, onClose }) 
 
   const current = conj || available[0];
   const babInfo = BAB_INFO[current.bab];
+  const vt = getVerbType(root) || classifyRoot(root);
+
+  const vtColors = {
+    sahih: "bg-blue-500/10 text-blue-400 border-blue-500/15",
+    mutel: "bg-amber-500/10 text-amber-400 border-amber-500/15",
+    mehmuz: "bg-rose-500/10 text-rose-400 border-rose-500/15",
+    rubai: "bg-teal-500/10 text-teal-400 border-teal-500/15",
+  };
+  const vtLabels = { sahih: "Sahîh", mutel: "Mu'tel", mehmuz: "Mehmûz", rubai: "Rubâ'î" };
 
   const pronounIndices = activeTense === "amr"
     ? AMR_PRONOUN_INDICES
@@ -119,14 +129,29 @@ export default function ConjugationPopup({ root, bab, highlightForm, onClose }) 
             </div>
           )}
 
-          {/* Bab info pill */}
-          <div className={`inline-flex items-center gap-2 rounded-xl border px-3 py-1.5 text-xs ${babColorMap[current.bab]}`}>
-            <span className="arabic-text text-sm">{babInfo.ar}</span>
-            <span className="opacity-60">·</span>
-            <span>{babInfo.name}</span>
-            <span className="opacity-60">·</span>
-            <span className="opacity-70">{babInfo.meaning}</span>
+          {/* Bab info pill + verb type */}
+          <div className="flex flex-wrap items-center gap-2">
+            <div className={`inline-flex items-center gap-2 rounded-xl border px-3 py-1.5 text-xs ${babColorMap[current.bab]}`}>
+              <span className="arabic-text text-sm">{babInfo.ar}</span>
+              <span className="opacity-60">·</span>
+              <span>{babInfo.name}</span>
+              <span className="opacity-60">·</span>
+              <span className="opacity-70">{babInfo.meaning}</span>
+            </div>
+            {vt && (
+              <span className={`inline-flex items-center gap-1 rounded-lg border px-2 py-1 text-[10px] font-semibold ${vtColors[vt.type] || ""}`}>
+                <Tag size={10} />
+                {vtLabels[vt.type] || vt.type} — {vt.subtype}
+              </span>
+            )}
           </div>
+
+          {/* Mu'tel note */}
+          {current.note && (
+            <div className="mt-2 rounded-lg bg-amber-500/[0.04] border border-amber-500/10 px-3 py-2">
+              <p className="text-[10px] leading-relaxed text-amber-300/70">{current.note}</p>
+            </div>
+          )}
 
           {/* Tense tabs */}
           <div className="mt-3 flex gap-1">

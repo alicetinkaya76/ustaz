@@ -1,5 +1,5 @@
 import { useState, useMemo, useRef } from "react";
-import { Check, X, ChevronRight, RotateCcw, GitBranch, Layers, Scale, BookOpen, Sparkles } from "lucide-react";
+import { Check, X, ChevronRight, RotateCcw, GitBranch, Layers, Scale, BookOpen, Sparkles, Tag } from "lucide-react";
 
 function shuffle(arr) {
   const a = [...arr];
@@ -18,6 +18,7 @@ const typeConfig = {
   wazn_match: { icon: Scale, label: "Vezin Eşleştirme", badge: "bg-purple-500/15 text-purple-400 border-purple-500/20" },
   irab_identify: { icon: BookOpen, label: "İ'rab Rolü", badge: "bg-orange-500/15 text-orange-400 border-orange-500/20" },
   balagha_identify: { icon: Sparkles, label: "Belâgat", badge: "bg-amber-500/15 text-amber-400 border-amber-500/20" },
+  verb_type: { icon: Tag, label: "Fiil Sınıflandırma", badge: "bg-rose-500/15 text-rose-400 border-rose-500/20" },
   matching: { icon: Layers, label: "Eşleştirme", badge: "bg-teal-500/15 text-teal-400 border-teal-500/20" },
   fill_blank: { icon: BookOpen, label: "Boşluk Doldurma", badge: "bg-cyan-500/15 text-cyan-400 border-cyan-500/20" },
 };

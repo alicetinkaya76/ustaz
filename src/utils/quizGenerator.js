@@ -181,4 +181,38 @@ export const distractorPools = {
     "Tekrâr (yineleme)",
     "Teşhîs (kişileştirme)",
   ],
+  verbTypes: [
+    "Sahîh — Sâlim",
+    "Sahîh — Muzâ'af",
+    "Mu'tel — Misâl (fâ illet)",
+    "Mu'tel — Ecvef (ayn illet)",
+    "Mu'tel — Nâkıs (lâm illet)",
+    "Mu'tel — Lefîf Mefrûk",
+    "Mu'tel — Lefîf Makrûn",
+    "Mehmûz — Fâ",
+    "Mehmûz — Ayn",
+    "Mehmûz — Lâm",
+  ],
 };
+
+/**
+ * Fiil sınıflandırma quiz'i üretir (verb_type tipi)
+ * @param {string} id
+ * @param {string} word - Hedef fiil (Arapça)
+ * @param {string} root - Kök
+ * @param {string} correctType - Doğru sınıf (ör: "Mu'tel — Ecvef (ayn illet)")
+ * @param {string[]} distractors - Yanlış sınıflar (3 tane)
+ * @param {string} explanation
+ */
+export function generateVerbTypeQuiz(id, word, root, correctType, distractors, explanation) {
+  return {
+    id,
+    type: "verb_type",
+    question: `${word} (${root}) fiili hangi sınıfa aittir?`,
+    targetWord: word,
+    options: [correctType, ...distractors],
+    correct: 0,
+    explanation,
+    relatedRoots: [root],
+  };
+}
