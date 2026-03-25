@@ -35,7 +35,7 @@ const leylLessons = [
         words: [
           { arabic: "وَٱلَّيۡلِ", transliteration: "vel-leyli", root: "ل-ي-ل", pos: "ism", meaning_tr: "Vav-ı kasem ile geceye", irab: "{Vav-ı kasem} ile {mecrûr}. Kasem harfi olan vav ile cerre uğrayan gece kelimesi", irab_short: "mecrûr, kasem", turkish_bridge: "Leyl, leyletü'l-kadr bu kökten", balagha_note: null },
           { arabic: "إِذَا", transliteration: "izâ", root: null, pos: "harf", meaning_tr: "Zaman zarfı", irab: "{Zarf}. Gelecek zaman için kullanılan şartlı zaman zarfı", irab_short: "zarf", turkish_bridge: null, balagha_note: null },
-          { arabic: "يَغۡشَىٰ", transliteration: "yağşâ", root: "ğ-ş-و", pattern: "يَفْعَل", pos: "fil", meaning_tr: "Örtmek, kaplamak", irab: "{Fiil-i muzâri'}, I. bâb. İzâ'nın şartı ve cümle-i şartiyye", irab_short: "muzâri', I. bâb", turkish_bridge: null, balagha_note: "Hazf sanatı: mef'ûl zikredilmemiş, anlam daha umûmî kılınmış" },
+          { arabic: "يَغۡشَىٰ", transliteration: "yağşâ", root: "غ-ش-و", pattern: "يَفْعَل", pos: "fil", meaning_tr: "Örtmek, kaplamak", irab: "{Fiil-i muzâri'}, I. bâb. İzâ'nın şartı ve cümle-i şartiyye", irab_short: "muzâri', I. bâb", turkish_bridge: null, balagha_note: "Hazf sanatı: mef'ûl zikredilmemiş, anlam daha umûmî kılınmış" },
         ],
       },
       {
@@ -66,7 +66,7 @@ const leylLessons = [
         words: [
           { arabic: "إِنَّ", transliteration: "inne", root: null, pos: "harf", meaning_tr: "Te'kîd harfi", irab: "{Hurûf-i müşebbehe bil-fi'l}. İsmini nasb, haberini ref' eder", irab_short: "te'kîd harfi", turkish_bridge: null, balagha_note: null },
           { arabic: "سَعۡيَكُمۡ", transliteration: "sa'yekum", root: "س-ع-ي", pos: "ism", meaning_tr: "Sizin çaba, gayretiniz", irab: "{İsm-i inne}, mensûb. İkinci şahıs çoğul zamiri muzâf ileyh", irab_short: "ism-i inne, mensûb", turkish_bridge: "Say, sa'y bu kökten", balagha_note: null },
-          { arabic: "لَشَتَّىٰ", transliteration: "leşettâ", root: "ş-ت-ت", pos: "ism", meaning_tr: "Kesinlikle çeşitli, muhtelif", irab: "{Haber-i inne}, merfû. Lâm-ı te'kîd ile pekiştirilmiş", irab_short: "haber-i inne, merfû", turkish_bridge: null, balagha_note: "Lâm-ı te'kîd ile pekiştirme" },
+          { arabic: "لَشَتَّىٰ", transliteration: "leşettâ", root: "ش-ت-ت", pos: "ism", meaning_tr: "Kesinlikle çeşitli, muhtelif", irab: "{Haber-i inne}, merfû. Lâm-ı te'kîd ile pekiştirilmiş", irab_short: "haber-i inne, merfû", turkish_bridge: null, balagha_note: "Lâm-ı te'kîd ile pekiştirme" },
         ],
       },
       {

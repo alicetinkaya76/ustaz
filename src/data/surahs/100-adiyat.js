@@ -94,7 +94,7 @@ const adiyatLessons = [
           { arabic: "وَإِنَّهُۥ", transliteration: "ve-innehû", root: null, pos: "harf", meaning_tr: "ve şüphesiz o", irab: "{Atıf hurûfu} و ile {hurûf-i müşebbehe} إنَّ ve {muttasıl zamir} هُو birleşir. Önceki cümleye atfedilir.", irab_short: "atıf + te'kîd", turkish_bridge: null, balagha_note: "Atıf ile yeni bir te'kîd" },
           { arabic: "عَلَىٰ", transliteration: "alâ", root: null, pos: "harf", meaning_tr: "üzerine, hakkında", irab: "{Câr} olup sonraki kelimeyi {mecrûr} yapar. Şahitlik konusunu belirtir.", irab_short: "câr", turkish_bridge: null, balagha_note: null },
           { arabic: "ذَٰلِكَ", transliteration: "zâlike", root: null, pos: "ism", meaning_tr: "bu, şu durum", irab: "{İsm-i işâre} olup {mecrûr}dur. Önceki nankörlük durumuna işaret eder.", irab_short: "mecrûr", turkish_bridge: null, balagha_note: "İşâre ile vurgu" },
-          { arabic: "لَشَهِيدٞ", transliteration: "le-şehîd", root: "ş-ه-د", pattern: "فَعِيل", pos: "ism", meaning_tr: "şahit", irab: "{Lâm-ı te'kîd} ile başlayıp {inn'in haberi} olup {merfû}dur. Mübalağa sîgasıyla kesin şahitliği ifade eder.", irab_short: "haber-i inne, merfû", turkish_bridge: "Şehîd, şahit, şehâdet bu kökten", balagha_note: "Mübalağa sîgası" },
+          { arabic: "لَشَهِيدٞ", transliteration: "le-şehîd", root: "ش-ه-د", pattern: "فَعِيل", pos: "ism", meaning_tr: "şahit", irab: "{Lâm-ı te'kîd} ile başlayıp {inn'in haberi} olup {merfû}dur. Mübalağa sîgasıyla kesin şahitliği ifade eder.", irab_short: "haber-i inne, merfû", turkish_bridge: "Şehîd, şahit, şehâdet bu kökten", balagha_note: "Mübalağa sîgası" },
         ],
       },
       {

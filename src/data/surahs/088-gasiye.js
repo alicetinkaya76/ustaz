@@ -36,7 +36,7 @@ const gasiyeLessons = [
           { arabic: "هَلۡ", transliteration: "hel", root: null, pos: "harf", meaning_tr: "mi, soru edatı", irab: "{İstifhâm harfi}. Cümlenin başında istifhâm anlamı veren edat.", irab_short: "istifhâm harfi", turkish_bridge: null, balagha_note: "İstifhâm-ı inkârî sanatı, muhatabın dikkatini çekmek için" },
           { arabic: "أَتَىٰكَ", transliteration: "etâke", root: "أ-ت-ي", pattern: "فَعَلَ", pos: "fil", meaning_tr: "sana geldi", irab: "{Fiil-i mâzî}, I. bâb. Sonundaki كَ zamiri {fâil} konumunda muttasıl zamir.", irab_short: "mâzî, I. bâb", turkish_bridge: null, balagha_note: null },
           { arabic: "حَدِيثُ", transliteration: "hadîsü", root: "ح-د-ث", pattern: "فَعِيل", pos: "ism", meaning_tr: "haberi, sözü", irab: "{Fâil} konumunda marfû. Muzâf olduğu için sonundaki tenvin hazfedilmiş.", irab_short: "fâil, marfû", turkish_bridge: "Hadis kelimesi bu kökten", balagha_note: null },
-          { arabic: "ٱلۡغَٰشِيَةِ", transliteration: "el-ğâşiye", root: "ğ-ş-ي", pattern: "فَاعِلَة", pos: "ism", meaning_tr: "örtücü, her şeyi kaplayan", irab: "{Muzâf ileyh} konumunda mecrûr. Kıyamet günü için kullanılan isim.", irab_short: "muzâf ileyh, mecrûr", turkish_bridge: null, balagha_note: "Kıyametin dehşetini ifade eden kinaye" },
+          { arabic: "ٱلۡغَٰشِيَةِ", transliteration: "el-ğâşiye", root: "غ-ش-ي", pattern: "فَاعِلَة", pos: "ism", meaning_tr: "örtücü, her şeyi kaplayan", irab: "{Muzâf ileyh} konumunda mecrûr. Kıyamet günü için kullanılan isim.", irab_short: "muzâf ileyh, mecrûr", turkish_bridge: null, balagha_note: "Kıyametin dehşetini ifade eden kinaye" },
         ],
       },
       {

@@ -92,7 +92,7 @@ const tinLessons = [
           { arabic: "ٱلصَّـٰلِحَٰتِ", transliteration: "es-sâlihâti", root: "ص-ل-ح", pattern: "فَاعِلَة", pos: "ism", meaning_tr: "yararlı işleri", irab: "{عمل} fiilinin {mef'ûl bih}i olarak {mensûb}", irab_short: "mensûb, mef'ûl bih", turkish_bridge: "Salâh, ıslah bu kökten", balagha_note: null },
           { arabic: "فَلَهُمۡ", transliteration: "felehüm", root: null, pos: "harf", meaning_tr: "onlar için", irab: "{فَ} harfi fer'iyye, {لهم} câr mecrûr {mübtedâ-yı müegger}", irab_short: "câr mecrûr, mübtedâ", turkish_bridge: null, balagha_note: null },
           { arabic: "أَجۡرٌ", transliteration: "ecrun", root: "أ-ج-ر", pattern: "فَعْل", pos: "ism", meaning_tr: "ecir", irab: "{Haber-i mübtedâ} olarak {merfû}", irab_short: "merfû, haber", turkish_bridge: "Ecir bu kökten", balagha_note: null },
-          { arabic: "غَيۡرُ", transliteration: "gayru", root: "ğ-ي-ر", pos: "ism", meaning_tr: "olmayan", irab: "{أجر} kelimesinin {sıfat}ı olarak {merfû} ve {ممنون} kelimesine {muzâf}", irab_short: "merfû, sıfat, muzâf", turkish_bridge: null, balagha_note: null },
+          { arabic: "غَيۡرُ", transliteration: "gayru", root: "غ-ي-ر", pos: "ism", meaning_tr: "olmayan", irab: "{أجر} kelimesinin {sıfat}ı olarak {merfû} ve {ممنون} kelimesine {muzâf}", irab_short: "merfû, sıfat, muzâf", turkish_bridge: null, balagha_note: null },
           { arabic: "مَمۡنُونٖ", transliteration: "memnûnin", root: "م-ن-ن", pattern: "مَفْعُول", pos: "ism", meaning_tr: "kesilmiş", irab: "{غير} kelimesine {muzâf ileyh} olarak {mecrûr}", irab_short: "mecrûr, muzâf ileyh", turkish_bridge: "Minnet bu kökten", balagha_note: "Sıfat dizisi ile mükâfatın niteliği" },
         ],
       },

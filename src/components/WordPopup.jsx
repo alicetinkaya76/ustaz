@@ -54,8 +54,22 @@ export default function WordPopup({ word, onClose, onGrammarClick, onAskUstaz, o
   const mufNote = rootData?.mufradat_note;
 
   const handleWaznAnalyze = () => {
+    // 1. Pipeline verisi varsa doğrudan kullan
+    if (word.pattern) {
+      const babMatch = word.irab_short?.match(/([IVX]+)\.\s*bâb/i);
+      setWaznResult({
+        pattern: word.pattern,
+        root: word.root || null,
+        bab: babMatch ? babMatch[1] : null,
+        type: word.pos === "fil" ? "fiil" : "isim/türev",
+        meaning: word.meaning_tr || null,
+        source: "pipeline"
+      });
+      return;
+    }
+    // 2. Fallback: wazn.js analiz motoru
     const result = analyzeWord(word.arabic);
-    setWaznResult(result);
+    setWaznResult(result || { pattern: null, source: "none" });
   };
 
   // irab_short'u tıklanabilir grammar linklere dönüştür
@@ -241,12 +255,20 @@ export default function WordPopup({ word, onClose, onGrammarClick, onAskUstaz, o
         )}
 
         {/* Wazn result display */}
-        {waznResult && (
+        {waznResult && waznResult.source === "none" && (
+          <div className="rounded-xl border border-cyan-500/15 bg-cyan-500/[0.04] px-3 py-2.5">
+            <div className="flex items-center gap-2">
+              <Scale size={11} className="text-cyan-400/30" />
+              <span className="text-[10px] text-cyan-400/40">Bu kelime için vezin verisi henüz mevcut değil.</span>
+            </div>
+          </div>
+        )}
+        {waznResult && waznResult.source !== "none" && (
           <div className="rounded-xl border border-cyan-500/15 bg-cyan-500/[0.04] px-3 py-2.5">
             <div className="flex items-center gap-2 mb-1.5">
               <Scale size={11} className="text-cyan-400/50" />
               <span className="text-[9px] font-semibold uppercase tracking-wider text-cyan-400/50">Vezin Analizi</span>
-              <span className="text-[9px] px-1.5 py-0.5 rounded bg-cyan-500/10 text-cyan-400/60">{waznResult.source === "known" ? "Sözlük" : "Regex"}</span>
+              <span className="text-[9px] px-1.5 py-0.5 rounded bg-cyan-500/10 text-cyan-400/60">{waznResult.source === "known" ? "Sözlük" : waznResult.source === "pipeline" ? "Ders Verisi" : "Regex"}</span>
             </div>
             <div className="grid grid-cols-2 gap-1.5 text-xs">
               {waznResult.pattern && (
