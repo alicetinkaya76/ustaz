@@ -1,0 +1,118 @@
+{
+  "surah": 113,
+  "name_ar": "الفلق",
+  "name_translit": "Al-Falaq",
+  "type": "meccan",
+  "total_ayahs": 5,
+  "total_words": 23,
+  "ayahs": [
+    {
+      "number": 1,
+      "text_ar": "قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ",
+      "text_tr_diyanet": "De ki: \"Yaratıkların şerrinden, bastırdığı zaman karanlığın şerrinden, düğümlere nefes eden büyücülerin şerrinden, hased ettiği zaman hasedcilerin şerrinden, tan yerini ağartan Rabbe sığınırım.\"",
+      "text_tr_vakfi": "De ki:\"Ben ağaran sabahın Rabbine sığınırım,",
+      "text_tr_yazir": "De ki: \"Ben, ağaran sabahın Rabbine sığınırım,",
+      "transliteration": "ḳul e`ûẕü birabbi-lfeleḳ.",
+      "words_ar": [
+        "قُلۡ",
+        "أَعُوذُ",
+        "بِرَبِّ",
+        "ٱلۡفَلَقِ"
+      ],
+      "words_translit": [
+        "ḳul",
+        "e`ûẕü",
+        "birabbi-lfeleḳ."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 2,
+      "text_ar": "مِن شَرِّ مَا خَلَقَ",
+      "text_tr_diyanet": "De ki: \"Yaratıkların şerrinden, bastırdığı zaman karanlığın şerrinden, düğümlere nefes eden büyücülerin şerrinden, hased ettiği zaman hasedcilerin şerrinden, tan yerini ağartan Rabbe sığınırım.\"",
+      "text_tr_vakfi": "Yarattığı şeylerin şerrinden,",
+      "text_tr_yazir": "Yarattığı şeylerin şerrinden,",
+      "transliteration": "min şerri mâ ḫaleḳ.",
+      "words_ar": [
+        "مِن",
+        "شَرِّ",
+        "مَا",
+        "خَلَقَ"
+      ],
+      "words_translit": [
+        "min",
+        "şerri",
+        "mâ",
+        "ḫaleḳ."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 3,
+      "text_ar": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+      "text_tr_diyanet": "De ki: \"Yaratıkların şerrinden, bastırdığı zaman karanlığın şerrinden, düğümlere nefes eden büyücülerin şerrinden, hased ettiği zaman hasedcilerin şerrinden, tan yerini ağartan Rabbe sığınırım.\"",
+      "text_tr_vakfi": "Karanlığı çöktüğü zaman gecenin şerrinden,",
+      "text_tr_yazir": "Karanlığı çöktüğü zaman gecenin şerrinden,",
+      "transliteration": "vemin şerri gâsiḳin iẕâ veḳab.",
+      "words_ar": [
+        "وَمِن",
+        "شَرِّ",
+        "غَاسِقٍ",
+        "إِذَا",
+        "وَقَبَ"
+      ],
+      "words_translit": [
+        "vemin",
+        "şerri",
+        "gâsiḳin",
+        "iẕâ",
+        "veḳab."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 4,
+      "text_ar": "وَمِن شَرِّ ٱلنَّفَّـٰثَٰتِ فِي ٱلۡعُقَدِ",
+      "text_tr_diyanet": "De ki: \"Yaratıkların şerrinden, bastırdığı zaman karanlığın şerrinden, düğümlere nefes eden büyücülerin şerrinden, hased ettiği zaman hasedcilerin şerrinden, tan yerini ağartan Rabbe sığınırım.\"",
+      "text_tr_vakfi": "Ve düğümlere üfürüp büyü yapan üfürükçülerin şerrinden,",
+      "text_tr_yazir": "Ve düğümlere üfleyen büyücülerin şerrinden,",
+      "transliteration": "vemin şerri-nneffâŝâti fi-l`uḳad.",
+      "words_ar": [
+        "وَمِن",
+        "شَرِّ",
+        "ٱلنَّفَّـٰثَٰتِ",
+        "فِي",
+        "ٱلۡعُقَدِ"
+      ],
+      "words_translit": [
+        "vemin",
+        "şerri-nneffâŝâti",
+        "fi-l`uḳad."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 5,
+      "text_ar": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+      "text_tr_diyanet": "De ki: \"Yaratıkların şerrinden, bastırdığı zaman karanlığın şerrinden, düğümlere nefes eden büyücülerin şerrinden, hased ettiği zaman hasedcilerin şerrinden, tan yerini ağartan Rabbe sığınırım.\"",
+      "text_tr_vakfi": "Ve kıskandığı vakit kıskanç kişinin şerrinden sabahın Rabbine sığınırım!",
+      "text_tr_yazir": "Ve hased ettiği zaman hasetçinin şerrinden.",
+      "transliteration": "vemin şerri ḥâsidin iẕâ ḥased.",
+      "words_ar": [
+        "وَمِن",
+        "شَرِّ",
+        "حَاسِدٍ",
+        "إِذَا",
+        "حَسَدَ"
+      ],
+      "words_translit": [
+        "vemin",
+        "şerri",
+        "ḥâsidin",
+        "iẕâ",
+        "ḥased."
+      ],
+      "word_count": 5
+    }
+  ]
+}

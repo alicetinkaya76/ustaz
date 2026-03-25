@@ -1,0 +1,188 @@
+{
+  "surah": 104,
+  "name_ar": "الهمزة",
+  "name_translit": "Al-Humazah",
+  "type": "meccan",
+  "total_ayahs": 9,
+  "total_words": 33,
+  "ayahs": [
+    {
+      "number": 1,
+      "text_ar": "وَيۡلٞ لِّكُلِّ هُمَزَةٖ لُّمَزَةٍ",
+      "text_tr_diyanet": "Mal toplayarak onu tekrar tekrar sayan, diliyle çekiştirip alay eden kimsenin vay haline!",
+      "text_tr_vakfi": "Arkadan çekiştirmeyi, yüze karşı eğlenmeyi adet edinen herkesin vay haline!",
+      "text_tr_yazir": "Mal toplayıp onu tekrar tekrar sayan, insanları arkadan çekiştirip, kaş göz hareketleriyle alay edenlerin (hümeze ve lümezenin) vay haline!",
+      "transliteration": "veylül likülli hümezetil lümezeh.",
+      "words_ar": [
+        "وَيۡلٞ",
+        "لِّكُلِّ",
+        "هُمَزَةٖ",
+        "لُّمَزَةٍ"
+      ],
+      "words_translit": [
+        "veylül",
+        "likülli",
+        "hümezetil",
+        "lümezeh."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 2,
+      "text_ar": "ٱلَّذِي جَمَعَ مَالٗا وَعَدَّدَهُۥ",
+      "text_tr_diyanet": "Mal toplayarak onu tekrar tekrar sayan, diliyle çekiştirip alay eden kimsenin vay haline!",
+      "text_tr_vakfi": "O ki, toplamış ve onu sayıp durmuştur.",
+      "text_tr_yazir": "Mal toplayıp onu tekrar tekrar sayan, insanları arkadan çekiştirip, kaş göz hareketleriyle alay edenlerin (hümeze ve lümezenin) vay haline!",
+      "transliteration": "elleẕî ceme`a mâlev ve`addedeh.",
+      "words_ar": [
+        "ٱلَّذِي",
+        "جَمَعَ",
+        "مَالٗا",
+        "وَعَدَّدَهُۥ"
+      ],
+      "words_translit": [
+        "elleẕî",
+        "ceme`a",
+        "mâlev",
+        "ve`addedeh."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 3,
+      "text_ar": "يَحۡسَبُ أَنَّ مَالَهُۥٓ أَخۡلَدَهُۥ",
+      "text_tr_diyanet": "Malının kendisini ölümsüz kılacağını sanır.",
+      "text_tr_vakfi": "(O), malının kendisini ebedi kılacağını zanneder.",
+      "text_tr_yazir": "Malının, kendisini ebedi yaşatacağını sanır.",
+      "transliteration": "yaḥsebü enne mâlehû aḫledeh.",
+      "words_ar": [
+        "يَحۡسَبُ",
+        "أَنَّ",
+        "مَالَهُۥٓ",
+        "أَخۡلَدَهُۥ"
+      ],
+      "words_translit": [
+        "yaḥsebü",
+        "enne",
+        "mâlehû",
+        "aḫledeh."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 4,
+      "text_ar": "كَلَّاۖ لَيُنۢبَذَنَّ فِي ٱلۡحُطَمَةِ",
+      "text_tr_diyanet": "Hayır; o, and olsun ki, Hutame'ye atılacaktır.",
+      "text_tr_vakfi": "Hayır! Andolsun ki o, Hutame'ye atılacaktır.",
+      "text_tr_yazir": "Hayır, andolsun ki, o hutame (cehennem)ye atılacaktır.",
+      "transliteration": "kellâ leyümbeẕenne fi-lḥuṭameh.",
+      "words_ar": [
+        "كَلَّا",
+        "لَيُنۢبَذَنَّ",
+        "فِي",
+        "ٱلۡحُطَمَةِ"
+      ],
+      "words_translit": [
+        "kellâ",
+        "leyümbeẕenne",
+        "fi-lḥuṭameh."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 5,
+      "text_ar": "وَمَآ أَدۡرَىٰكَ مَا ٱلۡحُطَمَةُ",
+      "text_tr_diyanet": "Hutame'nin ne olduğunu sen bilir misin?",
+      "text_tr_vakfi": "Hutame'nin ne olduğunu bilir misin?",
+      "text_tr_yazir": "Hutame'nin ne olduğunu bilir misin?",
+      "transliteration": "vemâ edrâke me-lḥuṭameh.",
+      "words_ar": [
+        "وَمَآ",
+        "أَدۡرَىٰكَ",
+        "مَا",
+        "ٱلۡحُطَمَةُ"
+      ],
+      "words_translit": [
+        "vemâ",
+        "edrâke",
+        "me-lḥuṭameh."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 6,
+      "text_ar": "نَارُ ٱللَّهِ ٱلۡمُوقَدَةُ",
+      "text_tr_diyanet": "O, yüreklere çökecek olan, Allah'ın tutuşturulmuş ateşidir.",
+      "text_tr_vakfi": "Allah'ın, tutuşturulmuş ateşidir.",
+      "text_tr_yazir": "O, kalplerin içine işleyecek, Allah'ın tutuşturulmuş bir ateşidir.",
+      "transliteration": "nâru-llâhi-lmûḳadeh.",
+      "words_ar": [
+        "نَارُ",
+        "ٱللَّهِ",
+        "ٱلۡمُوقَدَةُ"
+      ],
+      "words_translit": [
+        "nâru-llâhi-lmûḳadeh."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 7,
+      "text_ar": "ٱلَّتِي تَطَّلِعُ عَلَى ٱلۡأَفۡـِٔدَةِ",
+      "text_tr_diyanet": "O, yüreklere çökecek olan, Allah'ın tutuşturulmuş ateşidir.",
+      "text_tr_vakfi": "(Yandıkça) tırmanıp kalplerin ta üstüne çıkar.",
+      "text_tr_yazir": "O, kalplerin içine işleyecek, Allah'ın tutuşturulmuş bir ateşidir.",
+      "transliteration": "elletî teṭṭali`u `ale-l'ef'ideh.",
+      "words_ar": [
+        "ٱلَّتِي",
+        "تَطَّلِعُ",
+        "عَلَى",
+        "ٱلۡأَفۡـِٔدَةِ"
+      ],
+      "words_translit": [
+        "elletî",
+        "teṭṭali`u",
+        "`ale-l'ef'ideh."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 8,
+      "text_ar": "إِنَّهَا عَلَيۡهِم مُّؤۡصَدَةٞ",
+      "text_tr_diyanet": "Onlar, uzun sütunlar arasında, her yönden o ateşle kapatılmışlardır.",
+      "text_tr_vakfi": "O, onların üzerine kapatılıp kilitlenecektir.",
+      "text_tr_yazir": "Cehennemlikler, dikilmiş direklere bağlı oldukları halde, o ateşin kapıları üzerlerine kapatılacaktır.",
+      "transliteration": "innehâ `aleyhim mü'ṣadeh.",
+      "words_ar": [
+        "إِنَّهَا",
+        "عَلَيۡهِم",
+        "مُّؤۡصَدَةٞ"
+      ],
+      "words_translit": [
+        "innehâ",
+        "`aleyhim",
+        "mü'ṣadeh."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 9,
+      "text_ar": "فِي عَمَدٖ مُّمَدَّدَةِۭ",
+      "text_tr_diyanet": "Onlar, uzun sütunlar arasında, her yönden o ateşle kapatılmışlardır.",
+      "text_tr_vakfi": "(Bu ateşin içinde) uzatılmış sütunlara bağlanmışlar.",
+      "text_tr_yazir": "Cehennemlikler, dikilmiş direklere bağlı oldukları halde, o ateşin kapıları üzerlerine kapatılacaktır.",
+      "transliteration": "fî `amedim mümeddedeh.",
+      "words_ar": [
+        "فِي",
+        "عَمَدٖ",
+        "مُّمَدَّدَةِۭ"
+      ],
+      "words_translit": [
+        "fî",
+        "`amedim",
+        "mümeddedeh."
+      ],
+      "word_count": 3
+    }
+  ]
+}

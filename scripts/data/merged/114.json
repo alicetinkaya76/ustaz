@@ -1,0 +1,121 @@
+{
+  "surah": 114,
+  "name_ar": "الناس",
+  "name_translit": "An-Nas",
+  "type": "meccan",
+  "total_ayahs": 6,
+  "total_words": 20,
+  "ayahs": [
+    {
+      "number": 1,
+      "text_ar": "قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+      "text_tr_diyanet": "De ki: \"İnsanlardan ve cinlerden ve insanların gönüllerine vesvese veren o sinsi vesvesecinin şerrinden, insanların Tanrısı, insanların Hükümranı ve insanların Rabbi olan Allah'a sığınırım.\"",
+      "text_tr_vakfi": "De ki: Sığınırım ben insanların Rabbine,",
+      "text_tr_yazir": "De ki: Sığınırım ben insanların Rabbine,",
+      "transliteration": "ḳul e`ûẕü birabbi-nnâs.",
+      "words_ar": [
+        "قُلۡ",
+        "أَعُوذُ",
+        "بِرَبِّ",
+        "ٱلنَّاسِ"
+      ],
+      "words_translit": [
+        "ḳul",
+        "e`ûẕü",
+        "birabbi-nnâs."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 2,
+      "text_ar": "مَلِكِ ٱلنَّاسِ",
+      "text_tr_diyanet": "De ki: \"İnsanlardan ve cinlerden ve insanların gönüllerine vesvese veren o sinsi vesvesecinin şerrinden, insanların Tanrısı, insanların Hükümranı ve insanların Rabbi olan Allah'a sığınırım.\"",
+      "text_tr_vakfi": "İnsanların Melikine (mutlak sahip ve hakimine),",
+      "text_tr_yazir": "İnsanların hükümdârına,",
+      "transliteration": "meliki-nnâs.",
+      "words_ar": [
+        "مَلِكِ",
+        "ٱلنَّاسِ"
+      ],
+      "words_translit": [
+        "meliki-nnâs."
+      ],
+      "word_count": 2
+    },
+    {
+      "number": 3,
+      "text_ar": "إِلَٰهِ ٱلنَّاسِ",
+      "text_tr_diyanet": "De ki: \"İnsanlardan ve cinlerden ve insanların gönüllerine vesvese veren o sinsi vesvesecinin şerrinden, insanların Tanrısı, insanların Hükümranı ve insanların Rabbi olan Allah'a sığınırım.\"",
+      "text_tr_vakfi": "İnsanların İlahına.",
+      "text_tr_yazir": "İnsanların ilâhına,",
+      "transliteration": "ilâhi-nnâs.",
+      "words_ar": [
+        "إِلَٰهِ",
+        "ٱلنَّاسِ"
+      ],
+      "words_translit": [
+        "ilâhi-nnâs."
+      ],
+      "word_count": 2
+    },
+    {
+      "number": 4,
+      "text_ar": "مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ",
+      "text_tr_diyanet": "De ki: \"İnsanlardan ve cinlerden ve insanların gönüllerine vesvese veren o sinsi vesvesecinin şerrinden, insanların Tanrısı, insanların Hükümranı ve insanların Rabbi olan Allah'a sığınırım.\"",
+      "text_tr_vakfi": "O sinsi vesvesenin şerrinden,",
+      "text_tr_yazir": "O sinsi vesvesecinin şerrinden.",
+      "transliteration": "min şerri-lvesvâsi-lḫannâs.",
+      "words_ar": [
+        "مِن",
+        "شَرِّ",
+        "ٱلۡوَسۡوَاسِ",
+        "ٱلۡخَنَّاسِ"
+      ],
+      "words_translit": [
+        "min",
+        "şerri-lvesvâsi-lḫannâs."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 5,
+      "text_ar": "ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ",
+      "text_tr_diyanet": "De ki: \"İnsanlardan ve cinlerden ve insanların gönüllerine vesvese veren o sinsi vesvesecinin şerrinden, insanların Tanrısı, insanların Hükümranı ve insanların Rabbi olan Allah'a sığınırım.\"",
+      "text_tr_vakfi": "O ki insanların göğüslerine (kötü düşünceler)fısıldar.",
+      "text_tr_yazir": "O ki, insanların göğüslerine vesveseler fısıldar.",
+      "transliteration": "elleẕî yüvesvisü fî ṣudûri-nnâs.",
+      "words_ar": [
+        "ٱلَّذِي",
+        "يُوَسۡوِسُ",
+        "فِي",
+        "صُدُورِ",
+        "ٱلنَّاسِ"
+      ],
+      "words_translit": [
+        "elleẕî",
+        "yüvesvisü",
+        "fî",
+        "ṣudûri-nnâs."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 6,
+      "text_ar": "مِنَ ٱلۡجِنَّةِ وَٱلنَّاسِ",
+      "text_tr_diyanet": "De ki: \"İnsanlardan ve cinlerden ve insanların gönüllerine vesvese veren o sinsi vesvesecinin şerrinden, insanların Tanrısı, insanların Hükümranı ve insanların Rabbi olan Allah'a sığınırım.\"",
+      "text_tr_vakfi": "Gerek cinlerden, gerek insanlardan(olan bütün vesvesecilerin şerrinden Allah'a sığınırım!",
+      "text_tr_yazir": "Gerek cinlerden, gerek insanlardan.",
+      "transliteration": "mine-lcinneti vennâs.",
+      "words_ar": [
+        "مِنَ",
+        "ٱلۡجِنَّةِ",
+        "وَٱلنَّاسِ"
+      ],
+      "words_translit": [
+        "mine-lcinneti",
+        "vennâs."
+      ],
+      "word_count": 3
+    }
+  ]
+}

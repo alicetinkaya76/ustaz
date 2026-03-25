@@ -1,0 +1,74 @@
+{
+  "surah": 103,
+  "name_ar": "العصر",
+  "name_translit": "Al-'Asr",
+  "type": "meccan",
+  "total_ayahs": 3,
+  "total_words": 14,
+  "ayahs": [
+    {
+      "number": 1,
+      "text_ar": "وَٱلۡعَصۡرِ",
+      "text_tr_diyanet": "İkindi vaktine (Asra; çağa) and olsun ki,",
+      "text_tr_vakfi": "Asra yemin ederim ki",
+      "text_tr_yazir": "Asra yemin olsun ki,",
+      "transliteration": "vel`aṣr.",
+      "words_ar": [
+        "وَٱلۡعَصۡرِ"
+      ],
+      "words_translit": [
+        "vel`aṣr."
+      ],
+      "word_count": 1
+    },
+    {
+      "number": 2,
+      "text_ar": "إِنَّ ٱلۡإِنسَٰنَ لَفِي خُسۡرٍ",
+      "text_tr_diyanet": "İnsan hiç şüphesiz hüsran içindedir.",
+      "text_tr_vakfi": "İnsan gerçekten ziyan içindedir.",
+      "text_tr_yazir": "İnsan mutlaka ziyandadır.",
+      "transliteration": "inne-l'insâne lefî ḫusr.",
+      "words_ar": [
+        "إِنَّ",
+        "ٱلۡإِنسَٰنَ",
+        "لَفِي",
+        "خُسۡرٍ"
+      ],
+      "words_translit": [
+        "inne-l'insâne",
+        "lefî",
+        "ḫusr."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 3,
+      "text_ar": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ وَتَوَاصَوۡاْ بِٱلۡحَقِّ وَتَوَاصَوۡاْ بِٱلصَّبۡرِ",
+      "text_tr_diyanet": "Ancak inanıp yararlı iş işleyenler, birbirlerine gerçeği tavsiye edenler ve sabırlı olmayı tavsiye edenler bunun dışındadır.",
+      "text_tr_vakfi": "Bundan ancak iman edip iyi ameller işleyenler, birbirlerine hakkı tavsiye edenler ve sabrı tavsiye edenler müstesnadır.",
+      "text_tr_yazir": "Ancak iman edenler, salih amel (iyi işler) işleyenler, birbirlerine hakkı tavsiye eden ve sabrı tavsiye edenler bunun dışındadır",
+      "transliteration": "ille-lleẕîne âmenû ve`amilu-ṣṣâliḥâti vetevâṣav bilḥaḳḳi vetevâṣav biṣṣabr.",
+      "words_ar": [
+        "إِلَّا",
+        "ٱلَّذِينَ",
+        "ءَامَنُواْ",
+        "وَعَمِلُواْ",
+        "ٱلصَّـٰلِحَٰتِ",
+        "وَتَوَاصَوۡاْ",
+        "بِٱلۡحَقِّ",
+        "وَتَوَاصَوۡاْ",
+        "بِٱلصَّبۡرِ"
+      ],
+      "words_translit": [
+        "ille-lleẕîne",
+        "âmenû",
+        "ve`amilu-ṣṣâliḥâti",
+        "vetevâṣav",
+        "bilḥaḳḳi",
+        "vetevâṣav",
+        "biṣṣabr."
+      ],
+      "word_count": 9
+    }
+  ]
+}

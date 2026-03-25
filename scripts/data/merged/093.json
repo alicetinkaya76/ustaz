@@ -1,0 +1,230 @@
+{
+  "surah": 93,
+  "name_ar": "الضحى",
+  "name_translit": "Ad-Duhaa",
+  "type": "meccan",
+  "total_ayahs": 11,
+  "total_words": 40,
+  "ayahs": [
+    {
+      "number": 1,
+      "text_ar": "وَٱلضُّحَىٰ",
+      "text_tr_diyanet": "Kuşluk vaktine and olsun;",
+      "text_tr_vakfi": "Andolsun kuşluk vaktine",
+      "text_tr_yazir": "Andolsun kuşluk vaktine.",
+      "transliteration": "veḍḍuḥâ.",
+      "words_ar": [
+        "وَٱلضُّحَىٰ"
+      ],
+      "words_translit": [
+        "veḍḍuḥâ."
+      ],
+      "word_count": 1
+    },
+    {
+      "number": 2,
+      "text_ar": "وَٱلَّيۡلِ إِذَا سَجَىٰ",
+      "text_tr_diyanet": "Sükun erdiği zaman geceye and olsun ki,",
+      "text_tr_vakfi": "Ve sükuna erdiğinde geceye ki,",
+      "text_tr_yazir": "Ve sakinleştiği zaman geceye ki,",
+      "transliteration": "velleyli iẕâ secâ.",
+      "words_ar": [
+        "وَٱلَّيۡلِ",
+        "إِذَا",
+        "سَجَىٰ"
+      ],
+      "words_translit": [
+        "velleyli",
+        "iẕâ",
+        "secâ."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 3,
+      "text_ar": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+      "text_tr_diyanet": "Rabbin seni ne bıraktı ve ne de sana darıldı.",
+      "text_tr_vakfi": "Rabbin seni bırakmadı ve sana darılmadı.",
+      "text_tr_yazir": "Rabbin seni bırakmadı ve darılmadı.",
+      "transliteration": "mâ vedde`ake rabbüke vemâ ḳalâ.",
+      "words_ar": [
+        "مَا",
+        "وَدَّعَكَ",
+        "رَبُّكَ",
+        "وَمَا",
+        "قَلَىٰ"
+      ],
+      "words_translit": [
+        "mâ",
+        "vedde`ake",
+        "rabbüke",
+        "vemâ",
+        "ḳalâ."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 4,
+      "text_ar": "وَلَلۡأٓخِرَةُ خَيۡرٞ لَّكَ مِنَ ٱلۡأُولَىٰ",
+      "text_tr_diyanet": "Doğrusu ahiret senin için dünyadan daha hayırlıdır.",
+      "text_tr_vakfi": "Gerçekten senin için ahiret dünyadan daha hayırlıdır.",
+      "text_tr_yazir": "Ahiret senin için dünyadan iyi olacaktır.",
+      "transliteration": "velel'âḫiratü ḫayrul leke mine-l'ûlâ.",
+      "words_ar": [
+        "وَلَلۡأٓخِرَةُ",
+        "خَيۡرٞ",
+        "لَّكَ",
+        "مِنَ",
+        "ٱلۡأُولَىٰ"
+      ],
+      "words_translit": [
+        "velel'âḫiratü",
+        "ḫayrul",
+        "leke",
+        "mine-l'ûlâ."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 5,
+      "text_ar": "وَلَسَوۡفَ يُعۡطِيكَ رَبُّكَ فَتَرۡضَىٰٓ",
+      "text_tr_diyanet": "Rabbin şüphesiz sana verecek ve sen de hoşnut olacaksın.",
+      "text_tr_vakfi": "Pek yakında Rabbin sana verecek de hoşnut olacaksın.",
+      "text_tr_yazir": "Rabbın sana verecek ve sen hoşnut olacaksın.",
+      "transliteration": "velesevfe yü`ṭîke rabbüke feterḍâ.",
+      "words_ar": [
+        "وَلَسَوۡفَ",
+        "يُعۡطِيكَ",
+        "رَبُّكَ",
+        "فَتَرۡضَىٰٓ"
+      ],
+      "words_translit": [
+        "velesevfe",
+        "yü`ṭîke",
+        "rabbüke",
+        "feterḍâ."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 6,
+      "text_ar": "أَلَمۡ يَجِدۡكَ يَتِيمٗا فَـَٔاوَىٰ",
+      "text_tr_diyanet": "Seni öksüz bulup da barındırmadı mı?",
+      "text_tr_vakfi": "O, seni yetim bulup barındırmadı mı?",
+      "text_tr_yazir": "O seni yetim bulup da barındırmadı mı?",
+      "transliteration": "elem yecidke yetîmen feâvâ.",
+      "words_ar": [
+        "أَلَمۡ",
+        "يَجِدۡكَ",
+        "يَتِيمٗا",
+        "فَـَٔاوَىٰ"
+      ],
+      "words_translit": [
+        "elem",
+        "yecidke",
+        "yetîmen",
+        "feâvâ."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 7,
+      "text_ar": "وَوَجَدَكَ ضَآلّٗا فَهَدَىٰ",
+      "text_tr_diyanet": "Seni şaşırmış bulup, doğru yola eriştirmedi mi?",
+      "text_tr_vakfi": "Şaşırmış bulup da yol göstermedi mi?",
+      "text_tr_yazir": "Seni yol bilmez bulup yola iletmedi mi?",
+      "transliteration": "vevecedeke ḍâllen fehedâ.",
+      "words_ar": [
+        "وَوَجَدَكَ",
+        "ضَآلّٗا",
+        "فَهَدَىٰ"
+      ],
+      "words_translit": [
+        "vevecedeke",
+        "ḍâllen",
+        "fehedâ."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 8,
+      "text_ar": "وَوَجَدَكَ عَآئِلٗا فَأَغۡنَىٰ",
+      "text_tr_diyanet": "Seni fakir bulup zenginleştirmedi mi?",
+      "text_tr_vakfi": "Seni fakir bulup zengin etmedi mi?",
+      "text_tr_yazir": "Seni yoksul bulup zengin etmedi mi?",
+      "transliteration": "vevecedeke `âilen feagnâ.",
+      "words_ar": [
+        "وَوَجَدَكَ",
+        "عَآئِلٗا",
+        "فَأَغۡنَىٰ"
+      ],
+      "words_translit": [
+        "vevecedeke",
+        "`âilen",
+        "feagnâ."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 9,
+      "text_ar": "فَأَمَّا ٱلۡيَتِيمَ فَلَا تَقۡهَرۡ",
+      "text_tr_diyanet": "Öyleyse sakın öksüze kötü muamele etme;",
+      "text_tr_vakfi": "Öyleyse yetimi sakın ezme.",
+      "text_tr_yazir": "Öyleyse sakın yetimi ezme.",
+      "transliteration": "feemme-lyetîme felâ taḳher.",
+      "words_ar": [
+        "فَأَمَّا",
+        "ٱلۡيَتِيمَ",
+        "فَلَا",
+        "تَقۡهَرۡ"
+      ],
+      "words_translit": [
+        "feemme-lyetîme",
+        "felâ",
+        "taḳher."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 10,
+      "text_ar": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنۡهَرۡ",
+      "text_tr_diyanet": "Ve sakın bir şey isteyeni azarlama;",
+      "text_tr_vakfi": "El açıp isteyeni de sakın azarlama.",
+      "text_tr_yazir": "Dilenciyi de azarlama.",
+      "transliteration": "veemme-ssâile felâ tenher.",
+      "words_ar": [
+        "وَأَمَّا",
+        "ٱلسَّآئِلَ",
+        "فَلَا",
+        "تَنۡهَرۡ"
+      ],
+      "words_translit": [
+        "veemme-ssâile",
+        "felâ",
+        "tenher."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 11,
+      "text_ar": "وَأَمَّا بِنِعۡمَةِ رَبِّكَ فَحَدِّثۡ",
+      "text_tr_diyanet": "Yalnızca Rabbinin nimetini anlat.",
+      "text_tr_vakfi": "Ve Rabbinin nimetini minnet ve şükranla an.",
+      "text_tr_yazir": "Fakat Rabbinin nimetini anlat da anlat.",
+      "transliteration": "veemmâ bini`meti rabbike feḥaddiŝ.",
+      "words_ar": [
+        "وَأَمَّا",
+        "بِنِعۡمَةِ",
+        "رَبِّكَ",
+        "فَحَدِّثۡ"
+      ],
+      "words_translit": [
+        "veemmâ",
+        "bini`meti",
+        "rabbike",
+        "feḥaddiŝ."
+      ],
+      "word_count": 4
+    }
+  ]
+}

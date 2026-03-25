@@ -1,0 +1,388 @@
+{
+  "surah": 97,
+  "blocks": [
+    {
+      "ayah_start": 1,
+      "ayah_end": 5,
+      "description": "Kadir gecesinin faziletini ve bereketini anlatan sure. Bu gecenin bin aydan hayırlı olduğu ve meleklerin indiği mübarek bir gece olduğu vurgulanır.",
+      "verses": [
+        {
+          "surah": 97,
+          "ayah": 1,
+          "arabic": "إِنَّآ أَنزَلۡنَٰهُ فِي لَيۡلَةِ ٱلۡقَدۡرِ",
+          "translation": "Doğrusu, Biz, Kuran'ı kadir gecesinde indirmişizdir.",
+          "words": [
+            {
+              "arabic": "إِنَّآ",
+              "transliteration": "innâ",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "şüphesiz biz",
+              "irab": "{Hurûf-i müşebbehe bi'l-fi'l}. Mübtedâyı nasb eder, haberi ref eder. İçinde zamîr-i muttasıl 'نا' (nahnu) vardır.",
+              "irab_short": "hurûf-i müşebbehe + zamîr",
+              "turkish_bridge": null,
+              "balagha_note": "Te'kîd ve ta'zîm için kullanılmış"
+            },
+            {
+              "arabic": "أَنزَلۡنَٰهُ",
+              "transliteration": "enzelnâhü",
+              "root": "ن-ز-ل",
+              "pattern": "أَفْعَلَ",
+              "pos": "fil",
+              "meaning_tr": "onu indirdik",
+              "irab": "{Fiil-i mâzî}, IV. bâb (إفْعال). Fâili zamîr-i müstetir 'نحن'. Sonda mef'ûl bih zamîri 'هُ' (Kur'ân'ı işaret eder).",
+              "irab_short": "mâzî, IV. bâb",
+              "turkish_bridge": "Nüzul, münzel bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "فِي",
+              "transliteration": "fî",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "içinde, -de",
+              "irab": "{Harf-i cer}. Kendinden sonraki kelimeyi cer (mecrûr) yapar.",
+              "irab_short": "harf-i cer",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "لَيۡلَةِ",
+              "transliteration": "leyleti",
+              "root": "ل-ي-ل",
+              "pos": "ism",
+              "meaning_tr": "gecesi",
+              "irab": "{İsm-i mecrûr} 'فِي' edatıyla. Muzâf konumundadır, bu yüzden tenvin almaz.",
+              "irab_short": "mecrûr, muzâf",
+              "turkish_bridge": "Leyl bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "ٱلۡقَدۡرِ",
+              "transliteration": "el-kadri",
+              "root": "ق-د-ر",
+              "pos": "ism",
+              "meaning_tr": "kadrin, değerin",
+              "irab": "{Muzâf ileyh}. Kendinden önceki 'ليلة' kelimesine izafet edilmiştir, mecrûr konumundadır.",
+              "irab_short": "muzâf ileyh, mecrûr",
+              "turkish_bridge": "Kadir, kudret bu kökten",
+              "balagha_note": null
+            }
+          ]
+        },
+        {
+          "surah": 97,
+          "ayah": 2,
+          "arabic": "وَمَآ أَدۡرَىٰكَ مَا لَيۡلَةُ ٱلۡقَدۡرِ",
+          "translation": "Kadir gecesinin ne olduğunu sen bilir misin?",
+          "words": [
+            {
+              "arabic": "وَمَآ",
+              "transliteration": "ve mâ",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "ve ne",
+              "irab": "Başında {harf-i atıf} 'وَ'. 'مَآ' {istifhâm edatı} olup ta'accüb ve inkâr manası taşır.",
+              "irab_short": "atıf + istifhâm",
+              "turkish_bridge": null,
+              "balagha_note": "İstifhâm-ı inkârî, ta'zîm manası"
+            },
+            {
+              "arabic": "أَدۡرَىٰكَ",
+              "transliteration": "edrâke",
+              "root": "د-ر-ي",
+              "pattern": "أَفْعَلَ",
+              "pos": "fil",
+              "meaning_tr": "sana bildirdi",
+              "irab": "{Fiil-i mâzî}, IV. bâb (إفْعال). Fâili zamîr-i müstetir. Sonda mef'ûl bih zamîri 'كَ' (seni).",
+              "irab_short": "mâzî, IV. bâb",
+              "turkish_bridge": "İdrâk bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "مَا",
+              "transliteration": "mâ",
+              "root": null,
+              "pos": "ism",
+              "meaning_tr": "ne, nedir",
+              "irab": "{İsm-i istifhâm}. Mübtedâ konumunda olup 'ليلة القدر' onun haberidir.",
+              "irab_short": "istifhâm, mübtedâ",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "لَيۡلَةُ",
+              "transliteration": "leyletü",
+              "root": "ل-ي-ل",
+              "pos": "ism",
+              "meaning_tr": "gecesi",
+              "irab": "{Mübtedâ}nın haberi konumunda, merfû. Muzâf olduğu için tenvin almaz.",
+              "irab_short": "haber, merfû, muzâf",
+              "turkish_bridge": "Leyl bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "ٱلۡقَدۡرِ",
+              "transliteration": "el-kadri",
+              "root": "ق-د-ر",
+              "pos": "ism",
+              "meaning_tr": "kadrin",
+              "irab": "{Muzâf ileyh}, 'ليلة' kelimesine izafet edilmiş, mecrûr konumundadır.",
+              "irab_short": "muzâf ileyh, mecrûr",
+              "turkish_bridge": "Kadir, kudret bu kökten",
+              "balagha_note": null
+            }
+          ]
+        },
+        {
+          "surah": 97,
+          "ayah": 3,
+          "arabic": "لَيۡلَةُ ٱلۡقَدۡرِ خَيۡرٞ مِّنۡ أَلۡفِ شَهۡرٖ",
+          "translation": "Kadir gecesi bin aydan hayırlıdır.",
+          "words": [
+            {
+              "arabic": "لَيۡلَةُ",
+              "transliteration": "leyletü",
+              "root": "ل-ي-ل",
+              "pos": "ism",
+              "meaning_tr": "gecesi",
+              "irab": "{Mübtedâ}, merfû. Muzâf konumunda olup 'القدر' kelimesine izafet edilmiştir.",
+              "irab_short": "mübtedâ, merfû, muzâf",
+              "turkish_bridge": "Leyl bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "ٱلۡقَدۡرِ",
+              "transliteration": "el-kadri",
+              "root": "ق-د-ر",
+              "pos": "ism",
+              "meaning_tr": "kadrin",
+              "irab": "{Muzâf ileyh}, kendinden önceki 'ليلة' kelimesine izafet edilmiş, mecrûr.",
+              "irab_short": "muzâf ileyh, mecrûr",
+              "turkish_bridge": "Kadir, kudret bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "خَيۡرٞ",
+              "transliteration": "hayrun",
+              "root": "خ-ي-ر",
+              "pattern": "فَيْعَل",
+              "pos": "ism",
+              "meaning_tr": "hayırlıdır",
+              "irab": "{Haber}, mübtedâ 'ليلة القدر'in haberi konumunda, merfû. İsm-i tafdîl olarak kullanılmıştır.",
+              "irab_short": "haber, merfû, ism-i tafdîl",
+              "turkish_bridge": "Hayır bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "مِّنۡ",
+              "transliteration": "min",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "-den",
+              "irab": "{Harf-i cer}, mukâyese (karşılaştırma) manası verir. İsm-i tafdîl ile kullanılır.",
+              "irab_short": "harf-i cer",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "أَلۡفِ",
+              "transliteration": "elfi",
+              "root": "ا-ل-ف",
+              "pos": "ism",
+              "meaning_tr": "bin",
+              "irab": "{İsm-i mecrûr} 'من' edatıyla. Muzâf konumunda olup 'شهر' kelimesine izafet edilmiştir.",
+              "irab_short": "mecrûr, muzâf",
+              "turkish_bridge": null,
+              "balagha_note": "Kesretten kināye, çokluk ifadesi"
+            },
+            {
+              "arabic": "شَهۡرٖ",
+              "transliteration": "şehrin",
+              "root": "ش-ه-ر",
+              "pos": "ism",
+              "meaning_tr": "ay",
+              "irab": "{Muzâf ileyh}, kendinden önceki 'ألف' kelimesine izafet edilmiş, mecrûr konumundadır.",
+              "irab_short": "muzâf ileyh, mecrûr",
+              "turkish_bridge": "Şehr bu kökten",
+              "balagha_note": null
+            }
+          ]
+        },
+        {
+          "surah": 97,
+          "ayah": 4,
+          "arabic": "تَنَزَّلُ ٱلۡمَلَـٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذۡنِ رَبِّهِم مِّن كُلِّ أَمۡرٖ",
+          "translation": "Melekler ve Cebrail o gecede Rablerinin izniyle her türlü iş için inerler.",
+          "words": [
+            {
+              "arabic": "تَنَزَّلُ",
+              "transliteration": "tenezzelü",
+              "root": "ن-ز-ل",
+              "pattern": "تَفَعَّلَ",
+              "pos": "fil",
+              "meaning_tr": "inerler",
+              "irab": "{Fiil-i muzâri'}, V. bâb (تَفَعُّل). Fâili 'الملائكة والروح'dur.",
+              "irab_short": "muzâri', V. bâb",
+              "turkish_bridge": "Nüzul, tenezzül bu kökten",
+              "balagha_note": "Tedrîcî inişi ifade eden kalıp"
+            },
+            {
+              "arabic": "ٱلۡمَلَـٰٓئِكَةُ",
+              "transliteration": "el-melâiketü",
+              "root": "م-ل-ك",
+              "pos": "ism",
+              "meaning_tr": "melekler",
+              "irab": "{Fâil}, fiil 'تنزل'in fâili konumunda, merfû. Cem-i müennesdir.",
+              "irab_short": "fâil, merfû",
+              "turkish_bridge": "Melek bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "وَٱلرُّوحُ",
+              "transliteration": "ver-rûhu",
+              "root": "ر-و-ح",
+              "pos": "ism",
+              "meaning_tr": "ve ruh (Cebrail)",
+              "irab": "Başında {harf-i atıf} 'وَ'. 'الروح' ma'tûf konumunda, fâile ma'tûftur, merfû.",
+              "irab_short": "ma'tûf, merfû",
+              "turkish_bridge": "Ruh bu kökten",
+              "balagha_note": "Cebrail'i diğer meleklerden ayırarak özel vurgu"
+            },
+            {
+              "arabic": "فِيهَا",
+              "transliteration": "fîhâ",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "onda, o gecede",
+              "irab": "{Harf-i cer} 'فِي' ve zamîr-i muttasıl 'هَا' (leyletü'l-kadri işaret eder). Zarf-ı mekân.",
+              "irab_short": "cer + zamîr, zarf",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "بِإِذۡنِ",
+              "transliteration": "bi-izni",
+              "root": "ا-ذ-ن",
+              "pos": "ism",
+              "meaning_tr": "izniyle",
+              "irab": "Başında {harf-i cer} 'بِ'. 'إذن' mecrûr, muzâf konumunda. Hâl manası taşır.",
+              "irab_short": "mecrûr, muzâf, hâl",
+              "turkish_bridge": "İzin bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "رَبِّهِم",
+              "transliteration": "rabbihim",
+              "root": "ر-ب-ب",
+              "pos": "ism",
+              "meaning_tr": "rablerinin",
+              "irab": "{Muzâf ileyh}, 'إذن' kelimesine izafet edilmiş. Sonda cem zamîri 'هِمْ' vardır.",
+              "irab_short": "muzâf ileyh, mecrûr",
+              "turkish_bridge": "Rab bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "مِّن",
+              "transliteration": "min",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "-den, için",
+              "irab": "{Harf-i cer}, sebep ve ta'lîl manası verir. 'كل أمر'ı mecrûr yapar.",
+              "irab_short": "harf-i cer",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "كُلِّ",
+              "transliteration": "külli",
+              "root": "ك-ل-ل",
+              "pos": "ism",
+              "meaning_tr": "her",
+              "irab": "{İsm-i mecrûr} 'من' edatıyla. Muzâf konumunda, 'أمر' kelimesine izafet edilmiştir.",
+              "irab_short": "mecrûr, muzâf",
+              "turkish_bridge": "Kül, küllî bu kökten",
+              "balagha_note": "Şümûl ve genellik ifadesi"
+            },
+            {
+              "arabic": "أَمۡرٖ",
+              "transliteration": "emrin",
+              "root": "ا-م-ر",
+              "pos": "ism",
+              "meaning_tr": "iş, emir",
+              "irab": "{Muzâf ileyh}, kendinden önceki 'كل' kelimesine izafet edilmiş, mecrûr konumundadır.",
+              "irab_short": "muzâf ileyh, mecrûr",
+              "turkish_bridge": "Emir bu kökten",
+              "balagha_note": null
+            }
+          ]
+        },
+        {
+          "surah": 97,
+          "ayah": 5,
+          "arabic": "سَلَٰمٌ هِيَ حَتَّىٰ مَطۡلَعِ ٱلۡفَجۡرِ",
+          "translation": "O gece, tan yerinin ağarmasına kadar bir esenliktir.",
+          "words": [
+            {
+              "arabic": "سَلَٰمٌ",
+              "transliteration": "selâmun",
+              "root": "س-ل-م",
+              "pos": "ism",
+              "meaning_tr": "selâmet, esenlik",
+              "irab": "{Haber mukaddem}, 'هي' zamîrinin haberi konumunda. Mübtedâdan önce geldiği için haber mukaddem.",
+              "irab_short": "haber mukaddem, merfû",
+              "turkish_bridge": "Selâm, müslim bu kökten",
+              "balagha_note": "Takdîm sanatı, önem vurgusu"
+            },
+            {
+              "arabic": "هِيَ",
+              "transliteration": "hiye",
+              "root": null,
+              "pos": "ism",
+              "meaning_tr": "o (dişil)",
+              "irab": "{Mübtedâ müeahhhar}, 'ليلة القدر'ı işaret eden zamîr-i munfasıl. Haberden sonra geldiği için mübtedâ müeahhhar.",
+              "irab_short": "mübtedâ müeahhhar",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "حَتَّىٰ",
+              "transliteration": "hattâ",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "kadar",
+              "irab": "{Harf-i cer}, intihâ-yı gâye (son sınır) bildiren edat. Kendinden sonrakini mecrûr yapar.",
+              "irab_short": "harf-i cer, gâye",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "مَطۡلَعِ",
+              "transliteration": "matla'i",
+              "root": "ط-ل-ع",
+              "pattern": "مَفْعَل",
+              "pos": "ism",
+              "meaning_tr": "doğuşu",
+              "irab": "{İsm-i mecrûr} 'حتى' edatıyla. İsm-i mekân/zaman, muzâf konumundadır.",
+              "irab_short": "mecrûr, muzâf, ism-i mekân",
+              "turkish_bridge": "Tulû', matla' bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "ٱلۡفَجۡرِ",
+              "transliteration": "el-fecri",
+              "root": "ف-ج-ر",
+              "pos": "ism",
+              "meaning_tr": "şafağın",
+              "irab": "{Muzâf ileyh}, kendinden önceki 'مطلع' kelimesine izafet edilmiş, mecrûr konumundadır.",
+              "irab_short": "muzâf ileyh, mecrûr",
+              "turkish_bridge": "Fecir bu kökten",
+              "balagha_note": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "name_ar": "القدر"
+}

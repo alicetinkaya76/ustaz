@@ -1,0 +1,1690 @@
+{
+  "surah": 55,
+  "name_ar": "الرحمن",
+  "name_translit": "Ar-Rahman",
+  "type": "medinan",
+  "total_ayahs": 78,
+  "total_words": 351,
+  "ayahs": [
+    {
+      "number": 1,
+      "text_ar": "ٱلرَّحۡمَٰنُ",
+      "text_tr_diyanet": "Rahman olan Allah Kuran'ı öğretti;",
+      "text_tr_vakfi": "Çok merhametli(Allah)",
+      "text_tr_yazir": "Rahmân (çok merhametli olan Allah)",
+      "transliteration": "erraḥmân.",
+      "words_ar": [
+        "ٱلرَّحۡمَٰنُ"
+      ],
+      "words_translit": [
+        "erraḥmân."
+      ],
+      "word_count": 1
+    },
+    {
+      "number": 2,
+      "text_ar": "عَلَّمَ ٱلۡقُرۡءَانَ",
+      "text_tr_diyanet": "Rahman olan Allah Kuran'ı öğretti;",
+      "text_tr_vakfi": "Kur'an'ı öğretti.",
+      "text_tr_yazir": "Kurân'ı öğretti.",
+      "transliteration": "`alleme-lḳur'ân.",
+      "words_ar": [
+        "عَلَّمَ",
+        "ٱلۡقُرۡءَانَ"
+      ],
+      "words_translit": [
+        "`alleme-lḳur'ân."
+      ],
+      "word_count": 2
+    },
+    {
+      "number": 3,
+      "text_ar": "خَلَقَ ٱلۡإِنسَٰنَ",
+      "text_tr_diyanet": "İnsanı yarattı, ona konuşmayı öğretti.",
+      "text_tr_vakfi": "İnsanı yarattı.",
+      "text_tr_yazir": "İnsanı yarattı.",
+      "transliteration": "ḫaleḳa-l'insân.",
+      "words_ar": [
+        "خَلَقَ",
+        "ٱلۡإِنسَٰنَ"
+      ],
+      "words_translit": [
+        "ḫaleḳa-l'insân."
+      ],
+      "word_count": 2
+    },
+    {
+      "number": 4,
+      "text_ar": "عَلَّمَهُ ٱلۡبَيَانَ",
+      "text_tr_diyanet": "İnsanı yarattı, ona konuşmayı öğretti.",
+      "text_tr_vakfi": "Ona açıklamayı öğretti.",
+      "text_tr_yazir": "Ona beyanı öğretti.",
+      "transliteration": "`allemehü-lbeyân.",
+      "words_ar": [
+        "عَلَّمَهُ",
+        "ٱلۡبَيَانَ"
+      ],
+      "words_translit": [
+        "`allemehü-lbeyân."
+      ],
+      "word_count": 2
+    },
+    {
+      "number": 5,
+      "text_ar": "ٱلشَّمۡسُ وَٱلۡقَمَرُ بِحُسۡبَانٖ",
+      "text_tr_diyanet": "Güneş ve ayın hareketleri bir hesaba göredir.",
+      "text_tr_vakfi": "Güneş ve ay bir hesaba göre (hareket etmekte) dir.",
+      "text_tr_yazir": "Güneş de ay da bir hesab iledir.",
+      "transliteration": "eşşemsü velḳameru biḥusbân.",
+      "words_ar": [
+        "ٱلشَّمۡسُ",
+        "وَٱلۡقَمَرُ",
+        "بِحُسۡبَانٖ"
+      ],
+      "words_translit": [
+        "eşşemsü",
+        "velḳameru",
+        "biḥusbân."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 6,
+      "text_ar": "وَٱلنَّجۡمُ وَٱلشَّجَرُ يَسۡجُدَانِ",
+      "text_tr_diyanet": "Bitkiler ve ağaçlar O'nun buyruğuna boyun eğerler.",
+      "text_tr_vakfi": "Bitkiler ve ağaçlar secde ederler.",
+      "text_tr_yazir": "Bitkiler ve ağaçlar secde etmektedirler.",
+      "transliteration": "vennecmü veşşeceru yescüdân.",
+      "words_ar": [
+        "وَٱلنَّجۡمُ",
+        "وَٱلشَّجَرُ",
+        "يَسۡجُدَانِ"
+      ],
+      "words_translit": [
+        "vennecmü",
+        "veşşeceru",
+        "yescüdân."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 7,
+      "text_ar": "وَٱلسَّمَآءَ رَفَعَهَا وَوَضَعَ ٱلۡمِيزَانَ",
+      "text_tr_diyanet": "O, göğü yükseltmiştir; tartıyı koymuştur.",
+      "text_tr_vakfi": "Göğü Allah yükseltti ve mizanı (dengeyi) O koydu.",
+      "text_tr_yazir": "Göğü yükseltti ve mizanı koydu.",
+      "transliteration": "vessemâe rafe`ahâ veveḍa`a-lmîzân.",
+      "words_ar": [
+        "وَٱلسَّمَآءَ",
+        "رَفَعَهَا",
+        "وَوَضَعَ",
+        "ٱلۡمِيزَانَ"
+      ],
+      "words_translit": [
+        "vessemâe",
+        "rafe`ahâ",
+        "veveḍa`a-lmîzân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 8,
+      "text_ar": "أَلَّا تَطۡغَوۡاْ فِي ٱلۡمِيزَانِ",
+      "text_tr_diyanet": "Artık tartıda tecavüz etmeyin.",
+      "text_tr_vakfi": "Sakın dengeyi bozmayın.",
+      "text_tr_yazir": "Sakın tartıda taşkınlık etmeyin.",
+      "transliteration": "ellâ taṭgav fi-lmîzân.",
+      "words_ar": [
+        "أَلَّا",
+        "تَطۡغَوۡاْ",
+        "فِي",
+        "ٱلۡمِيزَانِ"
+      ],
+      "words_translit": [
+        "ellâ",
+        "taṭgav",
+        "fi-lmîzân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 9,
+      "text_ar": "وَأَقِيمُواْ ٱلۡوَزۡنَ بِٱلۡقِسۡطِ وَلَا تُخۡسِرُواْ ٱلۡمِيزَانَ",
+      "text_tr_diyanet": "Tartmayı doğru yapın, tartıyı eksik tutmayın.",
+      "text_tr_vakfi": "Ölçüyü adaletle tutun ve eksik tartmayın.",
+      "text_tr_yazir": "Tartıyı adaletle yapın, terazide eksiklik yapmayın.",
+      "transliteration": "veeḳîmü-lvezne bilḳisṭi velâ tuḫsirü-lmîzân.",
+      "words_ar": [
+        "وَأَقِيمُواْ",
+        "ٱلۡوَزۡنَ",
+        "بِٱلۡقِسۡطِ",
+        "وَلَا",
+        "تُخۡسِرُواْ",
+        "ٱلۡمِيزَانَ"
+      ],
+      "words_translit": [
+        "veeḳîmü-lvezne",
+        "bilḳisṭi",
+        "velâ",
+        "tuḫsirü-lmîzân."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 10,
+      "text_ar": "وَٱلۡأَرۡضَ وَضَعَهَا لِلۡأَنَامِ",
+      "text_tr_diyanet": "Allah, yeri yaratıkları için meydana getirmiştir.",
+      "text_tr_vakfi": "Allah, yeri canlılar için yaratmıştır.",
+      "text_tr_yazir": "(Allah) yeri mahlukat için (aşağıya) koydu.",
+      "transliteration": "vel'arḍa veḍa`ahâ lil'enâm.",
+      "words_ar": [
+        "وَٱلۡأَرۡضَ",
+        "وَضَعَهَا",
+        "لِلۡأَنَامِ"
+      ],
+      "words_translit": [
+        "vel'arḍa",
+        "veḍa`ahâ",
+        "lil'enâm."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 11,
+      "text_ar": "فِيهَا فَٰكِهَةٞ وَٱلنَّخۡلُ ذَاتُ ٱلۡأَكۡمَامِ",
+      "text_tr_diyanet": "Orada meyveler, salkımlı hurma ağaçları, kabuklu taneler, güzel kokulu otlar vardır.",
+      "text_tr_vakfi": "Orada meyveler ve salkımlı hurma ağaçları vardır.",
+      "text_tr_yazir": "Orada meyvalar ve salkımlı hurma ağaçları vardır.",
+      "transliteration": "fîhâ fâkiheh. vennaḫlü ẕâtü-l'ekmâm.",
+      "words_ar": [
+        "فِيهَا",
+        "فَٰكِهَةٞ",
+        "وَٱلنَّخۡلُ",
+        "ذَاتُ",
+        "ٱلۡأَكۡمَامِ"
+      ],
+      "words_translit": [
+        "fîhâ",
+        "fâkiheh.",
+        "vennaḫlü",
+        "ẕâtü-l'ekmâm."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 12,
+      "text_ar": "وَٱلۡحَبُّ ذُو ٱلۡعَصۡفِ وَٱلرَّيۡحَانُ",
+      "text_tr_diyanet": "Orada meyveler, salkımlı hurma ağaçları, kabuklu taneler, güzel kokulu otlar vardır.",
+      "text_tr_vakfi": "Yapraklı daneler ve hoş kokulu bitkiler vardır.",
+      "text_tr_yazir": "Yapraklı taneler ve hoş kokulu bitkiler vardır.",
+      "transliteration": "velḥabbü ẕü-l`aṣfi verrayḥân.",
+      "words_ar": [
+        "وَٱلۡحَبُّ",
+        "ذُو",
+        "ٱلۡعَصۡفِ",
+        "وَٱلرَّيۡحَانُ"
+      ],
+      "words_translit": [
+        "velḥabbü",
+        "ẕü-l`aṣfi",
+        "verrayḥân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 13,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Ey insanlar ve cinler! Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "O halde Rabbinizin nimetlerinden hangisini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 14,
+      "text_ar": "خَلَقَ ٱلۡإِنسَٰنَ مِن صَلۡصَٰلٖ كَٱلۡفَخَّارِ",
+      "text_tr_diyanet": "O, insanı pişmiş çamur gibi kuru balçıktan yaratmıştır.",
+      "text_tr_vakfi": "Allah insanı, pişmiş çamura benzeyen bir balçıktan yarattı.",
+      "text_tr_yazir": "Allah insanı, pişmiş bir çamura benzeyen bir balçıktan yarattı.",
+      "transliteration": "ḫaleḳa-l'insâne min ṣalṣâlin kelfeḫḫâr.",
+      "words_ar": [
+        "خَلَقَ",
+        "ٱلۡإِنسَٰنَ",
+        "مِن",
+        "صَلۡصَٰلٖ",
+        "كَٱلۡفَخَّارِ"
+      ],
+      "words_translit": [
+        "ḫaleḳa-l'insâne",
+        "min",
+        "ṣalṣâlin",
+        "kelfeḫḫâr."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 15,
+      "text_ar": "وَخَلَقَ ٱلۡجَآنَّ مِن مَّارِجٖ مِّن نَّارٖ",
+      "text_tr_diyanet": "Cinleri de yalın bir alevden yaratmıştır.",
+      "text_tr_vakfi": "Cinleri öz ateşten yarattı.",
+      "text_tr_yazir": "Cinleri de hâlis ateşten yarattı.",
+      "transliteration": "veḫaleḳa-lcânne mim mâricim min nâr.",
+      "words_ar": [
+        "وَخَلَقَ",
+        "ٱلۡجَآنَّ",
+        "مِن",
+        "مَّارِجٖ",
+        "مِّن",
+        "نَّارٖ"
+      ],
+      "words_translit": [
+        "veḫaleḳa-lcânne",
+        "mim",
+        "mâricim",
+        "min",
+        "nâr."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 16,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken; Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "O halde, Rabbinizin nimetlerinden hangisini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 17,
+      "text_ar": "رَبُّ ٱلۡمَشۡرِقَيۡنِ وَرَبُّ ٱلۡمَغۡرِبَيۡنِ",
+      "text_tr_diyanet": "O, iki doğunun Rabbidir, iki batının Rabbidir.",
+      "text_tr_vakfi": "(O,) iki doğunun ve iki batının Rabbidir.",
+      "text_tr_yazir": "(O) iki doğunun ve iki batının Rabbidir.",
+      "transliteration": "rabbü-lmeşriḳayni verabbü-lmagribeyn.",
+      "words_ar": [
+        "رَبُّ",
+        "ٱلۡمَشۡرِقَيۡنِ",
+        "وَرَبُّ",
+        "ٱلۡمَغۡرِبَيۡنِ"
+      ],
+      "words_translit": [
+        "rabbü-lmeşriḳayni",
+        "verabbü-lmagribeyn."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 18,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Öyleyse Rabbinizin hangi nimetlerini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 19,
+      "text_ar": "مَرَجَ ٱلۡبَحۡرَيۡنِ يَلۡتَقِيَانِ",
+      "text_tr_diyanet": "Acı ve tatlı sulu iki denizi birbirine kavuşmamak üzere salıvermiştir.",
+      "text_tr_vakfi": "İki denizi birbirine kavuşmak üzere salıvermiştir.",
+      "text_tr_yazir": "(Acı ve tatlı) iki denizi salıverdi birbirine kavuşuyorlar.",
+      "transliteration": "merace-lbaḥrayni yelteḳiyân.",
+      "words_ar": [
+        "مَرَجَ",
+        "ٱلۡبَحۡرَيۡنِ",
+        "يَلۡتَقِيَانِ"
+      ],
+      "words_translit": [
+        "merace-lbaḥrayni",
+        "yelteḳiyân."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 20,
+      "text_ar": "بَيۡنَهُمَا بَرۡزَخٞ لَّا يَبۡغِيَانِ",
+      "text_tr_diyanet": "Aralarında bir engel vardır; birbirinin sınırını aşamazlar.",
+      "text_tr_vakfi": "Aralarında bir engel vardır, birbirine geçip karışmazlar.",
+      "text_tr_yazir": "Fakat aralarında bir engel vardır, birbirlerine geçip karışmıyorlar.",
+      "transliteration": "beynehümâ berzeḫul lâ yebgiyân.",
+      "words_ar": [
+        "بَيۡنَهُمَا",
+        "بَرۡزَخٞ",
+        "لَّا",
+        "يَبۡغِيَانِ"
+      ],
+      "words_translit": [
+        "beynehümâ",
+        "berzeḫul",
+        "lâ",
+        "yebgiyân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 21,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "O halde Rabbinizin nimetlerinden hangisini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 22,
+      "text_ar": "يَخۡرُجُ مِنۡهُمَا ٱللُّؤۡلُؤُ وَٱلۡمَرۡجَانُ",
+      "text_tr_diyanet": "Bu iki denizden de inci ve mercan çıkar.",
+      "text_tr_vakfi": "İkisinden de inci ve mercan çıkar.",
+      "text_tr_yazir": "İkisinden de inci ve mercan çıkar.",
+      "transliteration": "yaḫrucü minhüme-llü'lüü velmercân.",
+      "words_ar": [
+        "يَخۡرُجُ",
+        "مِنۡهُمَا",
+        "ٱللُّؤۡلُؤُ",
+        "وَٱلۡمَرۡجَانُ"
+      ],
+      "words_translit": [
+        "yaḫrucü",
+        "minhüme-llü'lüü",
+        "velmercân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 23,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Şimdi Rabbinizin nimetlerinden hangisini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 24,
+      "text_ar": "وَلَهُ ٱلۡجَوَارِ ٱلۡمُنشَـَٔاتُ فِي ٱلۡبَحۡرِ كَٱلۡأَعۡلَٰمِ",
+      "text_tr_diyanet": "Denizde yürüyen dağlar gibi gemiler O'nundur.",
+      "text_tr_vakfi": "Denizde yüce dağlar gibi yükselen gemiler de O'nundur.",
+      "text_tr_yazir": "Denizde koca dağlar gibi yükselen gemiler de onundur.",
+      "transliteration": "velehü-lcevâri-lmünşeâtü fi-lbaḥri kel'a`lâm.",
+      "words_ar": [
+        "وَلَهُ",
+        "ٱلۡجَوَارِ",
+        "ٱلۡمُنشَـَٔاتُ",
+        "فِي",
+        "ٱلۡبَحۡرِ",
+        "كَٱلۡأَعۡلَٰمِ"
+      ],
+      "words_translit": [
+        "velehü-lcevâri-lmünşeâtü",
+        "fi-lbaḥri",
+        "kel'a`lâm."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 25,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Öyleyken Rabbinizin nimetlerinden hangisini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 26,
+      "text_ar": "كُلُّ مَنۡ عَلَيۡهَا فَانٖ",
+      "text_tr_diyanet": "Yeryüzünde bulunan her şey fanidir.",
+      "text_tr_vakfi": "Yer yüzünde bulunan her canlı yok olacak.",
+      "text_tr_yazir": "Yer üzerinde bulunan her şey fânidir.",
+      "transliteration": "küllü men `aleyhâ fân.",
+      "words_ar": [
+        "كُلُّ",
+        "مَنۡ",
+        "عَلَيۡهَا",
+        "فَانٖ"
+      ],
+      "words_translit": [
+        "küllü",
+        "men",
+        "`aleyhâ",
+        "fân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 27,
+      "text_ar": "وَيَبۡقَىٰ وَجۡهُ رَبِّكَ ذُو ٱلۡجَلَٰلِ وَٱلۡإِكۡرَامِ",
+      "text_tr_diyanet": "Ancak, yüce ve cömert olan Rabbinin varlığı bakidir.",
+      "text_tr_vakfi": "Ancak azamet ve ikram sahibi Rabbinin zatı baki kalacak.",
+      "text_tr_yazir": "Yalnız celâl ve ikram sahibi Rabbinin yüzü (zâtı) baki kalacaktır.",
+      "transliteration": "veyebḳâ vechü rabbike ẕü-lcelâli vel'ikrâm.",
+      "words_ar": [
+        "وَيَبۡقَىٰ",
+        "وَجۡهُ",
+        "رَبِّكَ",
+        "ذُو",
+        "ٱلۡجَلَٰلِ",
+        "وَٱلۡإِكۡرَامِ"
+      ],
+      "words_translit": [
+        "veyebḳâ",
+        "vechü",
+        "rabbike",
+        "ẕü-lcelâli",
+        "vel'ikrâm."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 28,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Öyleyken Rabbinizin hangi nimetlerini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 29,
+      "text_ar": "يَسۡـَٔلُهُۥ مَن فِي ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِۚ كُلَّ يَوۡمٍ هُوَ فِي شَأۡنٖ",
+      "text_tr_diyanet": "Göklerde ve yerde olan kimseler her şeyi O'ndan isterler; O her an kainata tasarruf etmektedir.",
+      "text_tr_vakfi": "Göklerde ve yerde bulunan herkes, O'ndan ister. O, her an yaratma halindedir.",
+      "text_tr_yazir": "Göklerde ve yerde bulunanlar, O'ndan isterler. O, her gün yeni bir iştedir.",
+      "transliteration": "yes'elühû men fi-ssemâvâti vel'arḍ. külle yevmin hüve fî şe'n.",
+      "words_ar": [
+        "يَسۡـَٔلُهُۥ",
+        "مَن",
+        "فِي",
+        "ٱلسَّمَٰوَٰتِ",
+        "وَٱلۡأَرۡضِ",
+        "كُلَّ",
+        "يَوۡمٍ",
+        "هُوَ",
+        "فِي",
+        "شَأۡنٖ"
+      ],
+      "words_translit": [
+        "yes'elühû",
+        "men",
+        "fi-ssemâvâti",
+        "vel'arḍ.",
+        "külle",
+        "yevmin",
+        "hüve",
+        "fî",
+        "şe'n."
+      ],
+      "word_count": 10
+    },
+    {
+      "number": 30,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "O halde Rabbinizin hangi nimetlerini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 31,
+      "text_ar": "سَنَفۡرُغُ لَكُمۡ أَيُّهَ ٱلثَّقَلَانِ",
+      "text_tr_diyanet": "Ey insan ve cin toplulukları! Sizin de hesabınızı ele alacağız.",
+      "text_tr_vakfi": "Ey insan ve cin! Sizin de hesabınızı ele alacağız.",
+      "text_tr_yazir": "Ey insan ve cin! sizin de hesabınızı ele alacağız.",
+      "transliteration": "senefrugu leküm eyyühe-ŝŝeḳalân.",
+      "words_ar": [
+        "سَنَفۡرُغُ",
+        "لَكُمۡ",
+        "أَيُّهَ",
+        "ٱلثَّقَلَانِ"
+      ],
+      "words_translit": [
+        "senefrugu",
+        "leküm",
+        "eyyühe-ŝŝeḳalân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 32,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Hal bu iken Rabbinizin nimetlerinden hangisini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 33,
+      "text_ar": "يَٰمَعۡشَرَ ٱلۡجِنِّ وَٱلۡإِنسِ إِنِ ٱسۡتَطَعۡتُمۡ أَن تَنفُذُواْ مِنۡ أَقۡطَارِ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِ فَٱنفُذُواْۚ لَا تَنفُذُونَ إِلَّا بِسُلۡطَٰنٖ",
+      "text_tr_diyanet": "Ey cin ve insan toplulukları! Göklerin ve yerin çevresini aşıp geçmeye gücünüz yetiyorsa geçin! Ama Allah'ın verdiği bir güç olmaksızın geçemezsiniz ki!",
+      "text_tr_vakfi": "Ey cin ve insan toplulukları! Göklerin ve yerin çerçevesinden çıkıp gitmeye gücünüz yetiyorsa geçin. Ancak büyük bir güçle çıkıp gidebilirsiniz.",
+      "text_tr_yazir": "Ey cin ve insan toplulukları! Göklerin ve yerin çevresinden geçmeye gücünüz yeterse geçin gidin. Allah'ın verdiği bir güç olmadan geçemezsiniz.",
+      "transliteration": "yâ ma`şera-lcinni vel'insi ini-steṭa`tüm en tenfüẕû min aḳṭâri-ssemâvâti vel'arḍi fenfüẕû. lâ tenfüẕûne illâ bisülṭân.",
+      "words_ar": [
+        "يَٰمَعۡشَرَ",
+        "ٱلۡجِنِّ",
+        "وَٱلۡإِنسِ",
+        "إِنِ",
+        "ٱسۡتَطَعۡتُمۡ",
+        "أَن",
+        "تَنفُذُواْ",
+        "مِنۡ",
+        "أَقۡطَارِ",
+        "ٱلسَّمَٰوَٰتِ",
+        "وَٱلۡأَرۡضِ",
+        "فَٱنفُذُواْ",
+        "لَا",
+        "تَنفُذُونَ",
+        "إِلَّا",
+        "بِسُلۡطَٰنٖ"
+      ],
+      "words_translit": [
+        "yâ",
+        "ma`şera-lcinni",
+        "vel'insi",
+        "ini-steṭa`tüm",
+        "en",
+        "tenfüẕû",
+        "min",
+        "aḳṭâri-ssemâvâti",
+        "vel'arḍi",
+        "fenfüẕû.",
+        "lâ",
+        "tenfüẕûne",
+        "illâ",
+        "bisülṭân."
+      ],
+      "word_count": 16
+    },
+    {
+      "number": 34,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Öyleyse Rabbinizin hangi nimetlerini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 35,
+      "text_ar": "يُرۡسَلُ عَلَيۡكُمَا شُوَاظٞ مِّن نَّارٖ وَنُحَاسٞ فَلَا تَنتَصِرَانِ",
+      "text_tr_diyanet": "Ey insanlar ve cinler! Üzerinize dumansız bir alev ve ateşsiz bir duman gönderilir de kurtulamazsınız.",
+      "text_tr_vakfi": "Üzerinize ateşten alev ve duman gönderilir de birbirinizi kurtaramaz ve yardımlaşamazsınız.",
+      "text_tr_yazir": "Üzerinize ateşten alev ve duman gönderilir, kendinizi savunamazsınız.",
+      "transliteration": "yürselü `aleykümâ şüvâżum min nâriv venüḥâsün felâ tenteṣirân.",
+      "words_ar": [
+        "يُرۡسَلُ",
+        "عَلَيۡكُمَا",
+        "شُوَاظٞ",
+        "مِّن",
+        "نَّارٖ",
+        "وَنُحَاسٞ",
+        "فَلَا",
+        "تَنتَصِرَانِ"
+      ],
+      "words_translit": [
+        "yürselü",
+        "`aleykümâ",
+        "şüvâżum",
+        "min",
+        "nâriv",
+        "venüḥâsün",
+        "felâ",
+        "tenteṣirân."
+      ],
+      "word_count": 8
+    },
+    {
+      "number": 36,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Öyleyken Rabbinizin hangi nimetlerini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 37,
+      "text_ar": "فَإِذَا ٱنشَقَّتِ ٱلسَّمَآءُ فَكَانَتۡ وَرۡدَةٗ كَٱلدِّهَانِ",
+      "text_tr_diyanet": "Gök yarılıp da, gül gibi kızardığı, yağ gibi eridiği zaman haliniz nice olur?",
+      "text_tr_vakfi": "Gök yarılıp da kızarmış yağ renginde gül gibi olduğu zaman,",
+      "text_tr_yazir": "Gök yarılıp da, erimiş yağ gibi kıpkırmızı bir gül olduğu zaman...",
+      "transliteration": "feiẕe-nşeḳḳati-ssemâü fekânet verdeten keldihân.",
+      "words_ar": [
+        "فَإِذَا",
+        "ٱنشَقَّتِ",
+        "ٱلسَّمَآءُ",
+        "فَكَانَتۡ",
+        "وَرۡدَةٗ",
+        "كَٱلدِّهَانِ"
+      ],
+      "words_translit": [
+        "feiẕe-nşeḳḳati-ssemâü",
+        "fekânet",
+        "verdeten",
+        "keldihân."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 38,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Rabbinizin hangi nimetlerini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 39,
+      "text_ar": "فَيَوۡمَئِذٖ لَّا يُسۡـَٔلُ عَن ذَنۢبِهِۦٓ إِنسٞ وَلَا جَآنّٞ",
+      "text_tr_diyanet": "O gün ne insana ve ne cine suçu sorulur.",
+      "text_tr_vakfi": "İşte o gün insana da cine de günahı sorulmaz.",
+      "text_tr_yazir": "İşte o gün, ne insana ne de cinne günahından sorulmaz.",
+      "transliteration": "feyevmeiẕil lâ yüs'elü `an ẕembihî insüv velâ cânn.",
+      "words_ar": [
+        "فَيَوۡمَئِذٖ",
+        "لَّا",
+        "يُسۡـَٔلُ",
+        "عَن",
+        "ذَنۢبِهِۦٓ",
+        "إِنسٞ",
+        "وَلَا",
+        "جَآنّٞ"
+      ],
+      "words_translit": [
+        "feyevmeiẕil",
+        "lâ",
+        "yüs'elü",
+        "`an",
+        "ẕembihî",
+        "insüv",
+        "velâ",
+        "cânn."
+      ],
+      "word_count": 8
+    },
+    {
+      "number": 40,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "O halde Rabbinizin nimetlerinden hangisini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 41,
+      "text_ar": "يُعۡرَفُ ٱلۡمُجۡرِمُونَ بِسِيمَٰهُمۡ فَيُؤۡخَذُ بِٱلنَّوَٰصِي وَٱلۡأَقۡدَامِ",
+      "text_tr_diyanet": "Suçlular simalarından tanınırlar da, alın saçlarından ve ayaklarından yakalanırlar.",
+      "text_tr_vakfi": "Suçlular, simalarından tanınır, perçemlerinden ve ayaklarından yakalanırlar.",
+      "text_tr_yazir": "Suçlular simalarından tanınır, alınlarından ve ayaklarından tutulur.",
+      "transliteration": "yü`rafü-lmücrimûne bisîmâhüm feyü'ḫaẕü binnevâṣî vel'aḳdâm.",
+      "words_ar": [
+        "يُعۡرَفُ",
+        "ٱلۡمُجۡرِمُونَ",
+        "بِسِيمَٰهُمۡ",
+        "فَيُؤۡخَذُ",
+        "بِٱلنَّوَٰصِي",
+        "وَٱلۡأَقۡدَامِ"
+      ],
+      "words_translit": [
+        "yü`rafü-lmücrimûne",
+        "bisîmâhüm",
+        "feyü'ḫaẕü",
+        "binnevâṣî",
+        "vel'aḳdâm."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 42,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Öyleyken Rabbinizin hangi nimetlerini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 43,
+      "text_ar": "هَٰذِهِۦ جَهَنَّمُ ٱلَّتِي يُكَذِّبُ بِهَا ٱلۡمُجۡرِمُونَ",
+      "text_tr_diyanet": "İşte suçluların yalanladıkları cehennem budur.",
+      "text_tr_vakfi": "İşte bu, suçluların yalanladıkları cehennemdir.",
+      "text_tr_yazir": "İşte bu, suçluların yalanladığı cehennemdir.",
+      "transliteration": "hâẕihî cehennemü-lletî yükeẕẕibü bihe-lmücrimûn.",
+      "words_ar": [
+        "هَٰذِهِۦ",
+        "جَهَنَّمُ",
+        "ٱلَّتِي",
+        "يُكَذِّبُ",
+        "بِهَا",
+        "ٱلۡمُجۡرِمُونَ"
+      ],
+      "words_translit": [
+        "hâẕihî",
+        "cehennemü-lletî",
+        "yükeẕẕibü",
+        "bihe-lmücrimûn."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 44,
+      "text_ar": "يَطُوفُونَ بَيۡنَهَا وَبَيۡنَ حَمِيمٍ ءَانٖ",
+      "text_tr_diyanet": "Onlar, cehennem ateşiyle kaynar su arasında dolaşır dururlar.",
+      "text_tr_vakfi": "Onlar, cehennemle kaynar su arasında dolaşır dururlar.",
+      "text_tr_yazir": "Onunla kaynar su arasında dolaşırlar.",
+      "transliteration": "yeṭûfûne beynehâ vebeyne ḥamîmin ân.",
+      "words_ar": [
+        "يَطُوفُونَ",
+        "بَيۡنَهَا",
+        "وَبَيۡنَ",
+        "حَمِيمٍ",
+        "ءَانٖ"
+      ],
+      "words_translit": [
+        "yeṭûfûne",
+        "beynehâ",
+        "vebeyne",
+        "ḥamîmin",
+        "ân."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 45,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Şimdi Rabbinizin nimetlerinden hangisini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 46,
+      "text_ar": "وَلِمَنۡ خَافَ مَقَامَ رَبِّهِۦ جَنَّتَانِ",
+      "text_tr_diyanet": "Rabbine karşı durmaktan korkan kimseye iki cennet vardır.",
+      "text_tr_vakfi": "Rabbinin huzurunda durmaktan korkan kimselere iki cennet vardır.",
+      "text_tr_yazir": "Rabbinin makamından korkan kimselere iki cennet vardır.",
+      "transliteration": "velimen ḫâfe meḳâme rabbihî cennetân.",
+      "words_ar": [
+        "وَلِمَنۡ",
+        "خَافَ",
+        "مَقَامَ",
+        "رَبِّهِۦ",
+        "جَنَّتَانِ"
+      ],
+      "words_translit": [
+        "velimen",
+        "ḫâfe",
+        "meḳâme",
+        "rabbihî",
+        "cennetân."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 47,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Öyleyken Rabbinizin nimetlerinden hangisini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 48,
+      "text_ar": "ذَوَاتَآ أَفۡنَانٖ",
+      "text_tr_diyanet": "Bu iki cennet türlü ağaçlarla doludur.",
+      "text_tr_vakfi": "İki cennet de çeşit çeşit ağaçlarla doludur.",
+      "text_tr_yazir": "İkisinin de çeşitli ağaçları, meyvaları vardır.",
+      "transliteration": "ẕevâtâ efnân.",
+      "words_ar": [
+        "ذَوَاتَآ",
+        "أَفۡنَانٖ"
+      ],
+      "words_translit": [
+        "ẕevâtâ",
+        "efnân."
+      ],
+      "word_count": 2
+    },
+    {
+      "number": 49,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Öyleyse Rabbinizin hangi nimetlerini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 50,
+      "text_ar": "فِيهِمَا عَيۡنَانِ تَجۡرِيَانِ",
+      "text_tr_diyanet": "Bu cennetlerden akan iki kaynak vardır.",
+      "text_tr_vakfi": "İkisinde de akıp giden iki kaynak vardır.",
+      "text_tr_yazir": "İkisinde de akıp giden iki kaynak vardır.",
+      "transliteration": "fîhimâ `aynâni tecriyân.",
+      "words_ar": [
+        "فِيهِمَا",
+        "عَيۡنَانِ",
+        "تَجۡرِيَانِ"
+      ],
+      "words_translit": [
+        "fîhimâ",
+        "`aynâni",
+        "tecriyân."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 51,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Öyleyken Rabbinizin hangi nimetlerini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 52,
+      "text_ar": "فِيهِمَا مِن كُلِّ فَٰكِهَةٖ زَوۡجَانِ",
+      "text_tr_diyanet": "Bu cennetlerde türlü meyveden çift çift vardır.",
+      "text_tr_vakfi": "İkisinde de her türlü meyveden çift çift vardır.",
+      "text_tr_yazir": "İkisinde de her türlü meyvadan çift çift vardır.",
+      "transliteration": "fîhimâ min külli fâkihetin zevcân.",
+      "words_ar": [
+        "فِيهِمَا",
+        "مِن",
+        "كُلِّ",
+        "فَٰكِهَةٖ",
+        "زَوۡجَانِ"
+      ],
+      "words_translit": [
+        "fîhimâ",
+        "min",
+        "külli",
+        "fâkihetin",
+        "zevcân."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 53,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Öyleyken Rabbinizin hangi nimetlerini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 54,
+      "text_ar": "مُتَّكِـِٔينَ عَلَىٰ فُرُشِۭ بَطَآئِنُهَا مِنۡ إِسۡتَبۡرَقٖۚ وَجَنَى ٱلۡجَنَّتَيۡنِ دَانٖ",
+      "text_tr_diyanet": "Orada, örtüleri parlak atlastan yataklara yaslanırlar; iki cennetin meyvelerini de kolayca toplarlar.",
+      "text_tr_vakfi": "Hepsi de örtüleri atlastan minderlere yaslanırlar. İki cennetin de meyvesinin devşirilmesi yakındır.",
+      "text_tr_yazir": "Astarları atlastan yataklara yaslanırlar. İki cennetin de devşirmesi yakındır.",
+      "transliteration": "müttekiîne `alâ füruşim beṭâinühâ min istebraḳ. vecene-lcenneteyni dân.",
+      "words_ar": [
+        "مُتَّكِـِٔينَ",
+        "عَلَىٰ",
+        "فُرُشِۭ",
+        "بَطَآئِنُهَا",
+        "مِنۡ",
+        "إِسۡتَبۡرَقٖ",
+        "وَجَنَى",
+        "ٱلۡجَنَّتَيۡنِ",
+        "دَانٖ"
+      ],
+      "words_translit": [
+        "müttekiîne",
+        "`alâ",
+        "füruşim",
+        "beṭâinühâ",
+        "min",
+        "istebraḳ.",
+        "vecene-lcenneteyni",
+        "dân."
+      ],
+      "word_count": 9
+    },
+    {
+      "number": 55,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Öyleyken Rabbinizin hangi nimetlerini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 56,
+      "text_ar": "فِيهِنَّ قَٰصِرَٰتُ ٱلطَّرۡفِ لَمۡ يَطۡمِثۡهُنَّ إِنسٞ قَبۡلَهُمۡ وَلَا جَآنّٞ",
+      "text_tr_diyanet": "Orada, bakışlarını yalnız eşlerine çevirmiş, daha önce ne insan ve ne de cinlerin dokunmuş olduğu eşler vardır.",
+      "text_tr_vakfi": "Oralarda gözlerini yalnız eşlerine çevirmiş güzeller var ki, bunlardan önce onlara ne insan ne de cin dokunmuştur.",
+      "text_tr_yazir": "Oralarda gözlerini yalnız eşlerine çevirmiş dilberler var ki, bunlardan önce onlara ne insan ne de cin dokunmuştur.",
+      "transliteration": "fîhinne ḳâṣirâtu-ṭṭarfi lem yaṭmiŝhünne insün ḳablehüm velâ cânn.",
+      "words_ar": [
+        "فِيهِنَّ",
+        "قَٰصِرَٰتُ",
+        "ٱلطَّرۡفِ",
+        "لَمۡ",
+        "يَطۡمِثۡهُنَّ",
+        "إِنسٞ",
+        "قَبۡلَهُمۡ",
+        "وَلَا",
+        "جَآنّٞ"
+      ],
+      "words_translit": [
+        "fîhinne",
+        "ḳâṣirâtu-ṭṭarfi",
+        "lem",
+        "yaṭmiŝhünne",
+        "insün",
+        "ḳablehüm",
+        "velâ",
+        "cânn."
+      ],
+      "word_count": 9
+    },
+    {
+      "number": 57,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Öyleyken Rabbinizin hangi nimetlerini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 58,
+      "text_ar": "كَأَنَّهُنَّ ٱلۡيَاقُوتُ وَٱلۡمَرۡجَانُ",
+      "text_tr_diyanet": "Onlar yakut ve mercan gibidirler.",
+      "text_tr_vakfi": "Sanki onlar yakut ve mercandırlar.",
+      "text_tr_yazir": "Sanki onlar yâkut ve mercandırlar.",
+      "transliteration": "keennehünne-lyâḳûtü velmercân.",
+      "words_ar": [
+        "كَأَنَّهُنَّ",
+        "ٱلۡيَاقُوتُ",
+        "وَٱلۡمَرۡجَانُ"
+      ],
+      "words_translit": [
+        "keennehünne-lyâḳûtü",
+        "velmercân."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 59,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Öyleyken Rabbinizin hangi nimetlerini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 60,
+      "text_ar": "هَلۡ جَزَآءُ ٱلۡإِحۡسَٰنِ إِلَّا ٱلۡإِحۡسَٰنُ",
+      "text_tr_diyanet": "İyiliğin karşılığı ancak iyilik değil midir?",
+      "text_tr_vakfi": "İyiliğin karşılığı iyilikten başka bir şey midir?",
+      "text_tr_yazir": "İyiliğin karşılığı, yalnız iyilik değil midir?",
+      "transliteration": "hel cezâü-l'iḥsâni ille-l'iḥsân.",
+      "words_ar": [
+        "هَلۡ",
+        "جَزَآءُ",
+        "ٱلۡإِحۡسَٰنِ",
+        "إِلَّا",
+        "ٱلۡإِحۡسَٰنُ"
+      ],
+      "words_translit": [
+        "hel",
+        "cezâü-l'iḥsâni",
+        "ille-l'iḥsân."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 61,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Öyleyken Rabbinizin hangi nimetlerini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 62,
+      "text_ar": "وَمِن دُونِهِمَا جَنَّتَانِ",
+      "text_tr_diyanet": "Bu iki cennetten başka iki cennet daha vardır.",
+      "text_tr_vakfi": "Bu ikisinden başka iki cennet daha vardır.",
+      "text_tr_yazir": "Bu ikisinden başka iki cennet daha vardır.",
+      "transliteration": "vemin dûnihimâ cennetân.",
+      "words_ar": [
+        "وَمِن",
+        "دُونِهِمَا",
+        "جَنَّتَانِ"
+      ],
+      "words_translit": [
+        "vemin",
+        "dûnihimâ",
+        "cennetân."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 63,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Öyleyken Rabbinizin hangi nimetlerini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 64,
+      "text_ar": "مُدۡهَآمَّتَانِ",
+      "text_tr_diyanet": "Renkleri koyu yeşildir.",
+      "text_tr_vakfi": "Bu cennetler koyu yeşildirler.",
+      "text_tr_yazir": "(Bu cennetler) yemyeşildirler.",
+      "transliteration": "müẕâmmetân.",
+      "words_ar": [
+        "مُدۡهَآمَّتَانِ"
+      ],
+      "words_translit": [
+        "müẕâmmetân."
+      ],
+      "word_count": 1
+    },
+    {
+      "number": 65,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Öyleyken Rabbinizin hangi nimetlerini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 66,
+      "text_ar": "فِيهِمَا عَيۡنَانِ نَضَّاخَتَانِ",
+      "text_tr_diyanet": "İkisinde de durmadan fışkıran iki kaynak vardır.",
+      "text_tr_vakfi": "İkisinde de durmadan fışkıran iki kaynak vardır.",
+      "text_tr_yazir": "İkisinde de fışkıran iki kaynak vardır.",
+      "transliteration": "fîhimâ `aynâni neḍḍâḫatân.",
+      "words_ar": [
+        "فِيهِمَا",
+        "عَيۡنَانِ",
+        "نَضَّاخَتَانِ"
+      ],
+      "words_translit": [
+        "fîhimâ",
+        "`aynâni",
+        "neḍḍâḫatân."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 67,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Öyleyken Rabbinizin hangi nimetlerini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 68,
+      "text_ar": "فِيهِمَا فَٰكِهَةٞ وَنَخۡلٞ وَرُمَّانٞ",
+      "text_tr_diyanet": "İkisinde de türlü türlü meyveler, hurmalıklar ve nar ağaçları vardır.",
+      "text_tr_vakfi": "İkisinde de her türlü meyveler, hurma ve nar vardır.",
+      "text_tr_yazir": "İkisinde de her türlü meyva, hurma ve nar vardır.",
+      "transliteration": "fîhimâ fâkihetüv venaḫlüv verummân.",
+      "words_ar": [
+        "فِيهِمَا",
+        "فَٰكِهَةٞ",
+        "وَنَخۡلٞ",
+        "وَرُمَّانٞ"
+      ],
+      "words_translit": [
+        "fîhimâ",
+        "fâkihetüv",
+        "venaḫlüv",
+        "verummân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 69,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Öyleyken Rabbinizin hangi nimetlerini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 70,
+      "text_ar": "فِيهِنَّ خَيۡرَٰتٌ حِسَانٞ",
+      "text_tr_diyanet": "Oralarda iyi huylu güzel kadınlar vardır.",
+      "text_tr_vakfi": "İçlerinde huyu güzel yüzü güzel kadınlar vardır.",
+      "text_tr_yazir": "İçlerinde güzel huylu, güzel yüzlü kadınlar vardır.",
+      "transliteration": "fîhinne ḫayrâtün ḥisân.",
+      "words_ar": [
+        "فِيهِنَّ",
+        "خَيۡرَٰتٌ",
+        "حِسَانٞ"
+      ],
+      "words_translit": [
+        "fîhinne",
+        "ḫayrâtün",
+        "ḥisân."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 71,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Öyleyken Rabbinizin hangi nimetlerini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 72,
+      "text_ar": "حُورٞ مَّقۡصُورَٰتٞ فِي ٱلۡخِيَامِ",
+      "text_tr_diyanet": "Çadırlar içinde ceylan gözlüler vardır.",
+      "text_tr_vakfi": "Otağlar içinde sahiplerine tahsis edilmiş huriler vardır.",
+      "text_tr_yazir": "Çadırlar içerisinde gözlerini yalnız kocalarına çevirmiş hûriler vardır.",
+      "transliteration": "ḥûrum maḳṣûrâtün fi-lḫiyâm.",
+      "words_ar": [
+        "حُورٞ",
+        "مَّقۡصُورَٰتٞ",
+        "فِي",
+        "ٱلۡخِيَامِ"
+      ],
+      "words_translit": [
+        "ḥûrum",
+        "maḳṣûrâtün",
+        "fi-lḫiyâm."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 73,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Öyleyken Rabbinizin hangi nimetlerini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 74,
+      "text_ar": "لَمۡ يَطۡمِثۡهُنَّ إِنسٞ قَبۡلَهُمۡ وَلَا جَآنّٞ",
+      "text_tr_diyanet": "Onlara daha önce insan da, cin de dokunmamıştır.",
+      "text_tr_vakfi": "Bunlara onlardan önce ne bir insan ne bir cin dokunmuştur.",
+      "text_tr_yazir": "Bunlardan önce onlara ne insan ne de cin dokunmuştur.",
+      "transliteration": "lem yaṭmiŝhünne insün ḳablehüm velâ cânn.",
+      "words_ar": [
+        "لَمۡ",
+        "يَطۡمِثۡهُنَّ",
+        "إِنسٞ",
+        "قَبۡلَهُمۡ",
+        "وَلَا",
+        "جَآنّٞ"
+      ],
+      "words_translit": [
+        "lem",
+        "yaṭmiŝhünne",
+        "insün",
+        "ḳablehüm",
+        "velâ",
+        "cânn."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 75,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Öyleyken Rabbinizin hangi nimetlerini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 76,
+      "text_ar": "مُتَّكِـِٔينَ عَلَىٰ رَفۡرَفٍ خُضۡرٖ وَعَبۡقَرِيٍّ حِسَانٖ",
+      "text_tr_diyanet": "Cennetlikler orada yeşil yastıklara ve harikulade işlemeli döşeklere yaslanırlar.",
+      "text_tr_vakfi": "Yeşil yastıklara ve harikulade güzel döşemelere yaslanırlar.",
+      "text_tr_yazir": "Yeşil yastıklara ve hârikulâde güzel işlemeli döşeklere yaslanırlar.",
+      "transliteration": "müttekiîne `alâ rafrafin ḫuḍriv ve`abḳariyyin ḥisân.",
+      "words_ar": [
+        "مُتَّكِـِٔينَ",
+        "عَلَىٰ",
+        "رَفۡرَفٍ",
+        "خُضۡرٖ",
+        "وَعَبۡقَرِيٍّ",
+        "حِسَانٖ"
+      ],
+      "words_translit": [
+        "müttekiîne",
+        "`alâ",
+        "rafrafin",
+        "ḫuḍriv",
+        "ve`abḳariyyin",
+        "ḥisân."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 77,
+      "text_ar": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "text_tr_diyanet": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız?",
+      "text_tr_vakfi": "Öyleyken Rabbinizin hangi nimetlerini yalanlayabilirsiniz?",
+      "text_tr_yazir": "Şimdi Rabbinizin hangi nimetlerini yalanlıyorsunuz?",
+      "transliteration": "febieyyi âlâi rabbikümâ tükeẕẕibân.",
+      "words_ar": [
+        "فَبِأَيِّ",
+        "ءَالَآءِ",
+        "رَبِّكُمَا",
+        "تُكَذِّبَانِ"
+      ],
+      "words_translit": [
+        "febieyyi",
+        "âlâi",
+        "rabbikümâ",
+        "tükeẕẕibân."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 78,
+      "text_ar": "تَبَٰرَكَ ٱسۡمُ رَبِّكَ ذِي ٱلۡجَلَٰلِ وَٱلۡإِكۡرَامِ",
+      "text_tr_diyanet": "Büyük ve pek cömert olan Rabbinin adı ne yücedir!",
+      "text_tr_vakfi": "Büyüklük ve ikram sahibi Rabbinin adı yücelerden yücedir.",
+      "text_tr_yazir": "Büyüklük ve ikram sahibi Rabbinin adı ne yücedir!",
+      "transliteration": "tebârake-smü rabbike ẕi-lcelâli vel'ikrâm.",
+      "words_ar": [
+        "تَبَٰرَكَ",
+        "ٱسۡمُ",
+        "رَبِّكَ",
+        "ذِي",
+        "ٱلۡجَلَٰلِ",
+        "وَٱلۡإِكۡرَامِ"
+      ],
+      "words_translit": [
+        "tebârake-smü",
+        "rabbike",
+        "ẕi-lcelâli",
+        "vel'ikrâm."
+      ],
+      "word_count": 6
+    }
+  ]
+}

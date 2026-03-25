@@ -1,0 +1,487 @@
+{
+  "surah": 99,
+  "blocks": [
+    {
+      "ayah_start": 1,
+      "ayah_end": 8,
+      "description": "Kıyamet günü yeryüzünün dehşetli sarsıntısı ve insanların amellerinin karşılığını görmeleri anlatılır.",
+      "verses": [
+        {
+          "surah": 99,
+          "ayah": 1,
+          "arabic": "إِذَا زُلۡزِلَتِ ٱلۡأَرۡضُ زِلۡزَالَهَا",
+          "translation": "Yer dehşetle sarsıldıkça sarsıldığı zaman",
+          "words": [
+            {
+              "arabic": "إِذَا",
+              "transliteration": "izâ",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "ne zaman, -dığı zaman",
+              "irab": "{Zarf} şartiyye, gelecekte vuku bulacak bir zamana delalet eder.",
+              "irab_short": "zarf şartiyye",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "زُلۡزِلَتِ",
+              "transliteration": "zulzilet",
+              "root": "ز-ل-ز-ل",
+              "pattern": "فُعْلِلَتْ",
+              "pos": "fil",
+              "meaning_tr": "şiddetle sarsıldı",
+              "irab": "{Fiil-i mâzî} mübni li'l-meçhûl, üçüncü şahıs müennes. Tâ-i te'nîs mübni li's-sükûn mahallinde râfi'.",
+              "irab_short": "mâzî mübni li'l-meçhûl",
+              "turkish_bridge": "Zilzal, zelzele bu kökten",
+              "balagha_note": "Rubâî kök kullanılarak sarsıntının şiddeti vurgulanıyor"
+            },
+            {
+              "arabic": "ٱلۡأَرۡضُ",
+              "transliteration": "el-ardu",
+              "root": "أ-ر-ض",
+              "pos": "ism",
+              "meaning_tr": "yer, yeryüzü",
+              "irab": "{Nâib-i fâil} merfû' ve alâmeti'r-raf'i'd-dammetu'z-zâhire.",
+              "irab_short": "nâib-i fâil, merfû",
+              "turkish_bridge": "Arz bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "زِلۡزَالَهَا",
+              "transliteration": "zilzâlehâ",
+              "root": "ز-ل-ز-ل",
+              "pattern": "فِلْزَال",
+              "pos": "ism",
+              "meaning_tr": "onun sarsıntısını",
+              "irab": "{Mef'ûl mutlak} mansûb ve alâmeti'n-nasbi'l-fethatu'z-zâhire. Hâ zamiri muzâf ileyh.",
+              "irab_short": "mef'ûl mutlak, mansûb",
+              "turkish_bridge": "Zilzal bu kökten",
+              "balagha_note": "Mef'ûl mutlak ile hareketin şiddeti te'kîd ediliyor"
+            }
+          ]
+        },
+        {
+          "surah": 99,
+          "ayah": 2,
+          "arabic": "وَأَخۡرَجَتِ ٱلۡأَرۡضُ أَثۡقَالَهَا",
+          "translation": "ve yer ağırlıklarını dışarıya çıkardığı zaman",
+          "words": [
+            {
+              "arabic": "وَأَخۡرَجَتِ",
+              "transliteration": "ve ahracet",
+              "root": "خ-ر-ج",
+              "pattern": "أَفْعَلَتْ",
+              "pos": "fil",
+              "meaning_tr": "ve çıkardı",
+              "irab": "Vâv atf harfi. {Fiil-i mâzî} IV. bâb, üçüncü şahıs müennes. Tâ-i te'nîs sâkinedir.",
+              "irab_short": "mâzî, IV. bâb",
+              "turkish_bridge": "Hurûc, mahreç bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "ٱلۡأَرۡضُ",
+              "transliteration": "el-ardu",
+              "root": "أ-ر-ض",
+              "pos": "ism",
+              "meaning_tr": "yer",
+              "irab": "{Fâil} merfû' ve alâmeti'r-raf'i'd-dammetu'z-zâhire.",
+              "irab_short": "fâil, merfû",
+              "turkish_bridge": "Arz bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "أَثۡقَالَهَا",
+              "transliteration": "eskâlehâ",
+              "root": "ث-ق-ل",
+              "pos": "ism",
+              "meaning_tr": "onun ağırlıklarını",
+              "irab": "{Mef'ûl bih} mansûb ve alâmeti'n-nasbi'l-fethatu'z-zâhire. Hâ zamiri muzâf ileyh.",
+              "irab_short": "mef'ûl bih, mansûb",
+              "turkish_bridge": "Siklet bu kökten",
+              "balagha_note": null
+            }
+          ]
+        },
+        {
+          "surah": 99,
+          "ayah": 3,
+          "arabic": "وَقَالَ ٱلۡإِنسَٰنُ مَا لَهَا",
+          "translation": "ve insan 'Ona ne oluyor?' dediği zaman",
+          "words": [
+            {
+              "arabic": "وَقَالَ",
+              "transliteration": "ve kâle",
+              "root": "ق-و-ل",
+              "pattern": "فَعَلَ",
+              "pos": "fil",
+              "meaning_tr": "ve dedi",
+              "irab": "Vâv atf harfi. {Fiil-i mâzî} I. bâb, üçüncü şahıs müzekker.",
+              "irab_short": "mâzî, I. bâb",
+              "turkish_bridge": "Kavl, kîl u kâl bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "ٱلۡإِنسَٰنُ",
+              "transliteration": "el-insân",
+              "root": "أ-ن-س",
+              "pos": "ism",
+              "meaning_tr": "insan",
+              "irab": "{Fâil} merfû' ve alâmeti'r-raf'i'd-dammetu'z-zâhire.",
+              "irab_short": "fâil, merfû",
+              "turkish_bridge": "İnsan bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "مَا",
+              "transliteration": "mâ",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "ne",
+              "irab": "{İsm-i istifhâm} mübni alâ's-sükûn fî mahalli raf'i mübtedâ.",
+              "irab_short": "ism-i istifhâm, mübtedâ",
+              "turkish_bridge": null,
+              "balagha_note": "İnkârî istifhâm ile hayret ve şaşkınlık ifade ediliyor"
+            },
+            {
+              "arabic": "لَهَا",
+              "transliteration": "lehâ",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "ona, onun için",
+              "irab": "Lâm harf-i cer, hâ zamiri mecrûr. {Câr-mecrûr} fî mahalli raf'i haber.",
+              "irab_short": "câr-mecrûr, haber",
+              "turkish_bridge": null,
+              "balagha_note": null
+            }
+          ]
+        },
+        {
+          "surah": 99,
+          "ayah": 4,
+          "arabic": "يَوۡمَئِذٖ تُحَدِّثُ أَخۡبَارَهَا",
+          "translation": "İşte o gün yer kendi haberlerini anlatır",
+          "words": [
+            {
+              "arabic": "يَوۡمَئِذٖ",
+              "transliteration": "yevmeizin",
+              "root": "ي-و-م",
+              "pos": "ism",
+              "meaning_tr": "o gün",
+              "irab": "{Zarf-ı zamân} mansûb, İz muzâf ve mebni alâ's-sükûn fî mahalli cerr muzâf ileyh.",
+              "irab_short": "zarf-ı zamân",
+              "turkish_bridge": "Yevm bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "تُحَدِّثُ",
+              "transliteration": "tuhaddisu",
+              "root": "ح-د-ث",
+              "pattern": "تُفَعِّلُ",
+              "pos": "fil",
+              "meaning_tr": "anlatır, haber verir",
+              "irab": "{Fiil-i muzâri'} II. bâb, üçüncü şahıs müennes, merfû'dur.",
+              "irab_short": "muzâri', II. bâb",
+              "turkish_bridge": "Hadis bu kökten",
+              "balagha_note": "Teşhîs sanatı ile yer insanmış gibi gösteriliyor"
+            },
+            {
+              "arabic": "أَخۡبَارَهَا",
+              "transliteration": "ahbârehâ",
+              "root": "خ-ب-ر",
+              "pos": "ism",
+              "meaning_tr": "onun haberlerini",
+              "irab": "{Mef'ûl bih} mansûb ve alâmeti'n-nasbi'l-fethatu'z-zâhire. Hâ zamiri muzâf ileyh.",
+              "irab_short": "mef'ûl bih, mansûb",
+              "turkish_bridge": "Haber bu kökten",
+              "balagha_note": null
+            }
+          ]
+        },
+        {
+          "surah": 99,
+          "ayah": 5,
+          "arabic": "بِأَنَّ رَبَّكَ أَوۡحَىٰ لَهَا",
+          "translation": "Rabbinin ona vahyetmesi sebebiyle",
+          "words": [
+            {
+              "arabic": "بِأَنَّ",
+              "transliteration": "bi-enne",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "çünkü, sebebiyle",
+              "irab": "Bâ harf-i cer, {Enne} harf-i müşebbeh bi'l-fi'l.",
+              "irab_short": "câr + hurûf-i müşebbehe",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "رَبَّكَ",
+              "transliteration": "rabbeke",
+              "root": "ر-ب-ب",
+              "pos": "ism",
+              "meaning_tr": "senin Rabbin",
+              "irab": "{İsm-i enne} mansûb ve alâmeti'n-nasbi'l-fethatu'z-zâhire. Kâf zamiri muzâf ileyh.",
+              "irab_short": "ism-i enne, mansûb",
+              "turkish_bridge": "Rabb bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "أَوۡحَىٰ",
+              "transliteration": "evhâ",
+              "root": "و-ح-ي",
+              "pattern": "أَفْعَلَ",
+              "pos": "fil",
+              "meaning_tr": "vahyetti",
+              "irab": "{Fiil-i mâzî} IV. bâb, üçüncü şahıs müzekker. {Haber-i enne} fî mahalli raf'.",
+              "irab_short": "mâzî, IV. bâb",
+              "turkish_bridge": "Vahy bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "لَهَا",
+              "transliteration": "lehâ",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "ona",
+              "irab": "Lâm harf-i cer, hâ zamiri mecrûr. {Câr-mecrûr} müte'allik bi'l-fi'l.",
+              "irab_short": "câr-mecrûr",
+              "turkish_bridge": null,
+              "balagha_note": null
+            }
+          ]
+        },
+        {
+          "surah": 99,
+          "ayah": 6,
+          "arabic": "يَوۡمَئِذٖ يَصۡدُرُ ٱلنَّاسُ أَشۡتَاتٗا لِّيُرَوۡاْ أَعۡمَٰلَهُمۡ",
+          "translation": "O gün insanlar amellerinin gösterilmesi için bölük bölük çıkarlar",
+          "words": [
+            {
+              "arabic": "يَوۡمَئِذٖ",
+              "transliteration": "yevmeizin",
+              "root": "ي-و-م",
+              "pos": "ism",
+              "meaning_tr": "o gün",
+              "irab": "{Zarf-ı zamân} mansûb, İz muzâf ve mebni alâ's-sükûn fî mahalli cerr muzâf ileyh.",
+              "irab_short": "zarf-ı zamân",
+              "turkish_bridge": "Yevm bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "يَصۡدُرُ",
+              "transliteration": "yasduru",
+              "root": "ص-د-ر",
+              "pattern": "يَفْعُلُ",
+              "pos": "fil",
+              "meaning_tr": "çıkar, döner",
+              "irab": "{Fiil-i muzâri'} I. bâb, üçüncü şahıs müzekker, merfû'dur.",
+              "irab_short": "muzâri', I. bâb",
+              "turkish_bridge": "Sadr bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "ٱلنَّاسُ",
+              "transliteration": "en-nâsu",
+              "root": "ن-و-س",
+              "pos": "ism",
+              "meaning_tr": "insanlar",
+              "irab": "{Fâil} merfû' ve alâmeti'r-raf'i'd-dammetu'z-zâhire.",
+              "irab_short": "fâil, merfû",
+              "turkish_bridge": "Nâs bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "أَشۡتَاتٗا",
+              "transliteration": "eştâten",
+              "root": "ش-ت-ت",
+              "pos": "ism",
+              "meaning_tr": "bölük bölük, dağınık gruplar halinde",
+              "irab": "{Hâl} mansûb ve alâmeti'n-nasbi'l-fethatu'z-zâhire.",
+              "irab_short": "hâl, mansûb",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "لِّيُرَوۡاْ",
+              "transliteration": "li-yurev",
+              "root": "ر-أ-ي",
+              "pattern": "يُفْعَلُوا",
+              "pos": "fil",
+              "meaning_tr": "gösterilmesi için",
+              "irab": "Lâm-ı ta'lîl, {Fiil-i muzâri'} mübni li'l-meçhûl mansûb bi'l-lâm. Vâv zamiri nâib-i fâil.",
+              "irab_short": "muzâri' mansûb, mübni li'l-meçhûl",
+              "turkish_bridge": "Ru'yet bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "أَعۡمَٰلَهُمۡ",
+              "transliteration": "a'mâlehum",
+              "root": "ع-م-ل",
+              "pos": "ism",
+              "meaning_tr": "onların amellerini",
+              "irab": "{Mef'ûl bih} mansûb ve alâmeti'n-nasbi'l-fethatu'z-zâhire. Hüm zamiri muzâf ileyh.",
+              "irab_short": "mef'ûl bih, mansûb",
+              "turkish_bridge": "Amel bu kökten",
+              "balagha_note": null
+            }
+          ]
+        },
+        {
+          "surah": 99,
+          "ayah": 7,
+          "arabic": "فَمَن يَعۡمَلۡ مِثۡقَالَ ذَرَّةٍ خَيۡرٗا يَرَهُۥ",
+          "translation": "Kim zerre kadar iyilik yapmışsa onu görür",
+          "words": [
+            {
+              "arabic": "فَمَن",
+              "transliteration": "fe-men",
+              "root": null,
+              "pos": "ism",
+              "meaning_tr": "kim",
+              "irab": "Fâ istinâfiyye, {Men} ism-i şart mebni alâ's-sükûn fî mahalli raf'i mübtedâ.",
+              "irab_short": "ism-i şart, mübtedâ",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "يَعۡمَلۡ",
+              "transliteration": "ya'mel",
+              "root": "ع-م-ل",
+              "pattern": "يَفْعَلْ",
+              "pos": "fil",
+              "meaning_tr": "çalışır, amel eder",
+              "irab": "{Fiil-i muzâri'} I. bâb, fi'l-ü şart meczûm ve alâmeti'l-cezmi's-sükûn.",
+              "irab_short": "muzâri' meczûm, fi'l-ü şart",
+              "turkish_bridge": "Amel bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "مِثۡقَالَ",
+              "transliteration": "miskâle",
+              "root": "ث-ق-ل",
+              "pattern": "مِفْعَال",
+              "pos": "ism",
+              "meaning_tr": "ağırlığınca, kadarıyla",
+              "irab": "{Mef'ûl bih} mansûb ve alâmeti'n-nasbi'l-fethatu'z-zâhire.",
+              "irab_short": "mef'ûl bih, mansûb",
+              "turkish_bridge": "Sikâl bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "ذَرَّةٍ",
+              "transliteration": "zerratin",
+              "root": "ذ-ر-ر",
+              "pos": "ism",
+              "meaning_tr": "zerre, karınca",
+              "irab": "{Muzâf ileyh} mecrûr ve alâmeti'l-cerri'l-kesratu'z-zâhire.",
+              "irab_short": "muzâf ileyh, mecrûr",
+              "turkish_bridge": "Zerre bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "خَيۡرٗا",
+              "transliteration": "hayran",
+              "root": "خ-ي-ر",
+              "pos": "ism",
+              "meaning_tr": "iyilik, hayır",
+              "irab": "{Temyîz} mansûb ve alâmeti'n-nasbi'l-fethatu'z-zâhire.",
+              "irab_short": "temyîz, mansûb",
+              "turkish_bridge": "Hayr bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "يَرَهُۥ",
+              "transliteration": "yereh",
+              "root": "ر-أ-ي",
+              "pattern": "يَفْعَلْ",
+              "pos": "fil",
+              "meaning_tr": "onu görür",
+              "irab": "{Fiil-i muzâri'} cevâb-ı şart meczûm ve alâmeti'l-cezmi hazf-ü âhir. Hû zamiri mef'ûl bih.",
+              "irab_short": "muzâri' meczûm, cevâb-ı şart",
+              "turkish_bridge": "Ru'yet bu kökten",
+              "balagha_note": "Müşâkele sanatı: zerre misali küçük amellerle büyük karşılık"
+            }
+          ]
+        },
+        {
+          "surah": 99,
+          "ayah": 8,
+          "arabic": "وَمَن يَعۡمَلۡ مِثۡقَالَ ذَرَّةٖ شَرّٗا يَرَهُۥ",
+          "translation": "Ve kim zerre kadar kötülük yapmışsa onu görür",
+          "words": [
+            {
+              "arabic": "وَمَن",
+              "transliteration": "ve-men",
+              "root": null,
+              "pos": "ism",
+              "meaning_tr": "ve kim",
+              "irab": "Vâv atf harfi, {Men} ism-i şart mebni alâ's-sükûn fî mahalli raf'i mübtedâ.",
+              "irab_short": "ism-i şart, mübtedâ",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "يَعۡمَلۡ",
+              "transliteration": "ya'mel",
+              "root": "ع-م-ل",
+              "pattern": "يَفْعَلْ",
+              "pos": "fil",
+              "meaning_tr": "çalışır, amel eder",
+              "irab": "{Fiil-i muzâri'} I. bâb, fi'l-ü şart meczûm ve alâmeti'l-cezmi's-sükûn.",
+              "irab_short": "muzâri' meczûm, fi'l-ü şart",
+              "turkish_bridge": "Amel bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "مِثۡقَالَ",
+              "transliteration": "miskâle",
+              "root": "ث-ق-ل",
+              "pattern": "مِفْعَال",
+              "pos": "ism",
+              "meaning_tr": "ağırlığınca, kadarıyla",
+              "irab": "{Mef'ûl bih} mansûb ve alâmeti'n-nasbi'l-fethatu'z-zâhire.",
+              "irab_short": "mef'ûl bih, mansûb",
+              "turkish_bridge": "Sikâl bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "ذَرَّةٖ",
+              "transliteration": "zerretin",
+              "root": "ذ-ر-ر",
+              "pos": "ism",
+              "meaning_tr": "zerre",
+              "irab": "{Muzâf ileyh} mecrûr ve alâmeti'l-cerri'l-kesratu'z-zâhire.",
+              "irab_short": "muzâf ileyh, mecrûr",
+              "turkish_bridge": "Zerre bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "شَرّٗا",
+              "transliteration": "şerran",
+              "root": "ش-ر-ر",
+              "pos": "ism",
+              "meaning_tr": "kötülük, şer",
+              "irab": "{Temyîz} mansûb ve alâmeti'n-nasbi'l-fethatu'z-zâhire.",
+              "irab_short": "temyîz, mansûb",
+              "turkish_bridge": "Şer bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "يَرَهُۥ",
+              "transliteration": "yereh",
+              "root": "ر-أ-ي",
+              "pattern": "يَفْعَلْ",
+              "pos": "fil",
+              "meaning_tr": "onu görür",
+              "irab": "{Fiil-i muzâri'} cevâb-ı şart meczûm ve alâmeti'l-cezmi hazf-ü âhir. Hû zamiri mef'ûl bih.",
+              "irab_short": "muzâri' meczûm, cevâb-ı şart",
+              "turkish_bridge": "Ru'yet bu kökten",
+              "balagha_note": "Tıbâk sanatı: hayır-şer karşıtlığı ile adaletin mükemmelliği vurgulanıyor"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "name_ar": "الزلزلة"
+}

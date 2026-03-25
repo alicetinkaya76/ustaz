@@ -1,0 +1,493 @@
+{
+  "surah": 85,
+  "name_ar": "البروج",
+  "name_translit": "Al-Buruj",
+  "type": "meccan",
+  "total_ayahs": 22,
+  "total_words": 109,
+  "ayahs": [
+    {
+      "number": 1,
+      "text_ar": "وَٱلسَّمَآءِ ذَاتِ ٱلۡبُرُوجِ",
+      "text_tr_diyanet": "İçinde burçları bulunan göğe and olsun;",
+      "text_tr_vakfi": "Burçlara sahip gökyüzüne,",
+      "text_tr_yazir": "Burçlar sahibi gökyüzüne,",
+      "transliteration": "vessemâi ẕâti-lbürûc.",
+      "words_ar": [
+        "وَٱلسَّمَآءِ",
+        "ذَاتِ",
+        "ٱلۡبُرُوجِ"
+      ],
+      "words_translit": [
+        "vessemâi",
+        "ẕâti-lbürûc."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 2,
+      "text_ar": "وَٱلۡيَوۡمِ ٱلۡمَوۡعُودِ",
+      "text_tr_diyanet": "Söz verilen kıyamet gününe and olsun;",
+      "text_tr_vakfi": "Geleceği bildirilmiş olan güne,",
+      "text_tr_yazir": "Vaad olunan o güne,",
+      "transliteration": "velyevmi-lmev`ûd.",
+      "words_ar": [
+        "وَٱلۡيَوۡمِ",
+        "ٱلۡمَوۡعُودِ"
+      ],
+      "words_translit": [
+        "velyevmi-lmev`ûd."
+      ],
+      "word_count": 2
+    },
+    {
+      "number": 3,
+      "text_ar": "وَشَاهِدٖ وَمَشۡهُودٖ",
+      "text_tr_diyanet": "Şahitlik edene ve edilene and olsun ki, insanlar öldükten sonra diriltileceklerdir.",
+      "text_tr_vakfi": "(O günde) tanıklık edene ve edilene andolsun ki,",
+      "text_tr_yazir": "Şahitlik edene ve edilene andolsun ki,",
+      "transliteration": "veşâhidiv vemeşhûd.",
+      "words_ar": [
+        "وَشَاهِدٖ",
+        "وَمَشۡهُودٖ"
+      ],
+      "words_translit": [
+        "veşâhidiv",
+        "vemeşhûd."
+      ],
+      "word_count": 2
+    },
+    {
+      "number": 4,
+      "text_ar": "قُتِلَ أَصۡحَٰبُ ٱلۡأُخۡدُودِ",
+      "text_tr_diyanet": "Hazırladıkları hendekleri, tutuşturulmuş ateşle doldurarak onun çevresinde oturup, inanmış kimselere dinlerinden dönmeleri için yaptıkları işkenceleri seyredenler kahrolmuştur!",
+      "text_tr_vakfi": "Kahroldu o hendeğin sahipleri,",
+      "text_tr_yazir": "Kahroldu o hendeğin sahipleri,",
+      "transliteration": "ḳutile aṣḥâbü-l'uḫdûd.",
+      "words_ar": [
+        "قُتِلَ",
+        "أَصۡحَٰبُ",
+        "ٱلۡأُخۡدُودِ"
+      ],
+      "words_translit": [
+        "ḳutile",
+        "aṣḥâbü-l'uḫdûd."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 5,
+      "text_ar": "ٱلنَّارِ ذَاتِ ٱلۡوَقُودِ",
+      "text_tr_diyanet": "Hazırladıkları hendekleri, tutuşturulmuş ateşle doldurarak onun çevresinde oturup, inanmış kimselere dinlerinden dönmeleri için yaptıkları işkenceleri seyredenler kahrolmuştur!",
+      "text_tr_vakfi": "O çıralı ateşin,",
+      "text_tr_yazir": "O çıralı ateşin,",
+      "transliteration": "ennâri ẕâti-lveḳûd.",
+      "words_ar": [
+        "ٱلنَّارِ",
+        "ذَاتِ",
+        "ٱلۡوَقُودِ"
+      ],
+      "words_translit": [
+        "ennâri",
+        "ẕâti-lveḳûd."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 6,
+      "text_ar": "إِذۡ هُمۡ عَلَيۡهَا قُعُودٞ",
+      "text_tr_diyanet": "Hazırladıkları hendekleri, tutuşturulmuş ateşle doldurarak onun çevresinde oturup, inanmış kimselere dinlerinden dönmeleri için yaptıkları işkenceleri seyredenler kahrolmuştur!",
+      "text_tr_vakfi": "Onlar (yakanlar) da başlarına oturmuşlar,",
+      "text_tr_yazir": "Hani o ateşin başına oturmuşlar,",
+      "transliteration": "iẕ hüm `aleyhâ ḳu`ûd.",
+      "words_ar": [
+        "إِذۡ",
+        "هُمۡ",
+        "عَلَيۡهَا",
+        "قُعُودٞ"
+      ],
+      "words_translit": [
+        "iẕ",
+        "hüm",
+        "`aleyhâ",
+        "ḳu`ûd."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 7,
+      "text_ar": "وَهُمۡ عَلَىٰ مَا يَفۡعَلُونَ بِٱلۡمُؤۡمِنِينَ شُهُودٞ",
+      "text_tr_diyanet": "Hazırladıkları hendekleri, tutuşturulmuş ateşle doldurarak onun çevresinde oturup, inanmış kimselere dinlerinden dönmeleri için yaptıkları işkenceleri seyredenler kahrolmuştur!",
+      "text_tr_vakfi": "Müminlere yapmakta oldukları işkenceyi seyrediyorlardı.",
+      "text_tr_yazir": "Müminlere yaptıklarını seyrediyorlardı.",
+      "transliteration": "vehüm `alâ mâ yef`alûne bilmü'minîne şühûd.",
+      "words_ar": [
+        "وَهُمۡ",
+        "عَلَىٰ",
+        "مَا",
+        "يَفۡعَلُونَ",
+        "بِٱلۡمُؤۡمِنِينَ",
+        "شُهُودٞ"
+      ],
+      "words_translit": [
+        "vehüm",
+        "`alâ",
+        "mâ",
+        "yef`alûne",
+        "bilmü'minîne",
+        "şühûd."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 8,
+      "text_ar": "وَمَا نَقَمُواْ مِنۡهُمۡ إِلَّآ أَن يُؤۡمِنُواْ بِٱللَّهِ ٱلۡعَزِيزِ ٱلۡحَمِيدِ",
+      "text_tr_diyanet": "Bu inkarcıların, inananlara kızmaları; onların sadece, göklerin ve yerin hükümranlığı kendisinin bulunan ve övülmeğe layık ve güçlü olan Allah'a inanmış olmalarındandı. Allah her şeye şahiddir.",
+      "text_tr_vakfi": "Onlardan, sırf, aziz ve hamid olan Allah'a iman ettikleri için intikam aldılar.",
+      "text_tr_yazir": "Müminlere kızmalarının sebebi de, onların yalnız çok güçlü ve övgüye lâyık olan Allah'a iman etmeleri idi.",
+      "transliteration": "vemâ neḳamû minhüm illâ ey yü'minû billâhi-l`azîzi-lḥamîd.",
+      "words_ar": [
+        "وَمَا",
+        "نَقَمُواْ",
+        "مِنۡهُمۡ",
+        "إِلَّآ",
+        "أَن",
+        "يُؤۡمِنُواْ",
+        "بِٱللَّهِ",
+        "ٱلۡعَزِيزِ",
+        "ٱلۡحَمِيدِ"
+      ],
+      "words_translit": [
+        "vemâ",
+        "neḳamû",
+        "minhüm",
+        "illâ",
+        "ey",
+        "yü'minû",
+        "billâhi-l`azîzi-lḥamîd."
+      ],
+      "word_count": 9
+    },
+    {
+      "number": 9,
+      "text_ar": "ٱلَّذِي لَهُۥ مُلۡكُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِۚ وَٱللَّهُ عَلَىٰ كُلِّ شَيۡءٖ شَهِيدٌ",
+      "text_tr_diyanet": "Bu inkarcıların, inananlara kızmaları; onların sadece, göklerin ve yerin hükümranlığı kendisinin bulunan ve övülmeğe layık ve güçlü olan Allah'a inanmış olmalarındandı. Allah her şeye şahiddir.",
+      "text_tr_vakfi": "O Allah ki, göklerin ve yerin mülkü kendisine aittir, ve Allah her şeye şahittir.",
+      "text_tr_yazir": "O Allah ki, göklerin ve yerin hükümranlığı O'nundur ve Allah her şeye şahittir.",
+      "transliteration": "elleẕî lehû mülkü-ssemâvâti vel'arḍ. vellâhü `alâ külli şey'in şehîd.",
+      "words_ar": [
+        "ٱلَّذِي",
+        "لَهُۥ",
+        "مُلۡكُ",
+        "ٱلسَّمَٰوَٰتِ",
+        "وَٱلۡأَرۡضِ",
+        "وَٱللَّهُ",
+        "عَلَىٰ",
+        "كُلِّ",
+        "شَيۡءٖ",
+        "شَهِيدٌ"
+      ],
+      "words_translit": [
+        "elleẕî",
+        "lehû",
+        "mülkü-ssemâvâti",
+        "vel'arḍ.",
+        "vellâhü",
+        "`alâ",
+        "külli",
+        "şey'in",
+        "şehîd."
+      ],
+      "word_count": 10
+    },
+    {
+      "number": 10,
+      "text_ar": "إِنَّ ٱلَّذِينَ فَتَنُواْ ٱلۡمُؤۡمِنِينَ وَٱلۡمُؤۡمِنَٰتِ ثُمَّ لَمۡ يَتُوبُواْ فَلَهُمۡ عَذَابُ جَهَنَّمَ وَلَهُمۡ عَذَابُ ٱلۡحَرِيقِ",
+      "text_tr_diyanet": "Ama inanmış erkek ve kadınlara işkence ederek onları dinlerinden çevirmeğe uğraşanlar, eğer tevbe etmezlerse, onlara cehennem azabı vardır. Yakıcı azap da onlaradır.",
+      "text_tr_vakfi": "Şüphesiz inanmış erkeklerle inanmış kadınlara işkence edip sonra tevbe de etmeyenlere cehennem azabı ve (orada) yanma cezası vardır.",
+      "text_tr_yazir": "İnanan erkek ve kadınlara işkence yapıp sonra da tevbe etmeyenlere cehennem azabı ve yangın azabı vardır.",
+      "transliteration": "inne-lleẕîne fetenü-lmü'minîne velmü'minâti ŝümme lem yetûbû felehüm `aẕâbü cehenneme velehüm `aẕâbü-lḥarîḳ.",
+      "words_ar": [
+        "إِنَّ",
+        "ٱلَّذِينَ",
+        "فَتَنُواْ",
+        "ٱلۡمُؤۡمِنِينَ",
+        "وَٱلۡمُؤۡمِنَٰتِ",
+        "ثُمَّ",
+        "لَمۡ",
+        "يَتُوبُواْ",
+        "فَلَهُمۡ",
+        "عَذَابُ",
+        "جَهَنَّمَ",
+        "وَلَهُمۡ",
+        "عَذَابُ",
+        "ٱلۡحَرِيقِ"
+      ],
+      "words_translit": [
+        "inne-lleẕîne",
+        "fetenü-lmü'minîne",
+        "velmü'minâti",
+        "ŝümme",
+        "lem",
+        "yetûbû",
+        "felehüm",
+        "`aẕâbü",
+        "cehenneme",
+        "velehüm",
+        "`aẕâbü-lḥarîḳ."
+      ],
+      "word_count": 14
+    },
+    {
+      "number": 11,
+      "text_ar": "إِنَّ ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ لَهُمۡ جَنَّـٰتٞ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُۚ ذَٰلِكَ ٱلۡفَوۡزُ ٱلۡكَبِيرُ",
+      "text_tr_diyanet": "Şüphesiz inanıp yararlı işler işleyenlere, onlara, içlerinden ırmaklar akan cennetler vardır. Bu, büyük kurtuluştur.",
+      "text_tr_vakfi": "İman edip salih ameller işleyenlere ise, zemininden ırmaklar akan cennetler vardır. İşte büyük kurtuluş budur.",
+      "text_tr_yazir": "İnanan ve iyi amel yapanlar için de altından ırmaklar akan cennetler vardır. İşte büyük kurtuluş odur.",
+      "transliteration": "inne-lleẕîne âmenû ve`amilu-ṣṣâliḥâti lehüm cennâtün tecrî min taḥtihe-l'enhâr. ẕâlike-lfevzü-lkebîr.",
+      "words_ar": [
+        "إِنَّ",
+        "ٱلَّذِينَ",
+        "ءَامَنُواْ",
+        "وَعَمِلُواْ",
+        "ٱلصَّـٰلِحَٰتِ",
+        "لَهُمۡ",
+        "جَنَّـٰتٞ",
+        "تَجۡرِي",
+        "مِن",
+        "تَحۡتِهَا",
+        "ٱلۡأَنۡهَٰرُ",
+        "ذَٰلِكَ",
+        "ٱلۡفَوۡزُ",
+        "ٱلۡكَبِيرُ"
+      ],
+      "words_translit": [
+        "inne-lleẕîne",
+        "âmenû",
+        "ve`amilu-ṣṣâliḥâti",
+        "lehüm",
+        "cennâtün",
+        "tecrî",
+        "min",
+        "taḥtihe-l'enhâr.",
+        "ẕâlike-lfevzü-lkebîr."
+      ],
+      "word_count": 14
+    },
+    {
+      "number": 12,
+      "text_ar": "إِنَّ بَطۡشَ رَبِّكَ لَشَدِيدٌ",
+      "text_tr_diyanet": "Doğrusu Rabbinin yakalaması amansızdır.",
+      "text_tr_vakfi": "Şüphesiz Rabbinin yakalaması çok şiddetlidir.",
+      "text_tr_yazir": "Kuşkusuz Rabbinin yakalaması serttir.",
+      "transliteration": "inne baṭşe rabbike leşedîd.",
+      "words_ar": [
+        "إِنَّ",
+        "بَطۡشَ",
+        "رَبِّكَ",
+        "لَشَدِيدٌ"
+      ],
+      "words_translit": [
+        "inne",
+        "baṭşe",
+        "rabbike",
+        "leşedîd."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 13,
+      "text_ar": "إِنَّهُۥ هُوَ يُبۡدِئُ وَيُعِيدُ",
+      "text_tr_diyanet": "Önce yaratıp sonra bunu tekrar eden O'dur.",
+      "text_tr_vakfi": "Bilin ki O, (kainat yokken) ilk olarak yaratan, (ölümden sonra tekrar hayatı) geri getirendir.",
+      "text_tr_yazir": "Yoktan o yaratır ve tekrar o diriltir.",
+      "transliteration": "innehû hüve yübdiü veyü`îd.",
+      "words_ar": [
+        "إِنَّهُۥ",
+        "هُوَ",
+        "يُبۡدِئُ",
+        "وَيُعِيدُ"
+      ],
+      "words_translit": [
+        "innehû",
+        "hüve",
+        "yübdiü",
+        "veyü`îd."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 14,
+      "text_ar": "وَهُوَ ٱلۡغَفُورُ ٱلۡوَدُودُ",
+      "text_tr_diyanet": "Yüce arşın sahibi, çok seven, bağışlayan O'dur.",
+      "text_tr_vakfi": "O, çok bağışlayan ve çok sevendir.",
+      "text_tr_yazir": "Bununla beraber çok bağışlayandır, çok sevendir.",
+      "transliteration": "vehüve-lgafûru-lvedûd.",
+      "words_ar": [
+        "وَهُوَ",
+        "ٱلۡغَفُورُ",
+        "ٱلۡوَدُودُ"
+      ],
+      "words_translit": [
+        "vehüve-lgafûru-lvedûd."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 15,
+      "text_ar": "ذُو ٱلۡعَرۡشِ ٱلۡمَجِيدُ",
+      "text_tr_diyanet": "Yüce arşın sahibi, çok seven, bağışlayan O'dur.",
+      "text_tr_vakfi": "Şerefli Arş'ın sahibidir.",
+      "text_tr_yazir": "Arş'ın sahibidir, yücedir.",
+      "transliteration": "ẕü-l`arşi-lmecîd.",
+      "words_ar": [
+        "ذُو",
+        "ٱلۡعَرۡشِ",
+        "ٱلۡمَجِيدُ"
+      ],
+      "words_translit": [
+        "ẕü-l`arşi-lmecîd."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 16,
+      "text_ar": "فَعَّالٞ لِّمَا يُرِيدُ",
+      "text_tr_diyanet": "Her dilediğini mutlaka yapandır.",
+      "text_tr_vakfi": "Dilediği şeyleri mutlaka yapandır.",
+      "text_tr_yazir": "Dilediğini yapandır.",
+      "transliteration": "fa``âlül limâ yürîd.",
+      "words_ar": [
+        "فَعَّالٞ",
+        "لِّمَا",
+        "يُرِيدُ"
+      ],
+      "words_translit": [
+        "fa``âlül",
+        "limâ",
+        "yürîd."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 17,
+      "text_ar": "هَلۡ أَتَىٰكَ حَدِيثُ ٱلۡجُنُودِ",
+      "text_tr_diyanet": "Firavun ve Semud ordularının haberi sana geldi mi?",
+      "text_tr_vakfi": "Orduların, haberi sana geldi mi?",
+      "text_tr_yazir": "O orduların kıssası sana geldi mi?",
+      "transliteration": "hel etâke ḥadîŝü-lcünûd.",
+      "words_ar": [
+        "هَلۡ",
+        "أَتَىٰكَ",
+        "حَدِيثُ",
+        "ٱلۡجُنُودِ"
+      ],
+      "words_translit": [
+        "hel",
+        "etâke",
+        "ḥadîŝü-lcünûd."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 18,
+      "text_ar": "فِرۡعَوۡنَ وَثَمُودَ",
+      "text_tr_diyanet": "Firavun ve Semud ordularının haberi sana geldi mi?",
+      "text_tr_vakfi": "Yani Firavun ve Semud'un",
+      "text_tr_yazir": "Yani Firavun ve Semud'un?",
+      "transliteration": "fir`avne veŝemûd.",
+      "words_ar": [
+        "فِرۡعَوۡنَ",
+        "وَثَمُودَ"
+      ],
+      "words_translit": [
+        "fir`avne",
+        "veŝemûd."
+      ],
+      "word_count": 2
+    },
+    {
+      "number": 19,
+      "text_ar": "بَلِ ٱلَّذِينَ كَفَرُواْ فِي تَكۡذِيبٖ",
+      "text_tr_diyanet": "Doğrusu inkar edenler, hep yalanlayagelmişlerdir.",
+      "text_tr_vakfi": "Doğrusu inkarcılar (gerçeği) yalanlayıp dururlar.",
+      "text_tr_yazir": "Fakat o inkarcılar hâlâ bir yalanlama içinde.",
+      "transliteration": "beli-lleẕîne keferû fî tekẕîb.",
+      "words_ar": [
+        "بَلِ",
+        "ٱلَّذِينَ",
+        "كَفَرُواْ",
+        "فِي",
+        "تَكۡذِيبٖ"
+      ],
+      "words_translit": [
+        "beli-lleẕîne",
+        "keferû",
+        "fî",
+        "tekẕîb."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 20,
+      "text_ar": "وَٱللَّهُ مِن وَرَآئِهِم مُّحِيطُۢ",
+      "text_tr_diyanet": "Oysa Allah onları ardlarından çevirmiştir.",
+      "text_tr_vakfi": "Allah onları arkalarından kuşatmıştır.",
+      "text_tr_yazir": "Oysa Allah onları arkalarından kuşatmıştır.",
+      "transliteration": "vellâhü miv verâihim müḥîṭ.",
+      "words_ar": [
+        "وَٱللَّهُ",
+        "مِن",
+        "وَرَآئِهِم",
+        "مُّحِيطُۢ"
+      ],
+      "words_translit": [
+        "vellâhü",
+        "miv",
+        "verâihim",
+        "müḥîṭ."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 21,
+      "text_ar": "بَلۡ هُوَ قُرۡءَانٞ مَّجِيدٞ",
+      "text_tr_diyanet": "Doğrusu sana vahyedilen bu Kitap, Levhi Mahfuz'da bulunan şanlı bir Kuran'dır.",
+      "text_tr_vakfi": "Hayır o şerefli bir Kur'an'dır.",
+      "text_tr_yazir": "Hayır o şerefli bir Kur'ân'dır.",
+      "transliteration": "bel hüve ḳur'ânüm mecîd.",
+      "words_ar": [
+        "بَلۡ",
+        "هُوَ",
+        "قُرۡءَانٞ",
+        "مَّجِيدٞ"
+      ],
+      "words_translit": [
+        "bel",
+        "hüve",
+        "ḳur'ânüm",
+        "mecîd."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 22,
+      "text_ar": "فِي لَوۡحٖ مَّحۡفُوظِۭ",
+      "text_tr_diyanet": "Doğrusu sana vahyedilen bu Kitap, Levhi Mahfuz'da bulunan şanlı bir Kuran'dır.",
+      "text_tr_vakfi": "Levh-i Mahfuz'dadır.",
+      "text_tr_yazir": "Levhi Mahfuz'dadır.",
+      "transliteration": "fî levḥim maḥfûż.",
+      "words_ar": [
+        "فِي",
+        "لَوۡحٖ",
+        "مَّحۡفُوظِۭ"
+      ],
+      "words_translit": [
+        "fî",
+        "levḥim",
+        "maḥfûż."
+      ],
+      "word_count": 3
+    }
+  ]
+}

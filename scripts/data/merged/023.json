@@ -1,0 +1,3532 @@
+{
+  "surah": 23,
+  "name_ar": "المؤمنون",
+  "name_translit": "Al-Mu'minun",
+  "type": "meccan",
+  "total_ayahs": 118,
+  "total_words": 1050,
+  "ayahs": [
+    {
+      "number": 1,
+      "text_ar": "قَدۡ أَفۡلَحَ ٱلۡمُؤۡمِنُونَ",
+      "text_tr_diyanet": "Müminler saadete ermişlerdir.",
+      "text_tr_vakfi": "Gerçekten müminler kurtuluşa ermiştir;",
+      "text_tr_yazir": "Gerçekten müminler kurtuluşa ermiştir,",
+      "transliteration": "ḳad efleḥa-lmü'minûn.",
+      "words_ar": [
+        "قَدۡ",
+        "أَفۡلَحَ",
+        "ٱلۡمُؤۡمِنُونَ"
+      ],
+      "words_translit": [
+        "ḳad",
+        "efleḥa-lmü'minûn."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 2,
+      "text_ar": "ٱلَّذِينَ هُمۡ فِي صَلَاتِهِمۡ خَٰشِعُونَ",
+      "text_tr_diyanet": "Onlar namazda huşu içindedirler.",
+      "text_tr_vakfi": "Onlar ki, namazlarında huşu içindedirler;",
+      "text_tr_yazir": "Onlar ki, namazlarında huşû içindedirler,",
+      "transliteration": "elleẕîne hüm fî ṣalâtihim ḫâşi`ûn.",
+      "words_ar": [
+        "ٱلَّذِينَ",
+        "هُمۡ",
+        "فِي",
+        "صَلَاتِهِمۡ",
+        "خَٰشِعُونَ"
+      ],
+      "words_translit": [
+        "elleẕîne",
+        "hüm",
+        "fî",
+        "ṣalâtihim",
+        "ḫâşi`ûn."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 3,
+      "text_ar": "وَٱلَّذِينَ هُمۡ عَنِ ٱللَّغۡوِ مُعۡرِضُونَ",
+      "text_tr_diyanet": "Onlar boş şeylerden yüz çevirirler.",
+      "text_tr_vakfi": "Onlar ki, boş ve yararsız şeylerden yüz çevirirler;",
+      "text_tr_yazir": "Onlar ki, boş ve yararsız şeylerden yüz çevirirler,",
+      "transliteration": "velleẕîne hüm `ani-llagvi mü`riḍûn.",
+      "words_ar": [
+        "وَٱلَّذِينَ",
+        "هُمۡ",
+        "عَنِ",
+        "ٱللَّغۡوِ",
+        "مُعۡرِضُونَ"
+      ],
+      "words_translit": [
+        "velleẕîne",
+        "hüm",
+        "`ani-llagvi",
+        "mü`riḍûn."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 4,
+      "text_ar": "وَٱلَّذِينَ هُمۡ لِلزَّكَوٰةِ فَٰعِلُونَ",
+      "text_tr_diyanet": "Onlar zekatlarını verirler.",
+      "text_tr_vakfi": "Onlar ki, zekatı verirler;",
+      "text_tr_yazir": "Onlar ki, zekat (vazifelerini) yerine getirirler,",
+      "transliteration": "velleẕîne hüm lilzekâti fâ`ilûn.",
+      "words_ar": [
+        "وَٱلَّذِينَ",
+        "هُمۡ",
+        "لِلزَّكَوٰةِ",
+        "فَٰعِلُونَ"
+      ],
+      "words_translit": [
+        "velleẕîne",
+        "hüm",
+        "lilzekâti",
+        "fâ`ilûn."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 5,
+      "text_ar": "وَٱلَّذِينَ هُمۡ لِفُرُوجِهِمۡ حَٰفِظُونَ",
+      "text_tr_diyanet": "Onlar, eşleri ve cariyeleri dışında, mahrem yerlerini herkesten korurlar. Doğrusu bunlar yerilemezler.",
+      "text_tr_vakfi": "Ve onlar ki, iffetlerini korurlar;",
+      "text_tr_yazir": "Ve onlar ki, iffetlerini korurlar,",
+      "transliteration": "velleẕîne hüm lifürûcihim ḥâfiżûn.",
+      "words_ar": [
+        "وَٱلَّذِينَ",
+        "هُمۡ",
+        "لِفُرُوجِهِمۡ",
+        "حَٰفِظُونَ"
+      ],
+      "words_translit": [
+        "velleẕîne",
+        "hüm",
+        "lifürûcihim",
+        "ḥâfiżûn."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 6,
+      "text_ar": "إِلَّا عَلَىٰٓ أَزۡوَٰجِهِمۡ أَوۡ مَا مَلَكَتۡ أَيۡمَٰنُهُمۡ فَإِنَّهُمۡ غَيۡرُ مَلُومِينَ",
+      "text_tr_diyanet": "Onlar, eşleri ve cariyeleri dışında, mahrem yerlerini herkesten korurlar. Doğrusu bunlar yerilemezler.",
+      "text_tr_vakfi": "Ancak eşleri ve ellerinin sahip olduğu (cariyeleri) hariç. (Bunlarla ilişkilerden dolayı) kınanmış değillerdir.",
+      "text_tr_yazir": "Ancak eşleri ve ellerinin sahip olduğu (cariyeleri) hariç. (Bunlarla ilişkilerinden dolayı) kınanmış değillerdir.",
+      "transliteration": "illâ `alâ ezvâcihim ev mâ meleket eymânühüm feinnehüm gayru melûmîn.",
+      "words_ar": [
+        "إِلَّا",
+        "عَلَىٰٓ",
+        "أَزۡوَٰجِهِمۡ",
+        "أَوۡ",
+        "مَا",
+        "مَلَكَتۡ",
+        "أَيۡمَٰنُهُمۡ",
+        "فَإِنَّهُمۡ",
+        "غَيۡرُ",
+        "مَلُومِينَ"
+      ],
+      "words_translit": [
+        "illâ",
+        "`alâ",
+        "ezvâcihim",
+        "ev",
+        "mâ",
+        "meleket",
+        "eymânühüm",
+        "feinnehüm",
+        "gayru",
+        "melûmîn."
+      ],
+      "word_count": 10
+    },
+    {
+      "number": 7,
+      "text_ar": "فَمَنِ ٱبۡتَغَىٰ وَرَآءَ ذَٰلِكَ فَأُوْلَـٰٓئِكَ هُمُ ٱلۡعَادُونَ",
+      "text_tr_diyanet": "Bu sınırları aşmak isteyenler, işte bunlar aşırı gidenlerdir.",
+      "text_tr_vakfi": "Şu halde, kim bunun ötesine gitmek isterse, işte bunlar, haddi aşan kimselerdir.",
+      "text_tr_yazir": "Şu halde, kim bunun ötesine gitmeyi isterse, işte bunlar, haddi aşan kimselerdir.",
+      "transliteration": "femeni-btegâ verâe ẕâlike feülâike hümü-l`âdûn.",
+      "words_ar": [
+        "فَمَنِ",
+        "ٱبۡتَغَىٰ",
+        "وَرَآءَ",
+        "ذَٰلِكَ",
+        "فَأُوْلَـٰٓئِكَ",
+        "هُمُ",
+        "ٱلۡعَادُونَ"
+      ],
+      "words_translit": [
+        "femeni-btegâ",
+        "verâe",
+        "ẕâlike",
+        "feülâike",
+        "hümü-l`âdûn."
+      ],
+      "word_count": 7
+    },
+    {
+      "number": 8,
+      "text_ar": "وَٱلَّذِينَ هُمۡ لِأَمَٰنَٰتِهِمۡ وَعَهۡدِهِمۡ رَٰعُونَ",
+      "text_tr_diyanet": "Onlar emanetlerini ve sözlerini yerine getirirler.",
+      "text_tr_vakfi": "Yine onlar (o müminler) ki, emanetlerine ve ahidlerine riayet ederler;",
+      "text_tr_yazir": "Yine onlar ki, emanetlerine ve ahidlerine riayet ederler,",
+      "transliteration": "velleẕîne hüm liemânâtihim ve`ahdihim râ`ûn.",
+      "words_ar": [
+        "وَٱلَّذِينَ",
+        "هُمۡ",
+        "لِأَمَٰنَٰتِهِمۡ",
+        "وَعَهۡدِهِمۡ",
+        "رَٰعُونَ"
+      ],
+      "words_translit": [
+        "velleẕîne",
+        "hüm",
+        "liemânâtihim",
+        "ve`ahdihim",
+        "râ`ûn."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 9,
+      "text_ar": "وَٱلَّذِينَ هُمۡ عَلَىٰ صَلَوَٰتِهِمۡ يُحَافِظُونَ",
+      "text_tr_diyanet": "Namazlarına riayet ederler.",
+      "text_tr_vakfi": "Ve onlar ki, namazlarına devam ederler.",
+      "text_tr_yazir": "Ve onlar ki, namazlarını muhafaza ederler,",
+      "transliteration": "velleẕîne hüm `alâ ṣalevâtihim yüḥâfiżûn.",
+      "words_ar": [
+        "وَٱلَّذِينَ",
+        "هُمۡ",
+        "عَلَىٰ",
+        "صَلَوَٰتِهِمۡ",
+        "يُحَافِظُونَ"
+      ],
+      "words_translit": [
+        "velleẕîne",
+        "hüm",
+        "`alâ",
+        "ṣalevâtihim",
+        "yüḥâfiżûn."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 10,
+      "text_ar": "أُوْلَـٰٓئِكَ هُمُ ٱلۡوَٰرِثُونَ",
+      "text_tr_diyanet": "İşte onlar, temelli kalacakları Firdevs cennetine varis olanlardır.",
+      "text_tr_vakfi": "İşte, asıl bunlar varis olacaklardır;",
+      "text_tr_yazir": "İşte asıl onlar varislerdir.",
+      "transliteration": "ülâike hümü-lvâriŝûn.",
+      "words_ar": [
+        "أُوْلَـٰٓئِكَ",
+        "هُمُ",
+        "ٱلۡوَٰرِثُونَ"
+      ],
+      "words_translit": [
+        "ülâike",
+        "hümü-lvâriŝûn."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 11,
+      "text_ar": "ٱلَّذِينَ يَرِثُونَ ٱلۡفِرۡدَوۡسَ هُمۡ فِيهَا خَٰلِدُونَ",
+      "text_tr_diyanet": "İşte onlar, temelli kalacakları Firdevs cennetine varis olanlardır.",
+      "text_tr_vakfi": "(Evet) Firdevs'e varis olan bu kimseler, orada ebedi kalıcıdırlar.",
+      "text_tr_yazir": "Ki, Firdevs'e varis olan bu kimseler orada ebedî kalırlar.",
+      "transliteration": "elleẕîne yeriŝûne-lfirdevs. hüm fîhâ ḫâlidûn.",
+      "words_ar": [
+        "ٱلَّذِينَ",
+        "يَرِثُونَ",
+        "ٱلۡفِرۡدَوۡسَ",
+        "هُمۡ",
+        "فِيهَا",
+        "خَٰلِدُونَ"
+      ],
+      "words_translit": [
+        "elleẕîne",
+        "yeriŝûne-lfirdevs.",
+        "hüm",
+        "fîhâ",
+        "ḫâlidûn."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 12,
+      "text_ar": "وَلَقَدۡ خَلَقۡنَا ٱلۡإِنسَٰنَ مِن سُلَٰلَةٖ مِّن طِينٖ",
+      "text_tr_diyanet": "And olsun ki, insanı süzme çamurdan yarattık.",
+      "text_tr_vakfi": "Andolsun biz insanı, çamurdan (süzülüp çıkarılmış) bir özden yarattık.",
+      "text_tr_yazir": "And olsun biz insanı, çamurdan, bir sülâleden (süzülüp çıkarılmış çamurdan) yarattık.",
+      "transliteration": "veleḳad ḫalaḳne-l'insâne min sülâletim min ṭîn.",
+      "words_ar": [
+        "وَلَقَدۡ",
+        "خَلَقۡنَا",
+        "ٱلۡإِنسَٰنَ",
+        "مِن",
+        "سُلَٰلَةٖ",
+        "مِّن",
+        "طِينٖ"
+      ],
+      "words_translit": [
+        "veleḳad",
+        "ḫalaḳne-l'insâne",
+        "min",
+        "sülâletim",
+        "min",
+        "ṭîn."
+      ],
+      "word_count": 7
+    },
+    {
+      "number": 13,
+      "text_ar": "ثُمَّ جَعَلۡنَٰهُ نُطۡفَةٗ فِي قَرَارٖ مَّكِينٖ",
+      "text_tr_diyanet": "Sonra onu nutfe halinde sağlam bir yere yerleştirdik.",
+      "text_tr_vakfi": "Sonra onu sağlam bir karargahta nutfe haline getirdik.",
+      "text_tr_yazir": "Sonra onu emin ve sağlam bir karargahta (rahimde) nutfe (sperma) haline getirdik.",
+      "transliteration": "ŝümme ce`alnâhü nuṭfeten fî ḳarârim mekîn.",
+      "words_ar": [
+        "ثُمَّ",
+        "جَعَلۡنَٰهُ",
+        "نُطۡفَةٗ",
+        "فِي",
+        "قَرَارٖ",
+        "مَّكِينٖ"
+      ],
+      "words_translit": [
+        "ŝümme",
+        "ce`alnâhü",
+        "nuṭfeten",
+        "fî",
+        "ḳarârim",
+        "mekîn."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 14,
+      "text_ar": "ثُمَّ خَلَقۡنَا ٱلنُّطۡفَةَ عَلَقَةٗ فَخَلَقۡنَا ٱلۡعَلَقَةَ مُضۡغَةٗ فَخَلَقۡنَا ٱلۡمُضۡغَةَ عِظَٰمٗا فَكَسَوۡنَا ٱلۡعِظَٰمَ لَحۡمٗا ثُمَّ أَنشَأۡنَٰهُ خَلۡقًا ءَاخَرَۚ فَتَبَارَكَ ٱللَّهُ أَحۡسَنُ ٱلۡخَٰلِقِينَ",
+      "text_tr_diyanet": "Sonra nutfeyi kan pıhtısına çevirdik, kan pıhtısını bir çiğnemlik et yaptık, bir çiğnemlik etten kemikler yarattık, kemiklere de et giydirdik. Sonra onu başka bir yaratık yaptık: Biçim verenlerin en güzeli olan Allah ne uludur!",
+      "text_tr_vakfi": "Sonra nutfeyi alaka (aşılanmış yumurta) yaptık. Peşinden, alakayı, bir parçacık et haline soktuk; bu bir parçacık eti kemiklere (iskelete) çevirdik; bu kemikleri etle kapladık. Sonra onu başka bir yaratışla insan haline getirdik. Yapıpyaratanların en güzeli olan Allah pek yücedir.",
+      "text_tr_yazir": "Sonra nutfeyi bir alaka (embrio) yarattık, derken o alakayı bir mudga (bir çiğnem et parçası halinde) yarattık, derken o mudgayı bir takım kemik yarattık, derken o kemiklere bir et giydirdik, sonra onu diğer bir yaratık olarak teşekkül ettirdik. Yapıp yaratanların en güzeli olan Allah, pek yücedir.",
+      "transliteration": "ŝümme ḫalaḳne-nnuṭfete `aleḳaten feḫalaḳne-l`aleḳate muḍgaten feḫalaḳne-lmuḍgate `iżâmen fekesevne-l`iżâme laḥmâ. ŝümme enşe'nâhü ḫalḳan âḫar. fetebârake-llâhü aḥsenü-lḫâliḳîn.",
+      "words_ar": [
+        "ثُمَّ",
+        "خَلَقۡنَا",
+        "ٱلنُّطۡفَةَ",
+        "عَلَقَةٗ",
+        "فَخَلَقۡنَا",
+        "ٱلۡعَلَقَةَ",
+        "مُضۡغَةٗ",
+        "فَخَلَقۡنَا",
+        "ٱلۡمُضۡغَةَ",
+        "عِظَٰمٗا",
+        "فَكَسَوۡنَا",
+        "ٱلۡعِظَٰمَ",
+        "لَحۡمٗا",
+        "ثُمَّ",
+        "أَنشَأۡنَٰهُ",
+        "خَلۡقًا",
+        "ءَاخَرَ",
+        "فَتَبَارَكَ",
+        "ٱللَّهُ",
+        "أَحۡسَنُ",
+        "ٱلۡخَٰلِقِينَ"
+      ],
+      "words_translit": [
+        "ŝümme",
+        "ḫalaḳne-nnuṭfete",
+        "`aleḳaten",
+        "feḫalaḳne-l`aleḳate",
+        "muḍgaten",
+        "feḫalaḳne-lmuḍgate",
+        "`iżâmen",
+        "fekesevne-l`iżâme",
+        "laḥmâ.",
+        "ŝümme",
+        "enşe'nâhü",
+        "ḫalḳan",
+        "âḫar.",
+        "fetebârake-llâhü",
+        "aḥsenü-lḫâliḳîn."
+      ],
+      "word_count": 21
+    },
+    {
+      "number": 15,
+      "text_ar": "ثُمَّ إِنَّكُم بَعۡدَ ذَٰلِكَ لَمَيِّتُونَ",
+      "text_tr_diyanet": "Sizler, bütün bunlardan sonra ölürsünüz.",
+      "text_tr_vakfi": "Sonra, muhakkak ki siz, bunun ardından elbet öleceksiniz.",
+      "text_tr_yazir": "Sonra siz bunun ardından, muhakkak ki öleceksiniz.",
+      "transliteration": "ŝümme inneküm ba`de ẕâlike lemeyyitûn.",
+      "words_ar": [
+        "ثُمَّ",
+        "إِنَّكُم",
+        "بَعۡدَ",
+        "ذَٰلِكَ",
+        "لَمَيِّتُونَ"
+      ],
+      "words_translit": [
+        "ŝümme",
+        "inneküm",
+        "ba`de",
+        "ẕâlike",
+        "lemeyyitûn."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 16,
+      "text_ar": "ثُمَّ إِنَّكُمۡ يَوۡمَ ٱلۡقِيَٰمَةِ تُبۡعَثُونَ",
+      "text_tr_diyanet": "Şüphesiz kıyamet günü tekrar diriltilirsiniz.",
+      "text_tr_vakfi": "Sonra da şüphesiz, sizler kıyamet gününde tekrar diriltileceksiniz.",
+      "text_tr_yazir": "Sonra da siz, şüphesiz, kıyamet gününde tekrar diriltileceksiniz.",
+      "transliteration": "ŝümme inneküm yevme-lḳiyâmeti tüb`aŝûn.",
+      "words_ar": [
+        "ثُمَّ",
+        "إِنَّكُمۡ",
+        "يَوۡمَ",
+        "ٱلۡقِيَٰمَةِ",
+        "تُبۡعَثُونَ"
+      ],
+      "words_translit": [
+        "ŝümme",
+        "inneküm",
+        "yevme-lḳiyâmeti",
+        "tüb`aŝûn."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 17,
+      "text_ar": "وَلَقَدۡ خَلَقۡنَا فَوۡقَكُمۡ سَبۡعَ طَرَآئِقَ وَمَا كُنَّا عَنِ ٱلۡخَلۡقِ غَٰفِلِينَ",
+      "text_tr_diyanet": "And olsun ki, üstünüzde yedi tabaka yarattık. Biz, yarattığımızdan habersiz değiliz.",
+      "text_tr_vakfi": "Andolsun biz, sizin üstünüzde yedi yol yarattık. Biz yaratmaktan habersiz değiliz.",
+      "text_tr_yazir": "Andolsun biz, sizin üstünüzde yedi yol yarattık. Biz, yaratmaktan habersiz değiliz.",
+      "transliteration": "veleḳad ḫalaḳnâ fevḳaküm seb`a ṭarâiḳ. vemâ künnâ `ani-lḫalḳi gâfilîn.",
+      "words_ar": [
+        "وَلَقَدۡ",
+        "خَلَقۡنَا",
+        "فَوۡقَكُمۡ",
+        "سَبۡعَ",
+        "طَرَآئِقَ",
+        "وَمَا",
+        "كُنَّا",
+        "عَنِ",
+        "ٱلۡخَلۡقِ",
+        "غَٰفِلِينَ"
+      ],
+      "words_translit": [
+        "veleḳad",
+        "ḫalaḳnâ",
+        "fevḳaküm",
+        "seb`a",
+        "ṭarâiḳ.",
+        "vemâ",
+        "künnâ",
+        "`ani-lḫalḳi",
+        "gâfilîn."
+      ],
+      "word_count": 10
+    },
+    {
+      "number": 18,
+      "text_ar": "وَأَنزَلۡنَا مِنَ ٱلسَّمَآءِ مَآءَۢ بِقَدَرٖ فَأَسۡكَنَّـٰهُ فِي ٱلۡأَرۡضِۖ وَإِنَّا عَلَىٰ ذَهَابِۭ بِهِۦ لَقَٰدِرُونَ",
+      "text_tr_diyanet": "Gökten suyu ölçülü indirdik de, onu yerde durdurduk. Şüphesiz onu gidermeye de kadiriz.",
+      "text_tr_vakfi": "Gökten uygun bir ölçüde yağmur indirip onu arzda durdurduk. Bizim onu gidermeye de elbet gücümüz yeter.",
+      "text_tr_yazir": "Gökten uygun bir ölçüde yağmur indirip onu yerde durgunlaştırdık. Bizim onu gidermeye de elbet gücümüz yeter.",
+      "transliteration": "veenzelnâ mine-ssemâi mâem biḳaderin feeskennâhü fi-l'arḍ. veinnâ `alâ ẕehâbim bihî leḳâdirûn.",
+      "words_ar": [
+        "وَأَنزَلۡنَا",
+        "مِنَ",
+        "ٱلسَّمَآءِ",
+        "مَآءَۢ",
+        "بِقَدَرٖ",
+        "فَأَسۡكَنَّـٰهُ",
+        "فِي",
+        "ٱلۡأَرۡضِ",
+        "وَإِنَّا",
+        "عَلَىٰ",
+        "ذَهَابِۭ",
+        "بِهِۦ",
+        "لَقَٰدِرُونَ"
+      ],
+      "words_translit": [
+        "veenzelnâ",
+        "mine-ssemâi",
+        "mâem",
+        "biḳaderin",
+        "feeskennâhü",
+        "fi-l'arḍ.",
+        "veinnâ",
+        "`alâ",
+        "ẕehâbim",
+        "bihî",
+        "leḳâdirûn."
+      ],
+      "word_count": 13
+    },
+    {
+      "number": 19,
+      "text_ar": "فَأَنشَأۡنَا لَكُم بِهِۦ جَنَّـٰتٖ مِّن نَّخِيلٖ وَأَعۡنَٰبٖ لَّكُمۡ فِيهَا فَوَٰكِهُ كَثِيرَةٞ وَمِنۡهَا تَأۡكُلُونَ",
+      "text_tr_diyanet": "Onunla, içinde, yediğiniz birçok meyvalar bulunan hurmalık ve üzüm bağları, Tur-i Sina'da yetişen, yiyenlere, yağ ve katık veren zeytin ağacını var ettik.",
+      "text_tr_vakfi": "Böylece onun (yağmurun) sayesinde sizin yararınıza hurma bahçeleri ve üzüm bağları meydana getirdik. Bunlarda sizin için birçok meyveler vardır ve siz onlardan yersiniz.",
+      "text_tr_yazir": "Böylece onun (yağmurun) sayesinde sizin yararınıza hurma bahçeleri ve üzüm bağları meydana getirdik ki, bunlarda sizin için bir çok meyveler vardır ve siz onlardan yersiniz.",
+      "transliteration": "feenşe'nâ leküm bihî cennâtim min neḫîliv vea`nâb. leküm fîhâ fevâkihü keŝîratüv veminhâ te'külûn.",
+      "words_ar": [
+        "فَأَنشَأۡنَا",
+        "لَكُم",
+        "بِهِۦ",
+        "جَنَّـٰتٖ",
+        "مِّن",
+        "نَّخِيلٖ",
+        "وَأَعۡنَٰبٖ",
+        "لَّكُمۡ",
+        "فِيهَا",
+        "فَوَٰكِهُ",
+        "كَثِيرَةٞ",
+        "وَمِنۡهَا",
+        "تَأۡكُلُونَ"
+      ],
+      "words_translit": [
+        "feenşe'nâ",
+        "leküm",
+        "bihî",
+        "cennâtim",
+        "min",
+        "neḫîliv",
+        "vea`nâb.",
+        "leküm",
+        "fîhâ",
+        "fevâkihü",
+        "keŝîratüv",
+        "veminhâ",
+        "te'külûn."
+      ],
+      "word_count": 13
+    },
+    {
+      "number": 20,
+      "text_ar": "وَشَجَرَةٗ تَخۡرُجُ مِن طُورِ سَيۡنَآءَ تَنۢبُتُ بِٱلدُّهۡنِ وَصِبۡغٖ لِّلۡأٓكِلِينَ",
+      "text_tr_diyanet": "Onunla, içinde, yediğiniz birçok meyvalar bulunan hurmalık ve üzüm bağları, Tur-i Sina'da yetişen, yiyenlere, yağ ve katık veren zeytin ağacını var ettik.",
+      "text_tr_vakfi": "Tur-i Sina'da da yetişen bir ağaç daha meydana getirdik ki, bu ağaç hem yağ hem de yiyenlerin ekmeğine katık edecekleri (zeytin) verir.",
+      "text_tr_yazir": "Tûrı Sinâ'da (dahi) yetişen bir ağaç da meydana getirdik ki, bu ağaç, hem yağ, hem de yiyenlerin ekmeğine katık edecekleri (zeytin) verir.",
+      "transliteration": "veşeceraten taḫrucü min ṭûri seynâe tembütü biddühni veṣibgil lil'âkilîn.",
+      "words_ar": [
+        "وَشَجَرَةٗ",
+        "تَخۡرُجُ",
+        "مِن",
+        "طُورِ",
+        "سَيۡنَآءَ",
+        "تَنۢبُتُ",
+        "بِٱلدُّهۡنِ",
+        "وَصِبۡغٖ",
+        "لِّلۡأٓكِلِينَ"
+      ],
+      "words_translit": [
+        "veşeceraten",
+        "taḫrucü",
+        "min",
+        "ṭûri",
+        "seynâe",
+        "tembütü",
+        "biddühni",
+        "veṣibgil",
+        "lil'âkilîn."
+      ],
+      "word_count": 9
+    },
+    {
+      "number": 21,
+      "text_ar": "وَإِنَّ لَكُمۡ فِي ٱلۡأَنۡعَٰمِ لَعِبۡرَةٗۖ نُّسۡقِيكُم مِّمَّا فِي بُطُونِهَا وَلَكُمۡ فِيهَا مَنَٰفِعُ كَثِيرَةٞ وَمِنۡهَا تَأۡكُلُونَ",
+      "text_tr_diyanet": "Ehli hayvanlarda size ders vardır; onlardan çıkan sütten size içiririz; onlarda daha birçok menfaatiniz vardır. Onlardan yersiniz.",
+      "text_tr_vakfi": "Hayvanlarda sizin için elbette ibretler vardır. Onların karınlarındakinden (sütlerinden) size içiririz. Onlarda sizin için birçok faydalar daha vardır; etlerinden de yersiniz.",
+      "text_tr_yazir": "Hayvanlarda da sizin için elbette ibretler vardır. Onların karınlarındakilerden size içiririz. Onlarda sizin için birtakım faydalar daha vardır; ayrıca etlerini yersiniz.",
+      "transliteration": "veinne leküm fi-l'en`âmi le`ibrah. nüsḳîküm mimmâ fî büṭûnihâ veleküm fîhâ menâfi`u keŝîratüv veminhâ te'külûn.",
+      "words_ar": [
+        "وَإِنَّ",
+        "لَكُمۡ",
+        "فِي",
+        "ٱلۡأَنۡعَٰمِ",
+        "لَعِبۡرَةٗ",
+        "نُّسۡقِيكُم",
+        "مِّمَّا",
+        "فِي",
+        "بُطُونِهَا",
+        "وَلَكُمۡ",
+        "فِيهَا",
+        "مَنَٰفِعُ",
+        "كَثِيرَةٞ",
+        "وَمِنۡهَا",
+        "تَأۡكُلُونَ"
+      ],
+      "words_translit": [
+        "veinne",
+        "leküm",
+        "fi-l'en`âmi",
+        "le`ibrah.",
+        "nüsḳîküm",
+        "mimmâ",
+        "fî",
+        "büṭûnihâ",
+        "veleküm",
+        "fîhâ",
+        "menâfi`u",
+        "keŝîratüv",
+        "veminhâ",
+        "te'külûn."
+      ],
+      "word_count": 15
+    },
+    {
+      "number": 22,
+      "text_ar": "وَعَلَيۡهَا وَعَلَى ٱلۡفُلۡكِ تُحۡمَلُونَ",
+      "text_tr_diyanet": "Hem onların ve hem de gemilerin üzerinde taşınırsınız.",
+      "text_tr_vakfi": "Onların üzerinde ve gemilerde taşınırsınız.",
+      "text_tr_yazir": "Hem onlara ve hem gemiye yüklenirsiniz.",
+      "transliteration": "ve`aleyhâ ve`ale-lfülki tuḥmelûn.",
+      "words_ar": [
+        "وَعَلَيۡهَا",
+        "وَعَلَى",
+        "ٱلۡفُلۡكِ",
+        "تُحۡمَلُونَ"
+      ],
+      "words_translit": [
+        "ve`aleyhâ",
+        "ve`ale-lfülki",
+        "tuḥmelûn."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 23,
+      "text_ar": "وَلَقَدۡ أَرۡسَلۡنَا نُوحًا إِلَىٰ قَوۡمِهِۦ فَقَالَ يَٰقَوۡمِ ٱعۡبُدُواْ ٱللَّهَ مَا لَكُم مِّنۡ إِلَٰهٍ غَيۡرُهُۥٓۚ أَفَلَا تَتَّقُونَ",
+      "text_tr_diyanet": "And olsun ki Nuh'u milletine gönderdik; onlara: \"Ey milletim! Allah'a kulluk edin; O'ndan başka tanrınız yoktur; sakınmaz mısınız?\" dedi.",
+      "text_tr_vakfi": "Andolsun ki, Nuh'u kavmine gönderdik ve o: Ey kavmim! Allah'a kulluk edin. Sizin için O'ndan başka bir tanrı yoktur. Hala sakınmaz mısınız? dedi.",
+      "text_tr_yazir": "And olsun biz, Nûh'u kavmine gönderdik. \"Ey kavmim dedi, Allah'a kulluk edin. O'ndan başka tanrınız yoktur. Hâlâ sakınmaz mısınız?\"",
+      "transliteration": "veleḳad erselnâ nûḥan ilâ ḳavmihî feḳâle yâ ḳavmi-`büdü-llâhe mâ leküm min ilâhin gayruh. efelâ tetteḳûn.",
+      "words_ar": [
+        "وَلَقَدۡ",
+        "أَرۡسَلۡنَا",
+        "نُوحًا",
+        "إِلَىٰ",
+        "قَوۡمِهِۦ",
+        "فَقَالَ",
+        "يَٰقَوۡمِ",
+        "ٱعۡبُدُواْ",
+        "ٱللَّهَ",
+        "مَا",
+        "لَكُم",
+        "مِّنۡ",
+        "إِلَٰهٍ",
+        "غَيۡرُهُۥٓ",
+        "أَفَلَا",
+        "تَتَّقُونَ"
+      ],
+      "words_translit": [
+        "veleḳad",
+        "erselnâ",
+        "nûḥan",
+        "ilâ",
+        "ḳavmihî",
+        "feḳâle",
+        "yâ",
+        "ḳavmi-`büdü-llâhe",
+        "mâ",
+        "leküm",
+        "min",
+        "ilâhin",
+        "gayruh.",
+        "efelâ",
+        "tetteḳûn."
+      ],
+      "word_count": 16
+    },
+    {
+      "number": 24,
+      "text_ar": "فَقَالَ ٱلۡمَلَؤُاْ ٱلَّذِينَ كَفَرُواْ مِن قَوۡمِهِۦ مَا هَٰذَآ إِلَّا بَشَرٞ مِّثۡلُكُمۡ يُرِيدُ أَن يَتَفَضَّلَ عَلَيۡكُمۡ وَلَوۡ شَآءَ ٱللَّهُ لَأَنزَلَ مَلَـٰٓئِكَةٗ مَّا سَمِعۡنَا بِهَٰذَا فِيٓ ءَابَآئِنَا ٱلۡأَوَّلِينَ",
+      "text_tr_diyanet": "Milletinin inkarcı ileri gelenleri: \"Bu, sizin gibi bir insandan başka birşey değildir. Sizden üstün olmak istiyor. Allah dilemiş olsaydı melekler indirirdi. İlk atalarımızdan beri böyle birşey işitmedik. Bu adamda nedense biraz delilik var, bir süreye kadar onu gözetleyin\" dediler.",
+      "text_tr_vakfi": "Bunun üzerine, kavminin inkarcı ileri gelenleri şöyle dediler: \"Bu, tıpkı sizin gibi bir beşer olmaktan başka bir şey değildir. Size üstün ve hakim olmak istiyor. Eğer Allah (peygamber göndermek) isteseydi, muhakkak ki melekler gönderirdi. Biz geçmişteki atalarımızdan böyle bir şey duymadık.\"",
+      "text_tr_yazir": "Bunun üzerine, kavminin içinden kâfir kodaman topluluğu \"Bu, dediler, tıpkı sizin gibi bir beşer olmaktan başka bir şey değildir. Size üstün ve hakim olmak istiyor. Eğer Allah (peygamber göndermek) isteseydi, muhakkak ki bir melek gönderirdi. Biz geçmişteki atalarımızdan böyle bir şey duymadık.\"",
+      "transliteration": "feḳâle-lmeleü-lleẕîne keferû min ḳavmihî mâ hâẕâ illâ beşerum miŝlüküm yürîdü ey yetefeḍḍale `aleyküm. velev şâe-llâhü leenzele melâikeh. mâ semi`nâ bihâẕâ fî âbâine-l'evvelîn.",
+      "words_ar": [
+        "فَقَالَ",
+        "ٱلۡمَلَؤُاْ",
+        "ٱلَّذِينَ",
+        "كَفَرُواْ",
+        "مِن",
+        "قَوۡمِهِۦ",
+        "مَا",
+        "هَٰذَآ",
+        "إِلَّا",
+        "بَشَرٞ",
+        "مِّثۡلُكُمۡ",
+        "يُرِيدُ",
+        "أَن",
+        "يَتَفَضَّلَ",
+        "عَلَيۡكُمۡ",
+        "وَلَوۡ",
+        "شَآءَ",
+        "ٱللَّهُ",
+        "لَأَنزَلَ",
+        "مَلَـٰٓئِكَةٗ",
+        "مَّا",
+        "سَمِعۡنَا",
+        "بِهَٰذَا",
+        "فِيٓ",
+        "ءَابَآئِنَا",
+        "ٱلۡأَوَّلِينَ"
+      ],
+      "words_translit": [
+        "feḳâle-lmeleü-lleẕîne",
+        "keferû",
+        "min",
+        "ḳavmihî",
+        "mâ",
+        "hâẕâ",
+        "illâ",
+        "beşerum",
+        "miŝlüküm",
+        "yürîdü",
+        "ey",
+        "yetefeḍḍale",
+        "`aleyküm.",
+        "velev",
+        "şâe-llâhü",
+        "leenzele",
+        "melâikeh.",
+        "mâ",
+        "semi`nâ",
+        "bihâẕâ",
+        "fî",
+        "âbâine-l'evvelîn."
+      ],
+      "word_count": 26
+    },
+    {
+      "number": 25,
+      "text_ar": "إِنۡ هُوَ إِلَّا رَجُلُۢ بِهِۦ جِنَّةٞ فَتَرَبَّصُواْ بِهِۦ حَتَّىٰ حِينٖ",
+      "text_tr_diyanet": "Milletinin inkarcı ileri gelenleri: \"Bu, sizin gibi bir insandan başka birşey değildir. Sizden üstün olmak istiyor. Allah dilemiş olsaydı melekler indirirdi. İlk atalarımızdan beri böyle birşey işitmedik. Bu adamda nedense biraz delilik var, bir süreye kadar onu gözetleyin\" dediler.",
+      "text_tr_vakfi": "\"Bu, yalnızca kendisinde delilik bulunan bir kimsedir. Öyle ise, bir süreye kadar ona katlanıp bekleyin bakalım.\"",
+      "text_tr_yazir": "\"Bu, yalnızca kendisinde delilik bulunan bir kimsedir. Öyle ise, bir süreye kadar ona katlanıp (durumu) gözetleyin bakalım.\"",
+      "transliteration": "in hüve illâ racülüm bihî cinnetün feterabbeṣû bihî ḥattâ ḥîn.",
+      "words_ar": [
+        "إِنۡ",
+        "هُوَ",
+        "إِلَّا",
+        "رَجُلُۢ",
+        "بِهِۦ",
+        "جِنَّةٞ",
+        "فَتَرَبَّصُواْ",
+        "بِهِۦ",
+        "حَتَّىٰ",
+        "حِينٖ"
+      ],
+      "words_translit": [
+        "in",
+        "hüve",
+        "illâ",
+        "racülüm",
+        "bihî",
+        "cinnetün",
+        "feterabbeṣû",
+        "bihî",
+        "ḥattâ",
+        "ḥîn."
+      ],
+      "word_count": 10
+    },
+    {
+      "number": 26,
+      "text_ar": "قَالَ رَبِّ ٱنصُرۡنِي بِمَا كَذَّبُونِ",
+      "text_tr_diyanet": "Nuh: \"Rabbim! Beni yalanlamalarına karşılık bana yardım et\" dedi.",
+      "text_tr_vakfi": "(Nuh), Rabbim! dedi, beni yalanlamalarına karşı bana yardım et!",
+      "text_tr_yazir": "Nuh: \"Rabbim! dedi, beni yalana çıkarmalarına karşı bana yardım et!\"",
+      "transliteration": "ḳâle rabbi-nṣurnî bimâ keẕẕebûn.",
+      "words_ar": [
+        "قَالَ",
+        "رَبِّ",
+        "ٱنصُرۡنِي",
+        "بِمَا",
+        "كَذَّبُونِ"
+      ],
+      "words_translit": [
+        "ḳâle",
+        "rabbi-nṣurnî",
+        "bimâ",
+        "keẕẕebûn."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 27,
+      "text_ar": "فَأَوۡحَيۡنَآ إِلَيۡهِ أَنِ ٱصۡنَعِ ٱلۡفُلۡكَ بِأَعۡيُنِنَا وَوَحۡيِنَا فَإِذَا جَآءَ أَمۡرُنَا وَفَارَ ٱلتَّنُّورُ فَٱسۡلُكۡ فِيهَا مِن كُلّٖ زَوۡجَيۡنِ ٱثۡنَيۡنِ وَأَهۡلَكَ إِلَّا مَن سَبَقَ عَلَيۡهِ ٱلۡقَوۡلُ مِنۡهُمۡۖ وَلَا تُخَٰطِبۡنِي فِي ٱلَّذِينَ ظَلَمُوٓاْ إِنَّهُم مُّغۡرَقُونَ",
+      "text_tr_diyanet": "Bunun üzerine ona şöyle vahyettik: \"Nezaretimiz altında, sana bildirdiğimiz gibi gemiyi yap; buyruğumuz gelip tandırdan sular kaynayınca her cinsten birer çifti ve aleyhine hüküm verilmiş olanın dışında kalan çoluk çocuğunu alıp gemiye bindir. Haksızlık yapanlar için Bana baş vurma, çünkü onlar suda boğulacaklardır.\"",
+      "text_tr_vakfi": "Bunun üzerine ona şöyle vahyettik: Gözlerimizin önünde (muhafazamız altında) ve bildirdiğimiz şekilde gemiyi yap. Bizim emrimiz gelip de sular coşup yükselmeye başlayınca her cinsten eşler halinde iki tane ve bir de, içlerinden, daha önce kendisi aleyhinde hüküm verilmiş olanların dışındaki aileni gemiye al. Zulmetmiş olanlar konusunda bana hiç yalvarma! Zira onlar kesinlikle boğulacaklardır.",
+      "text_tr_yazir": "Bunun üzerine ona şöyle vahyettik: Bizim nezaretimiz altında ve vahyimizle gemiyi yap. Bizim emrimiz gelip de tandır kaynayınca, her cinsten eşler halinde iki tane ve bir de içlerinden, daha önce kendisi aleyhinde hüküm verilmiş olanların dışındaki aileni gemiye al. Zulmetmiş olanlar konusunda bana hiç yalvarma! Zira onlar kesinlikle boğulacaklardır!",
+      "transliteration": "feevḥaynâ ileyhi eni-ṣne`i-lfülke bia`yüninâ vevaḥyinâ feiẕâ câe emrunâ vefâra-ttennûru feslük fîhâ min küllin zevceyni-ŝneyni veehleke illâ men sebeḳa `aleyhi-lḳavlü minhüm. velâ tüḫâṭibnî fi-lleẕîne żalemû. innehüm mugraḳûn.",
+      "words_ar": [
+        "فَأَوۡحَيۡنَآ",
+        "إِلَيۡهِ",
+        "أَنِ",
+        "ٱصۡنَعِ",
+        "ٱلۡفُلۡكَ",
+        "بِأَعۡيُنِنَا",
+        "وَوَحۡيِنَا",
+        "فَإِذَا",
+        "جَآءَ",
+        "أَمۡرُنَا",
+        "وَفَارَ",
+        "ٱلتَّنُّورُ",
+        "فَٱسۡلُكۡ",
+        "فِيهَا",
+        "مِن",
+        "كُلّٖ",
+        "زَوۡجَيۡنِ",
+        "ٱثۡنَيۡنِ",
+        "وَأَهۡلَكَ",
+        "إِلَّا",
+        "مَن",
+        "سَبَقَ",
+        "عَلَيۡهِ",
+        "ٱلۡقَوۡلُ",
+        "مِنۡهُمۡ",
+        "وَلَا",
+        "تُخَٰطِبۡنِي",
+        "فِي",
+        "ٱلَّذِينَ",
+        "ظَلَمُوٓاْ",
+        "إِنَّهُم",
+        "مُّغۡرَقُونَ"
+      ],
+      "words_translit": [
+        "feevḥaynâ",
+        "ileyhi",
+        "eni-ṣne`i-lfülke",
+        "bia`yüninâ",
+        "vevaḥyinâ",
+        "feiẕâ",
+        "câe",
+        "emrunâ",
+        "vefâra-ttennûru",
+        "feslük",
+        "fîhâ",
+        "min",
+        "küllin",
+        "zevceyni-ŝneyni",
+        "veehleke",
+        "illâ",
+        "men",
+        "sebeḳa",
+        "`aleyhi-lḳavlü",
+        "minhüm.",
+        "velâ",
+        "tüḫâṭibnî",
+        "fi-lleẕîne",
+        "żalemû.",
+        "innehüm",
+        "mugraḳûn."
+      ],
+      "word_count": 32
+    },
+    {
+      "number": 28,
+      "text_ar": "فَإِذَا ٱسۡتَوَيۡتَ أَنتَ وَمَن مَّعَكَ عَلَى ٱلۡفُلۡكِ فَقُلِ ٱلۡحَمۡدُ لِلَّهِ ٱلَّذِي نَجَّىٰنَا مِنَ ٱلۡقَوۡمِ ٱلظَّـٰلِمِينَ",
+      "text_tr_diyanet": "Ey Nuh! Sen ve beraberindekiler gemiye yerleşince: \"Bizi zalim milletten kurtaran Allah'a hamdolsun\" de.",
+      "text_tr_vakfi": "Sen, yanındakilerle birlikte gemiye yerleştiğinde: \"Bizi zalimler topluluğundan kurtaran Allah'a hamdolsun\" de.",
+      "text_tr_yazir": "Sen, yanındakilerle beraber gemiye yerleştiğinde: \"Bizi zalimler topluluğundan kurtaran Allah'a hamdolsun\" de.",
+      "transliteration": "feiẕe-steveyte ente vemem me`ake `ale-lfülki feḳuli-lḥamdü lillâhi-lleẕî neccânâ mine-lḳavmi-żżâlimîn.",
+      "words_ar": [
+        "فَإِذَا",
+        "ٱسۡتَوَيۡتَ",
+        "أَنتَ",
+        "وَمَن",
+        "مَّعَكَ",
+        "عَلَى",
+        "ٱلۡفُلۡكِ",
+        "فَقُلِ",
+        "ٱلۡحَمۡدُ",
+        "لِلَّهِ",
+        "ٱلَّذِي",
+        "نَجَّىٰنَا",
+        "مِنَ",
+        "ٱلۡقَوۡمِ",
+        "ٱلظَّـٰلِمِينَ"
+      ],
+      "words_translit": [
+        "feiẕe-steveyte",
+        "ente",
+        "vemem",
+        "me`ake",
+        "`ale-lfülki",
+        "feḳuli-lḥamdü",
+        "lillâhi-lleẕî",
+        "neccânâ",
+        "mine-lḳavmi-żżâlimîn."
+      ],
+      "word_count": 15
+    },
+    {
+      "number": 29,
+      "text_ar": "وَقُل رَّبِّ أَنزِلۡنِي مُنزَلٗا مُّبَارَكٗا وَأَنتَ خَيۡرُ ٱلۡمُنزِلِينَ",
+      "text_tr_diyanet": "\"Rabbim! Beni mübarek bir yere indir. Sen indirenlerin en iyisisin\" de.",
+      "text_tr_vakfi": "Ve de ki: Rabbim! Beni bereketli bir yere indir. Sen, iskan edenlerin en hayırlısısın.",
+      "text_tr_yazir": "Ve de ki: \"Rabbim! Beni mübarek bir yere indir. Sen, konuklatanların en hayırlısısın.\"",
+      "transliteration": "veḳur rabbi enzilnî münzelem mübârakev veente ḫayru-lmünzilîn.",
+      "words_ar": [
+        "وَقُل",
+        "رَّبِّ",
+        "أَنزِلۡنِي",
+        "مُنزَلٗا",
+        "مُّبَارَكٗا",
+        "وَأَنتَ",
+        "خَيۡرُ",
+        "ٱلۡمُنزِلِينَ"
+      ],
+      "words_translit": [
+        "veḳur",
+        "rabbi",
+        "enzilnî",
+        "münzelem",
+        "mübârakev",
+        "veente",
+        "ḫayru-lmünzilîn."
+      ],
+      "word_count": 8
+    },
+    {
+      "number": 30,
+      "text_ar": "إِنَّ فِي ذَٰلِكَ لَأٓيَٰتٖ وَإِن كُنَّا لَمُبۡتَلِينَ",
+      "text_tr_diyanet": "Doğrusu bunlarda dersler vardır. Biz şüphesiz insanları denemekteyiz.",
+      "text_tr_vakfi": "Şüphesiz bunda (Nuh ve kavminin başından geçenlerde) birtakım ibretler vardır. Hakikaten biz (kullarımızı böyle) deneriz.",
+      "text_tr_yazir": "Şüphesiz bunda sizin için birtakım ibretler vardır. Çünkü biz, kullarımızı böyle denemişizdir.",
+      "transliteration": "inne fî ẕâlike leâyâtiv vein künnâ lemübtelîn.",
+      "words_ar": [
+        "إِنَّ",
+        "فِي",
+        "ذَٰلِكَ",
+        "لَأٓيَٰتٖ",
+        "وَإِن",
+        "كُنَّا",
+        "لَمُبۡتَلِينَ"
+      ],
+      "words_translit": [
+        "inne",
+        "fî",
+        "ẕâlike",
+        "leâyâtiv",
+        "vein",
+        "künnâ",
+        "lemübtelîn."
+      ],
+      "word_count": 7
+    },
+    {
+      "number": 31,
+      "text_ar": "ثُمَّ أَنشَأۡنَا مِنۢ بَعۡدِهِمۡ قَرۡنًا ءَاخَرِينَ",
+      "text_tr_diyanet": "Bunların ardından başka nesiller varettik.",
+      "text_tr_vakfi": "Sonra onların ardından bir başka nesil meydana getirdik.",
+      "text_tr_yazir": "Sonra onların ardından bir başka nesil getirdik.",
+      "transliteration": "ŝümme enşe'nâ mim ba`dihim ḳarnen âḫarîn.",
+      "words_ar": [
+        "ثُمَّ",
+        "أَنشَأۡنَا",
+        "مِنۢ",
+        "بَعۡدِهِمۡ",
+        "قَرۡنًا",
+        "ءَاخَرِينَ"
+      ],
+      "words_translit": [
+        "ŝümme",
+        "enşe'nâ",
+        "mim",
+        "ba`dihim",
+        "ḳarnen",
+        "âḫarîn."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 32,
+      "text_ar": "فَأَرۡسَلۡنَا فِيهِمۡ رَسُولٗا مِّنۡهُمۡ أَنِ ٱعۡبُدُواْ ٱللَّهَ مَا لَكُم مِّنۡ إِلَٰهٍ غَيۡرُهُۥٓۚ أَفَلَا تَتَّقُونَ",
+      "text_tr_diyanet": "Onlara aralarından: \"Allah\"a kulluk edin, O'ndan başka tanrınız yoktur, sakınmaz mısınız?\" diyen bir elçi gönderdik.",
+      "text_tr_vakfi": "Onlar arasından kendilerine: \"Allah'a kulluk edin. Sizin O'ndan başka bir tanrınız yoktur. Hala Allah'tan korkmaz mısınız?\" (mesajını ileten) bir peygamber gönderdik.",
+      "text_tr_yazir": "Bunun üzerine, onlar arasından kendilerine, \"Allah'a kulluk edin; çünkü sizin O'ndan başka bir tanrınız yoktur. Hâlâ Allah'tan korkmaz mısınız? (mesajını ileten) bir resul gönderdik.",
+      "transliteration": "feerselnâ fîhim rasûlem minhüm eni-`büdü-llâhe mâ leküm min ilâhin gayruh. efelâ tetteḳûn.",
+      "words_ar": [
+        "فَأَرۡسَلۡنَا",
+        "فِيهِمۡ",
+        "رَسُولٗا",
+        "مِّنۡهُمۡ",
+        "أَنِ",
+        "ٱعۡبُدُواْ",
+        "ٱللَّهَ",
+        "مَا",
+        "لَكُم",
+        "مِّنۡ",
+        "إِلَٰهٍ",
+        "غَيۡرُهُۥٓ",
+        "أَفَلَا",
+        "تَتَّقُونَ"
+      ],
+      "words_translit": [
+        "feerselnâ",
+        "fîhim",
+        "rasûlem",
+        "minhüm",
+        "eni-`büdü-llâhe",
+        "mâ",
+        "leküm",
+        "min",
+        "ilâhin",
+        "gayruh.",
+        "efelâ",
+        "tetteḳûn."
+      ],
+      "word_count": 14
+    },
+    {
+      "number": 33,
+      "text_ar": "وَقَالَ ٱلۡمَلَأُ مِن قَوۡمِهِ ٱلَّذِينَ كَفَرُواْ وَكَذَّبُواْ بِلِقَآءِ ٱلۡأٓخِرَةِ وَأَتۡرَفۡنَٰهُمۡ فِي ٱلۡحَيَوٰةِ ٱلدُّنۡيَا مَا هَٰذَآ إِلَّا بَشَرٞ مِّثۡلُكُمۡ يَأۡكُلُ مِمَّا تَأۡكُلُونَ مِنۡهُ وَيَشۡرَبُ مِمَّا تَشۡرَبُونَ",
+      "text_tr_diyanet": "Onun, inkarcı ve ahirete kavuşmayı yalanlayan milletinin ileri gelenleri ki Biz onlara bu dünya hayatında nimet vermiştik şöyle dediler: \"Bu, yediğinizden yiyen, içtiğinizden içen sizin gibi bir insandan başka birşey değildir.\"",
+      "text_tr_vakfi": "Onun kavminden, kafir olup ahirete ulaşmayı inkar eden ve dünya hayatında kendilerine refah verdiğimiz varlıklı kişiler: \"Bu, dediler, sadece sizin gibi bir insandır; sizin yediğinizden yer, sizin içtiğinizden içer.\"",
+      "text_tr_yazir": "Onun kavminden, kâfir olup ahirete ulaşmayı yalanlayan ve dünya hayatında kendilerine refah verdiğimiz kodaman güruh dedi ki: \"Bu dediler, sadece sizin gibi bir insandır; sizin yediğinizden yer, sizin içtiğinizden içer.\"",
+      "transliteration": "veḳâle-lmeleü min ḳavmihi-lleẕîne keferû vekeẕẕebû biliḳâi-l'âḫirati veetrafnâhüm fi-lḥayâti-ddünyâ mâ hâẕâ illâ beşerum miŝlüküm ye'külü mimmâ te'külûne minhü veyeşrabü mimmâ teşrabûn.",
+      "words_ar": [
+        "وَقَالَ",
+        "ٱلۡمَلَأُ",
+        "مِن",
+        "قَوۡمِهِ",
+        "ٱلَّذِينَ",
+        "كَفَرُواْ",
+        "وَكَذَّبُواْ",
+        "بِلِقَآءِ",
+        "ٱلۡأٓخِرَةِ",
+        "وَأَتۡرَفۡنَٰهُمۡ",
+        "فِي",
+        "ٱلۡحَيَوٰةِ",
+        "ٱلدُّنۡيَا",
+        "مَا",
+        "هَٰذَآ",
+        "إِلَّا",
+        "بَشَرٞ",
+        "مِّثۡلُكُمۡ",
+        "يَأۡكُلُ",
+        "مِمَّا",
+        "تَأۡكُلُونَ",
+        "مِنۡهُ",
+        "وَيَشۡرَبُ",
+        "مِمَّا",
+        "تَشۡرَبُونَ"
+      ],
+      "words_translit": [
+        "veḳâle-lmeleü",
+        "min",
+        "ḳavmihi-lleẕîne",
+        "keferû",
+        "vekeẕẕebû",
+        "biliḳâi-l'âḫirati",
+        "veetrafnâhüm",
+        "fi-lḥayâti-ddünyâ",
+        "mâ",
+        "hâẕâ",
+        "illâ",
+        "beşerum",
+        "miŝlüküm",
+        "ye'külü",
+        "mimmâ",
+        "te'külûne",
+        "minhü",
+        "veyeşrabü",
+        "mimmâ",
+        "teşrabûn."
+      ],
+      "word_count": 25
+    },
+    {
+      "number": 34,
+      "text_ar": "وَلَئِنۡ أَطَعۡتُم بَشَرٗا مِّثۡلَكُمۡ إِنَّكُمۡ إِذٗا لَّخَٰسِرُونَ",
+      "text_tr_diyanet": "\"Kendiniz gibi bir insana itaat ederseniz hüsrana uğrayacağınızda hiç şüphe yoktur.\"",
+      "text_tr_vakfi": "\"Gerçekten, sizin gibi bir beşere itaat ederseniz, herhalde ziyan edersiniz.\"",
+      "text_tr_yazir": "\"Gerçekten, tıpkı kendiniz gibi bir beşere itaat ederseniz herhalde ziyan edersiniz.\"",
+      "transliteration": "velein eṭa`tüm beşeram miŝleküm inneküm iẕel leḫâsirûn.",
+      "words_ar": [
+        "وَلَئِنۡ",
+        "أَطَعۡتُم",
+        "بَشَرٗا",
+        "مِّثۡلَكُمۡ",
+        "إِنَّكُمۡ",
+        "إِذٗا",
+        "لَّخَٰسِرُونَ"
+      ],
+      "words_translit": [
+        "velein",
+        "eṭa`tüm",
+        "beşeram",
+        "miŝleküm",
+        "inneküm",
+        "iẕel",
+        "leḫâsirûn."
+      ],
+      "word_count": 7
+    },
+    {
+      "number": 35,
+      "text_ar": "أَيَعِدُكُمۡ أَنَّكُمۡ إِذَا مِتُّمۡ وَكُنتُمۡ تُرَابٗا وَعِظَٰمًا أَنَّكُم مُّخۡرَجُونَ",
+      "text_tr_diyanet": "\"Öldüğünüz, toprak ve kemik yığını olduğunuz zaman tekrar dirilmenizle sizi tehdit mi ediyor?\"",
+      "text_tr_vakfi": "\"Size, öldüğünüz, toprak ve kemik yığını haline geldiğinizde, mutlak surette sizin (kabirden) çıkarılacağınızı mı vadediyor?\"",
+      "text_tr_yazir": "\"Size, öldüğünüz, toprak ve kemik yığını haline geldiğinizde, mutlak surette sizin (tekrar) meydana çıkarılacağınızı mı vaad ediyor?\"",
+      "transliteration": "eye`idüküm enneküm iẕâ mittüm veküntüm türâbev ve`iżâmen enneküm muḫracûn.",
+      "words_ar": [
+        "أَيَعِدُكُمۡ",
+        "أَنَّكُمۡ",
+        "إِذَا",
+        "مِتُّمۡ",
+        "وَكُنتُمۡ",
+        "تُرَابٗا",
+        "وَعِظَٰمًا",
+        "أَنَّكُم",
+        "مُّخۡرَجُونَ"
+      ],
+      "words_translit": [
+        "eye`idüküm",
+        "enneküm",
+        "iẕâ",
+        "mittüm",
+        "veküntüm",
+        "türâbev",
+        "ve`iżâmen",
+        "enneküm",
+        "muḫracûn."
+      ],
+      "word_count": 9
+    },
+    {
+      "number": 36,
+      "text_ar": "۞هَيۡهَاتَ هَيۡهَاتَ لِمَا تُوعَدُونَ",
+      "text_tr_diyanet": "\"Oysa tehdit edildiğiniz şey ne kadar, hem de ne kadar uzak!\"",
+      "text_tr_vakfi": "\"Bu size vadedilen (öldükten sonra yeniden dirilmek, gerçek olmaktan) çok uzak!\"",
+      "text_tr_yazir": "\"Heyhât o size vaad edilen şey ne kadar uzak!\"",
+      "transliteration": "heyhâte heyhâte limâ tû`adûn.",
+      "words_ar": [
+        "هَيۡهَاتَ",
+        "هَيۡهَاتَ",
+        "لِمَا",
+        "تُوعَدُونَ"
+      ],
+      "words_translit": [
+        "heyhâte",
+        "heyhâte",
+        "limâ",
+        "tû`adûn."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 37,
+      "text_ar": "إِنۡ هِيَ إِلَّا حَيَاتُنَا ٱلدُّنۡيَا نَمُوتُ وَنَحۡيَا وَمَا نَحۡنُ بِمَبۡعُوثِينَ",
+      "text_tr_diyanet": "\"Hayat ancak bu dünyadakidir. Ölürüz ve yaşarız (kimimiz ölür kimimiz doğar); tekrar diriltilmeyiz.\"",
+      "text_tr_vakfi": "\"Hayat, şu dünya hayatımızdan ibarettir. (Kimimiz) ölürüz, (kimimiz) yaşarız; bir daha diriltilecek de değiliz.\"",
+      "text_tr_yazir": "\"Dünya hayatından başka gerçek yoktur. (Kimimiz) ölürüz, (kimimiz) yaşarız; bir daha diriltilecek değiliz.\"",
+      "transliteration": "in hiye illâ ḥayâtüne-ddünyâ nemûtü venaḥyâ vemâ naḥnü bimeb`ûŝîn.",
+      "words_ar": [
+        "إِنۡ",
+        "هِيَ",
+        "إِلَّا",
+        "حَيَاتُنَا",
+        "ٱلدُّنۡيَا",
+        "نَمُوتُ",
+        "وَنَحۡيَا",
+        "وَمَا",
+        "نَحۡنُ",
+        "بِمَبۡعُوثِينَ"
+      ],
+      "words_translit": [
+        "in",
+        "hiye",
+        "illâ",
+        "ḥayâtüne-ddünyâ",
+        "nemûtü",
+        "venaḥyâ",
+        "vemâ",
+        "naḥnü",
+        "bimeb`ûŝîn."
+      ],
+      "word_count": 10
+    },
+    {
+      "number": 38,
+      "text_ar": "إِنۡ هُوَ إِلَّا رَجُلٌ ٱفۡتَرَىٰ عَلَى ٱللَّهِ كَذِبٗا وَمَا نَحۡنُ لَهُۥ بِمُؤۡمِنِينَ",
+      "text_tr_diyanet": "\"Bu, sadece Allah'a karşı yalan uyduranın biridir. Biz ona inanmayız.\"",
+      "text_tr_vakfi": "\"Bu adam, sadece Allah hakkında yalan uyduran bir kimsedir; biz ona inanmıyoruz.\"",
+      "text_tr_yazir": "\"Bu adam, sadece Allah hakkında yalan uyduran bir kimsedir; biz ona inanmıyoruz.\"",
+      "transliteration": "in hüve illâ racülün-fterâ `ale-llâhi keẕibev vemâ naḥnü lehû bimü'minîn.",
+      "words_ar": [
+        "إِنۡ",
+        "هُوَ",
+        "إِلَّا",
+        "رَجُلٌ",
+        "ٱفۡتَرَىٰ",
+        "عَلَى",
+        "ٱللَّهِ",
+        "كَذِبٗا",
+        "وَمَا",
+        "نَحۡنُ",
+        "لَهُۥ",
+        "بِمُؤۡمِنِينَ"
+      ],
+      "words_translit": [
+        "in",
+        "hüve",
+        "illâ",
+        "racülün-fterâ",
+        "`ale-llâhi",
+        "keẕibev",
+        "vemâ",
+        "naḥnü",
+        "lehû",
+        "bimü'minîn."
+      ],
+      "word_count": 12
+    },
+    {
+      "number": 39,
+      "text_ar": "قَالَ رَبِّ ٱنصُرۡنِي بِمَا كَذَّبُونِ",
+      "text_tr_diyanet": "O peygamber: \"Rabbim! Beni yalancı saymalarına karşılık bana yardım et\" dedi.",
+      "text_tr_vakfi": "O peygamber: Rabbim! dedi, beni yalanlamalarına karşılık bana yardımcı ol!",
+      "text_tr_yazir": "O Peygamber: \"Rabbim, dedi, beni yalanlamalarına karşı bana yardımcı ol!\"",
+      "transliteration": "ḳâle rabbi-nṣurnî bimâ keẕẕebûn.",
+      "words_ar": [
+        "قَالَ",
+        "رَبِّ",
+        "ٱنصُرۡنِي",
+        "بِمَا",
+        "كَذَّبُونِ"
+      ],
+      "words_translit": [
+        "ḳâle",
+        "rabbi-nṣurnî",
+        "bimâ",
+        "keẕẕebûn."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 40,
+      "text_ar": "قَالَ عَمَّا قَلِيلٖ لَّيُصۡبِحُنَّ نَٰدِمِينَ",
+      "text_tr_diyanet": "Allah da: \"Az sonra pişman olacaklar\" buyurdu.",
+      "text_tr_vakfi": "Allah şöyle buyurdu: Pek yakında onlar mutlaka pişman olacaklar!",
+      "text_tr_yazir": "Allah şöyle buyurdu: \"Pek yakında onlar pişman olacaklar!\"",
+      "transliteration": "ḳâle `ammâ ḳalîlil leyuṣbiḥunne nâdimîn.",
+      "words_ar": [
+        "قَالَ",
+        "عَمَّا",
+        "قَلِيلٖ",
+        "لَّيُصۡبِحُنَّ",
+        "نَٰدِمِينَ"
+      ],
+      "words_translit": [
+        "ḳâle",
+        "`ammâ",
+        "ḳalîlil",
+        "leyuṣbiḥunne",
+        "nâdimîn."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 41,
+      "text_ar": "فَأَخَذَتۡهُمُ ٱلصَّيۡحَةُ بِٱلۡحَقِّ فَجَعَلۡنَٰهُمۡ غُثَآءٗۚ فَبُعۡدٗا لِّلۡقَوۡمِ ٱلظَّـٰلِمِينَ",
+      "text_tr_diyanet": "Gerçekten, onları bir çığlık yakaladı ve onları süprüntü yığını haline getirdik. Haksızlık eden millet, rahmetden ırak olsun!",
+      "text_tr_vakfi": "Nitekim, vukuu kaçınılmaz olan korkunç bir ses yakalayıverdi onları! Kendilerini hemen sel süprüntüsüne çevirdik. Zalimler topluluğunun canı cehenneme!",
+      "text_tr_yazir": "Nitekim, Hak tarafından korkuç bir ses yakalayıverdi onları! Kendilerini hemen çepeçevre kuşattık. Zalimler topluluğunun canı cehenneme!",
+      "transliteration": "feeḫaẕethümu-ṣṣayḥatü bilḥaḳḳi fece`alnâhüm guŝââ. febü`del lilḳavmi-żżâlimîn.",
+      "words_ar": [
+        "فَأَخَذَتۡهُمُ",
+        "ٱلصَّيۡحَةُ",
+        "بِٱلۡحَقِّ",
+        "فَجَعَلۡنَٰهُمۡ",
+        "غُثَآءٗ",
+        "فَبُعۡدٗا",
+        "لِّلۡقَوۡمِ",
+        "ٱلظَّـٰلِمِينَ"
+      ],
+      "words_translit": [
+        "feeḫaẕethümu-ṣṣayḥatü",
+        "bilḥaḳḳi",
+        "fece`alnâhüm",
+        "guŝââ.",
+        "febü`del",
+        "lilḳavmi-żżâlimîn."
+      ],
+      "word_count": 8
+    },
+    {
+      "number": 42,
+      "text_ar": "ثُمَّ أَنشَأۡنَا مِنۢ بَعۡدِهِمۡ قُرُونًا ءَاخَرِينَ",
+      "text_tr_diyanet": "Ardlarından başka nesiller varettik.",
+      "text_tr_vakfi": "Sonra onların ardından başka nesiller getirdik.",
+      "text_tr_yazir": "Sonra onların ardından bir başka nesil getirdik.",
+      "transliteration": "ŝümme enşe'nâ mim ba`dihim ḳurûnen âḫarîn.",
+      "words_ar": [
+        "ثُمَّ",
+        "أَنشَأۡنَا",
+        "مِنۢ",
+        "بَعۡدِهِمۡ",
+        "قُرُونًا",
+        "ءَاخَرِينَ"
+      ],
+      "words_translit": [
+        "ŝümme",
+        "enşe'nâ",
+        "mim",
+        "ba`dihim",
+        "ḳurûnen",
+        "âḫarîn."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 43,
+      "text_ar": "مَا تَسۡبِقُ مِنۡ أُمَّةٍ أَجَلَهَا وَمَا يَسۡتَـٔۡخِرُونَ",
+      "text_tr_diyanet": "Hiçbir ümmet, kendi süresini ne çabuklaştırabilir ve ne de geciktirebilir.",
+      "text_tr_vakfi": "Hiçbir ümmet, ecelini ne öne alabilir, ne de erteleyebilir.",
+      "text_tr_yazir": "Hiçbir ümmet, ecelini ne öne alabilir, ne de erteleyebilir.",
+      "transliteration": "mâ tesbiḳu min ümmetin ecelehâ vemâ yeste'ḫirûn.",
+      "words_ar": [
+        "مَا",
+        "تَسۡبِقُ",
+        "مِنۡ",
+        "أُمَّةٍ",
+        "أَجَلَهَا",
+        "وَمَا",
+        "يَسۡتَـٔۡخِرُونَ"
+      ],
+      "words_translit": [
+        "mâ",
+        "tesbiḳu",
+        "min",
+        "ümmetin",
+        "ecelehâ",
+        "vemâ",
+        "yeste'ḫirûn."
+      ],
+      "word_count": 7
+    },
+    {
+      "number": 44,
+      "text_ar": "ثُمَّ أَرۡسَلۡنَا رُسُلَنَا تَتۡرَاۖ كُلَّ مَا جَآءَ أُمَّةٗ رَّسُولُهَا كَذَّبُوهُۖ فَأَتۡبَعۡنَا بَعۡضَهُم بَعۡضٗا وَجَعَلۡنَٰهُمۡ أَحَادِيثَۚ فَبُعۡدٗا لِّقَوۡمٖ لَّا يُؤۡمِنُونَ",
+      "text_tr_diyanet": "Sonra birbiri peşinden peygamberlerimizi gönderdik. Her ümmete peygamberi geldikçe onu yalancı saydılar. Onları birbiri peşinden yok edip hepsini birer efsane yaptık. İnanmayan millet, rahmetden ırak olsun!",
+      "text_tr_vakfi": "Sonra biz peyderpey peygamberlerimizi gönderdik. Herhangi bir ümmete peygamberlerinin geldiği her defasında, onlar bu peygamberi yalanladılar; biz de onları birbiri ardından yok ettik ve onları ibret hikayelerine dönüştürdük. Artık iman etmeyen kavmin canı cehenneme!",
+      "text_tr_yazir": "Sonra biz peyderpey peygamberlerimizi gönderdik. Herhangi bir ümmete peygamberlerinin geldiği her defasında, onlar bu peygamberi yalanladılar; biz de onları birbiri ardından (yokluğa) yuvarladık ve onları efsâne yaptık. Artık iman etmeyen kavmin canı cehenneme!",
+      "transliteration": "ŝümme erselnâ rusülenâ tetrâ. küllemâ câe ümmeter rasûlühâ keẕẕebûhü feetba`nâ ba`ḍahüm ba`ḍav vece`alnâhüm eḥâdîŝ. febü`del liḳavmil lâ yü'minûn.",
+      "words_ar": [
+        "ثُمَّ",
+        "أَرۡسَلۡنَا",
+        "رُسُلَنَا",
+        "تَتۡرَا",
+        "كُلَّ",
+        "مَا",
+        "جَآءَ",
+        "أُمَّةٗ",
+        "رَّسُولُهَا",
+        "كَذَّبُوهُ",
+        "فَأَتۡبَعۡنَا",
+        "بَعۡضَهُم",
+        "بَعۡضٗا",
+        "وَجَعَلۡنَٰهُمۡ",
+        "أَحَادِيثَ",
+        "فَبُعۡدٗا",
+        "لِّقَوۡمٖ",
+        "لَّا",
+        "يُؤۡمِنُونَ"
+      ],
+      "words_translit": [
+        "ŝümme",
+        "erselnâ",
+        "rusülenâ",
+        "tetrâ.",
+        "küllemâ",
+        "câe",
+        "ümmeter",
+        "rasûlühâ",
+        "keẕẕebûhü",
+        "feetba`nâ",
+        "ba`ḍahüm",
+        "ba`ḍav",
+        "vece`alnâhüm",
+        "eḥâdîŝ.",
+        "febü`del",
+        "liḳavmil",
+        "lâ",
+        "yü'minûn."
+      ],
+      "word_count": 19
+    },
+    {
+      "number": 45,
+      "text_ar": "ثُمَّ أَرۡسَلۡنَا مُوسَىٰ وَأَخَاهُ هَٰرُونَ بِـَٔايَٰتِنَا وَسُلۡطَٰنٖ مُّبِينٍ",
+      "text_tr_diyanet": "Sonra Musa ve kardeşi Harun'u, Firavun ve erkanına mucizelerimiz ve apaçık delille gönderdik. Büyüklük tasladılar. Zaten mağrur bir topluluktular.",
+      "text_tr_vakfi": "Sonra ayetlerimizle ve apaçık bir fermanla Musa ve kardeşi Harun'u gönderdik.",
+      "text_tr_yazir": "Sonra birtakım âyetlerimiz ve açık bir ferman ile Musa'yı ve kardeşi Harun'u gönderdik.",
+      "transliteration": "ŝümme erselnâ mûsâ veeḫâhü hârûne biâyâtinâ vesülṭânim mübîn.",
+      "words_ar": [
+        "ثُمَّ",
+        "أَرۡسَلۡنَا",
+        "مُوسَىٰ",
+        "وَأَخَاهُ",
+        "هَٰرُونَ",
+        "بِـَٔايَٰتِنَا",
+        "وَسُلۡطَٰنٖ",
+        "مُّبِينٍ"
+      ],
+      "words_translit": [
+        "ŝümme",
+        "erselnâ",
+        "mûsâ",
+        "veeḫâhü",
+        "hârûne",
+        "biâyâtinâ",
+        "vesülṭânim",
+        "mübîn."
+      ],
+      "word_count": 8
+    },
+    {
+      "number": 46,
+      "text_ar": "إِلَىٰ فِرۡعَوۡنَ وَمَلَإِيْهِۦ فَٱسۡتَكۡبَرُواْ وَكَانُواْ قَوۡمًا عَالِينَ",
+      "text_tr_diyanet": "Sonra Musa ve kardeşi Harun'u, Firavun ve erkanına mucizelerimiz ve apaçık delille gönderdik. Büyüklük tasladılar. Zaten mağrur bir topluluktular.",
+      "text_tr_vakfi": "Firavun'a ve ileri gelenlerine de(gönderdik). Onlar ise kibire kapıldılar ve ululuk taslayan bir kavim oldular.",
+      "text_tr_yazir": "Firavun'a ve ileri gelenlerine de (gönderdik). Bunun üzerine onlar kibire kapıldılar ve ululuk taslayan zorba bir kavim oldular.",
+      "transliteration": "ilâ fir`avne vemeleihî festekberû vekânû ḳavmen `âlîn.",
+      "words_ar": [
+        "إِلَىٰ",
+        "فِرۡعَوۡنَ",
+        "وَمَلَإِيْهِۦ",
+        "فَٱسۡتَكۡبَرُواْ",
+        "وَكَانُواْ",
+        "قَوۡمًا",
+        "عَالِينَ"
+      ],
+      "words_translit": [
+        "ilâ",
+        "fir`avne",
+        "vemeleihî",
+        "festekberû",
+        "vekânû",
+        "ḳavmen",
+        "`âlîn."
+      ],
+      "word_count": 7
+    },
+    {
+      "number": 47,
+      "text_ar": "فَقَالُوٓاْ أَنُؤۡمِنُ لِبَشَرَيۡنِ مِثۡلِنَا وَقَوۡمُهُمَا لَنَا عَٰبِدُونَ",
+      "text_tr_diyanet": "Bu yüzden: \"Milletleri bize kul iken, bizim gibi iki insana mı inanacağız?\" deyip onları yalancı saydılar. Bu yüzden yok edildiler.",
+      "text_tr_vakfi": "Bu yüzden dediler ki: Kavimleri bize kölelik ederken, bizim gibi olan bu iki adama inanır mıyız?",
+      "text_tr_yazir": "Onun için: Biz, dediler, \"kavimleri bize kölelik ederken bizim benzerimiz olan bu iki adama inanacak mıyız?\"",
+      "transliteration": "feḳâlû enü'minü libeşerayni miŝlinâ veḳavmühümâ lenâ `âbidûn.",
+      "words_ar": [
+        "فَقَالُوٓاْ",
+        "أَنُؤۡمِنُ",
+        "لِبَشَرَيۡنِ",
+        "مِثۡلِنَا",
+        "وَقَوۡمُهُمَا",
+        "لَنَا",
+        "عَٰبِدُونَ"
+      ],
+      "words_translit": [
+        "feḳâlû",
+        "enü'minü",
+        "libeşerayni",
+        "miŝlinâ",
+        "veḳavmühümâ",
+        "lenâ",
+        "`âbidûn."
+      ],
+      "word_count": 7
+    },
+    {
+      "number": 48,
+      "text_ar": "فَكَذَّبُوهُمَا فَكَانُواْ مِنَ ٱلۡمُهۡلَكِينَ",
+      "text_tr_diyanet": "Bu yüzden: \"Milletleri bize kul iken, bizim gibi iki insana mı inanacağız?\" deyip onları yalancı saydılar. Bu yüzden yok edildiler.",
+      "text_tr_vakfi": "Böylece onları yalanladılar ve bu sebeple helak edilenlerden oldular.",
+      "text_tr_yazir": "Böylece onları yalanladılar, bu yüzden de helâk edilenlerden oldular.",
+      "transliteration": "fekeẕẕebûhümâ fekânû mine-lmühlekîn.",
+      "words_ar": [
+        "فَكَذَّبُوهُمَا",
+        "فَكَانُواْ",
+        "مِنَ",
+        "ٱلۡمُهۡلَكِينَ"
+      ],
+      "words_translit": [
+        "fekeẕẕebûhümâ",
+        "fekânû",
+        "mine-lmühlekîn."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 49,
+      "text_ar": "وَلَقَدۡ ءَاتَيۡنَا مُوسَى ٱلۡكِتَٰبَ لَعَلَّهُمۡ يَهۡتَدُونَ",
+      "text_tr_diyanet": "And olsun ki Musa'ya, doğru yola girsinler diye Kitap verdik.",
+      "text_tr_vakfi": "Andolsun biz Musa'ya, belki onlar yola gelirler diye, Kitab'ı verdik.",
+      "text_tr_yazir": "Andolsun biz Musa'ya belki onlar yola gelirler diye, o kitabı da verdik.",
+      "transliteration": "veleḳad âteynâ mûse-lkitâbe le`allehüm yehtedûn.",
+      "words_ar": [
+        "وَلَقَدۡ",
+        "ءَاتَيۡنَا",
+        "مُوسَى",
+        "ٱلۡكِتَٰبَ",
+        "لَعَلَّهُمۡ",
+        "يَهۡتَدُونَ"
+      ],
+      "words_translit": [
+        "veleḳad",
+        "âteynâ",
+        "mûse-lkitâbe",
+        "le`allehüm",
+        "yehtedûn."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 50,
+      "text_ar": "وَجَعَلۡنَا ٱبۡنَ مَرۡيَمَ وَأُمَّهُۥٓ ءَايَةٗ وَءَاوَيۡنَٰهُمَآ إِلَىٰ رَبۡوَةٖ ذَاتِ قَرَارٖ وَمَعِينٖ",
+      "text_tr_diyanet": "Meryem oğlunu da, annesini de mucize kıldık. Her ikisini de, pınarı bulunan, oturmaya elverişli yüksek bir yere yerleştirdik.",
+      "text_tr_vakfi": "Meryem oğlunu ve annesini de (kudretimize) bir alamet kıldık; onları, yerleşmeye elverişli, suyu bulunan bir tepeye yerleştirdik.",
+      "text_tr_yazir": "Meryemoğlunu ve annesini de (kudretimize) bir alâmet kıldık; onları, yerleşmeye elverişli, sulu bir tepeye yerleştirdik.",
+      "transliteration": "vece`alne-bne meryeme veümmehû âyetev veâveynâhümâ ilâ rabvetin ẕâti ḳarâriv veme`în.",
+      "words_ar": [
+        "وَجَعَلۡنَا",
+        "ٱبۡنَ",
+        "مَرۡيَمَ",
+        "وَأُمَّهُۥٓ",
+        "ءَايَةٗ",
+        "وَءَاوَيۡنَٰهُمَآ",
+        "إِلَىٰ",
+        "رَبۡوَةٖ",
+        "ذَاتِ",
+        "قَرَارٖ",
+        "وَمَعِينٖ"
+      ],
+      "words_translit": [
+        "vece`alne-bne",
+        "meryeme",
+        "veümmehû",
+        "âyetev",
+        "veâveynâhümâ",
+        "ilâ",
+        "rabvetin",
+        "ẕâti",
+        "ḳarâriv",
+        "veme`în."
+      ],
+      "word_count": 11
+    },
+    {
+      "number": 51,
+      "text_ar": "يَـٰٓأَيُّهَا ٱلرُّسُلُ كُلُواْ مِنَ ٱلطَّيِّبَٰتِ وَٱعۡمَلُواْ صَٰلِحًاۖ إِنِّي بِمَا تَعۡمَلُونَ عَلِيمٞ",
+      "text_tr_diyanet": "Ey Peygamberler! Temiz şeylerden yiyin, yararlı iş işleyin; doğrusu Ben, yaptığınızı bilirim.",
+      "text_tr_vakfi": "\"Ey Peygamber! Temiz olan şeylerden yeyin; güzel işler yapın. Ben sizin yaptıklarınızı hakkıyle bilmekteyim.\"",
+      "text_tr_yazir": "Ey peygamberler! Temiz ve helal olan şeylerden yiyin; güzel amel ve hareketlerde bulunun. Çünkü ben sizin yaptıklarınızı bilirim.",
+      "transliteration": "yâ eyyühe-rrusülü külû mine-ṭṭayyibâti va`melû ṣâliḥâ. innî bimâ ta`melûne `alîm.",
+      "words_ar": [
+        "يَـٰٓأَيُّهَا",
+        "ٱلرُّسُلُ",
+        "كُلُواْ",
+        "مِنَ",
+        "ٱلطَّيِّبَٰتِ",
+        "وَٱعۡمَلُواْ",
+        "صَٰلِحًا",
+        "إِنِّي",
+        "بِمَا",
+        "تَعۡمَلُونَ",
+        "عَلِيمٞ"
+      ],
+      "words_translit": [
+        "yâ",
+        "eyyühe-rrusülü",
+        "külû",
+        "mine-ṭṭayyibâti",
+        "va`melû",
+        "ṣâliḥâ.",
+        "innî",
+        "bimâ",
+        "ta`melûne",
+        "`alîm."
+      ],
+      "word_count": 11
+    },
+    {
+      "number": 52,
+      "text_ar": "وَإِنَّ هَٰذِهِۦٓ أُمَّتُكُمۡ أُمَّةٗ وَٰحِدَةٗ وَأَنَا۠ رَبُّكُمۡ فَٱتَّقُونِ",
+      "text_tr_diyanet": "Şüphesiz bu Müslümanlık, bir tek din olarak sizin dininizdir ve Ben de Rabbinizim; öyleyse Benden sakının.",
+      "text_tr_vakfi": "\"Şüphesiz bu (insanlar) bir tek ümmet olarak sizin ümmetinizdir; ben de sizin Rabbinizim. Öyle ise benden sakının\" (denildi).",
+      "text_tr_yazir": "\"Ve işte bu sizin ümmetiniz bir tek ümmet ve ben de sizin Rabbinizim. Öyle ise benden sakının.\" (denildi).",
+      "transliteration": "veinne hâẕihî ümmetüküm ümmetev vâḥidetev veenâ rabbüküm fetteḳûn.",
+      "words_ar": [
+        "وَإِنَّ",
+        "هَٰذِهِۦٓ",
+        "أُمَّتُكُمۡ",
+        "أُمَّةٗ",
+        "وَٰحِدَةٗ",
+        "وَأَنَا۠",
+        "رَبُّكُمۡ",
+        "فَٱتَّقُونِ"
+      ],
+      "words_translit": [
+        "veinne",
+        "hâẕihî",
+        "ümmetüküm",
+        "ümmetev",
+        "vâḥidetev",
+        "veenâ",
+        "rabbüküm",
+        "fetteḳûn."
+      ],
+      "word_count": 8
+    },
+    {
+      "number": 53,
+      "text_ar": "فَتَقَطَّعُوٓاْ أَمۡرَهُم بَيۡنَهُمۡ زُبُرٗاۖ كُلُّ حِزۡبِۭ بِمَا لَدَيۡهِمۡ فَرِحُونَ",
+      "text_tr_diyanet": "Ama insanlar din konusunda aralarında bölük bölük oldular. Her bölük kendi tuttuğu yoldan memnundur.",
+      "text_tr_vakfi": "Ne var ki insanlar kendi aralarındaki işlerini parça parça böldüler. Her gurup kendilerinde bulunan (fikir ve davranış) ile sevinip böbürlenmektedirler.",
+      "text_tr_yazir": "Derken insanlar kendi aralarındaki işlerini parça parça böldüler. Her grup, kendinde bulunan ile sevinip böbürlendi.",
+      "transliteration": "feteḳaṭṭa`û emrahüm beynehüm zübürâ. küllü ḥizbim bimâ ledeyhim feriḥûn.",
+      "words_ar": [
+        "فَتَقَطَّعُوٓاْ",
+        "أَمۡرَهُم",
+        "بَيۡنَهُمۡ",
+        "زُبُرٗا",
+        "كُلُّ",
+        "حِزۡبِۭ",
+        "بِمَا",
+        "لَدَيۡهِمۡ",
+        "فَرِحُونَ"
+      ],
+      "words_translit": [
+        "feteḳaṭṭa`û",
+        "emrahüm",
+        "beynehüm",
+        "zübürâ.",
+        "küllü",
+        "ḥizbim",
+        "bimâ",
+        "ledeyhim",
+        "feriḥûn."
+      ],
+      "word_count": 9
+    },
+    {
+      "number": 54,
+      "text_ar": "فَذَرۡهُمۡ فِي غَمۡرَتِهِمۡ حَتَّىٰ حِينٍ",
+      "text_tr_diyanet": "Onları bir süreye kadar sapıklıklarıyla başbaşa bırak.",
+      "text_tr_vakfi": "Şimdi sen onları bir zamana kadar gaflet ve sapıklıkları ile başbaşa bırak!",
+      "text_tr_yazir": "Sen şimdi onları bir zamana kadar gaflet ve sapıklıkları ile başbaşa bırak!",
+      "transliteration": "feẕerhüm fî gamratihim ḥattâ ḥîn.",
+      "words_ar": [
+        "فَذَرۡهُمۡ",
+        "فِي",
+        "غَمۡرَتِهِمۡ",
+        "حَتَّىٰ",
+        "حِينٍ"
+      ],
+      "words_translit": [
+        "feẕerhüm",
+        "fî",
+        "gamratihim",
+        "ḥattâ",
+        "ḥîn."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 55,
+      "text_ar": "أَيَحۡسَبُونَ أَنَّمَا نُمِدُّهُم بِهِۦ مِن مَّالٖ وَبَنِينَ",
+      "text_tr_diyanet": "Kendilerine mal ve oğullar vermekle, iyiliklerde onlar için acele ettiğimizi mi zannederler? Hayır; farkında değiller.",
+      "text_tr_vakfi": "Sanıyorlar mı ki, onlara verdiğimiz servet ve oğullar ile.",
+      "text_tr_yazir": "Sanıyorlar mı ki, onlara verdiğimiz servet ve oğullar ile,",
+      "transliteration": "eyaḥsebûne ennemâ nümiddühüm bihî mim mâliv vebenîn.",
+      "words_ar": [
+        "أَيَحۡسَبُونَ",
+        "أَنَّمَا",
+        "نُمِدُّهُم",
+        "بِهِۦ",
+        "مِن",
+        "مَّالٖ",
+        "وَبَنِينَ"
+      ],
+      "words_translit": [
+        "eyaḥsebûne",
+        "ennemâ",
+        "nümiddühüm",
+        "bihî",
+        "mim",
+        "mâliv",
+        "vebenîn."
+      ],
+      "word_count": 7
+    },
+    {
+      "number": 56,
+      "text_ar": "نُسَارِعُ لَهُمۡ فِي ٱلۡخَيۡرَٰتِۚ بَل لَّا يَشۡعُرُونَ",
+      "text_tr_diyanet": "Kendilerine mal ve oğullar vermekle, iyiliklerde onlar için acele ettiğimizi mi zannederler? Hayır; farkında değiller.",
+      "text_tr_vakfi": "Kendilerine faydalar sağlamak için can atıyoruz? Hayır, onlar işin farkına varamıyorlar.",
+      "text_tr_yazir": "Kendilerine faydalar sağlamak için can atıyoruz. Hayır, onlar işin farkına varamıyorlar.",
+      "transliteration": "nüsâri`u lehüm fi-lḫayrât. bel lâ yeş`urûn.",
+      "words_ar": [
+        "نُسَارِعُ",
+        "لَهُمۡ",
+        "فِي",
+        "ٱلۡخَيۡرَٰتِ",
+        "بَل",
+        "لَّا",
+        "يَشۡعُرُونَ"
+      ],
+      "words_translit": [
+        "nüsâri`u",
+        "lehüm",
+        "fi-lḫayrât.",
+        "bel",
+        "lâ",
+        "yeş`urûn."
+      ],
+      "word_count": 7
+    },
+    {
+      "number": 57,
+      "text_ar": "إِنَّ ٱلَّذِينَ هُم مِّنۡ خَشۡيَةِ رَبِّهِم مُّشۡفِقُونَ",
+      "text_tr_diyanet": "Rablerinden korkarak titreyenler, Rablerinin ayetlerine inananlar, Rablerine eş koşmayanlar, Rablerine dönecekleri için kalbleri ürpererek vermeleri gerekeni verenler, işte onlar iyi işlerde yarış ederler, o uğurda ileri geçerler.",
+      "text_tr_vakfi": "Rablerine olan saygıdan dolayı kötülükten sakınanlar;",
+      "text_tr_yazir": "Rablerine olan saygıdan dolayı titreyenler,",
+      "transliteration": "inne-lleẕîne hüm min ḫaşyeti rabbihim müşfiḳûn.",
+      "words_ar": [
+        "إِنَّ",
+        "ٱلَّذِينَ",
+        "هُم",
+        "مِّنۡ",
+        "خَشۡيَةِ",
+        "رَبِّهِم",
+        "مُّشۡفِقُونَ"
+      ],
+      "words_translit": [
+        "inne-lleẕîne",
+        "hüm",
+        "min",
+        "ḫaşyeti",
+        "rabbihim",
+        "müşfiḳûn."
+      ],
+      "word_count": 7
+    },
+    {
+      "number": 58,
+      "text_ar": "وَٱلَّذِينَ هُم بِـَٔايَٰتِ رَبِّهِمۡ يُؤۡمِنُونَ",
+      "text_tr_diyanet": "Rablerinden korkarak titreyenler, Rablerinin ayetlerine inananlar, Rablerine eş koşmayanlar, Rablerine dönecekleri için kalbleri ürpererek vermeleri gerekeni verenler, işte onlar iyi işlerde yarış ederler, o uğurda ileri geçerler.",
+      "text_tr_vakfi": "Rablerinin ayetlerine inananlar;",
+      "text_tr_yazir": "Rablerinin âyetlerine inananlar,",
+      "transliteration": "velleẕîne hüm biâyâti rabbihim yü'minûn.",
+      "words_ar": [
+        "وَٱلَّذِينَ",
+        "هُم",
+        "بِـَٔايَٰتِ",
+        "رَبِّهِمۡ",
+        "يُؤۡمِنُونَ"
+      ],
+      "words_translit": [
+        "velleẕîne",
+        "hüm",
+        "biâyâti",
+        "rabbihim",
+        "yü'minûn."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 59,
+      "text_ar": "وَٱلَّذِينَ هُم بِرَبِّهِمۡ لَا يُشۡرِكُونَ",
+      "text_tr_diyanet": "Rablerinden korkarak titreyenler, Rablerinin ayetlerine inananlar, Rablerine eş koşmayanlar, Rablerine dönecekleri için kalbleri ürpererek vermeleri gerekeni verenler, işte onlar iyi işlerde yarış ederler, o uğurda ileri geçerler.",
+      "text_tr_vakfi": "Rablerine ortak tanımayanlar;",
+      "text_tr_yazir": "Rablerine ortak tanımayanlar,",
+      "transliteration": "velleẕîne hüm birabbihim lâ yüşrikûn.",
+      "words_ar": [
+        "وَٱلَّذِينَ",
+        "هُم",
+        "بِرَبِّهِمۡ",
+        "لَا",
+        "يُشۡرِكُونَ"
+      ],
+      "words_translit": [
+        "velleẕîne",
+        "hüm",
+        "birabbihim",
+        "lâ",
+        "yüşrikûn."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 60,
+      "text_ar": "وَٱلَّذِينَ يُؤۡتُونَ مَآ ءَاتَواْ وَّقُلُوبُهُمۡ وَجِلَةٌ أَنَّهُمۡ إِلَىٰ رَبِّهِمۡ رَٰجِعُونَ",
+      "text_tr_diyanet": "Rablerinden korkarak titreyenler, Rablerinin ayetlerine inananlar, Rablerine eş koşmayanlar, Rablerine dönecekleri için kalbleri ürpererek vermeleri gerekeni verenler, işte onlar iyi işlerde yarış ederler, o uğurda ileri geçerler.",
+      "text_tr_vakfi": "Ve Rablerine dönecekleri için yapmakta oldukları işleri kalpleri çarparak yapanlar;",
+      "text_tr_yazir": "Ve, Rablerine dönecekleri için yapmakta oldukları işleri kalpleri titreyerek yapanlar;",
+      "transliteration": "velleẕîne yü'tûne mâ âtev veḳulûbühüm veciletün ennehüm ilâ rabbihim râci`ûn.",
+      "words_ar": [
+        "وَٱلَّذِينَ",
+        "يُؤۡتُونَ",
+        "مَآ",
+        "ءَاتَواْ",
+        "وَّقُلُوبُهُمۡ",
+        "وَجِلَةٌ",
+        "أَنَّهُمۡ",
+        "إِلَىٰ",
+        "رَبِّهِمۡ",
+        "رَٰجِعُونَ"
+      ],
+      "words_translit": [
+        "velleẕîne",
+        "yü'tûne",
+        "mâ",
+        "âtev",
+        "veḳulûbühüm",
+        "veciletün",
+        "ennehüm",
+        "ilâ",
+        "rabbihim",
+        "râci`ûn."
+      ],
+      "word_count": 10
+    },
+    {
+      "number": 61,
+      "text_ar": "أُوْلَـٰٓئِكَ يُسَٰرِعُونَ فِي ٱلۡخَيۡرَٰتِ وَهُمۡ لَهَا سَٰبِقُونَ",
+      "text_tr_diyanet": "Rablerinden korkarak titreyenler, Rablerinin ayetlerine inananlar, Rablerine eş koşmayanlar, Rablerine dönecekleri için kalbleri ürpererek vermeleri gerekeni verenler, işte onlar iyi işlerde yarış ederler, o uğurda ileri geçerler.",
+      "text_tr_vakfi": "İşte onlar, iyiliklere koşuşurlar ve iyilik için yarışırlar.",
+      "text_tr_yazir": "İşte onlar, iyiliklere koşuşurlar ve iyilik için yarışırlar.",
+      "transliteration": "ülâike yüsâri`ûne fi-lḫayrâti vehüm lehâ sâbiḳûn.",
+      "words_ar": [
+        "أُوْلَـٰٓئِكَ",
+        "يُسَٰرِعُونَ",
+        "فِي",
+        "ٱلۡخَيۡرَٰتِ",
+        "وَهُمۡ",
+        "لَهَا",
+        "سَٰبِقُونَ"
+      ],
+      "words_translit": [
+        "ülâike",
+        "yüsâri`ûne",
+        "fi-lḫayrâti",
+        "vehüm",
+        "lehâ",
+        "sâbiḳûn."
+      ],
+      "word_count": 7
+    },
+    {
+      "number": 62,
+      "text_ar": "وَلَا نُكَلِّفُ نَفۡسًا إِلَّا وُسۡعَهَاۚ وَلَدَيۡنَا كِتَٰبٞ يَنطِقُ بِٱلۡحَقِّ وَهُمۡ لَا يُظۡلَمُونَ",
+      "text_tr_diyanet": "Biz herkese ancak gücünün yeteceği kadar yükleriz. Katımızda gerçeği söyleyen bir kitap vardır; onlar haksızlığa uğratılmazlar.",
+      "text_tr_vakfi": "Biz hiç kimseyi gücünün yettiğinden başkası ile yükümlü kılmayız. Nezdimizde hakkı söyleyen bir kitap vardır ve onlar haksızlığa uğratılmazlar.",
+      "text_tr_yazir": "Biz hiç kimseyi, gücünün yettiğinden başkası ile yükümlü kılmayız. Nezdimizde hakkı söyleyen bir kitap vardır ve onlar haksızlığa uğratılmazlar.",
+      "transliteration": "velâ nükellifü nefsen illâ vus`ahâ veledeynâ kitâbüy yenṭiḳu bilḥaḳḳi vehüm lâ yużlemûn.",
+      "words_ar": [
+        "وَلَا",
+        "نُكَلِّفُ",
+        "نَفۡسًا",
+        "إِلَّا",
+        "وُسۡعَهَا",
+        "وَلَدَيۡنَا",
+        "كِتَٰبٞ",
+        "يَنطِقُ",
+        "بِٱلۡحَقِّ",
+        "وَهُمۡ",
+        "لَا",
+        "يُظۡلَمُونَ"
+      ],
+      "words_translit": [
+        "velâ",
+        "nükellifü",
+        "nefsen",
+        "illâ",
+        "vus`ahâ",
+        "veledeynâ",
+        "kitâbüy",
+        "yenṭiḳu",
+        "bilḥaḳḳi",
+        "vehüm",
+        "lâ",
+        "yużlemûn."
+      ],
+      "word_count": 12
+    },
+    {
+      "number": 63,
+      "text_ar": "بَلۡ قُلُوبُهُمۡ فِي غَمۡرَةٖ مِّنۡ هَٰذَا وَلَهُمۡ أَعۡمَٰلٞ مِّن دُونِ ذَٰلِكَ هُمۡ لَهَا عَٰمِلُونَ",
+      "text_tr_diyanet": "Ama, kafirlerin kalbleri bundan habersizdir. Bundan başka da onların yapageldikleri işler de vardır.",
+      "text_tr_vakfi": "Hayır, onların (o inkarcıların) kalpleri bu hususta cehalet içindedir. Ayrıca onların bundan (bu şirk ve inkarcılıklarından) öte birtakım (kötü) işleri vardır ki, onlar bu işleri yapar dururlar.",
+      "text_tr_yazir": "Hayır, onların kalpleri bu hususta cehalet içindedir. Ayrıca onların bundan öte birtakım kötü işleri vardır ki, onlar bu işleri yapar dururlar.",
+      "transliteration": "bel ḳulûbühüm fî gamratim min hâẕâ velehüm a`mâlüm min dûni ẕâlike hüm lehâ `âmilûn.",
+      "words_ar": [
+        "بَلۡ",
+        "قُلُوبُهُمۡ",
+        "فِي",
+        "غَمۡرَةٖ",
+        "مِّنۡ",
+        "هَٰذَا",
+        "وَلَهُمۡ",
+        "أَعۡمَٰلٞ",
+        "مِّن",
+        "دُونِ",
+        "ذَٰلِكَ",
+        "هُمۡ",
+        "لَهَا",
+        "عَٰمِلُونَ"
+      ],
+      "words_translit": [
+        "bel",
+        "ḳulûbühüm",
+        "fî",
+        "gamratim",
+        "min",
+        "hâẕâ",
+        "velehüm",
+        "a`mâlüm",
+        "min",
+        "dûni",
+        "ẕâlike",
+        "hüm",
+        "lehâ",
+        "`âmilûn."
+      ],
+      "word_count": 14
+    },
+    {
+      "number": 64,
+      "text_ar": "حَتَّىٰٓ إِذَآ أَخَذۡنَا مُتۡرَفِيهِم بِٱلۡعَذَابِ إِذَا هُمۡ يَجۡـَٔرُونَ",
+      "text_tr_diyanet": "Sonunda şımarık varlıklılarını azabla yakaladığımız zaman feryat ederler.",
+      "text_tr_vakfi": "En nihayet, refah ve bolluk içinde olanlarını sıkıntıya (veya azaba) uğrattığımızda, bakarsın ki onlar feryadı basarlar.",
+      "text_tr_yazir": "Nihayet, refah ve bolluk içinde olanlarını sıkıntıya uğrattığımızda, bakarsın ki onlar feryadı basarlar.",
+      "transliteration": "ḥattâ iẕâ eḫaẕnâ mütrafîhim bil`aẕâbi iẕâ hüm yec'erûn.",
+      "words_ar": [
+        "حَتَّىٰٓ",
+        "إِذَآ",
+        "أَخَذۡنَا",
+        "مُتۡرَفِيهِم",
+        "بِٱلۡعَذَابِ",
+        "إِذَا",
+        "هُمۡ",
+        "يَجۡـَٔرُونَ"
+      ],
+      "words_translit": [
+        "ḥattâ",
+        "iẕâ",
+        "eḫaẕnâ",
+        "mütrafîhim",
+        "bil`aẕâbi",
+        "iẕâ",
+        "hüm",
+        "yec'erûn."
+      ],
+      "word_count": 8
+    },
+    {
+      "number": 65,
+      "text_ar": "لَا تَجۡـَٔرُواْ ٱلۡيَوۡمَۖ إِنَّكُم مِّنَّا لَا تُنصَرُونَ",
+      "text_tr_diyanet": "Onlara şöyle deriz: \"Bugün feryat etmeyin, doğrusu katımızdan bir yardım görmezsiniz.\"",
+      "text_tr_vakfi": "Boşuna sızlanmayın bugün! Zira bizden yardım göremeyeceksiniz!",
+      "text_tr_yazir": "Boşuna feryad etmeyin bugün! Zira bizden yardım göremeyeceksiniz.",
+      "transliteration": "lâ tec'erü-lyevme inneküm minnâ lâ tünṣarûn.",
+      "words_ar": [
+        "لَا",
+        "تَجۡـَٔرُواْ",
+        "ٱلۡيَوۡمَ",
+        "إِنَّكُم",
+        "مِّنَّا",
+        "لَا",
+        "تُنصَرُونَ"
+      ],
+      "words_translit": [
+        "lâ",
+        "tec'erü-lyevme",
+        "inneküm",
+        "minnâ",
+        "lâ",
+        "tünṣarûn."
+      ],
+      "word_count": 7
+    },
+    {
+      "number": 66,
+      "text_ar": "قَدۡ كَانَتۡ ءَايَٰتِي تُتۡلَىٰ عَلَيۡكُمۡ فَكُنتُمۡ عَلَىٰٓ أَعۡقَٰبِكُمۡ تَنكِصُونَ",
+      "text_tr_diyanet": "\"Ayetlerim size okunduğunda büyüklük taslayıp, gece ağzınıza geleni söyleyerek ardınıza dönüyordunuz.\"",
+      "text_tr_vakfi": "Çünkü ayetlerim size okunurdu da, siz, buna karşı kibirlenerek arkanızı döner, geceleyin (Kabe'nin etrafında toplanarak) hezeyanlar savururdunuz.",
+      "text_tr_yazir": "Çünkü âyetlerimiz size okunurdu da, buna karşı siz arkanızı dönerdiniz.",
+      "transliteration": "ḳad kânet âyâtî tütlâ `aleyküm feküntüm `alâ a`ḳâbiküm tenkisûn.",
+      "words_ar": [
+        "قَدۡ",
+        "كَانَتۡ",
+        "ءَايَٰتِي",
+        "تُتۡلَىٰ",
+        "عَلَيۡكُمۡ",
+        "فَكُنتُمۡ",
+        "عَلَىٰٓ",
+        "أَعۡقَٰبِكُمۡ",
+        "تَنكِصُونَ"
+      ],
+      "words_translit": [
+        "ḳad",
+        "kânet",
+        "âyâtî",
+        "tütlâ",
+        "`aleyküm",
+        "feküntüm",
+        "`alâ",
+        "a`ḳâbiküm",
+        "tenkisûn."
+      ],
+      "word_count": 9
+    },
+    {
+      "number": 67,
+      "text_ar": "مُسۡتَكۡبِرِينَ بِهِۦ سَٰمِرٗا تَهۡجُرُونَ",
+      "text_tr_diyanet": "\"Ayetlerim size okunduğunda büyüklük taslayıp, gece ağzınıza geleni söyleyerek ardınıza dönüyordunuz.\"",
+      "text_tr_vakfi": "Çünkü ayetlerim size okunurdu da, siz, buna karşı kibirlenerek arkanızı döner, geceleyin (Kabe'nin etrafında toplanarak) hezeyanlar savururdunuz.",
+      "text_tr_yazir": "Kafa tutardınız ve geceleyin hezeyanlar savururdunuz.",
+      "transliteration": "müstekbirîne bih. sâmiran tehcürûn.",
+      "words_ar": [
+        "مُسۡتَكۡبِرِينَ",
+        "بِهِۦ",
+        "سَٰمِرٗا",
+        "تَهۡجُرُونَ"
+      ],
+      "words_translit": [
+        "müstekbirîne",
+        "bih.",
+        "sâmiran",
+        "tehcürûn."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 68,
+      "text_ar": "أَفَلَمۡ يَدَّبَّرُواْ ٱلۡقَوۡلَ أَمۡ جَآءَهُم مَّا لَمۡ يَأۡتِ ءَابَآءَهُمُ ٱلۡأَوَّلِينَ",
+      "text_tr_diyanet": "Söyleneni hiç düşünmezler mi? Yoksa onlara, ilk atalarına gelmeyen bir şey mi geldi?",
+      "text_tr_vakfi": "Onlar bu sözü (Kur'an'ı) hiç düşünmediler mi? Yoksa kendilerine, daha önce geçmişteki atalarına gelmeyen bir şey mi geldi?",
+      "text_tr_yazir": "Onlar bu sözü (Kur'ân'ı) hiç düşünmediler mi? Yoksa kendilerine, daha önce geçmişteki atalarına gelmeyen bir şey mi geldi?",
+      "transliteration": "efelem yeddebberü-lḳavle em câehüm mâ lem ye'ti âbâehümü-l'evvelîn.",
+      "words_ar": [
+        "أَفَلَمۡ",
+        "يَدَّبَّرُواْ",
+        "ٱلۡقَوۡلَ",
+        "أَمۡ",
+        "جَآءَهُم",
+        "مَّا",
+        "لَمۡ",
+        "يَأۡتِ",
+        "ءَابَآءَهُمُ",
+        "ٱلۡأَوَّلِينَ"
+      ],
+      "words_translit": [
+        "efelem",
+        "yeddebberü-lḳavle",
+        "em",
+        "câehüm",
+        "mâ",
+        "lem",
+        "ye'ti",
+        "âbâehümü-l'evvelîn."
+      ],
+      "word_count": 10
+    },
+    {
+      "number": 69,
+      "text_ar": "أَمۡ لَمۡ يَعۡرِفُواْ رَسُولَهُمۡ فَهُمۡ لَهُۥ مُنكِرُونَ",
+      "text_tr_diyanet": "Veya peygamberlerini tanımadılar da; bu yüzden mi onu inkar ediyorlar?",
+      "text_tr_vakfi": "Yoksa Peygamberlerini henüz tanımadılar da bu yüzden mi onu inkar ediyorlar?",
+      "text_tr_yazir": "Yoksa peygamberlerini tanımadılar da bu yüzden mi onu inkâr ediyorlar?",
+      "transliteration": "em lem ya`rifû rasûlehüm fehüm lehû münkirûn.",
+      "words_ar": [
+        "أَمۡ",
+        "لَمۡ",
+        "يَعۡرِفُواْ",
+        "رَسُولَهُمۡ",
+        "فَهُمۡ",
+        "لَهُۥ",
+        "مُنكِرُونَ"
+      ],
+      "words_translit": [
+        "em",
+        "lem",
+        "ya`rifû",
+        "rasûlehüm",
+        "fehüm",
+        "lehû",
+        "münkirûn."
+      ],
+      "word_count": 7
+    },
+    {
+      "number": 70,
+      "text_ar": "أَمۡ يَقُولُونَ بِهِۦ جِنَّةُۢۚ بَلۡ جَآءَهُم بِٱلۡحَقِّ وَأَكۡثَرُهُمۡ لِلۡحَقِّ كَٰرِهُونَ",
+      "text_tr_diyanet": "Ya da: \"Onda delilik var\" diyorlar öyle mi? Hayır; onlara gerçeği getirmiştir, ama çoğu ondan hoşlanmamaktadır.",
+      "text_tr_vakfi": "Yoksa onda bir cinnet olduğunu mu söylüyorlar? Hayır; o, kendilerine hakkı getirmiştir. Onların çoğu ise haktan hoşlanmamaktadırlar.",
+      "text_tr_yazir": "Yoksa onda bir delilik olduğunu mu söylüyorlar? Aksine o, kendilerine hakkı getirmiştir. Halbuki onlar haktan hoşlanmamaktadırlar.",
+      "transliteration": "em yeḳûlûne bihî cinneh. bel câehüm bilḥaḳḳi veekŝeruhüm lilḥaḳḳi kârihûn.",
+      "words_ar": [
+        "أَمۡ",
+        "يَقُولُونَ",
+        "بِهِۦ",
+        "جِنَّةُۢ",
+        "بَلۡ",
+        "جَآءَهُم",
+        "بِٱلۡحَقِّ",
+        "وَأَكۡثَرُهُمۡ",
+        "لِلۡحَقِّ",
+        "كَٰرِهُونَ"
+      ],
+      "words_translit": [
+        "em",
+        "yeḳûlûne",
+        "bihî",
+        "cinneh.",
+        "bel",
+        "câehüm",
+        "bilḥaḳḳi",
+        "veekŝeruhüm",
+        "lilḥaḳḳi",
+        "kârihûn."
+      ],
+      "word_count": 10
+    },
+    {
+      "number": 71,
+      "text_ar": "وَلَوِ ٱتَّبَعَ ٱلۡحَقُّ أَهۡوَآءَهُمۡ لَفَسَدَتِ ٱلسَّمَٰوَٰتُ وَٱلۡأَرۡضُ وَمَن فِيهِنَّۚ بَلۡ أَتَيۡنَٰهُم بِذِكۡرِهِمۡ فَهُمۡ عَن ذِكۡرِهِم مُّعۡرِضُونَ",
+      "text_tr_diyanet": "Eğer gerçek onların heveslerine uysaydı, gökler, yer ve onlarda bulananlar bozulup giderdi. Onlara, kendilerine öğüt veren bir şey getirdik; onlar ise öğütlerinden yüz çevirirler.",
+      "text_tr_vakfi": "Eğer hak, onların kötü arzu ve isteklerine uysaydı, mutlaka gökler ve yer ile bunlarda bulunanlar bozulur giderdi. Hayır, biz onlara şan ve şereflerini getirdik; fakat onlar kendi şereflerine sırt çevirdiIer.",
+      "text_tr_yazir": "Eğer hak, onların kötü arzu ve isteklerine uysaydı, mutlaka gökler ve yer ile bunlarda bulunan kimseler bozulur giderdi. Hayır, biz onlara şan ve şereflerini getirdik; fakat onlar kendi şereflerine sırt çevirirler.",
+      "transliteration": "velevi-ttebe`a-lḥaḳḳu ehvâehüm lefesedeti-ssemâvâtü vel'arḍu vemen fîhinn. bel eteynâhüm biẕikrihim fehüm `an ẕikrihim mü`riḍûn.",
+      "words_ar": [
+        "وَلَوِ",
+        "ٱتَّبَعَ",
+        "ٱلۡحَقُّ",
+        "أَهۡوَآءَهُمۡ",
+        "لَفَسَدَتِ",
+        "ٱلسَّمَٰوَٰتُ",
+        "وَٱلۡأَرۡضُ",
+        "وَمَن",
+        "فِيهِنَّ",
+        "بَلۡ",
+        "أَتَيۡنَٰهُم",
+        "بِذِكۡرِهِمۡ",
+        "فَهُمۡ",
+        "عَن",
+        "ذِكۡرِهِم",
+        "مُّعۡرِضُونَ"
+      ],
+      "words_translit": [
+        "velevi-ttebe`a-lḥaḳḳu",
+        "ehvâehüm",
+        "lefesedeti-ssemâvâtü",
+        "vel'arḍu",
+        "vemen",
+        "fîhinn.",
+        "bel",
+        "eteynâhüm",
+        "biẕikrihim",
+        "fehüm",
+        "`an",
+        "ẕikrihim",
+        "mü`riḍûn."
+      ],
+      "word_count": 16
+    },
+    {
+      "number": 72,
+      "text_ar": "أَمۡ تَسۡـَٔلُهُمۡ خَرۡجٗا فَخَرَاجُ رَبِّكَ خَيۡرٞۖ وَهُوَ خَيۡرُ ٱلرَّـٰزِقِينَ",
+      "text_tr_diyanet": "Yoksa sen onlardan bir ücret mi istiyorsun? Rabbinin ecri daha iyidir. O, rızık verenlerin en hayırlısıdır.",
+      "text_tr_vakfi": "(Resulüm!) Yoksa sen onlardan bir karşılık mı istiyorsun? Rabbinin vereceği daha hayırlıdır. O, rızık verenlerin en hayırlısıdır.",
+      "text_tr_yazir": "(Resulüm!) Yoksa sen onlardan bir haraç mı istiyorsun? Rabbinin vergisi daha hayırlıdır. O, rızık verenlerin en hayırlısıdır.",
+      "transliteration": "em tes'elühüm ḫarcen feḫarâcü rabbike ḫayr. vehüve ḫayru-rrâziḳîn.",
+      "words_ar": [
+        "أَمۡ",
+        "تَسۡـَٔلُهُمۡ",
+        "خَرۡجٗا",
+        "فَخَرَاجُ",
+        "رَبِّكَ",
+        "خَيۡرٞ",
+        "وَهُوَ",
+        "خَيۡرُ",
+        "ٱلرَّـٰزِقِينَ"
+      ],
+      "words_translit": [
+        "em",
+        "tes'elühüm",
+        "ḫarcen",
+        "feḫarâcü",
+        "rabbike",
+        "ḫayr.",
+        "vehüve",
+        "ḫayru-rrâziḳîn."
+      ],
+      "word_count": 9
+    },
+    {
+      "number": 73,
+      "text_ar": "وَإِنَّكَ لَتَدۡعُوهُمۡ إِلَىٰ صِرَٰطٖ مُّسۡتَقِيمٖ",
+      "text_tr_diyanet": "Aslında sen onları doğru yola çağırıyorsun ama, ahirete inanmayanlar bu yoldan sapmaktadırlar.",
+      "text_tr_vakfi": "Gerçek şu ki sen onları doğru bir yola çağırıyorsun.",
+      "text_tr_yazir": "Gerçek şu ki sen onları doğru bir yola çağırıyorsun.",
+      "transliteration": "veinneke leted`ûhüm ilâ ṣirâṭim müsteḳîm.",
+      "words_ar": [
+        "وَإِنَّكَ",
+        "لَتَدۡعُوهُمۡ",
+        "إِلَىٰ",
+        "صِرَٰطٖ",
+        "مُّسۡتَقِيمٖ"
+      ],
+      "words_translit": [
+        "veinneke",
+        "leted`ûhüm",
+        "ilâ",
+        "ṣirâṭim",
+        "müsteḳîm."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 74,
+      "text_ar": "وَإِنَّ ٱلَّذِينَ لَا يُؤۡمِنُونَ بِٱلۡأٓخِرَةِ عَنِ ٱلصِّرَٰطِ لَنَٰكِبُونَ",
+      "text_tr_diyanet": "Aslında sen onları doğru yola çağırıyorsun ama, ahirete inanmayanlar bu yoldan sapmaktadırlar.",
+      "text_tr_vakfi": "Ahirete inanmayanlar ise, ısrarla yoldan çıkmaktadırlar.",
+      "text_tr_yazir": "Fakat ahirete inanmayanlar ise, ısrarla yoldan çıkmaktadırlar.",
+      "transliteration": "veinne-lleẕîne lâ yü'minûne bil'âḫirati `ani-ṣṣirâṭi lenâkibûn.",
+      "words_ar": [
+        "وَإِنَّ",
+        "ٱلَّذِينَ",
+        "لَا",
+        "يُؤۡمِنُونَ",
+        "بِٱلۡأٓخِرَةِ",
+        "عَنِ",
+        "ٱلصِّرَٰطِ",
+        "لَنَٰكِبُونَ"
+      ],
+      "words_translit": [
+        "veinne-lleẕîne",
+        "lâ",
+        "yü'minûne",
+        "bil'âḫirati",
+        "`ani-ṣṣirâṭi",
+        "lenâkibûn."
+      ],
+      "word_count": 8
+    },
+    {
+      "number": 75,
+      "text_ar": "۞وَلَوۡ رَحِمۡنَٰهُمۡ وَكَشَفۡنَا مَا بِهِم مِّن ضُرّٖ لَّلَجُّواْ فِي طُغۡيَٰنِهِمۡ يَعۡمَهُونَ",
+      "text_tr_diyanet": "Biz onlara acısak ve başlarındaki sıkıntıyı gidersek bile, azgınlıkları içinde bocalayıp kalırlar.",
+      "text_tr_vakfi": "Eğer onlara acıyıp da içinde bulundukları sıkıntıyı giderseydik, iyice körleşerek azgınlıklarında direnirlerdi.",
+      "text_tr_yazir": "Eğer onlara acıyıp da için de bulundukları sıkıntıyı giderseydik, iyice körleşerek azgınlıklarında büsbütün direnirlerdi.",
+      "transliteration": "velev raḥimnâhüm vekeşefnâ mâ bihim min ḍurril leleccû fî ṭugyânihim ya`mehûn.",
+      "words_ar": [
+        "وَلَوۡ",
+        "رَحِمۡنَٰهُمۡ",
+        "وَكَشَفۡنَا",
+        "مَا",
+        "بِهِم",
+        "مِّن",
+        "ضُرّٖ",
+        "لَّلَجُّواْ",
+        "فِي",
+        "طُغۡيَٰنِهِمۡ",
+        "يَعۡمَهُونَ"
+      ],
+      "words_translit": [
+        "velev",
+        "raḥimnâhüm",
+        "vekeşefnâ",
+        "mâ",
+        "bihim",
+        "min",
+        "ḍurril",
+        "leleccû",
+        "fî",
+        "ṭugyânihim",
+        "ya`mehûn."
+      ],
+      "word_count": 11
+    },
+    {
+      "number": 76,
+      "text_ar": "وَلَقَدۡ أَخَذۡنَٰهُم بِٱلۡعَذَابِ فَمَا ٱسۡتَكَانُواْ لِرَبِّهِمۡ وَمَا يَتَضَرَّعُونَ",
+      "text_tr_diyanet": "And olsun ki, Biz onları azabla yakalamıştık, yine de Rablerine boyun eğmemiş ve yakarmamışlardı.",
+      "text_tr_vakfi": "Andolsun, biz onları sıkıntıya düşürdük de yine Rablerine boyun eğmediler, tazarru ve niyazda da bulunmuyorlar.",
+      "text_tr_yazir": "Andolsun, biz onları sıkıntıya düşürdük de yine Rablerine boyun eğmediler, tazarru' ve niyazda da bulunmadılar.",
+      "transliteration": "veleḳad eḫaẕnâhüm bil`aẕâbi feme-stekânû lirabbihim vemâ yeteḍarra`ûn.",
+      "words_ar": [
+        "وَلَقَدۡ",
+        "أَخَذۡنَٰهُم",
+        "بِٱلۡعَذَابِ",
+        "فَمَا",
+        "ٱسۡتَكَانُواْ",
+        "لِرَبِّهِمۡ",
+        "وَمَا",
+        "يَتَضَرَّعُونَ"
+      ],
+      "words_translit": [
+        "veleḳad",
+        "eḫaẕnâhüm",
+        "bil`aẕâbi",
+        "feme-stekânû",
+        "lirabbihim",
+        "vemâ",
+        "yeteḍarra`ûn."
+      ],
+      "word_count": 8
+    },
+    {
+      "number": 77,
+      "text_ar": "حَتَّىٰٓ إِذَا فَتَحۡنَا عَلَيۡهِم بَابٗا ذَا عَذَابٖ شَدِيدٍ إِذَا هُمۡ فِيهِ مُبۡلِسُونَ",
+      "text_tr_diyanet": "Sonunda onlara şiddetli bir azap kapısı açtığımız zaman ümitsiz kalıverdiler.",
+      "text_tr_vakfi": "En nihayet üzerlerine, azabı çok şiddetli bir kapı açtığımız zaman, bir de bakarsın ki onlar orada şaşkın ve ümitsiz kalmışlardır!",
+      "text_tr_yazir": "Nihayet üzerlerine, azabı çok şiddetli bir kapı açtığımız zaman, bir de bakarsın ki onlar orada şaşkın ve ümitsiz kalmışlardır!",
+      "transliteration": "ḥattâ iẕâ fetaḥnâ `aleyhim bâben ẕâ `aẕâbin şedîdin iẕâ hüm fîhi müblisûn.",
+      "words_ar": [
+        "حَتَّىٰٓ",
+        "إِذَا",
+        "فَتَحۡنَا",
+        "عَلَيۡهِم",
+        "بَابٗا",
+        "ذَا",
+        "عَذَابٖ",
+        "شَدِيدٍ",
+        "إِذَا",
+        "هُمۡ",
+        "فِيهِ",
+        "مُبۡلِسُونَ"
+      ],
+      "words_translit": [
+        "ḥattâ",
+        "iẕâ",
+        "fetaḥnâ",
+        "`aleyhim",
+        "bâben",
+        "ẕâ",
+        "`aẕâbin",
+        "şedîdin",
+        "iẕâ",
+        "hüm",
+        "fîhi",
+        "müblisûn."
+      ],
+      "word_count": 12
+    },
+    {
+      "number": 78,
+      "text_ar": "وَهُوَ ٱلَّذِيٓ أَنشَأَ لَكُمُ ٱلسَّمۡعَ وَٱلۡأَبۡصَٰرَ وَٱلۡأَفۡـِٔدَةَۚ قَلِيلٗا مَّا تَشۡكُرُونَ",
+      "text_tr_diyanet": "Oysa, sizin için kulaklar, gözler ve kalbler vareden O'dur. Pek az şükrediyorsunuz.",
+      "text_tr_vakfi": "O, sizin için kulakları, gözleri ve gönülleri yaratandır. Ne de az şükrediyorsunuz!",
+      "text_tr_yazir": "Halbuki sizin için o kulağı, o gözleri ve o gönülleri yaratan O'dur. Ne de az şükrediyorsunuz!",
+      "transliteration": "vehüve-lleẕî enşee lekümü-ssem`a vel'ebṣâra vel'ef'ideh. ḳalîlem mâ teşkürûn.",
+      "words_ar": [
+        "وَهُوَ",
+        "ٱلَّذِيٓ",
+        "أَنشَأَ",
+        "لَكُمُ",
+        "ٱلسَّمۡعَ",
+        "وَٱلۡأَبۡصَٰرَ",
+        "وَٱلۡأَفۡـِٔدَةَ",
+        "قَلِيلٗا",
+        "مَّا",
+        "تَشۡكُرُونَ"
+      ],
+      "words_translit": [
+        "vehüve-lleẕî",
+        "enşee",
+        "lekümü-ssem`a",
+        "vel'ebṣâra",
+        "vel'ef'ideh.",
+        "ḳalîlem",
+        "mâ",
+        "teşkürûn."
+      ],
+      "word_count": 10
+    },
+    {
+      "number": 79,
+      "text_ar": "وَهُوَ ٱلَّذِي ذَرَأَكُمۡ فِي ٱلۡأَرۡضِ وَإِلَيۡهِ تُحۡشَرُونَ",
+      "text_tr_diyanet": "Sizi yerde yaratıp yayan O'dur ve O'nun huzurunda toplanacaksınız.",
+      "text_tr_vakfi": "Ve O, sizi yeryüzünde yaratıp türetendir. Sırf O'nun huzurunda toplanacaksınız.",
+      "text_tr_yazir": "Ve sizi yeryüzünde yaratıp türeden O'dur. Sırf O'nun huzuruna toplanacaksınız.",
+      "transliteration": "vehüve-lleẕî ẕera'eküm fi-l'arḍi veileyhi tuḥşerûn.",
+      "words_ar": [
+        "وَهُوَ",
+        "ٱلَّذِي",
+        "ذَرَأَكُمۡ",
+        "فِي",
+        "ٱلۡأَرۡضِ",
+        "وَإِلَيۡهِ",
+        "تُحۡشَرُونَ"
+      ],
+      "words_translit": [
+        "vehüve-lleẕî",
+        "ẕera'eküm",
+        "fi-l'arḍi",
+        "veileyhi",
+        "tuḥşerûn."
+      ],
+      "word_count": 7
+    },
+    {
+      "number": 80,
+      "text_ar": "وَهُوَ ٱلَّذِي يُحۡيِۦ وَيُمِيتُ وَلَهُ ٱخۡتِلَٰفُ ٱلَّيۡلِ وَٱلنَّهَارِۚ أَفَلَا تَعۡقِلُونَ",
+      "text_tr_diyanet": "Dirilten de, öldüren de O'dur. Gece ile gündüzün birbiri ardından gitmesi de O'nun emrine bağlıdır. Düşünmez misiniz?",
+      "text_tr_vakfi": "Ve O, yaşatan ve öldürendir; gecenin ve gündüzün değişmesi O'nun eseridir. Hala aklınızı kullanmaz mısınız!",
+      "text_tr_yazir": "Ve O, yaşatan ve öldürendir; gecenin ve gündüzün değişmesi O'nun eseridir. Hâlâ aklınızı kullanmaz mısınız?",
+      "transliteration": "vehüve-lleẕî yuḥyî veyümîtü velehu-ḫtilâfü-lleyli vennehâr. efelâ ta`ḳilûn.",
+      "words_ar": [
+        "وَهُوَ",
+        "ٱلَّذِي",
+        "يُحۡيِۦ",
+        "وَيُمِيتُ",
+        "وَلَهُ",
+        "ٱخۡتِلَٰفُ",
+        "ٱلَّيۡلِ",
+        "وَٱلنَّهَارِ",
+        "أَفَلَا",
+        "تَعۡقِلُونَ"
+      ],
+      "words_translit": [
+        "vehüve-lleẕî",
+        "yuḥyî",
+        "veyümîtü",
+        "velehu-ḫtilâfü-lleyli",
+        "vennehâr.",
+        "efelâ",
+        "ta`ḳilûn."
+      ],
+      "word_count": 10
+    },
+    {
+      "number": 81,
+      "text_ar": "بَلۡ قَالُواْ مِثۡلَ مَا قَالَ ٱلۡأَوَّلُونَ",
+      "text_tr_diyanet": "Hayır; yine de öncekilerin dediklerini derler.",
+      "text_tr_vakfi": "Buna rağmen onlar, öncekilerin dedikleri gibi dediler.",
+      "text_tr_yazir": "Hayır, öncekilerin söylediklerinin benzerini söylediler.",
+      "transliteration": "bel ḳâlû miŝle mâ ḳâle-l'evvelûn.",
+      "words_ar": [
+        "بَلۡ",
+        "قَالُواْ",
+        "مِثۡلَ",
+        "مَا",
+        "قَالَ",
+        "ٱلۡأَوَّلُونَ"
+      ],
+      "words_translit": [
+        "bel",
+        "ḳâlû",
+        "miŝle",
+        "mâ",
+        "ḳâle-l'evvelûn."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 82,
+      "text_ar": "قَالُوٓاْ أَءِذَا مِتۡنَا وَكُنَّا تُرَابٗا وَعِظَٰمًا أَءِنَّا لَمَبۡعُوثُونَ",
+      "text_tr_diyanet": "Öncekiler: \"Ölüp toprak ve bir yığın kemik olduğumuzda mı diriltileceğiz? And olsun ki biz ve daha önce de babalarımız tehdit edilmişti; bu, öncekilerin masallarından başka birşey değildir\" demişlerdi.",
+      "text_tr_vakfi": "Dediler ki: Sahi biz, ölüp de bir toprak ve kemik yığını haline gelmişken, mutlaka yeniden diriltileceğiz öyle mi?",
+      "text_tr_yazir": "Dediler ki: \"Sahi biz, ölüp de bir toprak ve kemik yığını haline gelmişken, mutlaka yeniden diriltileceğiz öyle mi?\"",
+      "transliteration": "ḳâlû eiẕâ mitnâ vekünnâ türâbev ve`iżâmen einnâ lemeb`ûŝûn.",
+      "words_ar": [
+        "قَالُوٓاْ",
+        "أَءِذَا",
+        "مِتۡنَا",
+        "وَكُنَّا",
+        "تُرَابٗا",
+        "وَعِظَٰمًا",
+        "أَءِنَّا",
+        "لَمَبۡعُوثُونَ"
+      ],
+      "words_translit": [
+        "ḳâlû",
+        "eiẕâ",
+        "mitnâ",
+        "vekünnâ",
+        "türâbev",
+        "ve`iżâmen",
+        "einnâ",
+        "lemeb`ûŝûn."
+      ],
+      "word_count": 8
+    },
+    {
+      "number": 83,
+      "text_ar": "لَقَدۡ وُعِدۡنَا نَحۡنُ وَءَابَآؤُنَا هَٰذَا مِن قَبۡلُ إِنۡ هَٰذَآ إِلَّآ أَسَٰطِيرُ ٱلۡأَوَّلِينَ",
+      "text_tr_diyanet": "Öncekiler: \"Ölüp toprak ve bir yığın kemik olduğumuzda mı diriltileceğiz? And olsun ki biz ve daha önce de babalarımız tehdit edilmişti; bu, öncekilerin masallarından başka birşey değildir\" demişlerdi.",
+      "text_tr_vakfi": "Hakikaten, gerek bize, gerekse daha önce atalarımıza böyle bir vaadde bulunuldu; (fakat) bu geçmiştekilerin masallarından başka bir şey değildir!",
+      "text_tr_yazir": "\"Yemin ederiz ki, gerek bize, gerekse daha önce atalarımıza böyle bir vaadde bulunuldu; (fakat) bu geçmiştekilerin masallarından başka bir şey değildir!\"",
+      "transliteration": "leḳad vu`idnâ naḥnü veâbâünâ hâẕâ min ḳablü in hâẕâ illâ esâṭîru-l'evvelîn.",
+      "words_ar": [
+        "لَقَدۡ",
+        "وُعِدۡنَا",
+        "نَحۡنُ",
+        "وَءَابَآؤُنَا",
+        "هَٰذَا",
+        "مِن",
+        "قَبۡلُ",
+        "إِنۡ",
+        "هَٰذَآ",
+        "إِلَّآ",
+        "أَسَٰطِيرُ",
+        "ٱلۡأَوَّلِينَ"
+      ],
+      "words_translit": [
+        "leḳad",
+        "vu`idnâ",
+        "naḥnü",
+        "veâbâünâ",
+        "hâẕâ",
+        "min",
+        "ḳablü",
+        "in",
+        "hâẕâ",
+        "illâ",
+        "esâṭîru-l'evvelîn."
+      ],
+      "word_count": 12
+    },
+    {
+      "number": 84,
+      "text_ar": "قُل لِّمَنِ ٱلۡأَرۡضُ وَمَن فِيهَآ إِن كُنتُمۡ تَعۡلَمُونَ",
+      "text_tr_diyanet": "De ki: \"Biliyorsanız söyleyin, yer ve onda bulunanlar kimindir?\"",
+      "text_tr_vakfi": "(Resulüm!) de ki: Eğer biliyorsanız (söyleyin bakalım), bu dünya ve onda bulunanlar kime aittir?",
+      "text_tr_yazir": "(Resulüm!) de ki: \"Eğer biliyorsanız (söyleyin bakalım), bu dünya ve onda bulunanlar kime aittir?\"",
+      "transliteration": "ḳul limeni-l'arḍu vemen fîhâ in küntüm ta`lemûn.",
+      "words_ar": [
+        "قُل",
+        "لِّمَنِ",
+        "ٱلۡأَرۡضُ",
+        "وَمَن",
+        "فِيهَآ",
+        "إِن",
+        "كُنتُمۡ",
+        "تَعۡلَمُونَ"
+      ],
+      "words_translit": [
+        "ḳul",
+        "limeni-l'arḍu",
+        "vemen",
+        "fîhâ",
+        "in",
+        "küntüm",
+        "ta`lemûn."
+      ],
+      "word_count": 8
+    },
+    {
+      "number": 85,
+      "text_ar": "سَيَقُولُونَ لِلَّهِۚ قُلۡ أَفَلَا تَذَكَّرُونَ",
+      "text_tr_diyanet": "\"Allah'ındır\" diyecekler, \"Öyleyse ders almaz mısınız?\" de.",
+      "text_tr_vakfi": "\"Allah'a aittir\" diyecekler. Öyle ise siz hiç düşünüp taşınmaz mısınız! de.",
+      "text_tr_yazir": "\"Allah'a aittir\" diyecekler. \"Öyle ise siz hiç düşünüp taşınmaz mısınız?\" de.",
+      "transliteration": "seyeḳûlûne lillâh. ḳul efelâ teẕekkerûn.",
+      "words_ar": [
+        "سَيَقُولُونَ",
+        "لِلَّهِ",
+        "قُلۡ",
+        "أَفَلَا",
+        "تَذَكَّرُونَ"
+      ],
+      "words_translit": [
+        "seyeḳûlûne",
+        "lillâh.",
+        "ḳul",
+        "efelâ",
+        "teẕekkerûn."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 86,
+      "text_ar": "قُلۡ مَن رَّبُّ ٱلسَّمَٰوَٰتِ ٱلسَّبۡعِ وَرَبُّ ٱلۡعَرۡشِ ٱلۡعَظِيمِ",
+      "text_tr_diyanet": "\"Yedi göğün de Rabbi, yüce arşın da Rabbi kimdir?\" de.",
+      "text_tr_vakfi": "Yedi kat göklerin Rabbi, azametli Arş'ın Rabbi kimdir? diye sor.",
+      "text_tr_yazir": "\"Yedi kat göklerin Rabbi, azametli Arş'ın Rabbi kimdir?\" diye sor.",
+      "transliteration": "ḳul mer rabbü-ssemâvâti-sseb`i verabbü-l`arşi-l`ażîm.",
+      "words_ar": [
+        "قُلۡ",
+        "مَن",
+        "رَّبُّ",
+        "ٱلسَّمَٰوَٰتِ",
+        "ٱلسَّبۡعِ",
+        "وَرَبُّ",
+        "ٱلۡعَرۡشِ",
+        "ٱلۡعَظِيمِ"
+      ],
+      "words_translit": [
+        "ḳul",
+        "mer",
+        "rabbü-ssemâvâti-sseb`i",
+        "verabbü-l`arşi-l`ażîm."
+      ],
+      "word_count": 8
+    },
+    {
+      "number": 87,
+      "text_ar": "سَيَقُولُونَ لِلَّهِۚ قُلۡ أَفَلَا تَتَّقُونَ",
+      "text_tr_diyanet": "\"Allah'tır\" diyecekler! \"Öyleyse O'na karşı gelmekten sakınmaz mısınız?\" de.",
+      "text_tr_vakfi": "\"(Bunlar da) Allah'ındır\" diyecekler. Şu halde siz Allah'tan korkmaz mısınız! de.",
+      "text_tr_yazir": "\"(Onlar da) Allah'ındır.\" diyecekler. \"Şu halde siz Allah'tan korkmaz mısınız?\" de.",
+      "transliteration": "seyeḳûlûne lillâh. ḳul efelâ tetteḳûn.",
+      "words_ar": [
+        "سَيَقُولُونَ",
+        "لِلَّهِ",
+        "قُلۡ",
+        "أَفَلَا",
+        "تَتَّقُونَ"
+      ],
+      "words_translit": [
+        "seyeḳûlûne",
+        "lillâh.",
+        "ḳul",
+        "efelâ",
+        "tetteḳûn."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 88,
+      "text_ar": "قُلۡ مَنۢ بِيَدِهِۦ مَلَكُوتُ كُلِّ شَيۡءٖ وَهُوَ يُجِيرُ وَلَا يُجَارُ عَلَيۡهِ إِن كُنتُمۡ تَعۡلَمُونَ",
+      "text_tr_diyanet": "\"Biliyorsanız söyleyin her şeyin hükümranlığı elinde olan, barındıran fakat himayeye muhtaç olmayan kimdir?\"",
+      "text_tr_vakfi": "Eğer biliyorsanız (söyleyin), her şeyin melekutu (mülkiyeti ve yönetimi) kendisinin elinde olan, kendisi her şeyi koruyup kollayan, fakat kendisi korunmayan (buna muhtaç olmayan) kimdir? diye sor.",
+      "text_tr_yazir": "\"Eğer biliyorsanız (söyleyin), her şeyin melekûtu (mülkiyeti ve yönetimi) kendisinin elinde olan, kendisi her şeyi koruyup kollayan; fakat kendisi korunmayan (buna muhtaç olmayan) kimdir?\" diye sor.",
+      "transliteration": "ḳul mem biyedihî melekûtü külli şey'iv vehüve yücîru velâ yücâru `aleyhi in küntüm ta`lemûn.",
+      "words_ar": [
+        "قُلۡ",
+        "مَنۢ",
+        "بِيَدِهِۦ",
+        "مَلَكُوتُ",
+        "كُلِّ",
+        "شَيۡءٖ",
+        "وَهُوَ",
+        "يُجِيرُ",
+        "وَلَا",
+        "يُجَارُ",
+        "عَلَيۡهِ",
+        "إِن",
+        "كُنتُمۡ",
+        "تَعۡلَمُونَ"
+      ],
+      "words_translit": [
+        "ḳul",
+        "mem",
+        "biyedihî",
+        "melekûtü",
+        "külli",
+        "şey'iv",
+        "vehüve",
+        "yücîru",
+        "velâ",
+        "yücâru",
+        "`aleyhi",
+        "in",
+        "küntüm",
+        "ta`lemûn."
+      ],
+      "word_count": 14
+    },
+    {
+      "number": 89,
+      "text_ar": "سَيَقُولُونَ لِلَّهِۚ قُلۡ فَأَنَّىٰ تُسۡحَرُونَ",
+      "text_tr_diyanet": "\"Allah'tır\" diyecekler; \"Öyleyse nasıl aldanıyorsunuz\" de.",
+      "text_tr_vakfi": "\"(Bunların hepsi) Allah'ındır\" diyecekler. Öyle ise nasıl olup da büyüye kapılıyorsunuz? de.",
+      "text_tr_yazir": "\"(Bunlar da) Allah'ındır.\" diyecekler. \"Öyle ise nasıl olur da büyülenirsiniz?\" de.",
+      "transliteration": "seyeḳûlûne lillâh. ḳul feennâ tüsḥarûn.",
+      "words_ar": [
+        "سَيَقُولُونَ",
+        "لِلَّهِ",
+        "قُلۡ",
+        "فَأَنَّىٰ",
+        "تُسۡحَرُونَ"
+      ],
+      "words_translit": [
+        "seyeḳûlûne",
+        "lillâh.",
+        "ḳul",
+        "feennâ",
+        "tüsḥarûn."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 90,
+      "text_ar": "بَلۡ أَتَيۡنَٰهُم بِٱلۡحَقِّ وَإِنَّهُمۡ لَكَٰذِبُونَ",
+      "text_tr_diyanet": "Hayır; Biz onlara gerçeği getirdik ama, onlar yalancıdırlar.",
+      "text_tr_vakfi": "Doğrusu biz onlara gerçeği getirdik; onlar ise hakikaten yalancılardır.",
+      "text_tr_yazir": "Doğrusu biz onlara hakkı getirdik; onlar ise cidden yalancıdırlar.",
+      "transliteration": "bel eteynâhüm bilḥaḳḳi veinnehüm lekâẕibûn.",
+      "words_ar": [
+        "بَلۡ",
+        "أَتَيۡنَٰهُم",
+        "بِٱلۡحَقِّ",
+        "وَإِنَّهُمۡ",
+        "لَكَٰذِبُونَ"
+      ],
+      "words_translit": [
+        "bel",
+        "eteynâhüm",
+        "bilḥaḳḳi",
+        "veinnehüm",
+        "lekâẕibûn."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 91,
+      "text_ar": "مَا ٱتَّخَذَ ٱللَّهُ مِن وَلَدٖ وَمَا كَانَ مَعَهُۥ مِنۡ إِلَٰهٍۚ إِذٗا لَّذَهَبَ كُلُّ إِلَٰهِۭ بِمَا خَلَقَ وَلَعَلَا بَعۡضُهُمۡ عَلَىٰ بَعۡضٖۚ سُبۡحَٰنَ ٱللَّهِ عَمَّا يَصِفُونَ",
+      "text_tr_diyanet": "Allah çocuk edinmemiştir; O'nun yanında hiçbir tanrı yoktur, olsaydı, her tanrı kendi yarattığı ile beraber gider ve birbirinden üstün olmağa çalışırlardı. Allah onların vasıflandırdıklarından münezzehtir.",
+      "text_tr_vakfi": "Allah evlat edinmemiştir; O'nunla beraber hiçbir tanrı da yoktur. Aksi takdirde her tanrı kendi yarattığını sevk ve idare eder ve mutlaka onlardan biri diğerine galebe çalardı. Allah, onların (müşriklerin) yakıştırdıkları şeylerden münezzehtir.",
+      "text_tr_yazir": "Allah evlat edinmemiştir; O'nunla beraber hiçbir ilâh da yoktur. Aksi takdirde her ilâh kendi yarattığını sevk ve idare eder ve bir gün mutlaka onlardan biri diğerine galip gelirdi. Allah, onların yakıştırdıkları şeylerden münezzehtir.",
+      "transliteration": "me-tteḫaẕe-llâhü miv velediv vemâ kâne me`ahû min ilâhin iẕel leẕehebe küllü ilâhim bimâ ḫaleḳa vele`alâ ba`ḍuhüm `alâ ba`ḍ. sübḥâne-llâhi `ammâ yeṣifûn.",
+      "words_ar": [
+        "مَا",
+        "ٱتَّخَذَ",
+        "ٱللَّهُ",
+        "مِن",
+        "وَلَدٖ",
+        "وَمَا",
+        "كَانَ",
+        "مَعَهُۥ",
+        "مِنۡ",
+        "إِلَٰهٍ",
+        "إِذٗا",
+        "لَّذَهَبَ",
+        "كُلُّ",
+        "إِلَٰهِۭ",
+        "بِمَا",
+        "خَلَقَ",
+        "وَلَعَلَا",
+        "بَعۡضُهُمۡ",
+        "عَلَىٰ",
+        "بَعۡضٖ",
+        "سُبۡحَٰنَ",
+        "ٱللَّهِ",
+        "عَمَّا",
+        "يَصِفُونَ"
+      ],
+      "words_translit": [
+        "me-tteḫaẕe-llâhü",
+        "miv",
+        "velediv",
+        "vemâ",
+        "kâne",
+        "me`ahû",
+        "min",
+        "ilâhin",
+        "iẕel",
+        "leẕehebe",
+        "küllü",
+        "ilâhim",
+        "bimâ",
+        "ḫaleḳa",
+        "vele`alâ",
+        "ba`ḍuhüm",
+        "`alâ",
+        "ba`ḍ.",
+        "sübḥâne-llâhi",
+        "`ammâ",
+        "yeṣifûn."
+      ],
+      "word_count": 24
+    },
+    {
+      "number": 92,
+      "text_ar": "عَٰلِمِ ٱلۡغَيۡبِ وَٱلشَّهَٰدَةِ فَتَعَٰلَىٰ عَمَّا يُشۡرِكُونَ",
+      "text_tr_diyanet": "O, görülmeyeni de, görüleni de bilir. Koştukları ortaklardan yücedir.",
+      "text_tr_vakfi": "Allah, gaybı da şehadeti de bilendir. O, müşriklerin ortak koştukları şeylerden çok yüce ve münezzehtir.",
+      "text_tr_yazir": "Allah, gaybı da, açık olanı da bilir. O, müşriklerin ortak koştukları şeylerden çok yüce ve münezzehtir.",
+      "transliteration": "`âlimi-lgaybi veşşehâdeti fete`âlâ `ammâ yüşrikûn.",
+      "words_ar": [
+        "عَٰلِمِ",
+        "ٱلۡغَيۡبِ",
+        "وَٱلشَّهَٰدَةِ",
+        "فَتَعَٰلَىٰ",
+        "عَمَّا",
+        "يُشۡرِكُونَ"
+      ],
+      "words_translit": [
+        "`âlimi-lgaybi",
+        "veşşehâdeti",
+        "fete`âlâ",
+        "`ammâ",
+        "yüşrikûn."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 93,
+      "text_ar": "قُل رَّبِّ إِمَّا تُرِيَنِّي مَا يُوعَدُونَ",
+      "text_tr_diyanet": "De ki: \"Rabbim! Onların tehdit olundukları şeyi bana mutlaka göstereceksen, o zaman beni zalim milletin içinde bulundurma Yarabbi.\"",
+      "text_tr_vakfi": "(Resulüm!) De ki: \"Rabbim! Eğer onlara yöneltilen tehdidi (dünyevi sıkıntıyı ve uhrevi azabı) mutlaka bana göstereceksen.",
+      "text_tr_yazir": "(Resulüm!) De ki: Rabbim! Eğer onlara yöneltilen tehdidi (dünyevî sıkıntıyı ve uhrevî azabı) mutlaka göstereceksen,",
+      "transliteration": "ḳur rabbi immâ türiyennî mâ yû`adûn.",
+      "words_ar": [
+        "قُل",
+        "رَّبِّ",
+        "إِمَّا",
+        "تُرِيَنِّي",
+        "مَا",
+        "يُوعَدُونَ"
+      ],
+      "words_translit": [
+        "ḳur",
+        "rabbi",
+        "immâ",
+        "türiyennî",
+        "mâ",
+        "yû`adûn."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 94,
+      "text_ar": "رَبِّ فَلَا تَجۡعَلۡنِي فِي ٱلۡقَوۡمِ ٱلظَّـٰلِمِينَ",
+      "text_tr_diyanet": "De ki: \"Rabbim! Onların tehdit olundukları şeyi bana mutlaka göstereceksen, o zaman beni zalim milletin içinde bulundurma Yarabbi.\"",
+      "text_tr_vakfi": "Bu durumda beni zalimler topluluğunun içinde bulundurma, Rabbim!\"",
+      "text_tr_yazir": "Bu durumda beni, o zalimler topluluğunda bulundurma, Rabbim!",
+      "transliteration": "rabbi felâ tec`alnî fi-lḳavmi-żżâlimîn.",
+      "words_ar": [
+        "رَبِّ",
+        "فَلَا",
+        "تَجۡعَلۡنِي",
+        "فِي",
+        "ٱلۡقَوۡمِ",
+        "ٱلظَّـٰلِمِينَ"
+      ],
+      "words_translit": [
+        "rabbi",
+        "felâ",
+        "tec`alnî",
+        "fi-lḳavmi-żżâlimîn."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 95,
+      "text_ar": "وَإِنَّا عَلَىٰٓ أَن نُّرِيَكَ مَا نَعِدُهُمۡ لَقَٰدِرُونَ",
+      "text_tr_diyanet": "Biz onlara vadettiğimizi sana elbette gösterebiliriz.",
+      "text_tr_vakfi": "Biz, onlara yönelttiğimiz tehdidi sana göstermeye elbette ki kadiriz.",
+      "text_tr_yazir": "Biz, onlara yönelttiğimiz tehdidi sana göstermeye elbette ki kadiriz.",
+      "transliteration": "veinnâ `alâ en nüriyeke mâ ne`idühüm leḳâdirûn.",
+      "words_ar": [
+        "وَإِنَّا",
+        "عَلَىٰٓ",
+        "أَن",
+        "نُّرِيَكَ",
+        "مَا",
+        "نَعِدُهُمۡ",
+        "لَقَٰدِرُونَ"
+      ],
+      "words_translit": [
+        "veinnâ",
+        "`alâ",
+        "en",
+        "nüriyeke",
+        "mâ",
+        "ne`idühüm",
+        "leḳâdirûn."
+      ],
+      "word_count": 7
+    },
+    {
+      "number": 96,
+      "text_ar": "ٱدۡفَعۡ بِٱلَّتِي هِيَ أَحۡسَنُ ٱلسَّيِّئَةَۚ نَحۡنُ أَعۡلَمُ بِمَا يَصِفُونَ",
+      "text_tr_diyanet": "Kötülüğü en iyi ile sav. Onların vasıflandırmalarını Biz daha iyi biliriz.",
+      "text_tr_vakfi": "Sen, kötülüğü en güzel bir tutumla sav. Biz onların yakıştırmakta oldukları şeyi çok iyi bilmekteyiz.",
+      "text_tr_yazir": "Sen, kötülüğü en güzel bir tutumla sav, çünkü biz onların yakıştırmakta oldukları şeyi çok iyi bilmekteyiz.",
+      "transliteration": "idfa` billetî hiye aḥsenü-sseyyieh. naḥnü a`lemü bimâ yeṣifûn.",
+      "words_ar": [
+        "ٱدۡفَعۡ",
+        "بِٱلَّتِي",
+        "هِيَ",
+        "أَحۡسَنُ",
+        "ٱلسَّيِّئَةَ",
+        "نَحۡنُ",
+        "أَعۡلَمُ",
+        "بِمَا",
+        "يَصِفُونَ"
+      ],
+      "words_translit": [
+        "idfa`",
+        "billetî",
+        "hiye",
+        "aḥsenü-sseyyieh.",
+        "naḥnü",
+        "a`lemü",
+        "bimâ",
+        "yeṣifûn."
+      ],
+      "word_count": 9
+    },
+    {
+      "number": 97,
+      "text_ar": "وَقُل رَّبِّ أَعُوذُ بِكَ مِنۡ هَمَزَٰتِ ٱلشَّيَٰطِينِ",
+      "text_tr_diyanet": "De ki: \"Rabbim! Şeytanların kışkırtmalarından Sana sığınırım.\"",
+      "text_tr_vakfi": "Ve de ki: Rabbim! Şeytanların kışkırtmalarından sana sığınırım!",
+      "text_tr_yazir": "Ve de ki: Rabbim! Şeytanların kışkırtmalarından sana sığınırım!",
+      "transliteration": "veḳur rabbi e`ûẕü bike min hemezâti-şşeyâṭîn.",
+      "words_ar": [
+        "وَقُل",
+        "رَّبِّ",
+        "أَعُوذُ",
+        "بِكَ",
+        "مِنۡ",
+        "هَمَزَٰتِ",
+        "ٱلشَّيَٰطِينِ"
+      ],
+      "words_translit": [
+        "veḳur",
+        "rabbi",
+        "e`ûẕü",
+        "bike",
+        "min",
+        "hemezâti-şşeyâṭîn."
+      ],
+      "word_count": 7
+    },
+    {
+      "number": 98,
+      "text_ar": "وَأَعُوذُ بِكَ رَبِّ أَن يَحۡضُرُونِ",
+      "text_tr_diyanet": "\"Rabbim! Yanımda bulunmalarından da Sana sığınırım.\"",
+      "text_tr_vakfi": "Onların yanımda bulunmalarından da sana sığınırım, Rabbim!",
+      "text_tr_yazir": "Onların yanımda bulunmalarından da sana sığınırım.",
+      "transliteration": "vee`ûẕü bike rabbi ey yaḥḍurûn.",
+      "words_ar": [
+        "وَأَعُوذُ",
+        "بِكَ",
+        "رَبِّ",
+        "أَن",
+        "يَحۡضُرُونِ"
+      ],
+      "words_translit": [
+        "vee`ûẕü",
+        "bike",
+        "rabbi",
+        "ey",
+        "yaḥḍurûn."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 99,
+      "text_ar": "حَتَّىٰٓ إِذَا جَآءَ أَحَدَهُمُ ٱلۡمَوۡتُ قَالَ رَبِّ ٱرۡجِعُونِ",
+      "text_tr_diyanet": "Onlardan birine ölüm gelince: \"Rabbim! Beni geri çevir, belki, yapmadan bıraktığımı tamamlar, iyi iş işlerim\" der. Hayır; bu söylediği sadece kendi lafıdır. Tekrar diriltilecekleri güne kadar arkalarında geriye dönmekten onları alıkoyan bir engel vardır.",
+      "text_tr_vakfi": "Nihayet onlardan (müşriklerden) birine ölüm gelip çattığında: \"Rabbim! der, beni geri gönder;\"",
+      "text_tr_yazir": "Nihayet onlardan (müşriklerden) birine ölüm gelip çattığında, \"Rabbim, der, lütfen beni (dünyaya) geri gönder,\"",
+      "transliteration": "ḥattâ iẕâ câe eḥadehümü-lmevtü ḳâle rabbi-rci`ûn.",
+      "words_ar": [
+        "حَتَّىٰٓ",
+        "إِذَا",
+        "جَآءَ",
+        "أَحَدَهُمُ",
+        "ٱلۡمَوۡتُ",
+        "قَالَ",
+        "رَبِّ",
+        "ٱرۡجِعُونِ"
+      ],
+      "words_translit": [
+        "ḥattâ",
+        "iẕâ",
+        "câe",
+        "eḥadehümü-lmevtü",
+        "ḳâle",
+        "rabbi-rci`ûn."
+      ],
+      "word_count": 8
+    },
+    {
+      "number": 100,
+      "text_ar": "لَعَلِّيٓ أَعۡمَلُ صَٰلِحٗا فِيمَا تَرَكۡتُۚ كَلَّآۚ إِنَّهَا كَلِمَةٌ هُوَ قَآئِلُهَاۖ وَمِن وَرَآئِهِم بَرۡزَخٌ إِلَىٰ يَوۡمِ يُبۡعَثُونَ",
+      "text_tr_diyanet": "Onlardan birine ölüm gelince: \"Rabbim! Beni geri çevir, belki, yapmadan bıraktığımı tamamlar, iyi iş işlerim\" der. Hayır; bu söylediği sadece kendi lafıdır. Tekrar diriltilecekleri güne kadar arkalarında geriye dönmekten onları alıkoyan bir engel vardır.",
+      "text_tr_vakfi": "\"Ta ki boşa geçirdiğim dünyada iyi iş (ve hareketler) yapayım.\" Hayır! Onun söylediği bu söz (boş) laftan ibarettir. Onların gerisinde ise, yeniden dirilecekleri güne kadar (süren) bir berzah vardır.",
+      "text_tr_yazir": "\"Ta ki, boşa geçirdiğim dünyada iyi iş (ve hareketler) yapayım.\" Hayır! Onun söylediği bu söz (boş) laftan ibarettir. Onların gerisinde ise, yeniden dirilecekleri güne kadar (süren) bir berzah vardır.",
+      "transliteration": "le`allî a`melü ṣâliḥan fîmâ teraktü kellâ. innehâ kelimetün hüve ḳâilühâ. vemiv verâihim berzeḫun ilâ yevmi yüb`aŝûn.",
+      "words_ar": [
+        "لَعَلِّيٓ",
+        "أَعۡمَلُ",
+        "صَٰلِحٗا",
+        "فِيمَا",
+        "تَرَكۡتُ",
+        "كَلَّآ",
+        "إِنَّهَا",
+        "كَلِمَةٌ",
+        "هُوَ",
+        "قَآئِلُهَا",
+        "وَمِن",
+        "وَرَآئِهِم",
+        "بَرۡزَخٌ",
+        "إِلَىٰ",
+        "يَوۡمِ",
+        "يُبۡعَثُونَ"
+      ],
+      "words_translit": [
+        "le`allî",
+        "a`melü",
+        "ṣâliḥan",
+        "fîmâ",
+        "teraktü",
+        "kellâ.",
+        "innehâ",
+        "kelimetün",
+        "hüve",
+        "ḳâilühâ.",
+        "vemiv",
+        "verâihim",
+        "berzeḫun",
+        "ilâ",
+        "yevmi",
+        "yüb`aŝûn."
+      ],
+      "word_count": 16
+    },
+    {
+      "number": 101,
+      "text_ar": "فَإِذَا نُفِخَ فِي ٱلصُّورِ فَلَآ أَنسَابَ بَيۡنَهُمۡ يَوۡمَئِذٖ وَلَا يَتَسَآءَلُونَ",
+      "text_tr_diyanet": "Sura üflendiği zaman, o gün, aralarındaki soy yakınlığı fayda vermez ve birbirlerine de birşey soramazlar.",
+      "text_tr_vakfi": "Sura üflendiği zaman artık aralarında akrabalık bağları kalmamıştır; birbirlerini de arayıp sormazlar.",
+      "text_tr_yazir": "Sûr'a üflendiği zaman aralarında artık ne soysop (çekişmesi) vardır, ne de birbirlerini soruşturacaklardır.",
+      "transliteration": "feiẕâ nüfiḫa fi-ṣṣûri felâ ensâbe beynehüm yevmeiẕiv velâ yetesâelûn.",
+      "words_ar": [
+        "فَإِذَا",
+        "نُفِخَ",
+        "فِي",
+        "ٱلصُّورِ",
+        "فَلَآ",
+        "أَنسَابَ",
+        "بَيۡنَهُمۡ",
+        "يَوۡمَئِذٖ",
+        "وَلَا",
+        "يَتَسَآءَلُونَ"
+      ],
+      "words_translit": [
+        "feiẕâ",
+        "nüfiḫa",
+        "fi-ṣṣûri",
+        "felâ",
+        "ensâbe",
+        "beynehüm",
+        "yevmeiẕiv",
+        "velâ",
+        "yetesâelûn."
+      ],
+      "word_count": 10
+    },
+    {
+      "number": 102,
+      "text_ar": "فَمَن ثَقُلَتۡ مَوَٰزِينُهُۥ فَأُوْلَـٰٓئِكَ هُمُ ٱلۡمُفۡلِحُونَ",
+      "text_tr_diyanet": "Tartıları ağır gelenler, işte onlar kurtuluşa ermiş olanlardır.",
+      "text_tr_vakfi": "Artık kimlerin (sevap) tartılan ağır basarsa, işte asıl bunlar kurtuluşa erenlerdir.",
+      "text_tr_yazir": "Böylece kimlerin tartıları ağır basarsa, işte asıl bunlar kurtuluşa erenlerdir.",
+      "transliteration": "femen ŝeḳulet mevâzînühû feülâike hümü-lmüfliḥûn.",
+      "words_ar": [
+        "فَمَن",
+        "ثَقُلَتۡ",
+        "مَوَٰزِينُهُۥ",
+        "فَأُوْلَـٰٓئِكَ",
+        "هُمُ",
+        "ٱلۡمُفۡلِحُونَ"
+      ],
+      "words_translit": [
+        "femen",
+        "ŝeḳulet",
+        "mevâzînühû",
+        "feülâike",
+        "hümü-lmüfliḥûn."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 103,
+      "text_ar": "وَمَنۡ خَفَّتۡ مَوَٰزِينُهُۥ فَأُوْلَـٰٓئِكَ ٱلَّذِينَ خَسِرُوٓاْ أَنفُسَهُمۡ فِي جَهَنَّمَ خَٰلِدُونَ",
+      "text_tr_diyanet": "Tartıları hafif gelenler, işte onlar, kendilerine yazık edendir, cehennemde temellidirler.",
+      "text_tr_vakfi": "Kimlerin de tartıları hafif gelirse, artık bunlar da kendilerine yazık etmişlerdir; (çünkü onlar) ebedi cehennemdedirler.",
+      "text_tr_yazir": "Kimlerin de tartıları hafif gelirse, artık bunlar da kendilerine yazık etmişlerdir; (çünkü onlar) ebedî cehennemdedirler.",
+      "transliteration": "vemen ḫaffet mevâzînühû feülâike-lleẕîne ḫasirû enfüsehüm fî cehenneme ḫâlidûn.",
+      "words_ar": [
+        "وَمَنۡ",
+        "خَفَّتۡ",
+        "مَوَٰزِينُهُۥ",
+        "فَأُوْلَـٰٓئِكَ",
+        "ٱلَّذِينَ",
+        "خَسِرُوٓاْ",
+        "أَنفُسَهُمۡ",
+        "فِي",
+        "جَهَنَّمَ",
+        "خَٰلِدُونَ"
+      ],
+      "words_translit": [
+        "vemen",
+        "ḫaffet",
+        "mevâzînühû",
+        "feülâike-lleẕîne",
+        "ḫasirû",
+        "enfüsehüm",
+        "fî",
+        "cehenneme",
+        "ḫâlidûn."
+      ],
+      "word_count": 10
+    },
+    {
+      "number": 104,
+      "text_ar": "تَلۡفَحُ وُجُوهَهُمُ ٱلنَّارُ وَهُمۡ فِيهَا كَٰلِحُونَ",
+      "text_tr_diyanet": "Ateş onların yüzlerini yalar, dişleri sırıtıp kalır.",
+      "text_tr_vakfi": "Ateş yüzlerini yakar; orada suratları çirkin ve gülünç bir halde bulunurlar.",
+      "text_tr_yazir": "Orada dişleri sırıtır halde iken ateş yüzlerini yalar.",
+      "transliteration": "telfeḥu vucûhehümü-nnâru vehüm fîhâ kâliḥûn.",
+      "words_ar": [
+        "تَلۡفَحُ",
+        "وُجُوهَهُمُ",
+        "ٱلنَّارُ",
+        "وَهُمۡ",
+        "فِيهَا",
+        "كَٰلِحُونَ"
+      ],
+      "words_translit": [
+        "telfeḥu",
+        "vucûhehümü-nnâru",
+        "vehüm",
+        "fîhâ",
+        "kâliḥûn."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 105,
+      "text_ar": "أَلَمۡ تَكُنۡ ءَايَٰتِي تُتۡلَىٰ عَلَيۡكُمۡ فَكُنتُم بِهَا تُكَذِّبُونَ",
+      "text_tr_diyanet": "Allah: \"Ayetlerim size okunurken onları yalanlıyordunuz değil mi?\" der.",
+      "text_tr_vakfi": "Size ayetlerim okunurdu da, siz onları yalanlardınız değil mi?",
+      "text_tr_yazir": "(Allah Teâlâ,) Size âyetlerim okunurdu da, siz onları yalanlardınız değil mi?... der.",
+      "transliteration": "elem tekün âyâtî tütlâ `aleyküm feküntüm bihâ tükeẕẕibûn.",
+      "words_ar": [
+        "أَلَمۡ",
+        "تَكُنۡ",
+        "ءَايَٰتِي",
+        "تُتۡلَىٰ",
+        "عَلَيۡكُمۡ",
+        "فَكُنتُم",
+        "بِهَا",
+        "تُكَذِّبُونَ"
+      ],
+      "words_translit": [
+        "elem",
+        "tekün",
+        "âyâtî",
+        "tütlâ",
+        "`aleyküm",
+        "feküntüm",
+        "bihâ",
+        "tükeẕẕibûn."
+      ],
+      "word_count": 8
+    },
+    {
+      "number": 106,
+      "text_ar": "قَالُواْ رَبَّنَا غَلَبَتۡ عَلَيۡنَا شِقۡوَتُنَا وَكُنَّا قَوۡمٗا ضَآلِّينَ",
+      "text_tr_diyanet": "Şöyle derler: \"Rabbimiz! Bizi bedbahtlığımız yenmişti; sapık bir millet olmuştuk.\"",
+      "text_tr_vakfi": "Derler ki: Rabbimiz! Azgınlığımız bizi altetti; biz, bir sapıklar topluluğu idik.",
+      "text_tr_yazir": "Derler ki: Rabbimiz! Azgınlığımız bizi altetti; biz, bir sapıklar topluluğu idik.",
+      "transliteration": "ḳâlû rabbenâ galebet `aleynâ şiḳvetünâ vekünnâ ḳavmen ḍâllîn.",
+      "words_ar": [
+        "قَالُواْ",
+        "رَبَّنَا",
+        "غَلَبَتۡ",
+        "عَلَيۡنَا",
+        "شِقۡوَتُنَا",
+        "وَكُنَّا",
+        "قَوۡمٗا",
+        "ضَآلِّينَ"
+      ],
+      "words_translit": [
+        "ḳâlû",
+        "rabbenâ",
+        "galebet",
+        "`aleynâ",
+        "şiḳvetünâ",
+        "vekünnâ",
+        "ḳavmen",
+        "ḍâllîn."
+      ],
+      "word_count": 8
+    },
+    {
+      "number": 107,
+      "text_ar": "رَبَّنَآ أَخۡرِجۡنَا مِنۡهَا فَإِنۡ عُدۡنَا فَإِنَّا ظَٰلِمُونَ",
+      "text_tr_diyanet": "\"Rabbimiz! Bizi buradan çıkar, tekrar günaha dönersek, doğrusu zulmetmiş oluruz.\"",
+      "text_tr_vakfi": "Rabbimiz! Bizi buradan çıkar. Eğer bir daha (ettiklerimize) dönersek, artık belli ki biz zalim insanlarız.",
+      "text_tr_yazir": "Rabbimiz! Bizi buradan çıkar. Eğer bir daha (ettiklerimize) dönersek, artık belli ki biz zalim insanlarız.",
+      "transliteration": "rabbenâ aḫricnâ minhâ fein `udnâ feinnâ żâlimûn.",
+      "words_ar": [
+        "رَبَّنَآ",
+        "أَخۡرِجۡنَا",
+        "مِنۡهَا",
+        "فَإِنۡ",
+        "عُدۡنَا",
+        "فَإِنَّا",
+        "ظَٰلِمُونَ"
+      ],
+      "words_translit": [
+        "rabbenâ",
+        "aḫricnâ",
+        "minhâ",
+        "fein",
+        "`udnâ",
+        "feinnâ",
+        "żâlimûn."
+      ],
+      "word_count": 7
+    },
+    {
+      "number": 108,
+      "text_ar": "قَالَ ٱخۡسَـُٔواْ فِيهَا وَلَا تُكَلِّمُونِ",
+      "text_tr_diyanet": "Allah: \"Sinin orada! Benimle konuşmayın. Kullarımdan bir topluluk: \"Rabbimiz! inandık, artık bizi bağışla, bize acı. Sen acıyanların en iyisisin\" diyordu. Siz ise, onları alaya alıyordunuz. Bu yaptıklarınız size Beni anmayı unutturuyordu. Onlara hep gülüyordunuz. Sabretmelerine karşılık bugün onları mükafatlandırdım. Doğrusu onlar kurtulanlardır\" der.",
+      "text_tr_vakfi": "Buyurur ki: Alçaldıkça alçalın orada! Bana karşı konuşmayın artık!",
+      "text_tr_yazir": "(Allah) buyurur ki: Alçaldıkça alçalın orada! Bana konuşmayın artık.",
+      "transliteration": "ḳâle-ḫseû fîhâ velâ tükellimûn.",
+      "words_ar": [
+        "قَالَ",
+        "ٱخۡسَـُٔواْ",
+        "فِيهَا",
+        "وَلَا",
+        "تُكَلِّمُونِ"
+      ],
+      "words_translit": [
+        "ḳâle-ḫseû",
+        "fîhâ",
+        "velâ",
+        "tükellimûn."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 109,
+      "text_ar": "إِنَّهُۥ كَانَ فَرِيقٞ مِّنۡ عِبَادِي يَقُولُونَ رَبَّنَآ ءَامَنَّا فَٱغۡفِرۡ لَنَا وَٱرۡحَمۡنَا وَأَنتَ خَيۡرُ ٱلرَّـٰحِمِينَ",
+      "text_tr_diyanet": "Allah: \"Sinin orada! Benimle konuşmayın. Kullarımdan bir topluluk: \"Rabbimiz! inandık, artık bizi bağışla, bize acı. Sen acıyanların en iyisisin\" diyordu. Siz ise, onları alaya alıyordunuz. Bu yaptıklarınız size Beni anmayı unutturuyordu. Onlara hep gülüyordunuz. Sabretmelerine karşılık bugün onları mükafatlandırdım. Doğrusu onlar kurtulanlardır\" der.",
+      "text_tr_vakfi": "Zira kullarımdan bir zümre: Rabbimiz! Biz iman ettik; öyle ise bizi affet; bize acı! Sen, merhametlilerin en iyisisin, demişlerdi.",
+      "text_tr_yazir": "Çünkü kullarımdan bir zümre \"Rabbimiz! Biz iman ettik; öyle ise bizi bağışla, bize merhamet et, sen, merhametlilerin en iyisisin.\" diyorlardı.",
+      "transliteration": "innehû kâne ferîḳum min `ibâdî yeḳûlûne rabbenâ âmennâ fagfir lenâ verḥamnâ veente ḫayru-rrâḥimîn.",
+      "words_ar": [
+        "إِنَّهُۥ",
+        "كَانَ",
+        "فَرِيقٞ",
+        "مِّنۡ",
+        "عِبَادِي",
+        "يَقُولُونَ",
+        "رَبَّنَآ",
+        "ءَامَنَّا",
+        "فَٱغۡفِرۡ",
+        "لَنَا",
+        "وَٱرۡحَمۡنَا",
+        "وَأَنتَ",
+        "خَيۡرُ",
+        "ٱلرَّـٰحِمِينَ"
+      ],
+      "words_translit": [
+        "innehû",
+        "kâne",
+        "ferîḳum",
+        "min",
+        "`ibâdî",
+        "yeḳûlûne",
+        "rabbenâ",
+        "âmennâ",
+        "fagfir",
+        "lenâ",
+        "verḥamnâ",
+        "veente",
+        "ḫayru-rrâḥimîn."
+      ],
+      "word_count": 14
+    },
+    {
+      "number": 110,
+      "text_ar": "فَٱتَّخَذۡتُمُوهُمۡ سِخۡرِيًّا حَتَّىٰٓ أَنسَوۡكُمۡ ذِكۡرِي وَكُنتُم مِّنۡهُمۡ تَضۡحَكُونَ",
+      "text_tr_diyanet": "Allah: \"Sinin orada! Benimle konuşmayın. Kullarımdan bir topluluk: \"Rabbimiz! inandık, artık bizi bağışla, bize acı. Sen acıyanların en iyisisin\" diyordu. Siz ise, onları alaya alıyordunuz. Bu yaptıklarınız size Beni anmayı unutturuyordu. Onlara hep gülüyordunuz. Sabretmelerine karşılık bugün onları mükafatlandırdım. Doğrusu onlar kurtulanlardır\" der.",
+      "text_tr_vakfi": "İşte siz onları alaya aldınız; sonunda onlar (ile alay etmeniz) size beni yadetmeyi unutturdu, siz onlara gülüyordunuz.",
+      "text_tr_yazir": "İşte siz onları alaya aldınız; sonunda bu davranışınız size beni yâd etmeyi unutturdu; çünkü siz onlara gülüyordunuz.",
+      "transliteration": "fetteḫaẕtümûhüm siḫriyyen ḥattâ ensevküm ẕikrî veküntüm minhüm taḍḥakûn.",
+      "words_ar": [
+        "فَٱتَّخَذۡتُمُوهُمۡ",
+        "سِخۡرِيًّا",
+        "حَتَّىٰٓ",
+        "أَنسَوۡكُمۡ",
+        "ذِكۡرِي",
+        "وَكُنتُم",
+        "مِّنۡهُمۡ",
+        "تَضۡحَكُونَ"
+      ],
+      "words_translit": [
+        "fetteḫaẕtümûhüm",
+        "siḫriyyen",
+        "ḥattâ",
+        "ensevküm",
+        "ẕikrî",
+        "veküntüm",
+        "minhüm",
+        "taḍḥakûn."
+      ],
+      "word_count": 8
+    },
+    {
+      "number": 111,
+      "text_ar": "إِنِّي جَزَيۡتُهُمُ ٱلۡيَوۡمَ بِمَا صَبَرُوٓاْ أَنَّهُمۡ هُمُ ٱلۡفَآئِزُونَ",
+      "text_tr_diyanet": "Allah: \"Sinin orada! Benimle konuşmayın. Kullarımdan bir topluluk: \"Rabbimiz! inandık, artık bizi bağışla, bize acı. Sen acıyanların en iyisisin\" diyordu. Siz ise, onları alaya alıyordunuz. Bu yaptıklarınız size Beni anmayı unutturuyordu. Onlara hep gülüyordunuz. Sabretmelerine karşılık bugün onları mükafatlandırdım. Doğrusu onlar kurtulanlardır\" der.",
+      "text_tr_vakfi": "Bugün ben onlara, sabrettiklerinin karşılığını verdim; onlar, hakikaten muratlarına erenlerdir.",
+      "text_tr_yazir": "Bugün ben onlara, sabrettiklerinin karşılığını verdim; onlar, hakikaten muradlarına erenlerdir.",
+      "transliteration": "innî cezeytühümü-lyevme bimâ ṣaberû ennehüm hümü-lfâizûn.",
+      "words_ar": [
+        "إِنِّي",
+        "جَزَيۡتُهُمُ",
+        "ٱلۡيَوۡمَ",
+        "بِمَا",
+        "صَبَرُوٓاْ",
+        "أَنَّهُمۡ",
+        "هُمُ",
+        "ٱلۡفَآئِزُونَ"
+      ],
+      "words_translit": [
+        "innî",
+        "cezeytühümü-lyevme",
+        "bimâ",
+        "ṣaberû",
+        "ennehüm",
+        "hümü-lfâizûn."
+      ],
+      "word_count": 8
+    },
+    {
+      "number": 112,
+      "text_ar": "قَٰلَ كَمۡ لَبِثۡتُمۡ فِي ٱلۡأَرۡضِ عَدَدَ سِنِينَ",
+      "text_tr_diyanet": "Allah onlara yine: \"Yeryüzünde kaç yıl kaldınız\" der.",
+      "text_tr_vakfi": "(Allah inkarcılara) \"Yeryüzünde kaç yıl kaldınız?\" diye sorar.",
+      "text_tr_yazir": "(Allah inkârcılara) \"Yeryüzünde kaç yıl kaldınız?\" diye sorar.",
+      "transliteration": "ḳâle kem lebiŝtüm fi-l'arḍi `adede sinîn.",
+      "words_ar": [
+        "قَٰلَ",
+        "كَمۡ",
+        "لَبِثۡتُمۡ",
+        "فِي",
+        "ٱلۡأَرۡضِ",
+        "عَدَدَ",
+        "سِنِينَ"
+      ],
+      "words_translit": [
+        "ḳâle",
+        "kem",
+        "lebiŝtüm",
+        "fi-l'arḍi",
+        "`adede",
+        "sinîn."
+      ],
+      "word_count": 7
+    },
+    {
+      "number": 113,
+      "text_ar": "قَالُواْ لَبِثۡنَا يَوۡمًا أَوۡ بَعۡضَ يَوۡمٖ فَسۡـَٔلِ ٱلۡعَآدِّينَ",
+      "text_tr_diyanet": "\"Bir gün veya daha az bir süre kaldık, sayanlara sor\" derler.",
+      "text_tr_vakfi": "\"Bir gün veya günün bir kısmı kadar kaldık. İşte sayanlara sor\" derler.",
+      "text_tr_yazir": "\"Bir gün veya günün bir kısmı kadar kaldık. İşte bilenlere sor.\" derler.",
+      "transliteration": "ḳâlû lebiŝnâ yevmen ev ba`ḍa yevmin fes'eli-l`âddîn.",
+      "words_ar": [
+        "قَالُواْ",
+        "لَبِثۡنَا",
+        "يَوۡمًا",
+        "أَوۡ",
+        "بَعۡضَ",
+        "يَوۡمٖ",
+        "فَسۡـَٔلِ",
+        "ٱلۡعَآدِّينَ"
+      ],
+      "words_translit": [
+        "ḳâlû",
+        "lebiŝnâ",
+        "yevmen",
+        "ev",
+        "ba`ḍa",
+        "yevmin",
+        "fes'eli-l`âddîn."
+      ],
+      "word_count": 8
+    },
+    {
+      "number": 114,
+      "text_ar": "قَٰلَ إِن لَّبِثۡتُمۡ إِلَّا قَلِيلٗاۖ لَّوۡ أَنَّكُمۡ كُنتُمۡ تَعۡلَمُونَ",
+      "text_tr_diyanet": "Allah' \"Pek az kaldınız, keşke bilseydiniz! Sizi boşuna yarattığımızı ve Bize döndürülmeyeceğinizi mi sandınız?\" der.",
+      "text_tr_vakfi": "Buyurur: Sadece az bir süre kaldınız; keşke siz (bunu) bilmiş olsaydınız!",
+      "text_tr_yazir": "(Allah) buyurur ki: Sadece az bir süre kaldınız; keşke siz (bunu) bilmiş olsaydınız!",
+      "transliteration": "ḳâle il lebiŝtüm illâ ḳalîlel lev enneküm küntüm ta`lemûn.",
+      "words_ar": [
+        "قَٰلَ",
+        "إِن",
+        "لَّبِثۡتُمۡ",
+        "إِلَّا",
+        "قَلِيلٗا",
+        "لَّوۡ",
+        "أَنَّكُمۡ",
+        "كُنتُمۡ",
+        "تَعۡلَمُونَ"
+      ],
+      "words_translit": [
+        "ḳâle",
+        "il",
+        "lebiŝtüm",
+        "illâ",
+        "ḳalîlel",
+        "lev",
+        "enneküm",
+        "küntüm",
+        "ta`lemûn."
+      ],
+      "word_count": 9
+    },
+    {
+      "number": 115,
+      "text_ar": "أَفَحَسِبۡتُمۡ أَنَّمَا خَلَقۡنَٰكُمۡ عَبَثٗا وَأَنَّكُمۡ إِلَيۡنَا لَا تُرۡجَعُونَ",
+      "text_tr_diyanet": "Allah' \"Pek az kaldınız, keşke bilseydiniz! Sizi boşuna yarattığımızı ve Bize döndürülmeyeceğinizi mi sandınız?\" der.",
+      "text_tr_vakfi": "Sizi sadece boş yere yarattığımızı ve sizin hakikaten huzurumuza geri getirilmeyeceğinizi mi sandınız?",
+      "text_tr_yazir": "Sizi sadece boş yere yarattığımızı ve sizin hakikaten huzurumuza geri getirilmeyeceğinizi mi sandınız?",
+      "transliteration": "efeḥasibtüm ennemâ ḫalaḳnâküm `abeŝev veenneküm ileynâ lâ türce`ûn.",
+      "words_ar": [
+        "أَفَحَسِبۡتُمۡ",
+        "أَنَّمَا",
+        "خَلَقۡنَٰكُمۡ",
+        "عَبَثٗا",
+        "وَأَنَّكُمۡ",
+        "إِلَيۡنَا",
+        "لَا",
+        "تُرۡجَعُونَ"
+      ],
+      "words_translit": [
+        "efeḥasibtüm",
+        "ennemâ",
+        "ḫalaḳnâküm",
+        "`abeŝev",
+        "veenneküm",
+        "ileynâ",
+        "lâ",
+        "türce`ûn."
+      ],
+      "word_count": 8
+    },
+    {
+      "number": 116,
+      "text_ar": "فَتَعَٰلَى ٱللَّهُ ٱلۡمَلِكُ ٱلۡحَقُّۖ لَآ إِلَٰهَ إِلَّا هُوَ رَبُّ ٱلۡعَرۡشِ ٱلۡكَرِيمِ",
+      "text_tr_diyanet": "Gerçek hükümdar olan Allah yücedir. O'ndan başka tanrı yoktur. O, yüce arşın Rabbidir.",
+      "text_tr_vakfi": "Mutlak hakim ve hak olan Allah, çok yücedir. O'ndan başka tanrı yoktur, O, yüce Arş'ın sahibidir.",
+      "text_tr_yazir": "Mutlak hâkim ve hak olan Allah, çok yücedir. O'ndan başka ilâh yoktur. O, bereketli Arş'ın sahibidir.",
+      "transliteration": "fete`âle-llâhü-lmelikü-lḥaḳḳ. lâ ilâhe illâ hû. rabbü-l`arşi-lkerîm.",
+      "words_ar": [
+        "فَتَعَٰلَى",
+        "ٱللَّهُ",
+        "ٱلۡمَلِكُ",
+        "ٱلۡحَقُّ",
+        "لَآ",
+        "إِلَٰهَ",
+        "إِلَّا",
+        "هُوَ",
+        "رَبُّ",
+        "ٱلۡعَرۡشِ",
+        "ٱلۡكَرِيمِ"
+      ],
+      "words_translit": [
+        "fete`âle-llâhü-lmelikü-lḥaḳḳ.",
+        "lâ",
+        "ilâhe",
+        "illâ",
+        "hû.",
+        "rabbü-l`arşi-lkerîm."
+      ],
+      "word_count": 11
+    },
+    {
+      "number": 117,
+      "text_ar": "وَمَن يَدۡعُ مَعَ ٱللَّهِ إِلَٰهًا ءَاخَرَ لَا بُرۡهَٰنَ لَهُۥ بِهِۦ فَإِنَّمَا حِسَابُهُۥ عِندَ رَبِّهِۦٓۚ إِنَّهُۥ لَا يُفۡلِحُ ٱلۡكَٰفِرُونَ",
+      "text_tr_diyanet": "Allah'la beraber, varlığına hiçbir delili olmadığı halde başka tanrıya tapanın hesabını Rabbi görecektir. İnkarcılar elbette kurtulamazlar.",
+      "text_tr_vakfi": "Her kim Allah ile birlikte diğer bir tanrıya taparsa, -ki bu hususla ilgili hiçbir delili yoktur- o kimsenin hesabı ancak Rabbinin nezdindedir. Şurası muhakkak ki kafirler iflah olmaz.",
+      "text_tr_yazir": "Her kim Allah ile birlikte diğer bir tanrıya taparsaki bu hususla ilgili hiçbir delili yoktur o kimsenin hesabı ancak Rabbinin nezdindedir. Şurası muhakkak ki, kâfirler kurtuluşa eremezler.",
+      "transliteration": "vemey yed`u me`a-llâhi ilâhen âḫara lâ bürhâne lehû bihî feinnemâ ḥisâbühû `inde rabbih. innehû lâ yüfliḥu-lkâfirûn.",
+      "words_ar": [
+        "وَمَن",
+        "يَدۡعُ",
+        "مَعَ",
+        "ٱللَّهِ",
+        "إِلَٰهًا",
+        "ءَاخَرَ",
+        "لَا",
+        "بُرۡهَٰنَ",
+        "لَهُۥ",
+        "بِهِۦ",
+        "فَإِنَّمَا",
+        "حِسَابُهُۥ",
+        "عِندَ",
+        "رَبِّهِۦٓ",
+        "إِنَّهُۥ",
+        "لَا",
+        "يُفۡلِحُ",
+        "ٱلۡكَٰفِرُونَ"
+      ],
+      "words_translit": [
+        "vemey",
+        "yed`u",
+        "me`a-llâhi",
+        "ilâhen",
+        "âḫara",
+        "lâ",
+        "bürhâne",
+        "lehû",
+        "bihî",
+        "feinnemâ",
+        "ḥisâbühû",
+        "`inde",
+        "rabbih.",
+        "innehû",
+        "lâ",
+        "yüfliḥu-lkâfirûn."
+      ],
+      "word_count": 18
+    },
+    {
+      "number": 118,
+      "text_ar": "وَقُل رَّبِّ ٱغۡفِرۡ وَٱرۡحَمۡ وَأَنتَ خَيۡرُ ٱلرَّـٰحِمِينَ",
+      "text_tr_diyanet": "De ki: \"Rabbim! Bağışla, merhamet et, Sen merhamet edenlerin en hayırlısısın.\"",
+      "text_tr_vakfi": "(Resulüm!) De ki: Bağışla ve merhamet et Rabbim! Sen merhametlilerin en iyisisin.",
+      "text_tr_yazir": "Resulüm! De ki: \"Rabbim, bağışla ve merhamet et! Sen merhametlilerin en iyisisin.\"",
+      "transliteration": "veḳur rabbi-gfir verḥam veente ḫayru-rrâḥimîn.",
+      "words_ar": [
+        "وَقُل",
+        "رَّبِّ",
+        "ٱغۡفِرۡ",
+        "وَٱرۡحَمۡ",
+        "وَأَنتَ",
+        "خَيۡرُ",
+        "ٱلرَّـٰحِمِينَ"
+      ],
+      "words_translit": [
+        "veḳur",
+        "rabbi-gfir",
+        "verḥam",
+        "veente",
+        "ḫayru-rrâḥimîn."
+      ],
+      "word_count": 7
+    }
+  ]
+}

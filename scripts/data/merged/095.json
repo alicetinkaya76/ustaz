@@ -1,0 +1,175 @@
+{
+  "surah": 95,
+  "name_ar": "التين",
+  "name_translit": "At-Tin",
+  "type": "meccan",
+  "total_ayahs": 8,
+  "total_words": 34,
+  "ayahs": [
+    {
+      "number": 1,
+      "text_ar": "وَٱلتِّينِ وَٱلزَّيۡتُونِ",
+      "text_tr_diyanet": "İncir ve zeytine and olsun,",
+      "text_tr_vakfi": "İncire, zeytine,",
+      "text_tr_yazir": "Tîn'e ve Zeytun'a,",
+      "transliteration": "vettîni vezzeytûn.",
+      "words_ar": [
+        "وَٱلتِّينِ",
+        "وَٱلزَّيۡتُونِ"
+      ],
+      "words_translit": [
+        "vettîni",
+        "vezzeytûn."
+      ],
+      "word_count": 2
+    },
+    {
+      "number": 2,
+      "text_ar": "وَطُورِ سِينِينَ",
+      "text_tr_diyanet": "And olsun Sina dağına,",
+      "text_tr_vakfi": "Sina dağına,",
+      "text_tr_yazir": "Sina dağına",
+      "transliteration": "veṭûri sînîn.",
+      "words_ar": [
+        "وَطُورِ",
+        "سِينِينَ"
+      ],
+      "words_translit": [
+        "veṭûri",
+        "sînîn."
+      ],
+      "word_count": 2
+    },
+    {
+      "number": 3,
+      "text_ar": "وَهَٰذَا ٱلۡبَلَدِ ٱلۡأَمِينِ",
+      "text_tr_diyanet": "And olsun bu güvenli Mekke şehrine ki:",
+      "text_tr_vakfi": "Ve şu emin beldeye yemin ederim ki,",
+      "text_tr_yazir": "Ve bu güvenli beldeye andolsun ki,",
+      "transliteration": "vehâẕe-lbeledi-l'emîn.",
+      "words_ar": [
+        "وَهَٰذَا",
+        "ٱلۡبَلَدِ",
+        "ٱلۡأَمِينِ"
+      ],
+      "words_translit": [
+        "vehâẕe-lbeledi-l'emîn."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 4,
+      "text_ar": "لَقَدۡ خَلَقۡنَا ٱلۡإِنسَٰنَ فِيٓ أَحۡسَنِ تَقۡوِيمٖ",
+      "text_tr_diyanet": "Biz insanı en güzel şekilde yarattık,",
+      "text_tr_vakfi": "Biz insanı en güzel biçimde yarattık.",
+      "text_tr_yazir": "Biz insanı en güzel biçimde yarattık.",
+      "transliteration": "leḳad ḫalaḳne-l'insâne fî aḥseni taḳvîm.",
+      "words_ar": [
+        "لَقَدۡ",
+        "خَلَقۡنَا",
+        "ٱلۡإِنسَٰنَ",
+        "فِيٓ",
+        "أَحۡسَنِ",
+        "تَقۡوِيمٖ"
+      ],
+      "words_translit": [
+        "leḳad",
+        "ḫalaḳne-l'insâne",
+        "fî",
+        "aḥseni",
+        "taḳvîm."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 5,
+      "text_ar": "ثُمَّ رَدَدۡنَٰهُ أَسۡفَلَ سَٰفِلِينَ",
+      "text_tr_diyanet": "Sonra onu aşağıların en aşağısı kıldık.",
+      "text_tr_vakfi": "Sonra da çevirdik aşağıların aşağısına attık.",
+      "text_tr_yazir": "Sonra da çevirdik aşağıların aşağısına attık.",
+      "transliteration": "ŝümme radednâhü esfele sâfilîn.",
+      "words_ar": [
+        "ثُمَّ",
+        "رَدَدۡنَٰهُ",
+        "أَسۡفَلَ",
+        "سَٰفِلِينَ"
+      ],
+      "words_translit": [
+        "ŝümme",
+        "radednâhü",
+        "esfele",
+        "sâfilîn."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 6,
+      "text_ar": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ فَلَهُمۡ أَجۡرٌ غَيۡرُ مَمۡنُونٖ",
+      "text_tr_diyanet": "Yalnız, inanıp yararlı iş işleyenler bunun dışındadır. Onlara kesintisiz ecir vardır.",
+      "text_tr_vakfi": "Fakat iman edip salih amel işleyenler için eksilmeyen devamlı bir ecir vardır.",
+      "text_tr_yazir": "Ancak iman edip iyi işler yapanlar başka; onlar için kesintisiz bir ecir vardır.",
+      "transliteration": "ille-lleẕîne âmenû ve`amilu-ṣṣâliḥâti felehüm ecrun gayru memnûn.",
+      "words_ar": [
+        "إِلَّا",
+        "ٱلَّذِينَ",
+        "ءَامَنُواْ",
+        "وَعَمِلُواْ",
+        "ٱلصَّـٰلِحَٰتِ",
+        "فَلَهُمۡ",
+        "أَجۡرٌ",
+        "غَيۡرُ",
+        "مَمۡنُونٖ"
+      ],
+      "words_translit": [
+        "ille-lleẕîne",
+        "âmenû",
+        "ve`amilu-ṣṣâliḥâti",
+        "felehüm",
+        "ecrun",
+        "gayru",
+        "memnûn."
+      ],
+      "word_count": 9
+    },
+    {
+      "number": 7,
+      "text_ar": "فَمَا يُكَذِّبُكَ بَعۡدُ بِٱلدِّينِ",
+      "text_tr_diyanet": "Öyleyken, sana dini yalan saydırtan nedir?",
+      "text_tr_vakfi": "Artık bundan sonra, ceza günü konusunda seni kim yalanlayabilir?",
+      "text_tr_yazir": "O halde sana dini ne yalanlatır?",
+      "transliteration": "femâ yükeẕẕibüke ba`dü biddîn.",
+      "words_ar": [
+        "فَمَا",
+        "يُكَذِّبُكَ",
+        "بَعۡدُ",
+        "بِٱلدِّينِ"
+      ],
+      "words_translit": [
+        "femâ",
+        "yükeẕẕibüke",
+        "ba`dü",
+        "biddîn."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 8,
+      "text_ar": "أَلَيۡسَ ٱللَّهُ بِأَحۡكَمِ ٱلۡحَٰكِمِينَ",
+      "text_tr_diyanet": "Allah, hükmedenlerin en iyi hükmedeni değil midir?",
+      "text_tr_vakfi": "Allah, hüküm verenlerin en üstünü değil midir?",
+      "text_tr_yazir": "Allah, hakimlerin hakimi değil mi?",
+      "transliteration": "eleyse-llâhü biaḥkemi-lḥâkimîn.",
+      "words_ar": [
+        "أَلَيۡسَ",
+        "ٱللَّهُ",
+        "بِأَحۡكَمِ",
+        "ٱلۡحَٰكِمِينَ"
+      ],
+      "words_translit": [
+        "eleyse-llâhü",
+        "biaḥkemi-lḥâkimîn."
+      ],
+      "word_count": 4
+    }
+  ]
+}

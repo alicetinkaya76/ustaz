@@ -1,0 +1,164 @@
+{
+  "surah": 102,
+  "name_ar": "التكاثر",
+  "name_translit": "At-Takathur",
+  "type": "meccan",
+  "total_ayahs": 8,
+  "total_words": 28,
+  "ayahs": [
+    {
+      "number": 1,
+      "text_ar": "أَلۡهَىٰكُمُ ٱلتَّكَاثُرُ",
+      "text_tr_diyanet": "Çoğunluk olmak iddianız sizi o kadar meşgul etti ki, mezarları ziyaretle oradakileri de sayacak kadar oldunuz.",
+      "text_tr_vakfi": "Çokluk kuruntusu sizi o derece oyaladı ki,",
+      "text_tr_yazir": "Çoklukla övünmek, sizi kabirlere varıncaya kadar oyaladı.",
+      "transliteration": "elhâkümü-ttekâŝür.",
+      "words_ar": [
+        "أَلۡهَىٰكُمُ",
+        "ٱلتَّكَاثُرُ"
+      ],
+      "words_translit": [
+        "elhâkümü-ttekâŝür."
+      ],
+      "word_count": 2
+    },
+    {
+      "number": 2,
+      "text_ar": "حَتَّىٰ زُرۡتُمُ ٱلۡمَقَابِرَ",
+      "text_tr_diyanet": "Çoğunluk olmak iddianız sizi o kadar meşgul etti ki, mezarları ziyaretle oradakileri de sayacak kadar oldunuz.",
+      "text_tr_vakfi": "Nihayet kabirleri ziyaret ettiniz.",
+      "text_tr_yazir": "Çoklukla övünmek, sizi kabirlere varıncaya kadar oyaladı.",
+      "transliteration": "ḥattâ zürtümü-lmeḳâbir.",
+      "words_ar": [
+        "حَتَّىٰ",
+        "زُرۡتُمُ",
+        "ٱلۡمَقَابِرَ"
+      ],
+      "words_translit": [
+        "ḥattâ",
+        "zürtümü-lmeḳâbir."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 3,
+      "text_ar": "كَلَّا سَوۡفَ تَعۡلَمُونَ",
+      "text_tr_diyanet": "Hayır; öyle olmayın; yakında bileceksiniz.",
+      "text_tr_vakfi": "Hayır! Yakında bileceksiniz!",
+      "text_tr_yazir": "Hayır! Yakında bileceksiniz.",
+      "transliteration": "kellâ sevfe ta`lemûn.",
+      "words_ar": [
+        "كَلَّا",
+        "سَوۡفَ",
+        "تَعۡلَمُونَ"
+      ],
+      "words_translit": [
+        "kellâ",
+        "sevfe",
+        "ta`lemûn."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 4,
+      "text_ar": "ثُمَّ كَلَّا سَوۡفَ تَعۡلَمُونَ",
+      "text_tr_diyanet": "Hayır; gözünüzü açın; yakında bileceksiniz.",
+      "text_tr_vakfi": "Elbette yakında bileceksiniz!",
+      "text_tr_yazir": "Yine hayır! Yakında bileceksiniz (hatanızı).",
+      "transliteration": "ŝümme kellâ sevfe ta`lemûn.",
+      "words_ar": [
+        "ثُمَّ",
+        "كَلَّا",
+        "سَوۡفَ",
+        "تَعۡلَمُونَ"
+      ],
+      "words_translit": [
+        "ŝümme",
+        "kellâ",
+        "sevfe",
+        "ta`lemûn."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 5,
+      "text_ar": "كَلَّا لَوۡ تَعۡلَمُونَ عِلۡمَ ٱلۡيَقِينِ",
+      "text_tr_diyanet": "Dikkat edin, şayet yaptığınızın sonucunu kesin olarak bir bilseniz!",
+      "text_tr_vakfi": "Gerçek öyle değil! Kesin bilgi ile bilmiş olsaydınız,",
+      "text_tr_yazir": "Hayır! Eğer kesin bilgi ile bilseniz, elbette cehennemi görürsünüz.",
+      "transliteration": "kellâ lev ta`lemûne `ilme-lyeḳîn.",
+      "words_ar": [
+        "كَلَّا",
+        "لَوۡ",
+        "تَعۡلَمُونَ",
+        "عِلۡمَ",
+        "ٱلۡيَقِينِ"
+      ],
+      "words_translit": [
+        "kellâ",
+        "lev",
+        "ta`lemûne",
+        "`ilme-lyeḳîn."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 6,
+      "text_ar": "لَتَرَوُنَّ ٱلۡجَحِيمَ",
+      "text_tr_diyanet": "And olsun ki, cehennemi göreceksiniz.",
+      "text_tr_vakfi": "Mutlaka cehennem ateşini görürdünüz.",
+      "text_tr_yazir": "Hayır! Eğer kesin bilgi ile bilseniz, elbette cehennemi görürsünüz.",
+      "transliteration": "leteravunne-lceḥîm.",
+      "words_ar": [
+        "لَتَرَوُنَّ",
+        "ٱلۡجَحِيمَ"
+      ],
+      "words_translit": [
+        "leteravunne-lceḥîm."
+      ],
+      "word_count": 2
+    },
+    {
+      "number": 7,
+      "text_ar": "ثُمَّ لَتَرَوُنَّهَا عَيۡنَ ٱلۡيَقِينِ",
+      "text_tr_diyanet": "And olsun ki, onu gözünüzle kesin olarak göreceksiniz.",
+      "text_tr_vakfi": "Sonra ahirette onu çıplak gözle göreceksiniz.",
+      "text_tr_yazir": "Sonra, yemin olsun ki, cehennemi yakin gözüyle göreceksiniz.",
+      "transliteration": "ŝümme leteravunnehâ `ayne-lyeḳîn.",
+      "words_ar": [
+        "ثُمَّ",
+        "لَتَرَوُنَّهَا",
+        "عَيۡنَ",
+        "ٱلۡيَقِينِ"
+      ],
+      "words_translit": [
+        "ŝümme",
+        "leteravunnehâ",
+        "`ayne-lyeḳîn."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 8,
+      "text_ar": "ثُمَّ لَتُسۡـَٔلُنَّ يَوۡمَئِذٍ عَنِ ٱلنَّعِيمِ",
+      "text_tr_diyanet": "Sonra o gün, size verilmiş olan her nimetten sorguya çekileceksiniz.",
+      "text_tr_vakfi": "Nihayet o gün (dünyada yararlandığınız) nimetlerden elbette ve elbette hesaba çekileceksiniz.",
+      "text_tr_yazir": "Sonra, yemin olsun ki, o gün (size verilen) her nimetten sorulacaksınız",
+      "transliteration": "ŝümme letüs'elünne yevmeiẕin `ani-nne`îm.",
+      "words_ar": [
+        "ثُمَّ",
+        "لَتُسۡـَٔلُنَّ",
+        "يَوۡمَئِذٍ",
+        "عَنِ",
+        "ٱلنَّعِيمِ"
+      ],
+      "words_translit": [
+        "ŝümme",
+        "letüs'elünne",
+        "yevmeiẕin",
+        "`ani-nne`îm."
+      ],
+      "word_count": 5
+    }
+  ]
+}

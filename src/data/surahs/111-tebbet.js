@@ -1,0 +1,94 @@
+// ═══════════════════════════════════════════════════════════
+// TEBBET SURESİ (111) — Pipeline Üretimi
+// 2026-03-25: 1 bölüm, 5 ayet tam kapsam
+// ═══════════════════════════════════════════════════════════
+
+import {
+  generateRootQuiz,
+  generateBabQuiz,
+  generateWaznQuiz,
+  generateFillBlank,
+  generateBalaghaQuiz,
+  generateIrabQuiz,
+  generateVerbTypeQuiz,
+  generateCrossSurahRootQuiz,
+  generateRootFamilyQuiz,
+} from "../../utils/quizGenerator.js";
+
+const tebbetLessons = [
+  // ═══════════════════════════════════════════════════════════
+  // BÖLÜM 1 — TEBBET 111:1-5
+  // ═══════════════════════════════════════════════════════════
+  {
+    id: "S111-B01-tebbet",
+    title: "Tebbet (1-5)",
+    titleAr: "سُورَة المسد 1-5",
+    stage: 2,
+    level: 8,
+    surah: 111,
+    description: "Ebu Leheb'in ve karısının helâkine dair beddua ve onların mallarının kendilerine fayda vermeyeceğinin bildirimi.",
+    verses: [
+      {
+        surah: 111, ayah: 1,
+        arabic: "تَبَّتۡ يَدَآ أَبِي لَهَبٖ وَتَبَّ",
+        translation: "Ebu Leheb'in elleri kurusun; kurudu da!",
+        words: [
+          { arabic: "تَبَّتۡ", transliteration: "tebbet", root: "ت-ب-ب", pattern: "فَعَّلَ", pos: "fil", meaning_tr: "kurusun, helâk olsun", irab: "{Fiil-i mâzî}, II. bâb, sîga-i gâib, müennes, müfred. Lâfzen mâzî olup mânen dua ifade eder.", irab_short: "mâzî, II. bâb, dua", turkish_bridge: null, balagha_note: "Lafzî tekerrür ile te'kîd sanatı yapılmış (تَبَّتۡ - وَتَبَّ)" },
+          { arabic: "يَدَآ", transliteration: "yedâ", root: "ي-د-و", pattern: "فَعَلٌ", pos: "ism", meaning_tr: "iki el", irab: "{Fâil}, merfû. Tasniye olup alâmeti ref'i elif harfidir.", irab_short: "fâil, merfû, tasniye", turkish_bridge: null, balagha_note: "Kinâye sanatı: eller, bütün varlık ve amelini ifade eder" },
+          { arabic: "أَبِي", transliteration: "ebî", root: "أ-ب-و", pattern: "فَعَلٌ", pos: "ism", meaning_tr: "baba", irab: "{Müdâf}, mecrûr. Esma-i hamse'den olup alâmeti cerri yâ harfidir.", irab_short: "müdâf, mecrûr", turkish_bridge: null, balagha_note: null },
+          { arabic: "لَهَبٖ", transliteration: "leheb", root: "ل-ه-ب", pattern: "فَعَلٌ", pos: "ism", meaning_tr: "alev", irab: "{Müdâf ileyh}, mecrûr ve alâmeti cerri kesredir. Alem ismi olarak kullanılmıştır.", irab_short: "müdâf ileyh, mecrûr", turkish_bridge: null, balagha_note: "Müşâkele sanatı: isminin anlamı (alev) akıbetiyle uygun düşmekte" },
+          { arabic: "وَتَبَّ", transliteration: "vetebb", root: "ت-ب-ب", pattern: "فَعَّلَ", pos: "fil", meaning_tr: "ve kurudu", irab: "Vâv atf harfi. {Fiil-i mâzî}, II. bâb, sîga-i gâib, müzekker, müfred. Ma'tûf ilâ tebbet.", irab_short: "mâzî, II. bâb, atf", turkish_bridge: null, balagha_note: "Te'kîd maksadıyla tekrar edilmiş, mâzî sîgasıyla vukûu kesin gösterilmiş" },
+        ],
+      },
+      {
+        surah: 111, ayah: 2,
+        arabic: "مَآ أَغۡنَىٰ عَنۡهُ مَالُهُۥ وَمَا كَسَبَ",
+        translation: "Malı ve kazandığı kendisine fayda vermedi.",
+        words: [
+          { arabic: "مَآ", transliteration: "mâ", root: null, pos: "harf", meaning_tr: "değil, -medi", irab: "{Mâ-i nâfiye} olup cümleyi nefy eder.", irab_short: "mâ-i nâfiye", turkish_bridge: null, balagha_note: null },
+          { arabic: "أَغۡنَىٰ", transliteration: "agnâ", root: "غ-ن-ي", pattern: "أَفْعَلَ", pos: "fil", meaning_tr: "fayda verdi, zengin etti", irab: "{Fiil-i mâzî}, IV. bâb, sîga-i gâib, müzekker, müfred. Mâ-i nâfiye ile nefy edilmiştir.", irab_short: "mâzî, IV. bâb, nefy", turkish_bridge: "Ganî, ğına bu kökten", balagha_note: null },
+          { arabic: "عَنۡهُ", transliteration: "anhü", root: null, pos: "harf", meaning_tr: "ondan, ona", irab: "{Câr-mecrûr}, fiile mütealliktir. عَنۡ harfi cer, هُ zamiri mecrûr.", irab_short: "câr-mecrûr", turkish_bridge: null, balagha_note: null },
+          { arabic: "مَالُهُۥ", transliteration: "mâlühû", root: "م-و-ل", pattern: "فَعَلٌ", pos: "ism", meaning_tr: "malı", irab: "{Fâil}, merfû ve alâmeti ref'i dammedir. هُ zamiri müdâf ileyh.", irab_short: "fâil, merfû", turkish_bridge: "Mal bu kökten", balagha_note: null },
+          { arabic: "وَمَا", transliteration: "vemâ", root: null, pos: "harf", meaning_tr: "ve ne", irab: "Vâv atf harfi. {مَا} mevsûle olup ma'tûf alâ mâlihi.", irab_short: "atf, mâ mevsûle", turkish_bridge: null, balagha_note: null },
+          { arabic: "كَسَبَ", transliteration: "keseb", root: "ك-س-ب", pattern: "فَعَلَ", pos: "fil", meaning_tr: "kazandı", irab: "{Fiil-i mâzî}, I. bâb, sîga-i gâib, müzekker, müfred. مَا mevsûlenin sılasıdır.", irab_short: "mâzî, I. bâb, sıla", turkish_bridge: "Kesb bu kökten", balagha_note: "İtnâb sanatı: mal genel, kesb özel zikredilerek tafsîl yapılmış" },
+        ],
+      },
+      {
+        surah: 111, ayah: 3,
+        arabic: "سَيَصۡلَىٰ نَارٗا ذَاتَ لَهَبٖ",
+        translation: "Alevli ateşe yaslanacaktır.",
+        words: [
+          { arabic: "سَيَصۡلَىٰ", transliteration: "seyaslâ", root: "ص-ل-ي", pattern: "فَعَلَ", pos: "fil", meaning_tr: "girecektir, yanacaktır", irab: "سَ harfi istikbâl. {Fiil-i mudâri'}, I. bâb, sîga-i gâib, müzekker, müfred.", irab_short: "mudâri', I. bâb, istikbâl", turkish_bridge: null, balagha_note: "Ses uyumu: صلى ve لهب arasında müzîkî ahenk" },
+          { arabic: "نَارٗا", transliteration: "nâran", root: "ن-و-ر", pattern: "فَعَلٌ", pos: "ism", meaning_tr: "ateş", irab: "{Mef'ûl bih}, mensûb ve alâmeti nasbi fethâtır.", irab_short: "mef'ûl bih, mensûb", turkish_bridge: "Nar (ateş) bu kökten", balagha_note: null },
+          { arabic: "ذَاتَ", transliteration: "zâte", root: null, pos: "ism", meaning_tr: "sahibi olan", irab: "{Na't}, mensûb ve alâmeti nasbi fethâtır. Nâr kelimesini vasıflandırır.", irab_short: "na't, mensûb", turkish_bridge: "Zat bu kelimeden", balagha_note: null },
+          { arabic: "لَهَبٖ", transliteration: "leheb", root: "ل-ه-ب", pattern: "فَعَلٌ", pos: "ism", meaning_tr: "alev", irab: "{Müdâf ileyh}, mecrûr ve alâmeti cerri kesredir.", irab_short: "müdâf ileyh, mecrûr", turkish_bridge: null, balagha_note: "Cinâs-ı tâm: Ebu Leheb'in adı (لَهَبٖ) ile ateşin vasfı (لَهَبٖ) aynıdır" },
+        ],
+      },
+      {
+        surah: 111, ayah: 4,
+        arabic: "وَٱمۡرَأَتُهُۥ حَمَّالَةَ ٱلۡحَطَبِ",
+        translation: "Karısı da odun taşıyıcısı olarak",
+        words: [
+          { arabic: "وَٱمۡرَأَتُهُۥ", transliteration: "vemraetühû", root: "م-ر-أ", pattern: "اِفْعَلَةٌ", pos: "ism", meaning_tr: "ve karısı", irab: "Vâv atf harfi. {Ma'tûf}, merfû ve alâmeti ref'i dammedir. هُ zamiri müdâf ileyh.", irab_short: "ma'tûf, merfû", turkish_bridge: null, balagha_note: null },
+          { arabic: "حَمَّالَةَ", transliteration: "hammâlete", root: "ح-م-ل", pattern: "فَعَّالَةٌ", pos: "ism", meaning_tr: "taşıyıcı", irab: "{Hâl} veya {Na't}, mensûb ve alâmeti nasbi fethâtır.", irab_short: "hâl, mensûb", turkish_bridge: "Hamal bu kökten", balagha_note: "Mübalağa sîgası: فَعَّالَة vezni çokça yapma ifade eder" },
+          { arabic: "ٱلۡحَطَبِ", transliteration: "el-hatab", root: "ح-ط-ب", pattern: "فَعَلٌ", pos: "ism", meaning_tr: "odun", irab: "{Müdâf ileyh}, mecrûr ve alâmeti cerri kesredir.", irab_short: "müdâf ileyh, mecrûr", turkish_bridge: "Hatip (odun toplayan) bu kökten", balagha_note: "Kinâye: Hakîkatte cehennem odunu değil, dünyada da fitne odunu taşımış" },
+        ],
+      },
+      {
+        surah: 111, ayah: 5,
+        arabic: "فِي جِيدِهَا حَبۡلٞ مِّن مَّسَدِۭ",
+        translation: "Boynunda hurma lifinden bir ip olduğu halde",
+        words: [
+          { arabic: "فِي", transliteration: "fî", root: null, pos: "harf", meaning_tr: "içinde, -de", irab: "{Harf-i cer}. Câr-mecrûr terkîbi haber mukaddemdir.", irab_short: "harf-i cer", turkish_bridge: null, balagha_note: null },
+          { arabic: "جِيدِهَا", transliteration: "cîdihâ", root: "ج-ي-د", pattern: "فِعْلٌ", pos: "ism", meaning_tr: "boynunda", irab: "{Mecrûr} bi fî ve alâmeti cerri kesredir. هَا zamiri müdâf ileyh.", irab_short: "mecrûr", turkish_bridge: null, balagha_note: null },
+          { arabic: "حَبۡلٞ", transliteration: "hablün", root: "ح-ب-ل", pattern: "فَعْلٌ", pos: "ism", meaning_tr: "ip", irab: "{Mübtedâ müeahhar}, merfû ve alâmeti ref'i dammedir.", irab_short: "mübtedâ, merfû", turkish_bridge: "Habl bu kökten", balagha_note: null },
+          { arabic: "مِّن", transliteration: "min", root: null, pos: "harf", meaning_tr: "-den", irab: "{Harf-i cer} li beyân-i cinsi.", irab_short: "harf-i cer", turkish_bridge: null, balagha_note: null },
+          { arabic: "مَّسَدِۭ", transliteration: "mesed", root: "م-س-د", pattern: "فَعَلٌ", pos: "ism", meaning_tr: "burulmuş lif", irab: "{Mecrûr} bi min ve alâmeti cerri kesredir.", irab_short: "mecrûr", turkish_bridge: "Mesed kelimesi sure adı", balagha_note: "Cinâs-ı nâkıs: Sure adı المَسَد ile مَسَد arasında ses benzerliği" },
+        ],
+      },
+    ],
+    exercises: [],
+  },
+];
+
+export default tebbetLessons;

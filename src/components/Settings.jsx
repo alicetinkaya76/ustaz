@@ -1,10 +1,18 @@
 import { useState } from "react";
-import { Key, Download, Upload, Trash2, X, Database, Sun, Moon, Eye } from "lucide-react";
-import { clearCache } from "../utils/api";
+import { Download, Upload, Trash2, X, Sun, Moon, Eye, Type } from "lucide-react";
 
-export default function Settings({ apiKey, onApiKeyChange, onExport, onImport, onReset, onClose, theme, onToggleTheme, highContrast, onToggleContrast }) {
-  const [showKey, setShowKey] = useState(false);
-  const [cacheMsg, setCacheMsg] = useState("");
+const FONT_LABELS = {
+  13: "En Küçük",
+  14: "Küçük",
+  15: "Orta",
+  16: "Normal",
+  17: "Büyük",
+  18: "Çok Büyük",
+  19: "Dev",
+  20: "En Büyük",
+};
+
+export default function Settings({ onExport, onImport, onReset, onClose, theme, onToggleTheme, highContrast, onToggleContrast, fontSize, onFontSizeChange }) {
 
   function handleImportFile(e) {
     const file = e.target.files?.[0];
@@ -18,13 +26,8 @@ export default function Settings({ apiKey, onApiKeyChange, onExport, onImport, o
     reader.readAsText(file);
   }
 
-  function handleClearCache() {
-    const count = clearCache();
-    setCacheMsg(`${count} cache kaydı silindi.`);
-    setTimeout(() => setCacheMsg(""), 3000);
-  }
-
   const isDark = theme === "dark";
+  const fs = fontSize || 16;
 
   return (
     <div className="mx-auto max-w-lg">
@@ -71,32 +74,52 @@ export default function Settings({ apiKey, onApiKeyChange, onExport, onImport, o
             </button>
           </div>
         </div>
+        {/* Font Size */}
         <div className="card">
-          <div className="mb-3 flex items-center gap-2"><Key size={14} className="text-ustaz-gold" /><h3 className="text-sm font-semibold text-ustaz-turkish/80">Claude API Anahtarı</h3></div>
-          <p className="mb-3 text-xs text-ustaz-turkish/40">Ustaz'a Sor için gerekli. Anahtar yalnızca tarayıcında saklanır.</p>
-          <div className="flex gap-2">
-            <input type={showKey ? "text" : "password"} value={apiKey} onChange={(e) => onApiKeyChange(e.target.value)} placeholder="sk-ant-..."
-              className="flex-1 rounded-lg border border-ov/5 bg-ustaz-bg/50 px-3 py-2 text-sm text-ustaz-turkish placeholder:text-ustaz-turkish/20 focus:border-ustaz-gold/30 focus:outline-none" />
-            <button onClick={() => setShowKey(!showKey)} className="btn-secondary text-xs">{showKey ? "Gizle" : "Göster"}</button>
+          <div className="mb-3 flex items-center gap-2">
+            <Type size={14} className="text-ustaz-gold" />
+            <h3 className="text-sm font-semibold text-ustaz-turkish/80">Yazı Boyutu</h3>
+          </div>
+          <div className="mb-3 flex items-center justify-between">
+            <span className="text-sm font-medium text-ustaz-turkish/60">{FONT_LABELS[fs] || "Normal"}</span>
+            <span className="rounded-md bg-ov/5 px-2 py-0.5 text-xs font-mono text-ustaz-turkish/30">{fs}px</span>
+          </div>
+          <div className="flex items-center gap-3">
+            <span className="text-xs text-ustaz-turkish/30">A</span>
+            <input
+              type="range"
+              min={13}
+              max={20}
+              step={1}
+              value={fs}
+              onChange={(e) => onFontSizeChange(Number(e.target.value))}
+              className="h-2 flex-1 cursor-pointer appearance-none rounded-full bg-ustaz-surface accent-ustaz-gold"
+            />
+            <span className="text-xl font-bold text-ustaz-turkish/30">A</span>
+          </div>
+          <div className="mt-3 overflow-hidden rounded-xl border border-ov/5 bg-ov/[0.02] p-3">
+            <p className="mb-1 font-arabic text-ustaz-arabic" style={{ fontSize: Math.round(fs * 1.4) + "px", lineHeight: "2" }}>
+              عَمَّ يَتَسَآءَلُونَ
+            </p>
+            <p className="text-ustaz-turkish/60" style={{ fontSize: fs + "px" }}>
+              Neyi soruyorlar? — Nebe 78:1
+            </p>
           </div>
         </div>
+        {/* Export */}
         <div className="card">
           <div className="mb-3 flex items-center gap-2"><Download size={14} className="text-pos-ism" /><h3 className="text-sm font-semibold text-ustaz-turkish/80">İlerlemeyi İndir</h3></div>
           <p className="mb-3 text-xs text-ustaz-turkish/40">İlerleme verilerini JSON dosyası olarak yedekle.</p>
           <button onClick={onExport} className="btn-secondary text-xs">JSON İndir</button>
         </div>
+        {/* Import */}
         <div className="card">
           <div className="mb-3 flex items-center gap-2"><Upload size={14} className="text-pos-fil" /><h3 className="text-sm font-semibold text-ustaz-turkish/80">İlerlemeyi Yükle</h3></div>
           <p className="mb-3 text-xs text-ustaz-turkish/40">Daha önce indirilen JSON dosyasından ilerlemeyi geri yükle.</p>
           <input type="file" accept=".json" onChange={handleImportFile}
             className="text-xs text-ustaz-turkish/40 file:mr-3 file:rounded-lg file:border-0 file:bg-ov/5 file:px-3 file:py-1.5 file:text-xs file:text-ustaz-turkish/60" />
         </div>
-        <div className="card">
-          <div className="mb-3 flex items-center gap-2"><Database size={14} className="text-pos-harf" /><h3 className="text-sm font-semibold text-ustaz-turkish/80">LLM Cache</h3></div>
-          <p className="mb-3 text-xs text-ustaz-turkish/40">Claude API cevapları cache'lenir. Sorun yaşarsan temizle.</p>
-          <button onClick={handleClearCache} className="btn-secondary text-xs">Cache Temizle</button>
-          {cacheMsg && <p className="mt-2 text-xs text-pos-fil">{cacheMsg}</p>}
-        </div>
+        {/* Reset */}
         <div className="card border-red-500/10">
           <div className="mb-3 flex items-center gap-2"><Trash2 size={14} className="text-red-400" /><h3 className="text-sm font-semibold text-red-400/80">Sıfırla</h3></div>
           <p className="mb-3 text-xs text-ustaz-turkish/40">Tüm ilerlemeyi sil ve baştan başla.</p>

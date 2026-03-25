@@ -1,0 +1,120 @@
+{
+  "surah": 105,
+  "name_ar": "الفيل",
+  "name_translit": "Al-Fil",
+  "type": "meccan",
+  "total_ayahs": 5,
+  "total_words": 23,
+  "ayahs": [
+    {
+      "number": 1,
+      "text_ar": "أَلَمۡ تَرَ كَيۡفَ فَعَلَ رَبُّكَ بِأَصۡحَٰبِ ٱلۡفِيلِ",
+      "text_tr_diyanet": "Fil sahiplerine Rabbinin ne ettiğini görmedin mi?",
+      "text_tr_vakfi": "Rabbin fil sahiplerine neler etti, görmedin mi?",
+      "text_tr_yazir": "Görmedin mi Rabb'in fil sahiplerine ne yaptı?",
+      "transliteration": "elem tera keyfe fe`ale rabbüke biaṣḥâbi-lfîl.",
+      "words_ar": [
+        "أَلَمۡ",
+        "تَرَ",
+        "كَيۡفَ",
+        "فَعَلَ",
+        "رَبُّكَ",
+        "بِأَصۡحَٰبِ",
+        "ٱلۡفِيلِ"
+      ],
+      "words_translit": [
+        "elem",
+        "tera",
+        "keyfe",
+        "fe`ale",
+        "rabbüke",
+        "biaṣḥâbi-lfîl."
+      ],
+      "word_count": 7
+    },
+    {
+      "number": 2,
+      "text_ar": "أَلَمۡ يَجۡعَلۡ كَيۡدَهُمۡ فِي تَضۡلِيلٖ",
+      "text_tr_diyanet": "Onların düzenlerini boşa çıkarmadı mı?",
+      "text_tr_vakfi": "Onların kötü planlarını boşa çıkarmadı mı?",
+      "text_tr_yazir": "Onların tuzaklarını boşa çıkarmadı mı?",
+      "transliteration": "elem yec`al keydehüm fî taḍlîl.",
+      "words_ar": [
+        "أَلَمۡ",
+        "يَجۡعَلۡ",
+        "كَيۡدَهُمۡ",
+        "فِي",
+        "تَضۡلِيلٖ"
+      ],
+      "words_translit": [
+        "elem",
+        "yec`al",
+        "keydehüm",
+        "fî",
+        "taḍlîl."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 3,
+      "text_ar": "وَأَرۡسَلَ عَلَيۡهِمۡ طَيۡرًا أَبَابِيلَ",
+      "text_tr_diyanet": "Onların üzerine, sert taşlar atan sürülerle kuşlar gönderdi.",
+      "text_tr_vakfi": "Onların üstüne ebabil kuşlarını gönderdi.",
+      "text_tr_yazir": "Üzerlerine sürü sürü kuşlar gönderdi.",
+      "transliteration": "veersele `aleyhim ṭayran ebâbîl.",
+      "words_ar": [
+        "وَأَرۡسَلَ",
+        "عَلَيۡهِمۡ",
+        "طَيۡرًا",
+        "أَبَابِيلَ"
+      ],
+      "words_translit": [
+        "veersele",
+        "`aleyhim",
+        "ṭayran",
+        "ebâbîl."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 4,
+      "text_ar": "تَرۡمِيهِم بِحِجَارَةٖ مِّن سِجِّيلٖ",
+      "text_tr_diyanet": "Onların üzerine, sert taşlar atan sürülerle kuşlar gönderdi.",
+      "text_tr_vakfi": "O kuşlar, onların üzerlerine pişkin tuğladan yapılmış taşlar atıyordu.",
+      "text_tr_yazir": "Onlara çamurdan sertleşmiş taşlar atıyorlardı.",
+      "transliteration": "termîhim biḥicâratim min siccîl.",
+      "words_ar": [
+        "تَرۡمِيهِم",
+        "بِحِجَارَةٖ",
+        "مِّن",
+        "سِجِّيلٖ"
+      ],
+      "words_translit": [
+        "termîhim",
+        "biḥicâratim",
+        "min",
+        "siccîl."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 5,
+      "text_ar": "فَجَعَلَهُمۡ كَعَصۡفٖ مَّأۡكُولِۭ",
+      "text_tr_diyanet": "Sonunda onları, yenilmiş ekin gibi yaptı.",
+      "text_tr_vakfi": "Böylece Allah onları yenilip çiğnenmiş ekine çevirdi.",
+      "text_tr_yazir": "Ve onları, yenilmiş ekin yaprağı gibi yaptı.",
+      "transliteration": "fece`alehüm ke`aṣfim me'kûl.",
+      "words_ar": [
+        "فَجَعَلَهُمۡ",
+        "كَعَصۡفٖ",
+        "مَّأۡكُولِۭ"
+      ],
+      "words_translit": [
+        "fece`alehüm",
+        "ke`aṣfim",
+        "me'kûl."
+      ],
+      "word_count": 3
+    }
+  ]
+}

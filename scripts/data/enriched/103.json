@@ -1,0 +1,201 @@
+{
+  "surah": 103,
+  "blocks": [
+    {
+      "ayah_start": 1,
+      "ayah_end": 3,
+      "description": "Bu sure zamanın kutsiyetini vurgulayarak, insan hayatının genel durumunu ele alır ve kurtuluş şartlarını belirtir.",
+      "verses": [
+        {
+          "surah": 103,
+          "ayah": 1,
+          "arabic": "وَٱلۡعَصۡرِ",
+          "translation": "İkindi vaktine (Asra; çağa) and olsun ki,",
+          "words": [
+            {
+              "arabic": "وَٱلۡعَصۡرِ",
+              "transliteration": "vel-'asr",
+              "root": "ع-ص-ر",
+              "pattern": "فَعْل",
+              "pos": "ism",
+              "meaning_tr": "vakit, zaman, ikindi vakti, çağ",
+              "irab": "{Kasem} için {mecrûr} olan kelime. Başındaki وَ {vâv-ı kasem} harfi, العصر ise kasem edilen şey olarak {ism} türünde {mecrûr} konumundadır.",
+              "irab_short": "kasem, mecrûr",
+              "turkish_bridge": "Asr, asır kelimeleri bu kökten",
+              "balagha_note": "Kasem üslubu kullanılarak dikkat çekilmiş ve konunun önemine vurgu yapılmıştır"
+            }
+          ]
+        },
+        {
+          "surah": 103,
+          "ayah": 2,
+          "arabic": "إِنَّ ٱلۡإِنسَٰنَ لَفِي خُسۡرٍ",
+          "translation": "İnsan hiç şüphesiz hüsran içindedir.",
+          "words": [
+            {
+              "arabic": "إِنَّ",
+              "transliteration": "inne",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "şüphesiz ki, muhakkak ki",
+              "irab": "{Hurûf-i müşebbehe bi'l-fi'l}'den olup ismini {mensûb}, haberini {merfû} kılan {harf} türündedir.",
+              "irab_short": "te'kîd harfi",
+              "turkish_bridge": null,
+              "balagha_note": "Te'kîd ve vurgu için kullanılmıştır"
+            },
+            {
+              "arabic": "ٱلۡإِنسَٰنَ",
+              "transliteration": "el-insâne",
+              "root": "أ-ن-س",
+              "pattern": "فِعْلان",
+              "pos": "ism",
+              "meaning_tr": "insan, beşer",
+              "irab": "إنَّ'in {ismi} olarak {mensûb} konumunda olan {ism} türündedir.",
+              "irab_short": "ism-i inne, mensûb",
+              "turkish_bridge": "İnsan, insaniyet kelimeleri bu kökten",
+              "balagha_note": "Umum ifade ederek tüm insanlığı kapsamaktadır"
+            },
+            {
+              "arabic": "لَفِي",
+              "transliteration": "lefî",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "elbette içinde, muhakkak içinde",
+              "irab": "لَ harfi {lâm-ı te'kîd} olup te'kîd için, فِي ise {harf-i cerr} olarak zarfiyyet ifade etmektedir.",
+              "irab_short": "lâm-ı te'kîd + harf-i cerr",
+              "turkish_bridge": null,
+              "balagha_note": "Lâm-ı te'kîd ile vurgu artırılmıştır"
+            },
+            {
+              "arabic": "خُسۡرٍ",
+              "transliteration": "husrin",
+              "root": "خ-س-ر",
+              "pattern": "فُعْل",
+              "pos": "ism",
+              "meaning_tr": "zarar, ziyan, hüsran, kayıp",
+              "irab": "فِي harf-i cerri'nin {mecrûru} olarak {mecrûr} konumunda olan {ism} türündedir. Aynı zamanda إنَّ'in {haberi} yerine geçmektedir.",
+              "irab_short": "mecrûr, haber-i inne",
+              "turkish_bridge": "Hüsran kelimesi bu kökten",
+              "balagha_note": "Tanımsız kullanımıyla (nekra) hüsranın büyüklüğü ve çeşitliliği vurgulanmıştır"
+            }
+          ]
+        },
+        {
+          "surah": 103,
+          "ayah": 3,
+          "arabic": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ وَتَوَاصَوۡاْ بِٱلۡحَقِّ وَتَوَاصَوۡاْ بِٱلصَّبۡرِ",
+          "translation": "Ancak inanıp yararlı iş işleyenler, birbirlerine gerçeği tavsiye edenler ve sabırlı olmayı tavsiye edenler bunun dışındadır.",
+          "words": [
+            {
+              "arabic": "إِلَّا",
+              "transliteration": "illâ",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "ancak, yalnız, sadece",
+              "irab": "{İstisnâ harfi} olarak {harf} türündedir ve kendinden sonra gelen kelimeyi istisnâ etmektedir.",
+              "irab_short": "istisnâ harfi",
+              "turkish_bridge": null,
+              "balagha_note": "İstisnâ ile kurtuluş yolunun darılığına işaret edilmiştir"
+            },
+            {
+              "arabic": "ٱلَّذِينَ",
+              "transliteration": "ellezîne",
+              "root": null,
+              "pos": "ism",
+              "meaning_tr": "şu kimseler ki (çoğul erkek)",
+              "irab": "{İsm-i mevsûl} olarak {müstesnâ} konumunda olan {ism} türündedir.",
+              "irab_short": "ism-i mevsûl, müstesnâ",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "ءَامَنُواْ",
+              "transliteration": "âmenû",
+              "root": "أ-م-ن",
+              "pattern": "فَعَلَ",
+              "pos": "fil",
+              "meaning_tr": "iman ettiler, inandılar",
+              "irab": "{Fiil-i mâzî}, IV. bâb (آمَنَ) olup, {fâili} وا zamiri ile çoğul erkek üçüncü şahıstır. الذين'in {sılası} konumundadır.",
+              "irab_short": "mâzî, IV. bâb, sıla",
+              "turkish_bridge": "Amin, emniyet, mümin kelimeleri bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "وَعَمِلُواْ",
+              "transliteration": "ve 'amilû",
+              "root": "ع-م-ل",
+              "pattern": "فَعِلَ",
+              "pos": "fil",
+              "meaning_tr": "ve amel ettiler, iş yaptılar",
+              "irab": "وَ {atf harfi}, عَمِلوا ise {fiil-i mâzî}, I. bâb (عَمِلَ) olup آمَنوا fiiline {matûf} konumundadır.",
+              "irab_short": "mâzî, I. bâb, matûf",
+              "turkish_bridge": "Amel kelimesi bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "ٱلصَّـٰلِحَٰتِ",
+              "transliteration": "es-sâlihât",
+              "root": "ص-ل-ح",
+              "pattern": "فَاعِل",
+              "pos": "ism",
+              "meaning_tr": "salih işler, iyi ameller",
+              "irab": "{Sıfat-ı müşebbehe} kalıbında çoğul müennes olup عَمِلوا fiilinin {mef'ûlü bih}'i konumundadır.",
+              "irab_short": "mef'ûl bih, mensûb",
+              "turkish_bridge": "Salah, ıslah, salih kelimeleri bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "وَتَوَاصَوۡاْ",
+              "transliteration": "ve tevâsav",
+              "root": "و-ص-ي",
+              "pattern": "تَفَاعَلَ",
+              "pos": "fil",
+              "meaning_tr": "ve birbirlerine tavsiye ettiler",
+              "irab": "وَ {atf harfi}, تَواصَوا ise {fiil-i mâzî}, VI. bâb (تَفاعَل) kalıbında karşılıklılık ifade ederek önceki fiillere {matûf} konumundadır.",
+              "irab_short": "mâzî, VI. bâb, matûf",
+              "turkish_bridge": "Vasiyet kelimesi bu kökten",
+              "balagha_note": "VI. bâb kalıbıyla karşılıklılık ve süreklilik vurgulanmıştır"
+            },
+            {
+              "arabic": "بِٱلۡحَقِّ",
+              "transliteration": "bil-hakk",
+              "root": "ح-ق-ق",
+              "pattern": "فَعْل",
+              "pos": "ism",
+              "meaning_tr": "hak ile, hakikot ile, gerçek ile",
+              "irab": "بِ {harf-i cerr}, الحق ise onun {mecrûru} olarak تَواصَوا fiilinin ne konusunda olduğunu bildiren {câr-mecrûr} terkibidir.",
+              "irab_short": "câr-mecrûr, mecrûr",
+              "turkish_bridge": "Hak, hakikat, tahkik kelimeleri bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "وَتَوَاصَوۡاْ",
+              "transliteration": "ve tevâsav",
+              "root": "و-ص-ي",
+              "pattern": "تَفَاعَلَ",
+              "pos": "fil",
+              "meaning_tr": "ve birbirlerine tavsiye ettiler",
+              "irab": "وَ {atf harfi}, تَواصَوا ise {fiil-i mâzî}, VI. bâb (تَفاعَل) kalıbında bir önceki تَواصَوا fiiline {matûf} konumundadır.",
+              "irab_short": "mâzî, VI. bâb, matûf",
+              "turkish_bridge": "Vasiyet kelimesi bu kökten",
+              "balagha_note": "Tekrarla (tikrâr) vurgu yapılmış ve iki ayrı tavsiyenin önemine dikkat çekilmiştir"
+            },
+            {
+              "arabic": "بِٱلصَّبۡرِ",
+              "transliteration": "bis-sabr",
+              "root": "ص-ب-ر",
+              "pattern": "فَعْل",
+              "pos": "ism",
+              "meaning_tr": "sabır ile, dayanıklılık ile",
+              "irab": "بِ {harf-i cerr}, الصبر ise onun {mecrûru} olarak ikinci تَواصَوا fiilinin ne konusunda olduğunu bildiren {câr-mecrûr} terkibidir.",
+              "irab_short": "câr-mecrûr, mecrûr",
+              "turkish_bridge": "Sabır kelimesi bu kökten",
+              "balagha_note": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "name_ar": "العصر"
+}

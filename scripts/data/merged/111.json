@@ -1,0 +1,120 @@
+{
+  "surah": 111,
+  "name_ar": "المسد",
+  "name_translit": "Al-Masad",
+  "type": "meccan",
+  "total_ayahs": 5,
+  "total_words": 23,
+  "ayahs": [
+    {
+      "number": 1,
+      "text_ar": "تَبَّتۡ يَدَآ أَبِي لَهَبٖ وَتَبَّ",
+      "text_tr_diyanet": "Ebu Leheb'in elleri kurusun; kurudu da!",
+      "text_tr_vakfi": "Ebu Leheb'in iki eli kurusun! Kurudu da.",
+      "text_tr_yazir": "Ebu Leheb'in elleri kurusun (yok olsun o), zaten yok oldu ya.",
+      "transliteration": "tebbet yedâ ebî lehebiv vetebb.",
+      "words_ar": [
+        "تَبَّتۡ",
+        "يَدَآ",
+        "أَبِي",
+        "لَهَبٖ",
+        "وَتَبَّ"
+      ],
+      "words_translit": [
+        "tebbet",
+        "yedâ",
+        "ebî",
+        "lehebiv",
+        "vetebb."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 2,
+      "text_ar": "مَآ أَغۡنَىٰ عَنۡهُ مَالُهُۥ وَمَا كَسَبَ",
+      "text_tr_diyanet": "Malı ve kazandığı kendisine fayda vermedi.",
+      "text_tr_vakfi": "Malı ve kazandıkları ona fayda vermedi.",
+      "text_tr_yazir": "Ne malı ne de kazandığı onu kurtaramadı.",
+      "transliteration": "mâ agnâ `anhü mâlühû vemâ keseb.",
+      "words_ar": [
+        "مَآ",
+        "أَغۡنَىٰ",
+        "عَنۡهُ",
+        "مَالُهُۥ",
+        "وَمَا",
+        "كَسَبَ"
+      ],
+      "words_translit": [
+        "mâ",
+        "agnâ",
+        "`anhü",
+        "mâlühû",
+        "vemâ",
+        "keseb."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 3,
+      "text_ar": "سَيَصۡلَىٰ نَارٗا ذَاتَ لَهَبٖ",
+      "text_tr_diyanet": "Alevli ateşe yaslanacaktır.",
+      "text_tr_vakfi": "O, alevli bir ateşte yanacak.",
+      "text_tr_yazir": "(O), alevli bir ateşe girecektir.",
+      "transliteration": "seyaṣlâ nâran ẕâte leheb.",
+      "words_ar": [
+        "سَيَصۡلَىٰ",
+        "نَارٗا",
+        "ذَاتَ",
+        "لَهَبٖ"
+      ],
+      "words_translit": [
+        "seyaṣlâ",
+        "nâran",
+        "ẕâte",
+        "leheb."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 4,
+      "text_ar": "وَٱمۡرَأَتُهُۥ حَمَّالَةَ ٱلۡحَطَبِ",
+      "text_tr_diyanet": "Karısı da, boynunda bir ip olduğu halde ona odun taşıyacaktır.",
+      "text_tr_vakfi": "Odun taşıyıcı olarak karısı da (ateşe girecek).",
+      "text_tr_yazir": "Karısı da odun hamalı olarak (onunla beraber girecektir).",
+      "transliteration": "vemraetüh. ḥammâlete-lḥaṭab.",
+      "words_ar": [
+        "وَٱمۡرَأَتُهُۥ",
+        "حَمَّالَةَ",
+        "ٱلۡحَطَبِ"
+      ],
+      "words_translit": [
+        "vemraetüh.",
+        "ḥammâlete-lḥaṭab."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 5,
+      "text_ar": "فِي جِيدِهَا حَبۡلٞ مِّن مَّسَدِۭ",
+      "text_tr_diyanet": "Karısı da, boynunda bir ip olduğu halde ona odun taşıyacaktır.",
+      "text_tr_vakfi": "Ve boynunda hurma lifinden bükülmüş bir ip olduğu halde.",
+      "text_tr_yazir": "Boynunda da hurma lifinden bir ip olacaktır.",
+      "transliteration": "fî cîdihâ ḥablüm mim mesed.",
+      "words_ar": [
+        "فِي",
+        "جِيدِهَا",
+        "حَبۡلٞ",
+        "مِّن",
+        "مَّسَدِۭ"
+      ],
+      "words_translit": [
+        "fî",
+        "cîdihâ",
+        "ḥablüm",
+        "mim",
+        "mesed."
+      ],
+      "word_count": 5
+    }
+  ]
+}

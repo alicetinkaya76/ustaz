@@ -1,0 +1,466 @@
+{
+  "surah": 95,
+  "blocks": [
+    {
+      "ayah_start": 1,
+      "ayah_end": 8,
+      "description": "Sure, incir, zeytin, Sina dağı ve Mekke'ye yemin ederek insanın yaratılış üstünlüğünü ve akıbetini konu alır.",
+      "verses": [
+        {
+          "surah": 95,
+          "ayah": 1,
+          "arabic": "وَٱلتِّينِ وَٱلزَّيۡتُونِ",
+          "translation": "İncir ve zeytine and olsun,",
+          "words": [
+            {
+              "arabic": "وَٱلتِّينِ",
+              "transliteration": "vet-tîni",
+              "root": null,
+              "pos": "ism",
+              "meaning_tr": "yemin edatı ve incir",
+              "irab": "{Vâv} harfi atıf, {التين} yemin cümlesi mübtedâsı mahzûfu ile alâkalı {mecrûr} lafzıdır",
+              "irab_short": "mecrûr, yemin",
+              "turkish_bridge": null,
+              "balagha_note": "Yemin üslubu ile başlangıç, dikkat çekici"
+            },
+            {
+              "arabic": "وَٱلزَّيۡتُونِ",
+              "transliteration": "vez-zeytûni",
+              "root": null,
+              "pos": "ism",
+              "meaning_tr": "ve zeytin",
+              "irab": "{Vâv} harfi atıf, {الزيتون} önceki kelimeye {atıf} olarak {mecrûr}",
+              "irab_short": "mecrûr, atıf",
+              "turkish_bridge": "Zeytin bu kökten",
+              "balagha_note": "İki kutsal meyveye yemin"
+            }
+          ]
+        },
+        {
+          "surah": 95,
+          "ayah": 2,
+          "arabic": "وَطُورِ سِينِينَ",
+          "translation": "And olsun Sina dağına,",
+          "words": [
+            {
+              "arabic": "وَطُورِ",
+              "transliteration": "ve tûri",
+              "root": "ط-و-ر",
+              "pos": "ism",
+              "meaning_tr": "ve dağ",
+              "irab": "{Vâv} harfi atıf, {طور} önceki kelimelere {atıf} olarak {mecrûr} ve {سينين} kelimesine {muzâf}",
+              "irab_short": "mecrûr, atıf, muzâf",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "سِينِينَ",
+              "transliteration": "sînîne",
+              "root": null,
+              "pos": "ism",
+              "meaning_tr": "Sina",
+              "irab": "{طور} kelimesine {muzâf ileyh} olarak {mecrûr}",
+              "irab_short": "mecrûr, muzâf ileyh",
+              "turkish_bridge": "Sina bu isimden",
+              "balagha_note": null
+            }
+          ]
+        },
+        {
+          "surah": 95,
+          "ayah": 3,
+          "arabic": "وَهَٰذَا ٱلۡبَلَدِ ٱلۡأَمِينِ",
+          "translation": "And olsun bu güvenli Mekke şehrine ki:",
+          "words": [
+            {
+              "arabic": "وَهَٰذَا",
+              "transliteration": "ve hâzâ",
+              "root": null,
+              "pos": "ism",
+              "meaning_tr": "ve bu",
+              "irab": "{Vâv} harfi atıf, {هذا} işaret zamiri önceki kelimelere {atıf} olarak {mecrûr}",
+              "irab_short": "mecrûr, atıf",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "ٱلۡبَلَدِ",
+              "transliteration": "el-beledi",
+              "root": "ب-ل-د",
+              "pos": "ism",
+              "meaning_tr": "şehir, belde",
+              "irab": "{هذا} işaret zamirinin {bedel}i olarak {mecrûr}",
+              "irab_short": "mecrûr, bedel",
+              "turkish_bridge": "Belde bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "ٱلۡأَمِينِ",
+              "transliteration": "el-emîni",
+              "root": "أ-م-ن",
+              "pos": "ism",
+              "meaning_tr": "güvenli",
+              "irab": "{البلد} kelimesinin {sıfat}ı olarak {mecrûr}",
+              "irab_short": "mecrûr, sıfat",
+              "turkish_bridge": "Emin, emniyet bu kökten",
+              "balagha_note": null
+            }
+          ]
+        },
+        {
+          "surah": 95,
+          "ayah": 4,
+          "arabic": "لَقَدۡ خَلَقۡنَا ٱلۡإِنسَٰنَ فِيٓ أَحۡسَنِ تَقۡوِيمٖ",
+          "translation": "Biz insanı en güzel şekilde yarattık,",
+          "words": [
+            {
+              "arabic": "لَقَدۡ",
+              "transliteration": "lekad",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "muhakkak",
+              "irab": "{Lâm} harfi te'kîd ve {قد} harfi tahkîk",
+              "irab_short": "te'kîd, tahkîk",
+              "turkish_bridge": null,
+              "balagha_note": "Te'kîd için güçlü vurgu"
+            },
+            {
+              "arabic": "خَلَقۡنَا",
+              "transliteration": "halakne",
+              "root": "خ-ل-ق",
+              "pattern": "فَعَلَ",
+              "pos": "fil",
+              "meaning_tr": "yarattık",
+              "irab": "{Fiil-i mâzî}, I. bâb, {nâ} fâiller zamiri {fâil}",
+              "irab_short": "mâzî, I. bâb",
+              "turkish_bridge": "Halk, halka bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "ٱلۡإِنسَٰنَ",
+              "transliteration": "el-insâne",
+              "root": "أ-ن-س",
+              "pos": "ism",
+              "meaning_tr": "insanı",
+              "irab": "{خلق} fiilinin {mef'ûl bih}i olarak {mensûb}",
+              "irab_short": "mensûb, mef'ûl bih",
+              "turkish_bridge": "İnsan bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "فِيٓ",
+              "transliteration": "fî",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "içinde",
+              "irab": "{Harf-i cer}",
+              "irab_short": "harf-i cer",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "أَحۡسَنِ",
+              "transliteration": "ahseni",
+              "root": "ح-س-ن",
+              "pattern": "أَفْعَل",
+              "pos": "ism",
+              "meaning_tr": "en güzel",
+              "irab": "{في} harfi cerrine {mecrûr} ve {تقويم} kelimesine {muzâf}",
+              "irab_short": "mecrûr, muzâf",
+              "turkish_bridge": "Hüsün, ihsan bu kökten",
+              "balagha_note": "Tafdîl sîğası ile mükemmellik vurgusu"
+            },
+            {
+              "arabic": "تَقۡوِيمٖ",
+              "transliteration": "takvîmin",
+              "root": "ق-و-م",
+              "pattern": "تَفْعِيل",
+              "pos": "ism",
+              "meaning_tr": "düzeltme, şekillendirme",
+              "irab": "{أحسن} kelimesine {muzâf ileyh} olarak {mecrûr}",
+              "irab_short": "mecrûr, muzâf ileyh",
+              "turkish_bridge": "Takvim bu kökten",
+              "balagha_note": null
+            }
+          ]
+        },
+        {
+          "surah": 95,
+          "ayah": 5,
+          "arabic": "ثُمَّ رَدَدۡنَٰهُ أَسۡفَلَ سَٰفِلِينَ",
+          "translation": "Sonra onu aşağıların en aşağısı kıldık.",
+          "words": [
+            {
+              "arabic": "ثُمَّ",
+              "transliteration": "summe",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "sonra",
+              "irab": "{Harf-i atıf} terâhî için",
+              "irab_short": "atıf, terâhî",
+              "turkish_bridge": null,
+              "balagha_note": "Zamanda geçişi ve tezadı vurgular"
+            },
+            {
+              "arabic": "رَدَدۡنَٰهُ",
+              "transliteration": "radednâhü",
+              "root": "ر-د-د",
+              "pattern": "فَعَلَ",
+              "pos": "fil",
+              "meaning_tr": "onu geri çevirdik",
+              "irab": "{Fiil-i mâzî}, I. bâb, {نا} fâiller zamiri {fâil}, {هُ} muttasıl zamir {mef'ûl bih}",
+              "irab_short": "mâzî, I. bâb",
+              "turkish_bridge": "Red bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "أَسۡفَلَ",
+              "transliteration": "esfele",
+              "root": "س-ف-ل",
+              "pattern": "أَفْعَل",
+              "pos": "ism",
+              "meaning_tr": "aşağısı",
+              "irab": "{رد} fiilinin ikinci {mef'ûl}ü olarak {mensûb} ve {سافلين} kelimesine {muzâf}",
+              "irab_short": "mensûb, mef'ûl, muzâf",
+              "turkish_bridge": null,
+              "balagha_note": "Tafdîl sîğası ile en alt seviye vurgusu"
+            },
+            {
+              "arabic": "سَٰفِلِينَ",
+              "transliteration": "sâfilîne",
+              "root": "س-ف-ل",
+              "pattern": "فَاعِل",
+              "pos": "ism",
+              "meaning_tr": "aşağıda olanlar",
+              "irab": "{أسفل} kelimesine {muzâf ileyh} olarak {mecrûr}",
+              "irab_short": "mecrûr, muzâf ileyh",
+              "turkish_bridge": null,
+              "balagha_note": "Mübalağa için tafdîl + cemî kullanımı"
+            }
+          ]
+        },
+        {
+          "surah": 95,
+          "ayah": 6,
+          "arabic": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ فَلَهُمۡ أَجۡرٌ غَيۡرُ مَمۡنُونٖ",
+          "translation": "Yalnız, inanıp yararlı iş işleyenler bunun dışındadır. Onlara kesintisiz ecir vardır.",
+          "words": [
+            {
+              "arabic": "إِلَّا",
+              "transliteration": "illâ",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "ancak",
+              "irab": "{Edat-ı istisna}",
+              "irab_short": "istisna",
+              "turkish_bridge": null,
+              "balagha_note": "İstisna ile özel grup vurgusu"
+            },
+            {
+              "arabic": "ٱلَّذِينَ",
+              "transliteration": "ellezîne",
+              "root": null,
+              "pos": "ism",
+              "meaning_tr": "olanlar",
+              "irab": "{İsm-i mevsûl} {mustesnâ} olarak {mensûb}",
+              "irab_short": "mensûb, mustesnâ",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "ءَامَنُواْ",
+              "transliteration": "âmenû",
+              "root": "أ-م-ن",
+              "pattern": "فَعَلَ",
+              "pos": "fil",
+              "meaning_tr": "iman ettiler",
+              "irab": "{Fiil-i mâzî}, IV. bâb, {واو} cemaat zamiri {fâil}",
+              "irab_short": "mâzî, IV. bâb",
+              "turkish_bridge": "Âmin, emân bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "وَعَمِلُواْ",
+              "transliteration": "ve amilû",
+              "root": "ع-م-ل",
+              "pattern": "فَعِلَ",
+              "pos": "fil",
+              "meaning_tr": "ve amel ettiler",
+              "irab": "{Vâv} harfi atıf, {عمل} fiili önceki fiile {atıf}, {واو} cemaat zamiri {fâil}",
+              "irab_short": "mâzî, I. bâb, atıf",
+              "turkish_bridge": "Amel bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "ٱلصَّـٰلِحَٰتِ",
+              "transliteration": "es-sâlihâti",
+              "root": "ص-ل-ح",
+              "pattern": "فَاعِلَة",
+              "pos": "ism",
+              "meaning_tr": "yararlı işleri",
+              "irab": "{عمل} fiilinin {mef'ûl bih}i olarak {mensûb}",
+              "irab_short": "mensûb, mef'ûl bih",
+              "turkish_bridge": "Salâh, ıslah bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "فَلَهُمۡ",
+              "transliteration": "felehüm",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "onlar için",
+              "irab": "{فَ} harfi fer'iyye, {لهم} câr mecrûr {mübtedâ-yı müegger}",
+              "irab_short": "câr mecrûr, mübtedâ",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "أَجۡرٌ",
+              "transliteration": "ecrun",
+              "root": "أ-ج-ر",
+              "pattern": "فَعْل",
+              "pos": "ism",
+              "meaning_tr": "ecir",
+              "irab": "{Haber-i mübtedâ} olarak {merfû}",
+              "irab_short": "merfû, haber",
+              "turkish_bridge": "Ecir bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "غَيۡرُ",
+              "transliteration": "gayru",
+              "root": "ğ-ي-ر",
+              "pos": "ism",
+              "meaning_tr": "olmayan",
+              "irab": "{أجر} kelimesinin {sıfat}ı olarak {merfû} ve {ممنون} kelimesine {muzâf}",
+              "irab_short": "merfû, sıfat, muzâf",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "مَمۡنُونٖ",
+              "transliteration": "memnûnin",
+              "root": "م-ن-ن",
+              "pattern": "مَفْعُول",
+              "pos": "ism",
+              "meaning_tr": "kesilmiş",
+              "irab": "{غير} kelimesine {muzâf ileyh} olarak {mecrûr}",
+              "irab_short": "mecrûr, muzâf ileyh",
+              "turkish_bridge": "Minnet bu kökten",
+              "balagha_note": "Sıfat dizisi ile mükâfatın niteliği"
+            }
+          ]
+        },
+        {
+          "surah": 95,
+          "ayah": 7,
+          "arabic": "فَمَا يُكَذِّبُكَ بَعۡدُ بِٱلدِّينِ",
+          "translation": "Öyleyken, sana dini yalan saydırtan nedir?",
+          "words": [
+            {
+              "arabic": "فَمَا",
+              "transliteration": "femâ",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "o halde ne",
+              "irab": "{فَ} harfi fer'iyye, {ما} istifhâm zamiri {mübtedâ}",
+              "irab_short": "mübtedâ, istifhâm",
+              "turkish_bridge": null,
+              "balagha_note": "İnkâr ifade eden istifhâm"
+            },
+            {
+              "arabic": "يُكَذِّبُكَ",
+              "transliteration": "yükezzibüke",
+              "root": "ك-ذ-ب",
+              "pattern": "يُفَعِّل",
+              "pos": "fil",
+              "meaning_tr": "seni yalanlıyor",
+              "irab": "{Fiil-i muzâri}, II. bâb, {ما} zamirinin {haber}i, {كَ} muttasıl zamir {mef'ûl bih}",
+              "irab_short": "muzâri, II. bâb, haber",
+              "turkish_bridge": "Kizb, yalancı bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "بَعۡدُ",
+              "transliteration": "ba'dü",
+              "root": "ب-ع-د",
+              "pos": "ism",
+              "meaning_tr": "sonra",
+              "irab": "{Zarf-ı zaman} olarak {mensûb} mahalinde",
+              "irab_short": "zarf-ı zaman",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "بِٱلدِّينِ",
+              "transliteration": "bid-dîni",
+              "root": "د-ي-ن",
+              "pos": "ism",
+              "meaning_tr": "din konusunda",
+              "irab": "{بِ} harfi cerri, {الدين} {mecrûr} ve fiille müteallik",
+              "irab_short": "mecrûr, câr mecrûr",
+              "turkish_bridge": "Din bu kökten",
+              "balagha_note": null
+            }
+          ]
+        },
+        {
+          "surah": 95,
+          "ayah": 8,
+          "arabic": "أَلَيۡسَ ٱللَّهُ بِأَحۡكَمِ ٱلۡحَٰكِمِينَ",
+          "translation": "Allah, hükmedenlerin en iyi hükmedeni değil midir?",
+          "words": [
+            {
+              "arabic": "أَلَيۡسَ",
+              "transliteration": "eleyse",
+              "root": "ل-ي-س",
+              "pattern": "لَيْسَ",
+              "pos": "fil",
+              "meaning_tr": "değil midir",
+              "irab": "{Hemze} istifhâm, {ليس} nâkıs fiil tahkîkî istifhâm",
+              "irab_short": "nâkıs fiil, istifhâm",
+              "turkish_bridge": null,
+              "balagha_note": "Takrîrî istifhâm ile ikrar ettirme"
+            },
+            {
+              "arabic": "ٱللَّهُ",
+              "transliteration": "Allâhü",
+              "root": null,
+              "pos": "ism",
+              "meaning_tr": "Allah",
+              "irab": "{ليس} fiilinin {ism}i olarak {merfû}",
+              "irab_short": "merfû, ism-i leyse",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "بِأَحۡكَمِ",
+              "transliteration": "biaḥkami",
+              "root": "ح-ك-م",
+              "pattern": "أَفْعَل",
+              "pos": "ism",
+              "meaning_tr": "en hakîm olan",
+              "irab": "{بِ} harfi cerri zâide, {أحكم} {ليس} fiilinin {haber}i mahalinde {mensûb} ve {الحاكمين} kelimesine {muzâf}",
+              "irab_short": "mensûb, haber, muzâf",
+              "turkish_bridge": "Hüküm, hakem bu kökten",
+              "balagha_note": "Tafdîl sîğası ile üstünlük"
+            },
+            {
+              "arabic": "ٱلۡحَٰكِمِينَ",
+              "transliteration": "el-hâkimîne",
+              "root": "ح-ك-م",
+              "pattern": "فَاعِل",
+              "pos": "ism",
+              "meaning_tr": "hüküm verenlerin",
+              "irab": "{أحكم} kelimesine {muzâf ileyh} olarak {mecrûr}",
+              "irab_short": "mecrûr, muzâf ileyh",
+              "turkish_bridge": "Hâkim bu kökten",
+              "balagha_note": "Surenin güçlü kapanışı"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "name_ar": "التين"
+}

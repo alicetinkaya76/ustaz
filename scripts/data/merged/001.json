@@ -1,0 +1,148 @@
+{
+  "surah": 1,
+  "name_ar": "الفاتحة",
+  "name_translit": "Al-Fatihah",
+  "type": "meccan",
+  "total_ayahs": 7,
+  "total_words": 29,
+  "ayahs": [
+    {
+      "number": 1,
+      "text_ar": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+      "text_tr_diyanet": "Rahman ve Rahim olan Allah'ın adıyla:",
+      "text_tr_vakfi": "Rahman (ve) rahim (olan) Allah'ın adıyla.",
+      "text_tr_yazir": "Rahmân ve Rahîm olan Allah'ın ismiyle.",
+      "transliteration": "bismi-llâhi-rraḥmâni-rraḥîm.",
+      "words_ar": [
+        "بِسۡمِ",
+        "ٱللَّهِ",
+        "ٱلرَّحۡمَٰنِ",
+        "ٱلرَّحِيمِ"
+      ],
+      "words_translit": [
+        "bismi-llâhi-rraḥmâni-rraḥîm."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 2,
+      "text_ar": "ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ",
+      "text_tr_diyanet": "Hamd, Alemlerin Rabbi Allah'a mahsustur.",
+      "text_tr_vakfi": "Hamd (övme ve övülme), alemlerin Rabbi Allah'a mahsustur.",
+      "text_tr_yazir": "Hamd o âlemlerin Rabbi,",
+      "transliteration": "elḥamdü lillâhi rabbi-l`âlemîn.",
+      "words_ar": [
+        "ٱلۡحَمۡدُ",
+        "لِلَّهِ",
+        "رَبِّ",
+        "ٱلۡعَٰلَمِينَ"
+      ],
+      "words_translit": [
+        "elḥamdü",
+        "lillâhi",
+        "rabbi-l`âlemîn."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 3,
+      "text_ar": "ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+      "text_tr_diyanet": "O Rahman ve Rahim'dir,",
+      "text_tr_vakfi": "O, rahmandır ve rahimdir.",
+      "text_tr_yazir": "O Rahmân ve Rahim,",
+      "transliteration": "erraḥmâni-rraḥîm.",
+      "words_ar": [
+        "ٱلرَّحۡمَٰنِ",
+        "ٱلرَّحِيمِ"
+      ],
+      "words_translit": [
+        "erraḥmâni-rraḥîm."
+      ],
+      "word_count": 2
+    },
+    {
+      "number": 4,
+      "text_ar": "مَٰلِكِ يَوۡمِ ٱلدِّينِ",
+      "text_tr_diyanet": "Din Gününün sahibidir.",
+      "text_tr_vakfi": "Ceza gününün malikidir.",
+      "text_tr_yazir": "O, din gününün maliki Allah'ın.",
+      "transliteration": "mâliki yevmi-ddîn.",
+      "words_ar": [
+        "مَٰلِكِ",
+        "يَوۡمِ",
+        "ٱلدِّينِ"
+      ],
+      "words_translit": [
+        "mâliki",
+        "yevmi-ddîn."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 5,
+      "text_ar": "إِيَّاكَ نَعۡبُدُ وَإِيَّاكَ نَسۡتَعِينُ",
+      "text_tr_diyanet": "Ancak Sana kulluk eder ve yalnız Senden yardım dileriz.",
+      "text_tr_vakfi": "(Rabbimiz!) Ancak sana kulluk ederiz ve yalnız senden medet umarız.",
+      "text_tr_yazir": "Ancak sana ederiz kulluğu, ibadeti ve ancak senden dileriz yardımı, inayeti. (Ya Rab!).",
+      "transliteration": "iyyâke na`büdü veiyyâke neste`în.",
+      "words_ar": [
+        "إِيَّاكَ",
+        "نَعۡبُدُ",
+        "وَإِيَّاكَ",
+        "نَسۡتَعِينُ"
+      ],
+      "words_translit": [
+        "iyyâke",
+        "na`büdü",
+        "veiyyâke",
+        "neste`în."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 6,
+      "text_ar": "ٱهۡدِنَا ٱلصِّرَٰطَ ٱلۡمُسۡتَقِيمَ",
+      "text_tr_diyanet": "Bizi doğru yola eriştir.",
+      "text_tr_vakfi": "Bize doğru yolu göster.",
+      "text_tr_yazir": "Hidayet eyle bizi doğru yola,",
+      "transliteration": "ihdine-ṣṣirâṭa-lmüsteḳîm.",
+      "words_ar": [
+        "ٱهۡدِنَا",
+        "ٱلصِّرَٰطَ",
+        "ٱلۡمُسۡتَقِيمَ"
+      ],
+      "words_translit": [
+        "ihdine-ṣṣirâṭa-lmüsteḳîm."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 7,
+      "text_ar": "صِرَٰطَ ٱلَّذِينَ أَنۡعَمۡتَ عَلَيۡهِمۡ غَيۡرِ ٱلۡمَغۡضُوبِ عَلَيۡهِمۡ وَلَا ٱلضَّآلِّينَ",
+      "text_tr_diyanet": "Nimete erdirdiğin kimselerin yoluna; gazaba uğrayanların, ya da sapıtanların yoluna değil.",
+      "text_tr_vakfi": "Kendilerine lütuf ve ikramda bulunduğun kimselerin yolunu; gazaba uğramışların ve sapmışların yolunu değil!",
+      "text_tr_yazir": "O kendilerine nimet verdiğin mutlu kimselerin yoluna; o gazaba uğramışların ve o sapmışların yoluna değil.",
+      "transliteration": "ṣirâṭa-lleẕîne en`amte `aleyhim gayri-lmagḍûbi `aleyhim vele-ḍḍâllîn.",
+      "words_ar": [
+        "صِرَٰطَ",
+        "ٱلَّذِينَ",
+        "أَنۡعَمۡتَ",
+        "عَلَيۡهِمۡ",
+        "غَيۡرِ",
+        "ٱلۡمَغۡضُوبِ",
+        "عَلَيۡهِمۡ",
+        "وَلَا",
+        "ٱلضَّآلِّينَ"
+      ],
+      "words_translit": [
+        "ṣirâṭa-lleẕîne",
+        "en`amte",
+        "`aleyhim",
+        "gayri-lmagḍûbi",
+        "`aleyhim",
+        "vele-ḍḍâllîn."
+      ],
+      "word_count": 9
+    }
+  ]
+}

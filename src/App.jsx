@@ -48,6 +48,7 @@ export default function App() {
   const [activeTab, setActiveTab] = useState(progress.activeTab || "verses");
   const [theme, setTheme] = useState(loadTheme);
   const [highContrast, setHighContrast] = useState(() => { try { return localStorage.getItem("ustaz-hc") === "1"; } catch { return false; } });
+  const [fontSize, setFontSize] = useState(() => { try { return parseInt(localStorage.getItem("ustaz-fs")) || 16; } catch { return 16; } });
 
   // Grammar / Vezin modals
   const [grammarTerm, setGrammarTerm] = useState(null);
@@ -91,6 +92,13 @@ export default function App() {
     document.documentElement.setAttribute("data-hc", highContrast ? "1" : "0");
     try { localStorage.setItem("ustaz-hc", highContrast ? "1" : "0"); } catch {}
   }, [highContrast]);
+
+  // Font size effect — zoom tüm elementleri ölçekler (sabit px dahil)
+  useEffect(() => {
+    const scale = fontSize / 16; // 16px = 1.0 (normal)
+    document.body.style.zoom = scale;
+    try { localStorage.setItem("ustaz-fs", String(fontSize)); } catch {}
+  }, [fontSize]);
 
   function toggleTheme() { setTheme((t) => t === "dark" ? "light" : "dark"); }
   function toggleContrast() { setHighContrast((v) => !v); }
@@ -224,11 +232,15 @@ export default function App() {
             </div>
           )}
 
-          {/* Desktop only: lesson nav toggle + theme toggle */}
+          {/* Desktop only: lesson nav toggle + theme toggle + settings */}
           <div className="flex items-center gap-1">
             <button onClick={toggleTheme}
               className="rounded-lg p-2 text-ustaz-turkish/30 transition hover:bg-ov/5 hover:text-ustaz-gold" title="Tema değiştir">
               {theme === "dark" ? <Sun size={15} /> : <Moon size={15} />}
+            </button>
+            <button onClick={() => { handleBottomNav("ayarlar"); }}
+              className="hidden rounded-lg p-2 text-ustaz-turkish/30 transition hover:bg-ov/5 hover:text-ustaz-gold sm:block" title="Ayarlar">
+              <SettingsIcon size={15} />
             </button>
             {view === "lesson" && (
               <button onClick={() => setShowNav(!showNav)}
@@ -386,9 +398,10 @@ export default function App() {
         {view === "settings" && (
           <div className="view-enter pt-6">
             <Suspense fallback={<LazyFallback />}>
-              <Settings apiKey={apiKey} onApiKeyChange={handleApiKeyChange} onExport={exportProgress} onImport={importProgress}
+              <Settings onExport={exportProgress} onImport={importProgress}
                 onReset={handleReset} onClose={() => { setView("lesson"); setBottomTab("ders"); }}
-                theme={theme} onToggleTheme={toggleTheme} highContrast={highContrast} onToggleContrast={toggleContrast} />
+                theme={theme} onToggleTheme={toggleTheme} highContrast={highContrast} onToggleContrast={toggleContrast}
+                fontSize={fontSize} onFontSizeChange={setFontSize} />
             </Suspense>
           </div>
         )}

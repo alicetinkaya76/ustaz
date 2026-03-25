@@ -1,0 +1,94 @@
+{
+  "surah": 106,
+  "name_ar": "قريش",
+  "name_translit": "Quraysh",
+  "type": "meccan",
+  "total_ayahs": 4,
+  "total_words": 17,
+  "ayahs": [
+    {
+      "number": 1,
+      "text_ar": "لِإِيلَٰفِ قُرَيۡشٍ",
+      "text_tr_diyanet": "Kureyş kabilesinin yaz ve kış yolculuklarında uzlaşması ve anlaşması sağlanmıştır.",
+      "text_tr_vakfi": "Kureyş'e kolaylaştırıldığı,",
+      "text_tr_yazir": "Kureyş'in ilâfı (güven ve barış andlaşmalarından faydalanmalarını sağlamak) için.",
+      "transliteration": "liîlâfi ḳurayş.",
+      "words_ar": [
+        "لِإِيلَٰفِ",
+        "قُرَيۡشٍ"
+      ],
+      "words_translit": [
+        "liîlâfi",
+        "ḳurayş."
+      ],
+      "word_count": 2
+    },
+    {
+      "number": 2,
+      "text_ar": "إِۦلَٰفِهِمۡ رِحۡلَةَ ٱلشِّتَآءِ وَٱلصَّيۡفِ",
+      "text_tr_diyanet": "Kureyş kabilesinin yaz ve kış yolculuklarında uzlaşması ve anlaşması sağlanmıştır.",
+      "text_tr_vakfi": "Evet, kış ve yaz seyahatleri onlara kolaylaştırıldığı için,",
+      "text_tr_yazir": "Kış ve yaz seferlerinde (faydalandıkları andlaşmaların) kadrini bilmiş olmaları için.",
+      "transliteration": "îlâfihim riḥlete-şşitâi veṣṣayf.",
+      "words_ar": [
+        "إِۦلَٰفِهِمۡ",
+        "رِحۡلَةَ",
+        "ٱلشِّتَآءِ",
+        "وَٱلصَّيۡفِ"
+      ],
+      "words_translit": [
+        "îlâfihim",
+        "riḥlete-şşitâi",
+        "veṣṣayf."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 3,
+      "text_ar": "فَلۡيَعۡبُدُواْ رَبَّ هَٰذَا ٱلۡبَيۡتِ",
+      "text_tr_diyanet": "Öyleyse kendilerini açken doyuran ve korku içindeyken güven veren bu Ev'in (Kabe'nin) Rabbine kulluk etsinler.",
+      "text_tr_vakfi": "Onlar, şu evin Rabbine kulluk etsinler, ki,",
+      "text_tr_yazir": "Bu Beyt (Kâbe)nin Rabbine kulluk etsinler.",
+      "transliteration": "felya`büdû rabbe hâẕe-lbeyt.",
+      "words_ar": [
+        "فَلۡيَعۡبُدُواْ",
+        "رَبَّ",
+        "هَٰذَا",
+        "ٱلۡبَيۡتِ"
+      ],
+      "words_translit": [
+        "felya`büdû",
+        "rabbe",
+        "hâẕe-lbeyt."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 4,
+      "text_ar": "ٱلَّذِيٓ أَطۡعَمَهُم مِّن جُوعٖ وَءَامَنَهُم مِّنۡ خَوۡفِۭ",
+      "text_tr_diyanet": "Öyleyse kendilerini açken doyuran ve korku içindeyken güven veren bu Ev'in (Kabe'nin) Rabbine kulluk etsinler.",
+      "text_tr_vakfi": "Kendilerini açlıktan doyuran ve her çeşit korkudan emin kıldı.",
+      "text_tr_yazir": "O, kendilerini açlıktan kurtararak beslemiştir ve her tehlikeye karşı onlara emniyet vermiştir.",
+      "transliteration": "elleẕî aṭ`amehüm min cû`iv veâmenehüm min ḫavf.",
+      "words_ar": [
+        "ٱلَّذِيٓ",
+        "أَطۡعَمَهُم",
+        "مِّن",
+        "جُوعٖ",
+        "وَءَامَنَهُم",
+        "مِّنۡ",
+        "خَوۡفِۭ"
+      ],
+      "words_translit": [
+        "elleẕî",
+        "aṭ`amehüm",
+        "min",
+        "cû`iv",
+        "veâmenehüm",
+        "min",
+        "ḫavf."
+      ],
+      "word_count": 7
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "surah": 101,
+  "name_ar": "القارعة",
+  "name_translit": "Al-Qari'ah",
+  "type": "meccan",
+  "total_ayahs": 11,
+  "total_words": 36,
+  "ayahs": [
+    {
+      "number": 1,
+      "text_ar": "ٱلۡقَارِعَةُ",
+      "text_tr_diyanet": "Gürültü koparacak olan",
+      "text_tr_vakfi": "Kapı çalan!",
+      "text_tr_yazir": "Kâria! (Çarpacak kıyamet) Nedir o kâria? Kârianın ne olduğunu sen bilir misin?",
+      "transliteration": "elḳâri`ah.",
+      "words_ar": [
+        "ٱلۡقَارِعَةُ"
+      ],
+      "words_translit": [
+        "elḳâri`ah."
+      ],
+      "word_count": 1
+    },
+    {
+      "number": 2,
+      "text_ar": "مَا ٱلۡقَارِعَةُ",
+      "text_tr_diyanet": "Nedir o gürültü koparacak olan?",
+      "text_tr_vakfi": "Nedir o kapı çalan?",
+      "text_tr_yazir": "Kâria! (Çarpacak kıyamet) Nedir o kâria? Kârianın ne olduğunu sen bilir misin?",
+      "transliteration": "me-lḳâri`ah.",
+      "words_ar": [
+        "مَا",
+        "ٱلۡقَارِعَةُ"
+      ],
+      "words_translit": [
+        "me-lḳâri`ah."
+      ],
+      "word_count": 2
+    },
+    {
+      "number": 3,
+      "text_ar": "وَمَآ أَدۡرَىٰكَ مَا ٱلۡقَارِعَةُ",
+      "text_tr_diyanet": "O gürültü koparacak olanın ne olduğunu sen bilir misin?",
+      "text_tr_vakfi": "O kapı çalanın ne olduğunu bilir misin?",
+      "text_tr_yazir": "Kâria! (Çarpacak kıyamet) Nedir o kâria? Kârianın ne olduğunu sen bilir misin?",
+      "transliteration": "vemâ edrâke me-lḳâri`ah.",
+      "words_ar": [
+        "وَمَآ",
+        "أَدۡرَىٰكَ",
+        "مَا",
+        "ٱلۡقَارِعَةُ"
+      ],
+      "words_translit": [
+        "vemâ",
+        "edrâke",
+        "me-lḳâri`ah."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 4,
+      "text_ar": "يَوۡمَ يَكُونُ ٱلنَّاسُ كَٱلۡفَرَاشِ ٱلۡمَبۡثُوثِ",
+      "text_tr_diyanet": "O gün insanlar, ateş etrafında çırpınıp dökülen pervaneye dönecekler.",
+      "text_tr_vakfi": "İnsanların, ateşin etrafını sarmış pervaneler gibi olur,",
+      "text_tr_yazir": "O gün insanlar yayılmış pervaneler gibi olurlar.",
+      "transliteration": "yevme yekûnü-nnâsü kelferâşi-lmebŝûŝ.",
+      "words_ar": [
+        "يَوۡمَ",
+        "يَكُونُ",
+        "ٱلنَّاسُ",
+        "كَٱلۡفَرَاشِ",
+        "ٱلۡمَبۡثُوثِ"
+      ],
+      "words_translit": [
+        "yevme",
+        "yekûnü-nnâsü",
+        "kelferâşi-lmebŝûŝ."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 5,
+      "text_ar": "وَتَكُونُ ٱلۡجِبَالُ كَٱلۡعِهۡنِ ٱلۡمَنفُوشِ",
+      "text_tr_diyanet": "Dağlar, atılmış renkli yüne benzeyecekler.",
+      "text_tr_vakfi": "Dağların da atılmış renkli yüne dönüştüğü gündür (o Karia!)",
+      "text_tr_yazir": "Dağlar atılmış renkli yünler gibi olur.",
+      "transliteration": "vetekûnü-lcibâlü kel`ihni-lmenfûş.",
+      "words_ar": [
+        "وَتَكُونُ",
+        "ٱلۡجِبَالُ",
+        "كَٱلۡعِهۡنِ",
+        "ٱلۡمَنفُوشِ"
+      ],
+      "words_translit": [
+        "vetekûnü-lcibâlü",
+        "kel`ihni-lmenfûş."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 6,
+      "text_ar": "فَأَمَّا مَن ثَقُلَتۡ مَوَٰزِينُهُۥ",
+      "text_tr_diyanet": "Ama tartıları ağır gelen kimse hoş bir hayat içinde olacaktır.",
+      "text_tr_vakfi": "O gün kimin tartılan ameli ağır gelirse.",
+      "text_tr_yazir": "O gün kimin tartıları ağır basarsa o, hoşnut olacağı bir hayat içindedir.",
+      "transliteration": "feemmâ men ŝeḳulet mevâzînüh.",
+      "words_ar": [
+        "فَأَمَّا",
+        "مَن",
+        "ثَقُلَتۡ",
+        "مَوَٰزِينُهُۥ"
+      ],
+      "words_translit": [
+        "feemmâ",
+        "men",
+        "ŝeḳulet",
+        "mevâzînüh."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 7,
+      "text_ar": "فَهُوَ فِي عِيشَةٖ رَّاضِيَةٖ",
+      "text_tr_diyanet": "Ama tartıları ağır gelen kimse hoş bir hayat içinde olacaktır.",
+      "text_tr_vakfi": "İşte o, hoşnut edici bir yaşayış içinde olur.",
+      "text_tr_yazir": "O gün kimin tartıları ağır basarsa o, hoşnut olacağı bir hayat içindedir.",
+      "transliteration": "fehüve fî `îşetir râḍiyeh.",
+      "words_ar": [
+        "فَهُوَ",
+        "فِي",
+        "عِيشَةٖ",
+        "رَّاضِيَةٖ"
+      ],
+      "words_translit": [
+        "fehüve",
+        "fî",
+        "`îşetir",
+        "râḍiyeh."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 8,
+      "text_ar": "وَأَمَّا مَنۡ خَفَّتۡ مَوَٰزِينُهُۥ",
+      "text_tr_diyanet": "Tartıları hafif gelenler ise,",
+      "text_tr_vakfi": "Ameli yeğni olana gelince.",
+      "text_tr_yazir": "Kimin tartıları hafif gelirse, onun anası da (varacağı yer, sığınacağı durağı) hâviye (uçurum)dır.",
+      "transliteration": "veemmâ men ḫaffet mevâzînüh.",
+      "words_ar": [
+        "وَأَمَّا",
+        "مَنۡ",
+        "خَفَّتۡ",
+        "مَوَٰزِينُهُۥ"
+      ],
+      "words_translit": [
+        "veemmâ",
+        "men",
+        "ḫaffet",
+        "mevâzînüh."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 9,
+      "text_ar": "فَأُمُّهُۥ هَاوِيَةٞ",
+      "text_tr_diyanet": "Onların yeri bir çukurdur.",
+      "text_tr_vakfi": "İşte onun anası (yeri, yurdu) Haviye'dir.",
+      "text_tr_yazir": "Kimin tartıları hafif gelirse, onun anası da (varacağı yer, sığınacağı durağı) hâviye (uçurum)dır.",
+      "transliteration": "feümmühû hâviyeh.",
+      "words_ar": [
+        "فَأُمُّهُۥ",
+        "هَاوِيَةٞ"
+      ],
+      "words_translit": [
+        "feümmühû",
+        "hâviyeh."
+      ],
+      "word_count": 2
+    },
+    {
+      "number": 10,
+      "text_ar": "وَمَآ أَدۡرَىٰكَ مَا هِيَهۡ",
+      "text_tr_diyanet": "O çukurun ne olduğunu sen bilir misin?",
+      "text_tr_vakfi": "Nedir o (Haviye) bilir misin?",
+      "text_tr_yazir": "O uçurumun ne olduğunu sen nereden bileceksin?",
+      "transliteration": "vemâ edrâke mâ hiyeh.",
+      "words_ar": [
+        "وَمَآ",
+        "أَدۡرَىٰكَ",
+        "مَا",
+        "هِيَهۡ"
+      ],
+      "words_translit": [
+        "vemâ",
+        "edrâke",
+        "mâ",
+        "hiyeh."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 11,
+      "text_ar": "نَارٌ حَامِيَةُۢ",
+      "text_tr_diyanet": "O, kızgın bir ateştir.",
+      "text_tr_vakfi": "Kızgın ateş!",
+      "text_tr_yazir": "O, kızgın bir ateştir.",
+      "transliteration": "nârun ḥâmiyeh.",
+      "words_ar": [
+        "نَارٌ",
+        "حَامِيَةُۢ"
+      ],
+      "words_translit": [
+        "nârun",
+        "ḥâmiyeh."
+      ],
+      "word_count": 2
+    }
+  ]
+}

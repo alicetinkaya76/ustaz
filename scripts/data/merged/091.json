@@ -1,0 +1,310 @@
+{
+  "surah": 91,
+  "name_ar": "الشمس",
+  "name_translit": "Ash-Shams",
+  "type": "meccan",
+  "total_ayahs": 15,
+  "total_words": 54,
+  "ayahs": [
+    {
+      "number": 1,
+      "text_ar": "وَٱلشَّمۡسِ وَضُحَىٰهَا",
+      "text_tr_diyanet": "Güneşe ve onun ışığına,",
+      "text_tr_vakfi": "Güneşe ve kuşluk vaktindeki aydınlığına",
+      "text_tr_yazir": "Güneş'e ve onun parıltısına,",
+      "transliteration": "veşşemsi veḍuḥâhâ.",
+      "words_ar": [
+        "وَٱلشَّمۡسِ",
+        "وَضُحَىٰهَا"
+      ],
+      "words_translit": [
+        "veşşemsi",
+        "veḍuḥâhâ."
+      ],
+      "word_count": 2
+    },
+    {
+      "number": 2,
+      "text_ar": "وَٱلۡقَمَرِ إِذَا تَلَىٰهَا",
+      "text_tr_diyanet": "Ardından gelmekte olan aya,",
+      "text_tr_vakfi": "Güneşi takip ettiğinde Ay'a,",
+      "text_tr_yazir": "Güneş'in ardından gelen Ay'a,",
+      "transliteration": "velḳameri iẕâ telâhâ.",
+      "words_ar": [
+        "وَٱلۡقَمَرِ",
+        "إِذَا",
+        "تَلَىٰهَا"
+      ],
+      "words_translit": [
+        "velḳameri",
+        "iẕâ",
+        "telâhâ."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 3,
+      "text_ar": "وَٱلنَّهَارِ إِذَا جَلَّىٰهَا",
+      "text_tr_diyanet": "Onu ortaya koyan gündüze,",
+      "text_tr_vakfi": "Onu açığa çıkarttığında gündüze,",
+      "text_tr_yazir": "Güneş'i açıp ortaya çıkaran gündüze,",
+      "transliteration": "vennehâri iẕâ cellâhâ.",
+      "words_ar": [
+        "وَٱلنَّهَارِ",
+        "إِذَا",
+        "جَلَّىٰهَا"
+      ],
+      "words_translit": [
+        "vennehâri",
+        "iẕâ",
+        "cellâhâ."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 4,
+      "text_ar": "وَٱلَّيۡلِ إِذَا يَغۡشَىٰهَا",
+      "text_tr_diyanet": "Onu bürüyen geceye,",
+      "text_tr_vakfi": "Onu örttüğünde geceye,",
+      "text_tr_yazir": "Onu örten geceye,",
+      "transliteration": "velleyli iẕâ yagşâhâ.",
+      "words_ar": [
+        "وَٱلَّيۡلِ",
+        "إِذَا",
+        "يَغۡشَىٰهَا"
+      ],
+      "words_translit": [
+        "velleyli",
+        "iẕâ",
+        "yagşâhâ."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 5,
+      "text_ar": "وَٱلسَّمَآءِ وَمَا بَنَىٰهَا",
+      "text_tr_diyanet": "Göğe ve onu yapana,",
+      "text_tr_vakfi": "Gökyüzüne ve onu bina edene,",
+      "text_tr_yazir": "Göğe ve onu bina edene,",
+      "transliteration": "vessemâi vemâ benâhâ.",
+      "words_ar": [
+        "وَٱلسَّمَآءِ",
+        "وَمَا",
+        "بَنَىٰهَا"
+      ],
+      "words_translit": [
+        "vessemâi",
+        "vemâ",
+        "benâhâ."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 6,
+      "text_ar": "وَٱلۡأَرۡضِ وَمَا طَحَىٰهَا",
+      "text_tr_diyanet": "Yere ve onu yayana,",
+      "text_tr_vakfi": "Yere ve onu yapıp döşeyene,",
+      "text_tr_yazir": "Yere ve onu döşeyene,",
+      "transliteration": "vel'arḍi vemâ ṭaḥâhâ.",
+      "words_ar": [
+        "وَٱلۡأَرۡضِ",
+        "وَمَا",
+        "طَحَىٰهَا"
+      ],
+      "words_translit": [
+        "vel'arḍi",
+        "vemâ",
+        "ṭaḥâhâ."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 7,
+      "text_ar": "وَنَفۡسٖ وَمَا سَوَّىٰهَا",
+      "text_tr_diyanet": "Kişiye ve onu şekillendirene,",
+      "text_tr_vakfi": "Nefse ve ona birtakım kabiliyetler verene,",
+      "text_tr_yazir": "Nefse ve onu biçimlendirene,",
+      "transliteration": "venefsiv vemâ sevvâhâ.",
+      "words_ar": [
+        "وَنَفۡسٖ",
+        "وَمَا",
+        "سَوَّىٰهَا"
+      ],
+      "words_translit": [
+        "venefsiv",
+        "vemâ",
+        "sevvâhâ."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 8,
+      "text_ar": "فَأَلۡهَمَهَا فُجُورَهَا وَتَقۡوَىٰهَا",
+      "text_tr_diyanet": "Sonra da ona iyilik ve kötülük kabiliyeti verene and olsun ki:",
+      "text_tr_vakfi": "Sonra da ona iyilik ve kötülükleri ilham edene yemin ederim ki,",
+      "text_tr_yazir": "Sonra da ona kötülük ve takva kabiliyetini verene yemin olsun ki,",
+      "transliteration": "feelhemehâ fücûrahâ vetaḳvâhâ.",
+      "words_ar": [
+        "فَأَلۡهَمَهَا",
+        "فُجُورَهَا",
+        "وَتَقۡوَىٰهَا"
+      ],
+      "words_translit": [
+        "feelhemehâ",
+        "fücûrahâ",
+        "vetaḳvâhâ."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 9,
+      "text_ar": "قَدۡ أَفۡلَحَ مَن زَكَّىٰهَا",
+      "text_tr_diyanet": "Kendini arıtan saadete ermiştir.",
+      "text_tr_vakfi": "Nefsini kötülüklerden arındıran kurtuluşa ermiştir,",
+      "text_tr_yazir": "Elbette nefsini temizleyip parlatan kurtulmuştur.",
+      "transliteration": "ḳad efleḥa men zekkâhâ.",
+      "words_ar": [
+        "قَدۡ",
+        "أَفۡلَحَ",
+        "مَن",
+        "زَكَّىٰهَا"
+      ],
+      "words_translit": [
+        "ḳad",
+        "efleḥa",
+        "men",
+        "zekkâhâ."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 10,
+      "text_ar": "وَقَدۡ خَابَ مَن دَسَّىٰهَا",
+      "text_tr_diyanet": "Kendini fenalıklara gömen kimse de ziyana uğramıştır.",
+      "text_tr_vakfi": "Onu kötülüklere gömen de ziyan etmiştir.",
+      "text_tr_yazir": "Onu kirletip gömen de ziyan etmiştir.",
+      "transliteration": "veḳad ḫâbe men dessâhâ.",
+      "words_ar": [
+        "وَقَدۡ",
+        "خَابَ",
+        "مَن",
+        "دَسَّىٰهَا"
+      ],
+      "words_translit": [
+        "veḳad",
+        "ḫâbe",
+        "men",
+        "dessâhâ."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 11,
+      "text_ar": "كَذَّبَتۡ ثَمُودُ بِطَغۡوَىٰهَآ",
+      "text_tr_diyanet": "Semud milleti, içlerinden en azgını ileri atılınca, azgınlığı yüzünden peygamberleri yalanladı.",
+      "text_tr_vakfi": "Semud kavmi azgınlığı yüzünden (Allah'ın elçisini) yalanladı.",
+      "text_tr_yazir": "Semud, azgınlığıyla Hakk'ı yalanladı,",
+      "transliteration": "keẕẕebet ŝemûdü biṭagvâhâ.",
+      "words_ar": [
+        "كَذَّبَتۡ",
+        "ثَمُودُ",
+        "بِطَغۡوَىٰهَآ"
+      ],
+      "words_translit": [
+        "keẕẕebet",
+        "ŝemûdü",
+        "biṭagvâhâ."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 12,
+      "text_ar": "إِذِ ٱنۢبَعَثَ أَشۡقَىٰهَا",
+      "text_tr_diyanet": "Semud milleti, içlerinden en azgını ileri atılınca, azgınlığı yüzünden peygamberleri yalanladı.",
+      "text_tr_vakfi": "Onların en bedbahtı (deveyi kesmek için) atıldığında,",
+      "text_tr_yazir": "En azgınları ileri atılınca,",
+      "transliteration": "iẕi-mbe`aŝe eşḳâhâ.",
+      "words_ar": [
+        "إِذِ",
+        "ٱنۢبَعَثَ",
+        "أَشۡقَىٰهَا"
+      ],
+      "words_translit": [
+        "iẕi-mbe`aŝe",
+        "eşḳâhâ."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 13,
+      "text_ar": "فَقَالَ لَهُمۡ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقۡيَٰهَا",
+      "text_tr_diyanet": "Allah'ın peygamberi onlara, Allah'ın devesini göstermiş ve: \"Allah'ın bu devesine ve onun su hakkına dokunmayın\" demişti.",
+      "text_tr_vakfi": "Allah'ın Resulü onlara: \"Allah'ın devesine ve onun su hakkına dokunmayın!\" dedi.",
+      "text_tr_yazir": "Allah'ın Rasulü (Salih peygamber) onlara: \"Allah'ın devesini ve onun su nöbetini gözetin.\" demişti.",
+      "transliteration": "feḳâle lehüm rasûlü-llâhi nâḳate-llâhi vesuḳyâhâ.",
+      "words_ar": [
+        "فَقَالَ",
+        "لَهُمۡ",
+        "رَسُولُ",
+        "ٱللَّهِ",
+        "نَاقَةَ",
+        "ٱللَّهِ",
+        "وَسُقۡيَٰهَا"
+      ],
+      "words_translit": [
+        "feḳâle",
+        "lehüm",
+        "rasûlü-llâhi",
+        "nâḳate-llâhi",
+        "vesuḳyâhâ."
+      ],
+      "word_count": 7
+    },
+    {
+      "number": 14,
+      "text_ar": "فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمۡدَمَ عَلَيۡهِمۡ رَبُّهُم بِذَنۢبِهِمۡ فَسَوَّىٰهَا",
+      "text_tr_diyanet": "Onu yalanladılar ve deveyi boğazladılar. Bunun üzerine Rableri, suçlarından dolayı onların üzerine katmerli azap indirdi; yerle bir etti onları.",
+      "text_tr_vakfi": "Ama onlar, onu yalanladılar ve deveyi kestiler. Bunun üzerine Rableri günahları sebebiyle onlara büyük bir felaket gönderdi de hepsini helak etti.",
+      "text_tr_yazir": "Fakat onlar peygamberi yalanlayıp deveyi kestiler. Rableri de günahlarını başlarına geçiriverdi de orayı dümdüz etti.",
+      "transliteration": "fekeẕẕebûhü fe`aḳarûhâ. fedemdeme `aleyhim rabbühüm biẕembihim fesevvâhâ.",
+      "words_ar": [
+        "فَكَذَّبُوهُ",
+        "فَعَقَرُوهَا",
+        "فَدَمۡدَمَ",
+        "عَلَيۡهِمۡ",
+        "رَبُّهُم",
+        "بِذَنۢبِهِمۡ",
+        "فَسَوَّىٰهَا"
+      ],
+      "words_translit": [
+        "fekeẕẕebûhü",
+        "fe`aḳarûhâ.",
+        "fedemdeme",
+        "`aleyhim",
+        "rabbühüm",
+        "biẕembihim",
+        "fesevvâhâ."
+      ],
+      "word_count": 7
+    },
+    {
+      "number": 15,
+      "text_ar": "وَلَا يَخَافُ عُقۡبَٰهَا",
+      "text_tr_diyanet": "Bu işin sonundan O'nun korkusu yoktur.",
+      "text_tr_vakfi": "(Allah, bu şekilde azap etmenin) akıbetinden korkacak değil ya!",
+      "text_tr_yazir": "Öyle ya, Allah bu işin sonundan korkacak değil ya.",
+      "transliteration": "velâ yeḫâfü `uḳbâhâ.",
+      "words_ar": [
+        "وَلَا",
+        "يَخَافُ",
+        "عُقۡبَٰهَا"
+      ],
+      "words_translit": [
+        "velâ",
+        "yeḫâfü",
+        "`uḳbâhâ."
+      ],
+      "word_count": 3
+    }
+  ]
+}

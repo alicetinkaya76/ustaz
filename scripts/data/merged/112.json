@@ -1,0 +1,90 @@
+{
+  "surah": 112,
+  "name_ar": "الإخلاص",
+  "name_translit": "Al-Ikhlas",
+  "type": "meccan",
+  "total_ayahs": 4,
+  "total_words": 15,
+  "ayahs": [
+    {
+      "number": 1,
+      "text_ar": "قُلۡ هُوَ ٱللَّهُ أَحَدٌ",
+      "text_tr_diyanet": "De ki: O Allah bir tektir.",
+      "text_tr_vakfi": "De ki: O, Allah birdir.",
+      "text_tr_yazir": "De ki; O Allah bir tektir.",
+      "transliteration": "ḳul hüve-llâhü eḥad.",
+      "words_ar": [
+        "قُلۡ",
+        "هُوَ",
+        "ٱللَّهُ",
+        "أَحَدٌ"
+      ],
+      "words_translit": [
+        "ḳul",
+        "hüve-llâhü",
+        "eḥad."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 2,
+      "text_ar": "ٱللَّهُ ٱلصَّمَدُ",
+      "text_tr_diyanet": "Allah her şeyden müstağni ve her şey O'na muhtaçtır.",
+      "text_tr_vakfi": "Allah sameddir.",
+      "text_tr_yazir": "Allah eksiksiz, sameddir (Bütün varlıklar O'na muhtaç, fakat O, hiç bir şeye muhtaç değildir",
+      "transliteration": "allâhu-ṣṣamed.",
+      "words_ar": [
+        "ٱللَّهُ",
+        "ٱلصَّمَدُ"
+      ],
+      "words_translit": [
+        "allâhu-ṣṣamed."
+      ],
+      "word_count": 2
+    },
+    {
+      "number": 3,
+      "text_ar": "لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ",
+      "text_tr_diyanet": "O doğurmamış ve doğmamıştır.",
+      "text_tr_vakfi": "O, doğurmamış ve doğmamıştır.",
+      "text_tr_yazir": "Doğurmadı ve doğurulmadı",
+      "transliteration": "lem yelid velem yûled.",
+      "words_ar": [
+        "لَمۡ",
+        "يَلِدۡ",
+        "وَلَمۡ",
+        "يُولَدۡ"
+      ],
+      "words_translit": [
+        "lem",
+        "yelid",
+        "velem",
+        "yûled."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 4,
+      "text_ar": "وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ",
+      "text_tr_diyanet": "Hiçbir şey O'na denk değildir.",
+      "text_tr_vakfi": "Onun hiçbir dengi yoktur.",
+      "text_tr_yazir": "O 'na bir denk de olmadı.",
+      "transliteration": "velem yekül lehû küfüven eḥad.",
+      "words_ar": [
+        "وَلَمۡ",
+        "يَكُن",
+        "لَّهُۥ",
+        "كُفُوًا",
+        "أَحَدُۢ"
+      ],
+      "words_translit": [
+        "velem",
+        "yekül",
+        "lehû",
+        "küfüven",
+        "eḥad."
+      ],
+      "word_count": 5
+    }
+  ]
+}

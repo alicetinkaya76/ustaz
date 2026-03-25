@@ -1,0 +1,58 @@
+# Ustaz Quran Pipeline — Konfigürasyon
+# ═══════════════════════════════════════
+
+# Veri Kaynakları
+sources:
+  tanzil_txt: "pipeline/data/quran-simple-clean.txt"     # Tanzil.net Uthmani metin
+  qac_morphology: "pipeline/data/quranic-corpus-morphology-0.4.txt"  # QAC v0.4
+  meal_tr: "pipeline/data/meal-dib.json"                 # DİB Meali JSON
+  
+# rootDB
+rootdb_path: "src/data/rootDB.js"
+
+# Sure dosyaları
+surah_output_dir: "src/data/surahs"
+
+# Claude API (zenginleştirme için)
+claude:
+  model: "claude-sonnet-4-20250514"
+  max_tokens: 4096
+  # API key: environment variable ANTHROPIC_API_KEY
+
+# İşleme Ayarları
+processing:
+  batch_size: 10          # Ayet bazlı batch (Claude API)
+  min_quiz_per_surah: 5   # Minimum otomatik quiz
+  irab_detail: "full"     # "full" | "selective" (yalnızca anlamlı kelimeler)
+  balagha_mode: "notable" # "all" | "notable" (yalnızca dikkat çekici)
+
+# QAC POS Eşleştirme
+pos_map:
+  N: "ism"       # Noun
+  PN: "ism"      # Proper Noun
+  ADJ: "ism"     # Adjective
+  V: "fil"       # Verb
+  IMPV: "fil"    # Imperative
+  P: "harf"      # Preposition
+  CONJ: "harf"   # Conjunction
+  NEG: "harf"    # Negative
+  DET: "harf"    # Determiner
+  REL: "ism"     # Relative pronoun
+  DEM: "ism"     # Demonstrative
+  PRON: "ism"    # Pronoun
+  INL: "harf"    # Initial letter (Hurûf-ı mukattaa)
+  INTG: "harf"   # Interrogative
+  T: "harf"      # Time particle
+  LOC: "ism"     # Location adverb
+  RES: "harf"    # Restriction
+  EXL: "harf"    # Exceptive
+  AVR: "harf"    # Aversion
+  COND: "harf"   # Conditional
+  AMD: "harf"    # Amendment
+  ANS: "harf"    # Answer
+  REM: "harf"    # Resumption
+  SUP: "harf"    # Supplemental
+  SUR: "harf"    # Surprise
+  INC: "harf"    # Inceptive
+  EXP: "harf"    # Expletive
+  VOC: "harf"    # Vocative

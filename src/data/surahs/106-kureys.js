@@ -1,0 +1,81 @@
+// ═══════════════════════════════════════════════════════════
+// KUREYŞ SURESİ (106) — Pipeline Üretimi
+// 2026-03-25: 1 bölüm, 4 ayet tam kapsam
+// ═══════════════════════════════════════════════════════════
+
+import {
+  generateRootQuiz,
+  generateBabQuiz,
+  generateWaznQuiz,
+  generateFillBlank,
+  generateBalaghaQuiz,
+  generateIrabQuiz,
+  generateVerbTypeQuiz,
+  generateCrossSurahRootQuiz,
+  generateRootFamilyQuiz,
+} from "../../utils/quizGenerator.js";
+
+const kureysLessons = [
+  // ═══════════════════════════════════════════════════════════
+  // BÖLÜM 1 — KUREYŞ 106:1-4
+  // ═══════════════════════════════════════════════════════════
+  {
+    id: "S106-B01-kureys",
+    title: "Kureyş (1-4)",
+    titleAr: "سُورَة قريش 1-4",
+    stage: 2,
+    level: 8,
+    surah: 106,
+    description: "Kureyş kabilesinin ticaret yolculuklarındaki güvenlik ve refahının Allah'ın lütfu olduğu, bu nedenle Kâbe'nin Rabbine şükretmeleri gerektiği anlatılır.",
+    verses: [
+      {
+        surah: 106, ayah: 1,
+        arabic: "لِإِيلَٰفِ قُرَيۡشٍ",
+        translation: "Kureyş kabilesinin alışkanlığı için",
+        words: [
+          { arabic: "لِإِيلَٰفِ", transliteration: "li-îlâfi", root: "ا-ل-ف", pattern: "إِفْعَال", pos: "ism", meaning_tr: "alışkanlık, ittifak için", irab: "{Lâm-ı ta'lîl} ile başlayan {câr-mecrûr}. Masdar-ı mîmî olup, cerr hâlindedir.", irab_short: "câr-mecrûr, mecrûr", turkish_bridge: "İlf, ülfe, ittifak bu kökten", balagha_note: null },
+          { arabic: "قُرَيۡشٍ", transliteration: "kureyş", root: null, pos: "ism", meaning_tr: "Kureyş kabilesi", irab: "{Muzâf ileyh} olup, cerr hâlinde ve tenvinlidir.", irab_short: "muzâf ileyh, mecrûr", turkish_bridge: null, balagha_note: null },
+        ],
+      },
+      {
+        surah: 106, ayah: 2,
+        arabic: "إِۦلَٰفِهِمۡ رِحۡلَةَ ٱلشِّتَآءِ وَٱلصَّيۡفِ",
+        translation: "Onların kış ve yaz yolculuklarına alışkın olmalarından dolayı",
+        words: [
+          { arabic: "إِۦلَٰفِهِمۡ", transliteration: "îlâfihim", root: "ا-ل-ف", pattern: "إِفْعَال", pos: "ism", meaning_tr: "onların alışkanlığı", irab: "Önceki ayetteki {îlâf}'ın {beyanı} konumunda masdar olup, sonrasına zamîr-i muttasıl {hüm} bitişmiştir.", irab_short: "beyan, mecrûr", turkish_bridge: "İlf, ülfe, ittifak bu kökten", balagha_note: "Hazf sanatı: önceki ayetin tekrarı yerine doğrudan açıklamaya geçilmiş" },
+          { arabic: "رِحۡلَةَ", transliteration: "rihlate", root: "ر-ح-ل", pattern: "فِعْلَة", pos: "ism", meaning_tr: "yolculuk", irab: "{Mef'ûl bih} konumunda olup, nasb hâlindedir ve muzâftır.", irab_short: "mef'ûl bih, mensûb", turkish_bridge: "Rıhle bu kökten", balagha_note: null },
+          { arabic: "ٱلشِّتَآءِ", transliteration: "eş-şitâi", root: "ش-ت-و", pos: "ism", meaning_tr: "kış", irab: "{Muzâf ileyh} olup, cerr hâlindedir.", irab_short: "muzâf ileyh, mecrûr", turkish_bridge: null, balagha_note: null },
+          { arabic: "وَٱلصَّيۡفِ", transliteration: "ve's-sayf", root: "ص-ي-ف", pos: "ism", meaning_tr: "ve yaz", irab: "{Vav-ı atf} ile başlayıp, {ma'tûf} olarak cerr hâlindedir.", irab_short: "ma'tûf, mecrûr", turkish_bridge: "Sayf bu kökten", balagha_note: "Tıbâk sanatı: şitâ (kış) ve sayf (yaz) zıt kavramları" },
+        ],
+      },
+      {
+        surah: 106, ayah: 3,
+        arabic: "فَلۡيَعۡبُدُواْ رَبَّ هَٰذَا ٱلۡبَيۡتِ",
+        translation: "O halde bu evin Rabbine kulluk etsinler",
+        words: [
+          { arabic: "فَلۡيَعۡبُدُواْ", transliteration: "felya'büdû", root: "ع-ب-د", pattern: "يَفْعُل", pos: "fil", meaning_tr: "öyleyse kulluk etsinler", irab: "{Fa-yı fasîha} ile başlayan {fi'l-i muzâri'} olup, {lâm-ı emr} ile birlikte emir anlamı taşır ve mecmûm hâldedir.", irab_short: "muzâri', mecmûm", turkish_bridge: "Abd, ibadet, mâbed bu kökten", balagha_note: "Fa-yı fasîha: önceki durumdan sonuç çıkarma" },
+          { arabic: "رَبَّ", transliteration: "rabbe", root: "ر-ب-ب", pattern: "فَعَّ", pos: "ism", meaning_tr: "Rabb, sahip", irab: "{Mef'ûl bih} konumunda olup, nasb hâlinde ve muzâftır.", irab_short: "mef'ûl bih, mensûb", turkish_bridge: "Rab bu kökten", balagha_note: null },
+          { arabic: "هَٰذَا", transliteration: "hâzâ", root: null, pos: "ism", meaning_tr: "bu, şu", irab: "{İsm-i işâre} olup, cerr mahallindedir çünkü sıfat konumundadır.", irab_short: "sıfat, mecrûr mahallen", turkish_bridge: null, balagha_note: null },
+          { arabic: "ٱلۡبَيۡتِ", transliteration: "el-beyt", root: "ب-ي-ت", pos: "ism", meaning_tr: "ev, Kâbe", irab: "{Muzâf ileyh} olup, cerr hâlindedir.", irab_short: "muzâf ileyh, mecrûr", turkish_bridge: "Beyt, Beytullah bu kökten", balagha_note: "Kinaye: 'el-beyt' ile Kâbe kastedilmiş" },
+        ],
+      },
+      {
+        surah: 106, ayah: 4,
+        arabic: "ٱلَّذِيٓ أَطۡعَمَهُم مِّن جُوعٖ وَءَامَنَهُم مِّنۡ خَوۡفِۭ",
+        translation: "Ki onları açlıktan kurtarıp doyurmuş ve korkudan emin kılmıştır",
+        words: [
+          { arabic: "ٱلَّذِيٓ", transliteration: "ellezî", root: null, pos: "ism", meaning_tr: "ki, o", irab: "{İsm-i mevsûl} olup, önceki {Rabb}'in {sıfatı} veya {bedeli} konumunda cerr hâlindedir.", irab_short: "sıfat, mecrûr", turkish_bridge: null, balagha_note: null },
+          { arabic: "أَطۡعَمَهُم", transliteration: "at'amehüm", root: "ط-ع-م", pattern: "أَفْعَلَ", pos: "fil", meaning_tr: "onları doyurdu", irab: "{Fi'l-i mâzî} IV. bâb olup, sonuna {zamîr-i muttasıl hüm} bitişmiştir ve {mef'ûl bih} vazifesi görür.", irab_short: "mâzî, IV. bâb", turkish_bridge: "Taam, mat'am bu kökten", balagha_note: null },
+          { arabic: "مِّن", transliteration: "min", root: null, pos: "harf", meaning_tr: "den, dan", irab: "{Harf-i cerr} olup, sebep anlamı taşır.", irab_short: "harf-i cerr", turkish_bridge: null, balagha_note: null },
+          { arabic: "جُوعٖ", transliteration: "cû'", root: "ج-و-ع", pattern: "فُعْل", pos: "ism", meaning_tr: "açlık", irab: "{İsm-i mecrûr} olup, {min} edatının mecrûrü ve tenvinlidir.", irab_short: "mecrûr, tenvinli", turkish_bridge: null, balagha_note: null },
+          { arabic: "وَءَامَنَهُم", transliteration: "ve âmenehüm", root: "ا-م-ن", pattern: "أَفْعَلَ", pos: "fil", meaning_tr: "ve onları güven içinde kıldı", irab: "{Vav-ı atf} ile başlayan {fi'l-i mâzî} IV. bâb olup, {ma'tûf} vazifesi görür ve sonuna {zamîr-i muttasıl hüm} bitişmiştir.", irab_short: "mâzî, IV. bâb, ma'tûf", turkish_bridge: "Emn, emîn, eman bu kökten", balagha_note: null },
+          { arabic: "مِّنۡ", transliteration: "min", root: null, pos: "harf", meaning_tr: "den, dan", irab: "{Harf-i cerr} olup, sebep anlamı taşır.", irab_short: "harf-i cerr", turkish_bridge: null, balagha_note: null },
+          { arabic: "خَوۡفِۭ", transliteration: "havf", root: "خ-و-ف", pattern: "فَعْل", pos: "ism", meaning_tr: "korku", irab: "{İsm-i mecrûr} olup, {min} edatının mecrûrudur.", irab_short: "mecrûr", turkish_bridge: "Havf bu kökten", balagha_note: "Tıbâk sanatı: cû' (açlık) ile it'âm (doyurma), havf (korku) ile emn (güven) zıt kavramları" },
+        ],
+      },
+    ],
+    exercises: [],
+  },
+];
+
+export default kureysLessons;

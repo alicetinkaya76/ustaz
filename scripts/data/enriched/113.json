@@ -1,0 +1,321 @@
+{
+  "surah": 113,
+  "blocks": [
+    {
+      "ayah_start": 1,
+      "ayah_end": 5,
+      "description": "Allah'a sığınma duası olan bu sure, yaratılmışların şerrinden, gecenin karanlığından, büyücülerin ve hasedcilerin şerrinden korunmayı içerir.",
+      "verses": [
+        {
+          "surah": 113,
+          "ayah": 1,
+          "arabic": "قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ",
+          "translation": "De ki: Tan yerini ağartan Rabbe sığınırım.",
+          "words": [
+            {
+              "arabic": "قُلۡ",
+              "transliteration": "qul",
+              "root": "ق-و-ل",
+              "pattern": "فُلْ",
+              "pos": "fil",
+              "meaning_tr": "de, söyle",
+              "irab": "{Fiil-i emr}, I. bâb, müfred mûzekker muhâtaba sigasında. Fâili müstetir zamirdir.",
+              "irab_short": "emr, I. bâb",
+              "turkish_bridge": "Kavl, kâl bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "أَعُوذُ",
+              "transliteration": "a'ûzu",
+              "root": "ع-و-ذ",
+              "pattern": "أَفْعُلُ",
+              "pos": "fil",
+              "meaning_tr": "sığınırım",
+              "irab": "{Fiil-i muzâri'}, I. bâb, müfred mütekellim sigasında. Fâili müstetir zamirdir.",
+              "irab_short": "muzâri', I. bâb",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "بِرَبِّ",
+              "transliteration": "birabbi",
+              "root": "ر-ب-ب",
+              "pattern": "فَعّ",
+              "pos": "ism",
+              "meaning_tr": "Rabbiyle",
+              "irab": "{Câr-mecrûr} terkîbi. Bâ harfi cerri ve reb kelimesi mecrûr bi'l-bâ'dır.",
+              "irab_short": "mecrûr bi'l-bâ",
+              "turkish_bridge": "Rab bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "ٱلۡفَلَقِ",
+              "transliteration": "el-feleqi",
+              "root": "ف-ل-ق",
+              "pattern": "فَعَل",
+              "pos": "ism",
+              "meaning_tr": "şafağın, tan yerinin",
+              "irab": "{Muzâf ileyh}, mecrûr bi'l-izâfe alameti kesrayla. Reb kelimesine muzâftır.",
+              "irab_short": "muzâf ileyh, mecrûr",
+              "turkish_bridge": null,
+              "balagha_note": null
+            }
+          ]
+        },
+        {
+          "surah": 113,
+          "ayah": 2,
+          "arabic": "مِن شَرِّ مَا خَلَقَ",
+          "translation": "Yaratıkların şerrinden,",
+          "words": [
+            {
+              "arabic": "مِن",
+              "transliteration": "min",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "-den, -dan",
+              "irab": "{Harf-i cer}, şerr kelimesini cer eder. A'ûzu fiiline müteallik câr-mecrûr terkîbidir.",
+              "irab_short": "harf-i cer",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "شَرِّ",
+              "transliteration": "şerri",
+              "root": "ش-ر-ر",
+              "pattern": "فَعْل",
+              "pos": "ism",
+              "meaning_tr": "şerri",
+              "irab": "{Mecrûr bi-min} ve aynı zamanda {muzâf}. Mâ mevsûl terkîbine muzâftır.",
+              "irab_short": "mecrûr, muzâf",
+              "turkish_bridge": "Şer bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "مَا",
+              "transliteration": "mâ",
+              "root": null,
+              "pos": "ism",
+              "meaning_tr": "ne, her ne",
+              "irab": "{İsm-i mevsûl}, muzâf ileyh konumunda mecrûr. Sıla cümlesi haleka'dır.",
+              "irab_short": "mevsûl, mecrûr",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "خَلَقَ",
+              "transliteration": "haleqa",
+              "root": "خ-ل-ق",
+              "pattern": "فَعَلَ",
+              "pos": "fil",
+              "meaning_tr": "yarattı",
+              "irab": "{Fiil-i mâzî}, I. bâb. Mâ mevsûlün {sıla cümlesi}dir. Fâili müstetir zamirdir.",
+              "irab_short": "mâzî, I. bâb",
+              "turkish_bridge": "Halk, halîka bu kökten",
+              "balagha_note": null
+            }
+          ]
+        },
+        {
+          "surah": 113,
+          "ayah": 3,
+          "arabic": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+          "translation": "Bastırdığı zaman karanlığın şerrinden,",
+          "words": [
+            {
+              "arabic": "وَمِن",
+              "transliteration": "ve min",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "ve -den",
+              "irab": "{Harf-i atf} vâv ve {harf-i cer} min. Önceki câr-mecrûr terkîbine atfedilir.",
+              "irab_short": "atf + cer",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "شَرِّ",
+              "transliteration": "şerri",
+              "root": "ش-ر-ر",
+              "pattern": "فَعْل",
+              "pos": "ism",
+              "meaning_tr": "şerri",
+              "irab": "{Mecrûr bi-min} ve {muzâf}. Gâsık kelimesine muzâftır.",
+              "irab_short": "mecrûr, muzâf",
+              "turkish_bridge": "Şer bu kökten",
+              "balagha_note": "Tekrar sanatı ile vurgu yapılmış"
+            },
+            {
+              "arabic": "غَاسِقٍ",
+              "transliteration": "gâsiqin",
+              "root": "غ-س-ق",
+              "pattern": "فَاعِل",
+              "pos": "ism",
+              "meaning_tr": "karanlık olan, gece",
+              "irab": "{Muzâf ileyh}, mecrûr bi'l-izâfe alameti kesrayla.",
+              "irab_short": "muzâf ileyh, mecrûr",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "إِذَا",
+              "transliteration": "izâ",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "-dığı zaman",
+              "irab": "{Zarf-ı zaman}, şart anlamında. Cevabı gâsiq kelimesinin sıfatı olarak takdir edilir.",
+              "irab_short": "zarf-ı zaman",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "وَقَبَ",
+              "transliteration": "vaqaba",
+              "root": "و-ق-ب",
+              "pattern": "فَعَلَ",
+              "pos": "fil",
+              "meaning_tr": "bastırdı, girdi",
+              "irab": "{Fiil-i mâzî}, I. bâb. İzâ'nın {şart cümlesi}dir. Fâili müstetir zamirdir.",
+              "irab_short": "mâzî, I. bâb",
+              "turkish_bridge": null,
+              "balagha_note": null
+            }
+          ]
+        },
+        {
+          "surah": 113,
+          "ayah": 4,
+          "arabic": "وَمِن شَرِّ ٱلنَّفَّـٰثَٰتِ فِي ٱلۡعُقَدِ",
+          "translation": "Düğümlere nefes eden büyücülerin şerrinden,",
+          "words": [
+            {
+              "arabic": "وَمِن",
+              "transliteration": "ve min",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "ve -den",
+              "irab": "{Harf-i atf} vâv ve {harf-i cer} min. Önceki câr-mecrûr terkîbine atfedilir.",
+              "irab_short": "atf + cer",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "شَرِّ",
+              "transliteration": "şerri",
+              "root": "ش-ر-ر",
+              "pattern": "فَعْل",
+              "pos": "ism",
+              "meaning_tr": "şerri",
+              "irab": "{Mecrûr bi-min} ve {muzâf}. Neffâsât kelimesine muzâftır.",
+              "irab_short": "mecrûr, muzâf",
+              "turkish_bridge": "Şer bu kökten",
+              "balagha_note": "Tekrar sanatı ile vurgu devam ediyor"
+            },
+            {
+              "arabic": "ٱلنَّفَّـٰثَٰتِ",
+              "transliteration": "en-neffâsâti",
+              "root": "ن-ف-ث",
+              "pattern": "فَعَّالَات",
+              "pos": "ism",
+              "meaning_tr": "üfleyenler, nefes edenler",
+              "irab": "{Muzâf ileyh}, mecrûr bi'l-izâfe alameti kesrayla. Müennas cemî sigasındadır.",
+              "irab_short": "muzâf ileyh, mecrûr",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "فِي",
+              "transliteration": "fî",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "-de, -da",
+              "irab": "{Harf-i cer}, ukad kelimesini cer eder. Neffâsât kelimesinin sıfatı konumundadır.",
+              "irab_short": "harf-i cer",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "ٱلۡعُقَدِ",
+              "transliteration": "el-'uqadi",
+              "root": "ع-ق-د",
+              "pattern": "فُعَل",
+              "pos": "ism",
+              "meaning_tr": "düğümler",
+              "irab": "{Mecrûr bi-fî} alameti kesrayla. Ukde kelimesinin cemî müzekker sâlim sigasındadır.",
+              "irab_short": "mecrûr bi-fî",
+              "turkish_bridge": "Akd, akîde bu kökten",
+              "balagha_note": null
+            }
+          ]
+        },
+        {
+          "surah": 113,
+          "ayah": 5,
+          "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+          "translation": "Hased ettiği zaman hasedcilerin şerrinden.",
+          "words": [
+            {
+              "arabic": "وَمِن",
+              "transliteration": "ve min",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "ve -den",
+              "irab": "{Harf-i atf} vâv ve {harf-i cer} min. Önceki câr-mecrûr terkîbine atfedilir.",
+              "irab_short": "atf + cer",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "شَرِّ",
+              "transliteration": "şerri",
+              "root": "ش-ر-ر",
+              "pattern": "فَعْل",
+              "pos": "ism",
+              "meaning_tr": "şerri",
+              "irab": "{Mecrûr bi-min} ve {muzâf}. Hâsid kelimesine muzâftır.",
+              "irab_short": "mecrûr, muzâf",
+              "turkish_bridge": "Şer bu kökten",
+              "balagha_note": "Tekrar sanatı ile güçlü vurgu tamamlanıyor"
+            },
+            {
+              "arabic": "حَاسِدٍ",
+              "transliteration": "hâsidin",
+              "root": "ح-س-د",
+              "pattern": "فَاعِل",
+              "pos": "ism",
+              "meaning_tr": "hasedci, kıskanan",
+              "irab": "{Muzâf ileyh}, mecrûr bi'l-izâfe alameti kesrayla. İsm-i fâil sigasındadır.",
+              "irab_short": "muzâf ileyh, mecrûr",
+              "turkish_bridge": "Hased bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "إِذَا",
+              "transliteration": "izâ",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "-dığı zaman",
+              "irab": "{Zarf-ı zaman}, şart anlamında. Cevabı hâsid kelimesinin sıfatı olarak takdir edilir.",
+              "irab_short": "zarf-ı zaman",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "حَسَدَ",
+              "transliteration": "haseda",
+              "root": "ح-س-د",
+              "pattern": "فَعَلَ",
+              "pos": "fil",
+              "meaning_tr": "hased etti, kıskandı",
+              "irab": "{Fiil-i mâzî}, I. bâb. İzâ'nın {şart cümlesi}dir. Fâili müstetir zamirdir.",
+              "irab_short": "mâzî, I. bâb",
+              "turkish_bridge": "Hased bu kökten",
+              "balagha_note": "Cinâs-ı tâm: حَاسِد - حَسَدَ aynı kökten güzel uyum"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "name_ar": "الفلق"
+}

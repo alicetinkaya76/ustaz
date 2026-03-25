@@ -1,0 +1,919 @@
+{
+  "total_surahs": 114,
+  "total_ayahs": 6236,
+  "total_words": 77429,
+  "surahs": [
+    {
+      "surah": 1,
+      "name_ar": "الفاتحة",
+      "name_translit": "Al-Fatihah",
+      "type": "meccan",
+      "total_ayahs": 7,
+      "total_words": 29
+    },
+    {
+      "surah": 2,
+      "name_ar": "البقرة",
+      "name_translit": "Al-Baqarah",
+      "type": "medinan",
+      "total_ayahs": 286,
+      "total_words": 6118
+    },
+    {
+      "surah": 3,
+      "name_ar": "آل عمران",
+      "name_translit": "Ali 'Imran",
+      "type": "medinan",
+      "total_ayahs": 200,
+      "total_words": 3481
+    },
+    {
+      "surah": 4,
+      "name_ar": "النساء",
+      "name_translit": "An-Nisa",
+      "type": "medinan",
+      "total_ayahs": 176,
+      "total_words": 3747
+    },
+    {
+      "surah": 5,
+      "name_ar": "المائدة",
+      "name_translit": "Al-Ma'idah",
+      "type": "medinan",
+      "total_ayahs": 120,
+      "total_words": 2804
+    },
+    {
+      "surah": 6,
+      "name_ar": "الأنعام",
+      "name_translit": "Al-An'am",
+      "type": "meccan",
+      "total_ayahs": 165,
+      "total_words": 3050
+    },
+    {
+      "surah": 7,
+      "name_ar": "الأعراف",
+      "name_translit": "Al-A'raf",
+      "type": "meccan",
+      "total_ayahs": 206,
+      "total_words": 3320
+    },
+    {
+      "surah": 8,
+      "name_ar": "الأنفال",
+      "name_translit": "Al-Anfal",
+      "type": "medinan",
+      "total_ayahs": 75,
+      "total_words": 1234
+    },
+    {
+      "surah": 9,
+      "name_ar": "التوبة",
+      "name_translit": "At-Tawbah",
+      "type": "medinan",
+      "total_ayahs": 129,
+      "total_words": 2498
+    },
+    {
+      "surah": 10,
+      "name_ar": "يونس",
+      "name_translit": "Yunus",
+      "type": "meccan",
+      "total_ayahs": 109,
+      "total_words": 1833
+    },
+    {
+      "surah": 11,
+      "name_ar": "هود",
+      "name_translit": "Hud",
+      "type": "meccan",
+      "total_ayahs": 123,
+      "total_words": 1917
+    },
+    {
+      "surah": 12,
+      "name_ar": "يوسف",
+      "name_translit": "Yusuf",
+      "type": "meccan",
+      "total_ayahs": 111,
+      "total_words": 1777
+    },
+    {
+      "surah": 13,
+      "name_ar": "الرعد",
+      "name_translit": "Ar-Ra'd",
+      "type": "medinan",
+      "total_ayahs": 43,
+      "total_words": 854
+    },
+    {
+      "surah": 14,
+      "name_ar": "ابراهيم",
+      "name_translit": "Ibrahim",
+      "type": "meccan",
+      "total_ayahs": 52,
+      "total_words": 830
+    },
+    {
+      "surah": 15,
+      "name_ar": "الحجر",
+      "name_translit": "Al-Hijr",
+      "type": "meccan",
+      "total_ayahs": 99,
+      "total_words": 654
+    },
+    {
+      "surah": 16,
+      "name_ar": "النحل",
+      "name_translit": "An-Nahl",
+      "type": "meccan",
+      "total_ayahs": 128,
+      "total_words": 1844
+    },
+    {
+      "surah": 17,
+      "name_ar": "الإسراء",
+      "name_translit": "Al-Isra",
+      "type": "meccan",
+      "total_ayahs": 111,
+      "total_words": 1556
+    },
+    {
+      "surah": 18,
+      "name_ar": "الكهف",
+      "name_translit": "Al-Kahf",
+      "type": "meccan",
+      "total_ayahs": 110,
+      "total_words": 1579
+    },
+    {
+      "surah": 19,
+      "name_ar": "مريم",
+      "name_translit": "Maryam",
+      "type": "meccan",
+      "total_ayahs": 98,
+      "total_words": 961
+    },
+    {
+      "surah": 20,
+      "name_ar": "طه",
+      "name_translit": "Taha",
+      "type": "meccan",
+      "total_ayahs": 135,
+      "total_words": 1335
+    },
+    {
+      "surah": 21,
+      "name_ar": "الأنبياء",
+      "name_translit": "Al-Anbya",
+      "type": "meccan",
+      "total_ayahs": 112,
+      "total_words": 1169
+    },
+    {
+      "surah": 22,
+      "name_ar": "الحج",
+      "name_translit": "Al-Hajj",
+      "type": "medinan",
+      "total_ayahs": 78,
+      "total_words": 1274
+    },
+    {
+      "surah": 23,
+      "name_ar": "المؤمنون",
+      "name_translit": "Al-Mu'minun",
+      "type": "meccan",
+      "total_ayahs": 118,
+      "total_words": 1050
+    },
+    {
+      "surah": 24,
+      "name_ar": "النور",
+      "name_translit": "An-Nur",
+      "type": "medinan",
+      "total_ayahs": 64,
+      "total_words": 1316
+    },
+    {
+      "surah": 25,
+      "name_ar": "الفرقان",
+      "name_translit": "Al-Furqan",
+      "type": "meccan",
+      "total_ayahs": 77,
+      "total_words": 893
+    },
+    {
+      "surah": 26,
+      "name_ar": "الشعراء",
+      "name_translit": "Ash-Shu'ara",
+      "type": "meccan",
+      "total_ayahs": 227,
+      "total_words": 1318
+    },
+    {
+      "surah": 27,
+      "name_ar": "النمل",
+      "name_translit": "An-Naml",
+      "type": "meccan",
+      "total_ayahs": 93,
+      "total_words": 1150
+    },
+    {
+      "surah": 28,
+      "name_ar": "القصص",
+      "name_translit": "Al-Qasas",
+      "type": "meccan",
+      "total_ayahs": 88,
+      "total_words": 1430
+    },
+    {
+      "surah": 29,
+      "name_ar": "العنكبوت",
+      "name_translit": "Al-'Ankabut",
+      "type": "meccan",
+      "total_ayahs": 69,
+      "total_words": 976
+    },
+    {
+      "surah": 30,
+      "name_ar": "الروم",
+      "name_translit": "Ar-Rum",
+      "type": "meccan",
+      "total_ayahs": 60,
+      "total_words": 817
+    },
+    {
+      "surah": 31,
+      "name_ar": "لقمان",
+      "name_translit": "Luqman",
+      "type": "meccan",
+      "total_ayahs": 34,
+      "total_words": 546
+    },
+    {
+      "surah": 32,
+      "name_ar": "السجدة",
+      "name_translit": "As-Sajdah",
+      "type": "meccan",
+      "total_ayahs": 30,
+      "total_words": 372
+    },
+    {
+      "surah": 33,
+      "name_ar": "الأحزاب",
+      "name_translit": "Al-Ahzab",
+      "type": "medinan",
+      "total_ayahs": 73,
+      "total_words": 1287
+    },
+    {
+      "surah": 34,
+      "name_ar": "سبإ",
+      "name_translit": "Saba",
+      "type": "meccan",
+      "total_ayahs": 54,
+      "total_words": 883
+    },
+    {
+      "surah": 35,
+      "name_ar": "فاطر",
+      "name_translit": "Fatir",
+      "type": "meccan",
+      "total_ayahs": 45,
+      "total_words": 775
+    },
+    {
+      "surah": 36,
+      "name_ar": "يس",
+      "name_translit": "Ya-Sin",
+      "type": "meccan",
+      "total_ayahs": 83,
+      "total_words": 724
+    },
+    {
+      "surah": 37,
+      "name_ar": "الصافات",
+      "name_translit": "As-Saffat",
+      "type": "meccan",
+      "total_ayahs": 182,
+      "total_words": 860
+    },
+    {
+      "surah": 38,
+      "name_ar": "ص",
+      "name_translit": "Sad",
+      "type": "meccan",
+      "total_ayahs": 88,
+      "total_words": 733
+    },
+    {
+      "surah": 39,
+      "name_ar": "الزمر",
+      "name_translit": "Az-Zumar",
+      "type": "meccan",
+      "total_ayahs": 75,
+      "total_words": 1172
+    },
+    {
+      "surah": 40,
+      "name_ar": "غافر",
+      "name_translit": "Ghafir",
+      "type": "meccan",
+      "total_ayahs": 85,
+      "total_words": 1219
+    },
+    {
+      "surah": 41,
+      "name_ar": "فصلت",
+      "name_translit": "Fussilat",
+      "type": "meccan",
+      "total_ayahs": 54,
+      "total_words": 793
+    },
+    {
+      "surah": 42,
+      "name_ar": "الشورى",
+      "name_translit": "Ash-Shuraa",
+      "type": "meccan",
+      "total_ayahs": 53,
+      "total_words": 860
+    },
+    {
+      "surah": 43,
+      "name_ar": "الزخرف",
+      "name_translit": "Az-Zukhruf",
+      "type": "meccan",
+      "total_ayahs": 89,
+      "total_words": 830
+    },
+    {
+      "surah": 44,
+      "name_ar": "الدخان",
+      "name_translit": "Ad-Dukhan",
+      "type": "meccan",
+      "total_ayahs": 59,
+      "total_words": 346
+    },
+    {
+      "surah": 45,
+      "name_ar": "الجاثية",
+      "name_translit": "Al-Jathiyah",
+      "type": "meccan",
+      "total_ayahs": 37,
+      "total_words": 488
+    },
+    {
+      "surah": 46,
+      "name_ar": "الأحقاف",
+      "name_translit": "Al-Ahqaf",
+      "type": "meccan",
+      "total_ayahs": 35,
+      "total_words": 643
+    },
+    {
+      "surah": 47,
+      "name_ar": "محمد",
+      "name_translit": "Muhammad",
+      "type": "medinan",
+      "total_ayahs": 38,
+      "total_words": 539
+    },
+    {
+      "surah": 48,
+      "name_ar": "الفتح",
+      "name_translit": "Al-Fath",
+      "type": "medinan",
+      "total_ayahs": 29,
+      "total_words": 560
+    },
+    {
+      "surah": 49,
+      "name_ar": "الحجرات",
+      "name_translit": "Al-Hujurat",
+      "type": "medinan",
+      "total_ayahs": 18,
+      "total_words": 347
+    },
+    {
+      "surah": 50,
+      "name_ar": "ق",
+      "name_translit": "Qaf",
+      "type": "meccan",
+      "total_ayahs": 45,
+      "total_words": 373
+    },
+    {
+      "surah": 51,
+      "name_ar": "الذاريات",
+      "name_translit": "Adh-Dhariyat",
+      "type": "meccan",
+      "total_ayahs": 60,
+      "total_words": 360
+    },
+    {
+      "surah": 52,
+      "name_ar": "الطور",
+      "name_translit": "At-Tur",
+      "type": "meccan",
+      "total_ayahs": 49,
+      "total_words": 312
+    },
+    {
+      "surah": 53,
+      "name_ar": "النجم",
+      "name_translit": "An-Najm",
+      "type": "meccan",
+      "total_ayahs": 62,
+      "total_words": 360
+    },
+    {
+      "surah": 54,
+      "name_ar": "القمر",
+      "name_translit": "Al-Qamar",
+      "type": "meccan",
+      "total_ayahs": 55,
+      "total_words": 342
+    },
+    {
+      "surah": 55,
+      "name_ar": "الرحمن",
+      "name_translit": "Ar-Rahman",
+      "type": "medinan",
+      "total_ayahs": 78,
+      "total_words": 351
+    },
+    {
+      "surah": 56,
+      "name_ar": "الواقعة",
+      "name_translit": "Al-Waqi'ah",
+      "type": "meccan",
+      "total_ayahs": 96,
+      "total_words": 379
+    },
+    {
+      "surah": 57,
+      "name_ar": "الحديد",
+      "name_translit": "Al-Hadid",
+      "type": "medinan",
+      "total_ayahs": 29,
+      "total_words": 574
+    },
+    {
+      "surah": 58,
+      "name_ar": "المجادلة",
+      "name_translit": "Al-Mujadila",
+      "type": "medinan",
+      "total_ayahs": 22,
+      "total_words": 472
+    },
+    {
+      "surah": 59,
+      "name_ar": "الحشر",
+      "name_translit": "Al-Hashr",
+      "type": "medinan",
+      "total_ayahs": 24,
+      "total_words": 445
+    },
+    {
+      "surah": 60,
+      "name_ar": "الممتحنة",
+      "name_translit": "Al-Mumtahanah",
+      "type": "medinan",
+      "total_ayahs": 13,
+      "total_words": 348
+    },
+    {
+      "surah": 61,
+      "name_ar": "الصف",
+      "name_translit": "As-Saf",
+      "type": "medinan",
+      "total_ayahs": 14,
+      "total_words": 221
+    },
+    {
+      "surah": 62,
+      "name_ar": "الجمعة",
+      "name_translit": "Al-Jumu'ah",
+      "type": "medinan",
+      "total_ayahs": 11,
+      "total_words": 175
+    },
+    {
+      "surah": 63,
+      "name_ar": "المنافقون",
+      "name_translit": "Al-Munafiqun",
+      "type": "medinan",
+      "total_ayahs": 11,
+      "total_words": 180
+    },
+    {
+      "surah": 64,
+      "name_ar": "التغابن",
+      "name_translit": "At-Taghabun",
+      "type": "medinan",
+      "total_ayahs": 18,
+      "total_words": 241
+    },
+    {
+      "surah": 65,
+      "name_ar": "الطلاق",
+      "name_translit": "At-Talaq",
+      "type": "medinan",
+      "total_ayahs": 12,
+      "total_words": 287
+    },
+    {
+      "surah": 66,
+      "name_ar": "التحريم",
+      "name_translit": "At-Tahrim",
+      "type": "medinan",
+      "total_ayahs": 12,
+      "total_words": 249
+    },
+    {
+      "surah": 67,
+      "name_ar": "الملك",
+      "name_translit": "Al-Mulk",
+      "type": "meccan",
+      "total_ayahs": 30,
+      "total_words": 333
+    },
+    {
+      "surah": 68,
+      "name_ar": "القلم",
+      "name_translit": "Al-Qalam",
+      "type": "meccan",
+      "total_ayahs": 52,
+      "total_words": 300
+    },
+    {
+      "surah": 69,
+      "name_ar": "الحاقة",
+      "name_translit": "Al-Haqqah",
+      "type": "meccan",
+      "total_ayahs": 52,
+      "total_words": 258
+    },
+    {
+      "surah": 70,
+      "name_ar": "المعارج",
+      "name_translit": "Al-Ma'arij",
+      "type": "meccan",
+      "total_ayahs": 44,
+      "total_words": 217
+    },
+    {
+      "surah": 71,
+      "name_ar": "نوح",
+      "name_translit": "Nuh",
+      "type": "meccan",
+      "total_ayahs": 28,
+      "total_words": 226
+    },
+    {
+      "surah": 72,
+      "name_ar": "الجن",
+      "name_translit": "Al-Jinn",
+      "type": "meccan",
+      "total_ayahs": 28,
+      "total_words": 285
+    },
+    {
+      "surah": 73,
+      "name_ar": "المزمل",
+      "name_translit": "Al-Muzzammil",
+      "type": "meccan",
+      "total_ayahs": 20,
+      "total_words": 199
+    },
+    {
+      "surah": 74,
+      "name_ar": "المدثر",
+      "name_translit": "Al-Muddaththir",
+      "type": "meccan",
+      "total_ayahs": 56,
+      "total_words": 255
+    },
+    {
+      "surah": 75,
+      "name_ar": "القيامة",
+      "name_translit": "Al-Qiyamah",
+      "type": "meccan",
+      "total_ayahs": 40,
+      "total_words": 164
+    },
+    {
+      "surah": 76,
+      "name_ar": "الانسان",
+      "name_translit": "Al-Insan",
+      "type": "medinan",
+      "total_ayahs": 31,
+      "total_words": 243
+    },
+    {
+      "surah": 77,
+      "name_ar": "المرسلات",
+      "name_translit": "Al-Mursalat",
+      "type": "meccan",
+      "total_ayahs": 50,
+      "total_words": 181
+    },
+    {
+      "surah": 78,
+      "name_ar": "النبإ",
+      "name_translit": "An-Naba",
+      "type": "meccan",
+      "total_ayahs": 40,
+      "total_words": 173
+    },
+    {
+      "surah": 79,
+      "name_ar": "النازعات",
+      "name_translit": "An-Nazi'at",
+      "type": "meccan",
+      "total_ayahs": 46,
+      "total_words": 179
+    },
+    {
+      "surah": 80,
+      "name_ar": "عبس",
+      "name_translit": "'Abasa",
+      "type": "meccan",
+      "total_ayahs": 42,
+      "total_words": 133
+    },
+    {
+      "surah": 81,
+      "name_ar": "التكوير",
+      "name_translit": "At-Takwir",
+      "type": "meccan",
+      "total_ayahs": 29,
+      "total_words": 104
+    },
+    {
+      "surah": 82,
+      "name_ar": "الإنفطار",
+      "name_translit": "Al-Infitar",
+      "type": "meccan",
+      "total_ayahs": 19,
+      "total_words": 80
+    },
+    {
+      "surah": 83,
+      "name_ar": "المطففين",
+      "name_translit": "Al-Mutaffifin",
+      "type": "meccan",
+      "total_ayahs": 36,
+      "total_words": 169
+    },
+    {
+      "surah": 84,
+      "name_ar": "الإنشقاق",
+      "name_translit": "Al-Inshiqaq",
+      "type": "meccan",
+      "total_ayahs": 25,
+      "total_words": 107
+    },
+    {
+      "surah": 85,
+      "name_ar": "البروج",
+      "name_translit": "Al-Buruj",
+      "type": "meccan",
+      "total_ayahs": 22,
+      "total_words": 109
+    },
+    {
+      "surah": 86,
+      "name_ar": "الطارق",
+      "name_translit": "At-Tariq",
+      "type": "meccan",
+      "total_ayahs": 17,
+      "total_words": 61
+    },
+    {
+      "surah": 87,
+      "name_ar": "الأعلى",
+      "name_translit": "Al-A'la",
+      "type": "meccan",
+      "total_ayahs": 19,
+      "total_words": 72
+    },
+    {
+      "surah": 88,
+      "name_ar": "الغاشية",
+      "name_translit": "Al-Ghashiyah",
+      "type": "meccan",
+      "total_ayahs": 26,
+      "total_words": 92
+    },
+    {
+      "surah": 89,
+      "name_ar": "الفجر",
+      "name_translit": "Al-Fajr",
+      "type": "meccan",
+      "total_ayahs": 30,
+      "total_words": 137
+    },
+    {
+      "surah": 90,
+      "name_ar": "البلد",
+      "name_translit": "Al-Balad",
+      "type": "meccan",
+      "total_ayahs": 20,
+      "total_words": 82
+    },
+    {
+      "surah": 91,
+      "name_ar": "الشمس",
+      "name_translit": "Ash-Shams",
+      "type": "meccan",
+      "total_ayahs": 15,
+      "total_words": 54
+    },
+    {
+      "surah": 92,
+      "name_ar": "الليل",
+      "name_translit": "Al-Layl",
+      "type": "meccan",
+      "total_ayahs": 21,
+      "total_words": 71
+    },
+    {
+      "surah": 93,
+      "name_ar": "الضحى",
+      "name_translit": "Ad-Duhaa",
+      "type": "meccan",
+      "total_ayahs": 11,
+      "total_words": 40
+    },
+    {
+      "surah": 94,
+      "name_ar": "الشرح",
+      "name_translit": "Ash-Sharh",
+      "type": "meccan",
+      "total_ayahs": 8,
+      "total_words": 27
+    },
+    {
+      "surah": 95,
+      "name_ar": "التين",
+      "name_translit": "At-Tin",
+      "type": "meccan",
+      "total_ayahs": 8,
+      "total_words": 34
+    },
+    {
+      "surah": 96,
+      "name_ar": "العلق",
+      "name_translit": "Al-'Alaq",
+      "type": "meccan",
+      "total_ayahs": 19,
+      "total_words": 72
+    },
+    {
+      "surah": 97,
+      "name_ar": "القدر",
+      "name_translit": "Al-Qadr",
+      "type": "meccan",
+      "total_ayahs": 5,
+      "total_words": 30
+    },
+    {
+      "surah": 98,
+      "name_ar": "البينة",
+      "name_translit": "Al-Bayyinah",
+      "type": "medinan",
+      "total_ayahs": 8,
+      "total_words": 94
+    },
+    {
+      "surah": 99,
+      "name_ar": "الزلزلة",
+      "name_translit": "Az-Zalzalah",
+      "type": "medinan",
+      "total_ayahs": 8,
+      "total_words": 36
+    },
+    {
+      "surah": 100,
+      "name_ar": "العاديات",
+      "name_translit": "Al-'Adiyat",
+      "type": "meccan",
+      "total_ayahs": 11,
+      "total_words": 40
+    },
+    {
+      "surah": 101,
+      "name_ar": "القارعة",
+      "name_translit": "Al-Qari'ah",
+      "type": "meccan",
+      "total_ayahs": 11,
+      "total_words": 36
+    },
+    {
+      "surah": 102,
+      "name_ar": "التكاثر",
+      "name_translit": "At-Takathur",
+      "type": "meccan",
+      "total_ayahs": 8,
+      "total_words": 28
+    },
+    {
+      "surah": 103,
+      "name_ar": "العصر",
+      "name_translit": "Al-'Asr",
+      "type": "meccan",
+      "total_ayahs": 3,
+      "total_words": 14
+    },
+    {
+      "surah": 104,
+      "name_ar": "الهمزة",
+      "name_translit": "Al-Humazah",
+      "type": "meccan",
+      "total_ayahs": 9,
+      "total_words": 33
+    },
+    {
+      "surah": 105,
+      "name_ar": "الفيل",
+      "name_translit": "Al-Fil",
+      "type": "meccan",
+      "total_ayahs": 5,
+      "total_words": 23
+    },
+    {
+      "surah": 106,
+      "name_ar": "قريش",
+      "name_translit": "Quraysh",
+      "type": "meccan",
+      "total_ayahs": 4,
+      "total_words": 17
+    },
+    {
+      "surah": 107,
+      "name_ar": "الماعون",
+      "name_translit": "Al-Ma'un",
+      "type": "meccan",
+      "total_ayahs": 7,
+      "total_words": 25
+    },
+    {
+      "surah": 108,
+      "name_ar": "الكوثر",
+      "name_translit": "Al-Kawthar",
+      "type": "meccan",
+      "total_ayahs": 3,
+      "total_words": 10
+    },
+    {
+      "surah": 109,
+      "name_ar": "الكافرون",
+      "name_translit": "Al-Kafirun",
+      "type": "meccan",
+      "total_ayahs": 6,
+      "total_words": 26
+    },
+    {
+      "surah": 110,
+      "name_ar": "النصر",
+      "name_translit": "An-Nasr",
+      "type": "medinan",
+      "total_ayahs": 3,
+      "total_words": 19
+    },
+    {
+      "surah": 111,
+      "name_ar": "المسد",
+      "name_translit": "Al-Masad",
+      "type": "meccan",
+      "total_ayahs": 5,
+      "total_words": 23
+    },
+    {
+      "surah": 112,
+      "name_ar": "الإخلاص",
+      "name_translit": "Al-Ikhlas",
+      "type": "meccan",
+      "total_ayahs": 4,
+      "total_words": 15
+    },
+    {
+      "surah": 113,
+      "name_ar": "الفلق",
+      "name_translit": "Al-Falaq",
+      "type": "meccan",
+      "total_ayahs": 5,
+      "total_words": 23
+    },
+    {
+      "surah": 114,
+      "name_ar": "الناس",
+      "name_translit": "An-Nas",
+      "type": "meccan",
+      "total_ayahs": 6,
+      "total_words": 20
+    }
+  ]
+}

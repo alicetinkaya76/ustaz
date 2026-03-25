@@ -1,0 +1,154 @@
+{
+  "surah": 108,
+  "blocks": [
+    {
+      "ayah_start": 1,
+      "ayah_end": 3,
+      "description": "Allah'ın Hz. Peygamber'e verdiği Kevser nimeti ve karşılığında namaz-kurban emri, düşmanların ise ebedî hüsranda olduğu müjdesi.",
+      "verses": [
+        {
+          "surah": 108,
+          "ayah": 1,
+          "arabic": "إِنَّآ أَعۡطَيۡنَٰكَ ٱلۡكَوۡثَرَ",
+          "translation": "Doğrusu sana pek çok nimet vermişizdir.",
+          "words": [
+            {
+              "arabic": "إِنَّآ",
+              "transliteration": "innâ",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "şüphesiz biz, muhakkak biz",
+              "irab": "{Hurûf-i müşebbehe bi'l-fi'l}'den olup cümleye te'kîd anlamı katar, ismini nasb hâlinde alır ve haberi ref' hâlinde bırakır",
+              "irab_short": "hurûf-i müşebbehe",
+              "turkish_bridge": null,
+              "balagha_note": "Te'kîd edatı ile mübalağa ve ısrar ifadesi"
+            },
+            {
+              "arabic": "أَعۡطَيۡنَٰكَ",
+              "transliteration": "a'taynâke",
+              "root": "ع-ط-ي",
+              "pattern": "أَفْعَلْنَا",
+              "pos": "fil",
+              "meaning_tr": "sana verdik",
+              "irab": "{Fiil-i mâzî} IV. bâb, {fâil}i müstetir 'nahnu' zamiri, {mef'ûl bih}i 'ke' zamiri ve asıl mef'ûlü 'el-kevser'dir",
+              "irab_short": "mâzî, IV. bâb",
+              "turkish_bridge": "Atiye, ihta bu kökten",
+              "balagha_note": "Çokluk zamiri ile azamet ifadesi"
+            },
+            {
+              "arabic": "ٱلۡكَوۡثَرَ",
+              "transliteration": "el-kevser",
+              "root": "ك-ث-ر",
+              "pattern": "فَوْعَل",
+              "pos": "ism",
+              "meaning_tr": "çok hayır, cennet ırmağı",
+              "irab": "{Mef'ûl bih} olarak mensûb, 'a'taynâ' fiilinin ikinci mef'ûlüdür",
+              "irab_short": "mef'ûl bih, mensûb",
+              "turkish_bridge": "Kesret, çok, çokluk bu kökten",
+              "balagha_note": "Mübalağa sigası ile sonsuz bereket ifadesi"
+            }
+          ]
+        },
+        {
+          "surah": 108,
+          "ayah": 2,
+          "arabic": "فَصَلِّ لِرَبِّكَ وَٱنۡحَرۡ",
+          "translation": "Öyleyse Rabbin için namaz kıl, kurban kes.",
+          "words": [
+            {
+              "arabic": "فَصَلِّ",
+              "transliteration": "fe-salli",
+              "root": "ص-ل-ي",
+              "pattern": "فَعِّلْ",
+              "pos": "fil",
+              "meaning_tr": "öyleyse namaz kıl",
+              "irab": "Fâ {atf harfi}, {fiil-i emr} II. bâb, {fâil}i müstetir 'ente' zamiridir",
+              "irab_short": "emr, II. bâb",
+              "turkish_bridge": "Salât, musallî, namaz bu kökten",
+              "balagha_note": "Nimetin karşılığında yapılacak ibadet emri"
+            },
+            {
+              "arabic": "لِرَبِّكَ",
+              "transliteration": "li-rabbike",
+              "root": "ر-ب-ب",
+              "pattern": "فَعْل",
+              "pos": "ism",
+              "meaning_tr": "Rabbin için",
+              "irab": "Lâm {harf-i cer}, {mecrûr} olan 'rabb' kelimesi ile {câr-mecrûr} terkibini oluşturur, namazın yöneldiği mabudiyeti belirtir",
+              "irab_short": "câr-mecrûr",
+              "turkish_bridge": "Rab, rabbi bu kökten",
+              "balagha_note": "İhlas ve tevhid vurgusu"
+            },
+            {
+              "arabic": "وَٱنۡحَرۡ",
+              "transliteration": "venhar",
+              "root": "ن-ح-ر",
+              "pattern": "اِفْعَلْ",
+              "pos": "fil",
+              "meaning_tr": "ve kurban kes",
+              "irab": "Vâv {atf harfi}, {fiil-i emr} I. bâb, {fâil}i müstetir 'ente' zamiri, 'salli' fiiline atfedilmiştir",
+              "irab_short": "emr, I. bâb",
+              "turkish_bridge": null,
+              "balagha_note": "Namaz ve kurban birlikteliği ile tam teslimiyetin ifadesi"
+            }
+          ]
+        },
+        {
+          "surah": 108,
+          "ayah": 3,
+          "arabic": "إِنَّ شَانِئَكَ هُوَ ٱلۡأَبۡتَرُ",
+          "translation": "Doğrusu adı sanı ortadan kalkacak olan, sana kin tutan kimsedir.",
+          "words": [
+            {
+              "arabic": "إِنَّ",
+              "transliteration": "inne",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "şüphesiz, muhakkak",
+              "irab": "{Hurûf-i müşebbehe bi'l-fi'l}'den olup te'kîd ifade eder, ismini nasb hâlinde alır",
+              "irab_short": "hurûf-i müşebbehe",
+              "turkish_bridge": null,
+              "balagha_note": "Kesin hüküm bildirme te'kîdi"
+            },
+            {
+              "arabic": "شَانِئَكَ",
+              "transliteration": "şânike",
+              "root": "ش-ن-أ",
+              "pattern": "فَاعِل",
+              "pos": "ism",
+              "meaning_tr": "sana kin tutan, sana buğzeden",
+              "irab": "{İsm-i ism-i inne} olarak mensûb, 'ke' zamiri muzâf ileyhtir",
+              "irab_short": "ism-i inne, mensûb",
+              "turkish_bridge": null,
+              "balagha_note": "Düşmanlığın genel ifadesi"
+            },
+            {
+              "arabic": "هُوَ",
+              "transliteration": "hüve",
+              "root": null,
+              "pos": "ism",
+              "meaning_tr": "o, odur",
+              "irab": "{Damîr-i fasl} olarak kullanılmış, 'şânike' ile 'el-ebter' arasında fasl yapmaktadır",
+              "irab_short": "damîr-i fasl",
+              "turkish_bridge": null,
+              "balagha_note": "Hasrı ifade eden fasl zamiri"
+            },
+            {
+              "arabic": "ٱلۡأَبۡتَرُ",
+              "transliteration": "el-ebter",
+              "root": "ب-ت-ر",
+              "pattern": "أَفْعَل",
+              "pos": "ism",
+              "meaning_tr": "sonu kesik olan, zürriyetsiz",
+              "irab": "{Haber-i inne} olarak merfû, 'şânike'nin vasıf ve akıbetini bildirmektedir",
+              "irab_short": "haber-i inne, merfû",
+              "turkish_bridge": null,
+              "balagha_note": "Tıbâk sanatı - Kevser'in bolluğuna karşı düşmanın kesikliği"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "name_ar": "الكوثر"
+}

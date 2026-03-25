@@ -1,0 +1,354 @@
+// ═══════════════════════════════════════════════════════════
+// SURE81 SURESİ (81) — Pipeline Üretimi
+// 2026-03-25: 2 bölüm, 29 ayet tam kapsam
+// ═══════════════════════════════════════════════════════════
+
+import {
+  generateRootQuiz,
+  generateBabQuiz,
+  generateWaznQuiz,
+  generateFillBlank,
+  generateBalaghaQuiz,
+  generateIrabQuiz,
+  generateVerbTypeQuiz,
+  generateCrossSurahRootQuiz,
+  generateRootFamilyQuiz,
+} from "../../utils/quizGenerator.js";
+
+const tekvirLessons = [
+  // ═══════════════════════════════════════════════════════════
+  // BÖLÜM 1 — SURE81 81:1-17
+  // ═══════════════════════════════════════════════════════════
+  {
+    id: "S81-B01-tekvir",
+    title: "Sure81 (1-17)",
+    titleAr: "سُورَة التكوير 1-17",
+    stage: 2,
+    level: 8,
+    surah: 81,
+    description: "Bu bölüm kıyamet günündeki büyük kozmik değişiklikleri betimlemektedir. Güneşin sönmesi, yıldızların düşmesi, dağların yerinden oynatılması gibi dehşetli olaylar anlatılmaktadır.",
+    verses: [
+      {
+        surah: 81, ayah: 1,
+        arabic: "إِذَا ٱلشَّمۡسُ كُوِّرَتۡ",
+        translation: "Güneş dürülüp ışığı kalmadığı zaman;",
+        words: [
+          { arabic: "إِذَا", transliteration: "izâ", root: null, pos: "harf", meaning_tr: "ne zaman, -dığı zaman", irab: "{Zarf} olarak kullanılan {şart edatı}, gelecekte gerçekleşecek bir zamanı ifade eder", irab_short: "zarf, şart edatı", turkish_bridge: null, balagha_note: "Gelecekteki muhakkak olayların anlatımında kullanılarak kesinlik ifade eder" },
+          { arabic: "ٱلشَّمۡسُ", transliteration: "eş-şemsu", root: "ش-م-س", pattern: "فَعْل", pos: "ism", meaning_tr: "güneş", irab: "{Nâib-i fâil} konumunda, {merfû} haldedir", irab_short: "nâib-i fâil, merfû", turkish_bridge: "Şems kelimesi Türkçeye geçmiştir", balagha_note: null },
+          { arabic: "كُوِّرَتۡ", transliteration: "kuvvirat", root: "ك-و-ر", pattern: "فُعِّلَت", pos: "fil", meaning_tr: "dürülmek, sarılmak, sönmek", irab: "{Fiil-i mâzî} meçhul sigası, II. bâb, müennes, gâib", irab_short: "mâzî meçhul, II. bâb", turkish_bridge: null, balagha_note: "İstiâre sanatı ile güneşin ışığının sarılıp toplanması anlatılmıştır" },
+        ],
+      },
+      {
+        surah: 81, ayah: 2,
+        arabic: "وَإِذَا ٱلنُّجُومُ ٱنكَدَرَتۡ",
+        translation: "Yıldızlar düşüp, söndüğü zaman;",
+        words: [
+          { arabic: "وَإِذَا", transliteration: "ve izâ", root: null, pos: "harf", meaning_tr: "ve ne zaman", irab: "{Atıf harfi} و ile {şart edatı} إذا'nın birleşimi", irab_short: "atıf + şart edatı", turkish_bridge: null, balagha_note: "Sıralı olayların peş peşe gelmesini gösterir" },
+          { arabic: "ٱلنُّجُومُ", transliteration: "en-nucûmu", root: "ن-ج-م", pattern: "فُعُول", pos: "ism", meaning_tr: "yıldızlar", irab: "{Nâib-i fâil} konumunda, {merfû} haldedir", irab_short: "nâib-i fâil, merfû", turkish_bridge: "Nücûm kelimesi astroloji terimlerinde kullanılır", balagha_note: null },
+          { arabic: "ٱنكَدَرَتۡ", transliteration: "inkederat", root: "ك-د-ر", pattern: "انفعلت", pos: "fil", meaning_tr: "bulanmak, dağılmak, düşmek", irab: "{Fiil-i mâzî}, VII. bâb, müennes, gâib", irab_short: "mâzî, VII. bâb", turkish_bridge: "Keder kelimesi bu kökten gelir", balagha_note: "Yıldızların parlaklığını kaybetmesi için mecazi ifade" },
+        ],
+      },
+      {
+        surah: 81, ayah: 3,
+        arabic: "وَإِذَا ٱلۡجِبَالُ سُيِّرَتۡ",
+        translation: "Dağlar yürütüldüğünde,",
+        words: [
+          { arabic: "وَإِذَا", transliteration: "ve izâ", root: null, pos: "harf", meaning_tr: "ve ne zaman", irab: "{Atıf harfi} و ile {şart edatı} إذا'nın birleşimi", irab_short: "atıf + şart edatı", turkish_bridge: null, balagha_note: null },
+          { arabic: "ٱلۡجِبَالُ", transliteration: "el-cibâlu", root: "ج-ب-ل", pattern: "فِعَال", pos: "ism", meaning_tr: "dağlar", irab: "{Nâib-i fâil} konumunda, {merfû} haldedir", irab_short: "nâib-i fâil, merfû", turkish_bridge: "Cebel kelimesi Türkçeye geçmiştir", balagha_note: null },
+          { arabic: "سُيِّرَتۡ", transliteration: "süyyirat", root: "س-ي-ر", pattern: "فُعِّلَت", pos: "fil", meaning_tr: "yürütülmek, hareket ettirilmek", irab: "{Fiil-i mâzî} meçhul sigası, II. bâb, müennes, gâib", irab_short: "mâzî meçhul, II. bâb", turkish_bridge: "Seyir, seyr-ü sülûk bu kökten", balagha_note: "Sabit olan dağların hareket ettirilmesi mübalağa sanatıdır" },
+        ],
+      },
+      {
+        surah: 81, ayah: 4,
+        arabic: "وَإِذَا ٱلۡعِشَارُ عُطِّلَتۡ",
+        translation: "Doğurması yaklaşmış develer başıboş bırakıldığı zaman;",
+        words: [
+          { arabic: "وَإِذَا", transliteration: "ve izâ", root: null, pos: "harf", meaning_tr: "ve ne zaman", irab: "{Atıf harfi} و ile {şart edatı} إذا'nın birleşimi", irab_short: "atıf + şart edatı", turkish_bridge: null, balagha_note: null },
+          { arabic: "ٱلۡعِشَارُ", transliteration: "el-işâru", root: "ع-ش-ر", pattern: "فِعَال", pos: "ism", meaning_tr: "on aylık gebe develer", irab: "{Nâib-i fâil} konumunda, {merfû} haldedir", irab_short: "nâib-i fâil, merfû", turkish_bridge: "Aşar, öşür bu kökten", balagha_note: "Arapların en değerli varlığının terk edilmesi dehşeti gösterir" },
+          { arabic: "عُطِّلَتۡ", transliteration: "uttilat", root: "ع-ط-ل", pattern: "فُعِّلَت", pos: "fil", meaning_tr: "terk edilmek, başıboş bırakılmak", irab: "{Fiil-i mâzî} meçhul sigası, II. bâb, müennes, gâib", irab_short: "mâzî meçhul, II. bâb", turkish_bridge: "Atıl kelimesi bu kökten", balagha_note: null },
+        ],
+      },
+      {
+        surah: 81, ayah: 5,
+        arabic: "وَإِذَا ٱلۡوُحُوشُ حُشِرَتۡ",
+        translation: "Yabani hayvanlar bir araya toplatıldığı zaman;",
+        words: [
+          { arabic: "وَإِذَا", transliteration: "ve izâ", root: null, pos: "harf", meaning_tr: "ve ne zaman", irab: "{Atıf harfi} و ile {şart edatı} إذا'nın birleşimi", irab_short: "atıf + şart edatı", turkish_bridge: null, balagha_note: null },
+          { arabic: "ٱلۡوُحُوشُ", transliteration: "el-vuhûşu", root: "و-ح-ش", pattern: "فُعُول", pos: "ism", meaning_tr: "yabani hayvanlar", irab: "{Nâib-i fâil} konumunda, {merfû} haldedir", irab_short: "nâib-i fâil, merfû", turkish_bridge: "Vahşi kelimesi bu kökten", balagha_note: null },
+          { arabic: "حُشِرَتۡ", transliteration: "huşirat", root: "ح-ش-ر", pattern: "فُعِلَت", pos: "fil", meaning_tr: "toplanmak, bir araya getirilmek", irab: "{Fiil-i mâzî} meçhul sigası, I. bâb, müennes, gâib", irab_short: "mâzî meçhul, I. bâb", turkish_bridge: "Haşir, mahşer bu kökten", balagha_note: null },
+        ],
+      },
+      {
+        surah: 81, ayah: 6,
+        arabic: "وَإِذَا ٱلۡبِحَارُ سُجِّرَتۡ",
+        translation: "Denizler kaynaştırıldığı zaman;",
+        words: [
+          { arabic: "وَإِذَا", transliteration: "ve izâ", root: null, pos: "harf", meaning_tr: "ve ne zaman", irab: "{Atıf harfi} و ile {şart edatı} إذا'nın birleşimi", irab_short: "atıf + şart edatı", turkish_bridge: null, balagha_note: null },
+          { arabic: "ٱلۡبِحَارُ", transliteration: "el-bihâru", root: "ب-ح-ر", pattern: "فِعَال", pos: "ism", meaning_tr: "denizler", irab: "{Nâib-i fâil} konumunda, {merfû} haldedir", irab_short: "nâib-i fâil, merfû", turkish_bridge: "Bahir, bahr bu kökten", balagha_note: null },
+          { arabic: "سُجِّرَتۡ", transliteration: "succirat", root: "س-ج-ر", pattern: "فُعِّلَت", pos: "fil", meaning_tr: "ateşlenmek, kaynatılmak", irab: "{Fiil-i mâzî} meçhul sigası, II. bâb, müennes, gâib", irab_short: "mâzî meçhul, II. bâb", turkish_bridge: null, balagha_note: "Suyun ateşle birleşmesi tıbâk sanatının bir örneğidir" },
+        ],
+      },
+      {
+        surah: 81, ayah: 7,
+        arabic: "وَإِذَا ٱلنُّفُوسُ زُوِّجَتۡ",
+        translation: "Canlar bedenlerle birleştirildiği zaman;",
+        words: [
+          { arabic: "وَإِذَا", transliteration: "ve izâ", root: null, pos: "harf", meaning_tr: "ve ne zaman", irab: "{Atıf harfi} و ile {şart edatı} إذا'nın birleşimi", irab_short: "atıf + şart edatı", turkish_bridge: null, balagha_note: null },
+          { arabic: "ٱلنُّفُوسُ", transliteration: "en-nufûsu", root: "ن-ف-س", pattern: "فُعُول", pos: "ism", meaning_tr: "nefisler, canlar", irab: "{Nâib-i fâil} konumunda, {merfû} haldedir", irab_short: "nâib-i fâil, merfû", turkish_bridge: "Nefis, nefs bu kökten", balagha_note: null },
+          { arabic: "زُوِّجَتۡ", transliteration: "zuvvicat", root: "ز-و-ج", pattern: "فُعِّلَت", pos: "fil", meaning_tr: "eşleştirilmek, çiftleştirilmek", irab: "{Fiil-i mâzî} meçhul sigası, II. bâb, müennes, gâib", irab_short: "mâzî meçhul, II. bâb", turkish_bridge: "Zevç, zevce bu kökten", balagha_note: "Benzerlerin bir araya getirilmesi anlamında kinaye" },
+        ],
+      },
+      {
+        surah: 81, ayah: 8,
+        arabic: "وَإِذَا ٱلۡمَوۡءُۥدَةُ سُئِلَتۡ",
+        translation: "Diri diri toprağa gömülen kıza sorulduğunda,",
+        words: [
+          { arabic: "وَإِذَا", transliteration: "ve izâ", root: null, pos: "harf", meaning_tr: "ve ne zaman", irab: "{Atıf harfi} و ile {şart edatı} إذا'nın birleşimi", irab_short: "atıf + şart edatı", turkish_bridge: null, balagha_note: null },
+          { arabic: "ٱلۡمَوۡءُۥدَةُ", transliteration: "el-mev'ûdetu", root: "و-أ-د", pattern: "مَفْعُولَة", pos: "ism", meaning_tr: "diri diri gömülen kız çocuğu", irab: "{Nâib-i fâil} konumunda, {merfû} haldedir", irab_short: "nâib-i fâil, merfû", turkish_bridge: null, balagha_note: "Masum olan kızın konuşturulması tahassür uyandırır" },
+          { arabic: "سُئِلَتۡ", transliteration: "suilet", root: "س-أ-ل", pattern: "فُعِلَت", pos: "fil", meaning_tr: "sorulmak", irab: "{Fiil-i mâzî} meçhul sigası, I. bâb, müennes, gâib", irab_short: "mâzî meçhul, I. bâb", turkish_bridge: "Sual, soru bu kökten", balagha_note: "Mağdurun konuşturulması zâlimi mahkûm etmek içindir" },
+        ],
+      },
+      {
+        surah: 81, ayah: 9,
+        arabic: "بِأَيِّ ذَنۢبٖ قُتِلَتۡ",
+        translation: "Hangi günahtan dolayı öldürüldü?",
+        words: [
+          { arabic: "بِأَيِّ", transliteration: "bi-eyyi", root: "أ-ي-ي", pos: "harf", meaning_tr: "hangi ile", irab: "{Câr} ب ile {istifhâm edatı} أي'nin birleşimi, mecrûr halde", irab_short: "câr + istifhâm, mecrûr", turkish_bridge: null, balagha_note: "İstifhâm inkâr ve hayret için kullanılmıştır" },
+          { arabic: "ذَنۢبٖ", transliteration: "zembin", root: "ذ-ن-ب", pattern: "فَعْل", pos: "ism", meaning_tr: "günah, suç", irab: "{Muzâf ileyh} konumunda, {mecrûr} haldedir", irab_short: "muzâf ileyh, mecrûr", turkish_bridge: "Zenb kelimesi suç anlamında kullanılır", balagha_note: "Masum çocuğun günahı olmadığına işaret eden istifhâm" },
+          { arabic: "قُتِلَتۡ", transliteration: "kutilet", root: "ق-ت-ل", pattern: "فُعِلَت", pos: "fil", meaning_tr: "öldürülmek", irab: "{Fiil-i mâzî} meçhul sigası, I. bâb, müennes, gâib", irab_short: "mâzî meçhul, I. bâb", turkish_bridge: "Katil bu kökten", balagha_note: null },
+        ],
+      },
+      {
+        surah: 81, ayah: 10,
+        arabic: "وَإِذَا ٱلصُّحُفُ نُشِرَتۡ",
+        translation: "Amel defterleri açıldığı zaman;",
+        words: [
+          { arabic: "وَإِذَا", transliteration: "ve izâ", root: null, pos: "harf", meaning_tr: "ve ne zaman", irab: "{Atıf harfi} و ile {şart edatı} إذا'nın birleşimi", irab_short: "atıf + şart edatı", turkish_bridge: null, balagha_note: null },
+          { arabic: "ٱلصُّحُفُ", transliteration: "es-suhufu", root: "ص-ح-ف", pattern: "فُعُل", pos: "ism", meaning_tr: "sahifeler, amel defterleri", irab: "{Nâib-i fâil} konumunda, {merfû} haldedir", irab_short: "nâib-i fâil, merfû", turkish_bridge: "Sahife bu kökten", balagha_note: null },
+          { arabic: "نُشِرَتۡ", transliteration: "nuşirat", root: "ن-ش-ر", pattern: "فُعِلَت", pos: "fil", meaning_tr: "açılmak, yayılmak", irab: "{Fiil-i mâzî} meçhul sigası, I. bâb, müennes, gâib", irab_short: "mâzî meçhul, I. bâb", turkish_bridge: "Neşir bu kökten", balagha_note: "Gizli olan amellerin açığa çıkarılması kinayesi" },
+        ],
+      },
+      {
+        surah: 81, ayah: 11,
+        arabic: "وَإِذَا ٱلسَّمَآءُ كُشِطَتۡ",
+        translation: "Gök yerinden oynatıldığı zaman;",
+        words: [
+          { arabic: "وَإِذَا", transliteration: "ve izâ", root: null, pos: "harf", meaning_tr: "ve ne zaman", irab: "{Atıf harfi} و ile {şart edatı} إذا'nın birleşimi", irab_short: "atıf + şart edatı", turkish_bridge: null, balagha_note: null },
+          { arabic: "ٱلسَّمَآءُ", transliteration: "es-semâu", root: "س-م-و", pattern: "فَعَال", pos: "ism", meaning_tr: "gök, sema", irab: "{Nâib-i fâil} konumunda, {merfû} haldedir", irab_short: "nâib-i fâil, merfû", turkish_bridge: "Sema bu kökten", balagha_note: null },
+          { arabic: "كُشِطَتۡ", transliteration: "kuşitat", root: "ك-ش-ط", pattern: "فُعِلَت", pos: "fil", meaning_tr: "soyulmak, çekilmek", irab: "{Fiil-i mâzî} meçhul sigası, I. bâb, müennes, gâib", irab_short: "mâzî meçhul, I. bâb", turkish_bridge: null, balagha_note: "Göğün deri gibi soyulması teşbih sanatıdır" },
+        ],
+      },
+      {
+        surah: 81, ayah: 12,
+        arabic: "وَإِذَا ٱلۡجَحِيمُ سُعِّرَتۡ",
+        translation: "Cehennem alevlendirildiği zaman;",
+        words: [
+          { arabic: "وَإِذَا", transliteration: "ve izâ", root: null, pos: "harf", meaning_tr: "ve ne zaman", irab: "{Atıf harfi} و ile {şart edatı} إذا'nın birleşimi", irab_short: "atıf + şart edatı", turkish_bridge: null, balagha_note: null },
+          { arabic: "ٱلۡجَحِيمُ", transliteration: "el-cahîmu", root: "ج-ح-م", pattern: "فَعِيل", pos: "ism", meaning_tr: "cehennem, büyük ateş", irab: "{Nâib-i fâil} konumunda, {merfû} haldedir", irab_short: "nâib-i fâil, merfû", turkish_bridge: "Cahim cehennemin bir ismidir", balagha_note: null },
+          { arabic: "سُعِّرَتۡ", transliteration: "su'irat", root: "س-ع-ر", pattern: "فُعِّلَت", pos: "fil", meaning_tr: "kızıştırılmak, ateşlenmek", irab: "{Fiil-i mâzî} meçhul sigası, II. bâb, müennes, gâib", irab_short: "mâzî meçhul, II. bâb", turkish_bridge: "Sıar (fiyat artışı) bu kökten", balagha_note: "Ateşin daha da şiddetlendirilmesi mübalağa sanatıdır" },
+        ],
+      },
+      {
+        surah: 81, ayah: 13,
+        arabic: "وَإِذَا ٱلۡجَنَّةُ أُزۡلِفَتۡ",
+        translation: "Cennet yaklaştırıldığı zaman;",
+        words: [
+          { arabic: "وَإِذَا", transliteration: "ve izâ", root: null, pos: "harf", meaning_tr: "ve ne zaman", irab: "{Atıf harfi} و ile {şart edatı} إذا'nın birleşimi", irab_short: "atıf + şart edatı", turkish_bridge: null, balagha_note: null },
+          { arabic: "ٱلۡجَنَّةُ", transliteration: "el-cennetu", root: "ج-ن-ن", pattern: "فَعَّلَة", pos: "ism", meaning_tr: "cennet, bahçe", irab: "{Nâib-i fâil} konumunda, {merfû} haldedir", irab_short: "nâib-i fâil, merfû", turkish_bridge: "Cennet bu kökten", balagha_note: "Cehennemin ardından cennetin zikri tıbâk sanatıdır" },
+          { arabic: "أُزۡلِفَتۡ", transliteration: "uzlifet", root: "ز-ل-ف", pattern: "أُفْعِلَت", pos: "fil", meaning_tr: "yaklaştırılmak", irab: "{Fiil-i mâzî} meçhul sigası, IV. bâb, müennes, gâib", irab_short: "mâzî meçhul, IV. bâb", turkish_bridge: null, balagha_note: "Cennetin müttakilere yaklaştırılması müjde ifade eder" },
+        ],
+      },
+      {
+        surah: 81, ayah: 14,
+        arabic: "عَلِمَتۡ نَفۡسٞ مَّآ أَحۡضَرَتۡ",
+        translation: "İnsanoğlu önceden ne hazırladığını görecektir.",
+        words: [
+          { arabic: "عَلِمَتۡ", transliteration: "alimet", root: "ع-ل-م", pattern: "فَعِلَت", pos: "fil", meaning_tr: "bilmek, öğrenmek", irab: "{Fiil-i mâzî}, I. bâb, müennes, gâib", irab_short: "mâzî, I. bâb", turkish_bridge: "İlim, âlim bu kökten", balagha_note: "Bu ana cümle, önceki şart cümlelerinin cevabıdır" },
+          { arabic: "نَفۡسٞ", transliteration: "nefsun", root: "ن-ف-س", pattern: "فَعْل", pos: "ism", meaning_tr: "nefis, can", irab: "{Fâil} konumunda, {merfû} haldedir", irab_short: "fâil, merfû", turkish_bridge: "Nefis, nefs bu kökten", balagha_note: "Tekil kullanımla herkesi kapsayan genel ifade" },
+          { arabic: "مَّآ", transliteration: "mâ", root: null, pos: "ism", meaning_tr: "ne, neyi", irab: "{Mevsûl} isim olarak kullanılmış, {mef'ûl bih} konumunda", irab_short: "mevsûl, mef'ûl bih", turkish_bridge: null, balagha_note: null },
+          { arabic: "أَحۡضَرَتۡ", transliteration: "ahdarat", root: "ح-ض-ر", pattern: "أَفْعَلَت", pos: "fil", meaning_tr: "hazırlamak, getirmek", irab: "{Fiil-i mâzî}, IV. bâb, müennes, gâib - سلة لما", irab_short: "mâzî, IV. bâb", turkish_bridge: "Hazır, hazırlık bu kökten", balagha_note: "Amellerin sanki eşya gibi getirilmesi mecazdır" },
+        ],
+      },
+      {
+        surah: 81, ayah: 15,
+        arabic: "فَلَآ أُقۡسِمُ بِٱلۡخُنَّسِ",
+        translation: "Gündüz sinip geceleri gözüken gezegenlere and olsun;",
+        words: [
+          { arabic: "فَلَآ", transliteration: "felâ", root: null, pos: "harf", meaning_tr: "öyleyse hayır, elbet", irab: "{Atıf harfi} ف ile {yemin te'kîd edatı} لا'nın birleşimi", irab_short: "atıf + te'kîd edatı", turkish_bridge: null, balagha_note: "Yemin ifadesini güçlendiren te'kîd edatı" },
+          { arabic: "أُقۡسِمُ", transliteration: "uksimü", root: "ق-س-م", pattern: "أُفْعِلُ", pos: "fil", meaning_tr: "yemin etmek, and içmek", irab: "{Fiil-i muzâri}, IV. bâb, mütekellim", irab_short: "muzâri, IV. bâb", turkish_bridge: "Kasem bu kökten", balagha_note: "Gizli olan gerçekleri pekiştirmek için yemin" },
+          { arabic: "بِٱلۡخُنَّسِ", transliteration: "bil-hunnesi", root: "خ-ن-س", pattern: "فُعَّل", pos: "ism", meaning_tr: "sinip gizlenenler, gezegen yıldızlar", irab: "{Câr-mecrûr} olarak yemin edilen şey", irab_short: "câr-mecrûr", turkish_bridge: null, balagha_note: "Göksel cisimlerle yemin, yaratılışın büyüklüğünü vurgular" },
+        ],
+      },
+      {
+        surah: 81, ayah: 16,
+        arabic: "ٱلۡجَوَارِ ٱلۡكُنَّسِ",
+        translation: "O akıp akıp yuvasına gidenlere,",
+        words: [
+          { arabic: "ٱلۡجَوَارِ", transliteration: "el-cevâri", root: "ج-ر-ي", pattern: "فَوَاعِل", pos: "ism", meaning_tr: "akanlar, cereyan edenler", irab: "{Sıfat} olarak الخنس kelimesinin {na'tı}, {mecrûr} halde", irab_short: "na't, mecrûr", turkish_bridge: "Cârî bu kökten", balagha_note: "Gezegenların hareketle sıfatlanması mübalağa sanatıdır" },
+          { arabic: "ٱلۡكُنَّسِ", transliteration: "el-künnesi", root: "ك-ن-س", pattern: "فُعَّل", pos: "ism", meaning_tr: "süpürenler, sığınanlar", irab: "{Sıfat} olarak bir önceki sıfatın {na'tı}, {mecrûr} halde", irab_short: "na't, mecrûr", turkish_bridge: null, balagha_note: "Cinas-ı nâkıs: خنس ile كنس arasında ses benzerliği" },
+        ],
+      },
+      {
+        surah: 81, ayah: 17,
+        arabic: "وَٱلَّيۡلِ إِذَا عَسۡعَسَ",
+        translation: "Kararmaya başlayan geceye and olsun;",
+        words: [
+          { arabic: "وَٱلَّيۡلِ", transliteration: "vel-leyli", root: "ل-ي-ل", pattern: "فَعْل", pos: "ism", meaning_tr: "gece", irab: "{Câr-mecrûr} olarak yemin edilen ikinci şey", irab_short: "câr-mecrûr", turkish_bridge: "Leyl bu kökten", balagha_note: "Gece ve gündüzün değişimi Allah'ın kudretine delildir" },
+          { arabic: "إِذَا", transliteration: "izâ", root: null, pos: "harf", meaning_tr: "ne zaman, -dığı zaman", irab: "{Zarf} olarak kullanılan {şart edatı}", irab_short: "zarf, şart edatı", turkish_bridge: null, balagha_note: null },
+          { arabic: "عَسۡعَسَ", transliteration: "as'ase", root: "ع-س-س", pattern: "فَعْلَلَ", pos: "fil", meaning_tr: "kararmak, çekilmek", irab: "{Fiil-i mâzî}, mükerrer bâb, gaib", irab_short: "mâzî, mükerrer bâb", turkish_bridge: null, balagha_note: "As'ase kelimesi gecenin hem gelişini hem gidişini ifade eden müşterek lafız" },
+        ],
+      },
+    ],
+    exercises: [],
+  },
+  // ═══════════════════════════════════════════════════════════
+  // BÖLÜM 2 — SURE81 81:18-29
+  // ═══════════════════════════════════════════════════════════
+  {
+    id: "S81-B02-tekvir",
+    title: "Sure81 (18-29)",
+    titleAr: "سُورَة التكوير 18-29",
+    stage: 2,
+    level: 8,
+    surah: 81,
+    description: "Bu bölüm, kozmik değişikliklerden sonra Kur'an'ın gerçekliğini ve Hz. Peygamber'in doğruluğunu ispatlayarak, insanları hidayete davet eder ve Allah'ın iradesinin üstünlüğünü vurgular.",
+    verses: [
+      {
+        surah: 81, ayah: 18,
+        arabic: "وَٱلصُّبۡحِ إِذَا تَنَفَّسَ",
+        translation: "Ağarmaya başlayan sabaha and olsun ki,",
+        words: [
+          { arabic: "وَٱلصُّبۡحِ", transliteration: "veş-şubhi", root: "ص-ب-ح", pos: "ism", meaning_tr: "sabah vakti, sabah", irab: "{Vâv} atıf harfi, {الصُّبْحِ} ism-i mecrûr bi'l-vâv li'l-kasem, mecrûr bir önceki kasem ile atfedilmiş", irab_short: "mecrûr, kasem", turkish_bridge: "Sabah, subh bu kökten", balagha_note: "Kasem üslubu ile te'kîd sanatı" },
+          { arabic: "إِذَا", transliteration: "izâ", root: null, pos: "harf", meaning_tr: "ne zaman, -dığında", irab: "{إذا} zarf-ı zamân li'l-istikbâl, {تَنَفَّسَ} fiili ile izâfet", irab_short: "zarf, şartiyye", turkish_bridge: null, balagha_note: null },
+          { arabic: "تَنَفَّسَ", transliteration: "teneffese", root: "ن-ف-س", pattern: "تَفَعَّلَ", pos: "fil", meaning_tr: "nefes aldı, ağardı", irab: "{Fiil-i mâzî}, V. bâb, fâili {هُوَ} müstetir, {إذا} ile muzâf ileyh", irab_short: "mâzî, V. bâb", turkish_bridge: "Nefes bu kökten", balagha_note: "Sabahın ağarması nefes almaya benzetilmiş, istiâre-i temsiliyye" },
+        ],
+      },
+      {
+        surah: 81, ayah: 19,
+        arabic: "إِنَّهُۥ لَقَوۡلُ رَسُولٖ كَرِيمٖ",
+        translation: "Bu Kuran, arşın sahibi katında değerli, güçlü, sözü dinlenen ve güvenilen şerefli bir elçinin getirdiği sözdür.",
+        words: [
+          { arabic: "إِنَّهُۥ", transliteration: "innehû", root: null, pos: "harf", meaning_tr: "muhakkak o, şüphesiz o", irab: "{إنَّ} hurûf-i müşebbehe bi'l-fi'l, {الهاء} zamir muttasıl ism-i inne", irab_short: "ism-i inne", turkish_bridge: null, balagha_note: "Te'kîd edatı ile isbât" },
+          { arabic: "لَقَوۡلُ", transliteration: "le-kavlü", root: "ق-و-ل", pos: "ism", meaning_tr: "elbette sözü", irab: "{اللام} lâm-ı ibtiâ li't-te'kîd, {قَوْلُ} haber-i inne merfû", irab_short: "haber, merfû", turkish_bridge: "Kavl, söz bu kökten", balagha_note: "Lâm-ı ibtiâ ile te'kîd" },
+          { arabic: "رَسُولٖ", transliteration: "rasûlin", root: "ر-س-ل", pattern: "فَعُول", pos: "ism", meaning_tr: "elçinin, peygamberin", irab: "{رَسُولٍ} muzâf ileyh mecrûr, {قَوْلُ} kelimesi ile izâfet", irab_short: "muzâf ileyh, mecrûr", turkish_bridge: "Resul bu kökten", balagha_note: null },
+          { arabic: "كَرِيمٖ", transliteration: "kerîmin", root: "ك-ر-م", pattern: "فَعِيل", pos: "ism", meaning_tr: "şerefli, değerli", irab: "{كَرِيمٍ} na't mecrûr, {رَسُولٍ} kelimesinin sıfatı", irab_short: "sıfat, mecrûr", turkish_bridge: "Kerem, kerîm bu kökten", balagha_note: null },
+        ],
+      },
+      {
+        surah: 81, ayah: 20,
+        arabic: "ذِي قُوَّةٍ عِندَ ذِي ٱلۡعَرۡشِ مَكِينٖ",
+        translation: "O güçlü elçi, Arş'ın sahibinin yanında çok itibarlıdır.",
+        words: [
+          { arabic: "ذِي", transliteration: "zî", root: null, pos: "ism", meaning_tr: "sahibi olan", irab: "{ذِي} na't mecrûr, {رَسُولٍ} kelimesinin ikinci sıfatı", irab_short: "sıfat, mecrûr", turkish_bridge: null, balagha_note: null },
+          { arabic: "قُوَّةٍ", transliteration: "kuvvetin", root: "ق-و-ي", pattern: "فُعْلَة", pos: "ism", meaning_tr: "kuvvet, güç", irab: "{قُوَّةٍ} muzâf ileyh mecrûr, {ذِي} kelimesi ile izâfet", irab_short: "muzâf ileyh, mecrûr", turkish_bridge: "Kuvvet bu kökten", balagha_note: null },
+          { arabic: "عِندَ", transliteration: "inde", root: "ع-ن-د", pos: "harf", meaning_tr: "yanında, nezdinde", irab: "{عِنْدَ} zarf-ı mekân mensûb, {ذِي الْعَرْشِ} ile muzâf", irab_short: "zarf, mensûb", turkish_bridge: null, balagha_note: null },
+          { arabic: "ذِي ٱلۡعَرۡشِ", transliteration: "zi'l-arşi", root: null, pos: "ism", meaning_tr: "Arş'ın sahibi", irab: "{ذِي} muzâf ileyh mecrûr, {الْعَرْشِ} muzâf ileyh mecrûr", irab_short: "muzâf ileyh, mecrûr", turkish_bridge: "Arş bu kelimeden", balagha_note: null },
+          { arabic: "مَكِينٖ", transliteration: "mekînin", root: "م-ك-ن", pattern: "فَعِيل", pos: "ism", meaning_tr: "güçlü, sağlam mevkili", irab: "{مَكِينٍ} na't mecrûr, {رَسُولٍ} kelimesinin üçüncü sıfatı", irab_short: "sıfat, mecrûr", turkish_bridge: "Mekân bu kökten", balagha_note: null },
+        ],
+      },
+      {
+        surah: 81, ayah: 21,
+        arabic: "مُّطَاعٖ ثَمَّ أَمِينٖ",
+        translation: "Orada ona itaat edilir, güvenilir.",
+        words: [
+          { arabic: "مُّطَاعٖ", transliteration: "mutâ'in", root: "ط-و-ع", pattern: "مُفْعَل", pos: "ism", meaning_tr: "itaat edilen", irab: "{مُطَاعٍ} na't mecrûr, {رَسُولٍ} kelimesinin dördüncü sıfatı, ism-i mef'ûl", irab_short: "sıfat, mecrûr", turkish_bridge: null, balagha_note: null },
+          { arabic: "ثَمَّ", transliteration: "ŝemme", root: null, pos: "harf", meaning_tr: "orada, o yerde", irab: "{ثَمَّ} zarf-ı mekân mebni ale's-sükûn fi mahall-i rafif", irab_short: "zarf, mebni", turkish_bridge: null, balagha_note: null },
+          { arabic: "أَمِينٖ", transliteration: "emînin", root: "أ-م-ن", pattern: "فَعِيل", pos: "ism", meaning_tr: "güvenilir, emin", irab: "{أَمِينٍ} na't mecrûr, {رَسُولٍ} kelimesinin beşinci sıfatı", irab_short: "sıfat, mecrûr", turkish_bridge: "Emin, eman bu kökten", balagha_note: null },
+        ],
+      },
+      {
+        surah: 81, ayah: 22,
+        arabic: "وَمَا صَاحِبُكُم بِمَجۡنُونٖ",
+        translation: "Arkadaşınız (Muhammed) asla deli değildir.",
+        words: [
+          { arabic: "وَمَا", transliteration: "vemâ", root: null, pos: "harf", meaning_tr: "ve değil", irab: "{الواو} vâv-ı istinâfiyye, {مَا} mâ-yı nâfiye", irab_short: "nâfiye, harf", turkish_bridge: null, balagha_note: null },
+          { arabic: "صَاحِبُكُم", transliteration: "sâhibuküm", root: "ص-ح-ب", pattern: "فَاعِل", pos: "ism", meaning_tr: "arkadaşınız", irab: "{صَاحِبُ} mübtedâ merfû, {كُمْ} zamir muttasıl fi mahall-i cerr", irab_short: "mübtedâ, merfû", turkish_bridge: "Sahip, ashâb bu kökten", balagha_note: "Hz. Peygamber için saygılı ifade" },
+          { arabic: "بِمَجۡنُونٖ", transliteration: "bimecnûnin", root: "ج-ن-ن", pattern: "مَفْعُول", pos: "ism", meaning_tr: "deli, mecnun", irab: "{الباء} bâ-yı zâide li't-te'kîd, {مَجْنُونٍ} haber mensûb mahallen", irab_short: "haber, mensûb", turkish_bridge: "Cin, cünûn bu kökten", balagha_note: "Bâ-yı zâide ile nefy te'kîdi" },
+        ],
+      },
+      {
+        surah: 81, ayah: 23,
+        arabic: "وَلَقَدۡ رَءَاهُ بِٱلۡأُفُقِ ٱلۡمُبِينِ",
+        translation: "And olsun ki, o, Cebrail'i apaçık ufukta görmüştür.",
+        words: [
+          { arabic: "وَلَقَدۡ", transliteration: "velekad", root: null, pos: "harf", meaning_tr: "and olsun ki", irab: "{الواو} vâv-ı kasem, {اللام} lâm-ı kasem, {قَدْ} harf-i tahkîk", irab_short: "kasem, harf", turkish_bridge: null, balagha_note: "Kasem üslubu ile şiddetli te'kîd" },
+          { arabic: "رَءَاهُ", transliteration: "raâhü", root: "ر-أ-ي", pattern: "فَعَلَ", pos: "fil", meaning_tr: "onu gördü", irab: "{رَأَى} fiil-i mâzî I. bâb, fâili {هُوَ} müstetir, {الهاء} mef'ûl bih", irab_short: "mâzî, I. bâb", turkish_bridge: "Re'y, rüya bu kökten", balagha_note: null },
+          { arabic: "بِٱلۡأُفُقِ ٱلۡمُبِينِ", transliteration: "bil-üfüki'l-mübîni", root: "أ-ف-ق", pos: "ism", meaning_tr: "apaçık ufukta", irab: "{بالأُفُقِ} câr-mecrûr müteallik bi {رَأَى}, {المُبِينِ} na't mecrûr", irab_short: "mecrûr, müteallik", turkish_bridge: "Ufuk bu kökten", balagha_note: null },
+        ],
+      },
+      {
+        surah: 81, ayah: 24,
+        arabic: "وَمَا هُوَ عَلَى ٱلۡغَيۡبِ بِضَنِينٖ",
+        translation: "Peygamber, görülmeyenler hakkında söylediklerinden ötürü töhmet altında tutulamaz.",
+        words: [
+          { arabic: "وَمَا", transliteration: "vemâ", root: null, pos: "harf", meaning_tr: "ve değil", irab: "{الواو} vâv-ı istinâfiyye, {مَا} mâ-yı nâfiye", irab_short: "nâfiye, harf", turkish_bridge: null, balagha_note: null },
+          { arabic: "هُوَ", transliteration: "hüve", root: null, pos: "ism", meaning_tr: "o", irab: "{هُوَ} zamir munfasıl, mübtedâ merfû", irab_short: "mübtedâ, merfû", turkish_bridge: null, balagha_note: null },
+          { arabic: "عَلَى ٱلۡغَيۡبِ", transliteration: "ale'l-gaybi", root: "غ-ي-ب", pos: "ism", meaning_tr: "gaybde, görülmeyende", irab: "{عَلَى الْغَيْبِ} câr-mecrûr müteallik bi {ضَنِينٍ}", irab_short: "mecrûr, müteallik", turkish_bridge: "Gayb, gıyab bu kökten", balagha_note: null },
+          { arabic: "بِضَنِينٖ", transliteration: "bidanînin", root: "ض-ن-ن", pattern: "فَعِيل", pos: "ism", meaning_tr: "cimri, kıskanç", irab: "{الباء} bâ-yı zâide li't-te'kîd, {ضَنِينٍ} haber mensûb mahallen", irab_short: "haber, mensûb", turkish_bridge: null, balagha_note: "Bâ-yı zâide ile nefy te'kîdi" },
+        ],
+      },
+      {
+        surah: 81, ayah: 25,
+        arabic: "وَمَا هُوَ بِقَوۡلِ شَيۡطَٰنٖ رَّجِيمٖ",
+        translation: "Bu Kuran, kovulmuş şeytanın sözü olamaz.",
+        words: [
+          { arabic: "وَمَا", transliteration: "vemâ", root: null, pos: "harf", meaning_tr: "ve değil", irab: "{الواو} vâv-ı istinâfiyye, {مَا} mâ-yı nâfiye", irab_short: "nâfiye, harf", turkish_bridge: null, balagha_note: null },
+          { arabic: "هُوَ", transliteration: "hüve", root: null, pos: "ism", meaning_tr: "o", irab: "{هُوَ} zamir munfasıl, mübtedâ merfû", irab_short: "mübtedâ, merfû", turkish_bridge: null, balagha_note: null },
+          { arabic: "بِقَوۡلِ", transliteration: "bikavli", root: "ق-و-ل", pos: "ism", meaning_tr: "sözü ile", irab: "{الباء} bâ-yı zâide li't-te'kîd, {قَوْلِ} haber mensûb mahallen muzâf", irab_short: "haber, mensûb", turkish_bridge: "Kavl bu kökten", balagha_note: "Bâ-yı zâide ile nefy te'kîdi" },
+          { arabic: "شَيۡطَٰنٖ", transliteration: "şeytânin", root: "ش-ط-ن", pattern: "فَعْلان", pos: "ism", meaning_tr: "şeytanın", irab: "{شَيْطَانٍ} muzâf ileyh mecrûr", irab_short: "muzâf ileyh, mecrûr", turkish_bridge: "Şeytan bu kökten", balagha_note: null },
+          { arabic: "رَّجِيمٖ", transliteration: "racîmin", root: "ر-ج-م", pattern: "فَعِيل", pos: "ism", meaning_tr: "kovulmuş, taşlanmış", irab: "{رَجِيمٍ} na't mecrûr, {شَيْطَانٍ} kelimesinin sıfatı", irab_short: "sıfat, mecrûr", turkish_bridge: "Recm bu kökten", balagha_note: null },
+        ],
+      },
+      {
+        surah: 81, ayah: 26,
+        arabic: "فَأَيۡنَ تَذۡهَبُونَ",
+        translation: "Nereye gidiyorsunuz?",
+        words: [
+          { arabic: "فَأَيۡنَ", transliteration: "fe-eyne", root: null, pos: "harf", meaning_tr: "öyleyse nereye", irab: "{الفاء} fâ-yı fer'iyye, {أَيْنَ} ism-i istifhâm zarf-ı mekân", irab_short: "istifhâm, zarf", turkish_bridge: null, balagha_note: "İstifhâm-ı inkârî, te'accüb ve tenbîh maksatlı" },
+          { arabic: "تَذۡهَبُونَ", transliteration: "tezhebûne", root: "ذ-ه-ب", pattern: "تَفْعَلُون", pos: "fil", meaning_tr: "gidiyorsunuz", irab: "{تَذْهَبُونَ} fiil-i muzâri' I. bâb, fâili {أَنْتُمْ} müstetir", irab_short: "muzâri', I. bâb", turkish_bridge: "Zehâb, mezâhib bu kökten", balagha_note: null },
+        ],
+      },
+      {
+        surah: 81, ayah: 27,
+        arabic: "إِنۡ هُوَ إِلَّا ذِكۡرٞ لِّلۡعَٰلَمِينَ",
+        translation: "Kuran, ancak aranızda doğru yola girmeyi dileyene ve alemlere bir öğüttür.",
+        words: [
+          { arabic: "إِنۡ", transliteration: "in", root: null, pos: "harf", meaning_tr: "değil, ancak", irab: "{إِنْ} in-i nâfiye bi ma'ne-i mâ", irab_short: "nâfiye, harf", turkish_bridge: null, balagha_note: null },
+          { arabic: "هُوَ", transliteration: "hüve", root: null, pos: "ism", meaning_tr: "o", irab: "{هُوَ} zamir munfasıl, mübtedâ merfû", irab_short: "mübtedâ, merfû", turkish_bridge: null, balagha_note: null },
+          { arabic: "إِلَّا", transliteration: "illâ", root: null, pos: "harf", meaning_tr: "ancak, sadece", irab: "{إِلَّا} edât-ı hasr", irab_short: "hasr, harf", turkish_bridge: null, balagha_note: "Hasr üslubu ile te'kîd" },
+          { arabic: "ذِكۡرٞ", transliteration: "zikrun", root: "ذ-ك-ر", pattern: "فِعْل", pos: "ism", meaning_tr: "öğüt, zikir", irab: "{ذِكْرٌ} haber merfû", irab_short: "haber, merfû", turkish_bridge: "Zikir bu kökten", balagha_note: null },
+          { arabic: "لِّلۡعَٰلَمِينَ", transliteration: "lil-âlemîne", root: "ع-ل-م", pattern: "فَاعِلِين", pos: "ism", meaning_tr: "alemler için", irab: "{لِلْعَالَمِينَ} câr-mecrûr müteallik bi {ذِكْرٌ}", irab_short: "mecrûr, müteallik", turkish_bridge: "Alem bu kökten", balagha_note: null },
+        ],
+      },
+      {
+        surah: 81, ayah: 28,
+        arabic: "لِمَن شَآءَ مِنكُمۡ أَن يَسۡتَقِيمَ",
+        translation: "İçinizden doğru gitmek isteyenler için.",
+        words: [
+          { arabic: "لِمَن", transliteration: "limen", root: null, pos: "harf", meaning_tr: "kim için", irab: "{لِمَنْ} lâm câr, {مَنْ} ism-i mevsûl mecrûr", irab_short: "mevsûl, mecrûr", turkish_bridge: null, balagha_note: null },
+          { arabic: "شَآءَ", transliteration: "şâe", root: "ش-ي-أ", pattern: "فَعَلَ", pos: "fil", meaning_tr: "diledi, istedi", irab: "{شَاءَ} fiil-i mâzî I. bâb, fâili {هُوَ} müstetir, sıla", irab_short: "mâzî, I. bâb", turkish_bridge: null, balagha_note: null },
+          { arabic: "مِنكُمۡ", transliteration: "minküm", root: null, pos: "harf", meaning_tr: "sizden", irab: "{مِنْكُمْ} câr-mecrûr müteallik bi {شَاءَ}", irab_short: "câr-mecrûr", turkish_bridge: null, balagha_note: null },
+          { arabic: "أَن", transliteration: "en", root: null, pos: "harf", meaning_tr: "-mek, -mak", irab: "{أَنْ} harf-i masdar nâsıb", irab_short: "masdariyye, nâsıb", turkish_bridge: null, balagha_note: null },
+          { arabic: "يَسۡتَقِيمَ", transliteration: "yestekîme", root: "ق-و-م", pattern: "يَسْتَفْعِل", pos: "fil", meaning_tr: "doğru gitmek", irab: "{يَسْتَقِيمَ} fiil-i muzâri' mansûb bi {أَنْ}, X. bâb", irab_short: "muzâri', mansûb, X. bâb", turkish_bridge: "Kiyâm, istikâmet bu kökten", balagha_note: null },
+        ],
+      },
+      {
+        surah: 81, ayah: 29,
+        arabic: "وَمَا تَشَآءُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ رَبُّ ٱلۡعَٰلَمِينَ",
+        translation: "Alemlerin Rabbi olan Allah dilemedikçe sizler bir şey dileyemezsiniz.",
+        words: [
+          { arabic: "وَمَا", transliteration: "vemâ", root: null, pos: "harf", meaning_tr: "ve -mez", irab: "{الواو} vâv-ı istidrak, {مَا} mâ-yı nâfiye", irab_short: "nâfiye, harf", turkish_bridge: null, balagha_note: null },
+          { arabic: "تَشَآءُونَ", transliteration: "teşâûne", root: "ش-ي-أ", pattern: "تَفْعَلُون", pos: "fil", meaning_tr: "dilemezsiniz", irab: "{تَشَاءُونَ} fiil-i muzâri' I. bâb, fâili {أَنْتُمْ} müstetir", irab_short: "muzâri', I. bâb", turkish_bridge: null, balagha_note: null },
+          { arabic: "إِلَّآ", transliteration: "illâ", root: null, pos: "harf", meaning_tr: "ancak, -medikçe", irab: "{إِلَّا} edât-ı istisna", irab_short: "istisna, harf", turkish_bridge: null, balagha_note: null },
+          { arabic: "أَن", transliteration: "en", root: null, pos: "harf", meaning_tr: "-mesi", irab: "{أَنْ} harf-i masdar nâsıb", irab_short: "masdariyye, nâsıb", turkish_bridge: null, balagha_note: null },
+          { arabic: "يَشَآءَ", transliteration: "yeşâe", root: "ش-ي-أ", pattern: "يَفْعَل", pos: "fil", meaning_tr: "dilemesi", irab: "{يَشَاءَ} fiil-i muzâri' mansûb bi {أَنْ}, I. bâb", irab_short: "muzâri', mansûb, I. bâb", turkish_bridge: null, balagha_note: null },
+          { arabic: "ٱللَّهُ", transliteration: "allâhü", root: null, pos: "ism", meaning_tr: "Allah", irab: "{اللَّهُ} lâfz-ı celâl, fâil merfû", irab_short: "fâil, merfû", turkish_bridge: "Allah lafz-ı celâli", balagha_note: null },
+          { arabic: "رَبُّ ٱلۡعَٰلَمِينَ", transliteration: "rabbü'l-âlemîne", root: "ر-ب-ب", pos: "ism", meaning_tr: "alemlerin Rabbi", irab: "{رَبُّ} bedel merfû ale't-teba'iyye, {الْعَالَمِينَ} muzâf ileyh mecrûr", irab_short: "bedel, merfû", turkish_bridge: "Rab bu kökten", balagha_note: "Sure sonunda Allah'ın mutlak hakimiyeti vurgulanmış" },
+        ],
+      },
+    ],
+    exercises: [],
+  },
+];
+
+export default tekvirLessons;

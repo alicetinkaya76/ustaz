@@ -3170,6 +3170,2341 @@ const rootDB = {
     ],
     bab_chain: [{ bab: "I", form: "غَارَ/يَغُورُ", meaning: "çekildi", semantic: "temel", lessons: [] }],
     cross_refs: [], turkish_traces: ["gâr"],
+  },  // ===== v0.28 — 90 yeni kök (toplam ~285) =====
+
+  "ش-ق-ق": {
+    core: "yarmak, ikiye ayırmak, çatlatmak",
+    mufradat_note: "Bir şeyi ikiye ayırmak. Yarılma (şakk) hem maddî (toprağın yarılması) hem de manevî (ihtilâf) anlamında kullanılır. İnşikâk: parçalanma, bölünme. Şikâk: düşmanlık ve ayrılık.",
+    quran_count: 12,
+    derivatives: [
+      { form: "شَقّ", pattern: "فَعْل", type: "masdar", meaning: "yarma, çatlak" },
+      { form: "شِقَاق", pattern: "فِعَال", type: "masdar", meaning: "ayrılık, düşmanlık" },
+      { form: "اِنْشَقَّ", pattern: "اِنْفَعَلَ", type: "fiil (VII)", meaning: "yarıldı" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "شَقَّ/يَشُقُّ", meaning: "yardı", semantic: "temel eylem", lessons: [] },
+      { bab: "VII", form: "اِنْشَقَّ/يَنْشَقُّ", meaning: "yarıldı", semantic: "mutâvaat", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L35", verse: "55:37", form: "انشَقَّتِ", note: "gök yarıldığında" },
+      { lesson: "L40", verse: "80:26", form: "شَقَقْنَا", note: "toprağı yardık — muzâ'af" },
+    ],
+    turkish_traces: ["şakk", "şikâk", "inşikâk", "meşakkat"],
+  },
+  "أ-ت-ي": {
+    core: "gelmek, getirmek, vermek",
+    mufradat_note: "Gelmek. Kolay ve yumuşak gelişi ifade eder (câ'e'den farkı). Allah'ın âyetlerinin gelmesi ve kıyâmet saatinin gelmesi anlamlarında sıkça geçer.",
+    quran_count: 264,
+    derivatives: [
+      { form: "أَتَى", pattern: "فَعَلَ", type: "fiil", meaning: "geldi" },
+      { form: "إِيتَاء", pattern: "إِفْعَال", type: "masdar (IV)", meaning: "verme, getirme" },
+      { form: "آتِي", pattern: "فَاعِل", type: "ism-i fâil", meaning: "gelen, gelecek olan" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "أَتَى/يَأْتِي", meaning: "geldi", semantic: "temel eylem", lessons: [] },
+      { bab: "IV", form: "آتَى/يُؤْتِي", meaning: "verdi", semantic: "ta'diye", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:8", form: "يَأْتِكُمْ", note: "size uyarıcı gelmedi mi?" },
+    ],
+    turkish_traces: ["itâ", "îtâ", "atâ", "mu'tâ"],
+  },
+  "ك-ب-ر": {
+    core: "büyük olmak, büyüklenmek, ululanmak",
+    mufradat_note: "Hacim veya değer bakımından büyüklük. Kibr: büyüklenme; tekebbür: kendini büyük görme. el-Kebîr, el-Mütekebbir: Allah'ın sıfatları — mutlak büyüklük yalnız O'na aittir.",
+    quran_count: 161,
+    derivatives: [
+      { form: "كَبِير", pattern: "فَعِيل", type: "sıfat", meaning: "büyük" },
+      { form: "كِبْر", pattern: "فِعْل", type: "isim", meaning: "büyüklenme, kibir" },
+      { form: "أَكْبَر", pattern: "أَفْعَل", type: "ism-i tafdîl", meaning: "en büyük, daha büyük" },
+      { form: "مُتَكَبِّر", pattern: "مُتَفَعِّل", type: "ism-i fâil (V)", meaning: "büyüklenen, ulu" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "كَبُرَ/يَكْبُرُ", meaning: "büyük oldu", semantic: "temel eylem", lessons: [] },
+      { bab: "V", form: "تَكَبَّرَ/يَتَكَبَّرُ", meaning: "büyüklendi", semantic: "tekellüf", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:12", form: "كَبِيرٌ", note: "büyük ecir" },
+    ],
+    turkish_traces: ["kebîr", "kibir", "tekbîr", "ekber", "müstekbir"],
+  },
+  "غ-ي-ب": {
+    core: "gizlenmek, görünmemek, gaip olmak",
+    mufradat_note: "Duyulardan ve bilgiden gizli olan. Gayb: insanın idrak edemediği alan. İman bi'l-gayb: Kur'ân'ın ilk övgü sıfatı. Gâib: görünmeyen, uzakta olan.",
+    quran_count: 60,
+    derivatives: [
+      { form: "غَيْب", pattern: "فَعْل", type: "isim", meaning: "gayb, bilinmeyen" },
+      { form: "غَائِب", pattern: "فَاعِل", type: "ism-i fâil", meaning: "gizli, uzak" },
+      { form: "غَيْبَة", pattern: "فَعْلَة", type: "masdar", meaning: "gıybet" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "غَابَ/يَغِيبُ", meaning: "kayboldu, gizlendi", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:12", form: "بِالْغَيْبِ", note: "görmeden Rablerinden korkanlar" },
+      { lesson: "L44", verse: "82:16", form: "بِغَآئِبِينَ", note: "ondan uzak değillerdir" },
+    ],
+    turkish_traces: ["gayb", "gâib", "gıybet", "mugayyebât"],
+  },
+  "ن-ش-ر": {
+    core: "yaymak, dağıtmak, diriltmek",
+    mufradat_note: "Katlanmış şeyi açmak, yaymak. Nüşûr/neşr: ölümden sonra diriltme — ölülerin 'açılması' metaforu. Menşûr: açılmış, yayılmış.",
+    quran_count: 24,
+    derivatives: [
+      { form: "نَشْر", pattern: "فَعْل", type: "masdar", meaning: "yayma" },
+      { form: "نُشُور", pattern: "فُعُول", type: "masdar", meaning: "diriliş, yayılma" },
+      { form: "مَنْشُور", pattern: "مَفْعُول", type: "ism-i mef'ûl", meaning: "yayılmış, açılmış" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "نَشَرَ/يَنْشُرُ", meaning: "yaydı", semantic: "temel eylem", lessons: [] },
+      { bab: "IV", form: "أَنْشَرَ/يُنْشِرُ", meaning: "diriltti", semantic: "ta'diye", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:15", form: "النُّشُورُ", note: "diriliş O'nadır" },
+      { lesson: "L40", verse: "80:22", form: "أَنشَرَهُ", note: "sonra onu diriltir" },
+    ],
+    turkish_traces: ["neşr", "nüşûr", "neşriyat", "menşûr"],
+  },
+  "ش-م-س": {
+    core: "güneş, parlamak",
+    mufradat_note: "Gökteki bilinen ışık kaynağı. Şems, Kur'ân'da kozmik düzen ve ilâhî kudret delili olarak geçer. Hesap (حُسْبَان) ile birlikte zikredilmesi düzenli hareketin vurgusudur.",
+    quran_count: 33,
+    derivatives: [
+      { form: "شَمْس", pattern: "فَعْل", type: "isim", meaning: "güneş" },
+    ],
+    bab_chain: [],
+    cross_refs: [
+      { lesson: "L35", verse: "55:5", form: "الشَّمْسُ", note: "güneş ve ay bir hesap iledir" },
+    ],
+    turkish_traces: ["şems", "şemsiye", "şemsî"],
+  },
+  "ق-م-ر": {
+    core: "ay, beyaz olmak",
+    mufradat_note: "Ay. Beyazlık kökünden türemiştir. Kamer: ışığı güneşten alan gök cismi. Kamerî takvim ayın hareketine dayanır.",
+    quran_count: 27,
+    derivatives: [
+      { form: "قَمَر", pattern: "فَعَل", type: "isim", meaning: "ay" },
+      { form: "قَمَرِيّ", pattern: "فَعَلِيّ", type: "nisbet", meaning: "kamere ait" },
+      { form: "مُسْتَقْمِر", pattern: "مُسْتَفْعِل", type: "ism-i fâil (X)", meaning: "karar kılmış" },
+    ],
+    bab_chain: [],
+    cross_refs: [
+      { lesson: "L35", verse: "55:5", form: "وَالْقَمَرُ", note: "güneş ve ay hesap iledir" },
+    ],
+    turkish_traces: ["kamer", "kamerî"],
+  },
+  "ن-ج-م": {
+    core: "yıldız, bitki, doğmak",
+    mufradat_note: "Sapı olmayan bitki (gövdesiz bitki) ve yıldız. İkisi de yerden/gökten 'doğar'. Necm: hem gök cismi hem yer bitkisi — Rahmân suresinde şecer ile birlikte geçer.",
+    quran_count: 13,
+    derivatives: [
+      { form: "نَجْم", pattern: "فَعْل", type: "isim", meaning: "yıldız, sapı olmayan bitki" },
+    ],
+    bab_chain: [],
+    cross_refs: [
+      { lesson: "L35", verse: "55:6", form: "وَالنَّجْمُ", note: "yıldız/bitki ve ağaç secde eder" },
+    ],
+    turkish_traces: ["necm", "müneccim"],
+  },
+  "ش-ج-ر": {
+    core: "ağaç, dikilmek, ihtilâf",
+    mufradat_note: "Gövdeli, dallanıp budaklanan bitki. Teşâcür: dalların birbirine girmesi → ihtilâf, çekişme. Kur'ân'da hem somut ağaç hem de temsîlî (güzel söz = güzel ağaç) kullanılır.",
+    quran_count: 26,
+    derivatives: [
+      { form: "شَجَر", pattern: "فَعَل", type: "isim", meaning: "ağaç" },
+      { form: "شَجَرَة", pattern: "فَعَلَة", type: "isim", meaning: "tek ağaç" },
+    ],
+    bab_chain: [],
+    cross_refs: [
+      { lesson: "L35", verse: "55:6", form: "وَالشَّجَرُ", note: "ve ağaçlar secde eder" },
+    ],
+    turkish_traces: ["şecer", "şecere"],
+  },
+  "ق-س-ط": {
+    core: "adalet, hakkaniyet, ölçü",
+    mufradat_note: "Adalet ve dürüstlük. Kıst: hak ölçüsü, adaletle davranma. Muksit: adaletli davranan. I. bâbda (kasata) zulüm; IV. bâbda (aksata) adalet — zıt anlamlı kullanım dikkat çekicidir.",
+    quran_count: 25,
+    derivatives: [
+      { form: "قِسْط", pattern: "فِعْل", type: "isim", meaning: "adalet, hak" },
+      { form: "مُقْسِط", pattern: "مُفْعِل", type: "ism-i fâil (IV)", meaning: "adaletli" },
+      { form: "قِسْطَاس", pattern: "فِعْلَال", type: "isim", meaning: "terazi, ölçü" },
+    ],
+    bab_chain: [
+      { bab: "IV", form: "أَقْسَطَ/يُقْسِطُ", meaning: "adaletle davrandı", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L35", verse: "55:9", form: "بِالْقِسْطِ", note: "tartıyı adaletle yapın" },
+    ],
+    turkish_traces: ["kıst", "taksît"],
+  },
+  "ح-س-ب": {
+    core: "saymak, hesap etmek, yeterli görmek",
+    mufradat_note: "Sayma ve hesap. Hisâb: muhasebe, hesap günü. Husbân: ince hesap, dakik ölçü. Hasb: yeterlilik (hasbunallah). Kur'ân'da hem kozmik düzen hem ahiret sorgusu bağlamında geçer.",
+    quran_count: 109,
+    derivatives: [
+      { form: "حِسَاب", pattern: "فِعَال", type: "masdar", meaning: "hesap" },
+      { form: "حُسْبَان", pattern: "فُعْلَان", type: "masdar", meaning: "ince hesap, ölçü" },
+      { form: "حَسِيب", pattern: "فَعِيل", type: "sıfat", meaning: "hesap gören" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "حَسِبَ/يَحْسَبُ", meaning: "sandı", semantic: "temel eylem", lessons: [] },
+      { bab: "III", form: "حَاسَبَ/يُحَاسِبُ", meaning: "hesaba çekti", semantic: "müfâale", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L35", verse: "55:5", form: "بِحُسْبَانٍ", note: "güneş ve ay bir hesap ile" },
+    ],
+    turkish_traces: ["hesap", "muhasebe", "hasbi", "hisâb"],
+  },
+  "ب-ق-ي": {
+    core: "kalmak, bâkî olmak, devam etmek",
+    mufradat_note: "Devam etmek, yok olmamak. Bakâ: kalıcılık — fanîliğin zıddı. Bâkî: kalıcı, ebedî. Kur'ân'da 'fânîlik-bekâ' karşıtlığı insanla Allah arasındaki farkı vurgular.",
+    quran_count: 21,
+    derivatives: [
+      { form: "بَقَاء", pattern: "فَعَال", type: "masdar", meaning: "kalıcılık" },
+      { form: "بَاقٍ", pattern: "فَاعِل", type: "ism-i fâil", meaning: "kalıcı, bâkî" },
+      { form: "بَقِيَّة", pattern: "فَعِيلَة", type: "isim", meaning: "kalan, artık" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "بَقِيَ/يَبْقَى", meaning: "kaldı", semantic: "temel eylem", lessons: [] },
+      { bab: "IV", form: "أَبْقَى/يُبْقِي", meaning: "bıraktı, bâkî kıldı", semantic: "ta'diye", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L35", verse: "55:27", form: "وَيَبْقَىٰ", note: "Rabbinin vechi bâkîdir" },
+    ],
+    turkish_traces: ["bekâ", "bâkî", "bakiyye"],
+  },
+  "ف-ن-ي": {
+    core: "yok olmak, fânî olmak, tükenmek",
+    mufradat_note: "Yok olma, sona erme. Her şey fânîdir, yalnız Allah'ın vechi bâkîdir (55:26-27). Fenâ: tasavvufta benliğin erimesi. Kur'ân'da bekâ'nın karşıtı olarak kullanılır.",
+    quran_count: 2,
+    derivatives: [
+      { form: "فَانٍ", pattern: "فَاعِل", type: "ism-i fâil", meaning: "fânî, yok olucu" },
+      { form: "فَنَاء", pattern: "فَعَال", type: "masdar", meaning: "yok olma" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "فَنِيَ/يَفْنَى", meaning: "yok oldu", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L35", verse: "55:26", form: "فَانٍ", note: "yeryüzündeki herkes fânîdir" },
+    ],
+    turkish_traces: ["fânî", "fenâ"],
+  },
+  "س-و-ي": {
+    core: "eşit olmak, düzeltmek, biçimlendirmek",
+    mufradat_note: "Düzgün ve dengeli yapmak, tesviye etmek. İstivâ: dengelenmek, oturmak. Tesviye: düzeltme, dengeleme. Allah'ın insanı 'tesviye' etmesi: organları dengeli yaratması.",
+    quran_count: 57,
+    derivatives: [
+      { form: "سَوِيّ", pattern: "فَعِيل", type: "sıfat", meaning: "düzgün, normal" },
+      { form: "سَوَاء", pattern: "فَعَال", type: "isim", meaning: "eşit, aynı" },
+      { form: "تَسْوِيَة", pattern: "تَفْعِلَة", type: "masdar (II)", meaning: "düzeltme" },
+      { form: "اِسْتِوَاء", pattern: "اِفْتِعَال", type: "masdar (VIII)", meaning: "yerleşme, doğrulma" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "سَوِيَ/يَسْوَى", meaning: "eşit oldu", semantic: "temel eylem", lessons: [] },
+      { bab: "II", form: "سَوَّى/يُسَوِّي", meaning: "düzeltti, biçimlendirdi", semantic: "ta'diye", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:22", form: "سَوِيًّا", note: "düzgün yolda mı yürüyor?" },
+      { lesson: "L44", verse: "82:7", form: "فَسَوَّىٰكَ", note: "seni biçimlendirdi" },
+    ],
+    turkish_traces: ["tesviye", "müsâvî", "istivâ", "seviye"],
+  },
+  "ب-ر-ر": {
+    core: "iyilik, hayır, dürüstlük",
+    mufradat_note: "İyilik, sadâkat. Birr: kapsamlı iyilik (sadaka, ihsân, doğruluk hepsi). Ebrâr: çok iyilik yapanlar. Berr: iyiliksever. Anne-babaya birr: en yüce iyilik.",
+    quran_count: 32,
+    derivatives: [
+      { form: "بِرّ", pattern: "فِعْل", type: "masdar", meaning: "iyilik" },
+      { form: "بَارّ", pattern: "فَاعِل", type: "ism-i fâil", meaning: "iyilik eden" },
+      { form: "بَرَرَة", pattern: "فَعَلَة", type: "cem", meaning: "hayırlılar, iyiler" },
+      { form: "أَبْرَار", pattern: "أَفْعَال", type: "cem", meaning: "iyiler" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "بَرَّ/يَبَرُّ", meaning: "iyilik etti", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L40", verse: "80:16", form: "بَرَرَةٍ", note: "hayırlı (melekler)" },
+      { lesson: "L44", verse: "82:13", form: "ٱلْأَبْرَارَ", note: "iyiler nimet içindedir" },
+    ],
+    turkish_traces: ["birr", "ebrâr", "berr"],
+  },
+  "ق-ب-ر": {
+    core: "gömmek, defnetmek, kabir",
+    mufradat_note: "Ölüyü gömmek. Kabr: mezar. İkbâr/akbere: defnetti. Kur'ân'da hem ölümün hem diriliş gününün sembolü: kabirler açıldığında (82:4).",
+    quran_count: 8,
+    derivatives: [
+      { form: "قَبْر", pattern: "فَعْل", type: "isim", meaning: "kabir, mezar" },
+      { form: "قُبُور", pattern: "فُعُول", type: "cem", meaning: "kabirler" },
+      { form: "مَقْبَرَة", pattern: "مَفْعَلَة", type: "ism-i mekân", meaning: "mezarlık" },
+    ],
+    bab_chain: [
+      { bab: "IV", form: "أَقْبَرَ/يُقْبِرُ", meaning: "defnettirdi", semantic: "ta'diye", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L40", verse: "80:21", form: "فَأَقْبَرَهُ", note: "onu kabre koydurdu" },
+      { lesson: "L44", verse: "82:4", form: "ٱلْقُبُورُ", note: "kabirler deşildiğinde" },
+    ],
+    turkish_traces: ["kabir", "makbere", "kabristân"],
+  },
+  "ص-ب-ب": {
+    core: "dökmek, akıtmak",
+    mufradat_note: "Suyu yukarıdan aşağı dökmek. Sabb: şiddetle dökme. Kur'ân'da yağmurun dökülmesi ve azâbın dökülmesi bağlamlarında geçer.",
+    quran_count: 5,
+    derivatives: [
+      { form: "صَبّ", pattern: "فَعْل", type: "masdar", meaning: "dökme" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "صَبَّ/يَصُبُّ", meaning: "döktü", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L40", verse: "80:25", form: "صَبَبْنَا", note: "suyu bol bol döktük" },
+    ],
+    turkish_traces: ["sabb"],
+  },
+  "م-ر-أ": {
+    core: "kişi, erkek, insan",
+    mufradat_note: "İnsan, kişi. el-Mer'u: adam, birey. İmru': kişi (belirli). Kur'ân'da bireysel sorumluluk vurgusu: 'her kişi kendi derdiyle' (80:37).",
+    quran_count: 12,
+    derivatives: [
+      { form: "مَرْء", pattern: "فَعْل", type: "isim", meaning: "kişi, adam" },
+      { form: "اِمْرُؤ", pattern: "اِفْعُل", type: "isim", meaning: "bir kişi" },
+      { form: "مَرْأَة", pattern: "فَعْلَة", type: "isim", meaning: "kadın" },
+    ],
+    bab_chain: [],
+    cross_refs: [
+      { lesson: "L40", verse: "80:34", form: "ٱلْمَرْءُ", note: "kişinin kaçacağı gün" },
+    ],
+    turkish_traces: ["merd"],
+  },
+  "س-ف-ر": {
+    core: "açmak, ortaya çıkarmak, yolculuk",
+    mufradat_note: "Örtüyü kaldırmak, açmak. Sefer: yolculuk (kişi kendini açığa çıkarır). Sefere: elçi yazıcılar (vahyi açanlar). Müsfir: parlayan, aydınlanan (yüz).",
+    quran_count: 13,
+    derivatives: [
+      { form: "سَفَر", pattern: "فَعَل", type: "masdar", meaning: "yolculuk" },
+      { form: "سَفَرَة", pattern: "فَعَلَة", type: "cem", meaning: "elçi melekler, yazıcılar" },
+      { form: "مُسْفِر", pattern: "مُفْعِل", type: "ism-i fâil (IV)", meaning: "parlayan" },
+      { form: "سَفِير", pattern: "فَعِيل", type: "isim", meaning: "elçi" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "سَفَرَ/يَسْفِرُ", meaning: "açtı, ortaya çıkardı", semantic: "temel eylem", lessons: [] },
+      { bab: "IV", form: "أَسْفَرَ/يُسْفِرُ", meaning: "parladı, aydınlandı", semantic: "sıfat", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L40", verse: "80:15", form: "سَفَرَةٍ", note: "şerefli elçi melekler" },
+      { lesson: "L40", verse: "80:38", form: "مُّسْفِرَةٌ", note: "parlayan yüzler" },
+    ],
+    turkish_traces: ["sefer", "sefîr", "müsâfir"],
+  },
+  "م-س-ك": {
+    core: "tutmak, yapışmak, alıkoymak",
+    mufradat_note: "Bir şeyi elde tutmak, bırakmamak. İmsâk: tutma, oruç başlangıcı. Temessük: sarılma, yapışma. Allah'ın kuşları tutması: düşmekten engelleme.",
+    quran_count: 33,
+    derivatives: [
+      { form: "إِمْسَاك", pattern: "إِفْعَال", type: "masdar (IV)", meaning: "tutma" },
+      { form: "مُمْسِك", pattern: "مُفْعِل", type: "ism-i fâil (IV)", meaning: "tutan" },
+      { form: "مِسْك", pattern: "فِعْل", type: "isim", meaning: "misk (koku)" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "مَسَكَ/يَمْسِكُ", meaning: "tuttu", semantic: "temel eylem", lessons: [] },
+      { bab: "IV", form: "أَمْسَكَ/يُمْسِكُ", meaning: "alıkoydu", semantic: "ta'diye", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:19", form: "يُمْسِكُهُنَّ", note: "onları tutan ancak Rahmân'dır" },
+    ],
+    turkish_traces: ["imsâk", "temessük", "misk"],
+  },
+  "ب-ل-و": {
+    core: "sınamak, denemek, belâ vermek",
+    mufradat_note: "Deneme, imtihan. Belâ: sınav — hem hayır hem şer ile olur. İbtilâ: sınama. Müptelâ: sınanmış, düşkün. Kur'ân'da hayat ve ölümün sınav olduğu vurgulanır (67:2).",
+    quran_count: 37,
+    derivatives: [
+      { form: "بَلَاء", pattern: "فَعَال", type: "masdar", meaning: "sınav, belâ" },
+      { form: "اِبْتِلَاء", pattern: "اِفْتِعَال", type: "masdar (VIII)", meaning: "imtihan" },
+      { form: "مُبْتَلًى", pattern: "مُفْتَعَل", type: "ism-i mef'ûl", meaning: "sınanmış" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "بَلَا/يَبْلُو", meaning: "sınadı", semantic: "temel eylem", lessons: [] },
+      { bab: "VIII", form: "اِبْتَلَى/يَبْتَلِي", meaning: "sınadı", semantic: "iftial", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:2", form: "لِيَبْلُوَكُمْ", note: "hangisi daha güzel amel — imtihan" },
+    ],
+    turkish_traces: ["belâ", "ibtilâ", "müptelâ"],
+  },
+  "ع-ز-ز": {
+    core: "güçlü olmak, üstün olmak, aziz olmak",
+    mufradat_note: "Üstünlük, galebe, yenilmezlik. Azîz: güçlü, yenilmez, değerli. İzzet: şeref, onur. Ta'zîz: güçlendirme. Allah'ın sıfatı olarak el-Azîz: mutlak güç sahibi.",
+    quran_count: 119,
+    derivatives: [
+      { form: "عَزِيز", pattern: "فَعِيل", type: "sıfat", meaning: "güçlü, azîz" },
+      { form: "عِزَّة", pattern: "فِعْلَة", type: "masdar", meaning: "izzet, onur" },
+      { form: "أَعَزَّ", pattern: "أَفْعَل", type: "ism-i tafdîl", meaning: "daha güçlü" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "عَزَّ/يَعِزُّ", meaning: "güçlü oldu", semantic: "temel eylem", lessons: [] },
+      { bab: "II", form: "عَزَّزَ/يُعَزِّزُ", meaning: "güçlendirdi", semantic: "teksîr", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:2", form: "الْعَزِيزُ", note: "O Azîz'dir — mutlak güç" },
+    ],
+    turkish_traces: ["azîz", "izzet", "ta'zîz", "muazzez"],
+  },
+  "س-ب-ع": {
+    core: "yedi",
+    mufradat_note: "Yedi sayısı. Kur'ân'da çokluk ve tamamlık ifade eder. Seb' semâvât: yedi kat gök — kozmik düzenin katmanlılığı.",
+    quran_count: 28,
+    derivatives: [
+      { form: "سَبْع", pattern: "فَعْل", type: "sayı", meaning: "yedi" },
+      { form: "سَبْعُون", pattern: "—", type: "sayı", meaning: "yetmiş" },
+      { form: "سُبُع", pattern: "فُعُل", type: "isim", meaning: "yedide bir" },
+    ],
+    bab_chain: [],
+    cross_refs: [
+      { lesson: "L30", verse: "67:3", form: "سَبْعَ", note: "yedi kat göğü yaratan" },
+    ],
+    turkish_traces: ["seb'a"],
+  },
+  "ط-ب-ق": {
+    core: "katmak, üst üste koymak, uygunluk",
+    mufradat_note: "Birbiri üzerine konulmuş katmanlar. Tabak/tıbâk: kat, tabaka. Mutâbakat: uygunluk, örtüşme. Yedi gök tabaka tabaka yaratılmıştır.",
+    quran_count: 7,
+    derivatives: [
+      { form: "طِبَاق", pattern: "فِعَال", type: "isim", meaning: "tabakalar, katlar" },
+      { form: "طَبَقَة", pattern: "فَعَلَة", type: "isim", meaning: "tabaka, kat" },
+    ],
+    bab_chain: [
+      { bab: "III", form: "طَابَقَ/يُطَابِقُ", meaning: "uygun düştü", semantic: "müfâale", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:3", form: "طِبَاقًا", note: "tabaka tabaka — yedi gök" },
+    ],
+    turkish_traces: ["tabaka", "tatbîk", "mutâbakat"],
+  },
+  "ز-ي-ن": {
+    core: "süslemek, güzelleştirmek",
+    mufradat_note: "Güzelleştirmek, süslemek. Zînet: süs. Tezyîn: bezeme. Allah en yakın göğü yıldızlarla süslemiştir (67:5). Şeytanın tezyîni: kötüyü güzel göstermesi.",
+    quran_count: 46,
+    derivatives: [
+      { form: "زِينَة", pattern: "فِعْلَة", type: "isim", meaning: "süs" },
+      { form: "تَزْيِين", pattern: "تَفْعِيل", type: "masdar (II)", meaning: "süsleme" },
+      { form: "مُزَيَّن", pattern: "مُفَعَّل", type: "ism-i mef'ûl (II)", meaning: "süslenmiş" },
+    ],
+    bab_chain: [
+      { bab: "II", form: "زَيَّنَ/يُزَيِّنُ", meaning: "süsledi", semantic: "teksîr", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:5", form: "زَيَّنَّا", note: "dünya göğünü kandillerle süsledik" },
+    ],
+    turkish_traces: ["zînet", "tezyîn", "tezyînât"],
+  },
+  "ر-ج-م": {
+    core: "taşlamak, kovmak",
+    mufradat_note: "Taş atmak. Recm: taşlama, kovma. Racîm: kovulmuş (şeytan). Rucûm: yıldız kaymaları — şeytanları kovalamak için.",
+    quran_count: 14,
+    derivatives: [
+      { form: "رَجْم", pattern: "فَعْل", type: "masdar", meaning: "taşlama" },
+      { form: "رُجُوم", pattern: "فُعُول", type: "cem", meaning: "atılan taşlar, kayan yıldızlar" },
+      { form: "رَجِيم", pattern: "فَعِيل", type: "sıfat", meaning: "kovulmuş" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "رَجَمَ/يَرْجُمُ", meaning: "taşladı", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:5", form: "رُجُومًا", note: "şeytanlara atılan yıldızlar" },
+    ],
+    turkish_traces: ["recm", "racîm"],
+  },
+  "ش-ط-ن": {
+    core: "uzaklaşmak, isyan etmek",
+    mufradat_note: "Haktan uzaklaşmak. Şeytân: haktan sapan, uzaklaşan — hem cin hem insan olabilir. Kur'ân'da İblîs'in özel ismi değil, tüm isyankâr varlıkları kapsayan bir cins isimdir.",
+    quran_count: 88,
+    derivatives: [
+      { form: "شَيْطَان", pattern: "فَيْعَال", type: "isim", meaning: "şeytan" },
+      { form: "شَيَاطِين", pattern: "—", type: "cem", meaning: "şeytanlar" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "شَطَنَ/يَشْطُنُ", meaning: "uzaklaştı", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:5", form: "لِّلشَّيَاطِينِ", note: "şeytanlara karşı — kayan yıldızlar" },
+    ],
+    turkish_traces: ["şeytan", "şeytânî"],
+  },
+  "ع-ت-د": {
+    core: "hazırlamak",
+    mufradat_note: "Önceden hazırlamak, tedarik etmek. A'tedna: hazırladık. Atîd: hazır, müheyya. Kur'ân'da genellikle azâbın hazırlanması bağlamında gelir.",
+    quran_count: 17,
+    derivatives: [
+      { form: "عَتِيد", pattern: "فَعِيل", type: "sıfat", meaning: "hazır, müheyya" },
+    ],
+    bab_chain: [
+      { bab: "IV", form: "أَعْتَدَ/يُعْتِدُ", meaning: "hazırladı", semantic: "ta'diye", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:5", form: "وَأَعْتَدْنَا", note: "onlara alevli azap hazırladık" },
+    ],
+    turkish_traces: ["atîd", "i'dâd"],
+  },
+  "ص-ي-ر": {
+    core: "dönmek, varmak, sonuçlanmak",
+    mufradat_note: "Bir halden başka hale geçmek, bir yere varmak. Masîr: varış yeri, son durak. Kur'ân'da dönüşün Allah'a olduğu vurgulanır: 'dönüş yalnız O'nadır'.",
+    quran_count: 32,
+    derivatives: [
+      { form: "مَصِير", pattern: "مَفْعِل", type: "ism-i mekân", meaning: "varış yeri, son" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "صَارَ/يَصِيرُ", meaning: "oldu, döndü", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:6", form: "الْمَصِيرُ", note: "ne kötü varış yeri" },
+    ],
+    turkish_traces: ["masîr", "sâir"],
+  },
+  "ع-ب-س": {
+    core: "yüzünü asmak, surat asmak",
+    mufradat_note: "Yüzünü ekşitmek, surat asmak. Abese: kaşlarını çattı, hoşnutsuzluk gösterdi. Sûrenin adı: Hz. Peygamber'in âmâ sahâbîye karşı tutumunu konu alır.",
+    quran_count: 3,
+    derivatives: [
+      { form: "عَبَسَ", pattern: "فَعَلَ", type: "fiil", meaning: "yüzünü astı" },
+      { form: "عُبُوس", pattern: "فُعُول", type: "masdar", meaning: "surat asma, somurtma" },
+      { form: "عَبُوس", pattern: "فَعُول", type: "sıfat", meaning: "somurtan, asık suratlı" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "عَبَسَ/يَعْبِسُ", meaning: "surat astı", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L40", verse: "80:1", form: "عَبَسَ", note: "yüzünü astı ve döndü" },
+    ],
+    turkish_traces: ["abûs"],
+  },
+  "ص-ح-ف": {
+    core: "sahife, sayfa, yazılı levha",
+    mufradat_note: "Yazı yazılan yüzey. Suhuf: sayfalar, sahîfeler — ilk vahiy sayfaları. Mushaf: sahîfelerin bir araya getirilmiş hali. Kur'ân'ın 'suhuf-ı mükerrreme'de olduğu bildirilir.",
+    quran_count: 8,
+    derivatives: [
+      { form: "صَحِيفَة", pattern: "فَعِيلَة", type: "isim", meaning: "sayfa" },
+      { form: "صُحُف", pattern: "فُعُل", type: "cem", meaning: "sayfalar" },
+      { form: "مُصْحَف", pattern: "مُفْعَل", type: "isim", meaning: "mushaf" },
+    ],
+    bab_chain: [],
+    cross_refs: [
+      { lesson: "L40", verse: "80:13", form: "صُحُفٍ", note: "şerefli sahîfelerde" },
+    ],
+    turkish_traces: ["sahîfe", "suhuf", "mushaf"],
+  },
+  "ط-ه-ر": {
+    core: "temiz olmak, arınmak",
+    mufradat_note: "Pislikten arınmak. Tahâret: temizlik, arınma. Mutahhar: tertemiz kılınmış. Hem bedenî hem manevî temizlik. Kur'ân sahîfelerine ancak temiz olanlar dokunur.",
+    quran_count: 31,
+    derivatives: [
+      { form: "طَهَارَة", pattern: "فَعَالَة", type: "masdar", meaning: "temizlik" },
+      { form: "مُطَهَّر", pattern: "مُفَعَّل", type: "ism-i mef'ûl (II)", meaning: "tertemiz kılınmış" },
+      { form: "تَطْهِير", pattern: "تَفْعِيل", type: "masdar (II)", meaning: "arındırma" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "طَهُرَ/يَطْهُرُ", meaning: "temiz oldu", semantic: "temel eylem", lessons: [] },
+      { bab: "II", form: "طَهَّرَ/يُطَهِّرُ", meaning: "temizledi", semantic: "ta'diye", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L40", verse: "80:14", form: "مُّطَهَّرَةٍ", note: "tertemiz (kılınmış sahîfeler)" },
+    ],
+    turkish_traces: ["tahâret", "mutahhar", "tathîr"],
+  },
+  "ن-ط-ف": {
+    core: "damlamak, nutfe",
+    mufradat_note: "Damla, az su. Nutfe: menî damlası — insanın yaratılışının ilk maddesi. Kur'ân'da insanın 'basit bir damladan' yaratıldığı vurgulanarak kibir kırılır.",
+    quran_count: 12,
+    derivatives: [
+      { form: "نُطْفَة", pattern: "فُعْلَة", type: "isim", meaning: "nutfe, damla" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "نَطَفَ/يَنْطُفُ", meaning: "damladı", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L40", verse: "80:19", form: "نُّطْفَةٍ", note: "bir nutfeden yarattı" },
+    ],
+    turkish_traces: ["nutfe"],
+  },
+  "ن-ب-ت": {
+    core: "bitmek, yeşermek",
+    mufradat_note: "Bitkinin topraktan çıkması. Nebât: bitki. İnbât: bitirmek, yetiştirmek (Allah'a nisbet). Çocuğun büyümesi de 'inbât' ile ifade edilir (71:17).",
+    quran_count: 26,
+    derivatives: [
+      { form: "نَبَات", pattern: "فَعَال", type: "isim", meaning: "bitki" },
+      { form: "إِنْبَات", pattern: "إِفْعَال", type: "masdar (IV)", meaning: "bitirme" },
+      { form: "مُنْبِت", pattern: "مُفْعِل", type: "ism-i fâil (IV)", meaning: "bitiren" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "نَبَتَ/يَنْبُتُ", meaning: "bitti, yeşerdi", semantic: "temel eylem", lessons: [] },
+      { bab: "IV", form: "أَنْبَتَ/يُنْبِتُ", meaning: "bitirdi", semantic: "ta'diye", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L40", verse: "80:27", form: "فَأَنۢبَتْنَا", note: "bitirdik — nimet hatırlatma" },
+    ],
+    turkish_traces: ["nebât", "nebâtât"],
+  },
+  "ق-ت-ل": {
+    core: "öldürmek, savaşmak",
+    mufradat_note: "Hayata son vermek. Katl: öldürme. Kıtâl: savaş. Kutile: bedduâ kalıbında da kullanılır (80:17) — 'kahrolsun!' anlamında.",
+    quran_count: 170,
+    derivatives: [
+      { form: "قَتْل", pattern: "فَعْل", type: "masdar", meaning: "öldürme" },
+      { form: "قِتَال", pattern: "فِعَال", type: "masdar (III)", meaning: "savaş" },
+      { form: "قَاتِل", pattern: "فَاعِل", type: "ism-i fâil", meaning: "öldüren" },
+      { form: "مَقْتُول", pattern: "مَفْعُول", type: "ism-i mef'ûl", meaning: "öldürülmüş" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "قَتَلَ/يَقْتُلُ", meaning: "öldürdü", semantic: "temel eylem", lessons: [] },
+      { bab: "III", form: "قَاتَلَ/يُقَاتِلُ", meaning: "savaştı", semantic: "müfâale", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L40", verse: "80:17", form: "قُتِلَ", note: "kahrolsun insan! — bedduâ" },
+    ],
+    turkish_traces: ["katl", "kıtâl", "mukatele"],
+  },
+  "ن-ظ-ر": {
+    core: "bakmak, gözetmek, beklemek",
+    mufradat_note: "Gözle bakmak ve akılla düşünmek. Nazar: bakış, düşünce. Münâzara: karşılıklı tartışma. İntizâr: bekleme. Kur'ân'da 'baksın insan yiyeceğine' — tefekkür daveti.",
+    quran_count: 129,
+    derivatives: [
+      { form: "نَظَر", pattern: "فَعَل", type: "masdar", meaning: "bakma, düşünme" },
+      { form: "نَاظِر", pattern: "فَاعِل", type: "ism-i fâil", meaning: "bakan" },
+      { form: "مَنْظَر", pattern: "مَفْعَل", type: "ism-i mekân", meaning: "manzara" },
+      { form: "اِنْتِظَار", pattern: "اِفْتِعَال", type: "masdar (VIII)", meaning: "bekleme" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "نَظَرَ/يَنْظُرُ", meaning: "baktı", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L40", verse: "80:24", form: "فَلْيَنظُرِ", note: "baksın insan yiyeceğine" },
+    ],
+    turkish_traces: ["nazar", "nazariye", "münâzara", "intizâr", "manzara"],
+  },
+  "ض-ح-ك": {
+    core: "gülmek",
+    mufradat_note: "Sevinçten gülme. Dâhike: gülen (yüzler). Kur'ân'da ahiretteki karşıtlık: mü'minlerin yüzleri güler, kâfirlerin yüzlerini karanlık kaplar.",
+    quran_count: 5,
+    derivatives: [
+      { form: "ضَحِك", pattern: "فَعِل", type: "masdar", meaning: "gülme" },
+      { form: "ضَاحِك", pattern: "فَاعِل", type: "ism-i fâil", meaning: "gülen" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "ضَحِكَ/يَضْحَكُ", meaning: "güldü", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L40", verse: "80:39", form: "ضَاحِكَةٌ", note: "gülen müjdelenmiş yüzler" },
+    ],
+    turkish_traces: [],
+  },
+  "ب-ش-ر": {
+    core: "müjdelemek, deri, insan",
+    mufradat_note: "Deri (beşere). İnsana beşer denmesi derisiyle diğer canlılardan ayrılmasından. Büşrâ: müjde. İstibşâr: sevinç — müjdeyi alınca yüzde beliren parlaklık.",
+    quran_count: 123,
+    derivatives: [
+      { form: "بَشَر", pattern: "فَعَل", type: "isim", meaning: "insan" },
+      { form: "بُشْرَى", pattern: "فُعْلَى", type: "isim", meaning: "müjde" },
+      { form: "بَشِير", pattern: "فَعِيل", type: "sıfat", meaning: "müjdeci" },
+      { form: "مُسْتَبْشِر", pattern: "مُسْتَفْعِل", type: "ism-i fâil (X)", meaning: "sevinçli" },
+    ],
+    bab_chain: [
+      { bab: "II", form: "بَشَّرَ/يُبَشِّرُ", meaning: "müjdeledi", semantic: "teksîr", lessons: [] },
+      { bab: "X", form: "اِسْتَبْشَرَ/يَسْتَبْشِرُ", meaning: "sevindi", semantic: "istek", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L40", verse: "80:39", form: "مُّسْتَبْشِرَةٌ", note: "sevinçli yüzler" },
+    ],
+    turkish_traces: ["beşer", "mübeşşir", "büşrâ", "beşâret"],
+  },
+  "ع-د-ل": {
+    core: "doğrultmak, dengelemek, adalet",
+    mufradat_note: "Eşitlemek, dengelemek, düzgün yapmak. Adl: adalet. Ta'dîl: düzeltme. İ'tidâl: denge. Allah'ın insanı 'ta'dîl etmesi': organları dengeli, orantılı yaratması (82:7).",
+    quran_count: 29,
+    derivatives: [
+      { form: "عَدْل", pattern: "فَعْل", type: "masdar/isim", meaning: "adalet, denklik" },
+      { form: "تَعْدِيل", pattern: "تَفْعِيل", type: "masdar (II)", meaning: "düzeltme, dengeleme" },
+      { form: "اِعْتِدَال", pattern: "اِفْتِعَال", type: "masdar (VIII)", meaning: "denge" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "عَدَلَ/يَعْدِلُ", meaning: "adaletli davrandı", semantic: "temel eylem", lessons: [] },
+      { bab: "II", form: "عَدَّلَ/يُعَدِّلُ", meaning: "düzeltti, dengeledi", semantic: "teksîr", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L44", verse: "82:7", form: "فَعَدَلَكَ", note: "seni dengeli yarattı" },
+    ],
+    turkish_traces: ["adl", "adâlet", "ta'dîl", "i'tidâl", "mu'tedil"],
+  },
+  "ص-و-ر": {
+    core: "şekil vermek, suret, biçim",
+    mufradat_note: "Biçim, suret. Tasvîr: şekillendirme. el-Musavvir: Allah'ın sıfatı — her şeye benzersiz biçim veren. İnsanın 'herhangi bir surette terkîb edilmesi' yaratılış kudretini gösterir (82:8).",
+    quran_count: 19,
+    derivatives: [
+      { form: "صُورَة", pattern: "فُعْلَة", type: "isim", meaning: "suret, biçim" },
+      { form: "تَصْوِير", pattern: "تَفْعِيل", type: "masdar (II)", meaning: "şekillendirme" },
+      { form: "مُصَوِّر", pattern: "مُفَعِّل", type: "ism-i fâil (II)", meaning: "şekil veren" },
+    ],
+    bab_chain: [
+      { bab: "II", form: "صَوَّرَ/يُصَوِّرُ", meaning: "şekillendirdi", semantic: "ta'diye", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L44", verse: "82:8", form: "صُورَةٍ", note: "dilediği surette terkîb etti" },
+    ],
+    turkish_traces: ["sûret", "tasvîr", "musavvir"],
+  },
+  "ر-ك-ب": {
+    core: "binmek, birleştirmek, terkip etmek",
+    mufradat_note: "Binmek, bir araya getirmek. Terkîb: birleştirme, yapı. Merkeb: binek. Kur'ân'da Allah'ın insanı 'terkîb etmesi': parçaları bir araya getirip biçim vermesi.",
+    quran_count: 14,
+    derivatives: [
+      { form: "رُكُوب", pattern: "فُعُول", type: "masdar", meaning: "binme" },
+      { form: "تَرْكِيب", pattern: "تَفْعِيل", type: "masdar (II)", meaning: "birleştirme" },
+      { form: "مَرْكَب", pattern: "مَفْعَل", type: "isim", meaning: "binek" },
+      { form: "رَاكِب", pattern: "فَاعِل", type: "ism-i fâil", meaning: "binici" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "رَكِبَ/يَرْكَبُ", meaning: "bindi", semantic: "temel eylem", lessons: [] },
+      { bab: "II", form: "رَكَّبَ/يُرَكِّبُ", meaning: "birleştirdi", semantic: "teksîr", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L44", verse: "82:8", form: "رَكَّبَكَ", note: "seni (organlarını) birleştirdi" },
+    ],
+    turkish_traces: ["terkîb", "merkeb", "rükûb", "mürekkeb"],
+  },
+  "ح-ف-ظ": {
+    core: "korumak, muhafaza etmek, ezberlemek",
+    mufradat_note: "Bir şeyi kaybolmaktan ve bozulmaktan korumak. Hıfz: koruma, ezberleme. Hâfız: koruyan, hafız. Kur'ân'ın korunması (15:9). İnsanın üzerinde koruyucu (hafaza) melekler vardır.",
+    quran_count: 44,
+    derivatives: [
+      { form: "حِفْظ", pattern: "فِعْل", type: "masdar", meaning: "koruma" },
+      { form: "حَافِظ", pattern: "فَاعِل", type: "ism-i fâil", meaning: "koruyan, hafız" },
+      { form: "مَحْفُوظ", pattern: "مَفْعُول", type: "ism-i mef'ûl", meaning: "korunmuş" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "حَفِظَ/يَحْفَظُ", meaning: "korudu", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L44", verse: "82:10", form: "لَحَـٰفِظِينَ", note: "üzerinizde koruyucular (melekler)" },
+    ],
+    turkish_traces: ["hıfz", "hafız", "muhafaza", "mahfûz"],
+  },
+  "ق-ل-م": {
+    core: "kesmek, kalem",
+    mufradat_note: "Kesmek, yontmak. Kalem: yazı aleti — ucu kesilerek yontulmasından. Allah'ın 'kalemle öğretmesi' (96:4) yazının ilâhî bir nimet olduğunu gösterir.",
+    quran_count: 4,
+    derivatives: [
+      { form: "قَلَم", pattern: "فَعَل", type: "isim", meaning: "kalem" },
+      { form: "أَقْلَام", pattern: "أَفْعَال", type: "cem", meaning: "kalemler" },
+    ],
+    bab_chain: [],
+    cross_refs: [
+      { lesson: "L47", verse: "96:4", form: "بِٱلْقَلَمِ", note: "kalemle öğreten" },
+    ],
+    turkish_traces: ["kalem", "taklîm"],
+  },
+  "ف-ر-ر": {
+    core: "kaçmak, firar etmek",
+    mufradat_note: "Korkudan veya tiksinmeden kaçmak. Firâr: kaçış. Kur'ân'da kıyâmet günü kaçışı: kişi kardeşinden, annesinden, babasından kaçar — hiçbir sığınak yoktur.",
+    quran_count: 6,
+    derivatives: [
+      { form: "فِرَار", pattern: "فِعَال", type: "masdar", meaning: "kaçış" },
+      { form: "فَارّ", pattern: "فَاعِل", type: "ism-i fâil", meaning: "kaçan" },
+      { form: "مَفَرّ", pattern: "مَفْعَل", type: "ism-i mekân", meaning: "kaçacak yer" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "فَرَّ/يَفِرُّ", meaning: "kaçtı", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L40", verse: "80:34", form: "يَفِرُّ", note: "kişi kardeşinden kaçar" },
+    ],
+    turkish_traces: ["firâr", "ferâr"],
+  },
+  "أ-خ-و": {
+    core: "kardeş olmak",
+    mufradat_note: "Kardeş, arkadaş. Ah/ahu: erkek kardeş. Uht: kız kardeş. Uhuvvet: kardeşlik. Kur'ân'da hem soy kardeşliği hem din kardeşliği ifade eder.",
+    quran_count: 96,
+    derivatives: [
+      { form: "أَخ", pattern: "فَع", type: "isim", meaning: "kardeş" },
+      { form: "إِخْوَة", pattern: "فِعْلَة", type: "cem", meaning: "kardeşler (soy)" },
+      { form: "إِخْوَان", pattern: "فِعْلَان", type: "cem", meaning: "kardeşler (din)" },
+      { form: "أُخْت", pattern: "فُعْل", type: "isim", meaning: "kız kardeş" },
+    ],
+    bab_chain: [],
+    cross_refs: [
+      { lesson: "L40", verse: "80:34", form: "أَخِيهِ", note: "kardeşinden kaçar" },
+    ],
+    turkish_traces: ["ahî", "uhuvvet"],
+  },
+  "أ-م-م": {
+    core: "anne, topluluk, yönelmek",
+    mufradat_note: "Asıl, kaynak. Umm: anne — her şeyin aslı. Ümmet: topluluk. İmâm: önder. Ümmî: anadan doğma, okuma-yazma bilmeyen. Kur'ân'da üç temel anlam: anne, topluluk, önder.",
+    quran_count: 119,
+    derivatives: [
+      { form: "أُمّ", pattern: "فُعْل", type: "isim", meaning: "anne" },
+      { form: "أُمَّة", pattern: "فُعْلَة", type: "isim", meaning: "topluluk, ümmet" },
+      { form: "إِمَام", pattern: "فِعَال", type: "isim", meaning: "önder, imam" },
+      { form: "أُمِّيّ", pattern: "فُعْلِيّ", type: "nisbet", meaning: "ümmî" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "أَمَّ/يَؤُمُّ", meaning: "yöneldi, öne geçti", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L40", verse: "80:35", form: "وَأُمِّهِۦ", note: "ve annesinden (kaçar)" },
+    ],
+    turkish_traces: ["ümmet", "imam", "ümmî"],
+  },
+  "أ-ب-و": {
+    core: "baba, ata",
+    mufradat_note: "Baba. Eb/ebu: baba. Âbâ': atalar. Kur'ân'da hem biyolojik babalık hem manevî öncülük anlamında. Ataların yolunu körü körüne izleme eleştirilir.",
+    quran_count: 117,
+    derivatives: [
+      { form: "أَب", pattern: "فَع", type: "isim", meaning: "baba" },
+      { form: "آبَاء", pattern: "أَفْعَال", type: "cem", meaning: "babalar, atalar" },
+    ],
+    bab_chain: [],
+    cross_refs: [
+      { lesson: "L40", verse: "80:35", form: "وَأَبِيهِ", note: "ve babasından (kaçar)" },
+    ],
+    turkish_traces: ["eb", "ebeveyn"],
+  },
+  "ب-ن-و": {
+    core: "oğul, çocuk, inşa etmek",
+    mufradat_note: "Oğul, evlât. İbn: oğul. Binâ: bina, yapı — oğul ailenin yapısını devam ettirir. Kur'ân'da benûn: oğullar; benât: kızlar.",
+    quran_count: 161,
+    derivatives: [
+      { form: "اِبْن", pattern: "—", type: "isim", meaning: "oğul" },
+      { form: "بَنُون", pattern: "—", type: "cem", meaning: "oğullar" },
+      { form: "بِنْت", pattern: "—", type: "isim", meaning: "kız" },
+      { form: "بِنَاء", pattern: "فِعَال", type: "masdar", meaning: "yapı, bina" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "بَنَى/يَبْنِي", meaning: "inşa etti", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L40", verse: "80:36", form: "وَبَنِيهِ", note: "ve çocuklarından (kaçar)" },
+    ],
+    turkish_traces: ["ibn", "bina", "binâ", "bennâ"],
+  },
+  "و-ق-ي": {
+    core: "korumak, sakınmak",
+    mufradat_note: "Bir şeyi zararlıdan korumak. Vikâye: koruma kalkanı. Takvâ: Allah'tan sakınma — Kur'ân'ın en merkezi kavramlarından. Muttakî: takvâ sahibi. İttikâ: korunma, sakınma.",
+    quran_count: 258,
+    derivatives: [
+      { form: "تَقْوَى", pattern: "تَفْعَلَ", type: "masdar", meaning: "takvâ, sakınma" },
+      { form: "مُتَّقٍ", pattern: "مُفْتَعِل", type: "ism-i fâil (VIII)", meaning: "muttakî" },
+      { form: "وِقَايَة", pattern: "فِعَالَة", type: "masdar", meaning: "koruma, korunma" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "وَقَى/يَقِي", meaning: "korudu", semantic: "temel eylem", lessons: [] },
+      { bab: "VIII", form: "اِتَّقَى/يَتَّقِي", meaning: "sakındı, korundu", semantic: "iftial", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L47", verse: "96:12", form: "بِٱلتَّقْوَىٰ", note: "takvâ — o takvâ emrettiyse?" },
+    ],
+    turkish_traces: ["takvâ", "muttakî", "vikâye", "ittikâ"],
+  },
+  "ق-ل-ب": {
+    core: "çevirmek, dönmek, kalp",
+    mufradat_note: "Bir şeyi alt üst etmek, çevirmek. Kalb: sürekli dönen, halden hale geçen organ — bu yüzden kalbe bu ad verilmiştir. Kalb hem somut organ hem manevî idrak merkezi.",
+    quran_count: 168,
+    derivatives: [
+      { form: "قَلْب", pattern: "فَعْل", type: "isim", meaning: "kalp" },
+      { form: "تَقَلُّب", pattern: "تَفَعُّل", type: "masdar (V)", meaning: "dönme, çevrilme" },
+      { form: "اِنْقِلَاب", pattern: "اِنْفِعَال", type: "masdar (VII)", meaning: "dönüş, devrim" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "قَلَبَ/يَقْلِبُ", meaning: "çevirdi", semantic: "temel eylem", lessons: [] },
+      { bab: "VII", form: "اِنْقَلَبَ/يَنْقَلِبُ", meaning: "döndü", semantic: "mutâvaat", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:4", form: "يَنقَلِبْ", note: "bakış sana dönecektir" },
+    ],
+    turkish_traces: ["kalb", "inkılâb", "münkalîb"],
+  },
+  "خ-ب-ر": {
+    core: "haberdar olmak, bilgi, tecrübe",
+    mufradat_note: "Bir şeyin iç yüzünü, künhünü bilmek. Habîr: her şeyin iç yüzünden haberdar (Allah'ın sıfatı). Haber: bilgi, haber. Hibre: deneyim, tecrübe.",
+    quran_count: 52,
+    derivatives: [
+      { form: "خَبِير", pattern: "فَعِيل", type: "sıfat", meaning: "her şeyden haberdar" },
+      { form: "خَبَر", pattern: "فَعَل", type: "isim", meaning: "haber" },
+      { form: "أَخْبَار", pattern: "أَفْعَال", type: "cem", meaning: "haberler" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "خَبَرَ/يَخْبُرُ", meaning: "haberdar oldu", semantic: "temel eylem", lessons: [] },
+      { bab: "IV", form: "أَخْبَرَ/يُخْبِرُ", meaning: "haber verdi", semantic: "ta'diye", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:14", form: "الْخَبِيرُ", note: "O Latîf'tir, Habîr'dir" },
+    ],
+    turkish_traces: ["haber", "habîr", "muhbir", "ihbâr"],
+  },
+  "ل-ط-ف": {
+    core: "ince olmak, lütfetmek",
+    mufradat_note: "İncelik, yumuşaklık, gizli iyilik. Latîf: en ince ayrıntıları bilen, kullarına gizlice iyilik eden. Lutf: incelik, ihsan. el-Latîf: Allah'ın sıfatı — hem bilgide hem fiilde incelik.",
+    quran_count: 7,
+    derivatives: [
+      { form: "لَطِيف", pattern: "فَعِيل", type: "sıfat", meaning: "lütufkâr, ince" },
+      { form: "لُطْف", pattern: "فُعْل", type: "masdar", meaning: "lütuf" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "لَطُفَ/يَلْطُفُ", meaning: "ince oldu", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:14", form: "اللَّطِيفُ", note: "O Latîf'tir — ince bilen" },
+    ],
+    turkish_traces: ["latîf", "lütuf", "letâfet"],
+  },
+  "ذ-ل-ل": {
+    core: "boyun eğmek, zelil olmak, uysal olmak",
+    mufradat_note: "Boyun eğme, itaatkârlık. Zelûl: uysal, boyun eğmiş (hayvan). Zillet: aşağılık, horluk. Tezkîl: hor kılma. Yerin 'zelûl' kılınması: insana boyun eğmesi, yürümeye elverişli olması.",
+    quran_count: 24,
+    derivatives: [
+      { form: "ذَلُول", pattern: "فَعُول", type: "sıfat", meaning: "uysal, boyun eğmiş" },
+      { form: "ذُلّ", pattern: "فُعْل", type: "masdar", meaning: "zillet, boyun eğme" },
+      { form: "ذَلِيل", pattern: "فَعِيل", type: "sıfat", meaning: "zelil, hor" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "ذَلَّ/يَذِلُّ", meaning: "boyun eğdi", semantic: "temel eylem", lessons: [] },
+      { bab: "II", form: "ذَلَّلَ/يُذَلِّلُ", meaning: "uysal kıldı", semantic: "ta'diye", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:15", form: "ذَلُولًا", note: "yeri size boyun eğmiş kıldı" },
+    ],
+    turkish_traces: ["zelîl", "zillet", "tezlîl"],
+  },
+  "ط-ي-ر": {
+    core: "uçmak, kuş",
+    mufradat_note: "Uçmak. Tayr/tâir: kuş. Tatâyur: uğursuzluk sayma (kuşların uçuşundan falcılık). Kur'ân'da kuşların uçuşu Allah'ın kudret delili.",
+    quran_count: 28,
+    derivatives: [
+      { form: "طَيْر", pattern: "فَعْل", type: "isim", meaning: "kuş(lar)" },
+      { form: "طَائِر", pattern: "فَاعِل", type: "ism-i fâil", meaning: "kuş, uçan" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "طَارَ/يَطِيرُ", meaning: "uçtu", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:19", form: "الطَّيْرِ", note: "kuşlara bakmazlar mı?" },
+    ],
+    turkish_traces: ["tayr", "tâir", "tayarân"],
+  },
+  "ص-ف-ف": {
+    core: "sıra olmak, dizmek",
+    mufradat_note: "Sıra halinde dizilmek. Saff: saf, dizi. Sâffât: kanatlarını açıp sıra halinde uçan kuşlar. Namazda saf tutma da bu köktendir.",
+    quran_count: 13,
+    derivatives: [
+      { form: "صَفّ", pattern: "فَعْل", type: "isim", meaning: "saf, sıra" },
+      { form: "صَافَّة", pattern: "فَاعِلَة", type: "ism-i fâil", meaning: "kanat açan" },
+      { form: "صُفُوف", pattern: "فُعُول", type: "cem", meaning: "saflar" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "صَفَّ/يَصُفُّ", meaning: "dizildi", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:19", form: "صَافَّاتٍ", note: "kanatlarını açarak (uçan kuşlar)" },
+    ],
+    turkish_traces: ["saff", "saf"],
+  },
+  "ق-ب-ض": {
+    core: "tutmak, kavramak, kapamak",
+    mufradat_note: "Eli kapamak, sıkmak. Kabz: tutma, sıkma — bast'ın (açma) zıddı. Kuşların kanatlarını 'kabzetmesi': kapatması, indirmesi.",
+    quran_count: 12,
+    derivatives: [
+      { form: "قَبْض", pattern: "فَعْل", type: "masdar", meaning: "tutma, kapama" },
+      { form: "قَابِض", pattern: "فَاعِل", type: "ism-i fâil", meaning: "tutan, daraltıcı" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "قَبَضَ/يَقْبِضُ", meaning: "tuttu, kapadı", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:19", form: "وَيَقْبِضْنَ", note: "ve (kanatlarını) kaparlar" },
+    ],
+    turkish_traces: ["kabz", "makbûz"],
+  },
+  "ه-ل-ك": {
+    core: "helâk olmak, yok olmak",
+    mufradat_note: "Yok olma, telef olma. Helâk: mahvolma. İhlâk: helâk etme. Tehlike: tehlike — helâke yakınlık. Kur'ân'da geçmiş kavimlerin helâki ibret olarak anlatılır.",
+    quran_count: 67,
+    derivatives: [
+      { form: "هَلَاك", pattern: "فَعَال", type: "masdar", meaning: "helâk, yıkım" },
+      { form: "إِهْلَاك", pattern: "إِفْعَال", type: "masdar (IV)", meaning: "helâk etme" },
+      { form: "هَالِك", pattern: "فَاعِل", type: "ism-i fâil", meaning: "helâk olan" },
+      { form: "مُهْلَك", pattern: "مُفْعَل", type: "ism-i mef'ûl (IV)", meaning: "helâk edilmiş" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "هَلَكَ/يَهْلِكُ", meaning: "helâk oldu", semantic: "temel eylem", lessons: [] },
+      { bab: "IV", form: "أَهْلَكَ/يُهْلِكُ", meaning: "helâk etti", semantic: "ta'diye", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:28", form: "أَهْلَكَنِيَ", note: "Allah beni helâk ederse" },
+    ],
+    turkish_traces: ["helâk", "tehlike", "mühlik"],
+  },
+  "أ-ج-ر": {
+    core: "ücret, karşılık, ödül",
+    mufradat_note: "İş karşılığı verilen ücret. Ecr: ödül, mükâfât. İcâr: kiralama. Kur'ân'da amellerin karşılığı olan ilâhî ecir. 'Ecr-i azîm': büyük ödül — cennet.",
+    quran_count: 105,
+    derivatives: [
+      { form: "أَجْر", pattern: "فَعْل", type: "isim", meaning: "ecir, ödül" },
+      { form: "أُجْرَة", pattern: "فُعْلَة", type: "isim", meaning: "ücret" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "أَجَرَ/يَأْجُرُ", meaning: "karşılık verdi", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:12", form: "وَأَجْرٌ", note: "mağfiret ve büyük ecir" },
+    ],
+    turkish_traces: ["ecir", "ücret", "icâr", "me'cûr"],
+  },
+  "ش-ك-ر": {
+    core: "şükretmek, teşekkür etmek",
+    mufradat_note: "Nimeti tanıyıp karşılık vermek. Şükür: nimet verene teşekkür. Allah'ın şükrü: kulun amelini kabul edip ödüllendirmesi. Şekûr: çok şükreden / çok ödüllendiren.",
+    quran_count: 75,
+    derivatives: [
+      { form: "شُكْر", pattern: "فُعْل", type: "masdar", meaning: "şükür" },
+      { form: "شَكُور", pattern: "فَعُول", type: "mübalağa", meaning: "çok şükreden" },
+      { form: "شَاكِر", pattern: "فَاعِل", type: "ism-i fâil", meaning: "şükreden" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "شَكَرَ/يَشْكُرُ", meaning: "şükretti", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:23", form: "تَشْكُرُونَ", note: "az şükrediyorsunuz" },
+    ],
+    turkish_traces: ["şükür", "şükrân", "teşekkür", "şekûr"],
+  },
+  "ح-ش-ر": {
+    core: "toplamak, sürmek, haşretmek",
+    mufradat_note: "Bir yere sürüp toplamak. Haşr: kıyâmette tüm insanların toplanması. Mahşer: toplanma yeri. Haşşâr: toplayan.",
+    quran_count: 44,
+    derivatives: [
+      { form: "حَشْر", pattern: "فَعْل", type: "masdar", meaning: "toplama, haşr" },
+      { form: "مَحْشَر", pattern: "مَفْعَل", type: "ism-i mekân", meaning: "toplanma yeri" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "حَشَرَ/يَحْشُرُ", meaning: "topladı", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:24", form: "تُحْشَرُونَ", note: "O'na haşrolunacaksınız" },
+    ],
+    turkish_traces: ["haşr", "mahşer"],
+  },
+  "ص-د-ق": {
+    core: "doğru olmak, doğrulamak",
+    mufradat_note: "Doğruluk. Sıdk: doğruluk, dürüstlük. Sâdık: doğru, dürüst. Tasdîk: doğrulama. Sadaka: Allah yolunda verme — ameldeki doğruluğun ispatı.",
+    quran_count: 155,
+    derivatives: [
+      { form: "صِدْق", pattern: "فِعْل", type: "masdar", meaning: "doğruluk" },
+      { form: "صَادِق", pattern: "فَاعِل", type: "ism-i fâil", meaning: "doğru, sâdık" },
+      { form: "تَصْدِيق", pattern: "تَفْعِيل", type: "masdar (II)", meaning: "doğrulama" },
+      { form: "صَدَقَة", pattern: "فَعَلَة", type: "isim", meaning: "sadaka" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "صَدَقَ/يَصْدُقُ", meaning: "doğru söyledi", semantic: "temel eylem", lessons: [] },
+      { bab: "II", form: "صَدَّقَ/يُصَدِّقُ", meaning: "doğruladı", semantic: "ta'diye", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:25", form: "صَادِقِينَ", note: "doğru söylüyorsanız" },
+    ],
+    turkish_traces: ["sıdk", "sâdık", "sadaka", "tasdîk", "musaddak"],
+  },
+  "أ-ل-م": {
+    core: "acı, ağrı",
+    mufradat_note: "Acı, elem. Elîm: acı verici, şiddetli. Kur'ân'da genellikle 'azâb-ı elîm' şeklinde — cehennem azâbının şiddeti.",
+    quran_count: 72,
+    derivatives: [
+      { form: "أَلَم", pattern: "فَعَل", type: "isim", meaning: "acı, ağrı" },
+      { form: "أَلِيم", pattern: "فَعِيل", type: "sıfat", meaning: "acı verici" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "أَلِمَ/يَأْلَمُ", meaning: "acı çekti", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:28", form: "أَلِيمٍ", note: "acı azaptan kim koruyacak?" },
+    ],
+    turkish_traces: ["elem", "elîm", "müellim"],
+  },
+  "و-ك-ل": {
+    core: "güvenmek, havale etmek, vekil kılmak",
+    mufradat_note: "İşi bir başkasına bırakmak, güvenmek. Tevekkül: Allah'a güvenip dayanma. Vekîl: vekil, güvenilir. el-Vekîl: Allah'ın sıfatı — her işi üstlenen.",
+    quran_count: 70,
+    derivatives: [
+      { form: "تَوَكُّل", pattern: "تَفَعُّل", type: "masdar (V)", meaning: "tevekkül" },
+      { form: "وَكِيل", pattern: "فَعِيل", type: "sıfat", meaning: "vekil, güvenilir" },
+      { form: "مُتَوَكِّل", pattern: "مُتَفَعِّل", type: "ism-i fâil (V)", meaning: "tevekkül eden" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "وَكَلَ/يَكِلُ", meaning: "havale etti", semantic: "temel eylem", lessons: [] },
+      { bab: "V", form: "تَوَكَّلَ/يَتَوَكَّلُ", meaning: "güvenip dayandı", semantic: "tekellüf", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L30", verse: "67:29", form: "تَوَكَّلْنَا", note: "O'na tevekkül ettik" },
+    ],
+    turkish_traces: ["tevekkül", "vekîl", "vekâlet"],
+  },
+  "ب-ر-ز-خ": {
+    core: "engel, perde, ara bölge",
+    mufradat_note: "İki şey arasındaki engel. Berzah: denizler arasındaki görünmez engel; ölümle kıyâmet arasındaki âlem (kabir hayatı). Kur'ân'da iki denizin karışmasını engelleyen berzah vurgulanır.",
+    quran_count: 3,
+    derivatives: [
+      { form: "بَرْزَخ", pattern: "فَعْلَل", type: "isim", meaning: "engel, ara bölge" },
+    ],
+    bab_chain: [],
+    cross_refs: [
+      { lesson: "L35", verse: "55:20", form: "بَرْزَخٌ", note: "aralarında bir engel var — berzah" },
+    ],
+    turkish_traces: ["berzah"],
+  },
+  "ش-ر-ق": {
+    core: "doğmak (güneş), doğu",
+    mufradat_note: "Güneşin doğması. Şark: doğu. Meşrik: güneşin doğduğu yer. İşrâk: aydınlanma, parlaklık. Kur'ân'da meşrıkân (iki doğu): yaz ve kış gün dönümleri.",
+    quran_count: 17,
+    derivatives: [
+      { form: "شَرْق", pattern: "فَعْل", type: "isim", meaning: "doğu" },
+      { form: "مَشْرِق", pattern: "مَفْعِل", type: "ism-i mekân", meaning: "doğu tarafı" },
+      { form: "مَشْرِقَيْن", pattern: "—", type: "tesniye", meaning: "iki doğu" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "شَرَقَ/يَشْرُقُ", meaning: "doğdu (güneş)", semantic: "temel eylem", lessons: [] },
+      { bab: "IV", form: "أَشْرَقَ/يُشْرِقُ", meaning: "aydınlandı", semantic: "sıfat", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L35", verse: "55:17", form: "الْمَشْرِقَيْنِ", note: "iki doğunun ve iki batının Rabbi" },
+    ],
+    turkish_traces: ["şark", "meşrik", "müşrik"],
+  },
+  "غ-ر-ب": {
+    core: "batmak (güneş), batı",
+    mufradat_note: "Güneşin batması, uzaklaşma. Garb: batı. Mağrib: güneşin battığı yer. Gurbet: vatandan uzak olma. Garîb: yabancı, uzak.",
+    quran_count: 15,
+    derivatives: [
+      { form: "غَرْب", pattern: "فَعْل", type: "isim", meaning: "batı" },
+      { form: "مَغْرِب", pattern: "مَفْعِل", type: "ism-i mekân", meaning: "batı tarafı" },
+      { form: "غُرُوب", pattern: "فُعُول", type: "masdar", meaning: "batma" },
+      { form: "غَرِيب", pattern: "فَعِيل", type: "sıfat", meaning: "yabancı, garip" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "غَرَبَ/يَغْرُبُ", meaning: "battı (güneş)", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L35", verse: "55:17", form: "الْمَغْرِبَيْنِ", note: "iki batının Rabbi" },
+    ],
+    turkish_traces: ["garb", "mağrib", "gurbet", "garîb"],
+  },
+  "ز-و-ج": {
+    core: "çift, eş, çiftlemek",
+    mufradat_note: "Eş, çift. Zevc: bir çiftin her bir parçası. Tezvîc: evlendirme. Kur'ân'da her şeyin çift yaratılması ilâhî düzenin kanunu olarak vurgulanır.",
+    quran_count: 81,
+    derivatives: [
+      { form: "زَوْج", pattern: "فَعْل", type: "isim", meaning: "eş, çift" },
+      { form: "أَزْوَاج", pattern: "أَفْعَال", type: "cem", meaning: "eşler, çiftler" },
+      { form: "تَزْوِيج", pattern: "تَفْعِيل", type: "masdar (II)", meaning: "evlendirme" },
+    ],
+    bab_chain: [
+      { bab: "II", form: "زَوَّجَ/يُزَوِّجُ", meaning: "evlendirdi, çiftledi", semantic: "ta'diye", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L35", verse: "55:52", form: "زَوْجَانِ", note: "her meyveden iki çeşit" },
+    ],
+    turkish_traces: ["zevc", "zevce", "izdivaç", "tezvîc"],
+  },
+  "ج-ح-م": {
+    core: "yanıcı ateş, cehennem",
+    mufradat_note: "Şiddetli ateş. Cahîm: kızgın ateş yeri — cehennemin isimlerinden biri. Ateşin şiddetini ve alevlerin büyüklüğünü vurgular.",
+    quran_count: 26,
+    derivatives: [
+      { form: "جَحِيم", pattern: "فَعِيل", type: "isim", meaning: "cehennem, şiddetli ateş" },
+    ],
+    bab_chain: [],
+    cross_refs: [
+      { lesson: "L44", verse: "82:14", form: "جَحِيمٍ", note: "fâcirler elbette cahîmdedir" },
+    ],
+    turkish_traces: ["cahîm"],
+  },
+  "ف-ع-ل": {
+    core: "yapmak, işlemek",
+    mufradat_note: "Bir iş yapmak, eylemde bulunmak. Fi'l: eylem, fiil. Fâil: yapan, özne. Mef'ûl: yapılan, nesne. Nahiv terminolojisinin temelidir.",
+    quran_count: 108,
+    derivatives: [
+      { form: "فِعْل", pattern: "فِعْل", type: "masdar", meaning: "fiil, eylem" },
+      { form: "فَاعِل", pattern: "فَاعِل", type: "ism-i fâil", meaning: "yapan, özne" },
+      { form: "مَفْعُول", pattern: "مَفْعُول", type: "ism-i mef'ûl", meaning: "yapılan" },
+      { form: "فَعَّال", pattern: "فَعَّال", type: "mübalağa", meaning: "çok yapan" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "فَعَلَ/يَفْعَلُ", meaning: "yaptı", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L44", verse: "82:12", form: "تَفْعَلُونَ", note: "ne yaparsanız bilirler" },
+    ],
+    turkish_traces: ["fiil", "fâil", "mef'ûl", "fa'âl"],
+  },
+  "د-و-ن": {
+    core: "aşağı, berisinde, başka",
+    mufradat_note: "Bir şeyin altında, berisinde. Dûn: aşağısında, dışında. Min dûni: ...den başka, ...nin berisinde. Kur'ân'da 'min dûnillâh': Allah'tan başka.",
+    quran_count: 163,
+    derivatives: [
+      { form: "دُون", pattern: "فُعْل", type: "zarf", meaning: "alt, beri, başka" },
+    ],
+    bab_chain: [],
+    cross_refs: [
+      { lesson: "L35", verse: "55:62", form: "وَمِن دُونِهِمَا", note: "ikisinin berisinde iki cennet daha" },
+      { lesson: "L30", verse: "67:20", form: "مِّن دُونِ", note: "Rahmân'dan başka" },
+    ],
+    turkish_traces: ["dûn", "edânî"],
+  },
+  "و-ك-أ": {
+    core: "yaslanmak, dayanmak",
+    mufradat_note: "Bir şeye yaslanmak, dayanmak. İttikâ': yaslanma. Mutteki': yaslanan, dayanan. Cennet ehli için konfor ve huzur sembolü.",
+    quran_count: 8,
+    derivatives: [
+      { form: "مُتَّكِئ", pattern: "مُفْتَعِل", type: "ism-i fâil (VIII)", meaning: "yaslanmış" },
+      { form: "مُتَّكَأ", pattern: "مُفْتَعَل", type: "ism-i mekân", meaning: "yaslanılacak yer" },
+    ],
+    bab_chain: [
+      { bab: "VIII", form: "اِتَّكَأَ/يَتَّكِئُ", meaning: "yaslandı", semantic: "iftial", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L35", verse: "55:54", form: "مُتَّكِئِينَ", note: "yaslanmış halde — cennet tasviri" },
+    ],
+    turkish_traces: ["ittikâ'"],
+  },
+  "ح-م-م": {
+    core: "sıcak olmak, kaynar su, hamam",
+    mufradat_note: "Kızgın, sıcak. Hamîm: son derece sıcak su — cehennem azâbında kaynar su. Hammâm: hamam. İstihâm: yıkanma.",
+    quran_count: 16,
+    derivatives: [
+      { form: "حَمِيم", pattern: "فَعِيل", type: "sıfat/isim", meaning: "kaynar su, yakın dost" },
+      { form: "حَمَّام", pattern: "فَعَّال", type: "isim", meaning: "hamam" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "حَمَّ/يَحُمُّ", meaning: "sıcak oldu", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L35", verse: "55:44", form: "حَمِيمٍ", note: "kaynar su — cehennem tasviri" },
+    ],
+    turkish_traces: ["hamîm", "hamam", "hammâm"],
+  },
+  "ط-و-ف": {
+    core: "dolaşmak, tavaf etmek",
+    mufradat_note: "Etrafında dönmek, dolaşmak. Tavâf: Kâbe'nin etrafında dönme. Tâife: topluluk. Tûfân: tufan — her yeri saran su.",
+    quran_count: 28,
+    derivatives: [
+      { form: "طَوَاف", pattern: "فَعَال", type: "masdar", meaning: "tavaf, dolaşma" },
+      { form: "طَائِف", pattern: "فَاعِل", type: "ism-i fâil", meaning: "dolaşan" },
+      { form: "طَائِفَة", pattern: "فَاعِلَة", type: "isim", meaning: "topluluk, grup" },
+      { form: "طُوفَان", pattern: "فُعْلَان", type: "isim", meaning: "tufan" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "طَافَ/يَطُوفُ", meaning: "dolaştı", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L35", verse: "55:44", form: "يَطُوفُونَ", note: "ateş ile kaynar su arasında dolaşırlar" },
+    ],
+    turkish_traces: ["tavaf", "tâife", "tufan"],
+  },
+  "ج-ز-ي": {
+    core: "karşılık vermek, cezalandırmak, mükâfatlandırmak",
+    mufradat_note: "Yapılan işin karşılığını vermek — hem ödül hem ceza. Cezâ': karşılık, hüküm. Mücâzât: cezalandırma. 'Hel cezâü'l-ihsâni ille'l-ihsân': iyiliğin karşılığı ancak iyiliktir (55:60).",
+    quran_count: 118,
+    derivatives: [
+      { form: "جَزَاء", pattern: "فَعَال", type: "masdar", meaning: "karşılık, ceza/mükâfât" },
+      { form: "مُجَازَاة", pattern: "مُفَاعَلَة", type: "masdar (III)", meaning: "karşılık verme" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "جَزَى/يَجْزِي", meaning: "karşılık verdi", semantic: "temel eylem", lessons: [] },
+      { bab: "III", form: "جَازَى/يُجَازِي", meaning: "cezalandırdı", semantic: "müfâale", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L35", verse: "55:60", form: "جَزَاءُ", note: "iyiliğin karşılığı ancak iyiliktir" },
+    ],
+    turkish_traces: ["ceza", "cezâ'", "mücâzât"],
+  },
+  "ح-و-ر": {
+    core: "dönmek, beyaz olmak, hûrî",
+    mufradat_note: "Geri dönmek; gözün siyah-beyazının belirgin olması. Havrâ'/hûr: gözleri çok güzel (siyahı ve beyazı belirgin). Hûrî: cennet ehli eşler. Hıvâr: tartışma, diyalog.",
+    quran_count: 18,
+    derivatives: [
+      { form: "حَوْر", pattern: "فَعْل", type: "isim", meaning: "göz güzelliği" },
+      { form: "حُور", pattern: "فُعْل", type: "cem", meaning: "hûrîler" },
+      { form: "حِوَار", pattern: "فِعَال", type: "masdar", meaning: "tartışma, diyalog" },
+    ],
+    bab_chain: [],
+    cross_refs: [
+      { lesson: "L35", verse: "55:72", form: "حُورٌ", note: "hûrîler — cennet tasviri" },
+    ],
+    turkish_traces: ["hûrî", "muhâvere"],
+  },
+  "خ-ض-ر": {
+    core: "yeşil, taze",
+    mufradat_note: "Yeşillik, tazelik. Ahdar: yeşil. Hadîr: yeşillik. Hızır (el-Hadır): bilgi sahibi gizemli kişi — adı yeşillik kökünden. Cennet tasvirlerinde yeşil öne çıkar.",
+    quran_count: 8,
+    derivatives: [
+      { form: "أَخْضَر", pattern: "أَفْعَل", type: "sıfat", meaning: "yeşil" },
+      { form: "خُضْر", pattern: "فُعْل", type: "cem", meaning: "yeşiller" },
+    ],
+    bab_chain: [],
+    cross_refs: [
+      { lesson: "L35", verse: "55:76", form: "خُضْرٍ", note: "yeşil yastıklar — cennet tasviri" },
+    ],
+    turkish_traces: ["Hızır", "hadra"],
+  },
+  "ب-ع-ث-ر": {
+    core: "altüst etmek, dağıtmak",
+    mufradat_note: "Karıştırmak, altüst etmek. Bu'sire: deşildi, karıştırıldı. Kur'ân'da kabirlerin 'bu'sira' edilmesi: kıyâmette mezarların açılması.",
+    quran_count: 2,
+    derivatives: [
+      { form: "بَعْثَرَة", pattern: "فَعْلَلَة", type: "masdar", meaning: "altüst etme" },
+    ],
+    bab_chain: [],
+    cross_refs: [
+      { lesson: "L44", verse: "82:4", form: "بُعْثِرَتْ", note: "kabirler deşildiğinde" },
+    ],
+    turkish_traces: [],
+  },
+  "ك-و-ك-ب": {
+    core: "yıldız, gezegen",
+    mufradat_note: "Parlak gök cismi, yıldız. Kevkeb: necimden daha parlak yıldızlar/gezegenler. Kevâkib: yıldızlar. Kur'ân'da kıyâmet alâmeti olarak yıldızların dağılması anlatılır.",
+    quran_count: 5,
+    derivatives: [
+      { form: "كَوْكَب", pattern: "فَوْعَل", type: "isim", meaning: "yıldız, gezegen" },
+      { form: "كَوَاكِب", pattern: "—", type: "cem", meaning: "yıldızlar" },
+    ],
+    bab_chain: [],
+    cross_refs: [
+      { lesson: "L44", verse: "82:2", form: "ٱلْكَوَاكِبُ", note: "yıldızlar döküldüğünde" },
+    ],
+    turkish_traces: ["kevkeb"],
+  },
+  "أ-خ-ر": {
+    core: "sonra olmak, ertelemek, son",
+    mufradat_note: "Geride kalmak, ertelemek. Âhir: son. Âhiret: son yurt, öte dünya. Te'hîr: erteleme. Kur'ân'da dünya-âhiret karşıtlığının temel kavramı.",
+    quran_count: 250,
+    derivatives: [
+      { form: "آخِر", pattern: "فَاعِل", type: "sıfat", meaning: "son" },
+      { form: "آخِرَة", pattern: "فَاعِلَة", type: "isim", meaning: "âhiret" },
+      { form: "تَأْخِير", pattern: "تَفْعِيل", type: "masdar (II)", meaning: "erteleme" },
+      { form: "أُخْرَى", pattern: "فُعْلَى", type: "sıfat", meaning: "diğer, öteki" },
+    ],
+    bab_chain: [
+      { bab: "II", form: "أَخَّرَ/يُؤَخِّرُ", meaning: "erteledi", semantic: "ta'diye", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L44", verse: "82:5", form: "وَأَخَّرَتْ", note: "ne ertelediğini (bilecek)" },
+    ],
+    turkish_traces: ["âhir", "âhiret", "te'hîr", "muahhar"],
+  },
+  "ف-و-ق": {
+    core: "üst, üzerinde",
+    mufradat_note: "Yukarı, üst. Fevk: üzerinde. Tefâvut: farklılık (üst-alt farkı). Tefevvuk: üstün gelme. Kur'ân'da Allah'ın kullarının üstünde oluşu.",
+    quran_count: 46,
+    derivatives: [
+      { form: "فَوْق", pattern: "فَعْل", type: "zarf", meaning: "üzerinde, üstünde" },
+      { form: "تَفَوُّق", pattern: "تَفَعُّل", type: "masdar (V)", meaning: "üstün gelme" },
+    ],
+    bab_chain: [],
+    cross_refs: [
+      { lesson: "L30", verse: "67:19", form: "فَوْقَهُمْ", note: "üstlerinde kanatlarını açarak" },
+    ],
+    turkish_traces: ["fevk", "tefevvuk", "fâik"],
+  },
+  "م-ت-ع": {
+    core: "faydalanmak, geçimlik",
+    mufradat_note: "Bir şeyden faydalanmak, yararlanmak. Metâ': geçimlik, faydalı eşya. İmtâ': faydalandırma. Kur'ân'da dünya hayatının 'metâ-ı kalîl' (az bir geçimlik) olduğu vurgulanır.",
+    quran_count: 70,
+    derivatives: [
+      { form: "مَتَاع", pattern: "فَعَال", type: "isim", meaning: "geçimlik, fayda" },
+      { form: "تَمَتُّع", pattern: "تَفَعُّل", type: "masdar (V)", meaning: "yararlanma" },
+      { form: "مُتْعَة", pattern: "فُعْلَة", type: "isim", meaning: "zevk, fayda" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "مَتَعَ/يَمْتَعُ", meaning: "faydalandı", semantic: "temel eylem", lessons: [] },
+      { bab: "II", form: "مَتَّعَ/يُمَتِّعُ", meaning: "faydalandırdı", semantic: "teksîr", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L40", verse: "80:32", form: "مَّتَـٰعًا", note: "size ve hayvanlarınıza geçimlik" },
+    ],
+    turkish_traces: ["metâ'", "mütâ'a"],
+  },
+  "ق-ض-ي": {
+    core: "hükmetmek, tamamlamak, bitirmek",
+    mufradat_note: "İşi kesinleştirmek, karara bağlamak. Kazâ: hüküm, kader. Kâdî: hâkim. İnkızâ': sona erme. Kur'ân'da 'kazâ' hem ilâhî takdir hem hukûkî hüküm anlamında.",
+    quran_count: 63,
+    derivatives: [
+      { form: "قَضَاء", pattern: "فَعَال", type: "masdar", meaning: "hüküm, kader" },
+      { form: "قَاضٍ", pattern: "فَاعِل", type: "ism-i fâil", meaning: "hâkim, kâdî" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "قَضَى/يَقْضِي", meaning: "hükmetti, bitirdi", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L40", verse: "80:23", form: "يَقْضِ", note: "emredileni yerine getirmedi" },
+    ],
+    turkish_traces: ["kazâ", "kâdî", "kadâ", "inkızâ"],
+  },
+  "ط-ع-م": {
+    core: "yemek, tatmak",
+    mufradat_note: "Yemek yemek, tatmak. Ta'âm: yiyecek. İt'âm: yedirme. Mat'am: yemek yeri. Kur'ân'da nimetleri hatırlatma: 'baksın insan yiyeceğine!' (80:24).",
+    quran_count: 48,
+    derivatives: [
+      { form: "طَعَام", pattern: "فَعَال", type: "isim", meaning: "yiyecek" },
+      { form: "إِطْعَام", pattern: "إِفْعَال", type: "masdar (IV)", meaning: "yedirme" },
+      { form: "مَطْعَم", pattern: "مَفْعَل", type: "ism-i mekân", meaning: "yemek yeri" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "طَعِمَ/يَطْعَمُ", meaning: "yedi, tattı", semantic: "temel eylem", lessons: [] },
+      { bab: "IV", form: "أَطْعَمَ/يُطْعِمُ", meaning: "yedirdi", semantic: "ta'diye", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L40", verse: "80:24", form: "طَعَامِهِۦ", note: "yiyeceğine baksın insan" },
+    ],
+    turkish_traces: ["ta'âm", "mat'am", "it'âm"],
+  },
+  "س-ب-ل": {
+    core: "yol",
+    mufradat_note: "Yol, geçit. Sebîl: yol — hem somut hem manevî. Sebîlullâh: Allah yolu. İbn es-sebîl: yolcu, garip. Kur'ân'da doğru yol, sapıklık yolu gibi mecâzlarda çok geçer.",
+    quran_count: 176,
+    derivatives: [
+      { form: "سَبِيل", pattern: "فَعِيل", type: "isim", meaning: "yol" },
+      { form: "سُبُل", pattern: "فُعُل", type: "cem", meaning: "yollar" },
+    ],
+    bab_chain: [],
+    cross_refs: [
+      { lesson: "L40", verse: "80:20", form: "ٱلسَّبِيلَ", note: "yolu kolaylaştırdı" },
+    ],
+    turkish_traces: ["sebîl", "sebîlullâh"],
+  },
+  "ز-ي-ت": {
+    core: "zeytin, yağ",
+    mufradat_note: "Zeytin ağacı ve meyvesi. Zeyt: zeytin yağı. Zeytûn: zeytin. Kur'ân'da nimet listelerinde geçer; Tîn suresinde zeytine yemin edilir.",
+    quran_count: 6,
+    derivatives: [
+      { form: "زَيْتُون", pattern: "فَعْلُون", type: "isim", meaning: "zeytin" },
+      { form: "زَيْت", pattern: "فَعْل", type: "isim", meaning: "zeytin yağı" },
+    ],
+    bab_chain: [],
+    cross_refs: [
+      { lesson: "L40", verse: "80:29", form: "وَزَيْتُونًا", note: "zeytin — nimet sayımı" },
+    ],
+    turkish_traces: ["zeytûn", "zeyt"],
+  },
+  "ع-ن-ب": {
+    core: "üzüm",
+    mufradat_note: "Üzüm. İneb: üzüm tanesi/bağı. A'nâb: üzüm bağları. Kur'ân'da cennet meyveleri ve dünyevî nimetler arasında sıkça zikredilir.",
+    quran_count: 11,
+    derivatives: [
+      { form: "عِنَب", pattern: "فِعَل", type: "isim", meaning: "üzüm" },
+      { form: "أَعْنَاب", pattern: "أَفْعَال", type: "cem", meaning: "üzüm bağları" },
+    ],
+    bab_chain: [],
+    cross_refs: [
+      { lesson: "L40", verse: "80:28", form: "وَعِنَبًا", note: "üzüm — nimet sayımı" },
+    ],
+    turkish_traces: ["ineb"],
+  },
+  "ن-ف-ع": {
+    core: "fayda vermek, yaramak",
+    mufradat_note: "Fayda, menfaat. Nef': fayda. Menfaat: çıkar, yarar. Nâfi': fayda veren. Kur'ân'da fayda-zarar karşıtlığı sık kullanılır: gerçek fayda yalnız Allah'tandır.",
+    quran_count: 50,
+    derivatives: [
+      { form: "نَفْع", pattern: "فَعْل", type: "masdar", meaning: "fayda" },
+      { form: "مَنْفَعَة", pattern: "مَفْعَلَة", type: "isim", meaning: "menfaat" },
+      { form: "نَافِع", pattern: "فَاعِل", type: "ism-i fâil", meaning: "faydalı" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "نَفَعَ/يَنْفَعُ", meaning: "fayda verdi", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L40", verse: "80:4", form: "فَتَنفَعَهُ", note: "öğüt ona fayda verir" },
+    ],
+    turkish_traces: ["nef'", "menfaat", "nâfi'"],
+  },
+  "خ-ط-أ": {
+    core: "hata etmek, günah işlemek",
+    mufradat_note: "Doğrudan sapmak, hata yapmak. Hatî'e: günah, büyük hata. Hatâ': kasıtsız hata. Kur'ân'da ikisi ayrılır: hatî'e (kasıtlı), hatâ' (kasıtsız).",
+    quran_count: 22,
+    derivatives: [
+      { form: "خَطِيئَة", pattern: "فَعِيلَة", type: "isim", meaning: "günah" },
+      { form: "خَاطِئ", pattern: "فَاعِل", type: "ism-i fâil", meaning: "günahkâr, hatalı" },
+      { form: "خَطَأ", pattern: "فَعَل", type: "masdar", meaning: "hata" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "خَطِئَ/يَخْطَأُ", meaning: "hata etti", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L47", verse: "96:16", form: "خَاطِئَةٍ", note: "günahkâr perçem" },
+    ],
+    turkish_traces: ["hatâ", "hatîe"],
+  },
+  "ن-د-ي": {
+    core: "çağırmak, meclis, toplantı",
+    mufradat_note: "Çağırmak, nidâ etmek. Nâdî: meclis, toplantı yeri. Nidâ': sesleniş. Münâdî: çağıran. Kur'ân'da 'nâdîsini çağırsın' — taraftarlarını yardıma çağırma tehdidi.",
+    quran_count: 51,
+    derivatives: [
+      { form: "نَادٍ", pattern: "فَاعِل", type: "isim", meaning: "meclis, toplantı yeri" },
+      { form: "نِدَاء", pattern: "فِعَال", type: "masdar", meaning: "sesleniş, çağrı" },
+      { form: "مُنَادٍ", pattern: "مُفَاعِل", type: "ism-i fâil (III)", meaning: "çağıran" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "نَدَى/يَنْدِي", meaning: "seslendi", semantic: "temel eylem", lessons: [] },
+      { bab: "III", form: "نَادَى/يُنَادِي", meaning: "çağırdı", semantic: "müfâale", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L47", verse: "96:17", form: "نَادِيَهُۥ", note: "meclisini (taraftarlarını) çağırsın" },
+    ],
+    turkish_traces: ["nidâ", "nâdî", "münâdî"],
+  },
+  "ز-ب-ن": {
+    core: "itmek, defetmek",
+    mufradat_note: "Şiddetle itmek, defetmek. Zebâniye: cehennem bekçileri, azgınları itip kakanlar. İsim olarak yalnız Kur'ân'da geçer (96:18).",
+    quran_count: 1,
+    derivatives: [
+      { form: "زَبَانِيَة", pattern: "—", type: "isim", meaning: "zebânîler, cehennem melekleri" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "زَبَنَ/يَزْبِنُ", meaning: "itti, defetti", semantic: "temel eylem", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L47", verse: "96:18", form: "ٱلزَّبَانِيَةَ", note: "biz de zebânîleri çağırırız" },
+    ],
+    turkish_traces: ["zebânî"],
+  },
+  "أ-ل-و": {
+    core: "nimet, lütuf",
+    mufradat_note: "Nimet, iyilik. Âlâ': nimetler. Kur'ân'da 31 kez tekrarlanan soru ile insana ve cinne nimetler hatırlatılır: 'Rabbinizin hangi nimetlerini yalanlarsınız?'",
+    quran_count: 34,
+    derivatives: [
+      { form: "آلَاء", pattern: "أَفْعَال", type: "cem", meaning: "nimetler" },
+    ],
+    bab_chain: [],
+    cross_refs: [
+      { lesson: "L35", verse: "55:13", form: "آلَاءِ", note: "Rabbinizin hangi nimetlerini?" },
+    ],
+    turkish_traces: ["âlâ"],
+  },
+  "أ-ن-م": {
+    core: "canlılar, yaratıklar",
+    mufradat_note: "Yeryüzündeki canlılar, mahlûkât. Enâm: ins ü cin dâhil tüm canlılar. Kur'ân'da yerin canlılar için yaratıldığı vurgulanır (55:10).",
+    quran_count: 1,
+    derivatives: [
+      { form: "أَنَام", pattern: "أَفْعَال", type: "isim", meaning: "canlılar, yaratıklar" },
+    ],
+    bab_chain: [],
+    cross_refs: [
+      { lesson: "L35", verse: "55:10", form: "لِلْأَنَامِ", note: "yeri canlılara hazırladı" },
+    ],
+    turkish_traces: ["enâm"],
+  },
+  "أ-خ-ذ": {
+    core: "almak, tutmak, yakalamak",
+    mufradat_note: "Tutmak, ele almak. Ahz: alma, kavrama. Kur'ân'da 'günahlarından dolayı tutulma' — ilâhî ceza. Muâheze: hesaba çekme.",
+    quran_count: 273,
+    derivatives: [
+      { form: "أَخْذ", pattern: "فَعْل", type: "masdar", meaning: "alma, tutma" },
+      { form: "مُؤَاخَذَة", pattern: "مُفَاعَلَة", type: "masdar (III)", meaning: "hesaba çekme" },
+    ],
+    bab_chain: [
+      { bab: "I", form: "أَخَذَ/يَأْخُذُ", meaning: "aldı, tuttu", semantic: "temel eylem", lessons: [] },
+      { bab: "III", form: "آخَذَ/يُؤَاخِذُ", meaning: "hesaba çekti", semantic: "müfâale", lessons: [] },
+    ],
+    cross_refs: [
+      { lesson: "L35", verse: "55:41", form: "فَيُؤْخَذُ", note: "perçemlerinden tutulurlar" },
+    ],
+    turkish_traces: ["ahz", "muâheze", "me'hûz"],
+  },
+  // ===== v0.28 — Ek kalan kökler (74) =====
+
+  "ق-ص-ر": {
+    core: "kısa olmak, kısmak, hapsetmek",
+    mufradat_note: "Kısa kesmek, sınırlamak, hapsetmek. Kâsırât et-tarf: bakışlarını kocalarına hasreden (cennet ehli). Makṣûra: korunan, muhafaza edilen. Kasr: köşk.",
+    quran_count: 17,
+    derivatives: [
+      { form: "قَصْر", pattern: "فَعْل", type: "isim", meaning: "köşk, kısa kesme" },
+      { form: "قَاصِرَة", pattern: "فَاعِلَة", type: "ism-i fâil", meaning: "bakışını kısan" },
+      { form: "مَقْصُورَة", pattern: "مَفْعُولَة", type: "ism-i mef'ûl", meaning: "korunan" },
+    ],
+    bab_chain: [{ bab: "I", form: "قَصَرَ/يَقْصُرُ", meaning: "kısalttı", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L35", verse: "55:56", form: "قَاصِرَاتُ", note: "bakışlarını kısmış" }],
+    turkish_traces: ["kasr", "makṣûra", "kasır"],
+  },
+  "ط-م-ث": {
+    core: "dokunmak, temas etmek",
+    mufradat_note: "Kadına dokunma (cinsel temas). Kur'ân'da cennet ehlinin eşlerinin 'dokunulmamış' olduğu vurgulanır.",
+    quran_count: 2,
+    derivatives: [{ form: "طَمْث", pattern: "فَعْل", type: "masdar", meaning: "dokunma, temas" }],
+    bab_chain: [{ bab: "I", form: "طَمَثَ/يَطْمِثُ", meaning: "dokundu", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L35", verse: "55:56", form: "يَطْمِثْهُنَّ", note: "onlara dokunmamış" }],
+    turkish_traces: [],
+  },
+  "ف-ن-ن": {
+    core: "dal, çeşit, tür",
+    mufradat_note: "Dal budak. Efnân: dallar, çeşitler. Fenn: çeşit, sanat dalı. Cennet tasvirlerinde ağaçların zengin dallanması.",
+    quran_count: 1,
+    derivatives: [{ form: "أَفْنَان", pattern: "أَفْعَال", type: "cem", meaning: "dallar, çeşitler" }],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L35", verse: "55:48", form: "أَفْنَانٍ", note: "çeşitli dalları olan iki cennet" }],
+    turkish_traces: ["fenn", "fennî", "efnân"],
+  },
+  "ف-ر-ش": {
+    core: "sermek, döşemek",
+    mufradat_note: "Yaymak, sermek. Firâş: döşek, sergi. Ferş: serme. Cennet döşekleri nimet sembolü.",
+    quran_count: 7,
+    derivatives: [
+      { form: "فُرُش", pattern: "فُعُل", type: "cem", meaning: "döşekler" },
+      { form: "فِرَاش", pattern: "فِعَال", type: "isim", meaning: "döşek, yatak" },
+    ],
+    bab_chain: [{ bab: "I", form: "فَرَشَ/يَفْرِشُ", meaning: "serdi", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L35", verse: "55:54", form: "فُرُشٍ", note: "döşeklere yaslanarak" }],
+    turkish_traces: ["ferş", "firâş", "mefrûşât"],
+  },
+  "ب-ط-ن": {
+    core: "karın, iç, gizli",
+    mufradat_note: "İç taraf, karın. Bâtın: gizli, iç yüz — zâhirin zıddı. Batâin: astarlar. el-Bâtın: Allah'ın sıfatı — gizli olan, iç yüzü bilen.",
+    quran_count: 23,
+    derivatives: [
+      { form: "بَطْن", pattern: "فَعْل", type: "isim", meaning: "karın" },
+      { form: "بَاطِن", pattern: "فَاعِل", type: "sıfat", meaning: "gizli, iç" },
+      { form: "بَطَائِن", pattern: "—", type: "cem", meaning: "astarlar" },
+    ],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L35", verse: "55:54", form: "بَطَائِنُهَا", note: "astarları ağır ipekten" }],
+    turkish_traces: ["bâtın", "batın", "bâtınî"],
+  },
+  "ج-ن-ي": {
+    core: "devşirmek, toplamak",
+    mufradat_note: "Meyve toplamak. Cenâ: devşirilen meyve. Cinâyet: suç (kötü hasat metaforu). Cennet meyvelerinin kolayca devşirilmesi.",
+    quran_count: 4,
+    derivatives: [
+      { form: "جَنًى", pattern: "فَعَل", type: "isim", meaning: "taze meyve" },
+      { form: "جِنَاء", pattern: "فِعَال", type: "masdar", meaning: "devşirme" },
+    ],
+    bab_chain: [{ bab: "I", form: "جَنَى/يَجْنِي", meaning: "devşirdi", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L35", verse: "55:54", form: "وَجَنَى", note: "meyveleri yakın, devşirilecek" }],
+    turkish_traces: ["cinâyet"],
+  },
+  "ط-ر-ف": {
+    core: "uç, kenar, bakış",
+    mufradat_note: "Göz, bakış, uç. Tarf: bakış, göz kırpma. Taraf: kenar, yön. Kâsırâtu't-tarf: bakışını kısan.",
+    quran_count: 15,
+    derivatives: [
+      { form: "طَرْف", pattern: "فَعْل", type: "isim", meaning: "bakış, göz" },
+      { form: "طَرَف", pattern: "فَعَل", type: "isim", meaning: "taraf, kenar" },
+    ],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L35", verse: "55:56", form: "الطَّرْفِ", note: "bakışını kısmış — cennet ehli" }],
+    turkish_traces: ["taraf", "tarf"],
+  },
+  "د-ه-م": {
+    core: "koyu olmak, kaplamak",
+    mufradat_note: "Koyu yeşil, gür yeşillik. Müdhâmme: sulanmaktan koyu yeşile dönmüş. Cennet bahçelerinin yoğun yeşilliği.",
+    quran_count: 1,
+    derivatives: [{ form: "مُدْهَامَّة", pattern: "—", type: "ism-i fâil", meaning: "koyu yeşil" }],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L35", verse: "55:64", form: "مُدْهَامَّتَانِ", note: "koyu yeşil iki cennet" }],
+    turkish_traces: [],
+  },
+  "ن-ض-خ": {
+    core: "fışkırmak, coşkun akmak",
+    mufradat_note: "Suyun fışkırması. Naddâh: fışkıran pınar. Cennet pınarlarının coşkun akışı.",
+    quran_count: 1,
+    derivatives: [{ form: "نَضَّاخَة", pattern: "فَعَّالَة", type: "mübalağa", meaning: "fışkıran" }],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L35", verse: "55:66", form: "نَضَّاخَتَانِ", note: "fışkıran iki pınar" }],
+    turkish_traces: [],
+  },
+  "ر-م-م": {
+    core: "çürümek, kemik, nar",
+    mufradat_note: "Çürümek, yıpranmak. Ramîm: çürümüş kemik. Rummân: nar — cennet meyvelerinden.",
+    quran_count: 5,
+    derivatives: [
+      { form: "رُمَّان", pattern: "فُعَّال", type: "isim", meaning: "nar" },
+      { form: "رَمِيم", pattern: "فَعِيل", type: "sıfat", meaning: "çürümüş" },
+    ],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L35", verse: "55:68", form: "وَرُمَّانٌ", note: "ve nar" }],
+    turkish_traces: ["rummân"],
+  },
+  "خ-ي-م": {
+    core: "çadır kurmak",
+    mufradat_note: "Çadır, karargâh. Hıyâm: çadırlar. Cennet ehli için korunaklı mekan.",
+    quran_count: 2,
+    derivatives: [
+      { form: "خِيَام", pattern: "فِعَال", type: "cem", meaning: "çadırlar" },
+      { form: "خَيْمَة", pattern: "فَعْلَة", type: "isim", meaning: "çadır" },
+    ],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L35", verse: "55:72", form: "الْخِيَامِ", note: "çadırlarda" }],
+    turkish_traces: ["hayme", "hayma"],
+  },
+  "ر-ف-ر-ف": {
+    core: "yastık, yeşil örtü",
+    mufradat_note: "Döşek, minder, yeşil yastık. Refref: cennet yastıkları/yeşil örtüler.",
+    quran_count: 1,
+    derivatives: [{ form: "رَفْرَف", pattern: "فَعْلَل", type: "isim", meaning: "yastıklar, minderler" }],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L35", verse: "55:76", form: "رَفْرَفٍ", note: "yeşil yastıklara yaslanarak" }],
+    turkish_traces: [],
+  },
+  "ع-ب-ق-ر": {
+    core: "harika, eşsiz (kumaş/döşeme)",
+    mufradat_note: "Abkar: efsanevi diyar. Abkarî: harika, benzersiz döşeme/kumaş. Cennet tasvirinde en seçkin döşeme.",
+    quran_count: 1,
+    derivatives: [{ form: "عَبْقَرِيّ", pattern: "—", type: "nisbet", meaning: "harika kumaş" }],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L35", verse: "55:76", form: "وَعَبْقَرِيٍّ", note: "ve harika döşemeler" }],
+    turkish_traces: ["abkarî"],
+  },
+  "ص-ل-ص-ل": {
+    core: "kuru balçık, ses çıkaran çamur",
+    mufradat_note: "Kurumuş, vurulunca ses çıkaran balçık. İnsanın yaratılış maddesi olarak geçer.",
+    quran_count: 4,
+    derivatives: [{ form: "صَلْصَال", pattern: "فَعْلَال", type: "isim", meaning: "kuru balçık" }],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L35", verse: "55:14", form: "صَلْصَالٍ", note: "kuru balçıktan yarattı" }],
+    turkish_traces: [],
+  },
+  "ف-خ-ر": {
+    core: "övünmek, çömlek, seramik",
+    mufradat_note: "Övünmek. Fahhâr: pişmiş çamur, seramik. Fahr: övünç, iftihar.",
+    quran_count: 5,
+    derivatives: [
+      { form: "فَخَّار", pattern: "فَعَّال", type: "isim", meaning: "pişmiş çamur" },
+      { form: "فَخْر", pattern: "فَعْل", type: "masdar", meaning: "övünç" },
+    ],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L35", verse: "55:14", form: "كَالْفَخَّارِ", note: "çanak çömlek gibi" }],
+    turkish_traces: ["fahr", "iftihâr", "fahrî"],
+  },
+  "ب-غ-ي": {
+    core: "istemek, aşmak, saldırmak",
+    mufradat_note: "Aşırı istek, haddi aşma. Bağy: zulüm, taşkınlık. Yebğiyân: birbirinin sınırını aşarlar. İki denizin karışmaması ilâhî denge.",
+    quran_count: 38,
+    derivatives: [
+      { form: "بَغْي", pattern: "فَعْل", type: "masdar", meaning: "taşkınlık, zulüm" },
+      { form: "بَاغٍ", pattern: "فَاعِل", type: "ism-i fâil", meaning: "haddi aşan" },
+    ],
+    bab_chain: [{ bab: "I", form: "بَغَى/يَبْغِي", meaning: "haddi aştı", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L35", verse: "55:20", form: "يَبْغِيَانِ", note: "birbirini aşmazlar" }],
+    turkish_traces: ["bağy", "bâğî"],
+  },
+  "ل-ؤ-ل-ؤ": {
+    core: "inci",
+    mufradat_note: "İnci. Lü'lü': inci. Kur'ân'da denizden çıkan nimetler arasında; cennet tasviri.",
+    quran_count: 6,
+    derivatives: [{ form: "لُؤْلُؤ", pattern: "—", type: "isim", meaning: "inci" }],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L35", verse: "55:22", form: "اللُّؤْلُؤُ", note: "inci ve mercan çıkar" }],
+    turkish_traces: ["lü'lü'"],
+  },
+  "ف-ر-غ": {
+    core: "boşalmak, boş kalmak",
+    mufradat_note: "Boşalmak. Ferâğ: boşluk, boş zaman. Kur'ân'da 'senefrugu lekum' — size bakacağız, meşgul olacağız (tehdit).",
+    quran_count: 5,
+    derivatives: [
+      { form: "فَرَاغ", pattern: "فَعَال", type: "masdar", meaning: "boşluk, boş kalma" },
+    ],
+    bab_chain: [{ bab: "I", form: "فَرَغَ/يَفْرُغُ", meaning: "boşaldı", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L35", verse: "55:31", form: "سَنَفْرُغُ", note: "size bakacağız — tehdit" }],
+    turkish_traces: ["ferâğ"],
+  },
+  "ع-ش-ر": {
+    core: "on, topluluk, eş",
+    mufradat_note: "On sayısı. Ma'şer: topluluk, güruh. Muâşera: birlikte yaşama. Aşîre: kabile, yakın çevre.",
+    quran_count: 28,
+    derivatives: [
+      { form: "عَشَرَة", pattern: "فَعَلَة", type: "sayı", meaning: "on" },
+      { form: "مَعْشَر", pattern: "مَفْعَل", type: "isim", meaning: "topluluk" },
+    ],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L35", verse: "55:33", form: "مَعْشَرَ", note: "ey cin ve insan topluluğu" }],
+    turkish_traces: ["aşîre", "muâşeret", "aşr"],
+  },
+  "ق-ط-ر": {
+    core: "damla, kenar, bölge",
+    mufradat_note: "Damla, kenar. Akṭâr: kenarlar, sınırlar. Kutûr: çap. Kur'ân'da 'göklerin ve yerin akṭârından' — sınırlarından.",
+    quran_count: 3,
+    derivatives: [
+      { form: "أَقْطَار", pattern: "أَفْعَال", type: "cem", meaning: "kenarlar, bölgeler" },
+      { form: "قُطْر", pattern: "فُعْل", type: "isim", meaning: "kenar, bölge" },
+    ],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L35", verse: "55:33", form: "أَقْطَارِ", note: "göklerin sınırlarından" }],
+    turkish_traces: ["kutur", "aktâr"],
+  },
+  "س-ل-ط": {
+    core: "güç, hâkimiyet, yetki",
+    mufradat_note: "Güç, hüccet. Sultân: delil, yetki, iktidar. Tesallut: baskı kurma. Allah'ın izni olmadan hiçbir güç yeterli değildir.",
+    quran_count: 37,
+    derivatives: [
+      { form: "سُلْطَان", pattern: "فُعْلَان", type: "isim", meaning: "güç, delil, yetki" },
+    ],
+    bab_chain: [{ bab: "II", form: "سَلَّطَ/يُسَلِّطُ", meaning: "musallat kıldı", semantic: "ta'diye", lessons: [] }],
+    cross_refs: [{ lesson: "L35", verse: "55:33", form: "بِسُلْطَانٍ", note: "ancak bir sultân (güç) ile" }],
+    turkish_traces: ["sultan", "sultân", "tesallut"],
+  },
+  "ش-و-ظ": {
+    core: "dumansız alev, kızıl ateş",
+    mufradat_note: "Dumansız kızıl alev. Şuvâz: saf ateş, dumanı olmayan kızıl alev. Cehennem azâbı tasvirinde kullanılır.",
+    quran_count: 1,
+    derivatives: [{ form: "شُوَاظ", pattern: "فُعَال", type: "isim", meaning: "dumansız alev" }],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L35", verse: "55:35", form: "شُوَاظٌ", note: "üzerinize ateş gönderilir" }],
+    turkish_traces: [],
+  },
+  "ن-ح-س": {
+    core: "bakır, duman, uğursuzluk",
+    mufradat_note: "Bakır. Nuhâs: erimiş bakır veya duman. Nahs: uğursuzluk. Kur'ân'da cehennem azâbı tasvirinde.",
+    quran_count: 2,
+    derivatives: [{ form: "نُحَاس", pattern: "فُعَال", type: "isim", meaning: "erimiş bakır/duman" }],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L35", verse: "55:35", form: "وَنُحَاسٌ", note: "ve erimiş bakır" }],
+    turkish_traces: ["nuhâs"],
+  },
+  "و-ر-د": {
+    core: "gelmek, gül, kızıl",
+    mufradat_note: "Suya varmak, gelmek. Verd/verde: gül, kızıl renk. Vürûd: varış. Kur'ân'da gök 'gül gibi kızıl olduğunda' — kıyâmet tasviri.",
+    quran_count: 6,
+    derivatives: [
+      { form: "وَرْدَة", pattern: "فَعْلَة", type: "isim", meaning: "gül" },
+      { form: "وُرُود", pattern: "فُعُول", type: "masdar", meaning: "varış" },
+    ],
+    bab_chain: [{ bab: "I", form: "وَرَدَ/يَرِدُ", meaning: "vardı", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L35", verse: "55:37", form: "وَرْدَةً", note: "gül gibi kızıl olduğunda" }],
+    turkish_traces: ["verd", "gül"],
+  },
+  "د-ه-ن": {
+    core: "yağ, boya, yumuşaklık",
+    mufradat_note: "Yağ, boya. Dihân: erimiş yağ. Müdâhene: yağ çekme (münafıklık). Kur'ân'da göğün 'erimiş yağ gibi' oluşu — kıyâmet tasviri.",
+    quran_count: 3,
+    derivatives: [{ form: "دِهَان", pattern: "فِعَال", type: "isim", meaning: "erimiş yağ, boya" }],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L35", verse: "55:37", form: "كَالدِّهَانِ", note: "erimiş yağ gibi" }],
+    turkish_traces: ["dühn", "müdâhene"],
+  },
+  "س-و-م": {
+    core: "alâmet, işaret, otlatmak",
+    mufradat_note: "Alâmet koymak, işaretlemek. Sîmâ: yüz alâmeti, belirti. Savme: oruç (nefsi otlatmama). Müsevvim: at besleyen.",
+    quran_count: 19,
+    derivatives: [
+      { form: "سِيمَا", pattern: "—", type: "isim", meaning: "alâmet, yüz ifadesi" },
+    ],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L35", verse: "55:41", form: "بِسِيمَاهُمْ", note: "alâmetlerinden tanınırlar" }],
+    turkish_traces: ["sîmâ"],
+  },
+  "أ-ن-ي": {
+    core: "olgunlaşmak, son derece sıcak",
+    mufradat_note: "Sıcaklığın son noktasına ulaşma. Ân: son derece kaynar. Hamîm-i ân: kaynar su — cehennem azâbı.",
+    quran_count: 2,
+    derivatives: [{ form: "آنٍ", pattern: "فَاعِل", type: "ism-i fâil", meaning: "son derece sıcak" }],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L35", verse: "55:44", form: "آنٍ", note: "kaynama noktasındaki su" }],
+    turkish_traces: [],
+  },
+  "ف-و-ت": {
+    core: "kaçırmak, geçmek, fark",
+    mufradat_note: "Kaçırmak, elden çıkmak. Tefâvüt: farklılık, uyumsuzluk. Fevt: kaçma. Yedi gökte hiçbir tefâvüt (uyumsuzluk) yoktur.",
+    quran_count: 3,
+    derivatives: [
+      { form: "تَفَاوُت", pattern: "تَفَاعُل", type: "masdar (VI)", meaning: "farklılık, uyumsuzluk" },
+    ],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L30", verse: "67:3", form: "تَفَاوُتٍ", note: "bir uyumsuzluk göremezsin" }],
+    turkish_traces: ["tefâvüt", "fevt"],
+  },
+  "ك-ر-ر": {
+    core: "tekrar etmek, geri dönmek",
+    mufradat_note: "Geri döndürmek, tekrar etmek. Kerre: kez, defa. Kerreteyn: iki kez. Tekrâr: yineleme.",
+    quran_count: 3,
+    derivatives: [
+      { form: "كَرَّة", pattern: "فَعْلَة", type: "isim", meaning: "kez, defa" },
+      { form: "كَرَّتَيْن", pattern: "—", type: "tesniye", meaning: "iki kez" },
+    ],
+    bab_chain: [{ bab: "I", form: "كَرَّ/يَكُرُّ", meaning: "döndü, tekrarladı", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L30", verse: "67:4", form: "كَرَّتَيْنِ", note: "iki kez bak — kusur bulamazsın" }],
+    turkish_traces: ["tekrâr", "kerre"],
+  },
+  "خ-س-أ": {
+    core: "kovulmak, eli boş dönmek",
+    mufradat_note: "Kovulmak, zelil olarak geri dönmek. Hâsi': kovulmuş, eli boş. Kur'ân'da bakışın yorgun ve kovulmuş gibi geri dönmesi — gökte kusur arayıp bulamama.",
+    quran_count: 4,
+    derivatives: [{ form: "خَاسِئ", pattern: "فَاعِل", type: "ism-i fâil", meaning: "kovulmuş, eli boş" }],
+    bab_chain: [{ bab: "I", form: "خَسَأَ/يَخْسَأُ", meaning: "kovuldu", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L30", verse: "67:4", form: "خَاسِئًا", note: "bakış eli boş döner" }],
+    turkish_traces: [],
+  },
+  "ح-س-ر": {
+    core: "yorulmak, hasret, keder",
+    mufradat_note: "Yorulmak, tükenmek. Hasîr: bitkin, yorgun. Hasret: özlem, keder. Kur'ân'da bakışın 'hasîr' (yorgun) dönmesi — göğün kusursuzluğu.",
+    quran_count: 7,
+    derivatives: [
+      { form: "حَسِير", pattern: "فَعِيل", type: "sıfat", meaning: "yorgun, bitkin" },
+      { form: "حَسْرَة", pattern: "فَعْلَة", type: "isim", meaning: "hasret, pişmanlık" },
+    ],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L30", verse: "67:4", form: "حَسِيرًا", note: "bakış yorgun döner" }],
+    turkish_traces: ["hasret", "hasîr"],
+  },
+  "ب-ئ-س": {
+    core: "kötü olmak, perişan olmak",
+    mufradat_note: "Kötülük, şiddet. Be's: şiddet, savaş gücü. Bi'se: ne kötü! Kur'ân'da bedduâ/kınama kalıbı.",
+    quran_count: 72,
+    derivatives: [
+      { form: "بَأْس", pattern: "فَعْل", type: "masdar", meaning: "şiddet, güç" },
+      { form: "بِئْس", pattern: "—", type: "fiil", meaning: "ne kötü!" },
+    ],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L30", verse: "67:6", form: "وَبِئْسَ", note: "ne kötü varış yeri!" }],
+    turkish_traces: ["be's", "bîçâre"],
+  },
+  "ش-ه-ق": {
+    core: "inlemek, nefes çekmek",
+    mufradat_note: "Nefes çekme, inleme. Şehîk: korkunç inleme sesi. Cehennemin kaynama sesi şehîk ile ifade edilir.",
+    quran_count: 3,
+    derivatives: [{ form: "شَهِيق", pattern: "فَعِيل", type: "isim", meaning: "korkunç inleme" }],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L30", verse: "67:7", form: "شَهِيقٌ", note: "cehennemin inlemesi" }],
+    turkish_traces: ["şehîk"],
+  },
+  "ف-و-ر": {
+    core: "kaynamak, fokurdamak",
+    mufradat_note: "Kaynama, fokurdama. Fevr: anında, hemen. Kur'ân'da cehennemin kaynayarak coşması.",
+    quran_count: 4,
+    derivatives: [{ form: "فَوْر", pattern: "فَعْل", type: "masdar", meaning: "kaynama, hemen" }],
+    bab_chain: [{ bab: "I", form: "فَارَ/يَفُورُ", meaning: "fokurdadı", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L30", verse: "67:7", form: "تَفُورُ", note: "cehennem fokurdar" }],
+    turkish_traces: ["fevren", "fevrî"],
+  },
+  "ك-و-د": {
+    core: "yaklaşmak, neredeyse",
+    mufradat_note: "Neredeyse, az kalsın. Kâde/yekâdu: yaklaştı. Kur'ân'da azâbın şiddetini vurgulamak için kullanılır.",
+    quran_count: 38,
+    derivatives: [],
+    bab_chain: [{ bab: "I", form: "كَادَ/يَكَادُ", meaning: "neredeyse, az kalsın", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L30", verse: "67:8", form: "تَكَادُ", note: "neredeyse öfkesinden parçalanacak" }],
+    turkish_traces: [],
+  },
+  "م-ي-ز": {
+    core: "ayırmak, ayırt etmek",
+    mufradat_note: "Birbirinden ayırmak. Temeyyüz: ayrışma, parçalanma. Temyîz: ayırt etme. Kur'ân'da cehennemin öfkeden 'temeyyüz' etmesi — parçalanırcasına kaynaması.",
+    quran_count: 7,
+    derivatives: [
+      { form: "تَمْيِيز", pattern: "تَفْعِيل", type: "masdar (II)", meaning: "ayırt etme" },
+      { form: "تَمَيُّز", pattern: "تَفَعُّل", type: "masdar (V)", meaning: "parçalanma" },
+    ],
+    bab_chain: [
+      { bab: "II", form: "مَيَّزَ/يُمَيِّزُ", meaning: "ayırt etti", semantic: "ta'diye", lessons: [] },
+      { bab: "V", form: "تَمَيَّزَ/يَتَمَيَّزُ", meaning: "parçalandı", semantic: "mutâvaat", lessons: [] },
+    ],
+    cross_refs: [{ lesson: "L30", verse: "67:8", form: "تَمَيَّزُ", note: "parçalanırcasına kaynıyor" }],
+    turkish_traces: ["temyîz", "temeyyüz", "mümeyyiz"],
+  },
+  "غ-ي-ظ": {
+    core: "öfke, hiddet",
+    mufradat_note: "Öfke, kızgınlık. Gayz: içten gelen şiddetli öfke. Kâzım: öfkesini yutan. Cehennemin 'öfkeden parçalanması' — teşhis sanatı.",
+    quran_count: 7,
+    derivatives: [
+      { form: "غَيْظ", pattern: "فَعْل", type: "masdar", meaning: "öfke, hiddet" },
+      { form: "كَاظِم", pattern: "فَاعِل", type: "ism-i fâil", meaning: "öfkesini yutan" },
+    ],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L30", verse: "67:8", form: "الْغَيْظِ", note: "öfkeden — cehennemin hidddeti" }],
+    turkish_traces: ["gayz"],
+  },
+  "خ-ز-ن": {
+    core: "saklamak, depolamak, bekçilik",
+    mufradat_note: "Saklamak, hazineye koymak. Hazîne: hazine. Hâzin: bekçi. Hazene: cehennem/cennet bekçileri. Kur'ân'da cennetin ve cehennemin bekçileri geçer.",
+    quran_count: 23,
+    derivatives: [
+      { form: "خَزَنَة", pattern: "فَعَلَة", type: "cem", meaning: "bekçiler" },
+      { form: "خَزَائِن", pattern: "—", type: "cem", meaning: "hazineler" },
+    ],
+    bab_chain: [{ bab: "I", form: "خَزَنَ/يَخْزُنُ", meaning: "sakladı", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L30", verse: "67:8", form: "خَزَنَتُهَا", note: "cehennem bekçileri" }],
+    turkish_traces: ["hazîne", "hâzin", "mahzen"],
+  },
+  "ع-ق-ل": {
+    core: "akıl, bağlamak, anlamak",
+    mufradat_note: "Bağlamak, anlamak. Akl: anlama yetisi — asıl anlamı bağlama, engellemedir (deveyi bağlama). Ma'kûl: akla uygun. Kur'ân'da 'efelem tekûnû ta'kilûn' — akletmez misiniz?",
+    quran_count: 49,
+    derivatives: [
+      { form: "عَقْل", pattern: "فَعْل", type: "masdar", meaning: "akıl" },
+      { form: "مَعْقُول", pattern: "مَفْعُول", type: "ism-i mef'ûl", meaning: "akla uygun" },
+    ],
+    bab_chain: [{ bab: "I", form: "عَقَلَ/يَعْقِلُ", meaning: "akletti, anladı", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L30", verse: "67:10", form: "نَعْقِلُ", note: "akletmiş olsaydık" }],
+    turkish_traces: ["akıl", "ma'kûl", "ta'kîl"],
+  },
+  "س-ح-ق": {
+    core: "uzaklık, kahrolma",
+    mufradat_note: "Çok uzak olma. Suhk: uzaklık, helâk. 'Fe-suhkan' — kahrolsun! Kur'ân'da cehennem ehline bedduâ.",
+    quran_count: 5,
+    derivatives: [{ form: "سُحْق", pattern: "فُعْل", type: "masdar", meaning: "uzaklık, kahrolma" }],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L30", verse: "67:11", form: "فَسُحْقًا", note: "kahrolsun cehennem ehli!" }],
+    turkish_traces: [],
+  },
+  "س-ر-ر": {
+    core: "gizlemek, sevinç, yatak",
+    mufradat_note: "Gizlemek. Sırr: gizli şey. Serîr: taht, koltuk. Sürûr: sevinç. İsrâr: gizleme. Kur'ân'da sözünüzü gizleyin veya açıklayın — Allah hepsini bilir.",
+    quran_count: 35,
+    derivatives: [
+      { form: "سِرّ", pattern: "فِعْل", type: "isim", meaning: "sır, gizli" },
+      { form: "سُرُور", pattern: "فُعُول", type: "masdar", meaning: "sevinç" },
+      { form: "إِسْرَار", pattern: "إِفْعَال", type: "masdar (IV)", meaning: "gizleme" },
+    ],
+    bab_chain: [{ bab: "IV", form: "أَسَرَّ/يُسِرُّ", meaning: "gizledi", semantic: "ta'diye", lessons: [] }],
+    cross_refs: [{ lesson: "L30", verse: "67:13", form: "وَأَسِرُّوا", note: "gizleyin sözünüzü" }],
+    turkish_traces: ["sır", "sürûr", "serîr"],
+  },
+  "ج-ه-ر": {
+    core: "açığa vurmak, yüksek sesle söylemek",
+    mufradat_note: "Açıkça söylemek, yüksek sesle. Cehr: açıklık. Cehrî: sesli (okuma). İsrâr'ın (gizleme) zıddı.",
+    quran_count: 16,
+    derivatives: [
+      { form: "جَهْر", pattern: "فَعْل", type: "masdar", meaning: "açıklama, yüksek ses" },
+      { form: "جَهْرِيّ", pattern: "فَعْلِيّ", type: "nisbet", meaning: "sesli, açık" },
+    ],
+    bab_chain: [{ bab: "I", form: "جَهَرَ/يَجْهَرُ", meaning: "açığa vurdu", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L30", verse: "67:13", form: "اجْهَرُوا", note: "veya açığa vurun" }],
+    turkish_traces: ["cehr", "cehrî"],
+  },
+  "ذ-و-ت": {
+    core: "sâhip, öz, zât",
+    mufradat_note: "Sahip olma, öz. Zât: öz, kendilik. Kur'ân'da 'zâtü's-sudûr' — göğüslerin özü, kalpteki gizli düşünceler.",
+    quran_count: 26,
+    derivatives: [{ form: "ذَات", pattern: "—", type: "isim", meaning: "sahip, öz" }],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L30", verse: "67:13", form: "بِذَاتِ", note: "göğüslerin özünü bilir" }],
+    turkish_traces: ["zât", "zâtî"],
+  },
+  "ن-ك-ب": {
+    core: "yönelmek, omuz, yol",
+    mufradat_note: "Omuz, yan. Menâkib: omuzlar, yollar, geçitler. Kur'ân'da 'yerin omuzlarında yürüyün' — yollarında, vadilerinde.",
+    quran_count: 2,
+    derivatives: [
+      { form: "مَنَاكِب", pattern: "مَفَاعِل", type: "cem", meaning: "omuzlar, yollar" },
+    ],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L30", verse: "67:15", form: "مَنَاكِبِهَا", note: "yerin yollarında yürüyün" }],
+    turkish_traces: ["menkıbe"],
+  },
+  "خ-س-ف": {
+    core: "batırmak, çöktürmek",
+    mufradat_note: "Yeri batırma, çökertme. Hasf: yerin çökmesi — Kārûn'un batırılması gibi. Allah'ın azap biçimlerinden biri.",
+    quran_count: 6,
+    derivatives: [
+      { form: "خَسْف", pattern: "فَعْل", type: "masdar", meaning: "batırma, çökertme" },
+    ],
+    bab_chain: [{ bab: "I", form: "خَسَفَ/يَخْسِفُ", meaning: "batırdı", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L30", verse: "67:16", form: "يَخْسِفَ", note: "yeri batırmayacağından emin misiniz?" }],
+    turkish_traces: ["husûf"],
+  },
+  "م-و-ر": {
+    core: "çalkalanmak, sallanmak",
+    mufradat_note: "İleri geri sallanmak, çalkalanmak. Mevr: hareket, sarsıntı. Kur'ân'da yerin sarsılması — kıyâmet tasviri.",
+    quran_count: 2,
+    derivatives: [{ form: "مَوْر", pattern: "فَعْل", type: "masdar", meaning: "çalkalanma" }],
+    bab_chain: [{ bab: "I", form: "مَارَ/يَمُورُ", meaning: "çalkalandı", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L30", verse: "67:16", form: "تَمُورُ", note: "yer çalkalanır" }],
+    turkish_traces: [],
+  },
+  "ح-ص-ب": {
+    core: "taş fırlatmak, çakıl",
+    mufradat_note: "Çakıl taşı fırlatmak. Hâsib: taş fırlatan rüzgâr. Allah'ın azâb araçlarından biri.",
+    quran_count: 4,
+    derivatives: [{ form: "حَاصِب", pattern: "فَاعِل", type: "ism-i fâil", meaning: "taş fırlatan (rüzgâr)" }],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L30", verse: "67:17", form: "حَاصِبًا", note: "taş fırlatan rüzgâr gönderir" }],
+    turkish_traces: [],
+  },
+  "ق-ب-ل": {
+    core: "yönelmek, kabul etmek, önce",
+    mufradat_note: "Yönelmek, karşılamak. Kabl: önce. İstikbâl: karşılama, gelecek. Kıble: yön. Kabûl: onay.",
+    quran_count: 283,
+    derivatives: [
+      { form: "قَبْل", pattern: "فَعْل", type: "zarf", meaning: "önce" },
+      { form: "قِبْلَة", pattern: "فِعْلَة", type: "isim", meaning: "kıble, yön" },
+      { form: "قَبُول", pattern: "فَعُول", type: "masdar", meaning: "kabul" },
+      { form: "اِسْتِقْبَال", pattern: "اِسْتِفْعَال", type: "masdar (X)", meaning: "karşılama" },
+    ],
+    bab_chain: [{ bab: "I", form: "قَبِلَ/يَقْبَلُ", meaning: "kabul etti", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L30", verse: "67:18", form: "قَبْلِهِمْ", note: "onlardan öncekiler" }],
+    turkish_traces: ["kıble", "kabul", "istikbâl", "mukâbele"],
+  },
+  "ن-ك-ر": {
+    core: "inkâr etmek, tanımamak, çirkin",
+    mufradat_note: "Tanımamak, reddetmek. İnkâr: red, tanımama. Münker: kötü, çirkin. Nekîr: azap, şiddetli tepki. Ma'rûf'un zıddı.",
+    quran_count: 37,
+    derivatives: [
+      { form: "نَكِير", pattern: "فَعِيل", type: "isim", meaning: "azap, şiddet" },
+      { form: "مُنْكَر", pattern: "مُفْعَل", type: "ism-i mef'ûl", meaning: "kötü, çirkin" },
+      { form: "إِنْكَار", pattern: "إِفْعَال", type: "masdar (IV)", meaning: "inkâr" },
+    ],
+    bab_chain: [{ bab: "IV", form: "أَنْكَرَ/يُنْكِرُ", meaning: "inkâr etti", semantic: "ta'diye", lessons: [] }],
+    cross_refs: [{ lesson: "L30", verse: "67:18", form: "نَكِيرِ", note: "inkârım/azâbım nasıldı?" }],
+    turkish_traces: ["inkâr", "münker", "nekîr"],
+  },
+  "ج-ن-د": {
+    core: "asker, ordu",
+    mufradat_note: "Asker, ordu. Cünd: askerler. Cünûd: ordular. Kur'ân'da 'Rahmân'dan başka sizi koruyacak ordunuz kim?'",
+    quran_count: 29,
+    derivatives: [
+      { form: "جُنْد", pattern: "فُعْل", type: "isim", meaning: "asker, ordu" },
+      { form: "جُنُود", pattern: "فُعُول", type: "cem", meaning: "ordular" },
+    ],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L30", verse: "67:20", form: "جُندٌ", note: "size yardım edecek ordu kim?" }],
+    turkish_traces: ["cünd", "cündî"],
+  },
+  "ل-ج-ج": {
+    core: "inat etmek, ısrar etmek",
+    mufradat_note: "İnatla ısrar etmek, azgınlık. Lecc: dikbaşlılık. Lüccî: derin deniz. Kur'ân'da kâfirlerin azgınlıkta diretmesi.",
+    quran_count: 3,
+    derivatives: [{ form: "لَجّ", pattern: "فَعْل", type: "masdar", meaning: "inat, ısrar" }],
+    bab_chain: [{ bab: "I", form: "لَجَّ/يَلَجُّ", meaning: "ısrar etti", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L30", verse: "67:21", form: "لَّجُّوا", note: "azgınlıkta ısrar ettiler" }],
+    turkish_traces: ["lecâc"],
+  },
+  "ع-ت-و": {
+    core: "azgınlık, taşkınlık",
+    mufradat_note: "Haddi aşmak, azgınlık etmek. Utuvv: taşkınlık, kibir. Âtî: azgın.",
+    quran_count: 10,
+    derivatives: [{ form: "عُتُوّ", pattern: "فُعُول", type: "masdar", meaning: "azgınlık" }],
+    bab_chain: [{ bab: "I", form: "عَتَا/يَعْتُو", meaning: "azgınlık etti", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L30", verse: "67:21", form: "عُتُوًّا", note: "azgınlık ve nefrette" }],
+    turkish_traces: ["utuvv"],
+  },
+  "ن-ف-ر": {
+    core: "kaçmak, nefret, sefer",
+    mufradat_note: "Ürkme, kaçma. Nüfûr: kaçınma, nefret. Nefîr: savaşa çıkma, feryat. İstinfâr: kaçma, ürkme.",
+    quran_count: 19,
+    derivatives: [
+      { form: "نُفُور", pattern: "فُعُول", type: "masdar", meaning: "kaçınma, nefret" },
+      { form: "نَفِير", pattern: "فَعِيل", type: "isim", meaning: "feryat, topluluk" },
+    ],
+    bab_chain: [{ bab: "I", form: "نَفَرَ/يَنْفِرُ", meaning: "kaçtı, ürktü", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L30", verse: "67:21", form: "وَنُفُورٍ", note: "ve nefrette" }],
+    turkish_traces: ["nefret", "nefîr", "nefer"],
+  },
+  "ك-ب-ب": {
+    core: "yüzüstü düşmek",
+    mufradat_note: "Yüzüstü düşürmek. Mukibb: yüzüstü eğilen, tökezleyen. Kur'ân'da sapkınlık metaforu: yüzüstü yürüyen mi, dosdoğru yürüyen mi?",
+    quran_count: 3,
+    derivatives: [{ form: "مُكِبّ", pattern: "مُفْعِل", type: "ism-i fâil (IV)", meaning: "yüzüstü düşen" }],
+    bab_chain: [{ bab: "IV", form: "أَكَبَّ/يُكِبُّ", meaning: "yüzüstü düştü", semantic: "sıfat", lessons: [] }],
+    cross_refs: [{ lesson: "L30", verse: "67:22", form: "مُكِبًّا", note: "yüzüstü kapanarak mı yürüyen?" }],
+    turkish_traces: [],
+  },
+  "ص-ر-ط": {
+    core: "yol, doğru yol",
+    mufradat_note: "Düz ve geniş yol. Sırât: yol — en çok 'sırât-ı müstakîm' tamlamasıyla kullanılır. Fâtiha'da her namazda istenen yol.",
+    quran_count: 45,
+    derivatives: [{ form: "صِرَاط", pattern: "فِعَال", type: "isim", meaning: "yol" }],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L30", verse: "67:22", form: "صِرَاطٍ", note: "dosdoğru yol üzere" }],
+    turkish_traces: ["sırât"],
+  },
+  "ق-ل-ل": {
+    core: "az olmak, azalmak",
+    mufradat_note: "Azlık. Kalîl: az. İklâl: azaltma. İstiklâl: bağımsızlık (başkasına az muhtaç olma). Kur'ân'da şükredenlerin azlığı vurgulanır.",
+    quran_count: 65,
+    derivatives: [
+      { form: "قَلِيل", pattern: "فَعِيل", type: "sıfat", meaning: "az" },
+      { form: "أَقَلّ", pattern: "أَفْعَل", type: "ism-i tafdîl", meaning: "daha az" },
+    ],
+    bab_chain: [{ bab: "I", form: "قَلَّ/يَقِلُّ", meaning: "azaldı", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L30", verse: "67:23", form: "قَلِيلًا", note: "pek az şükrediyorsunuz" }],
+    turkish_traces: ["kalîl", "istiklâl", "taklîl"],
+  },
+  "ذ-ر-أ": {
+    core: "yaratmak, çoğaltmak, yaymak",
+    mufradat_note: "Yaratıp yaymak, çoğaltmak. Zer': tohum saçar gibi yaymak. Allah'ın insanları yeryüzüne yayması.",
+    quran_count: 4,
+    derivatives: [{ form: "ذَرْء", pattern: "فَعْل", type: "masdar", meaning: "yaratma, yayma" }],
+    bab_chain: [{ bab: "I", form: "ذَرَأَ/يَذْرَأُ", meaning: "yarattı, yaydı", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L30", verse: "67:24", form: "ذَرَأَكُمْ", note: "sizi yaratıp yaydı" }],
+    turkish_traces: ["zürriyyet"],
+  },
+  "ز-ل-ف": {
+    core: "yaklaşmak, yakınlık",
+    mufradat_note: "Yaklaşma, yakınlık. Zülfâ: yakınlık. Müzdelife: yakınlaşma yeri (hac). Kur'ân'da azâbı yakından gördüklerinde.",
+    quran_count: 10,
+    derivatives: [
+      { form: "زُلْفَة", pattern: "فُعْلَة", type: "isim", meaning: "yakınlık" },
+    ],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L30", verse: "67:27", form: "زُلْفَةً", note: "yakınlarında gördüklerinde" }],
+    turkish_traces: ["zülfâ", "müzdelife"],
+  },
+  "س-و-أ": {
+    core: "kötü olmak, çirkinleşmek",
+    mufradat_note: "Kötülük, çirkinlik. Sû': kötülük. Seyyie: günahm kötü iş. Sâ'e: kötüleşti. İsâ'e: kötülük yapma.",
+    quran_count: 167,
+    derivatives: [
+      { form: "سُوء", pattern: "فُعْل", type: "isim", meaning: "kötülük" },
+      { form: "سَيِّئَة", pattern: "فَيِّعَة", type: "isim", meaning: "günah, kötü iş" },
+    ],
+    bab_chain: [{ bab: "I", form: "سَاءَ/يَسُوءُ", meaning: "kötü oldu", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L30", verse: "67:27", form: "سِيئَتْ", note: "yüzleri kötüleşti" }],
+    turkish_traces: ["sû', seyyie, isâet"],
+  },
+  "ج-و-ر": {
+    core: "komşuluk, sığınma, zulüm",
+    mufradat_note: "Komşu olmak, sığınmak. Civâr: komşuluk. İcâre: sığındırma, kurtarma. Cevr: zulüm. Mücîr: sığındıran, koruyan.",
+    quran_count: 17,
+    derivatives: [
+      { form: "جَار", pattern: "فَاعِل", type: "isim", meaning: "komşu" },
+      { form: "إِجَارَة", pattern: "إِفَاعَلَة", type: "masdar", meaning: "sığındırma" },
+    ],
+    bab_chain: [{ bab: "IV", form: "أَجَارَ/يُجِيرُ", meaning: "sığındırdı", semantic: "ta'diye", lessons: [] }],
+    cross_refs: [{ lesson: "L30", verse: "67:28", form: "يُجِيرُ", note: "kim sığındırır sizi?" }],
+    turkish_traces: ["civâr", "mücîr"],
+  },
+  "ص-د-ي": {
+    core: "yönelmek, ilgi göstermek",
+    mufradat_note: "Birine yönelmek, ilgi göstermek. Tesaddî: yönelme, üzerine düşme. Kur'ân'da Hz. Peygamber'in zengin müşrike yönelmesi kınanır.",
+    quran_count: 1,
+    derivatives: [],
+    bab_chain: [{ bab: "V", form: "تَصَدَّى/يَتَصَدَّى", meaning: "yöneldi, ilgi gösterdi", semantic: "tekellüf", lessons: [] }],
+    cross_refs: [{ lesson: "L40", verse: "80:6", form: "تَصَدَّىٰ", note: "ona yöneliyorsun" }],
+    turkish_traces: ["tesaddî"],
+  },
+  "س-ع-ي": {
+    core: "koşmak, çabalamak, gayret etmek",
+    mufradat_note: "Çabalamak, koşmak. Sa'y: gayret, emek. Sâ'î: çabalayan. Mes'â: çaba gösterilen yer. Kur'ân'da hem dünyevî hem uhrevî gayret.",
+    quran_count: 30,
+    derivatives: [
+      { form: "سَعْي", pattern: "فَعْل", type: "masdar", meaning: "çaba, gayret" },
+      { form: "سَاعٍ", pattern: "فَاعِل", type: "ism-i fâil", meaning: "koşan, çabalayan" },
+    ],
+    bab_chain: [{ bab: "I", form: "سَعَى/يَسْعَى", meaning: "çabaladı, koştu", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L40", verse: "80:8", form: "يَسْعَىٰ", note: "sana koşarak gelen" }],
+    turkish_traces: ["sa'y", "mes'â"],
+  },
+  "ع-م-ي": {
+    core: "kör olmak, körlük",
+    mufradat_note: "Görmemek, kör olmak. A'mâ: kör. Amâ: körlük. Kur'ân'da hem fiziksel hem manevî körlük — kalp körlüğü daha ağırdır.",
+    quran_count: 33,
+    derivatives: [
+      { form: "أَعْمَى", pattern: "أَفْعَل", type: "sıfat", meaning: "kör" },
+      { form: "عَمَى", pattern: "فَعَل", type: "masdar", meaning: "körlük" },
+    ],
+    bab_chain: [{ bab: "I", form: "عَمِيَ/يَعْمَى", meaning: "kör oldu", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L40", verse: "80:2", form: "ٱلْأَعْمَىٰ", note: "kör olan (İbn Ümm Mektûm)" }],
+    turkish_traces: ["a'mâ", "amâ"],
+  },
+  "ق-ض-ب": {
+    core: "kesmek, yonca",
+    mufradat_note: "Kesmek, biçmek. Kadab: yonca, biçilen yeşillik. Kur'ân'da nimet sayımında.",
+    quran_count: 1,
+    derivatives: [{ form: "قَضْب", pattern: "فَعْل", type: "isim", meaning: "yonca, yeşillik" }],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L40", verse: "80:28", form: "وَقَضْبًا", note: "ve yonca" }],
+    turkish_traces: [],
+  },
+  "ح-د-ق": {
+    core: "bahçe, çevrelemek",
+    mufradat_note: "Etrafını çeviren bahçe. Hadîka: çevrili bahçe. Hadâik: bahçeler. Cennet tasvirinde gür bahçeler.",
+    quran_count: 3,
+    derivatives: [{ form: "حَدَائِق", pattern: "—", type: "cem", meaning: "bahçeler" }],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L40", verse: "80:30", form: "وَحَدَآئِقَ", note: "sık ağaçlı bahçeler" }],
+    turkish_traces: ["hadîka"],
+  },
+  "غ-ل-ب": {
+    core: "yenmek, galip gelmek, baskın olmak",
+    mufradat_note: "Galip gelmek, üstün olmak. Gulb: kalın boyunlu, sık ağaçlı. Galebe: üstünlük. Ğâlib: galip.",
+    quran_count: 31,
+    derivatives: [
+      { form: "غَلَبَة", pattern: "فَعَلَة", type: "masdar", meaning: "galip gelme" },
+      { form: "غَالِب", pattern: "فَاعِل", type: "ism-i fâil", meaning: "galip" },
+      { form: "غُلْب", pattern: "فُعْل", type: "sıfat", meaning: "gür, kalın" },
+    ],
+    bab_chain: [{ bab: "I", form: "غَلَبَ/يَغْلِبُ", meaning: "galip geldi", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L40", verse: "80:30", form: "غُلْبًا", note: "gür ağaçlı" }],
+    turkish_traces: ["galebe", "gâlib", "mağlûb"],
+  },
+  "أ-ب-ب": {
+    core: "ot, çayır, otlak",
+    mufradat_note: "Ot, otlak. Ebb: hayvan yiyeceği olan ot. İnsanların ve hayvanların faydasına nimet olarak sayılır.",
+    quran_count: 1,
+    derivatives: [{ form: "أَبّ", pattern: "فَعْل", type: "isim", meaning: "ot, çayır" }],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L40", verse: "80:31", form: "وَأَبًّا", note: "ve çayır/ot" }],
+    turkish_traces: [],
+  },
+  "ص-خ-خ": {
+    core: "kulak tırmalayan ses",
+    mufradat_note: "Şiddetli, kulak sağır eden ses. es-Sâhha: kıyâmet gününün isimlerinden — sağır edici çığlık.",
+    quran_count: 1,
+    derivatives: [{ form: "صَاخَّة", pattern: "فَاعِلَة", type: "ism-i fâil", meaning: "sağır edici çığlık" }],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L40", verse: "80:33", form: "ٱلصَّآخَّةُ", note: "o kulak tırmalayan çığlık geldiğinde" }],
+    turkish_traces: [],
+  },
+  "غ-ب-ر": {
+    core: "toz, tozlanmak",
+    mufradat_note: "Toz, toprak. Gabere: toz. Kıyâmet günü kâfirlerin yüzlerini toz kaplar.",
+    quran_count: 2,
+    derivatives: [{ form: "غَبَرَة", pattern: "فَعَلَة", type: "isim", meaning: "toz" }],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L40", verse: "80:40", form: "غَبَرَةٌ", note: "yüzlerinde toz" }],
+    turkish_traces: ["gubâr"],
+  },
+  "ر-ه-ق": {
+    core: "kaplamak, bürümek, baskı",
+    mufradat_note: "Üzerine çökmek, kaplamak. Rehk: baskı, zorlama. İrhâk: baskı altına alma. Kıyâmette karanlığın yüzleri bürümesi.",
+    quran_count: 8,
+    derivatives: [{ form: "رَهَق", pattern: "فَعَل", type: "masdar", meaning: "kaplamak, baskı" }],
+    bab_chain: [{ bab: "I", form: "رَهِقَ/يَرْهَقُ", meaning: "kapladı", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L40", verse: "80:41", form: "تَرْهَقُهَا", note: "onları karanlık kaplar" }],
+    turkish_traces: ["irhâk"],
+  },
+  "ق-ت-ر": {
+    core: "karanlık, zillet, kısma",
+    mufradat_note: "Toz-duman, zillet, karanlık. Katere: yüzü kaplayan karanlık. Taktîr: kısma, daraltma.",
+    quran_count: 4,
+    derivatives: [{ form: "قَتَرَة", pattern: "فَعَلَة", type: "isim", meaning: "karanlık, zillet" }],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L40", verse: "80:41", form: "قَتَرَةٌ", note: "karanlık kaplar" }],
+    turkish_traces: [],
+  },
+  "س-ف-ع": {
+    core: "tutup sürüklemek",
+    mufradat_note: "Sert bir şekilde tutup sürüklemek. Nesfa'an: elbette tutup sürükleriz. Kur'ân'da Allah'ın tehdidi: günahkârı perçeminden yakalama.",
+    quran_count: 1,
+    derivatives: [],
+    bab_chain: [{ bab: "I", form: "سَفَعَ/يَسْفَعُ", meaning: "tutup sürükledi", semantic: "temel eylem", lessons: [] }],
+    cross_refs: [{ lesson: "L47", verse: "96:15", form: "لَنَسْفَعًۢا", note: "onu perçeminden tutarız" }],
+    turkish_traces: [],
+  },
+
+  "ر-و-ح": {
+    core: "ruh, rüzgâr, rahatlık",
+    mufradat_note: "Rüzgâr, nefes, ruh. Rûh: can, ilâhî nefes. Rîh: rüzgâr. Rayhân: hoş kokulu bitki. Revh/râha: ferahlık, huzur. Kur'ân'da rûh, rîh, rayhân ve revh ayrı bağlamlarda kullanılır.",
+    quran_count: 57,
+    derivatives: [
+      { form: "رُوح", pattern: "فُعْل", type: "isim", meaning: "ruh, can" },
+      { form: "رِيح", pattern: "فِعْل", type: "isim", meaning: "rüzgâr" },
+      { form: "رَيْحَان", pattern: "فَعْلَان", type: "isim", meaning: "hoş kokulu bitki" },
+      { form: "رَاحَة", pattern: "فَاعِلَة", type: "isim", meaning: "rahatlık" },
+    ],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L35", verse: "55:12", form: "وَالرَّيْحَانُ", note: "ve hoş kokulu bitki" }],
+    turkish_traces: ["ruh", "rüzgâr", "reyhan", "rahat"],
+  },
+  "ك-م-م": {
+    core: "örtmek, tomurcuk, ağız bağı",
+    mufradat_note: "Örtmek, kapamak. Ekmâm: tomurcuklar, kabuğuyla örtülü meyveler. Kımâm: tomurcuk kabuğu. Hurma ağacının tomurcuklanan meyveleri nimet olarak anılır.",
+    quran_count: 1,
+    derivatives: [
+      { form: "أَكْمَام", pattern: "أَفْعَال", type: "cem", meaning: "tomurcuklar" },
+      { form: "كِمَام", pattern: "فِعَال", type: "isim", meaning: "tomurcuk kabuğu" },
+    ],
+    bab_chain: [],
+    cross_refs: [{ lesson: "L35", verse: "55:11", form: "ذَاتُ الْأَكْمَامِ", note: "tomurcuklu hurma" }],
+    turkish_traces: [],
   },
 };
 

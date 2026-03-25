@@ -1,0 +1,182 @@
+{
+  "surah": 99,
+  "name_ar": "الزلزلة",
+  "name_translit": "Az-Zalzalah",
+  "type": "medinan",
+  "total_ayahs": 8,
+  "total_words": 36,
+  "ayahs": [
+    {
+      "number": 1,
+      "text_ar": "إِذَا زُلۡزِلَتِ ٱلۡأَرۡضُ زِلۡزَالَهَا",
+      "text_tr_diyanet": "Yer dehşetle sarsıldıkça sarsıldığı, yeryüzü ağırlıklarını dışarıya çıkardığı ve insanın: \"Buna ne oluyor?\" dediği zaman;",
+      "text_tr_vakfi": "Yerküre kendine has sarsıntısıyla sallandığı,",
+      "text_tr_yazir": "Yer o yaman sarsıntı ile sarsıldığı,",
+      "transliteration": "iẕâ zülzileti-l'arḍu zilzâlehâ.",
+      "words_ar": [
+        "إِذَا",
+        "زُلۡزِلَتِ",
+        "ٱلۡأَرۡضُ",
+        "زِلۡزَالَهَا"
+      ],
+      "words_translit": [
+        "iẕâ",
+        "zülzileti-l'arḍu",
+        "zilzâlehâ."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 2,
+      "text_ar": "وَأَخۡرَجَتِ ٱلۡأَرۡضُ أَثۡقَالَهَا",
+      "text_tr_diyanet": "Yer dehşetle sarsıldıkça sarsıldığı, yeryüzü ağırlıklarını dışarıya çıkardığı ve insanın: \"Buna ne oluyor?\" dediği zaman;",
+      "text_tr_vakfi": "Toprak ağırlıklarını dışarı çıkardığı,",
+      "text_tr_yazir": "Yer, içindeki ağırlıkları çıkarıp dışarı attığı,",
+      "transliteration": "veaḫraceti-l'arḍu eŝḳâlehâ.",
+      "words_ar": [
+        "وَأَخۡرَجَتِ",
+        "ٱلۡأَرۡضُ",
+        "أَثۡقَالَهَا"
+      ],
+      "words_translit": [
+        "veaḫraceti-l'arḍu",
+        "eŝḳâlehâ."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 3,
+      "text_ar": "وَقَالَ ٱلۡإِنسَٰنُ مَا لَهَا",
+      "text_tr_diyanet": "Yer dehşetle sarsıldıkça sarsıldığı, yeryüzü ağırlıklarını dışarıya çıkardığı ve insanın: \"Buna ne oluyor?\" dediği zaman;",
+      "text_tr_vakfi": "Ve insan \"Ne oluyor buna!\" dediği vakit,",
+      "text_tr_yazir": "Ve insan: \"Ona ne oluyor?\" dediği zaman.",
+      "transliteration": "veḳâle-l'insânü mâ lehâ.",
+      "words_ar": [
+        "وَقَالَ",
+        "ٱلۡإِنسَٰنُ",
+        "مَا",
+        "لَهَا"
+      ],
+      "words_translit": [
+        "veḳâle-l'insânü",
+        "mâ",
+        "lehâ."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 4,
+      "text_ar": "يَوۡمَئِذٖ تُحَدِّثُ أَخۡبَارَهَا",
+      "text_tr_diyanet": "İşte o gün, yer, Rabbinin ona vahyetmesiyle kendi haberlerini anlatır.",
+      "text_tr_vakfi": "İşte o gün (yer) haberlerini anlatır,",
+      "text_tr_yazir": "O gün yer, Rabbinin ona vahyetmesiyle haberlerini anlatacaktır.",
+      "transliteration": "yevmeiẕin tüḥaddiŝü aḫbârahâ.",
+      "words_ar": [
+        "يَوۡمَئِذٖ",
+        "تُحَدِّثُ",
+        "أَخۡبَارَهَا"
+      ],
+      "words_translit": [
+        "yevmeiẕin",
+        "tüḥaddiŝü",
+        "aḫbârahâ."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 5,
+      "text_ar": "بِأَنَّ رَبَّكَ أَوۡحَىٰ لَهَا",
+      "text_tr_diyanet": "İşte o gün, yer, Rabbinin ona vahyetmesiyle kendi haberlerini anlatır.",
+      "text_tr_vakfi": "Rabbinin ona bildirmesiyle.",
+      "text_tr_yazir": "O gün yer, Rabbinin ona vahyetmesiyle haberlerini anlatacaktır.",
+      "transliteration": "bienne rabbeke evḥâ lehâ.",
+      "words_ar": [
+        "بِأَنَّ",
+        "رَبَّكَ",
+        "أَوۡحَىٰ",
+        "لَهَا"
+      ],
+      "words_translit": [
+        "bienne",
+        "rabbeke",
+        "evḥâ",
+        "lehâ."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 6,
+      "text_ar": "يَوۡمَئِذٖ يَصۡدُرُ ٱلنَّاسُ أَشۡتَاتٗا لِّيُرَوۡاْ أَعۡمَٰلَهُمۡ",
+      "text_tr_diyanet": "O gün insanlar işlerinin kendilerine gösterilmesi için bölük bölük dönerler.",
+      "text_tr_vakfi": "O gün insanlar amellerini görmeleri (karşılığını almaları) için darmadağınık geri dönüp gelirler.",
+      "text_tr_yazir": "O gün insanlar, amellerinin karşılığı kendilerine gösterilmek üzere bölük bölük çıkacaklardır.",
+      "transliteration": "yevmeiẕiy yaṣdüru-nnâsü eştâtel liyürav a`mâlehüm.",
+      "words_ar": [
+        "يَوۡمَئِذٖ",
+        "يَصۡدُرُ",
+        "ٱلنَّاسُ",
+        "أَشۡتَاتٗا",
+        "لِّيُرَوۡاْ",
+        "أَعۡمَٰلَهُمۡ"
+      ],
+      "words_translit": [
+        "yevmeiẕiy",
+        "yaṣdüru-nnâsü",
+        "eştâtel",
+        "liyürav",
+        "a`mâlehüm."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 7,
+      "text_ar": "فَمَن يَعۡمَلۡ مِثۡقَالَ ذَرَّةٍ خَيۡرٗا يَرَهُۥ",
+      "text_tr_diyanet": "Kim zerre kadar iyilik yapmışsa onu görür.",
+      "text_tr_vakfi": "Kim zerre miktarı hayır yapmışsa onu görür.",
+      "text_tr_yazir": "Her kim zerre kadar hayır işlemişse onu görecektir.",
+      "transliteration": "femey ya`mel miŝḳâle ẕerratin ḫayray yerah.",
+      "words_ar": [
+        "فَمَن",
+        "يَعۡمَلۡ",
+        "مِثۡقَالَ",
+        "ذَرَّةٍ",
+        "خَيۡرٗا",
+        "يَرَهُۥ"
+      ],
+      "words_translit": [
+        "femey",
+        "ya`mel",
+        "miŝḳâle",
+        "ẕerratin",
+        "ḫayray",
+        "yerah."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 8,
+      "text_ar": "وَمَن يَعۡمَلۡ مِثۡقَالَ ذَرَّةٖ شَرّٗا يَرَهُۥ",
+      "text_tr_diyanet": "Kim de zerre kadar kötülük yapmışsa onu görür.",
+      "text_tr_vakfi": "Kim de zerre miktarı şer işlemişse onu görür.",
+      "text_tr_yazir": "Her kim, zerre kadar şer işlemişse onu görecektir.",
+      "transliteration": "vemey ya`mel miŝḳâle ẕerratin şerray yerah.",
+      "words_ar": [
+        "وَمَن",
+        "يَعۡمَلۡ",
+        "مِثۡقَالَ",
+        "ذَرَّةٖ",
+        "شَرّٗا",
+        "يَرَهُۥ"
+      ],
+      "words_translit": [
+        "vemey",
+        "ya`mel",
+        "miŝḳâle",
+        "ẕerratin",
+        "şerray",
+        "yerah."
+      ],
+      "word_count": 6
+    }
+  ]
+}

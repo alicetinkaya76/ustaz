@@ -39,11 +39,47 @@ export {
 
 /** Tüm surah-format ders dosyalarının slug haritası */
 const slugMap = {
-  67: "mulk",
+  // Elle yazılmış (v0.27)
   55: "rahman",
+  67: "mulk",
   80: "abese",
   82: "infitar",
   96: "alak",
+  // Pipeline üretimi (v0.30)
+  78: "nebe",
+  79: "naziat",
+  81: "tekvir",
+  83: "mutaffifin",
+  84: "insikak",
+  85: "buruc",
+  86: "tarik",
+  87: "ala",
+  88: "gasiye",
+  89: "fecr",
+  90: "beled",
+  91: "sems",
+  92: "leyl",
+  93: "duha",
+  94: "insirrah",
+  95: "tin",
+  97: "kadir",
+  98: "beyyine",
+  99: "zilzal",
+  100: "adiyat",
+  101: "karia",
+  102: "tekasur",
+  103: "asr",
+  104: "humeze",
+  105: "fil",
+  106: "kureys",
+  107: "maun",
+  108: "kevser",
+  109: "kafirun",
+  110: "nasr",
+  111: "tebbet",
+  112: "ihlas",
+  113: "felak",
+  114: "nas",
 };
 
 export async function loadSurah(surahNum) {

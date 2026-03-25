@@ -1,0 +1,229 @@
+{
+  "surah": 100,
+  "name_ar": "العاديات",
+  "name_translit": "Al-'Adiyat",
+  "type": "meccan",
+  "total_ayahs": 11,
+  "total_words": 40,
+  "ayahs": [
+    {
+      "number": 1,
+      "text_ar": "وَٱلۡعَٰدِيَٰتِ ضَبۡحٗا",
+      "text_tr_diyanet": "And olsun Allah yolunda koştukça koşanlara;",
+      "text_tr_vakfi": "Harıl harıl koşanlara,",
+      "text_tr_yazir": "O harıl harıl (savaşa) koşanlara,",
+      "transliteration": "vel`âdiyâti ḍabḥâ.",
+      "words_ar": [
+        "وَٱلۡعَٰدِيَٰتِ",
+        "ضَبۡحٗا"
+      ],
+      "words_translit": [
+        "vel`âdiyâti",
+        "ḍabḥâ."
+      ],
+      "word_count": 2
+    },
+    {
+      "number": 2,
+      "text_ar": "فَٱلۡمُورِيَٰتِ قَدۡحٗا",
+      "text_tr_diyanet": "And olsun kıvılcımlar saçanlara;",
+      "text_tr_vakfi": "(Nallarıyla) çakarak kıvılcım saçanlara,",
+      "text_tr_yazir": "(Tırnaklarıyla yerden) ateş çıkaranlara,",
+      "transliteration": "felmûriyâti ḳadḥâ.",
+      "words_ar": [
+        "فَٱلۡمُورِيَٰتِ",
+        "قَدۡحٗا"
+      ],
+      "words_translit": [
+        "felmûriyâti",
+        "ḳadḥâ."
+      ],
+      "word_count": 2
+    },
+    {
+      "number": 3,
+      "text_ar": "فَٱلۡمُغِيرَٰتِ صُبۡحٗا",
+      "text_tr_diyanet": "Sabah sabah akına çıkanlara;",
+      "text_tr_vakfi": "(Ansızın) sabah baskını yapanlara,",
+      "text_tr_yazir": "Sabahleyin akın edenlere,",
+      "transliteration": "felmügîrâti ṣubḥâ.",
+      "words_ar": [
+        "فَٱلۡمُغِيرَٰتِ",
+        "صُبۡحٗا"
+      ],
+      "words_translit": [
+        "felmügîrâti",
+        "ṣubḥâ."
+      ],
+      "word_count": 2
+    },
+    {
+      "number": 4,
+      "text_ar": "فَأَثَرۡنَ بِهِۦ نَقۡعٗا",
+      "text_tr_diyanet": "Ve tozu dumana katanlara;",
+      "text_tr_vakfi": "Orada tozu dumana katanlara,",
+      "text_tr_yazir": "Tozu dumana karıştıranlara,",
+      "transliteration": "feeŝerne bihî naḳ`â.",
+      "words_ar": [
+        "فَأَثَرۡنَ",
+        "بِهِۦ",
+        "نَقۡعٗا"
+      ],
+      "words_translit": [
+        "feeŝerne",
+        "bihî",
+        "naḳ`â."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 5,
+      "text_ar": "فَوَسَطۡنَ بِهِۦ جَمۡعًا",
+      "text_tr_diyanet": "Düşman topluluğunun içine dalanlara ki:",
+      "text_tr_vakfi": "Derken orada bir topluluğun ta ortasına girenlere yemin ederim ki,",
+      "text_tr_yazir": "Derken bir topluluğun ortasına dalanlara yemin ederim ki,",
+      "transliteration": "fevesaṭne bihî cem`â.",
+      "words_ar": [
+        "فَوَسَطۡنَ",
+        "بِهِۦ",
+        "جَمۡعًا"
+      ],
+      "words_translit": [
+        "fevesaṭne",
+        "bihî",
+        "cem`â."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 6,
+      "text_ar": "إِنَّ ٱلۡإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٞ",
+      "text_tr_diyanet": "İnsan gerçekten Rabbine karşı pek nankördür.",
+      "text_tr_vakfi": "Şüphesiz insan, Rabbine karşı pek nankördür.",
+      "text_tr_yazir": "Şüphesiz insan, Rabbine karşı çok nankördür.",
+      "transliteration": "inne-l'insâne lirabbihî lekenûd.",
+      "words_ar": [
+        "إِنَّ",
+        "ٱلۡإِنسَٰنَ",
+        "لِرَبِّهِۦ",
+        "لَكَنُودٞ"
+      ],
+      "words_translit": [
+        "inne-l'insâne",
+        "lirabbihî",
+        "lekenûd."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 7,
+      "text_ar": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٞ",
+      "text_tr_diyanet": "Doğrusu kendisi de bunların hepsine şahittir.",
+      "text_tr_vakfi": "Şüphesiz buna kendisi de şahittir,",
+      "text_tr_yazir": "Ve kendisi de buna şahittir.",
+      "transliteration": "veinnehû `alâ ẕâlike leşehîd.",
+      "words_ar": [
+        "وَإِنَّهُۥ",
+        "عَلَىٰ",
+        "ذَٰلِكَ",
+        "لَشَهِيدٞ"
+      ],
+      "words_translit": [
+        "veinnehû",
+        "`alâ",
+        "ẕâlike",
+        "leşehîd."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 8,
+      "text_ar": "وَإِنَّهُۥ لِحُبِّ ٱلۡخَيۡرِ لَشَدِيدٌ",
+      "text_tr_diyanet": "Gerçekten mala da pek düşkündür.",
+      "text_tr_vakfi": "Ve o, mal sevgisine de aşırı derecede düşkündür.",
+      "text_tr_yazir": "Gerçekten o dünya malını çok sevdiği için katıdır.",
+      "transliteration": "veinnehû liḥubbi-lḫayri leşedîd.",
+      "words_ar": [
+        "وَإِنَّهُۥ",
+        "لِحُبِّ",
+        "ٱلۡخَيۡرِ",
+        "لَشَدِيدٌ"
+      ],
+      "words_translit": [
+        "veinnehû",
+        "liḥubbi-lḫayri",
+        "leşedîd."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 9,
+      "text_ar": "۞أَفَلَا يَعۡلَمُ إِذَا بُعۡثِرَ مَا فِي ٱلۡقُبُورِ",
+      "text_tr_diyanet": "İnsan, kabirlerde bulunanların çıkarılacağı ve kalblerde olanların ortaya konulacağı bir zamanın geleceğini bilmez mi?",
+      "text_tr_vakfi": "Kabirlerde bulunanların diriltilip dışarı atıldığını düşünmez mi?",
+      "text_tr_yazir": "Bilmiyor mu ki, kabirlerin içindekiler fırlatılacak.",
+      "transliteration": "efelâ ya`lemü iẕâ bü`ŝira mâ fi-lḳubûr.",
+      "words_ar": [
+        "أَفَلَا",
+        "يَعۡلَمُ",
+        "إِذَا",
+        "بُعۡثِرَ",
+        "مَا",
+        "فِي",
+        "ٱلۡقُبُورِ"
+      ],
+      "words_translit": [
+        "efelâ",
+        "ya`lemü",
+        "iẕâ",
+        "bü`ŝira",
+        "mâ",
+        "fi-lḳubûr."
+      ],
+      "word_count": 7
+    },
+    {
+      "number": 10,
+      "text_ar": "وَحُصِّلَ مَا فِي ٱلصُّدُورِ",
+      "text_tr_diyanet": "İnsan, kabirlerde bulunanların çıkarılacağı ve kalblerde olanların ortaya konulacağı bir zamanın geleceğini bilmez mi?",
+      "text_tr_vakfi": "Ve kalplerde gizlenenler ortaya konduğu zaman,",
+      "text_tr_yazir": "Ve sinelerin içindekiler derlenecek.",
+      "transliteration": "veḥuṣṣile mâ fi-ṣṣudûr.",
+      "words_ar": [
+        "وَحُصِّلَ",
+        "مَا",
+        "فِي",
+        "ٱلصُّدُورِ"
+      ],
+      "words_translit": [
+        "veḥuṣṣile",
+        "mâ",
+        "fi-ṣṣudûr."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 11,
+      "text_ar": "إِنَّ رَبَّهُم بِهِمۡ يَوۡمَئِذٖ لَّخَبِيرُۢ",
+      "text_tr_diyanet": "Doğrusu Rableri o gün onların her şeyinden haberdardır.",
+      "text_tr_vakfi": "Şüphesiz Rableri o gün onlardan tamamıyle haberdar",
+      "text_tr_yazir": "O gün Rableri onların bütün yaptıklarından haberdardır",
+      "transliteration": "inne rabbehüm bihim yevmeiẕil leḫabîr.",
+      "words_ar": [
+        "إِنَّ",
+        "رَبَّهُم",
+        "بِهِمۡ",
+        "يَوۡمَئِذٖ",
+        "لَّخَبِيرُۢ"
+      ],
+      "words_translit": [
+        "inne",
+        "rabbehüm",
+        "bihim",
+        "yevmeiẕil",
+        "leḫabîr."
+      ],
+      "word_count": 5
+    }
+  ]
+}

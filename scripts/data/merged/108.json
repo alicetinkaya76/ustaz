@@ -1,0 +1,67 @@
+{
+  "surah": 108,
+  "name_ar": "الكوثر",
+  "name_translit": "Al-Kawthar",
+  "type": "meccan",
+  "total_ayahs": 3,
+  "total_words": 10,
+  "ayahs": [
+    {
+      "number": 1,
+      "text_ar": "إِنَّآ أَعۡطَيۡنَٰكَ ٱلۡكَوۡثَرَ",
+      "text_tr_diyanet": "Doğrusu sana pek çok nimet vermişizdir.",
+      "text_tr_vakfi": "(Resulum!) Kuşkusuz biz sana Kevser'i verdik.",
+      "text_tr_yazir": "Muhakkak biz sana Kevser'i verdik.",
+      "transliteration": "innâ a`ṭaynâke-lkevŝer.",
+      "words_ar": [
+        "إِنَّآ",
+        "أَعۡطَيۡنَٰكَ",
+        "ٱلۡكَوۡثَرَ"
+      ],
+      "words_translit": [
+        "innâ",
+        "a`ṭaynâke-lkevŝer."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 2,
+      "text_ar": "فَصَلِّ لِرَبِّكَ وَٱنۡحَرۡ",
+      "text_tr_diyanet": "Öyleyse Rabbin için namaz kıl, kurban kes.",
+      "text_tr_vakfi": "Şimdi sen Rabbine kulluk et ve kurban kes.",
+      "text_tr_yazir": "Öyleyse Rabb'in için namaz kıl ve kurban kes.",
+      "transliteration": "feṣalli lirabbike venḥar.",
+      "words_ar": [
+        "فَصَلِّ",
+        "لِرَبِّكَ",
+        "وَٱنۡحَرۡ"
+      ],
+      "words_translit": [
+        "feṣalli",
+        "lirabbike",
+        "venḥar."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 3,
+      "text_ar": "إِنَّ شَانِئَكَ هُوَ ٱلۡأَبۡتَرُ",
+      "text_tr_diyanet": "Doğrusu adı sanı ortadan kalkacak olan, sana kin tutan kimsedir.",
+      "text_tr_vakfi": "Asıl sonu kesik olan, şüphesiz sana hınç besleyendir.",
+      "text_tr_yazir": "Muhakkak ki sonu kesik olan, sana buğzedendir.",
+      "transliteration": "inne şânieke hüve-l'ebter.",
+      "words_ar": [
+        "إِنَّ",
+        "شَانِئَكَ",
+        "هُوَ",
+        "ٱلۡأَبۡتَرُ"
+      ],
+      "words_translit": [
+        "inne",
+        "şânieke",
+        "hüve-l'ebter."
+      ],
+      "word_count": 4
+    }
+  ]
+}

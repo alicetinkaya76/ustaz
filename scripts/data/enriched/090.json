@@ -1,0 +1,1094 @@
+{
+  "surah": 90,
+  "name_ar": "البلد",
+  "blocks": [
+    {
+      "ayah_start": 1,
+      "ayah_end": 14,
+      "description": "Sure, Mekke'ye ve insanın yaratılışına yapılan yeminlerle başlar, ardından insanın zorluklarla sınanarak yaratıldığını ve kendisine gösterilen iki yol (hayır-şer) arasından seçim yapması gerektiğini belirtir.",
+      "verses": [
+        {
+          "surah": 90,
+          "ayah": 1,
+          "arabic": "لَآ أُقۡسِمُ بِهَٰذَا ٱلۡبَلَدِ",
+          "translation": "Bu şehre (Mekke'ye) yemin ederim",
+          "words": [
+            {
+              "arabic": "لَآ",
+              "transliteration": "lâ",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "yemin te'kîdi için kullanılan harf",
+              "irab": "{Harf-i nefiy} değil, burada {yemin te'kîdi} için kullanılmış zâid harftir",
+              "irab_short": "zâid harf",
+              "turkish_bridge": null,
+              "balagha_note": "Yemini te'kîd için kullanılan üslub"
+            },
+            {
+              "arabic": "أُقۡسِمُ",
+              "transliteration": "uksimü",
+              "root": "ق-س-م",
+              "pattern": "أَفْعِل",
+              "pos": "fil",
+              "meaning_tr": "yemin ederim, and içerim",
+              "irab": "{Fiil-i muzâri'}, I. bâb, mütekellim vâhid sîğası, merfû",
+              "irab_short": "muzâri', I. bâb",
+              "turkish_bridge": "Kasem bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "بِهَٰذَا",
+              "transliteration": "bihâzâ",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "bu ile, şu ile",
+              "irab": "{Harf-i cer} olan بِ ile {ism-i işâre} olan هذا'dan mürekkep, mecrûr",
+              "irab_short": "ism-i işâre, mecrûr",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "ٱلۡبَلَدِ",
+              "transliteration": "el-beledi",
+              "root": "ب-ل-د",
+              "pattern": "فَعَل",
+              "pos": "ism",
+              "meaning_tr": "şehir, belde (Mekke)",
+              "irab": "{Bedel} veya {sıfat} olarak هذا'ya tâbi', mecrûr bi'l-kesra",
+              "irab_short": "bedel, mecrûr",
+              "turkish_bridge": "Belde bu kökten",
+              "balagha_note": "Mekke şehrinin ta'zîmi için kullanım"
+            }
+          ]
+        },
+        {
+          "surah": 90,
+          "ayah": 2,
+          "arabic": "وَأَنتَ حِلُّۢ بِهَٰذَا ٱلۡبَلَدِ",
+          "translation": "ki sen bu şehirde oturmuşsun",
+          "words": [
+            {
+              "arabic": "وَأَنتَ",
+              "transliteration": "ve ente",
+              "root": null,
+              "pos": "ism",
+              "meaning_tr": "ve sen",
+              "irab": "{Vâv-ı atıf} ile başlayan {zamîr-i munfasıl}, mübtedâ, merfû",
+              "irab_short": "mübtedâ, merfû",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "حِلُّۢ",
+              "transliteration": "hillün",
+              "root": "ح-ل-ل",
+              "pattern": "فِعْل",
+              "pos": "ism",
+              "meaning_tr": "oturan, yerleşen, helâl kılınan",
+              "irab": "{Haber-i mübtedâ}, merfû bi'd-damma",
+              "irab_short": "haber, merfû",
+              "turkish_bridge": "Helâl bu kökten",
+              "balagha_note": "Hz. Peygamber'in Mekke'de bulunmasının özel vurgusu"
+            },
+            {
+              "arabic": "بِهَٰذَا",
+              "transliteration": "bihâzâ",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "bu ile, şunda",
+              "irab": "{Harf-i cer} olan بِ ile {ism-i işâre} olan هذا'dan mürekkep, حِلّ kelimesine müteallik",
+              "irab_short": "câr mecrûr",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "ٱلۡبَلَدِ",
+              "transliteration": "el-beledi",
+              "root": "ب-ل-د",
+              "pattern": "فَعَل",
+              "pos": "ism",
+              "meaning_tr": "şehir, belde",
+              "irab": "{Bedel} olarak هذا'ya tâbi', mecrûr bi'l-kesra",
+              "irab_short": "bedel, mecrûr",
+              "turkish_bridge": "Belde bu kökten",
+              "balagha_note": null
+            }
+          ]
+        },
+        {
+          "surah": 90,
+          "ayah": 3,
+          "arabic": "وَوَالِدٖ وَمَا وَلَدَ",
+          "translation": "Doğurana ve doğurduğuna and olsun ki",
+          "words": [
+            {
+              "arabic": "وَوَالِدٖ",
+              "transliteration": "ve vâlidin",
+              "root": "و-ل-د",
+              "pattern": "فَاعِل",
+              "pos": "ism",
+              "meaning_tr": "ve doğuran, baba",
+              "irab": "{Vâv-ı atıf} ile معطوف olan {ism}, البلد'e atfedilmiş, mecrûr bi'l-kesra",
+              "irab_short": "ma'tûf, mecrûr",
+              "turkish_bridge": null,
+              "balagha_note": "Nesil zincirini ifade eden kinâye"
+            },
+            {
+              "arabic": "وَمَا",
+              "transliteration": "ve mâ",
+              "root": null,
+              "pos": "ism",
+              "meaning_tr": "ve -dığı şey",
+              "irab": "{Vâv-ı atıf} ile {ism-i mevsûl} olan ما, والد'e ma'tûf, mecrûr",
+              "irab_short": "ism-i mevsûl, mecrûr",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "وَلَدَ",
+              "transliteration": "velede",
+              "root": "و-ل-د",
+              "pattern": "فَعَلَ",
+              "pos": "fil",
+              "meaning_tr": "doğurdu",
+              "irab": "{Fiil-i mâzî}, I. bâb, gâib vâhid müzekker sîğası, ما'nın sıla cümlesi",
+              "irab_short": "mâzî, I. bâb",
+              "turkish_bridge": null,
+              "balagha_note": "İcâz üslubuyla tüm nesli kapsayan ifade"
+            }
+          ]
+        },
+        {
+          "surah": 90,
+          "ayah": 4,
+          "arabic": "لَقَدۡ خَلَقۡنَا ٱلۡإِنسَٰنَ فِي كَبَدٍ",
+          "translation": "İnsanoğlunu, zorluklara katlanacak şekilde yarattık",
+          "words": [
+            {
+              "arabic": "لَقَدۡ",
+              "transliteration": "lekad",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "gerçekten, andolsun ki",
+              "irab": "{Lâm-ı kasem} ile {kad} harfinin terkîbi, te'kîd ifade eder",
+              "irab_short": "te'kîd harfi",
+              "turkish_bridge": null,
+              "balagha_note": "Yeminin cevabını güçlü vurguyla başlatma"
+            },
+            {
+              "arabic": "خَلَقۡنَا",
+              "transliteration": "halekne",
+              "root": "خ-ل-ق",
+              "pattern": "فَعَلَ",
+              "pos": "fil",
+              "meaning_tr": "yarattık",
+              "irab": "{Fiil-i mâzî}, I. bâb, mütekellim cemî' sîğası, fâili ضمیر مستتر نحن",
+              "irab_short": "mâzî, I. bâb",
+              "turkish_bridge": "Halk, halîk, mahlûk bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "ٱلۡإِنسَٰنَ",
+              "transliteration": "el-insâne",
+              "root": "أ-ن-س",
+              "pattern": "فِعْلان",
+              "pos": "ism",
+              "meaning_tr": "insan",
+              "irab": "{Mef'ûl bih}, mensûb bi'l-fatha",
+              "irab_short": "mef'ûl bih, mensûb",
+              "turkish_bridge": "İnsan bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "فِي",
+              "transliteration": "fî",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "içinde",
+              "irab": "{Harf-i cer}",
+              "irab_short": "harf-i cer",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "كَبَدٍ",
+              "transliteration": "kebedin",
+              "root": "ك-ب-د",
+              "pattern": "فَعَل",
+              "pos": "ism",
+              "meaning_tr": "zorluk, sıkıntı, meşakkat",
+              "irab": "{İsm-i mecrûr} bi في, mecrûr bi'l-kesra",
+              "irab_short": "mecrûr",
+              "turkish_bridge": "Karaciğer (kebed) bu kökten",
+              "balagha_note": "İnsanın hayat serüvenindeki zorluklara kinâye"
+            }
+          ]
+        },
+        {
+          "surah": 90,
+          "ayah": 5,
+          "arabic": "أَيَحۡسَبُ أَن لَّن يَقۡدِرَ عَلَيۡهِ أَحَدٞ",
+          "translation": "İnsanoğlu, kendisine kimsenin güç yetiremeyeceğini mi sanıyor?",
+          "words": [
+            {
+              "arabic": "أَيَحۡسَبُ",
+              "transliteration": "eyahsebü",
+              "root": "ح-س-ب",
+              "pattern": "يَفْعِل",
+              "pos": "fil",
+              "meaning_tr": "sanıyor mu",
+              "irab": "{Hemze-i istifhâm} ile {fiil-i muzâri'}, I. bâb, gâib vâhid müzekker",
+              "irab_short": "muzâri' istifhâmî, I. bâb",
+              "turkish_bridge": "Hesap bu kökten",
+              "balagha_note": "İnkârî istifhâm ile insanın gafletini tenkit"
+            },
+            {
+              "arabic": "أَن",
+              "transliteration": "en",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "-dığını",
+              "irab": "{Harf-i masdarî}, kendinden sonraki cümleyi te'vîl eder",
+              "irab_short": "harf-i masdarî",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "لَّن",
+              "transliteration": "len",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "asla -meyecek",
+              "irab": "{Harf-i nefiy}, muzâri'i nasb eder",
+              "irab_short": "harf-i nefiy",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "يَقۡدِرَ",
+              "transliteration": "yakdira",
+              "root": "ق-د-ر",
+              "pattern": "يَفْعِل",
+              "pos": "fil",
+              "meaning_tr": "güç yetirir",
+              "irab": "{Fiil-i muzâri'}, I. bâb, لن tarafından mansûb bi'l-fatha",
+              "irab_short": "muzâri' mansûb, I. bâb",
+              "turkish_bridge": "Kadir, kader bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "عَلَيۡهِ",
+              "transliteration": "aleyhi",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "onun üzerine",
+              "irab": "{Harf-i cer} عَلَى ile {zamîr-i muttasıl} هِ'den mürekkep",
+              "irab_short": "câr mecrûr",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "أَحَدٞ",
+              "transliteration": "ehadün",
+              "root": "و-ح-د",
+              "pattern": "أَفْعَل",
+              "pos": "ism",
+              "meaning_tr": "kimse, hiç kimse",
+              "irab": "{Fâil} فعل يقدر'in fâili, merfû bi'd-damma",
+              "irab_short": "fâil, merfû",
+              "turkish_bridge": "Vahdet bu kökten",
+              "balagha_note": null
+            }
+          ]
+        },
+        {
+          "surah": 90,
+          "ayah": 6,
+          "arabic": "يَقُولُ أَهۡلَكۡتُ مَالٗا لُّبَدًا",
+          "translation": "Yığın yığın mal tüketmişimdir diyor",
+          "words": [
+            {
+              "arabic": "يَقُولُ",
+              "transliteration": "yekûlü",
+              "root": "ق-و-ل",
+              "pattern": "يَفْعُل",
+              "pos": "fil",
+              "meaning_tr": "söylüyor, diyor",
+              "irab": "{Fiil-i muzâri'}, I. bâb, gâib vâhid müzekker sîğası",
+              "irab_short": "muzâri', I. bâb",
+              "turkish_bridge": "Kavl bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "أَهۡلَكۡتُ",
+              "transliteration": "ehlektü",
+              "root": "ه-ل-ك",
+              "pattern": "أَفْعَلَ",
+              "pos": "fil",
+              "meaning_tr": "yok ettim, tükettim",
+              "irab": "{Fiil-i mâzî}, IV. bâb, mütekellim vâhid sîğası",
+              "irab_short": "mâzî, IV. bâb",
+              "turkish_bridge": "Helâk bu kökten",
+              "balagha_note": "Malını harcaması konusunda övünmesi"
+            },
+            {
+              "arabic": "مَالٗا",
+              "transliteration": "mâlen",
+              "root": "م-و-ل",
+              "pattern": "فَعَل",
+              "pos": "ism",
+              "meaning_tr": "mal, servet",
+              "irab": "{Mef'ûl bih}, mensûb bi'l-fatha",
+              "irab_short": "mef'ûl bih, mensûb",
+              "turkish_bridge": "Mal bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "لُّبَدًا",
+              "transliteration": "lübeden",
+              "root": "ل-ب-د",
+              "pattern": "فُعَل",
+              "pos": "ism",
+              "meaning_tr": "çok, yığın yığın",
+              "irab": "{Sıfat} مال kelimesinin sıfatı, mensûb bi'l-fatha",
+              "irab_short": "sıfat, mensûb",
+              "turkish_bridge": null,
+              "balagha_note": "Malın çokluğunu abartılı ifade"
+            }
+          ]
+        },
+        {
+          "surah": 90,
+          "ayah": 7,
+          "arabic": "أَيَحۡسَبُ أَن لَّمۡ يَرَهُۥٓ أَحَدٌ",
+          "translation": "O, kimsenin kendisini görmediğini mi zannediyor?",
+          "words": [
+            {
+              "arabic": "أَيَحۡسَبُ",
+              "transliteration": "eyahsebü",
+              "root": "ح-س-ب",
+              "pattern": "يَفْعِل",
+              "pos": "fil",
+              "meaning_tr": "sanıyor mu",
+              "irab": "{Hemze-i istifhâm} ile {fiil-i muzâri'}, I. bâb, gâib vâhid müzekker",
+              "irab_short": "muzâri' istifhâmî, I. bâb",
+              "turkish_bridge": "Hesap bu kökten",
+              "balagha_note": "Tekrarlanan istifhâm ile te'kîd"
+            },
+            {
+              "arabic": "أَن",
+              "transliteration": "en",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "-dığını",
+              "irab": "{Harf-i masdarî}, kendinden sonraki cümleyi te'vîl eder",
+              "irab_short": "harf-i masdarî",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "لَّمۡ",
+              "transliteration": "lem",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "-medi",
+              "irab": "{Harf-i nefiy}, muzâri'i cezm eder",
+              "irab_short": "harf-i nefiy",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "يَرَهُۥٓ",
+              "transliteration": "yerahû",
+              "root": "ر-أ-ي",
+              "pattern": "يَفْعَل",
+              "pos": "fil",
+              "meaning_tr": "onu gördü",
+              "irab": "{Fiil-i muzâri'}, I. bâb, لم tarafından meczûm, sonunda هُ zamîri mef'ûl bih",
+              "irab_short": "muzâri' meczûm, I. bâb",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "أَحَدٌ",
+              "transliteration": "ehadün",
+              "root": "و-ح-د",
+              "pattern": "أَفْعَل",
+              "pos": "ism",
+              "meaning_tr": "kimse, hiç kimse",
+              "irab": "{Fâil} فعل يره'nin fâili, merfû bi'd-damma",
+              "irab_short": "fâil, merfû",
+              "turkish_bridge": "Vahdet bu kökten",
+              "balagha_note": "Allah'ın görüşüne gaflet"
+            }
+          ]
+        },
+        {
+          "surah": 90,
+          "ayah": 8,
+          "arabic": "أَلَمۡ نَجۡعَل لَّهُۥ عَيۡنَيۡنِ",
+          "translation": "Biz onun için iki göz var etmedik mi?",
+          "words": [
+            {
+              "arabic": "أَلَمۡ",
+              "transliteration": "elem",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "-medi mi",
+              "irab": "{Hemze-i istifhâm} ile {harf-i nefiy} لم'in terkîbi",
+              "irab_short": "istifhâm-nefiy",
+              "turkish_bridge": null,
+              "balagha_note": "İnkârî istifhâm ile Allah'ın nimetlerini hatırlatma"
+            },
+            {
+              "arabic": "نَجۡعَل",
+              "transliteration": "nec'al",
+              "root": "ج-ع-ل",
+              "pattern": "نَفْعَل",
+              "pos": "fil",
+              "meaning_tr": "yaparız, kılarız",
+              "irab": "{Fiil-i muzâri'}, I. bâb, mütekellim cemî' sîğası, لم ile meczûm",
+              "irab_short": "muzâri' meczûm, I. bâb",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "لَّهُۥ",
+              "transliteration": "lehû",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "onun için",
+              "irab": "{Harf-i cer} لِ ile {zamîr-i muttasıl} هُ'dan mürekkep",
+              "irab_short": "câr mecrûr",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "عَيۡنَيۡنِ",
+              "transliteration": "ayneyni",
+              "root": "ع-ي-ن",
+              "pattern": "فَعْل",
+              "pos": "ism",
+              "meaning_tr": "iki göz",
+              "irab": "{Mef'ûl bih}, müsennâ, mensûb bi'l-yâ",
+              "irab_short": "mef'ûl bih müsennâ, mensûb",
+              "turkish_bridge": "Ayn bu kökten",
+              "balagha_note": "Duyum organlarının sıralı zikri"
+            }
+          ]
+        },
+        {
+          "surah": 90,
+          "ayah": 9,
+          "arabic": "وَلِسَانٗا وَشَفَتَيۡنِ",
+          "translation": "Bir dil ve iki dudak?",
+          "words": [
+            {
+              "arabic": "وَلِسَانٗا",
+              "transliteration": "velisânen",
+              "root": "ل-س-ن",
+              "pattern": "فِعَال",
+              "pos": "ism",
+              "meaning_tr": "ve dil",
+              "irab": "{Vâv-ı atıf} ile عينين'e ma'tûf, mensûb bi'l-fatha",
+              "irab_short": "ma'tûf, mensûb",
+              "turkish_bridge": "Lisan bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "وَشَفَتَيۡنِ",
+              "transliteration": "veşefeteyni",
+              "root": "ش-ف-و",
+              "pattern": "فَعَل",
+              "pos": "ism",
+              "meaning_tr": "ve iki dudak",
+              "irab": "{Vâv-ı atıf} ile لسان'a ma'tûf, müsennâ, mensûb bi'l-yâ",
+              "irab_short": "ma'tûf müsennâ, mensûb",
+              "turkish_bridge": null,
+              "balagha_note": "Konuşma organlarının eksiksiz sayımı"
+            }
+          ]
+        },
+        {
+          "surah": 90,
+          "ayah": 10,
+          "arabic": "وَهَدَيۡنَٰهُ ٱلنَّجۡدَيۡنِ",
+          "translation": "Biz ona eğri ve doğru iki yolu da göstermedik mi?",
+          "words": [
+            {
+              "arabic": "وَهَدَيۡنَٰهُ",
+              "transliteration": "vehedeynâhü",
+              "root": "ه-د-ي",
+              "pattern": "فَعَلَ",
+              "pos": "fil",
+              "meaning_tr": "ve yol gösterdik ona",
+              "irab": "{Vâv-ı atıf} ile {fiil-i mâzî}, I. bâb, mütekellim cemî', sonunda hُ zamîri mef'ûl bih",
+              "irab_short": "mâzî ma'tûf, I. bâb",
+              "turkish_bridge": "Hidayet bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "ٱلنَّجۡدَيۡنِ",
+              "transliteration": "en-necdeynî",
+              "root": "ن-ج-د",
+              "pattern": "فَعْل",
+              "pos": "ism",
+              "meaning_tr": "iki yol (hayır-şer yolu)",
+              "irab": "{Mef'ûl bih-i sânî} إلى takdîriyle, müsennâ, mensûb bi'l-yâ",
+              "irab_short": "mef'ûl bih müsennâ, mensûb",
+              "turkish_bridge": "Necid bu kökten",
+              "balagha_note": "Hayır ve şer yollarının sembolik ifadesi"
+            }
+          ]
+        },
+        {
+          "surah": 90,
+          "ayah": 11,
+          "arabic": "فَلَا ٱقۡتَحَمَ ٱلۡعَقَبَةَ",
+          "translation": "Ama o, zor geçidi aşmaya girişemedi",
+          "words": [
+            {
+              "arabic": "فَلَا",
+              "transliteration": "felâ",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "ama hayır, fakat -medi",
+              "irab": "{Fâ-i fesâhat} ile {lâ-i nefiy}'in terkîbi",
+              "irab_short": "fâ + nefiy",
+              "turkish_bridge": null,
+              "balagha_note": "Bekleneni tekzip eden üslup"
+            },
+            {
+              "arabic": "ٱقۡتَحَمَ",
+              "transliteration": "iktehame",
+              "root": "ق-ح-م",
+              "pattern": "اِفْتَعَل",
+              "pos": "fil",
+              "meaning_tr": "aştı, geçti, girişti",
+              "irab": "{Fiil-i mâzî}, VIII. bâb, gâib vâhid müzekker sîğası",
+              "irab_short": "mâzî, VIII. bâb",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "ٱلۡعَقَبَةَ",
+              "transliteration": "el-akabe",
+              "root": "ع-ق-ب",
+              "pattern": "فَعَلَة",
+              "pos": "ism",
+              "meaning_tr": "sarp yokuş, zor geçit",
+              "irab": "{Mef'ûl bih}, mensûb bi'l-fatha",
+              "irab_short": "mef'ûl bih, mensûb",
+              "turkish_bridge": "Akabe bu kökten",
+              "balagha_note": "Manevi terakkîye kinâye"
+            }
+          ]
+        },
+        {
+          "surah": 90,
+          "ayah": 12,
+          "arabic": "وَمَآ أَدۡرَىٰكَ مَا ٱلۡعَقَبَةُ",
+          "translation": "O zor geçidin ne olduğunu sen bilir misin?",
+          "words": [
+            {
+              "arabic": "وَمَآ",
+              "transliteration": "vemâ",
+              "root": null,
+              "pos": "ism",
+              "meaning_tr": "ve ne",
+              "irab": "{Vâv-ı atıf} ile {mâ-i istifhâmiye}'nin terkîbi, mübtedâ",
+              "irab_short": "mübtedâ istifhâmî",
+              "turkish_bridge": null,
+              "balagha_note": "Ta'zîm için soru üslubu"
+            },
+            {
+              "arabic": "أَدۡرَىٰكَ",
+              "transliteration": "edrâke",
+              "root": "د-ر-ي",
+              "pattern": "أَفْعَل",
+              "pos": "fil",
+              "meaning_tr": "sana bildirdi",
+              "irab": "{Fiil-i mâzî}, IV. bâb, gâib vâhid müzekker, sonunda كَ zamîri mef'ûl bih",
+              "irab_short": "mâzî, IV. bâb",
+              "turkish_bridge": null,
+              "balagha_note": "Önemini vurgulamak için istidrâk üslubu"
+            },
+            {
+              "arabic": "مَا",
+              "transliteration": "mâ",
+              "root": null,
+              "pos": "ism",
+              "meaning_tr": "ne, nedir",
+              "irab": "{Mâ-i istifhâmiye}, mübtedâ",
+              "irab_short": "mübtedâ istifhâmî",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "ٱلۡعَقَبَةُ",
+              "transliteration": "el-akabetü",
+              "root": "ع-ق-ب",
+              "pattern": "فَعَلَة",
+              "pos": "ism",
+              "meaning_tr": "o sarp yokuş",
+              "irab": "{Haber-i mübtedâ} ما'nın haberi, merfû bi'd-damma",
+              "irab_short": "haber, merfû",
+              "turkish_bridge": "Akabe bu kökten",
+              "balagha_note": null
+            }
+          ]
+        },
+        {
+          "surah": 90,
+          "ayah": 13,
+          "arabic": "فَكُّ رَقَبَةٍ",
+          "translation": "Bir köle ve esir azadetmek",
+          "words": [
+            {
+              "arabic": "فَكُّ",
+              "transliteration": "fekkü",
+              "root": "ف-ك-ك",
+              "pattern": "فَعْل",
+              "pos": "ism",
+              "meaning_tr": "çözme, kurtarma, azat etme",
+              "irab": "{Haber-i mübtedâ} العقبة'nin haberi olarak masdar, merfû bi'd-damma",
+              "irab_short": "haber, merfû",
+              "turkish_bridge": "Fek bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "رَقَبَةٍ",
+              "transliteration": "rakabeti",
+              "root": "ر-ق-ب",
+              "pattern": "فَعَلَة",
+              "pos": "ism",
+              "meaning_tr": "köle, esir (boyun anlamından)",
+              "irab": "{Muzâf ileyh}, mecrûr bi'l-kesra",
+              "irab_short": "muzâf ileyh, mecrûr",
+              "turkish_bridge": "Rakabe bu kökten",
+              "balagha_note": "Kölelik için boyun kinâyesi"
+            }
+          ]
+        },
+        {
+          "surah": 90,
+          "ayah": 14,
+          "arabic": "أَوۡ إِطۡعَٰمٞ فِي يَوۡمٖ ذِي مَسۡغَبَةٖ",
+          "translation": "Yahut, açlık gününde yemek yedirmek",
+          "words": [
+            {
+              "arabic": "أَوۡ",
+              "transliteration": "ev",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "veya",
+              "irab": "{Harf-i atıf}, تخيير ifade eder",
+              "irab_short": "harf-i atıf",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "إِطۡعَٰمٞ",
+              "transliteration": "it'âmün",
+              "root": "ط-ع-م",
+              "pattern": "إِفْعَال",
+              "pos": "ism",
+              "meaning_tr": "yedirme, doyurma",
+              "irab": "فك kelimesine {ma'tûf}, masdar, merfû bi'd-damma",
+              "irab_short": "ma'tûf, merfû",
+              "turkish_bridge": "Ta'âm bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "فِي",
+              "transliteration": "fî",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "içinde",
+              "irab": "{Harf-i cer}",
+              "irab_short": "harf-i cer",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "يَوۡمٖ",
+              "transliteration": "yevmin",
+              "root": "ي-و-م",
+              "pattern": "فَعْل",
+              "pos": "ism",
+              "meaning_tr": "gün",
+              "irab": "{İsm-i mecrûr} bi في, mecrûr bi'l-kesra",
+              "irab_short": "mecrûr",
+              "turkish_bridge": "Yevm bu kökten",
+              "balagha_note": null
+            },
+            {
+              "arabic": "ذِي",
+              "transliteration": "zî",
+              "root": null,
+              "pattern": "ذُو",
+              "pos": "ism",
+              "meaning_tr": "sahip olan",
+              "irab": "{Sıfat} يوم kelimesinin sıfatı, mecrûr bi'l-yâ çünkü esmâ-i hamse'dendir",
+              "irab_short": "sıfat, mecrûr",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "مَسۡغَبَةٖ",
+              "transliteration": "mesğabeti",
+              "root": "س-غ-ب",
+              "pattern": "مَفْعَلَة",
+              "pos": "ism",
+              "meaning_tr": "açlık, kıtlık",
+              "irab": "{Muzâf ileyh} ذي kelimesinin muzâf ileyhi, mecrûr bi'l-kesra",
+              "irab_short": "muzâf ileyh, mecrûr",
+              "turkish_bridge": null,
+              "balagha_note": "Şiddetli açlık zamanını ta'zîm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ayah_start": 15,
+      "ayah_end": 20,
+      "description": "Bu bölümde, yakınlık bağı olan yetim ve yoksulları doyurmanın, sonrasında da iman edip sabır ve merhameti tavsiye etmenin öneminden bahsedilir. İman edenlerin sağ taraf ehli, inkarcıların ise sol taraf ehli olduğu belirtilerek insanların akıbeti açıklanır.",
+      "verses": [
+        {
+          "surah": 90,
+          "ayah": 15,
+          "arabic": "يَتِيمٗا ذَا مَقۡرَبَةٍ",
+          "translation": "Yakını olan bir yetimi",
+          "words": [
+            {
+              "arabic": "يَتِيمًا",
+              "transliteration": "yetîmen",
+              "root": "ي-ت-م",
+              "pattern": "فَعِيل",
+              "pos": "ism",
+              "meaning_tr": "yetim, babası ölmüş çocuk",
+              "irab": "{Mef'ûl bih} durumundadır. Mensûb olup sonunda tenvin vardır. 'أَطْعَم' fiilinin ikinci mef'ûlüdür.",
+              "irab_short": "mef'ûl bih, mensûb",
+              "turkish_bridge": "Yetim kelimesi Türkçeye bu kökten geçmiştir",
+              "balagha_note": null
+            },
+            {
+              "arabic": "ذَا",
+              "transliteration": "zâ",
+              "root": null,
+              "pos": "ism",
+              "meaning_tr": "sahip olan (erkek için)",
+              "irab": "{Sıfat} olarak 'يَتِيمًا' kelimesini vasıflandırır. Mensûb haldedir çünkü mevsûfunu takip eder.",
+              "irab_short": "sıfat, mensûb",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "مَقۡرَبَةٍ",
+              "transliteration": "makrabeh",
+              "root": "ق-ر-ب",
+              "pattern": "مَفْعَلَة",
+              "pos": "ism",
+              "meaning_tr": "yakınlık, akrabalık bağı",
+              "irab": "{Muzâfun ileyh} durumundadır. 'ذَا' kelimesinin muzâfun ileyhidir ve mecrûr haldedir.",
+              "irab_short": "muzâfun ileyh, mecrûr",
+              "turkish_bridge": "Karib, takrib, mukârebe bu kökten türemiştir",
+              "balagha_note": null
+            }
+          ]
+        },
+        {
+          "surah": 90,
+          "ayah": 16,
+          "arabic": "أَوۡ مِسۡكِينٗا ذَا مَتۡرَبَةٖ",
+          "translation": "Yahut toprağa serilmiş bir yoksulu",
+          "words": [
+            {
+              "arabic": "أَوۡ",
+              "transliteration": "ev",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "veya, yahut",
+              "irab": "{Harf-i atıf} olarak önceki kelime ile sonraki kelime arasında tercih anlamı kurar.",
+              "irab_short": "harf-i atıf",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "مِسۡكِينًا",
+              "transliteration": "miskînen",
+              "root": "س-ك-ن",
+              "pattern": "مِفْعِيل",
+              "pos": "ism",
+              "meaning_tr": "yoksul, muhtaç kimse",
+              "irab": "{Mef'ûl bih} durumundadır. Mensûb olup 'يَتِيمًا' kelimesiyle atıfla bağlanmıştır.",
+              "irab_short": "mef'ûl bih, mensûb",
+              "turkish_bridge": "Miskin kelimesi Türkçeye bu kökten geçmiştir",
+              "balagha_note": null
+            },
+            {
+              "arabic": "ذَا",
+              "transliteration": "zâ",
+              "root": null,
+              "pos": "ism",
+              "meaning_tr": "sahip olan (erkek için)",
+              "irab": "{Sıfat} olarak 'مِسۡكِينًا' kelimesini vasıflandırır. Mensûb haldedir çünkü mevsûfunu takip eder.",
+              "irab_short": "sıfat, mensûb",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "مَتۡرَبَةٖ",
+              "transliteration": "metrabeh",
+              "root": "ت-ر-ب",
+              "pattern": "مَفْعَلَة",
+              "pos": "ism",
+              "meaning_tr": "toprağa yapışmışlık, aşırı fakirlik",
+              "irab": "{Muzâfun ileyh} durumundadır. 'ذَا' kelimesinin muzâfun ileyhidir ve mecrûr haldedir.",
+              "irab_short": "muzâfun ileyh, mecrûr",
+              "turkish_bridge": "Türab, teâtür bu kökten türemiştir",
+              "balagha_note": "Fakirliğin en aşırı derecesini ifade eden kinayeli bir anlatımdır"
+            }
+          ]
+        },
+        {
+          "surah": 90,
+          "ayah": 17,
+          "arabic": "ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُواْ وَتَوَاصَوۡاْ بِٱلصَّبۡرِ وَتَوَاصَوۡاْ بِٱلۡمَرۡحَمَةِ",
+          "translation": "Sonra, inanıp birbirlerine sabır tavsiye edenlerden, merhametlilerden olmayı tavsiye edenlerden olmaktır",
+          "words": [
+            {
+              "arabic": "ثُمَّ",
+              "transliteration": "sümme",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "sonra, daha sonra",
+              "irab": "{Harf-i atıf} olarak önceki cümle ile sonraki cümle arasında tertip ve terahi anlamı kurar.",
+              "irab_short": "harf-i atıf",
+              "turkish_bridge": null,
+              "balagha_note": "Ahlaki gelişimin aşamalarını gösterir"
+            },
+            {
+              "arabic": "كَانَ",
+              "transliteration": "kâne",
+              "root": "ك-و-ن",
+              "pattern": "فَعَلَ",
+              "pos": "fil",
+              "meaning_tr": "olmak",
+              "irab": "{Fiil-i nâkıs} olarak mâzî kalıbındadır. İsmi ve haberi vardır, burada haberi 'مِنَ ٱلَّذِينَ' câr-mecrûr terkibidir.",
+              "irab_short": "nâkıs, mâzî",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "مِنَ ٱلَّذِينَ",
+              "transliteration": "mine'l-lezîne",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "şu kimselerden",
+              "irab": "{Câr-mecrûr} terkibi olarak 'كَانَ' fiilinin haberi konumundadır.",
+              "irab_short": "haber-i kâne",
+              "turkish_bridge": null,
+              "balagha_note": null
+            },
+            {
+              "arabic": "ءَامَنُواْ",
+              "transliteration": "âmenû",
+              "root": "ء-م-ن",
+              "pattern": "فَعَلُوا",
+              "pos": "fil",
+              "meaning_tr": "iman ettiler",
+              "irab": "{Fiil-i mâzî} olup cemî müzekker gâibde çekimlenmiştir. Sılâ cümlesi olarak 'ٱلَّذِينَ' ismi mevsûlünü açıklar.",
+              "irab_short": "mâzî, sılâ",
+              "turkish_bridge": "İman, emân bu kökten türemiştir",
+              "balagha_note": null
+            },
+            {
+              "arabic": "وَتَوَاصَوۡاْ",
+              "transliteration": "ve tevâsav",
+              "root": "و-ص-ي",
+              "pattern": "تَفَاعَلُوا",
+              "pos": "fil",
+              "meaning_tr": "birbirlerine tavsiye ettiler",
+              "irab": "{Fiil-i mâzî} olup VI. bâbdan (تَفَاعَل) gelir. 'ءَامَنُواْ' fiiliyle atıfla bağlanmış sılâ cümlesinin devamıdır.",
+              "irab_short": "mâzî, VI. bâb",
+              "turkish_bridge": "Vasiyet, vasiyye bu kökten türemiştir",
+              "balagha_note": "Karşılıklılık anlamı veren VI. bâb kullanımı"
+            },
+            {
+              "arabic": "بِٱلصَّبۡرِ",
+              "transliteration": "bis-sabr",
+              "root": "ص-ب-ر",
+              "pos": "ism",
+              "meaning_tr": "sabırla",
+              "irab": "{Câr-mecrûr} terkibi olarak 'تَوَاصَوۡاْ' fiilinin müteallikıdır.",
+              "irab_short": "müteallik, mecrûr",
+              "turkish_bridge": "Sabır kelimesi Türkçeye bu kökten geçmiştir",
+              "balagha_note": null
+            },
+            {
+              "arabic": "وَتَوَاصَوۡاْ",
+              "transliteration": "ve tevâsav",
+              "root": "و-ص-ي",
+              "pattern": "تَفَاعَلُوا",
+              "pos": "fil",
+              "meaning_tr": "birbirlerine tavsiye ettiler",
+              "irab": "{Fiil-i mâzî} olup VI. bâbdan gelir. Önceki 'تَوَاصَوۡاْ' fiiliyle atıfla bağlanarak te'kîd ifade eder.",
+              "irab_short": "mâzî, VI. bâb",
+              "turkish_bridge": "Vasiyet, vasiyye bu kökten türemiştir",
+              "balagha_note": "Tekrarla vurgu yapılmıştır"
+            },
+            {
+              "arabic": "بِٱلۡمَرۡحَمَةِ",
+              "transliteration": "bil-merhame",
+              "root": "ر-ح-م",
+              "pos": "ism",
+              "meaning_tr": "merhamet ile",
+              "irab": "{Câr-mecrûr} terkibi olarak ikinci 'تَوَاصَوۡاْ' fiilinin müteallikıdır.",
+              "irab_short": "müteallik, mecrûr",
+              "turkish_bridge": "Rahmet, merhamet bu kökten türemiştir",
+              "balagha_note": null
+            }
+          ]
+        },
+        {
+          "surah": 90,
+          "ayah": 18,
+          "arabic": "أُوْلَـٰٓئِكَ أَصۡحَٰبُ ٱلۡمَيۡمَنَةِ",
+          "translation": "İşte bunlar amel defterleri sağdan verilenlerdir",
+          "words": [
+            {
+              "arabic": "أُوْلَـٰٓئِكَ",
+              "transliteration": "ülâike",
+              "root": null,
+              "pos": "ism",
+              "meaning_tr": "şunlar, onlar",
+              "irab": "{İsm-i işâre} olarak mübtedâ konumundadır. Merfû haldedir.",
+              "irab_short": "mübtedâ, merfû",
+              "turkish_bridge": null,
+              "balagha_note": "Uzaktan işaret ile azamet ve yücelik ifade edilir"
+            },
+            {
+              "arabic": "أَصۡحَٰبُ ٱلۡمَيۡمَنَةِ",
+              "transliteration": "ashâbu'l-meymene",
+              "root": "ص-ح-ب",
+              "pos": "ism",
+              "meaning_tr": "sağ taraf sahipleri",
+              "irab": "{Haber} konumundadır. Merfû haldedir ve muzâf terkibi oluşturur.",
+              "irab_short": "haber, merfû",
+              "turkish_bridge": "Sahip, ashab, sahabe bu kökten türemiştir",
+              "balagha_note": "Meymene sağ tarafı, uğurlu tarafı simgeler"
+            }
+          ]
+        },
+        {
+          "surah": 90,
+          "ayah": 19,
+          "arabic": "وَٱلَّذِينَ كَفَرُواْ بِـَٔايَٰتِنَا هُمۡ أَصۡحَٰبُ ٱلۡمَشۡـَٔمَةِ",
+          "translation": "Ayetlerimizi inkar edenler, işte onlar amel defterleri sollarından verilenlerdir",
+          "words": [
+            {
+              "arabic": "وَٱلَّذِينَ",
+              "transliteration": "vel-lezîne",
+              "root": null,
+              "pos": "ism",
+              "meaning_tr": "ve şu kimseler",
+              "irab": "{İsm-i mevsûl} olarak mübtedâ konumundadır. Başındaki vav atıf harfidir.",
+              "irab_short": "mübtedâ, merfû",
+              "turkish_bridge": null,
+              "balagha_note": "Önceki âyetle tıbâk sanatı yapılmıştır"
+            },
+            {
+              "arabic": "كَفَرُواْ",
+              "transliteration": "keferû",
+              "root": "ك-ف-ر",
+              "pattern": "فَعَلُوا",
+              "pos": "fil",
+              "meaning_tr": "inkar ettiler",
+              "irab": "{Fiil-i mâzî} olarak sılâ cümlesi oluşturur ve 'ٱلَّذِينَ' ismi mevsûlünü açıklar.",
+              "irab_short": "mâzî, sılâ",
+              "turkish_bridge": "Kâfir bu kökten türemiştir",
+              "balagha_note": null
+            },
+            {
+              "arabic": "بِـَٔايَٰتِنَا",
+              "transliteration": "bi âyâtinâ",
+              "root": "ء-ي-ي",
+              "pos": "ism",
+              "meaning_tr": "ayetlerimizi",
+              "irab": "{Câr-mecrûr} terkibi olarak 'كَفَرُواْ' fiilinin müteallikıdır. Mütekellimiyle gayr zamiri eklenir.",
+              "irab_short": "müteallik, mecrûr",
+              "turkish_bridge": "Ayet kelimesi Türkçeye bu kökten geçmiştir",
+              "balagha_note": null
+            },
+            {
+              "arabic": "هُمۡ",
+              "transliteration": "hüm",
+              "root": null,
+              "pos": "ism",
+              "meaning_tr": "onlar",
+              "irab": "{Zamîr-i munfasıl} olarak ayrık zamir konumundadır. Vurgu ve hasr için kullanılmıştır.",
+              "irab_short": "zamîr-i munfasıl",
+              "turkish_bridge": null,
+              "balagha_note": "Hasr ve ta'kîd için kullanılmıştır"
+            },
+            {
+              "arabic": "أَصۡحَٰبُ ٱلۡمَشۡـَٔمَةِ",
+              "transliteration": "ashâbu'l-meş'eme",
+              "root": "ص-ح-ب",
+              "pos": "ism",
+              "meaning_tr": "sol taraf sahipleri",
+              "irab": "{Haber} konumundadır. Merfû haldedir ve muzâf terkibi oluşturur.",
+              "irab_short": "haber, merfû",
+              "turkish_bridge": "Sahip, ashab bu kökten türemiştir",
+              "balagha_note": "Meş'eme sol tarafı, uğursuz tarafı simgeler"
+            }
+          ]
+        },
+        {
+          "surah": 90,
+          "ayah": 20,
+          "arabic": "عَلَيۡهِمۡ نَارٞ مُّؤۡصَدَةُۢ",
+          "translation": "Onlar her yönden ateşle kapatılacaklardır",
+          "words": [
+            {
+              "arabic": "عَلَيۡهِمۡ",
+              "transliteration": "aleyhim",
+              "root": null,
+              "pos": "harf",
+              "meaning_tr": "onların üzerinde",
+              "irab": "{Câr-mecrûr} terkibi olarak haber konumunda bulunan 'نَارٞ' kelimesinin sıfatı olan 'مُّؤۡصَدَةُۢ' kelimesinin müteallikıdır.",
+              "irab_short": "müteallik",
+              "turkish_bridge": null,
+              "balagha_note": "Takdim ile vurgu yapılmıştır"
+            },
+            {
+              "arabic": "نَارٞ",
+              "transliteration": "nârun",
+              "root": "ن-و-ر",
+              "pos": "ism",
+              "meaning_tr": "ateş",
+              "irab": "{Mübtedâ} konumundadır. Merfû haldedir ve münekkerdır.",
+              "irab_short": "mübtedâ, merfû",
+              "turkish_bridge": "Nar kelimesi Türkçeye bu kökten geçmiştir",
+              "balagha_note": null
+            },
+            {
+              "arabic": "مُّؤۡصَدَةُۢ",
+              "transliteration": "mü'sade",
+              "root": "و-ص-د",
+              "pattern": "مُفْعَلَة",
+              "pos": "ism",
+              "meaning_tr": "kapatılmış, sıkıca örtülmüş",
+              "irab": "{Sıfat} olarak 'نَارٞ' kelimesini vasıflandırır. Merfû haldedir.",
+              "irab_short": "sıfat, merfû",
+              "turkish_bridge": null,
+              "balagha_note": "Kapanmanın kesinlik ve süreklilik ifade eder"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

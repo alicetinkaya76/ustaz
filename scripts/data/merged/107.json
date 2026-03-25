@@ -1,0 +1,146 @@
+{
+  "surah": 107,
+  "name_ar": "الماعون",
+  "name_translit": "Al-Ma'un",
+  "type": "meccan",
+  "total_ayahs": 7,
+  "total_words": 25,
+  "ayahs": [
+    {
+      "number": 1,
+      "text_ar": "أَرَءَيۡتَ ٱلَّذِي يُكَذِّبُ بِٱلدِّينِ",
+      "text_tr_diyanet": "Dini yalan sayanı gördün mü?",
+      "text_tr_vakfi": "Dini yalanlayanı gördün mü?",
+      "text_tr_yazir": "Dini yalanlayanı gördün mü?",
+      "transliteration": "era'eyte-lleẕî yükeẕẕibü biddîn.",
+      "words_ar": [
+        "أَرَءَيۡتَ",
+        "ٱلَّذِي",
+        "يُكَذِّبُ",
+        "بِٱلدِّينِ"
+      ],
+      "words_translit": [
+        "era'eyte-lleẕî",
+        "yükeẕẕibü",
+        "biddîn."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 2,
+      "text_ar": "فَذَٰلِكَ ٱلَّذِي يَدُعُّ ٱلۡيَتِيمَ",
+      "text_tr_diyanet": "Öksüzü kakıştıran, yoksulu doyurmaya yanaşmayan kimse işte odur.",
+      "text_tr_vakfi": "İşte o, yetimi itip kakar;",
+      "text_tr_yazir": "İşte o, öksüzü iter, kakar.",
+      "transliteration": "feẕâlike-lleẕî yedü``u-lyetîm.",
+      "words_ar": [
+        "فَذَٰلِكَ",
+        "ٱلَّذِي",
+        "يَدُعُّ",
+        "ٱلۡيَتِيمَ"
+      ],
+      "words_translit": [
+        "feẕâlike-lleẕî",
+        "yedü``u-lyetîm."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 3,
+      "text_ar": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلۡمِسۡكِينِ",
+      "text_tr_diyanet": "Öksüzü kakıştıran, yoksulu doyurmaya yanaşmayan kimse işte odur.",
+      "text_tr_vakfi": "Yoksulu doyurmaya teşvik etmez;",
+      "text_tr_yazir": "Yoksulu doyurmaya önayak olmaz.",
+      "transliteration": "velâ yeḥuḍḍu `alâ ṭa`âmi-lmiskîn.",
+      "words_ar": [
+        "وَلَا",
+        "يَحُضُّ",
+        "عَلَىٰ",
+        "طَعَامِ",
+        "ٱلۡمِسۡكِينِ"
+      ],
+      "words_translit": [
+        "velâ",
+        "yeḥuḍḍu",
+        "`alâ",
+        "ṭa`âmi-lmiskîn."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 4,
+      "text_ar": "فَوَيۡلٞ لِّلۡمُصَلِّينَ",
+      "text_tr_diyanet": "Vay o namaz kılanların haline ki:",
+      "text_tr_vakfi": "Yazıklar olsun o namaz kılanlara ki,",
+      "text_tr_yazir": "Vay haline o namaz kılanların ki,",
+      "transliteration": "feveylül lilmüṣallîn.",
+      "words_ar": [
+        "فَوَيۡلٞ",
+        "لِّلۡمُصَلِّينَ"
+      ],
+      "words_translit": [
+        "feveylül",
+        "lilmüṣallîn."
+      ],
+      "word_count": 2
+    },
+    {
+      "number": 5,
+      "text_ar": "ٱلَّذِينَ هُمۡ عَن صَلَاتِهِمۡ سَاهُونَ",
+      "text_tr_diyanet": "Onlar kıldıkları namazdan gafildirler.",
+      "text_tr_vakfi": "Onlar namazlarını ciddiye almazlar.",
+      "text_tr_yazir": "Kıldıkları namazın değerine aldırış etmezler.",
+      "transliteration": "elleẕîne hüm `an ṣalâtihim sâhûn.",
+      "words_ar": [
+        "ٱلَّذِينَ",
+        "هُمۡ",
+        "عَن",
+        "صَلَاتِهِمۡ",
+        "سَاهُونَ"
+      ],
+      "words_translit": [
+        "elleẕîne",
+        "hüm",
+        "`an",
+        "ṣalâtihim",
+        "sâhûn."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 6,
+      "text_ar": "ٱلَّذِينَ هُمۡ يُرَآءُونَ",
+      "text_tr_diyanet": "Onlar gösteriş yaparlar.",
+      "text_tr_vakfi": "Onlar gösteriş yapanlardır,",
+      "text_tr_yazir": "Gösteriş yaparlar onlar,",
+      "transliteration": "elleẕîne hüm yürâûn.",
+      "words_ar": [
+        "ٱلَّذِينَ",
+        "هُمۡ",
+        "يُرَآءُونَ"
+      ],
+      "words_translit": [
+        "elleẕîne",
+        "hüm",
+        "yürâûn."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 7,
+      "text_ar": "وَيَمۡنَعُونَ ٱلۡمَاعُونَ",
+      "text_tr_diyanet": "Onlar basit şeyleri dahi vermezler.",
+      "text_tr_vakfi": "Ve hayra da mani olurlar.",
+      "text_tr_yazir": "Ve yardımlığı sakınırlar (zekatı vermezler).",
+      "transliteration": "veyemne`ûne-lmâ`ûn.",
+      "words_ar": [
+        "وَيَمۡنَعُونَ",
+        "ٱلۡمَاعُونَ"
+      ],
+      "words_translit": [
+        "veyemne`ûne-lmâ`ûn."
+      ],
+      "word_count": 2
+    }
+  ]
+}

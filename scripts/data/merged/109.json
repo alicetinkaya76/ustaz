@@ -1,0 +1,140 @@
+{
+  "surah": 109,
+  "name_ar": "الكافرون",
+  "name_translit": "Al-Kafirun",
+  "type": "meccan",
+  "total_ayahs": 6,
+  "total_words": 26,
+  "ayahs": [
+    {
+      "number": 1,
+      "text_ar": "قُلۡ يَـٰٓأَيُّهَا ٱلۡكَٰفِرُونَ",
+      "text_tr_diyanet": "De ki: \"Ey inkarcılar!\"",
+      "text_tr_vakfi": "Ey Muhammed! De ki: \"Ey kafirler!",
+      "text_tr_yazir": "De ki: Ey kâfirler",
+      "transliteration": "ḳul yâ eyyühe-lkâfirûn.",
+      "words_ar": [
+        "قُلۡ",
+        "يَـٰٓأَيُّهَا",
+        "ٱلۡكَٰفِرُونَ"
+      ],
+      "words_translit": [
+        "ḳul",
+        "yâ",
+        "eyyühe-lkâfirûn."
+      ],
+      "word_count": 3
+    },
+    {
+      "number": 2,
+      "text_ar": "لَآ أَعۡبُدُ مَا تَعۡبُدُونَ",
+      "text_tr_diyanet": "\"Ben sizin taptıklarınıza tapmam.\"",
+      "text_tr_vakfi": "\"Ben sizin taptıklarınıza tapmam.\"",
+      "text_tr_yazir": "Sizin taptıklarınıza ben tapmam.",
+      "transliteration": "lâ a`büdü mâ ta`büdûn.",
+      "words_ar": [
+        "لَآ",
+        "أَعۡبُدُ",
+        "مَا",
+        "تَعۡبُدُونَ"
+      ],
+      "words_translit": [
+        "lâ",
+        "a`büdü",
+        "mâ",
+        "ta`büdûn."
+      ],
+      "word_count": 4
+    },
+    {
+      "number": 3,
+      "text_ar": "وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ",
+      "text_tr_diyanet": "\"Benim taptığıma da sizler tapmazsınız.\"",
+      "text_tr_vakfi": "\"Benim taptıgıma da sizler tapmazsınız.\"",
+      "text_tr_yazir": "Siz de benim taptığıma tapıcılar değilsiniz.",
+      "transliteration": "velâ entüm `âbidûne mâ a`büd.",
+      "words_ar": [
+        "وَلَآ",
+        "أَنتُمۡ",
+        "عَٰبِدُونَ",
+        "مَآ",
+        "أَعۡبُدُ"
+      ],
+      "words_translit": [
+        "velâ",
+        "entüm",
+        "`âbidûne",
+        "mâ",
+        "a`büd."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 4,
+      "text_ar": "وَلَآ أَنَا۠ عَابِدٞ مَّا عَبَدتُّمۡ",
+      "text_tr_diyanet": "\"Ben de sizin taptığınıza tapacak değilim.\"",
+      "text_tr_vakfi": "\"Ben de sizin taptığınıza tapacak dağilim.\"",
+      "text_tr_yazir": "Ben asla sizin taptıklarınıza tapacak değilim.",
+      "transliteration": "velâ ene `âbidüm mâ `abettüm.",
+      "words_ar": [
+        "وَلَآ",
+        "أَنَا۠",
+        "عَابِدٞ",
+        "مَّا",
+        "عَبَدتُّمۡ"
+      ],
+      "words_translit": [
+        "velâ",
+        "ene",
+        "`âbidüm",
+        "mâ",
+        "`abettüm."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 5,
+      "text_ar": "وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ",
+      "text_tr_diyanet": "\"Benim taptığıma da sizler tapmıyorsunuz.\"",
+      "text_tr_vakfi": "\"Benim taptığıma da sizler tapmıyorsunuz.\"",
+      "text_tr_yazir": "Siz de benim taptığıma tapacak değilsiniz.",
+      "transliteration": "velâ entüm `âbidûne mâ a`büd.",
+      "words_ar": [
+        "وَلَآ",
+        "أَنتُمۡ",
+        "عَٰبِدُونَ",
+        "مَآ",
+        "أَعۡبُدُ"
+      ],
+      "words_translit": [
+        "velâ",
+        "entüm",
+        "`âbidûne",
+        "mâ",
+        "a`büd."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 6,
+      "text_ar": "لَكُمۡ دِينُكُمۡ وَلِيَ دِينِ",
+      "text_tr_diyanet": "\"Sizin dininiz size, benim dinim banadır.\"",
+      "text_tr_vakfi": "\"Sizin dininiz size, benim dinim banadır.\"",
+      "text_tr_yazir": "Sizin dininiz size, benim dinim banadır.",
+      "transliteration": "leküm dînüküm veliye dîn.",
+      "words_ar": [
+        "لَكُمۡ",
+        "دِينُكُمۡ",
+        "وَلِيَ",
+        "دِينِ"
+      ],
+      "words_translit": [
+        "leküm",
+        "dînüküm",
+        "veliye",
+        "dîn."
+      ],
+      "word_count": 4
+    }
+  ]
+}

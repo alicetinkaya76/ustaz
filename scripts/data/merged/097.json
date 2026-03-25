@@ -1,0 +1,130 @@
+{
+  "surah": 97,
+  "name_ar": "القدر",
+  "name_translit": "Al-Qadr",
+  "type": "meccan",
+  "total_ayahs": 5,
+  "total_words": 30,
+  "ayahs": [
+    {
+      "number": 1,
+      "text_ar": "إِنَّآ أَنزَلۡنَٰهُ فِي لَيۡلَةِ ٱلۡقَدۡرِ",
+      "text_tr_diyanet": "Doğrusu, Biz, Kuran'ı kadir gecesinde indirmişizdir.",
+      "text_tr_vakfi": "Biz onu (Kur'an'ı) Kadir gecesinde indirdik.",
+      "text_tr_yazir": "Biz o (Kur'ân)nu Kadir gecesinde indirdik.",
+      "transliteration": "innâ enzelnâhü fî leyleti-lḳadr.",
+      "words_ar": [
+        "إِنَّآ",
+        "أَنزَلۡنَٰهُ",
+        "فِي",
+        "لَيۡلَةِ",
+        "ٱلۡقَدۡرِ"
+      ],
+      "words_translit": [
+        "innâ",
+        "enzelnâhü",
+        "fî",
+        "leyleti-lḳadr."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 2,
+      "text_ar": "وَمَآ أَدۡرَىٰكَ مَا لَيۡلَةُ ٱلۡقَدۡرِ",
+      "text_tr_diyanet": "Kadir gecesinin ne olduğunu sen bilir misin?",
+      "text_tr_vakfi": "Kadir gecesinin ne olduğunu sen bilir misin?",
+      "text_tr_yazir": "Kadir gecesinin ne olduğunu sen nereden bileceksin?",
+      "transliteration": "vemâ edrâke mâ leyletü-lḳadr.",
+      "words_ar": [
+        "وَمَآ",
+        "أَدۡرَىٰكَ",
+        "مَا",
+        "لَيۡلَةُ",
+        "ٱلۡقَدۡرِ"
+      ],
+      "words_translit": [
+        "vemâ",
+        "edrâke",
+        "mâ",
+        "leyletü-lḳadr."
+      ],
+      "word_count": 5
+    },
+    {
+      "number": 3,
+      "text_ar": "لَيۡلَةُ ٱلۡقَدۡرِ خَيۡرٞ مِّنۡ أَلۡفِ شَهۡرٖ",
+      "text_tr_diyanet": "Kadir gecesi bin aydan hayırlıdır.",
+      "text_tr_vakfi": "Kadir gecesi, bin aydan hayırlıdır.",
+      "text_tr_yazir": "Kadir gecesi bin aydan daha hayırlıdır.",
+      "transliteration": "leyletü-lḳadri ḫayrum min elfi şehr.",
+      "words_ar": [
+        "لَيۡلَةُ",
+        "ٱلۡقَدۡرِ",
+        "خَيۡرٞ",
+        "مِّنۡ",
+        "أَلۡفِ",
+        "شَهۡرٖ"
+      ],
+      "words_translit": [
+        "leyletü-lḳadri",
+        "ḫayrum",
+        "min",
+        "elfi",
+        "şehr."
+      ],
+      "word_count": 6
+    },
+    {
+      "number": 4,
+      "text_ar": "تَنَزَّلُ ٱلۡمَلَـٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذۡنِ رَبِّهِم مِّن كُلِّ أَمۡرٖ",
+      "text_tr_diyanet": "Melekler ve Cebrail o gecede Rablerinin izniyle her türlü iş için inerler.",
+      "text_tr_vakfi": "O gecede, Rablerinin izniyle melekler ve Ruh (Cebrail), her iş için iner dururlar.",
+      "text_tr_yazir": "Melekler ve Ruh (Cebrail veya Ruh adındaki melek) o gece Rablerinin izniyle, her iş için inerler.",
+      "transliteration": "tenezzelü-lmelâiketü verrûḥu fîhâ biiẕni rabbihim. min külli emr.",
+      "words_ar": [
+        "تَنَزَّلُ",
+        "ٱلۡمَلَـٰٓئِكَةُ",
+        "وَٱلرُّوحُ",
+        "فِيهَا",
+        "بِإِذۡنِ",
+        "رَبِّهِم",
+        "مِّن",
+        "كُلِّ",
+        "أَمۡرٖ"
+      ],
+      "words_translit": [
+        "tenezzelü-lmelâiketü",
+        "verrûḥu",
+        "fîhâ",
+        "biiẕni",
+        "rabbihim.",
+        "min",
+        "külli",
+        "emr."
+      ],
+      "word_count": 9
+    },
+    {
+      "number": 5,
+      "text_ar": "سَلَٰمٌ هِيَ حَتَّىٰ مَطۡلَعِ ٱلۡفَجۡرِ",
+      "text_tr_diyanet": "O gece, tan yerinin ağarmasına kadar bir esenliktir.",
+      "text_tr_vakfi": "O gece, esenlik doludur. Ta fecrin doğuşuna kadar.",
+      "text_tr_yazir": "O gece, tanyeri ağarıncaya kadar süren bir selâmettir.",
+      "transliteration": "selâmün. hiye ḥattâ maṭle`i-lfecr.",
+      "words_ar": [
+        "سَلَٰمٌ",
+        "هِيَ",
+        "حَتَّىٰ",
+        "مَطۡلَعِ",
+        "ٱلۡفَجۡرِ"
+      ],
+      "words_translit": [
+        "selâmün.",
+        "hiye",
+        "ḥattâ",
+        "maṭle`i-lfecr."
+      ],
+      "word_count": 5
+    }
+  ]
+}
